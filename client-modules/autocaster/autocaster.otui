@@ -1,12 +1,21 @@
-// ---------- peças reutilizáveis ----------
+// ================= peças reutilizáveis =================
 
-ACTitulo < Label
-  height: 15
-  color: #b3d1ff
-  text-align: center
-  background-color: #00000044
+ACSecao < FlatPanel
   anchors.left: parent.left
   anchors.right: parent.right
+  padding: 4
+
+ACTitulo < Label
+  height: 14
+  color: #7fb3ff
+  text-align: center
+  anchors.left: parent.left
+  anchors.right: parent.right
+
+ACCabecalho < Label
+  height: 12
+  color: #9a9a9a
+  font: verdana-11px-rounded
 
 ACSlot < Item
   virtual: true
@@ -14,9 +23,9 @@ ACSlot < Item
   &editable: true
   size: 32 32
 
-// linha de cura: [on] [slot] [campo] [%]
+// ---- linha de cura: [on] [slot] [magia/item] [%] ----
 LinhaCura < Panel
-  height: 34
+  height: 36
   anchors.left: parent.left
   anchors.right: parent.right
 
@@ -24,35 +33,36 @@ LinhaCura < Panel
     id: on
     anchors.left: parent.left
     anchors.verticalCenter: parent.verticalCenter
+    margin-left: 4
     size: 16 16
 
   ACSlot
     id: slot
-    anchors.left: prev.right
+    anchors.left: parent.left
     anchors.verticalCenter: parent.verticalCenter
-    margin-left: 3
+    margin-left: 24
 
   TextEdit
     id: texto
-    anchors.left: prev.right
+    anchors.left: parent.left
     anchors.verticalCenter: parent.verticalCenter
-    margin-left: 3
-    width: 84
+    margin-left: 60
+    width: 96
     height: 20
 
   SpinBox
     id: pct
-    anchors.left: prev.right
+    anchors.left: parent.left
     anchors.verticalCenter: parent.verticalCenter
-    margin-left: 3
-    width: 46
+    margin-left: 162
+    width: 52
     height: 20
     minimum: 1
     maximum: 100
 
-// linha do shooter: [on] [slot] [spell] [mana%] [criaturas] [prioridade]
+// ---- linha do shooter: [on] [slot] [spell] [mana] [mobs] [prio] ----
 LinhaShooter < Panel
-  height: 34
+  height: 36
   anchors.left: parent.left
   anchors.right: parent.right
 
@@ -60,212 +70,385 @@ LinhaShooter < Panel
     id: on
     anchors.left: parent.left
     anchors.verticalCenter: parent.verticalCenter
+    margin-left: 4
     size: 16 16
 
   ACSlot
     id: slot
-    anchors.left: prev.right
+    anchors.left: parent.left
     anchors.verticalCenter: parent.verticalCenter
-    margin-left: 3
+    margin-left: 24
 
   TextEdit
     id: texto
-    anchors.left: prev.right
+    anchors.left: parent.left
     anchors.verticalCenter: parent.verticalCenter
-    margin-left: 3
-    width: 88
+    margin-left: 60
+    width: 92
     height: 20
 
   SpinBox
     id: mana
-    anchors.left: prev.right
+    anchors.left: parent.left
     anchors.verticalCenter: parent.verticalCenter
-    margin-left: 3
-    width: 46
+    margin-left: 158
+    width: 48
     height: 20
     minimum: 0
     maximum: 100
 
   SpinBox
     id: mobs
-    anchors.left: prev.right
+    anchors.left: parent.left
     anchors.verticalCenter: parent.verticalCenter
-    margin-left: 3
-    width: 40
+    margin-left: 212
+    width: 42
     height: 20
     minimum: 1
     maximum: 10
 
   ComboBox
     id: prio
-    anchors.left: prev.right
+    anchors.left: parent.left
     anchors.verticalCenter: parent.verticalCenter
-    margin-left: 3
-    width: 54
+    margin-left: 260
+    width: 56
     height: 20
 
-// ---------- painel: HEALING ----------
+// ================= aba: HEALING =================
 PainelHealing < Panel
-  ACTitulo
-    id: t1
-    !text: tr('Auto Healing Helper')
+  ACSecao
+    id: boxSpell
     anchors.top: parent.top
+    height: 140
 
-  Label
-    id: c1
-    !text: tr('       Spell Healing         hp pct')
-    anchors.top: prev.bottom
-    anchors.left: parent.left
-    margin-top: 3
-    height: 14
-    color: #88ff88
+    ACTitulo
+      id: t
+      !text: tr('Auto Healing Helper')
+      anchors.top: parent.top
 
-  LinhaCura
-    id: spell1
-    anchors.top: prev.bottom
-  LinhaCura
-    id: spell2
-    anchors.top: prev.bottom
-  LinhaCura
-    id: spell3
-    anchors.top: prev.bottom
+    ACCabecalho
+      id: h1
+      !text: tr('magia')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-left: 60
+      margin-top: 2
+      width: 96
+    ACCabecalho
+      id: h2
+      !text: tr('hp')
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 164
+      width: 52
 
-  Label
-    id: c2
-    !text: tr('       Potion Healing       hp/mp pct')
+    LinhaCura
+      id: spell1
+      anchors.top: prev.bottom
+    LinhaCura
+      id: spell2
+      anchors.top: prev.bottom
+    LinhaCura
+      id: spell3
+      anchors.top: prev.bottom
+
+  ACSecao
+    id: boxPot
     anchors.top: prev.bottom
-    anchors.left: parent.left
     margin-top: 6
-    height: 14
-    color: #ffcc88
+    height: 108
 
-  LinhaCura
-    id: pot1
-    anchors.top: prev.bottom
-  LinhaCura
-    id: pot2
-    anchors.top: prev.bottom
+    ACTitulo
+      id: t
+      !text: tr('Potion Healing')
+      anchors.top: parent.top
 
-  ACTitulo
-    id: t2
-    !text: tr('Friend Healing Helper  (party)')
-    anchors.top: prev.bottom
-    margin-top: 8
+    ACCabecalho
+      id: h1
+      !text: tr('arraste a potion')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-left: 60
+      margin-top: 2
+      width: 96
+    ACCabecalho
+      id: h2
+      !text: tr('hp / mp')
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 164
+      width: 52
 
-  LinhaCura
-    id: amigo1
-    anchors.top: prev.bottom
-  LinhaCura
-    id: amigo2
-    anchors.top: prev.bottom
+    LinhaCura
+      id: pot1
+      anchors.top: prev.bottom
+    LinhaCura
+      id: pot2
+      anchors.top: prev.bottom
 
-// ---------- painel: TOOLS ----------
+  ACSecao
+    id: boxAmigo
+    anchors.top: prev.bottom
+    margin-top: 6
+    height: 108
+
+    ACTitulo
+      id: t
+      !text: tr('Friend Healing Helper  (party)')
+      anchors.top: parent.top
+
+    ACCabecalho
+      id: h1
+      !text: tr('sio  /  runa uh')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-left: 60
+      margin-top: 2
+      width: 96
+    ACCabecalho
+      id: h2
+      !text: tr('hp amigo')
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 164
+      width: 60
+
+    LinhaCura
+      id: amigo1
+      anchors.top: prev.bottom
+    LinhaCura
+      id: amigo2
+      anchors.top: prev.bottom
+
+// ================= aba: TOOLS =================
 PainelTools < Panel
-  ACTitulo
-    id: t1
-    !text: tr('Tools Helper')
+  ACSecao
+    id: boxHaste
     anchors.top: parent.top
+    height: 72
 
-  LinhaCura
-    id: haste
+    ACTitulo
+      id: t
+      !text: tr('Auto Haste')
+      anchors.top: parent.top
+
+    ACCabecalho
+      id: h1
+      !text: tr('magia de haste (recast automatico)')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-left: 60
+      margin-top: 2
+      width: 220
+
+    LinhaCura
+      id: haste
+      anchors.top: prev.bottom
+
+  ACSecao
+    id: boxOutros
     anchors.top: prev.bottom
-    margin-top: 4
+    margin-top: 6
+    height: 96
 
-  Label
-    id: lbl
-    !text: tr('   ^ Auto Haste (spell / recast)')
-    anchors.top: prev.bottom
-    anchors.left: parent.left
-    height: 14
-    color: #99ccff
+    ACTitulo
+      id: t
+      !text: tr('Others Tools')
+      anchors.top: parent.top
 
-  CheckBox
-    id: changeGold
-    !text: tr('Change Gold automatico')
-    anchors.top: prev.bottom
-    anchors.left: parent.left
-    margin-top: 8
-    height: 18
-    width: 220
+    CheckBox
+      id: changeGold
+      !text: tr('Change Gold automatico')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-top: 6
+      margin-left: 6
+      height: 18
+      width: 240
 
-  CheckBox
-    id: eatFood
-    !text: tr('Auto Eat Food')
-    anchors.top: prev.bottom
-    anchors.left: parent.left
-    margin-top: 4
-    height: 18
-    width: 220
+    CheckBox
+      id: eatFood
+      !text: tr('Auto Eat Food')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-top: 4
+      margin-left: 6
+      height: 18
+      width: 240
 
-  CheckBox
-    id: antiParalyze
-    !text: tr('Anti Paralyze')
-    anchors.top: prev.bottom
-    anchors.left: parent.left
-    margin-top: 4
-    height: 18
-    width: 220
+    CheckBox
+      id: antiParalyze
+      !text: tr('Anti Paralyze')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-top: 4
+      margin-left: 6
+      height: 18
+      width: 240
 
-// ---------- painel: CASTER ----------
+// ================= aba: CASTER =================
 PainelCaster < Panel
-  ACTitulo
-    id: t1
-    !text: tr('Spell Shooter Helper')
+  ACSecao
+    id: boxSpell
     anchors.top: parent.top
+    height: 142
 
-  Label
-    id: c1
-    !text: tr('        spell           mana  mobs  prioridade')
-    anchors.top: prev.bottom
-    anchors.left: parent.left
-    margin-top: 3
-    height: 14
-    color: #ffcc66
+    ACTitulo
+      id: t
+      !text: tr('Spell Shooter Helper')
+      anchors.top: parent.top
 
-  LinhaShooter
-    id: sh1
-    anchors.top: prev.bottom
-  LinhaShooter
-    id: sh2
-    anchors.top: prev.bottom
-  LinhaShooter
-    id: sh3
-    anchors.top: prev.bottom
+    ACCabecalho
+      id: h1
+      !text: tr('magia')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-left: 60
+      margin-top: 2
+      width: 92
+    ACCabecalho
+      id: h2
+      !text: tr('mana')
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 158
+      width: 48
+    ACCabecalho
+      id: h3
+      !text: tr('mobs')
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 212
+      width: 42
+    ACCabecalho
+      id: h4
+      !text: tr('prioridade')
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 260
+      width: 60
 
-  ACTitulo
-    id: t2
-    !text: tr('Rune Shooter Helper')
-    anchors.top: prev.bottom
-    margin-top: 8
+    LinhaShooter
+      id: sh1
+      anchors.top: prev.bottom
+    LinhaShooter
+      id: sh2
+      anchors.top: prev.bottom
+    LinhaShooter
+      id: sh3
+      anchors.top: prev.bottom
 
-  LinhaShooter
-    id: rn1
+  ACSecao
+    id: boxRune
     anchors.top: prev.bottom
-  LinhaShooter
-    id: rn2
-    anchors.top: prev.bottom
+    margin-top: 6
+    height: 110
 
-  CheckBox
-    id: autoTarget
-    !text: tr('Auto Target (atacar o mais proximo)')
-    anchors.top: prev.bottom
-    anchors.left: parent.left
-    margin-top: 8
-    height: 18
-    width: 260
+    ACTitulo
+      id: t
+      !text: tr('Rune Shooter Helper')
+      anchors.top: parent.top
 
-// ---------- janela ----------
+    ACCabecalho
+      id: h1
+      !text: tr('arraste a runa')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-left: 60
+      margin-top: 2
+      width: 92
+    ACCabecalho
+      id: h3
+      !text: tr('mobs')
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 212
+      width: 42
+    ACCabecalho
+      id: h4
+      !text: tr('prioridade')
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 260
+      width: 60
+
+    LinhaShooter
+      id: rn1
+      anchors.top: prev.bottom
+    LinhaShooter
+      id: rn2
+      anchors.top: prev.bottom
+
+  ACSecao
+    id: boxAlvo
+    anchors.top: prev.bottom
+    margin-top: 6
+    height: 34
+
+    CheckBox
+      id: autoTarget
+      !text: tr('Auto Target - ataca o monstro mais proximo')
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.left: parent.left
+      margin-left: 6
+      height: 18
+      width: 320
+
+// ================= janela =================
 MainWindow
   id: autocasterWindow
   !text: tr('AutoCaster')
-  size: 400 470
+  size: 400 560
   @onEscape: modules.autocaster.toggle()
+
+  // ---- barra de presets ----
+  ACSecao
+    id: barraPreset
+    anchors.top: parent.top
+    height: 30
+
+    Label
+      id: lblPreset
+      !text: tr('Preset:')
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      margin-left: 4
+      width: 42
+      height: 16
+
+    ComboBox
+      id: comboPreset
+      anchors.left: prev.right
+      anchors.verticalCenter: parent.verticalCenter
+      margin-left: 2
+      width: 120
+      height: 20
+
+    Button
+      id: btNovo
+      !text: tr('Novo')
+      anchors.left: prev.right
+      anchors.verticalCenter: parent.verticalCenter
+      margin-left: 6
+      width: 56
+      height: 20
+
+    Button
+      id: btRemover
+      !text: tr('Remover')
+      anchors.left: prev.right
+      anchors.verticalCenter: parent.verticalCenter
+      margin-left: 4
+      width: 68
+      height: 20
 
   TabBar
     id: abas
-    anchors.top: parent.top
+    anchors.top: prev.bottom
     anchors.left: parent.left
     anchors.right: parent.right
+    margin-top: 6
     height: 22
 
   Panel
@@ -274,33 +457,46 @@ MainWindow
     anchors.left: parent.left
     anchors.right: parent.right
     anchors.bottom: rodape.top
-    margin-top: 4
-    margin-bottom: 4
+    margin-top: 6
+    margin-bottom: 6
 
-  Panel
+  // ---- rodapé ----
+  ACSecao
     id: rodape
     anchors.left: parent.left
     anchors.right: parent.right
     anchors.bottom: parent.bottom
-    height: 36
+    height: 48
 
     CheckBox
       id: ligado
-      !text: tr('Helper Status')
+      !text: tr('Helper Status:')
       anchors.left: parent.left
       anchors.top: parent.top
+      margin-left: 4
+      margin-top: 2
       height: 18
-      width: 120
+      width: 110
 
     Label
       id: statusTexto
       !text: tr('Disabled')
       anchors.left: prev.right
-      anchors.top: prev.top
+      anchors.verticalCenter: prev.verticalCenter
       margin-left: 4
-      height: 18
-      width: 80
+      height: 16
+      width: 70
       color: #ff6666
+
+    Button
+      id: btFechar
+      !text: tr('Fechar')
+      anchors.right: parent.right
+      anchors.top: parent.top
+      margin-right: 4
+      margin-top: 2
+      width: 64
+      height: 20
 
     Label
       id: status
@@ -308,5 +504,7 @@ MainWindow
       anchors.left: parent.left
       anchors.right: parent.right
       anchors.bottom: parent.bottom
+      margin-left: 4
+      margin-bottom: 2
       height: 14
-      color: #cccccc
+      color: #b0d8b0

@@ -15,7 +15,8 @@ autocasterWindow = nil
 local loopEvent, botao = nil, nil
 local abas, painel = {}, {}
 local ui = {}
-local cfg = nil
+local cfg = nil       -- config do preset em uso
+local raiz = nil      -- { atual = "Default", presets = { Default = cfg } }
 
 local TICK = 150
 local PRIORIDADES = { "1st", "2nd", "3rd", "4th", "5th" }
@@ -241,8 +242,16 @@ end
 -- ------------------------------------------------------------- UI
 
 local function salvar()
-  g_settings.setNode("autocaster", cfg)
+  raiz.presets[raiz.atual] = cfg
+  g_settings.setNode("autocaster", raiz)
   g_settings.save()
+end
+
+local function nomesPresets()
+  local lista = {}
+  for nome, _ in pairs(raiz.presets) do table.insert(lista, nome) end
+  table.sort(lista)
+  return lista
 end
 
 -- liga uma LinhaCura da interface a uma tabela de config
@@ -283,9 +292,48 @@ local function ligarLinhaShooter(w, dado)
   w.prio.onOptionChange = function(_, _, data) dado.prio = data salvar() end
 end
 
+local function vincular()
+  -- Healing
+  ligarLinhaCura(painel.healing:recursiveGetChildById("spell1"), cfg.healing.spell[1])
+  ligarLinhaCura(painel.healing:recursiveGetChildById("spell2"), cfg.healing.spell[2])
+  ligarLinhaCura(painel.healing:recursiveGetChildById("spell3"), cfg.healing.spell[3])
+  ligarLinhaCura(painel.healing:recursiveGetChildById("pot1"),   cfg.healing.potion[1])
+  ligarLinhaCura(painel.healing:recursiveGetChildById("pot2"),   cfg.healing.potion[2])
+  ligarLinhaCura(painel.healing:recursiveGetChildById("amigo1"), cfg.healing.amigo[1])
+  ligarLinhaCura(painel.healing:recursiveGetChildById("amigo2"), cfg.healing.amigo[2])
+
+  -- Tools
+  ligarLinhaCura(painel.tools:recursiveGetChildById("haste"), cfg.tools.haste)
+  local cg = painel.tools:recursiveGetChildById("changeGold")
+  cg:setChecked(cfg.tools.changeGold)
+  cg.onCheckChange = function(_, v) cfg.tools.changeGold = v salvar() end
+  local ef = painel.tools:recursiveGetChildById("eatFood")
+  ef:setChecked(cfg.tools.eatFood)
+  ef.onCheckChange = function(_, v) cfg.tools.eatFood = v salvar() end
+  local ap = painel.tools:recursiveGetChildById("antiParalyze")
+  ap:setChecked(cfg.tools.antiParalyze)
+  ap.onCheckChange = function(_, v) cfg.tools.antiParalyze = v salvar() end
+
+  -- Caster
+  ligarLinhaShooter(painel.caster:recursiveGetChildById("sh1"), cfg.caster.spell[1])
+  ligarLinhaShooter(painel.caster:recursiveGetChildById("sh2"), cfg.caster.spell[2])
+  ligarLinhaShooter(painel.caster:recursiveGetChildById("sh3"), cfg.caster.spell[3])
+  ligarLinhaShooter(painel.caster:recursiveGetChildById("rn1"), cfg.caster.rune[1])
+  ligarLinhaShooter(painel.caster:recursiveGetChildById("rn2"), cfg.caster.rune[2])
+  local at = painel.caster:recursiveGetChildById("autoTarget")
+  at:setChecked(cfg.caster.autoTarget)
+  at.onCheckChange = function(_, v) cfg.caster.autoTarget = v salvar() end
+end
+
 function init()
-  cfg = g_settings.getNode("autocaster")
-  if not cfg or not cfg.healing or not cfg.caster then cfg = padroes() end
+  raiz = g_settings.getNode("autocaster")
+  if not raiz or not raiz.presets or not raiz.presets[raiz.atual or ""] then
+    raiz = { atual = "Default", presets = { Default = padroes() } }
+  end
+  cfg = raiz.presets[raiz.atual]
+  if not cfg or not cfg.healing or not cfg.caster then
+    cfg = padroes(); raiz.presets[raiz.atual] = cfg
+  end
 
   autocasterWindow = g_ui.displayUI("autocaster")
   autocasterWindow:hide()
@@ -301,36 +349,7 @@ function init()
   barra:addTab(tr("Tools"),   painel.tools,   "/images/topbuttons/options")
   barra:addTab(tr("Caster"),  painel.caster,  "/images/topbuttons/spelllist")
 
-  -- Healing
-  ligarLinhaCura(painel.healing:getChildById("spell1"), cfg.healing.spell[1])
-  ligarLinhaCura(painel.healing:getChildById("spell2"), cfg.healing.spell[2])
-  ligarLinhaCura(painel.healing:getChildById("spell3"), cfg.healing.spell[3])
-  ligarLinhaCura(painel.healing:getChildById("pot1"),   cfg.healing.potion[1])
-  ligarLinhaCura(painel.healing:getChildById("pot2"),   cfg.healing.potion[2])
-  ligarLinhaCura(painel.healing:getChildById("amigo1"), cfg.healing.amigo[1])
-  ligarLinhaCura(painel.healing:getChildById("amigo2"), cfg.healing.amigo[2])
-
-  -- Tools
-  ligarLinhaCura(painel.tools:getChildById("haste"), cfg.tools.haste)
-  local cg = painel.tools:getChildById("changeGold")
-  cg:setChecked(cfg.tools.changeGold)
-  cg.onCheckChange = function(_, v) cfg.tools.changeGold = v salvar() end
-  local ef = painel.tools:getChildById("eatFood")
-  ef:setChecked(cfg.tools.eatFood)
-  ef.onCheckChange = function(_, v) cfg.tools.eatFood = v salvar() end
-  local ap = painel.tools:getChildById("antiParalyze")
-  ap:setChecked(cfg.tools.antiParalyze)
-  ap.onCheckChange = function(_, v) cfg.tools.antiParalyze = v salvar() end
-
-  -- Caster
-  ligarLinhaShooter(painel.caster:getChildById("sh1"), cfg.caster.spell[1])
-  ligarLinhaShooter(painel.caster:getChildById("sh2"), cfg.caster.spell[2])
-  ligarLinhaShooter(painel.caster:getChildById("sh3"), cfg.caster.spell[3])
-  ligarLinhaShooter(painel.caster:getChildById("rn1"), cfg.caster.rune[1])
-  ligarLinhaShooter(painel.caster:getChildById("rn2"), cfg.caster.rune[2])
-  local at = painel.caster:getChildById("autoTarget")
-  at:setChecked(cfg.caster.autoTarget)
-  at.onCheckChange = function(_, v) cfg.caster.autoTarget = v salvar() end
+  vincular()
 
   -- rodape
   ui.status = autocasterWindow:recursiveGetChildById("status")
@@ -343,6 +362,51 @@ function init()
   end
   pintar(cfg.ligado)
   lig.onCheckChange = function(_, v) cfg.ligado = v pintar(v) salvar() end
+
+  -- ---- presets ----
+  ui.combo = autocasterWindow:recursiveGetChildById("comboPreset")
+  local function recarregarCombo()
+    ui.combo:clearOptions()
+    for _, nome in ipairs(nomesPresets()) do ui.combo:addOption(nome) end
+    ui.combo:setCurrentOption(raiz.atual, true)
+  end
+  recarregarCombo()
+  ui.combo.onOptionChange = function(_, nome)
+    if nome == raiz.atual then return end
+    raiz.presets[raiz.atual] = cfg      -- guarda o que estava editando
+    raiz.atual = nome
+    cfg = raiz.presets[nome]
+    vincular()                          -- reaponta todos os widgets
+    lig:setChecked(cfg.ligado); pintar(cfg.ligado)
+    g_settings.setNode("autocaster", raiz); g_settings.save()
+  end
+
+  autocasterWindow:recursiveGetChildById("btNovo").onClick = function()
+    local n, base = 1, "Preset"
+    while raiz.presets[base .. n] do n = n + 1 end
+    local nome = base .. n
+    raiz.presets[nome] = padroes()
+    raiz.presets[raiz.atual] = cfg
+    raiz.atual = nome
+    cfg = raiz.presets[nome]
+    vincular()
+    lig:setChecked(cfg.ligado); pintar(cfg.ligado)
+    recarregarCombo()
+    g_settings.setNode("autocaster", raiz); g_settings.save()
+  end
+
+  autocasterWindow:recursiveGetChildById("btRemover").onClick = function()
+    if #nomesPresets() <= 1 then return end   -- nunca deixa sem nenhum
+    raiz.presets[raiz.atual] = nil
+    raiz.atual = nomesPresets()[1]
+    cfg = raiz.presets[raiz.atual]
+    vincular()
+    lig:setChecked(cfg.ligado); pintar(cfg.ligado)
+    recarregarCombo()
+    g_settings.setNode("autocaster", raiz); g_settings.save()
+  end
+
+  autocasterWindow:recursiveGetChildById("btFechar").onClick = toggle
 
   if modules.client_topmenu then
     botao = modules.client_topmenu.addRightGameToggleButton(
