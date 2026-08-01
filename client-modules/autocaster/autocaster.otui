@@ -1,0 +1,312 @@
+// ---------- peças reutilizáveis ----------
+
+ACTitulo < Label
+  height: 15
+  color: #b3d1ff
+  text-align: center
+  background-color: #00000044
+  anchors.left: parent.left
+  anchors.right: parent.right
+
+ACSlot < Item
+  virtual: true
+  &selectable: true
+  &editable: true
+  size: 32 32
+
+// linha de cura: [on] [slot] [campo] [%]
+LinhaCura < Panel
+  height: 34
+  anchors.left: parent.left
+  anchors.right: parent.right
+
+  CheckBox
+    id: on
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 16 16
+
+  ACSlot
+    id: slot
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 3
+
+  TextEdit
+    id: texto
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 3
+    width: 84
+    height: 20
+
+  SpinBox
+    id: pct
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 3
+    width: 46
+    height: 20
+    minimum: 1
+    maximum: 100
+
+// linha do shooter: [on] [slot] [spell] [mana%] [criaturas] [prioridade]
+LinhaShooter < Panel
+  height: 34
+  anchors.left: parent.left
+  anchors.right: parent.right
+
+  CheckBox
+    id: on
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 16 16
+
+  ACSlot
+    id: slot
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 3
+
+  TextEdit
+    id: texto
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 3
+    width: 88
+    height: 20
+
+  SpinBox
+    id: mana
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 3
+    width: 46
+    height: 20
+    minimum: 0
+    maximum: 100
+
+  SpinBox
+    id: mobs
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 3
+    width: 40
+    height: 20
+    minimum: 1
+    maximum: 10
+
+  ComboBox
+    id: prio
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 3
+    width: 54
+    height: 20
+
+// ---------- painel: HEALING ----------
+PainelHealing < Panel
+  ACTitulo
+    id: t1
+    !text: tr('Auto Healing Helper')
+    anchors.top: parent.top
+
+  Label
+    id: c1
+    !text: tr('       Spell Healing         hp pct')
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-top: 3
+    height: 14
+    color: #88ff88
+
+  LinhaCura
+    id: spell1
+    anchors.top: prev.bottom
+  LinhaCura
+    id: spell2
+    anchors.top: prev.bottom
+  LinhaCura
+    id: spell3
+    anchors.top: prev.bottom
+
+  Label
+    id: c2
+    !text: tr('       Potion Healing       hp/mp pct')
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-top: 6
+    height: 14
+    color: #ffcc88
+
+  LinhaCura
+    id: pot1
+    anchors.top: prev.bottom
+  LinhaCura
+    id: pot2
+    anchors.top: prev.bottom
+
+  ACTitulo
+    id: t2
+    !text: tr('Friend Healing Helper  (party)')
+    anchors.top: prev.bottom
+    margin-top: 8
+
+  LinhaCura
+    id: amigo1
+    anchors.top: prev.bottom
+  LinhaCura
+    id: amigo2
+    anchors.top: prev.bottom
+
+// ---------- painel: TOOLS ----------
+PainelTools < Panel
+  ACTitulo
+    id: t1
+    !text: tr('Tools Helper')
+    anchors.top: parent.top
+
+  LinhaCura
+    id: haste
+    anchors.top: prev.bottom
+    margin-top: 4
+
+  Label
+    id: lbl
+    !text: tr('   ^ Auto Haste (spell / recast)')
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    height: 14
+    color: #99ccff
+
+  CheckBox
+    id: changeGold
+    !text: tr('Change Gold automatico')
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-top: 8
+    height: 18
+    width: 220
+
+  CheckBox
+    id: eatFood
+    !text: tr('Auto Eat Food')
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-top: 4
+    height: 18
+    width: 220
+
+  CheckBox
+    id: antiParalyze
+    !text: tr('Anti Paralyze')
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-top: 4
+    height: 18
+    width: 220
+
+// ---------- painel: CASTER ----------
+PainelCaster < Panel
+  ACTitulo
+    id: t1
+    !text: tr('Spell Shooter Helper')
+    anchors.top: parent.top
+
+  Label
+    id: c1
+    !text: tr('        spell           mana  mobs  prioridade')
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-top: 3
+    height: 14
+    color: #ffcc66
+
+  LinhaShooter
+    id: sh1
+    anchors.top: prev.bottom
+  LinhaShooter
+    id: sh2
+    anchors.top: prev.bottom
+  LinhaShooter
+    id: sh3
+    anchors.top: prev.bottom
+
+  ACTitulo
+    id: t2
+    !text: tr('Rune Shooter Helper')
+    anchors.top: prev.bottom
+    margin-top: 8
+
+  LinhaShooter
+    id: rn1
+    anchors.top: prev.bottom
+  LinhaShooter
+    id: rn2
+    anchors.top: prev.bottom
+
+  CheckBox
+    id: autoTarget
+    !text: tr('Auto Target (atacar o mais proximo)')
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-top: 8
+    height: 18
+    width: 260
+
+// ---------- janela ----------
+MainWindow
+  id: autocasterWindow
+  !text: tr('AutoCaster')
+  size: 400 470
+  @onEscape: modules.autocaster.toggle()
+
+  TabBar
+    id: abas
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 22
+
+  Panel
+    id: conteudoAbas
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: rodape.top
+    margin-top: 4
+    margin-bottom: 4
+
+  Panel
+    id: rodape
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    height: 36
+
+    CheckBox
+      id: ligado
+      !text: tr('Helper Status')
+      anchors.left: parent.left
+      anchors.top: parent.top
+      height: 18
+      width: 120
+
+    Label
+      id: statusTexto
+      !text: tr('Disabled')
+      anchors.left: prev.right
+      anchors.top: prev.top
+      margin-left: 4
+      height: 18
+      width: 80
+      color: #ff6666
+
+    Label
+      id: status
+      !text: tr('')
+      anchors.left: parent.left
+      anchors.right: parent.right
+      anchors.bottom: parent.bottom
+      height: 14
+      color: #cccccc

@@ -1,0 +1,10 @@
+Module
+  name: autocaster
+  description: Semibot de assistencia — auto healing, auto mana e auto ataque
+  author: OTServBR
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ autocaster ]
+  @onLoad: init()
+  @onUnload: terminate()
