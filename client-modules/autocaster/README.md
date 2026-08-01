@@ -40,6 +40,23 @@ seja, acompanha automaticamente as magias que o seu client conhece. O
 filtro por tipo usa o campo `group` de cada magia: `1` ataque, `2` cura,
 `3` suporte.
 
+A lista é **filtrada pela vocação e pelo level do personagem**: um
+sorcerer só vê magias de sorcerer, um paladin só as de paladin. Personagem
+sem vocação (GM) vê tudo.
+
+> ⚠️ **Numeração de vocação:** o Canary manda para o client o `clientid`
+> de `data/XML/vocations.xml`, que **não** é a numeração usada no
+> `SpellInfo` do OTClient:
+>
+> | | knight | paladin | sorcerer | druid |
+> |---|---|---|---|---|
+> | clientid (Canary) | 1 | 2 | 3 | 4 |
+> | SpellInfo (OTClient) | 4 | 3 | 1 | 2 |
+>
+> Sem converter, um sorcerer veria as magias de paladin. A tabela
+> `VOC_CLIENT_PARA_SPELL` no `autocaster.lua` faz essa conversão (com
+> fallback para servidores que já usam a numeração clássica).
+
 Linhas de **runa e potion** mostram um slot de item no lugar do ícone —
 basta arrastar o item para lá.
 

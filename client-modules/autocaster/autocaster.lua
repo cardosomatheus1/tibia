@@ -58,6 +58,21 @@ local function padroes()
   }
 end
 
+-- confere se o preset salvo tem todas as pecas que a interface espera
+-- (evita quebrar quando a estrutura muda entre versoes do modulo)
+local function configValida(c)
+  if type(c) ~= "table" then return false end
+  local h, t, ca = c.healing, c.tools, c.caster
+  if type(h) ~= "table" or type(t) ~= "table" or type(ca) ~= "table" then return false end
+  if type(h.spell) ~= "table" or #h.spell < 3 then return false end
+  if type(h.potion) ~= "table" or #h.potion < 2 then return false end
+  if type(h.amigo) ~= "table" or #h.amigo < 2 then return false end
+  if type(t.haste) ~= "table" then return false end
+  if type(ca.spell) ~= "table" or #ca.spell < 3 then return false end
+  if type(ca.rune) ~= "table" or #ca.rune < 2 then return false end
+  return true
+end
+
 -- ------------------------------------------------------------ util
 
 local function agora() return g_clock.millis() end
@@ -247,13 +262,50 @@ end
 
 local PERFIL = "Default"
 
--- grupo 1 = ataque, 2 = cura (campo "group" de cada magia)
+-- ATENCAO: o Canary manda para o client o "clientid" da vocacao
+-- (data/XML/vocations.xml), que NAO e' a numeracao usada em SpellInfo.
+--   clientid: knight 1, paladin 2, sorcerer 3, druid 4, monk 5,
+--             elite knight 11, royal paladin 12, master sorc 13, elder druid 14
+--   SpellInfo: sorcerer 1, druid 2, paladin 3, knight 4 (+4 = promovido)
+-- Sem esta conversao um Sorcerer veria as magias de Paladin.
+local VOC_CLIENT_PARA_SPELL = {
+  [1] = 4, [2] = 3, [3] = 1, [4] = 2,     -- base
+  [11] = 8, [12] = 7, [13] = 5, [14] = 6, -- promovidas
+}
+
+local function vocacaoDeMagia(vocClient)
+  if not vocClient or vocClient == 0 then return nil end
+  -- servidores que ja usam a numeracao classica caem no fallback
+  return VOC_CLIENT_PARA_SPELL[vocClient] or vocClient
+end
+
+-- a magia serve para a vocacao do personagem?
+-- vocacoes: 1..4 base (sorc/druid/pala/knight), 5..8 promovidas
+local function serveParaVocacao(info, voc)
+  if not info.vocations then return true end
+  if not voc or voc == 0 then return true end   -- GM/sem vocacao ve tudo
+  if table.find(info.vocations, voc) then return true end
+  -- promovido tambem usa o que a base usa, e vice-versa
+  if voc > 4 and table.find(info.vocations, voc - 4) then return true end
+  if voc <= 4 and table.find(info.vocations, voc + 4) then return true end
+  return false
+end
+
+-- grupo 1 = ataque, 2 = cura, 3 = suporte (campo "group" de cada magia)
+-- filtra pela vocacao e pelo level do personagem, como faz a spelllist
 local function magiasPorGrupo(grupo)
   local lista = {}
   local base = SpellInfo and SpellInfo[PERFIL]
   if not base then return lista end
+
+  local p = jogador()
+  local voc = vocacaoDeMagia(p and p.getVocation and p:getVocation() or nil)
+  local lvl = p and p.getLevel and p:getLevel() or 9999
+
   for nome, info in pairs(base) do
-    if info.group and info.group[grupo] and info.words then
+    if info.group and info.group[grupo] and info.words
+       and serveParaVocacao(info, voc)
+       and (info.level or 0) <= lvl then
       table.insert(lista, { nome = nome, info = info })
     end
   end
@@ -301,7 +353,11 @@ local janelaSeletor = nil
 local function abrirSeletor(grupo, aoEscolher)
   if janelaSeletor then janelaSeletor:destroy() janelaSeletor = nil end
   janelaSeletor = g_ui.createWidget("SeletorMagia", rootWidget)
-  janelaSeletor:setText(grupo == 2 and tr("Magias de cura") or tr("Magias de ataque"))
+  local titulos = { [1] = tr("Magias de ataque"), [2] = tr("Magias de cura"), [3] = tr("Magias de suporte") }
+  local p = jogador()
+  local voc = vocacaoDeMagia(p and p.getVocation and p:getVocation() or nil)
+  local nomeVoc = (voc and VocationNames and VocationNames[voc]) or tr("sem vocacao")
+  janelaSeletor:setText((titulos[grupo] or tr("Magias")) .. "  -  " .. nomeVoc)
 
   local lista = janelaSeletor:getChildById("lista")
   local todas = magiasPorGrupo(grupo)
@@ -353,6 +409,7 @@ end
 
 -- liga uma LinhaCura da interface a uma tabela de config
 local function ligarLinhaCura(w, dado, usaSlot, grupoMagia)
+  if not w or not dado then return end
   -- icone da magia: clique abre o seletor visual
   if w.magia then
     pintarIcone(w.magia, dado.texto)
@@ -387,6 +444,7 @@ local function ligarLinhaCura(w, dado, usaSlot, grupoMagia)
 end
 
 local function ligarLinhaShooter(w, dado, grupoMagia)
+  if not w or not dado then return end
   if w.magia then
     pintarIcone(w.magia, dado.texto)
     if grupoMagia then
@@ -463,7 +521,7 @@ function init()
     raiz = { atual = "Default", presets = { Default = padroes() } }
   end
   cfg = raiz.presets[raiz.atual]
-  if not cfg or not cfg.healing or not cfg.caster then
+  if not configValida(cfg) then
     cfg = padroes(); raiz.presets[raiz.atual] = cfg
   end
 
