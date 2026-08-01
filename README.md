@@ -1,27 +1,39 @@
-# 🐉 Tibia OT Server — Global
+# 🐉 Tibia OT Server — Global (client 15.25)
 
-Servidor de Tibia completo (estilo **Global**), baseado no [Canary](https://github.com/opentibiabr/canary) **v3.6.1** da OpenTibiaBR — o emulador de servidor mais atualizado da comunidade, compatível com o protocolo do Tibia 15.x. Inclui o datapack global completo (mapa do Tibia real, monstros, NPCs, quests, bosses, hunts).
+Servidor de Tibia completo (estilo **Global**), baseado no [Canary](https://github.com/opentibiabr/canary) da OpenTibiaBR — o emulador mais atualizado da comunidade. Este repositório acompanha a branch de desenvolvimento (`main`), que fala o protocolo do **client Tibia 15.25** (`CLIENT_VERSION = 1525`), a versão mais próxima do Tibia atual disponível no projeto. Inclui o datapack global completo (mapa do Tibia real, monstros, NPCs, quests, bosses, hunts).
 
 > 📄 O README original do projeto Canary foi preservado em [`CANARY.md`](CANARY.md).
 
+## ℹ️ Sobre as versões (importante)
+
+Existem **dois números** que costumam ser confundidos:
+
+| Número | O que é | Aqui |
+|---|---|---|
+| Versão do Canary (ex: 3.6.1) | Versão do software servidor | build da `main` |
+| `CLIENT_VERSION` (ex: 1525 = 15.25) | Protocolo do client Tibia que o servidor aceita | **15.25** |
+
+- O client OT mais novo publicado é o **15.25** — não existe 15.3 como client de OT server ainda, então **15.25 é o mais próximo do Tibia oficial atual**.
+- A imagem Docker `ghcr.io/opentibiabr/canary:latest` é construída a partir da `main` e **já aceita o client 15.25**.
+- O servidor também aceita o protocolo legado **11.00** (`allowOldProtocol = true`), útil para clients antigos e testes.
+
 ## ✅ Testado e funcionando
 
-Este repositório foi validado de ponta a ponta em Ubuntu 24.04 (binário oficial v3.6.1 + MariaDB):
+Validado de ponta a ponta em Ubuntu 24.04 (binário oficial + MariaDB):
 
-- Banco de dados criado a partir do `schema.sql` — 48 tabelas, conta `god` presente;
-- Datapack **global completo** carregado (mapa `otservbr.otbm` de 177 MB, badges, títulos, todos os módulos Lua) em ~30 segundos, **zero erros no log**;
+- Banco criado a partir do `schema.sql` — 48 tabelas, conta `god` presente;
+- Datapack **global completo** (client 15.25) carregado com o mapa `otservbr.otbm` (177 MB), badges, títulos e todos os módulos Lua — **zero erros no log**;
 - Log final: `OTServBR-Global server online!`;
-- Portas **7171** (login) e **7172** (game) abertas e aceitando conexões TCP;
-- Consumo: ~1,3 GB de RAM com o mapa global carregado;
-- **Login em jogo validado**: personagem entrou no mundo pelo OTClient (protocolo 11.00 com `allowOldProtocol = true`), andou pelo Templo de Thais e falou no chat.
+- Personagem **entrou em jogo** (Templo de Thais), andou e falou no chat;
+- Portas **7171** (login) e **7172** (game) aceitando conexões; ~1,3 GB de RAM em uso.
 
-![Personagem em jogo no Templo de Thais](docs/images/servidor-em-jogo.png)
+> 🖼️ O screenshot em [`docs/images/servidor-em-jogo.png`](docs/images/servidor-em-jogo.png) foi capturado neste ambiente de teste **sem placa de vídeo**, usando sprites antigos (10.99) via protocolo legado 11.00 só para provar o login. **Com o client 15.25 (abaixo), o visual é o do Tibia moderno completo.**
 
 ---
 
 ## 🚀 Rodando o servidor em minutos (Docker — sem compilar nada)
 
-O jeito mais fácil: o Docker baixa o servidor pronto, o banco de dados, o site e o mapa automaticamente.
+O jeito mais fácil: o Docker baixa o servidor pronto (já em 15.25), o banco, o site e o mapa automaticamente.
 
 ### 1. Instale o Docker
 
@@ -47,7 +59,7 @@ cd tibia/docker
 sh ./up.sh
 ```
 
-A primeira vez demora alguns minutos (baixa as imagens, monta o site e baixa o mapa global ~ centenas de MB). Acompanhe com `docker compose logs -f server`.
+A primeira vez demora alguns minutos (baixa as imagens, monta o site e baixa o mapa global). Acompanhe com `docker compose logs -f server`.
 
 ### 4. O que fica no ar
 
@@ -68,16 +80,14 @@ A primeira vez demora alguns minutos (baixa as imagens, monta o site e baixa o m
 
 ---
 
-## 🎮 Client (para jogar)
+## 🎮 Client 15.25 (para jogar com o visual moderno)
 
-Você precisa de um client compatível com Tibia 13+/15. As duas opções recomendadas pelo próprio projeto:
+Baixe o client **15.25** — o mais próximo do Tibia atual:
 
-1. **[Game Client (dudantas)](https://github.com/dudantas/tibia-client/releases/latest)** — client oficial adaptado para OT, já vem com os assets/sprites. **Mais fácil para começar.** Configure o endereço de login para `http://localhost:8088/login`.
+1. **[Game Client 15.25 (dudantas)](https://github.com/dudantas/tibia-client/releases/latest)** — client oficial adaptado para OT, já vem com os assets/sprites da 15.25. **Recomendado.** Configure o endereço de login para `http://localhost:8088/login`.
 2. **[OTClient Redemption (mehah)](https://github.com/mehah/otclient)** — client open source, altamente customizável, suporta protocolos 7.72 a 15.x.
 
 ### Jogando de outro PC da rede local
-
-Suba com detecção de IP da LAN:
 
 ```powershell
 .\up.ps1 -Lan          # Windows
@@ -92,10 +102,10 @@ No outro PC, use `http://IP_DA_MAQUINA:8088/login` no client e `http://IP_DA_MAQ
 
 ## ⚙️ Configurando o seu servidor
 
-- **`docker/.env`** — nome do servidor, IP anunciado, portas, senhas do banco e do site. Criado automaticamente a partir de [`docker/.env.dist`](docker/.env.dist) na primeira execução.
-- **`config.lua.dist`** — todas as configurações do jogo (rates de XP/skill/loot, PvP, housing, etc.) para quem roda o servidor fora do Docker ou builda a própria imagem.
+- **`docker/.env`** — nome do servidor, IP anunciado, portas, senhas do banco e do site. Criado automaticamente a partir de [`docker/.env.dist`](docker/.env.dist).
+- **`config.lua.dist`** — todas as configurações do jogo (rates de XP/skill/loot, PvP, housing, `allowOldProtocol`, etc.). Copie para `config.lua` se rodar fora do Docker.
 - **`data-otservbr-global/`** — o coração do jogo: scripts Lua de quests, monstros, NPCs, raids, eventos. É aqui que você customiza o conteúdo.
-- **`schema.sql`** — estrutura do banco de dados (importada automaticamente no Docker).
+- **`schema.sql`** — estrutura do banco (importada automaticamente no Docker).
 
 ---
 
@@ -114,12 +124,14 @@ No outro PC, use `http://IP_DA_MAQUINA:8088/login` no client e `http://IP_DA_MAQ
 
 ---
 
-## 🔨 Compilando do código-fonte (avançado, opcional)
+## 🔨 Compilando do código-fonte (para garantir 15.25 nativo)
 
-Só é necessário se você quiser modificar o C++ do servidor:
+Como este repositório está na branch `main`, compilar do fonte gera um servidor **client 15.25** nativo:
 
 - **Windows:** Visual Studio 2022 + vcpkg — [guia oficial](https://docs.opentibiabr.com/opentibiabr/projects/canary/getting-started)
 - **Linux:** CMake + vcpkg (`./recompile.sh` como atalho)
+
+Para forçar o Docker a compilar da fonte local (em vez de baixar a imagem pronta), use os `Dockerfile.x86`/`Dockerfile.dev` em [`docker/`](docker/).
 
 ---
 
@@ -127,7 +139,7 @@ Só é necessário se você quiser modificar o C++ do servidor:
 
 | Ferramenta | Para quê |
 |---|---|
-| [Assets Editor](https://github.com/Arch-Mina/Assets-Editor) | Editar sprites/assets do client (Tibia 12+) |
+| [Assets Editor](https://github.com/Arch-Mina/Assets-Editor) | Editar sprites/assets do client (Tibia 12+/15) |
 | [Remere's Map Editor](https://github.com/opentibiabr/remeres-map-editor/) | Editar o mapa |
 | [ClientConverter](https://github.com/Arch-Mina/ClientConverter) | Converter sprite sheets ↔ .spr/.dat |
 | [OpenTibia Sprite Pack](https://github.com/peonso/opentibia_sprite_pack) | Sprites **livres** (CC-BY 4.0) para projetos próprios |
@@ -142,7 +154,7 @@ Só é necessário se você quiser modificar o C++ do servidor:
 ├── data-otservbr-global/    # Datapack global (quests, monstros, NPCs, scripts)
 ├── data-canary/             # Datapack mínimo de testes
 ├── data/                    # Bibliotecas Lua compartilhadas (core)
-├── src/                     # Código-fonte C++ do servidor
+├── src/                     # Código-fonte C++ do servidor (CLIENT_VERSION = 1525)
 ├── schema.sql               # Estrutura do banco de dados
 ├── config.lua.dist          # Modelo de configuração do servidor
 └── CANARY.md                # README original do projeto Canary
@@ -152,5 +164,5 @@ Só é necessário se você quiser modificar o C++ do servidor:
 
 ## 📜 Créditos e licença
 
-- Baseado no [Canary](https://github.com/opentibiabr/canary) v3.6.1, da comunidade [OpenTibiaBR](https://github.com/opentibiabr) — licença **GPL-2.0** (mantida em [`LICENSE`](LICENSE)).
+- Baseado no [Canary](https://github.com/opentibiabr/canary) (branch `main`, client 15.25), da comunidade [OpenTibiaBR](https://github.com/opentibiabr) — licença **GPL-2.0** (mantida em [`LICENSE`](LICENSE)).
 - Tibia é marca registrada da CipSoft GmbH. Os assets/sprites originais do Tibia pertencem à CipSoft — este repositório contém apenas o emulador open source e dados da comunidade.
