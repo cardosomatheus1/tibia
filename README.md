@@ -12,7 +12,10 @@ Este repositório foi validado de ponta a ponta em Ubuntu 24.04 (binário oficia
 - Datapack **global completo** carregado (mapa `otservbr.otbm` de 177 MB, badges, títulos, todos os módulos Lua) em ~30 segundos, **zero erros no log**;
 - Log final: `OTServBR-Global server online!`;
 - Portas **7171** (login) e **7172** (game) abertas e aceitando conexões TCP;
-- Consumo: ~1,3 GB de RAM com o mapa global carregado.
+- Consumo: ~1,3 GB de RAM com o mapa global carregado;
+- **Login em jogo validado**: personagem entrou no mundo pelo OTClient (protocolo 11.00 com `allowOldProtocol = true`), andou pelo Templo de Thais e falou no chat.
+
+![Personagem em jogo no Templo de Thais](docs/images/servidor-em-jogo.png)
 
 ---
 
