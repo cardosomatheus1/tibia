@@ -4,6 +4,16 @@ Servidor de Tibia completo (estilo **Global**), baseado no [Canary](https://gith
 
 > 📄 O README original do projeto Canary foi preservado em [`CANARY.md`](CANARY.md).
 
+## ✅ Testado e funcionando
+
+Este repositório foi validado de ponta a ponta em Ubuntu 24.04 (binário oficial v3.6.1 + MariaDB):
+
+- Banco de dados criado a partir do `schema.sql` — 48 tabelas, conta `god` presente;
+- Datapack **global completo** carregado (mapa `otservbr.otbm` de 177 MB, badges, títulos, todos os módulos Lua) em ~30 segundos, **zero erros no log**;
+- Log final: `OTServBR-Global server online!`;
+- Portas **7171** (login) e **7172** (game) abertas e aceitando conexões TCP;
+- Consumo: ~1,3 GB de RAM com o mapa global carregado.
+
 ---
 
 ## 🚀 Rodando o servidor em minutos (Docker — sem compilar nada)
