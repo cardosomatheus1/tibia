@@ -193,6 +193,46 @@ SeletorMagia < MainWindow
     width: 80
     height: 22
 
+
+// ---- linha do alvo: [on] [nome do monstro] [prioridade] [dist] ----
+LinhaAlvo < Panel
+  height: 26
+  anchors.left: parent.left
+  anchors.right: parent.right
+
+  CheckBox
+    id: on
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 4
+    size: 16 16
+
+  TextEdit
+    id: nome
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 26
+    width: 150
+    height: 20
+
+  ComboBox
+    id: prio
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 182
+    width: 56
+    height: 20
+
+  SpinBox
+    id: dist
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 244
+    width: 44
+    height: 20
+    minimum: 1
+    maximum: 10
+
 // ================= aba: HEALING =================
 PainelHealing < Panel
   ACSecao
@@ -473,11 +513,141 @@ PainelCaster < Panel
       height: 18
       width: 320
 
+
+// ================= aba: TARGET =================
+PainelTarget < Panel
+  ACSecao
+    id: boxLista
+    anchors.top: parent.top
+    height: 178
+
+    ACTitulo
+      id: t
+      !text: tr('Target Helper')
+      anchors.top: parent.top
+
+    ACCabecalho
+      id: h1
+      !text: tr('monstro (vazio = qualquer um)')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-left: 26
+      margin-top: 2
+      width: 150
+    ACCabecalho
+      id: h2
+      !text: tr('prioridade')
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 182
+      width: 56
+    ACCabecalho
+      id: h3
+      !text: tr('dist')
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 244
+      width: 44
+
+    LinhaAlvo
+      id: alvo1
+      anchors.top: prev.bottom
+    LinhaAlvo
+      id: alvo2
+      anchors.top: prev.bottom
+    LinhaAlvo
+      id: alvo3
+      anchors.top: prev.bottom
+    LinhaAlvo
+      id: alvo4
+      anchors.top: prev.bottom
+
+    Button
+      id: btDoAlvo
+      !text: tr('+ usar o alvo atual')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-top: 4
+      margin-left: 4
+      width: 150
+      height: 20
+
+  ACSecao
+    id: boxCond
+    anchors.top: prev.bottom
+    margin-top: 6
+    height: 122
+
+    ACTitulo
+      id: t
+      !text: tr('Condicoes')
+      anchors.top: parent.top
+
+    CheckBox
+      id: atacarAuto
+      !text: tr('Atacar automaticamente')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-top: 6
+      margin-left: 6
+      height: 18
+      width: 240
+
+    CheckBox
+      id: perseguir
+      !text: tr('Perseguir o alvo (chase)')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-top: 4
+      margin-left: 6
+      height: 18
+      width: 240
+
+    CheckBox
+      id: pararSeFraco
+      !text: tr('Parar de atacar se meu hp <')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-top: 4
+      margin-left: 6
+      height: 18
+      width: 190
+
+    SpinBox
+      id: hpMinimo
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 200
+      width: 48
+      height: 20
+      minimum: 0
+      maximum: 100
+
+    CheckBox
+      id: limitarMobs
+      !text: tr('So atacar se mobs <=')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      margin-top: 4
+      margin-left: 6
+      height: 18
+      width: 190
+
+    SpinBox
+      id: maxMobs
+      anchors.top: prev.top
+      anchors.left: parent.left
+      margin-left: 200
+      width: 48
+      height: 20
+      minimum: 1
+      maximum: 20
+
 // ================= janela =================
 MainWindow
   id: autocasterWindow
   !text: tr('AutoCaster')
-  size: 400 560
+  size: 400 580
   @onEscape: modules.autocaster.toggle()
 
   // ---- barra de presets ----

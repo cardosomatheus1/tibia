@@ -73,6 +73,32 @@ basta arrastar o item para lá.
 Auto Haste (com recast quando o buff cai), Change Gold, Auto Eat Food e
 Anti Paralyze.
 
+### Target (caça)
+
+Onde fica a parte de mira. Uma lista de até 4 monstros, cada um com
+**prioridade** (1st–5th) e **distância máxima** — o motor escolhe primeiro
+pela prioridade e, em empate, pelo mais próximo. Deixar a lista vazia
+significa "qualquer monstro serve".
+
+O botão **+ usar o alvo atual** preenche a primeira linha livre com o nome
+do monstro que você está atacando, sem precisar digitar.
+
+![Aba Target](../../docs/images/autocaster-target.png)
+
+Condições de segurança:
+
+- **Atacar automaticamente** — liga a mira
+- **Perseguir o alvo (chase)** — usa o chase mode nativo do client
+- **Parar de atacar se meu hp <** — cancela o ataque quando a vida cai
+- **Só atacar se mobs <=** — evita puxar treino demais
+
+Quando o alvo morre ou some, ele escolhe o próximo sozinho. As magias da
+aba Caster disparam sobre o alvo selecionado aqui.
+
+> Repare no que **não** existe: waypoints e caminhada automática. O
+> personagem só ataca o que está ao alcance — quem anda e escolhe a hunt
+> é você.
+
 ### Caster
 - **Spell Shooter** — 3 linhas: magia, mana mínima, número mínimo de
   monstros no alcance e prioridade (1st…5th).

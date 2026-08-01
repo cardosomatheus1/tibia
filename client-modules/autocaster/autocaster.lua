@@ -47,6 +47,15 @@ local function padroes()
       haste = linhaCura(false, "utani hur", 0, 0),
       changeGold = false, eatFood = false, antiParalyze = false,
     },
+    target = {
+      atacarAuto = false, perseguir = false,
+      pararSeFraco = false, hpMinimo = 30,
+      limitarMobs = false, maxMobs = 5,
+      lista = { { on = false, nome = "", prio = 1, dist = 7 },
+                { on = false, nome = "", prio = 2, dist = 7 },
+                { on = false, nome = "", prio = 3, dist = 7 },
+                { on = false, nome = "", prio = 4, dist = 7 } },
+    },
     caster = {
       autoTarget = false,
       spell = { linhaShooter(false, "exori vis", 0, 30, 1, 1),
@@ -69,6 +78,7 @@ local function configValida(c)
   if type(h.amigo) ~= "table" or #h.amigo < 2 then return false end
   if type(t.haste) ~= "table" then return false end
   if type(ca.spell) ~= "table" or #ca.spell < 3 then return false end
+  if type(c.target) ~= "table" or type(c.target.lista) ~= "table" or #c.target.lista < 4 then return false end
   if type(ca.rune) ~= "table" or #ca.rune < 2 then return false end
   return true
 end
@@ -240,12 +250,91 @@ local function passo()
   return nil
 end
 
+
+-- escolhe o melhor alvo: respeita a lista de monstros (se houver alguma
+-- linha ligada), depois prioridade e por fim distancia.
+local function escolherAlvo(mobs)
+  local p = jogador()
+  if not p then return nil end
+  local pos = p:getPosition()
+  local t = cfg.target
+
+  -- monta as regras ativas com nome preenchido
+  local regras = {}
+  for _, r in ipairs(t.lista or {}) do
+    if r.on and r.nome and r.nome ~= "" then table.insert(regras, r) end
+  end
+
+  local melhor, melhorPrio, melhorDist = nil, 99, 99
+  for _, m in ipairs(mobs) do
+    local mp = m:getPosition()
+    local d = math.max(math.abs(mp.x - pos.x), math.abs(mp.y - pos.y))
+    local prio, alcance = nil, 7
+
+    if #regras == 0 then
+      prio, alcance = 5, 7          -- sem lista: qualquer monstro serve
+    else
+      local nome = m:getName():lower()
+      for _, r in ipairs(regras) do
+        if nome:find(r.nome:lower(), 1, true) then
+          if not prio or (r.prio or 5) < prio then
+            prio, alcance = r.prio or 5, r.dist or 7
+          end
+        end
+      end
+    end
+
+    if prio and d <= alcance then
+      if prio < melhorPrio or (prio == melhorPrio and d < melhorDist) then
+        melhor, melhorPrio, melhorDist = m, prio, d
+      end
+    end
+  end
+  return melhor
+end
+
+-- cuida da mira: escolhe, ataca e liga/desliga o chase
+local function cuidarDoAlvo(mobs, hp)
+  local t = cfg.target
+  if not t or not t.atacarAuto then return end
+
+  -- condicoes de seguranca
+  if t.pararSeFraco and hp < (t.hpMinimo or 0) then
+    if g_game.getAttackingCreature() then g_game.cancelAttack() end
+    return
+  end
+  if t.limitarMobs and #mobs > (t.maxMobs or 99) then
+    if g_game.getAttackingCreature() then g_game.cancelAttack() end
+    return
+  end
+
+  local atual = g_game.getAttackingCreature()
+  -- se o alvo atual morreu ou sumiu, escolhe outro
+  if atual and (atual:isDead() or not atual:getPosition()) then atual = nil end
+
+  if not atual then
+    local novo = escolherAlvo(mobs)
+    if novo then
+      g_game.attack(novo)
+      if t.perseguir and g_game.getChaseMode() ~= ChaseOpponent then
+        g_game.setChaseMode(ChaseOpponent)
+      end
+    end
+  end
+end
+
 local function ciclo()
   if not cfg.ligado or not g_game.isOnline() then return end
 
-  -- auto target: so escolhe alvo, nao anda atras dele
+  local mobsAgora = monstrosPerto(7)
+  local hpAgora = pctVida(jogador())
+
+  -- aba Target: escolhe o alvo pela lista/prioridade
+  cuidarDoAlvo(mobsAgora, hpAgora)
+
+  -- compatibilidade: o Auto Target simples da aba Caster
   if cfg.caster.autoTarget and not g_game.getAttackingCreature() then
-    local m = maisProximo(monstrosPerto(7))
+    local m = maisProximo(mobsAgora)
     if m then g_game.attack(m) end
   end
 
@@ -443,6 +532,22 @@ local function ligarLinhaCura(w, dado, usaSlot, grupoMagia)
   end
 end
 
+local function ligarLinhaAlvo(w, dado)
+  if not w or not dado then return end
+  w.on:setChecked(dado.on)
+  w.on.onCheckChange = function(_, v) dado.on = v salvar() end
+
+  w.nome:setText(dado.nome or "")
+  w.nome.onTextChange = function(_, t) dado.nome = t salvar() end
+
+  for i, nome in ipairs(PRIORIDADES) do w.prio:addOption(nome, i) end
+  w.prio:setCurrentOptionByData(dado.prio or 1)
+  w.prio.onOptionChange = function(_, _, data) dado.prio = data salvar() end
+
+  w.dist:setValue(dado.dist or 7)
+  w.dist.onValueChange = function(_, v) dado.dist = v salvar() end
+end
+
 local function ligarLinhaShooter(w, dado, grupoMagia)
   if not w or not dado then return end
   if w.magia then
@@ -513,6 +618,45 @@ local function vincular()
   local at = painel.caster:recursiveGetChildById("autoTarget")
   at:setChecked(cfg.caster.autoTarget)
   at.onCheckChange = function(_, v) cfg.caster.autoTarget = v salvar() end
+
+  -- Target
+  local pt, t = painel.target, cfg.target
+  for i = 1, 4 do
+    ligarLinhaAlvo(pt:recursiveGetChildById("alvo" .. i), t.lista[i])
+  end
+
+  local function marcar(id, campo)
+    local w = pt:recursiveGetChildById(id)
+    w:setChecked(t[campo])
+    w.onCheckChange = function(_, v) t[campo] = v salvar() end
+  end
+  marcar("atacarAuto", "atacarAuto")
+  marcar("perseguir", "perseguir")
+  marcar("pararSeFraco", "pararSeFraco")
+  marcar("limitarMobs", "limitarMobs")
+
+  local function girar(id, campo, padrao)
+    local w = pt:recursiveGetChildById(id)
+    w:setValue(t[campo] or padrao)
+    w.onValueChange = function(_, v) t[campo] = v salvar() end
+  end
+  girar("hpMinimo", "hpMinimo", 30)
+  girar("maxMobs", "maxMobs", 5)
+
+  -- preenche a primeira linha livre com o monstro que estou atacando
+  pt:recursiveGetChildById("btDoAlvo").onClick = function()
+    local alvo = g_game.getAttackingCreature()
+    if not alvo then return end
+    for i = 1, 4 do
+      if not t.lista[i].nome or t.lista[i].nome == "" then
+        t.lista[i].nome = alvo:getName()
+        t.lista[i].on = true
+        salvar()
+        vincular()
+        return
+      end
+    end
+  end
 end
 
 function init()
@@ -534,10 +678,12 @@ function init()
   painel.healing = g_ui.createWidget("PainelHealing")
   painel.tools   = g_ui.createWidget("PainelTools")
   painel.caster  = g_ui.createWidget("PainelCaster")
+  painel.target  = g_ui.createWidget("PainelTarget")
 
   barra:addTab(tr("Healing"), painel.healing, "/images/topbuttons/healthinfo")
   barra:addTab(tr("Tools"),   painel.tools,   "/images/topbuttons/options")
   barra:addTab(tr("Caster"),  painel.caster,  "/images/topbuttons/spelllist")
+  barra:addTab(tr("Target"),  painel.target,  "/images/topbuttons/battle")
 
   vincular()
 
