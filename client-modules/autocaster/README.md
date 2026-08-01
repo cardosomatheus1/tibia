@@ -25,6 +25,24 @@ OTCv8.
 
 ## As três abas
 
+### Seleção visual de magias
+
+Clique no ícone de uma linha de magia e abre a lista de **todas as magias
+daquele tipo** (cura, ataque ou suporte), cada uma com a **mesma arte que
+aparece na hotkey**, mais mana e level exigidos, ordenadas por level. Tem
+campo de filtro no topo.
+
+![Seletor de magias](../../docs/images/autocaster-seletor.png)
+
+A lista sai do `SpellInfo` do próprio client e os ícones do sprite sheet
+`SpelllistSettings.iconFile`, recortados com `Spells.getImageClip()` — ou
+seja, acompanha automaticamente as magias que o seu client conhece. O
+filtro por tipo usa o campo `group` de cada magia: `1` ataque, `2` cura,
+`3` suporte.
+
+Linhas de **runa e potion** mostram um slot de item no lugar do ícone —
+basta arrastar o item para lá.
+
 ### Healing
 - **Spell Healing** — 3 linhas: magia + limite de hp%. A de cima tem
   prioridade (útil para `exura gran` em 60% e `exura` em 80%).

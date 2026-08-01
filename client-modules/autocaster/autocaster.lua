@@ -16,6 +16,7 @@ local loopEvent, botao = nil, nil
 local abas, painel = {}, {}
 local ui = {}
 local cfg = nil       -- config do preset em uso
+local salvar          -- declarada antes: o seletor de magias usa
 local raiz = nil      -- { atual = "Default", presets = { Default = cfg } }
 
 local TICK = 150
@@ -239,9 +240,105 @@ local function ciclo()
   end
 end
 
+
+-- ============ seletor visual de magias ============
+-- Usa a base do proprio client (SpellInfo) e o sprite sheet de icones,
+-- os mesmos que aparecem na hotkey.
+
+local PERFIL = "Default"
+
+-- grupo 1 = ataque, 2 = cura (campo "group" de cada magia)
+local function magiasPorGrupo(grupo)
+  local lista = {}
+  local base = SpellInfo and SpellInfo[PERFIL]
+  if not base then return lista end
+  for nome, info in pairs(base) do
+    if info.group and info.group[grupo] and info.words then
+      table.insert(lista, { nome = nome, info = info })
+    end
+  end
+  table.sort(lista, function(a, b)
+    if (a.info.level or 0) ~= (b.info.level or 0) then
+      return (a.info.level or 0) < (b.info.level or 0)
+    end
+    return a.nome < b.nome
+  end)
+  return lista
+end
+
+local function idDoIcone(info)
+  local id = tonumber(info.icon)
+  if not id and SpellIcons and SpellIcons[info.icon] then
+    id = SpellIcons[info.icon][1]
+  end
+  return id
+end
+
+-- desenha o icone da magia num widget (mesma arte da hotkey)
+local function pintarIcone(w, palavras)
+  if not w then return end
+  local base = SpellInfo and SpellInfo[PERFIL]
+  if not base or not palavras or palavras == "" then
+    w:setImageSource("")
+    return
+  end
+  for _, info in pairs(base) do
+    if info.words == palavras then
+      local id = idDoIcone(info)
+      if id and Spells and Spells.getImageClip then
+        w:setImageSource(SpelllistSettings[PERFIL].iconFile)
+        w:setImageClip(Spells.getImageClip(id, PERFIL))
+        return
+      end
+    end
+  end
+  w:setImageSource("")
+end
+
+local janelaSeletor = nil
+
+-- abre a lista de magias do grupo pedido; chama aoEscolher(palavras)
+local function abrirSeletor(grupo, aoEscolher)
+  if janelaSeletor then janelaSeletor:destroy() janelaSeletor = nil end
+  janelaSeletor = g_ui.createWidget("SeletorMagia", rootWidget)
+  janelaSeletor:setText(grupo == 2 and tr("Magias de cura") or tr("Magias de ataque"))
+
+  local lista = janelaSeletor:getChildById("lista")
+  local todas = magiasPorGrupo(grupo)
+
+  local function montar(filtro)
+    lista:destroyChildren()
+    for _, m in ipairs(todas) do
+      local rotulo = m.nome .. "  (" .. m.info.words .. ")"
+      if filtro == "" or rotulo:lower():find(filtro:lower(), 1, true) then
+        local w = g_ui.createWidget("LinhaMagia", lista)
+        w:setText(rotulo .. "\n     mana " .. (m.info.mana or 0) .. "   lvl " .. (m.info.level or 0))
+        local id = idDoIcone(m.info)
+        if id and Spells and Spells.getImageClip then
+          w:setImageSource(SpelllistSettings[PERFIL].iconFile)
+          w:setImageClip(Spells.getImageClip(id, PERFIL))
+          w:setImageSize(tosize("32 32"))
+          w:setImageRect(torect("4 2 32 32"))
+        end
+        w.onDoubleClick = function()
+          aoEscolher(m.info.words)
+          janelaSeletor:destroy(); janelaSeletor = nil
+        end
+        w.onClick = w.onDoubleClick
+      end
+    end
+  end
+
+  montar("")
+  janelaSeletor:getChildById("filtro").onTextChange = function(_, t) montar(t) end
+  janelaSeletor:getChildById("btCancelar").onClick = function()
+    janelaSeletor:destroy(); janelaSeletor = nil
+  end
+end
+
 -- ------------------------------------------------------------- UI
 
-local function salvar()
+salvar = function()
   raiz.presets[raiz.atual] = cfg
   g_settings.setNode("autocaster", raiz)
   g_settings.save()
@@ -255,12 +352,30 @@ local function nomesPresets()
 end
 
 -- liga uma LinhaCura da interface a uma tabela de config
-local function ligarLinhaCura(w, dado, usaSlot)
+local function ligarLinhaCura(w, dado, usaSlot, grupoMagia)
+  -- icone da magia: clique abre o seletor visual
+  if w.magia then
+    pintarIcone(w.magia, dado.texto)
+    if grupoMagia then
+      w.slot:setVisible(false)
+      w.magia.onClick = function()
+        abrirSeletor(grupoMagia, function(palavras)
+          dado.texto = palavras
+          w.texto:setText(palavras)
+          pintarIcone(w.magia, palavras)
+          salvar()
+        end)
+      end
+    else
+      w.magia:setVisible(false)
+    end
+  end
+
   w.on:setChecked(dado.on)
   w.on.onCheckChange = function(_, v) dado.on = v salvar() end
 
   w.texto:setText(dado.texto or "")
-  w.texto.onTextChange = function(_, t) dado.texto = t salvar() end
+  w.texto.onTextChange = function(_, t) dado.texto = t pintarIcone(w.magia, t) salvar() end
 
   w.pct:setValue(dado.pct or 50)
   w.pct.onValueChange = function(_, v) dado.pct = v salvar() end
@@ -271,12 +386,29 @@ local function ligarLinhaCura(w, dado, usaSlot)
   end
 end
 
-local function ligarLinhaShooter(w, dado)
+local function ligarLinhaShooter(w, dado, grupoMagia)
+  if w.magia then
+    pintarIcone(w.magia, dado.texto)
+    if grupoMagia then
+      w.slot:setVisible(false)
+      w.magia.onClick = function()
+        abrirSeletor(grupoMagia, function(palavras)
+          dado.texto = palavras
+          w.texto:setText(palavras)
+          pintarIcone(w.magia, palavras)
+          salvar()
+        end)
+      end
+    else
+      w.magia:setVisible(false)
+    end
+  end
+
   w.on:setChecked(dado.on)
   w.on.onCheckChange = function(_, v) dado.on = v salvar() end
 
   w.texto:setText(dado.texto or "")
-  w.texto.onTextChange = function(_, t) dado.texto = t salvar() end
+  w.texto.onTextChange = function(_, t) dado.texto = t pintarIcone(w.magia, t) salvar() end
 
   w.slot:setItemId(dado.item or 0)
   w.slot.onItemChange = function(widget) dado.item = widget:getItemId() salvar() end
@@ -294,16 +426,16 @@ end
 
 local function vincular()
   -- Healing
-  ligarLinhaCura(painel.healing:recursiveGetChildById("spell1"), cfg.healing.spell[1])
-  ligarLinhaCura(painel.healing:recursiveGetChildById("spell2"), cfg.healing.spell[2])
-  ligarLinhaCura(painel.healing:recursiveGetChildById("spell3"), cfg.healing.spell[3])
+  ligarLinhaCura(painel.healing:recursiveGetChildById("spell1"), cfg.healing.spell[1], true, 2)
+  ligarLinhaCura(painel.healing:recursiveGetChildById("spell2"), cfg.healing.spell[2], true, 2)
+  ligarLinhaCura(painel.healing:recursiveGetChildById("spell3"), cfg.healing.spell[3], true, 2)
   ligarLinhaCura(painel.healing:recursiveGetChildById("pot1"),   cfg.healing.potion[1])
   ligarLinhaCura(painel.healing:recursiveGetChildById("pot2"),   cfg.healing.potion[2])
-  ligarLinhaCura(painel.healing:recursiveGetChildById("amigo1"), cfg.healing.amigo[1])
+  ligarLinhaCura(painel.healing:recursiveGetChildById("amigo1"), cfg.healing.amigo[1], true, 2)
   ligarLinhaCura(painel.healing:recursiveGetChildById("amigo2"), cfg.healing.amigo[2])
 
   -- Tools
-  ligarLinhaCura(painel.tools:recursiveGetChildById("haste"), cfg.tools.haste)
+  ligarLinhaCura(painel.tools:recursiveGetChildById("haste"), cfg.tools.haste, true, 3)
   local cg = painel.tools:recursiveGetChildById("changeGold")
   cg:setChecked(cfg.tools.changeGold)
   cg.onCheckChange = function(_, v) cfg.tools.changeGold = v salvar() end
@@ -315,9 +447,9 @@ local function vincular()
   ap.onCheckChange = function(_, v) cfg.tools.antiParalyze = v salvar() end
 
   -- Caster
-  ligarLinhaShooter(painel.caster:recursiveGetChildById("sh1"), cfg.caster.spell[1])
-  ligarLinhaShooter(painel.caster:recursiveGetChildById("sh2"), cfg.caster.spell[2])
-  ligarLinhaShooter(painel.caster:recursiveGetChildById("sh3"), cfg.caster.spell[3])
+  ligarLinhaShooter(painel.caster:recursiveGetChildById("sh1"), cfg.caster.spell[1], 1)
+  ligarLinhaShooter(painel.caster:recursiveGetChildById("sh2"), cfg.caster.spell[2], 1)
+  ligarLinhaShooter(painel.caster:recursiveGetChildById("sh3"), cfg.caster.spell[3], 1)
   ligarLinhaShooter(painel.caster:recursiveGetChildById("rn1"), cfg.caster.rune[1])
   ligarLinhaShooter(painel.caster:recursiveGetChildById("rn2"), cfg.caster.rune[2])
   local at = painel.caster:recursiveGetChildById("autoTarget")

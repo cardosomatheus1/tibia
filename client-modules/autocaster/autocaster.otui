@@ -42,6 +42,17 @@ LinhaCura < Panel
     anchors.verticalCenter: parent.verticalCenter
     margin-left: 24
 
+  UIWidget
+    id: magia
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 24
+    size: 32 32
+    image-source: /images/ui/panel_flat
+    image-border: 1
+    focusable: false
+    phantom: false
+
   TextEdit
     id: texto
     anchors.left: parent.left
@@ -79,6 +90,17 @@ LinhaShooter < Panel
     anchors.verticalCenter: parent.verticalCenter
     margin-left: 24
 
+  UIWidget
+    id: magia
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 24
+    size: 32 32
+    image-source: /images/ui/panel_flat
+    image-border: 1
+    focusable: false
+    phantom: false
+
   TextEdit
     id: texto
     anchors.left: parent.left
@@ -114,6 +136,62 @@ LinhaShooter < Panel
     margin-left: 260
     width: 56
     height: 20
+
+
+// ---- seletor de magias (abre ao clicar no icone) ----
+LinhaMagia < UIWidget
+  height: 36
+  anchors.left: parent.left
+  anchors.right: parent.right
+  focusable: true
+  phantom: false
+  text-align: left
+  text-offset: 42 10
+  color: #dddddd
+  font: verdana-11px-rounded
+
+  $focus:
+    background-color: #3a5a8a
+
+SeletorMagia < MainWindow
+  id: seletorMagia
+  !text: tr('Escolher magia')
+  size: 320 400
+
+  TextEdit
+    id: filtro
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 20
+
+  ScrollablePanel
+    id: lista
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: btCancelar.top
+    margin-top: 4
+    margin-bottom: 6
+    vertical-scrollbar: barra
+    layout:
+      type: verticalBox
+
+  VerticalScrollBar
+    id: barra
+    anchors.top: lista.top
+    anchors.bottom: lista.bottom
+    anchors.right: parent.right
+    step: 36
+    pixels-scroll: true
+
+  Button
+    id: btCancelar
+    !text: tr('Cancelar')
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    width: 80
+    height: 22
 
 // ================= aba: HEALING =================
 PainelHealing < Panel
