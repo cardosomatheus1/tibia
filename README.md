@@ -25,7 +25,10 @@ Validado de ponta a ponta em Ubuntu 24.04 (binário oficial + MariaDB):
 - Datapack **global completo** (client 15.25) carregado com o mapa `otservbr.otbm` (177 MB), badges, títulos e todos os módulos Lua — **zero erros no log**;
 - Log final: `OTServBR-Global server online!`;
 - Personagem **entrou em jogo** (Templo de Thais), andou e falou no chat;
-- Portas **7171** (login) e **7172** (game) aceitando conexões; ~1,3 GB de RAM em uso.
+- Portas **7171** (login) e **7172** (game) aceitando conexões; ~1,3 GB de RAM em uso;
+- **Caminhada e interação validadas**: do templo de Thais (32369,32241,7) até o depot (32352,32226,7), com o *Locker* e o *Depot chest* abrindo normalmente.
+
+![Personagem no depot de Thais com o Depot chest aberto](docs/images/servidor-depot-thais.png)
 
 > 🖼️ O screenshot em [`docs/images/servidor-em-jogo.png`](docs/images/servidor-em-jogo.png) foi capturado neste ambiente de teste **sem placa de vídeo**, usando sprites antigos (10.99) via protocolo legado 11.00 só para provar o login. **Com o client 15.25 (abaixo), o visual é o do Tibia moderno completo.**
 
