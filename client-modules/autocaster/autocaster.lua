@@ -351,53 +351,72 @@ end
 
 local PERFIL = "Default"
 
--- ATENCAO: o Canary manda para o client o "clientid" da vocacao
--- (data/XML/vocations.xml), que NAO e' a numeracao usada em SpellInfo.
---   clientid: knight 1, paladin 2, sorcerer 3, druid 4, monk 5,
---             elite knight 11, royal paladin 12, master sorc 13, elder druid 14
---   SpellInfo: sorcerer 1, druid 2, paladin 3, knight 4 (+4 = promovido)
--- Sem esta conversao um Sorcerer veria as magias de Paladin.
-local VOC_CLIENT_PARA_SPELL = {
-  [1] = 4, [2] = 3, [3] = 1, [4] = 2,     -- base
-  [11] = 8, [12] = 7, [13] = 5, [14] = 6, -- promovidas
+-- O SpellInfo que vem no OTClient e' uma tabela fixa e antiga: nao tem as
+-- vocacoes novas (Monk) nem as magias adicionadas depois. Por isso a lista
+-- de verdade vem do proprio servidor, gerada por gerar_spells.py em
+-- spells_servidor.lua. O SpellInfo continua servindo so para os ICONES.
+
+-- clientid da vocacao (data/XML/vocations.xml do Canary) -> nome
+local VOC_NOME = {
+  [0] = "none",
+  [1] = "knight",   [2] = "paladin",      [3] = "sorcerer",
+  [4] = "druid",    [5] = "monk",
+  [11] = "elite knight", [12] = "royal paladin",
+  [13] = "master sorcerer", [14] = "elder druid", [15] = "exalted monk",
 }
 
-local function vocacaoDeMagia(vocClient)
-  if not vocClient or vocClient == 0 then return nil end
-  -- servidores que ja usam a numeracao classica caem no fallback
-  return VOC_CLIENT_PARA_SPELL[vocClient] or vocClient
+-- promovida -> base (uma promovida tambem usa o que a base usa)
+local VOC_BASE = {
+  ["elite knight"] = "knight",     ["royal paladin"] = "paladin",
+  ["master sorcerer"] = "sorcerer", ["elder druid"] = "druid",
+  ["exalted monk"] = "monk",
+}
+
+local function nomeDaVocacao()
+  local p = jogador()
+  local id = p and p.getVocation and p:getVocation() or nil
+  if not id then return nil end
+  return VOC_NOME[id]
 end
 
--- a magia serve para a vocacao do personagem?
--- vocacoes: 1..4 base (sorc/druid/pala/knight), 5..8 promovidas
-local function serveParaVocacao(info, voc)
-  if not info.vocations then return true end
-  if not voc or voc == 0 then return true end   -- GM/sem vocacao ve tudo
-  if table.find(info.vocations, voc) then return true end
-  -- promovido tambem usa o que a base usa, e vice-versa
-  if voc > 4 and table.find(info.vocations, voc - 4) then return true end
-  if voc <= 4 and table.find(info.vocations, voc + 4) then return true end
+local function serveParaVocacao(vocs, minha)
+  if not vocs or #vocs == 0 then return true end
+  if not minha or minha == "none" then return true end   -- GM ve tudo
+  local base = VOC_BASE[minha]
+  for _, v in ipairs(vocs) do
+    if v == minha or (base and v == base) then return true end
+  end
   return false
 end
 
--- grupo 1 = ataque, 2 = cura, 3 = suporte (campo "group" de cada magia)
--- filtra pela vocacao e pelo level do personagem, como faz a spelllist
+-- grupo 1 = ataque, 2 = cura, 3 = suporte
+-- filtra pela vocacao e pelo level do personagem
 local function magiasPorGrupo(grupo)
   local lista = {}
-  local base = SpellInfo and SpellInfo[PERFIL]
-  if not base then return lista end
-
   local p = jogador()
-  local voc = vocacaoDeMagia(p and p.getVocation and p:getVocation() or nil)
+  local minha = nomeDaVocacao()
   local lvl = p and p.getLevel and p:getLevel() or 9999
 
-  for nome, info in pairs(base) do
-    if info.group and info.group[grupo] and info.words
-       and serveParaVocacao(info, voc)
-       and (info.level or 0) <= lvl then
-      table.insert(lista, { nome = nome, info = info })
+  if SpellsServidor then
+    for _, m in ipairs(SpellsServidor) do
+      if m.grupo == grupo and serveParaVocacao(m.vocacoes, minha)
+         and (m.level or 0) <= lvl then
+        table.insert(lista, { nome = m.nome, info = { words = m.palavras,
+                              mana = m.mana, level = m.level } })
+      end
+    end
+  else
+    -- sem a lista do servidor, cai na tabela do client
+    local base = SpellInfo and SpellInfo[PERFIL]
+    if base then
+      for nome, info in pairs(base) do
+        if info.group and info.group[grupo] and info.words then
+          table.insert(lista, { nome = nome, info = info })
+        end
+      end
     end
   end
+
   table.sort(lista, function(a, b)
     if (a.info.level or 0) ~= (b.info.level or 0) then
       return (a.info.level or 0) < (b.info.level or 0)
@@ -407,33 +426,36 @@ local function magiasPorGrupo(grupo)
   return lista
 end
 
-local function idDoIcone(info)
-  local id = tonumber(info.icon)
-  if not id and SpellIcons and SpellIcons[info.icon] then
-    id = SpellIcons[info.icon][1]
+-- o icone vem do SpellInfo do client, casado pelas palavras da magia
+local function iconePorPalavras(palavras)
+  local base = SpellInfo and SpellInfo[PERFIL]
+  if not base or not palavras then return nil end
+  for _, info in pairs(base) do
+    if info.words == palavras then
+      local id = tonumber(info.icon)
+      if not id and SpellIcons and SpellIcons[info.icon] then
+        id = SpellIcons[info.icon][1]
+      end
+      return id
+    end
   end
-  return id
+  return nil
+end
+
+local function idDoIcone(info)
+  return iconePorPalavras(info.words)
 end
 
 -- desenha o icone da magia num widget (mesma arte da hotkey)
 local function pintarIcone(w, palavras)
   if not w then return end
-  local base = SpellInfo and SpellInfo[PERFIL]
-  if not base or not palavras or palavras == "" then
-    w:setImageSource("")
-    return
+  local id = iconePorPalavras(palavras)
+  if id and Spells and Spells.getImageClip and SpelllistSettings then
+    w:setImageSource(SpelllistSettings[PERFIL].iconFile)
+    w:setImageClip(Spells.getImageClip(id, PERFIL))
+  else
+    w:setImageSource("")   -- magia nova, sem icone na tabela do client
   end
-  for _, info in pairs(base) do
-    if info.words == palavras then
-      local id = idDoIcone(info)
-      if id and Spells and Spells.getImageClip then
-        w:setImageSource(SpelllistSettings[PERFIL].iconFile)
-        w:setImageClip(Spells.getImageClip(id, PERFIL))
-        return
-      end
-    end
-  end
-  w:setImageSource("")
 end
 
 local janelaSeletor = nil
@@ -443,9 +465,7 @@ local function abrirSeletor(grupo, aoEscolher)
   if janelaSeletor then janelaSeletor:destroy() janelaSeletor = nil end
   janelaSeletor = g_ui.createWidget("SeletorMagia", rootWidget)
   local titulos = { [1] = tr("Magias de ataque"), [2] = tr("Magias de cura"), [3] = tr("Magias de suporte") }
-  local p = jogador()
-  local voc = vocacaoDeMagia(p and p.getVocation and p:getVocation() or nil)
-  local nomeVoc = (voc and VocationNames and VocationNames[voc]) or tr("sem vocacao")
+  local nomeVoc = nomeDaVocacao() or tr("sem vocacao")
   janelaSeletor:setText((titulos[grupo] or tr("Magias")) .. "  -  " .. nomeVoc)
 
   local lista = janelaSeletor:getChildById("lista")

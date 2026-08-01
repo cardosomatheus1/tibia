@@ -34,28 +34,38 @@ campo de filtro no topo.
 
 ![Seletor de magias](../../docs/images/autocaster-seletor.png)
 
-A lista sai do `SpellInfo` do próprio client e os ícones do sprite sheet
-`SpelllistSettings.iconFile`, recortados com `Spells.getImageClip()` — ou
-seja, acompanha automaticamente as magias que o seu client conhece. O
-filtro por tipo usa o campo `group` de cada magia: `1` ataque, `2` cura,
-`3` suporte.
+**A lista vem do seu servidor, não do client.** O `SpellInfo` que acompanha
+o OTClient é uma tabela fixa e antiga — não conhece o **Monk** nem as
+magias novas da 15.x. Por isso o `gerar_spells.py` lê
+`data/scripts/spells/**/*.lua` e produz o `spells_servidor.lua`, que o
+módulo carrega:
+
+```bash
+python3 client-modules/autocaster/gerar_spells.py
+```
+
+Rode de novo sempre que mexer nas magias do datapack. Hoje ele extrai 196
+magias (69 de ataque, 25 de cura, 102 de suporte), incluindo as 44 do Monk.
+
+![Magias de Monk](../../docs/images/autocaster-monk.png)
+
+Os **ícones** ainda saem do sprite sheet do client
+(`SpelllistSettings.iconFile`, recortados com `Spells.getImageClip()`),
+casados pelas palavras da magia. Magia que o client não conhece aparece sem
+ícone — é o caso das de Monk num client antigo; num client 15.x elas
+aparecem normalmente.
 
 A lista é **filtrada pela vocação e pelo level do personagem**: um
 sorcerer só vê magias de sorcerer, um paladin só as de paladin. Personagem
 sem vocação (GM) vê tudo.
 
-> ⚠️ **Numeração de vocação:** o Canary manda para o client o `clientid`
-> de `data/XML/vocations.xml`, que **não** é a numeração usada no
-> `SpellInfo` do OTClient:
->
-> | | knight | paladin | sorcerer | druid |
-> |---|---|---|---|---|
-> | clientid (Canary) | 1 | 2 | 3 | 4 |
-> | SpellInfo (OTClient) | 4 | 3 | 1 | 2 |
->
-> Sem converter, um sorcerer veria as magias de paladin. A tabela
-> `VOC_CLIENT_PARA_SPELL` no `autocaster.lua` faz essa conversão (com
-> fallback para servidores que já usam a numeração clássica).
+> ⚠️ **Vocação:** o servidor manda ao client o `clientid` de
+> `data/XML/vocations.xml` — que **não** bate com a numeração do
+> `SpellInfo` do OTClient (lá sorcerer é 1; no Canary o clientid 1 é
+> knight). Por isso a comparação é feita **por nome**: a tabela `VOC_NOME`
+> traduz o clientid para o nome da vocação e compara com a lista de cada
+> magia, tratando promovida→base (elite knight usa o que knight usa).
+> Cobre Monk e Exalted Monk, que nem existem na tabela do client.
 
 Linhas de **runa e potion** mostram um slot de item no lugar do ícone —
 basta arrastar o item para lá.

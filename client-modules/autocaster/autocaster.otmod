@@ -5,6 +5,6 @@ Module
   sandboxed: true
   autoload: true
   autoload-priority: 1000
-  scripts: [ autocaster ]
+  scripts: [ spells_servidor, autocaster ]
   @onLoad: init()
   @onUnload: terminate()
