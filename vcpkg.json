@@ -1,0 +1,47 @@
+{
+  "name": "canary",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "abseil",
+    "argon2",
+    "asio",
+    "bext-di",
+    "curl",
+    "eventpp",
+    "libmariadb",
+    "luajit",
+    "magic-enum",
+    "mio",
+    "parallel-hashmap",
+    "protobuf",
+    "pugixml",
+    "spdlog",
+    "zlib",
+    "bshoshany-thread-pool",
+    "atomic-queue",
+    "nlohmann-json",
+    "mbedtls"
+  ],
+  "features": {
+    "tests": {
+      "description": "Dependencies required to build tests.",
+      "dependencies": [
+        "gtest"
+      ]
+    },
+    "metrics": {
+      "description": "Enable OpenTelemetry metrics exporters",
+      "dependencies": [
+        {
+          "name": "opentelemetry-cpp",
+          "default-features": true,
+          "features": [
+            "otlp-http",
+            "prometheus"
+          ]
+        }
+      ]
+    }
+  },
+  "builtin-baseline": "cd61e1e26a038e82d6550a3ebbe0fbbfe7da78e3"
+}
