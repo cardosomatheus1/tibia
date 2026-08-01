@@ -30,7 +30,26 @@ Validado de ponta a ponta em Ubuntu 24.04 (binário oficial + MariaDB):
 
 ![Personagem no depot de Thais com o Depot chest aberto](docs/images/servidor-depot-thais.png)
 
-> 🖼️ O screenshot em [`docs/images/servidor-em-jogo.png`](docs/images/servidor-em-jogo.png) foi capturado neste ambiente de teste **sem placa de vídeo**, usando sprites antigos (10.99) via protocolo legado 11.00 só para provar o login. **Com o client 15.25 (abaixo), o visual é o do Tibia moderno completo.**
+### Client 15.25 oficial conectado
+
+O client gráfico oficial **15.25** também foi validado contra este servidor —
+login completo, mundo carregado e todos os sistemas modernos na interface
+(Store, Cyclopedia, Bestiary, Bosstiary, Charms, Prey, Imbuements, Forge,
+Wheel of Destiny):
+
+![Client 15.25 oficial em jogo](docs/images/client-15-25-em-jogo.png)
+
+Registro no log do servidor:
+
+```
+Claude has logged in. (Protocol: 1525, Profile: current)
+```
+
+As ferramentas usadas nessa validação (o serviço de login HTTP que o client
+15.x exige e um client de protocolo sem interface gráfica) estão em
+[`tools/protocol/`](tools/protocol/).
+
+> 🖼️ Já o screenshot em [`docs/images/servidor-em-jogo.png`](docs/images/servidor-em-jogo.png) usa sprites antigos (10.99) via protocolo legado 11.00 — foi a primeira prova de login, feita antes de subir o client moderno.
 
 ---
 
