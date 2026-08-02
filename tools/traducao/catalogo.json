@@ -3993,7 +3993,7 @@
    ]
   },
   "Hold on!": {
-   "pt": "",
+   "pt": "Espere!",
    "n": 7,
    "npc": [
     "captain_max",
@@ -5544,7 +5544,7 @@
    ]
   },
   "Greetings, daring adventurer. If you need a {passage}, let me know.": {
-   "pt": "",
+   "pt": "Saudações, aventureiro destemido. Se precisar de uma {passagem}, me avise.",
    "n": 4,
    "npc": [
     "captain_cookie",
@@ -8831,7 +8831,7 @@
    ]
   },
   "Do you seek a passage to Thais for |TRAVELCOST|?": {
-   "pt": "",
+   "pt": "Procura uma passagem para Thais por |TRAVELCOST|?",
    "n": 2,
    "npc": [
     "captain_chelop",
@@ -8913,7 +8913,7 @@
    ]
   },
   "Whoah. That was a large shadow passing by.": {
-   "pt": "",
+   "pt": "Uau. Foi uma sombra grande passando por ali.",
    "n": 2,
    "npc": [
     "captain_max",
@@ -8921,21 +8921,21 @@
    ]
   },
   "I'm sorry but we don't serve this route.": {
-   "pt": "",
+   "pt": "Sinto muito, mas não atendemos essa rota.",
    "n": 2,
    "npc": [
     "captain_max"
    ]
   },
   "Welcome on board, noble |PLAYERNAME|. I can bring you to {Calassa} or {Yalahar}, but only if you have the according mission from {Berenice} or {Wyrdin}.": {
-   "pt": "",
+   "pt": "Bem-vindo a bordo, nobre |PLAYERNAME|. Posso lhe levar a {Calassa} ou {Yalahar}, mas só se você tiver a missão correspondente de {Berenice} ou {Wyrdin}.",
    "n": 2,
    "npc": [
     "captain_max"
    ]
   },
   "Ahoy, |PLAYERNAME|. On a mission for the explorer society, eh?": {
-   "pt": "",
+   "pt": "Ahoy, |PLAYERNAME|. Numa missão para a explorer society, é?",
    "n": 2,
    "npc": [
     "captain_max",
@@ -8964,7 +8964,7 @@
    ]
   },
   "And there we go!": {
-   "pt": "",
+   "pt": "E lá vamos nós!",
    "n": 2,
    "npc": [
     "captain_waverider"
@@ -9838,7 +9838,7 @@
    ]
   },
   "Yeah, bye.": {
-   "pt": "",
+   "pt": "É, tchau.",
    "n": 2,
    "npc": [
     "frederik"
@@ -10525,7 +10525,7 @@
    ]
   },
   "Where do you want to go? To {Edron}, {Thais}, {Venore}, {Darashia}, {Ankrahmun}, {Yalahar} or {Port Hope}?": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Edron}, {Thais}, {Venore}, {Darashia}, {Ankrahmun}, {Yalahar} ou {Port Hope}?",
    "n": 2,
    "npc": [
     "jack_fate"
@@ -10540,7 +10540,7 @@
    ]
   },
   "I'm the captain of this sailing ship.": {
-   "pt": "",
+   "pt": "Sou o capitão deste navio à vela.",
    "n": 2,
    "npc": [
     "jack_fate"
@@ -11933,7 +11933,7 @@
    ]
   },
   "You don't even have that strange stake with you.": {
-   "pt": "",
+   "pt": "Você nem está com aquela estaca estranha.",
    "n": 2,
    "npc": [
     "tyrias"
@@ -19769,49 +19769,49 @@
    ]
   },
   "Ohhhh. So... <lowers his voice> you know who sent you so I sail you to you know where. <wink> <wink> It will cost 50 gold to cover my expenses. Is it that what you wish?": {
-   "pt": "",
+   "pt": "Ohhhh. Então... <baixa a voz> você sabe quem lhe mandou, então eu lhe levo para você sabe onde. <pisca> <pisca> Vai custar 50 gold para cobrir minhas despesas. É isso que você deseja?",
    "n": 1,
    "npc": [
     "captain_waverider"
    ]
   },
   "Sorry, my old ears can't hear you.": {
-   "pt": "",
+   "pt": "Desculpe, meus ouvidos velhos não conseguem ouvi-lo.",
    "n": 1,
    "npc": [
     "captain_waverider"
    ]
   },
   "<sigh> I knew someone else would claim all the treasure someday. But at least it will be you and not some greedy and selfish person. For a small fee of 200 gold pieces I will sail you to your rendezvous with fate. Do we have a deal?": {
-   "pt": "",
+   "pt": "<suspira> Eu sabia que outra pessoa reivindicaria todo o tesouro um dia. Mas pelo menos vai ser você, e não alguém ganancioso e egoísta. Por uma pequena taxa de 200 moedas de ouro, eu lhe levo ao seu encontro com o destino. Fechado?",
    "n": 1,
    "npc": [
     "captain_waverider"
    ]
   },
   "I have to admit this leaves me a bit puzzled.": {
-   "pt": "",
+   "pt": "Tenho que admitir que isso me deixa meio intrigado.",
    "n": 1,
    "npc": [
     "captain_waverider"
    ]
   },
   "Do you seek a passage back to Liberty Bay for |TRAVELCOST|?": {
-   "pt": "",
+   "pt": "Procura uma passagem de volta para Liberty Bay por |TRAVELCOST|?",
    "n": 1,
    "npc": [
     "captain_waverider_island"
    ]
   },
   "Where do you want to go? To {Liberty bay}?": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Liberty bay}?",
    "n": 1,
    "npc": [
     "captain_waverider_island"
    ]
   },
   "Greetings, daring adventurer. If you need a return {passage}, let me know.": {
-   "pt": "",
+   "pt": "Saudações, aventureiro destemido. Se precisar de uma {passagem} de volta, me avise.",
    "n": 1,
    "npc": [
     "captain_waverider_island"
@@ -26538,7 +26538,7 @@
    ]
   },
   "Hi there and welcome to my little magic shop.": {
-   "pt": "",
+   "pt": "Olá, e bem-vindo à minha lojinha de magia.",
    "n": 1,
    "npc": [
     "frederik"
@@ -33902,21 +33902,21 @@
    ]
   },
   "Passages to Edron, Thais, Venore, Darashia, Ankrahmun, Yalahar and Port Hope.": {
-   "pt": "",
+   "pt": "Passagens para Edron, Thais, Venore, Darashia, Ankrahmun, Yalahar e Port Hope.",
    "n": 1,
    "npc": [
     "jack_fate"
    ]
   },
   "I have to warn you - we might get into a tropical storm on that route. I'm not sure if my ship will withstand it. Do you really want to travel to Thais?": {
-   "pt": "",
+   "pt": "Preciso avisá-lo - podemos entrar numa tempestade tropical nessa rota. Não tenho certeza se meu navio vai aguentar. Você realmente quer viajar para Thais?",
    "n": 1,
    "npc": [
     "jack_fate"
    ]
   },
   "Welcome on board, Sir |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Bem-vindo a bordo, Sir |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "jack_fate"
@@ -41763,49 +41763,49 @@
    ]
   },
   "I heard the birds sing about her beauty. But how could a human rival the enchanting beauty of a {mermaid}?": {
-   "pt": "",
+   "pt": "Ouvi os pássaros cantarem sobre a beleza dela. Mas como um humano poderia rivalizar com a beleza encantadora de uma {sereia}?",
    "n": 1,
    "npc": [
     "ocelus"
    ]
   },
   "Oh my. Its not easy to impress a mermaid I guess. Please get me a {love poem}. I think elves are the greatest poets so their city seems like a good place to look for one.": {
-   "pt": "",
+   "pt": "Nossa. Não deve ser fácil impressionar uma sereia. Por favor, me consiga um {love poem}. Acho que os elfos são os maiores poetas, então a cidade deles parece um bom lugar para procurar um.",
    "n": 1,
    "npc": [
     "ocelus"
    ]
   },
   "Will you ask the mermaid Marina if she would date me?": {
-   "pt": "",
+   "pt": "Você vai perguntar à sereia Marina se ela sairia comigo?",
    "n": 1,
    "npc": [
     "ocelus"
    ]
   },
   "Thank you. How ironic, a human granting a djinn a wish.": {
-   "pt": "",
+   "pt": "Obrigado. Que irônico, um humano realizando o desejo de um djinn.",
    "n": 1,
    "npc": [
     "ocelus"
    ]
   },
   "Excellent. Here, with this little spell I enable you to recite the poem like a true elven poet. Now go and ask her for a date again.": {
-   "pt": "",
+   "pt": "Excelente. Tome, com esta pequena magia eu lhe permito recitar o poema como um verdadeiro poeta élfico. Agora vá e peça a ela para sair de novo.",
    "n": 1,
    "npc": [
     "ocelus"
    ]
   },
   "Did you get a love poem from Ab'Dendriel?": {
-   "pt": "",
+   "pt": "Você conseguiu um love poem em Ab'Dendriel?",
    "n": 1,
    "npc": [
     "ocelus"
    ]
   },
   "Greetings, dear visitor |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Saudações, caro visitante |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "ocelus"
@@ -42302,70 +42302,70 @@
    ]
   },
   "Did you hear that, too?": {
-   "pt": "",
+   "pt": "Você também ouviu isso?",
    "n": 1,
    "npc": [
     "one_eyed_joe"
    ]
   },
   "Hmm. No, I don't think so. I still feel this strange prickling in my toes.": {
-   "pt": "",
+   "pt": "Hmm. Não, acho que não. Ainda sinto esse formigamento estranho nos dedos do pé.",
    "n": 1,
    "npc": [
     "one_eyed_joe"
    ]
   },
   "Protect your ears? Hmm ... Wasn't there some fabulous seafarer who used wax or something to plug his ears? There was a story about horrible bird-women or something ...? No, sounds like hogwash, doesn't it.": {
-   "pt": "",
+   "pt": "Proteger os ouvidos? Hmm ... Não tinha um marinheiro fabuloso que usava cera ou algo assim para tampar os ouvidos? Tinha uma história sobre mulheres-pássaro horríveis ou algo assim...? Não, parece papo furado, não é?",
    "n": 1,
    "npc": [
     "one_eyed_joe"
    ]
   },
   "Great! Good luck and be careful down there!": {
-   "pt": "",
+   "pt": "Ótimo! Boa sorte e cuidado lá embaixo!",
    "n": 1,
    "npc": [
     "one_eyed_joe"
    ]
   },
   "I'm a pirate. Normally I'm sailing the seas, boarding other ships and gathering treasures. But at the moment my captain graciously assigned me to watch this {cursed} entrance.": {
-   "pt": "",
+   "pt": "Sou pirata. Normalmente navego pelos mares, abordo outros navios e junto tesouros. Mas no momento meu capitão gentilmente me designou para vigiar esta entrada {amaldiçoada}.",
    "n": 1,
    "npc": [
     "one_eyed_joe"
    ]
   },
   "I'm One-Eyed Joe. From Josephina, got that? And I regard this eye patch as a personal feature of beauty!": {
-   "pt": "",
+   "pt": "Sou One-Eyed Joe. De Josephina, entendeu? E considero este tapa-olho um traço pessoal de beleza!",
    "n": 1,
    "npc": [
     "one_eyed_joe"
    ]
   },
   "Good bye adventurer. It was nice to talk with you.": {
-   "pt": "",
+   "pt": "Até logo, aventureiro. Foi bom conversar com você.",
    "n": 1,
    "npc": [
     "one_eyed_joe"
    ]
   },
   "Ah, the brave adventurer who sought to destroy the evil crystal down there. Have you been successful?": {
-   "pt": "",
+   "pt": "Ah, o corajoso aventureiro que buscou destruir o cristal maligno lá embaixo. Você teve sucesso?",
    "n": 1,
    "npc": [
     "one_eyed_joe"
    ]
   },
   "Well done! But know this: The cursed crystal seems to regenerate over time. It could be necessary to come back and repeat whatever you have done down there.": {
-   "pt": "",
+   "pt": "Muito bem! Mas saiba disso: o cristal amaldiçoado parece se regenerar com o tempo. Pode ser necessário voltar e repetir o que você tiver feito lá embaixo.",
    "n": 1,
    "npc": [
     "one_eyed_joe"
    ]
   },
   "Hello there. I'm sorry, I hardly noticed you. I'm a bit nervous. The spooky {sounds} down there, you know": {
-   "pt": "",
+   "pt": "Olá. Desculpe, mal notei você. Estou meio nervoso. Aqueles {sons} assustadores lá embaixo, sabe",
    "n": 1,
    "npc": [
     "one_eyed_joe"
@@ -46866,21 +46866,21 @@
    ]
   },
   "Where do you want to go? To {Liberty bay} or to {Nargor}?": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Liberty bay} ou para {Nargor}?",
    "n": 1,
    "npc": [
     "sebastian"
    ]
   },
   "Do you want to sail Nargor for 50 gold coins?": {
-   "pt": "",
+   "pt": "Quer navegar para Nargor por 50 gold coins?",
    "n": 1,
    "npc": [
     "sebastian"
    ]
   },
   "Where do you want to go? To {Liberty bay} or to {Meriana}?": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Liberty bay} ou para {Meriana}?",
    "n": 1,
    "npc": [
     "sebastian_nargor"
@@ -51955,35 +51955,35 @@
    ]
   },
   "Brewster sent me a strange message about some strange hocus-pocus. I think it's nonsense, but since you have come that far, I'll play along. Are you ready?": {
-   "pt": "",
+   "pt": "Brewster me mandou uma mensagem estranha sobre um hocus-pocus estranho. Acho que é bobagem, mas já que você chegou até aqui, vou entrar na brincadeira. Está pronto?",
    "n": 1,
    "npc": [
     "tyrias"
    ]
   },
   "So receive my prayer: 'Your mind shall be a vessel for joy, light and wisdom' - uh, wow, something happened. Well, I guess that's it, but next time if you need some mumbo jumbo rather go to Chondur.": {
-   "pt": "",
+   "pt": "Então receba minha oração: 'Que sua mente seja um vaso de alegria, luz e sabedoria' - uh, uau, algo aconteceu. Bem, acho que é isso, mas da próxima vez, se precisar de mais algum blábláblá místico, procure Chondur.",
    "n": 1,
    "npc": [
     "tyrias"
    ]
   },
   "No problem, I have other things to do.": {
-   "pt": "",
+   "pt": "Sem problema, tenho outras coisas para fazer.",
    "n": 1,
    "npc": [
     "tyrias"
    ]
   },
   "A blessed stake? I don't believe in things like that. If anyone does, it's probably old Quentin.": {
-   "pt": "",
+   "pt": "Uma blessed stake? Não acredito nesse tipo de coisa. Se alguém acredita, deve ser o velho Quentin.",
    "n": 1,
    "npc": [
     "tyrias"
    ]
   },
   "I won't do that rubbish again. Go pester Chondur with your hocus-pocus.": {
-   "pt": "",
+   "pt": "Não vou fazer essa bobagem de novo. Vá incomodar Chondur com seu hocus-pocus.",
    "n": 1,
    "npc": [
     "tyrias"
@@ -61144,7 +61144,7 @@
    "n": 1
   },
   "love poem": {
-   "pt": "",
+   "pt": "love poem",
    "n": 1
   },
   "nightmare knights": {
@@ -61196,11 +61196,11 @@
    "n": 1
   },
   "cursed": {
-   "pt": "",
+   "pt": "amaldiçoada",
    "n": 1
   },
   "sounds": {
-   "pt": "",
+   "pt": "sons",
    "n": 1
   },
   "close": {
