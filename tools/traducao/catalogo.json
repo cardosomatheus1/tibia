@@ -2038,7 +2038,7 @@
    ]
   },
   "You have no cookie that I'd like.": {
-   "pt": "",
+   "pt": "Você não tem biscoito que me agrade.",
    "n": 11,
    "npc": [
     "ariella",
@@ -3871,7 +3871,7 @@
    ]
   },
   "Sorry, you do not have enough gold coins.": {
-   "pt": "",
+   "pt": "Desculpe, você não tem gold coins suficientes.",
    "n": 8,
    "npc": [
     "bank_system",
@@ -3881,7 +3881,7 @@
    ]
   },
   "Sorry, you do not have enough crystal coins.": {
-   "pt": "",
+   "pt": "Desculpe, você não tem crystal coins suficientes.",
    "n": 8,
    "npc": [
     "bank_system",
@@ -4344,7 +4344,7 @@
    ]
   },
   "You do not have all the required items.": {
-   "pt": "",
+   "pt": "Você não tem todos os itens exigidos.",
    "n": 6,
    "npc": [
     "ariella",
@@ -4962,7 +4962,7 @@
    ]
   },
   "Sorry, but you can't deposit that much.": {
-   "pt": "",
+   "pt": "Desculpe, mas você não pode depositar tudo isso.",
    "n": 6,
    "npc": [
     "paulie",
@@ -4971,7 +4971,7 @@
    ]
   },
   "As you wish. Is there something else I can do for you?": {
-   "pt": "",
+   "pt": "Como quiser. Posso fazer mais alguma coisa por você?",
    "n": 6,
    "npc": [
     "bank_system",
@@ -4981,7 +4981,7 @@
    ]
   },
   "Are you sure you wish to withdraw": {
-   "pt": "",
+   "pt": "Tem certeza de que deseja sacar",
    "n": 6,
    "npc": [
     "paulie",
@@ -5697,7 +5697,7 @@
    ]
   },
   "Fine.": {
-   "pt": "",
+   "pt": "Bem.",
    "n": 4,
    "npc": [
     "dallheim",
@@ -5993,7 +5993,7 @@
    ]
   },
   "Please tell me how much gold it is you would like to deposit.": {
-   "pt": "",
+   "pt": "Diga-me quanto ouro deseja depositar.",
    "n": 4,
    "npc": [
     "bank_system",
@@ -6003,7 +6003,7 @@
    ]
   },
   "Alright, we have added the amount of": {
-   "pt": "",
+   "pt": "Certo, acrescentamos a quantia de",
    "n": 4,
    "npc": [
     "paulie",
@@ -6012,7 +6012,7 @@
    ]
   },
   "Please tell me how much gold you would like to withdraw.": {
-   "pt": "",
+   "pt": "Diga-me quanto ouro deseja sacar.",
    "n": 4,
    "npc": [
     "bank_system",
@@ -6022,7 +6022,7 @@
    ]
   },
   "The customer is king! Come back anytime you want to if you wish to {withdraw} your money.": {
-   "pt": "",
+   "pt": "O cliente é rei! Volte quando quiser se desejar {sacar} seu dinheiro.",
    "n": 4,
    "npc": [
     "bank_system",
@@ -6032,7 +6032,7 @@
    ]
   },
   "How many platinum coins would you like to get?": {
-   "pt": "",
+   "pt": "Quantas platinum coins você quer?",
    "n": 4,
    "npc": [
     "bank_system",
@@ -6042,7 +6042,7 @@
    ]
   },
   "How many crystal coins would you like to get?": {
-   "pt": "",
+   "pt": "Quantas crystal coins você quer?",
    "n": 4,
    "npc": [
     "bank_system",
@@ -6052,7 +6052,7 @@
    ]
   },
   "How many crystal coins would you like to change into platinum?": {
-   "pt": "",
+   "pt": "Quantas crystal coins quer trocar por platinum?",
    "n": 4,
    "npc": [
     "bank_system",
@@ -7200,7 +7200,7 @@
    ]
   },
   "Your account balance is": {
-   "pt": "",
+   "pt": "O saldo da sua conta é",
    "n": 3,
    "npc": [
     "paulie",
@@ -7209,7 +7209,7 @@
    ]
   },
   "Here you are,": {
-   "pt": "",
+   "pt": "Aqui está,",
    "n": 3,
    "npc": [
     "paulie",
@@ -7227,7 +7227,7 @@
    ]
   },
   "Would you like to change your platinum coins into gold or crystal?": {
-   "pt": "",
+   "pt": "Quer trocar suas platinum coins por gold ou crystal?",
    "n": 3,
    "npc": [
     "paulie",
@@ -7236,7 +7236,7 @@
    ]
   },
   "How many platinum coins would you like to change into gold?": {
-   "pt": "",
+   "pt": "Quantas platinum coins quer trocar por gold?",
    "n": 3,
    "npc": [
     "paulie",
@@ -9159,7 +9159,7 @@
    ]
   },
   "Want to know what monsters are good for you at your level? Just ask me!": {
-   "pt": "",
+   "pt": "Quer saber que monstros servem para o seu nível? É só perguntar!",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9167,7 +9167,7 @@
    ]
   },
   "Are you injured or poisoned? I can help you.": {
-   "pt": "",
+   "pt": "Está ferido ou envenenado? Posso te ajudar.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9175,7 +9175,7 @@
    ]
   },
   "For Rookgaard! For Tibia!": {
-   "pt": "",
+   "pt": "Por Rookgaard! Por Tibia!",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9183,7 +9183,7 @@
    ]
   },
   "Greetings, |PLAYERNAME|! You're looking really bad. Let me heal your wounds.": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|! Você está com péssima aparência. Deixe-me curar suas feridas.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9191,7 +9191,7 @@
    ]
   },
   "<nods> At your service, |PLAYERNAME|, protecting the {village} from {monsters}.": {
-   "pt": "",
+   "pt": "<acena> Ao seu dispor, |PLAYERNAME|, protegendo o {vilarejo} dos {monstros}.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9199,7 +9199,7 @@
    ]
   },
   "Hmm, |PLAYERNAME|. I really don't know if you should go into the wilderness without a shield. You should earn some money by hunting rats under the village first until you can afford at least a wooden shield.": {
-   "pt": "",
+   "pt": "Hmm, |PLAYERNAME|. Não sei se você devia entrar na selva sem escudo. Junte dinheiro caçando ratos sob o vilarejo até poder comprar ao menos um wooden shield.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9207,7 +9207,7 @@
    ]
   },
   "I'm the guard of this bridge. I defend Rookgaard against the beasts of the {wilderness} and the {dungeons}, and even of the stinking {sewers}.": {
-   "pt": "",
+   "pt": "Sou o guarda desta ponte. Defendo Rookgaard das feras da {selva}, das {masmorras} e até dos {esgotos} fedorentos.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9215,7 +9215,7 @@
    ]
   },
   "My duty is eternal. Time is of no importance.": {
-   "pt": "",
+   "pt": "Meu dever é eterno. O tempo não importa.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9223,7 +9223,7 @@
    ]
   },
   "Before you fight monsters, deposit your money there. If you die, you won't lose it if it's save in the bank.": {
-   "pt": "",
+   "pt": "Antes de enfrentar monstros, deposite seu dinheiro lá. Se morrer, não o perde se estiver guardado no banco.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9231,7 +9231,7 @@
    ]
   },
   "I'm an expert concerning the wildlife and {monsters} on this island.": {
-   "pt": "",
+   "pt": "Sou perito na vida selvagem e nos {monstros} desta ilha.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9239,7 +9239,7 @@
    ]
   },
   "There are two types of spiders on this island: normal spiders and poison spiders. As their name says, the latter ones can poison you which will cause a constant loss of your health. Beware of them!": {
-   "pt": "",
+   "pt": "Há dois tipos de aranha nesta ilha: as normais e as venenosas. Como o nome diz, as últimas te envenenam, causando perda contínua de vida. Cuidado com elas!",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9247,7 +9247,7 @@
    ]
   },
   "Once you have upgraded your starter {equipment} a little - maybe leather stuff - and got a better weapon as well as a shield, you should be able to kill trolls.": {
-   "pt": "",
+   "pt": "Depois de melhorar um pouco seu {equipamento} inicial — talvez peças de couro — e conseguir arma melhor e um escudo, você deve dar conta de trolls.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9255,7 +9255,7 @@
    ]
   },
   "You need a stronger weapon than the starter club to kill wolves. Maybe a {sabre} or a short {sword} will do.": {
-   "pt": "",
+   "pt": "Você precisa de arma mais forte que a clava inicial para matar lobos. Talvez um {sabre} ou uma {espada} curta resolvam.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9263,7 +9263,7 @@
    ]
   },
   "Minotaurs are very strong. You will need a group of people or at least level 6 and good equipment to be able to kill them.": {
-   "pt": "",
+   "pt": "Minotauros são muito fortes. Você vai precisar de um grupo ou de pelo menos nível 6 e bom equipamento para matá-los.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9271,7 +9271,7 @@
    ]
   },
   "They are a little tougher than they look like, but they're still good beginner monsters.": {
-   "pt": "",
+   "pt": "São um pouco mais duros do que parecem, mas ainda assim bons monstros para iniciante.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -9279,7 +9279,7 @@
    ]
   },
   "The skeletons on this island are usually fairly hidden. They are often found near graves and always underground. Beware of their evil life drain.": {
-   "pt": "",
+   "pt": "Os esqueletos desta ilha ficam bem escondidos. Costumam aparecer perto de túmulos e sempre no subsolo. Cuidado com o dreno de vida deles.",
    "n": 2,
    "npc": [
     "dallheim",
@@ -10758,7 +10758,7 @@
    ]
   },
   "STAY AWAY FROM THAT HOLE!": {
-   "pt": "",
+   "pt": "FIQUE LONGE DAQUELE BURACO!",
    "n": 2,
    "npc": [
     "loui"
@@ -11744,7 +11744,7 @@
    ]
   },
   "You do not have the staff.": {
-   "pt": "",
+   "pt": "Você não está com o cajado.",
    "n": 2,
    "npc": [
     "simon_the_beggar"
@@ -22447,63 +22447,63 @@
    ]
   },
   "The most dangerous monsters of Rookgaard are on the other side of this bridge.": {
-   "pt": "",
+   "pt": "Os monstros mais perigosos de Rookgaard estão do outro lado desta ponte.",
    "n": 1,
    "npc": [
     "dallheim"
    ]
   },
   "I'll crush all monsters who dare to attack our base.": {
-   "pt": "",
+   "pt": "Esmago todo monstro que ousar atacar nossa base.",
    "n": 1,
    "npc": [
     "dallheim"
    ]
   },
   "Dallheim, at your service.": {
-   "pt": "",
+   "pt": "Dallheim, ao seu dispor.",
    "n": 1,
    "npc": [
     "dallheim"
    ]
   },
   "I have to stay here, sorry. But I can heal you if you are wounded. I have also valuable information about {monsters}.": {
-   "pt": "",
+   "pt": "Preciso ficar aqui, desculpe. Mas posso te curar se estiver ferido. Também tenho informações valiosas sobre {monstros}.",
    "n": 1,
    "npc": [
     "dallheim"
    ]
   },
   "I'll protect all citizens alike. That is my {job} and duty.": {
-   "pt": "",
+   "pt": "Protejo todos os moradores por igual. É a minha {profissão} e o meu dever.",
    "n": 1,
    "npc": [
     "dallheim"
    ]
   },
   "Did you know that rats are among the most dangerous animals in whole Tibia? Each day, they kill many people who are overestimating their powers. Don't be one of them!": {
-   "pt": "",
+   "pt": "Sabia que os ratos estão entre os animais mais perigosos de toda Tibia? Todo dia matam gente que superestima a própria força. Não seja um deles!",
    "n": 1,
    "npc": [
     "dallheim"
    ]
   },
   "Orcs are a constant menace. There are even stronger species of orcs on the main continent.": {
-   "pt": "",
+   "pt": "Orcs são uma ameaça constante. E há espécies ainda mais fortes no continente.",
    "n": 1,
    "npc": [
     "dallheim"
    ]
   },
   "A bear can easily kill you if you don't pay attention.": {
-   "pt": "",
+   "pt": "Um urso te mata fácil se você não prestar atenção.",
    "n": 1,
    "npc": [
     "dallheim"
    ]
   },
   "Wasps are the fastest monsters on this island and they poison you. If you ever run into one and are already low of health, fear for your life!": {
-   "pt": "",
+   "pt": "Vespas são os monstros mais rápidos desta ilha e te envenenam. Se encontrar uma já com pouca vida, tema pela sua vida!",
    "n": 1,
    "npc": [
     "dallheim"
@@ -37735,49 +37735,49 @@
    ]
   },
   "BEWARE! Beware of that hole!": {
-   "pt": "",
+   "pt": "CUIDADO! Cuidado com aquele buraco!",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "What are you doing here?? Get away from that hole!": {
-   "pt": "",
+   "pt": "O que você está fazendo aqui?? Saia de perto daquele buraco!",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "My name is Loui.": {
-   "pt": "",
+   "pt": "Meu nome é Loui.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "I'm a {monk}. I wanted to do something here, but I forgot what it was when I fell in that {hole}.": {
-   "pt": "",
+   "pt": "Sou {monge}. Eu vim fazer algo aqui, mas esqueci o quê quando caí naquele {buraco}.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "I'm a humble servant of the {gods}.": {
-   "pt": "",
+   "pt": "Sou um humilde servo dos {deuses}.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "They created Tibia and all lifeforms.": {
-   "pt": "",
+   "pt": "Eles criaram Tibia e todas as formas de vida.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "I have no idea how long I've been in this {hole}. It seemed like an eternity!": {
-   "pt": "",
+   "pt": "Não faço ideia de quanto tempo fiquei naquele {buraco}. Pareceu uma eternidade!",
    "n": 1,
    "npc": [
     "loui"
@@ -37798,35 +37798,35 @@
    ]
   },
   "Sorry, I'm out of mana and ingredients, please visit Cipfried in town.": {
-   "pt": "",
+   "pt": "Desculpe, estou sem mana e sem ingredientes; procure o Cipfried na vila.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "Everything around us, that is Tibia.": {
-   "pt": "",
+   "pt": "Tudo à nossa volta, isso é Tibia.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "Most adventurers take their first steps there.": {
-   "pt": "",
+   "pt": "É onde a maioria dos aventureiros dá os primeiros passos.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "Pah, king! He should do something about this {hole}!": {
-   "pt": "",
+   "pt": "Pff, rei! Ele devia fazer algo sobre este {buraco}!",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "This is the place where everything starts.": {
-   "pt": "",
+   "pt": "É aqui que tudo começa.",
    "n": 1,
    "npc": [
     "loui"
@@ -37854,7 +37854,7 @@
    ]
   },
   "The gods blessed Tibia with abundant forms of life.": {
-   "pt": "",
+   "pt": "Os deuses abençoaram Tibia com formas de vida em abundância.",
    "n": 1,
    "npc": [
     "loui"
@@ -37868,35 +37868,35 @@
    ]
   },
   "I'm penniless and poor as becomes a humble monk like me.": {
-   "pt": "",
+   "pt": "Estou sem um tostão e pobre, como convém a um humilde monge como eu.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "She owns a shop in town.": {
-   "pt": "",
+   "pt": "Ela tem uma loja na vila.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "She owns a bar in town.": {
-   "pt": "",
+   "pt": "Ela tem um bar na vila.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "Waaaah! Don't shock me like that!": {
-   "pt": "",
+   "pt": "Aaaah! Não me assuste assim!",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "He has his own monsters, I believe.": {
-   "pt": "",
+   "pt": "Ele tem os monstros dele, eu acho.",
    "n": 1,
    "npc": [
     "loui"
@@ -43328,7 +43328,7 @@
    ]
   },
   "Welcome |PLAYERNAME|! Special newcomer offer, today only! Deposit some money - or {deposit ALL} of your money! - and get 50 gold for free!": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Oferta especial para recém-chegados, só hoje! Deposite algum dinheiro — ou {depositar tudo}! — e ganhe 50 de ouro de graça!",
    "n": 1,
    "npc": [
     "paulie"
@@ -46716,14 +46716,14 @@
    ]
   },
   "Evil little beasts... I hope someone helps me fight them.": {
-   "pt": "",
+   "pt": "Bichinhos malvados... espero que alguém me ajude a combatê-los.",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Nasty creepy crawlies!": {
-   "pt": "",
+   "pt": "Bichos nojentos!",
    "n": 1,
    "npc": [
     "santiago"
@@ -48550,21 +48550,21 @@
    ]
   },
   "Alms! Alms for the poor!": {
-   "pt": "",
+   "pt": "Esmola! Esmola para os pobres!",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Sir, Ma'am, have a gold coin to spare?": {
-   "pt": "",
+   "pt": "Senhor, senhora, tem uma moeda de ouro sobrando?",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "I need help! Please help me!": {
-   "pt": "",
+   "pt": "Preciso de ajuda! Por favor, me ajude!",
    "n": 1,
    "npc": [
     "simon_the_beggar"
@@ -48655,28 +48655,28 @@
    ]
   },
   "Sorry, but you need to have a premium account!": {
-   "pt": "",
+   "pt": "Desculpe, mas você precisa ter conta premium!",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Have you brought a cookie for the poor?": {
-   "pt": "",
+   "pt": "Trouxe um biscoito para o pobre?",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "I need gold. Can you spare 100 gold pieces for me?": {
-   "pt": "",
+   "pt": "Preciso de ouro. Pode me dar 100 moedas de ouro?",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "You haven't got enough money for me.": {
-   "pt": "",
+   "pt": "Você não tem dinheiro suficiente para mim.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
@@ -48690,7 +48690,7 @@
    ]
   },
   "Sorry, that's not enough.": {
-   "pt": "",
+   "pt": "Desculpe, não é suficiente.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
@@ -54444,63 +54444,63 @@
    ]
   },
   "No monster shall go past me.": {
-   "pt": "",
+   "pt": "Nenhum monstro passa por mim.",
    "n": 1,
    "npc": [
     "zerbrus"
    ]
   },
   "The premium side of Rookgaard lies beyond.": {
-   "pt": "",
+   "pt": "O lado premium de Rookgaard fica adiante.",
    "n": 1,
    "npc": [
     "zerbrus"
    ]
   },
   "Zerbrus, at your service.": {
-   "pt": "",
+   "pt": "Zerbrus, ao seu dispor.",
    "n": 1,
    "npc": [
     "zerbrus"
    ]
   },
   "I have to stay here, sorry. But I can {heal} you if you are wounded. I have also valuable information about {monsters}.": {
-   "pt": "",
+   "pt": "Preciso ficar aqui, desculpe. Mas posso te {curar} se estiver ferido. Também tenho informações valiosas sobre {monstros}.",
    "n": 1,
    "npc": [
     "zerbrus"
    ]
   },
   "I'm not a gossiper, but if you want to know something about a certain Rookgaardian, ask.": {
-   "pt": "",
+   "pt": "Não sou fofoqueiro, mas se quiser saber de algum morador de Rookgaard, pergunte.",
    "n": 1,
    "npc": [
     "zerbrus"
    ]
   },
   "They're not that dangerous, but don't let yourself get cornered by many of them. They still can hurt.": {
-   "pt": "",
+   "pt": "Não são tão perigosos, mas não se deixe encurralar por vários. Ainda assim machucam.",
    "n": 1,
    "npc": [
     "zerbrus"
    ]
   },
   "The orcs have a hideout under the troll cave, just descend deep. Still, be very careful!": {
-   "pt": "",
+   "pt": "Os orcs têm um esconderijo sob a caverna dos trolls; é só descer bem fundo. Mas tome muito cuidado!",
    "n": 1,
    "npc": [
     "zerbrus"
    ]
   },
   "There is a bear cave close to this bridge. Be careful, though, they hit hard!": {
-   "pt": "",
+   "pt": "Há uma caverna de ursos perto desta ponte. Mas cuidado, eles batem forte!",
    "n": 1,
    "npc": [
     "zerbrus"
    ]
   },
   "Wasp hives exist only behind the north bridge, so ask {Dallheim} for information. I'm glad there are no wasps here. They always make me jump.": {
-   "pt": "",
+   "pt": "Colmeias de vespa só existem além da ponte norte, então pergunte ao {Dallheim}. Ainda bem que não há vespas aqui. Elas sempre me assustam.",
    "n": 1,
    "npc": [
     "zerbrus"
@@ -56842,7 +56842,7 @@
    "n": 9
   },
   "hole": {
-   "pt": "",
+   "pt": "buraco",
    "n": 9
   },
   "armors": {
@@ -57138,7 +57138,7 @@
    "n": 6
   },
   "sword": {
-   "pt": "",
+   "pt": "espada",
    "n": 6
   },
   "trolls": {
@@ -57434,7 +57434,7 @@
    "n": 4
   },
   "wilderness": {
-   "pt": "",
+   "pt": "selva",
    "n": 4
   },
   "background": {
@@ -58546,7 +58546,7 @@
    "n": 2
   },
   "sabre": {
-   "pt": "",
+   "pt": "sabre",
    "n": 2
   },
   "bears": {
@@ -59094,7 +59094,7 @@
    "n": 2
   },
   "them": {
-   "pt": "",
+   "pt": "eles",
    "n": 2
   },
   "celebration": {
@@ -59246,15 +59246,15 @@
    "n": 2
   },
   "action": {
-   "pt": "",
+   "pt": "ação",
    "n": 2
   },
   "hurt": {
-   "pt": "",
+   "pt": "machucar",
    "n": 2
   },
   "right": {
-   "pt": "",
+   "pt": "certo",
    "n": 2
   },
   "okay": {
@@ -61546,7 +61546,7 @@
    "n": 1
   },
   "clearer": {
-   "pt": "",
+   "pt": "mais claro",
    "n": 1
   },
   "nargor": {
