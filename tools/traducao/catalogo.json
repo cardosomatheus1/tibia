@@ -6664,7 +6664,7 @@
    ]
   },
   "You do not need any healing right now.": {
-   "pt": "",
+   "pt": "Você não precisa de cura no momento.",
    "n": 3,
    "npc": [
     "enpa-deia_pema",
@@ -9893,7 +9893,7 @@
    ]
   },
   "Each vocation has their own unique spells to enhance their fighting or defense, which none of the other vocations can use, and which you can only learn at a spell trainer of your vocation.": {
-   "pt": "",
+   "pt": "Cada vocação tem magias próprias e únicas para reforçar seu ataque ou defesa, que nenhuma outra vocação pode usar, e que só se aprende com um instrutor de magias da sua vocação.",
    "n": 2,
    "npc": [
     "garamond",
@@ -9901,7 +9901,7 @@
    ]
   },
   "Most of the major cities are on the Tibian mainland, such as the rich merchant city of Venore, for example. You will find spell teachers for your vocation in almost every major city.": {
-   "pt": "",
+   "pt": "A maioria das grandes cidades fica no continente de Tibia, como a rica cidade mercante de Venore, por exemplo. Você encontra professores de magia da sua vocação em quase toda cidade grande.",
    "n": 2,
    "npc": [
     "garamond",
@@ -9909,7 +9909,7 @@
    ]
   },
   "Tibia is the world we live in. Rookgaard is not far off from the Tibian {mainland}, though it's a tricky passage with contrary winds. On the mainland, you will find more adventure, mystery and monsters and can prove yourself a hero or villain.": {
-   "pt": "",
+   "pt": "Tibia é o mundo em que vivemos. Rookgaard não fica longe do {continente} de Tibia, embora a travessia seja traiçoeira, com ventos contrários. No continente você vai encontrar mais aventura, mistério e monstros, e pode se provar herói ou vilão.",
    "n": 2,
    "npc": [
     "garamond",
@@ -9917,7 +9917,7 @@
    ]
   },
   "Go and be careful. Remember what you have learned!": {
-   "pt": "",
+   "pt": "Vá e tenha cuidado. Lembre-se do que aprendeu!",
    "n": 2,
    "npc": [
     "garamond",
@@ -11132,7 +11132,7 @@
    ]
   },
   "Waste not, want not!": {
-   "pt": "",
+   "pt": "Quem não desperdiça, não passa necessidade!",
    "n": 2,
    "npc": [
     "plunderpurse",
@@ -11140,7 +11140,7 @@
    ]
   },
   "Don't burden yourself with too much cash - store it here!": {
-   "pt": "",
+   "pt": "Não se sobrecarregue com dinheiro demais - guarde aqui!",
    "n": 2,
    "npc": [
     "plunderpurse",
@@ -11148,7 +11148,7 @@
    ]
   },
   "Don't take the money and run - deposit it and walk instead!": {
-   "pt": "",
+   "pt": "Não pegue o dinheiro e corra - deposite e vá andando!",
    "n": 2,
    "npc": [
     "plunderpurse",
@@ -11156,7 +11156,7 @@
    ]
   },
   "I'm afraid this service is not available to you until you reach the World mainland.": {
-   "pt": "",
+   "pt": "Receio que este serviço não esteja disponível para você até chegar ao continente.",
    "n": 2,
    "npc": [
     "plunderpurse",
@@ -27130,7 +27130,7 @@
    ]
   },
   "Would you like to learn {physical strike} magic spell for 800?": {
-   "pt": "",
+   "pt": "Gostaria de aprender a magia {physical strike} por 800?",
    "n": 1,
    "npc": [
     "garamond"
@@ -27158,154 +27158,154 @@
    ]
   },
   "In this category I have '{light healing}' and '{cure poison}'.": {
-   "pt": "",
+   "pt": "Nesta categoria eu tenho '{light healing}' e '{cure poison}'.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "In this category I have '{find person}', '{magic rope}', '{levitate}', '{light}', '{great light}', '{haste}', '{poison field}', '{fire field}', '{light magic missile}' and '{energy field}'.": {
-   "pt": "",
+   "pt": "Nesta categoria eu tenho '{find person}', '{magic rope}', '{levitate}', '{light}', '{great light}', '{haste}', '{poison field}', '{fire field}', '{light magic missile}' e '{energy field}'.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "In this category I have '{death strike}', '{apprentice's strike}', '{energy strike}', '{terra strike}', '{flame strike}', '{ice strike}', '{physical strike}', '{ice wave}'.": {
-   "pt": "",
+   "pt": "Nesta categoria eu tenho '{death strike}', '{apprentice's strike}', '{energy strike}', '{terra strike}', '{flame strike}', '{ice strike}', '{physical strike}', '{ice wave}'.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "I can teach you {healing spells}, {support spells} and {attack spells}. What kind of spell do you wish to learn?": {
-   "pt": "",
+   "pt": "Posso lhe ensinar {healing spells}, {support spells} e {attack spells}. Que tipo de magia deseja aprender?",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "I am Garamond Starstream.": {
-   "pt": "",
+   "pt": "Eu sou Garamond Starstream.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Did you not listen? I am the teacher of druid and sorcerer spells for level 8 to 18. I teach young adventurers spells they can use once they have the proper vocation - druid or sorcerer.": {
-   "pt": "",
+   "pt": "Você não estava ouvindo? Sou o professor de magias de druid e sorcerer do level 8 ao 18. Ensino aos jovens aventureiros magias que eles poderão usar assim que tiverem a vocação certa - druid ou sorcerer.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "I have an old friend there. Haven't heard from him in a while.": {
-   "pt": "",
+   "pt": "Tenho um velho amigo lá. Faz um tempo que não tenho notícias dele.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Oh, it's not too bad here, believe me. At least I always get young and enthusiast disciples! Though I must confess I miss the vastness of the Tibian plains. <sighs>": {
-   "pt": "",
+   "pt": "Ah, não é tão ruim aqui, acredite. Pelo menos sempre recebo discípulos jovens e entusiasmados! Embora eu confesse que sinto falta da imensidão das planícies de Tibia. <suspira>",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "A kind old hunter. He loves to see young life around, taking on the ways and lays of the land. If you have any question, ask Inigo for help.": {
-   "pt": "",
+   "pt": "Um velho caçador bondoso. Adora ver vida jovem por perto, aprendendo os caminhos e os costumes da terra. Se tiver qualquer dúvida, peça ajuda a Inigo.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Roughened and toughened by life's tragedies. A good man, but somber.": {
-   "pt": "",
+   "pt": "Endurecido e calejado pelas tragédias da vida. Um bom homem, mas sombrio.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Yes, child. If you wish to learn a spell, tell me.": {
-   "pt": "",
+   "pt": "Sim, criança. Se deseja aprender uma magia, diga.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "A very headstrong young man, though I appreciate his devotion to the craft of potion-making. No respect for senior authority or age at all! Except maybe for a little soft spot for Mr Morris.": {
-   "pt": "",
+   "pt": "Um jovem muito teimoso, embora eu aprecie a devoção dele ao ofício das potions. Nenhum respeito por autoridade ou idade! Exceto, talvez, por um fraquinho pelo Mr Morris.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "A strange young man. He seems driven, to my mind. By what force, I do not know. I take it the world needs adventurers such as him.": {
-   "pt": "",
+   "pt": "Um jovem estranho. Movido por algo, a meu ver. Por que força, não sei. Suponho que o mundo precise de aventureiros como ele.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Redeeming one's soul by becoming a clerk? Not very likely. Once a pirate, always a pirate. But he's a charming old rogue.": {
-   "pt": "",
+   "pt": "Redimir a própria alma virando caixa de banco? Pouco provável. Pirata uma vez, pirata sempre. Mas é um velho patife encantador.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Not a half bad cook, truly. Must have been that squirrel diet, it seems to have lead him to discover a new cuisine - everything to forget the bad taste of squirrels, he said.": {
-   "pt": "",
+   "pt": "Nada mau como cozinheiro, de verdade. Deve ter sido aquela dieta de esquilos; parece que o levou a descobrir uma culinária nova - tudo para esquecer o gosto ruim de esquilo, disse ele.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "He is proficient in the martial arts. A very skilled teacher of spells for knights and paladins. If that is your vocation, you should talk to Ser Tybald.": {
-   "pt": "",
+   "pt": "Ele é proficiente nas artes marciais. Um professor muito habilidoso de magias para knights e paladins. Se essa for a sua vocação, procure Ser Tybald.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Ah, yes. Travelled with Plunderpurse a lot as I recall. Captain Plunderpurse, then. Got his head full of numbers and statistics, that boy.": {
-   "pt": "",
+   "pt": "Ah, sim. Viajou muito com Plunderpurse, pelo que lembro. Capitão Plunderpurse, na época. A cabeça daquele rapaz é cheia de números e estatísticas.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "A very intelligent girl. Prefers to listen to wild animals' noises instead of humans', which is quite understandable when you think about it. However, she's also a very apt healer and can give you advice on your choice of vocation.": {
-   "pt": "",
+   "pt": "Uma garota muito inteligente. Prefere ouvir o barulho dos animais selvagens ao dos humanos, o que é bem compreensível quando se pensa a respeito. Mas ela também é uma curandeira muito capaz e pode lhe aconselhar na escolha da vocação.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Your choice of vocation will determine your life in Tibia, and the skills and fighting techniques you may use. There are four vocation: knight, druid, paladin and sorcerer. If you want to know more about them, talk to Oressa in the temple. I myself teach try-out spells for both the magical classes, whereas Tybald in the next room specialises in knight and paladin spells.": {
-   "pt": "",
+   "pt": "Sua escolha de vocação vai determinar sua vida em Tibia, além das skills e técnicas de luta que poderá usar. Há quatro vocações: knight, druid, paladin e sorcerer. Se quiser saber mais sobre elas, fale com Oressa no templo. Eu mesmo ensino magias de experimentação para as duas classes mágicas, enquanto Tybald, na sala ao lado, é especialista em magias de knight e paladin.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Very young and sometimes precipitate, burning for everything mystical, holy, godly, which is not a bad thing as such. Just a little hasty and prone to fall into a nest of monsters now and then, but he always comes out alive.": {
-   "pt": "",
+   "pt": "Muito jovem e às vezes precipitado, ardendo por tudo que é místico, sagrado, divino, o que em si não é ruim. Só um pouco apressado e propenso a cair num ninho de monstros de vez em quando, mas sempre sai vivo.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "How should I know where that key has gotten to? I rarely sleep at my age anyway! Though I must say that my young adventurer fellows handled it quite carelessly, from what I saw.": {
-   "pt": "",
+   "pt": "Como eu saberia para onde foi aquela chave? Na minha idade eu quase não durmo mesmo! Embora eu deva dizer que meus jovens companheiros aventureiros a trataram com bastante descuido, pelo que vi.",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Welcome, child. Have you come to learn about {magic}? Then you are in the right place. I can teach you many useful {spells}.": {
-   "pt": "",
+   "pt": "Bem-vindo, criança. Veio aprender sobre {magia}? Então está no lugar certo. Posso lhe ensinar muitas {magias} úteis.",
    "n": 1,
    "npc": [
     "garamond"
@@ -40066,7 +40066,7 @@
    ]
   },
   "Tired of the academy, maybe, but not of teaching. If you need druid or sorcerer spells, go to him.": {
-   "pt": "Cansado da academia, talvez, mas não de ensinar. Se precisar de spells de druid ou sorcerer, procure ele.",
+   "pt": "Cansado da academia, talvez, mas não de ensinar. Se precisar de magias de druid ou sorcerer, procure ele.",
    "n": 1,
    "npc": [
     "mr_morris"
@@ -40087,7 +40087,7 @@
    ]
   },
   "She's a good listener if you should still hesitate as to the choice of your definite vocation.": {
-   "pt": "Ela sabe ouvir, caso você ainda hesite quanto à escolha da sua vocation definitiva.",
+   "pt": "Ela sabe ouvir, caso você ainda hesite quanto à escolha da sua vocação definitiva.",
    "n": 1,
    "npc": [
     "mr_morris"
@@ -40115,7 +40115,7 @@
    ]
   },
   "Been together through many a desperate situation. A romantic underneath it all. \\z\n\t\t\tFound the time to specialise on spells for paladins and knights somewhere along the way.": {
-   "pt": "Passamos juntos por muita situação desesperada. Um romântico no fundo. Achou tempo, em algum ponto do caminho, para se especializar em spells de paladin e knight.",
+   "pt": "Passamos juntos por muita situação desesperada. Um romântico no fundo. Achou tempo, em algum ponto do caminho, para se especializar em magias de paladin e knight.",
    "n": 1,
    "npc": [
     "mr_morris"
@@ -42481,182 +42481,182 @@
    ]
   },
   "You can't take it all with you - sell your Dawnport things before \\z\n\t\tyou receive the gear of your definite vocation!": {
-   "pt": "",
+   "pt": "Você não pode levar tudo - venda suas coisas de Dawnport antes de receber o equipamento da sua vocação definitiva!",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Leave all Dawnport things behind you and choose your destiny!": {
-   "pt": "",
+   "pt": "Deixe para trás tudo de Dawnport e escolha seu destino!",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Choose your vocation and explore the mainland!": {
-   "pt": "",
+   "pt": "Escolha sua vocação e explore o continente!",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Talk to me to choose your definite vocation! Become a knight, paladin, druid or sorcerer!": {
-   "pt": "",
+   "pt": "Fale comigo para escolher sua vocação definitiva! Torne-se knight, paladin, druid ou sorcerer!",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "World needs brave adventurers like you. Choose your vocation and sail to the mainland!": {
-   "pt": "",
+   "pt": "O mundo precisa de aventureiros corajosos como você. Escolha sua vocação e navegue para o continente!",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Poisoned? Bleeding? Wounded? I can help!": {
-   "pt": "",
+   "pt": "Envenenado? Sangrando? Ferido? Eu posso ajudar!",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "I am Oressa Fourwinds, the {healer}.": {
-   "pt": "",
+   "pt": "Sou Oressa Fourwinds, a {curandeira}.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "If you are hurt my child, I will {heal} your wounds.": {
-   "pt": "",
+   "pt": "Se você estiver ferido, criança, eu vou {curar} suas feridas.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "I can {heal} you if you are hurt. I can also help you choose your {vocation}.": {
-   "pt": "",
+   "pt": "Posso {curar} você se estiver ferido. Também posso lhe ajudar a escolher sua {vocação}.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Behind each of those doors, the equipment and skills of one vocation lies - \\z\n\t\tsorcerer, paladin, knight or druid. ...": {
-   "pt": "",
+   "pt": "Atrás de cada uma daquelas portas estão o equipamento e as habilidades de uma vocação - sorcerer, paladin, knight ou druid. ...",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "He has seen much, and likes to help the younger ones. If you have questions about what to do, \\z\n\t\t\tor whom to ask for anything, go to Inigo.": {
-   "pt": "",
+   "pt": "Ele viu muita coisa e gosta de ajudar os mais jovens. Se tiver dúvidas sobre o que fazer, ou a quem pedir alguma coisa, procure Inigo.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Found a new way of living and took to it like a fish to water.": {
-   "pt": "",
+   "pt": "Encontrou um novo jeito de viver e se adaptou como peixe na água.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Ah. Some wounds never heal. <sighs> Shipwrecked in body and mind. Nowhere to go, so he doesn't leave.": {
-   "pt": "",
+   "pt": "Ah. Algumas feridas nunca cicatrizam. <suspira> Naufragado de corpo e de mente. Não tem para onde ir, então não vai.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "He broods over problems he won't share. But maybe you can help him with a little quest or two.": {
-   "pt": "",
+   "pt": "Ele rumina problemas que não divide com ninguém. Mas talvez você possa lhe ajudar com uma quest ou duas.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "He lives only for his experiments and potions": {
-   "pt": "",
+   "pt": "Ele vive só para os experimentos e as potions dele",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "He is injured? Then I should see to his wounds. I will pack some herbs and be off presently. Thank you.": {
-   "pt": "",
+   "pt": "Ele está ferido? Então devo cuidar das feridas dele. Vou juntar umas ervas e partir agora mesmo. Obrigada.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "I have heard of it, yes.": {
-   "pt": "",
+   "pt": "Já ouvi falar disso, sim.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "I believe it has been lost. You should ask Mr Morris or some of the others about it.": {
-   "pt": "",
+   "pt": "Creio que se perdeu. Você devia perguntar ao Mr Morris ou a algum dos outros.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "I'll help you decide. \\z\n\t\t\t\tTell me: Do you like to keep your {distance}, or do you like {close} combat?": {
-   "pt": "",
+   "pt": "Eu lhe ajudo a decidir. Diga: você gosta de manter {distância} ou prefere combate {corpo a corpo}?",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Tell me: Do you prefer to fight with {bow} and {spear}, or do you want to cast {magic}?": {
-   "pt": "",
+   "pt": "Diga: você prefere lutar com {bow} e {spear}, ou quer lançar {magia}?",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Tell me: Do you prefer to {heal} and cast the power of nature and ice, or do you want to rain \\z\n\t\t\tfire and {death} on your foes?": {
-   "pt": "",
+   "pt": "Diga: você prefere {curar} e invocar o poder da natureza e do gelo, ou quer fazer chover fogo e {morte} sobre seus inimigos?",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "So tell me, which {vocation} do you want to choose: {knight}, {sorcerer}, {paladin} or {druid}?": {
-   "pt": "",
+   "pt": "Então me diga, qual {vocação} você quer escolher: {knight}, {sorcerer}, {paladin} ou {druid}?",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "If you are interested in becoming a monk, please speak to Ambassador Manop.": {
-   "pt": "",
+   "pt": "Se tem interesse em se tornar monk, fale com o Ambassador Manop.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Welcome, young adventurer. Tell me if you need help in \\z\n\t\t\t\t\t\t\t\t\t\t\t\t{choosing} your {vocation}, or if you have {decided} on the {vocation} you want to choose.": {
-   "pt": "",
+   "pt": "Bem-vindo, jovem aventureiro. Diga se precisa de ajuda para {escolher} sua {vocação}, ou se já {decidiu} qual {vocação} quer escolher.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Welcome to the temple of Dawnport, child. \\z\n\t\t\t\t\t\t\t\t\t\t\t\tIf you need {healing}, I can help you. Ask me about a {vocation} if you need counsel.": {
-   "pt": "",
+   "pt": "Bem-vindo ao templo de Dawnport, criança. Se precisar de {cura}, posso lhe ajudar. Pergunte-me sobre {vocação} se precisar de conselho.",
    "n": 1,
    "npc": [
     "oressa"
    ]
   },
   "Good bye, child.": {
-   "pt": "",
+   "pt": "Até logo, criança.",
    "n": 1,
    "npc": [
     "oressa"
@@ -43923,154 +43923,154 @@
    ]
   },
   "Yeah, well, some romantic at work there. \\z\n\t\t\tIsland was reached at dawn, new heroes and adventurers forthcoming, stuff like that.": {
-   "pt": "",
+   "pt": "É, bem, foi obra de algum romântico. A ilha foi alcançada ao amanhecer, novos heróis e aventureiros a caminho, essas coisas.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Ah, wonderful stuff! That and a bottle o' rum, o'course! Harrharr. \\z\n\t\t\tYou have some gold you want to deposit or withdraw, just tell me.": {
-   "pt": "",
+   "pt": "Ah, coisa maravilhosa! Isso e uma garrafa de rum, é claro! Harrharr. Se tiver algum ouro para depositar ou sacar, é só dizer.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "You can deposit and withdraw money from your bank account here.": {
-   "pt": "",
+   "pt": "Aqui você pode depositar e sacar dinheiro da sua conta bancária.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Once you are on the Tibian mainland, you can access new functions of your bank account, \\z\n\t\t\tsuch as changing money, transferring money to other players safely or taking part in house auctions.": {
-   "pt": "",
+   "pt": "Quando estiver no continente de Tibia, você pode acessar novas funções da sua conta bancária, como trocar dinheiro, transferir dinheiro para outros jogadores com segurança ou participar de leilões de casas.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Abram Plunderpurse, at your service. <bows>": {
-   "pt": "",
+   "pt": "Abram Plunderpurse, ao seu dispor. <faz uma reverência>",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Here on Dawnport, I run the bank. I keep any gold you deposit safe, \\z\n\t\t\tso you can't lose it when you're out fighting or dying, heh. \\z\n\t\t\tAsk me for your balance to learn how much money you've already saved": {
-   "pt": "",
+   "pt": "Aqui em Dawnport eu toco o banco. Guardo em segurança todo ouro que você depositar, para não perder quando estiver lá fora lutando ou morrendo, heh. Me peça seu saldo para saber quanto dinheiro já juntou",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Arrr. Not a very profitable place.": {
-   "pt": "",
+   "pt": "Arrr. Não é um lugar muito lucrativo.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Arr! I'm a pira... er, I mean <cough> <cough> ... clerk. Banking clerk. \\z\n\t\t\tThat's what I am. You need somethin'? Bank business, p'raps?": {
-   "pt": "",
+   "pt": "Arr! Sou um pira... ahn, quero dizer <tosse> <tosse> ... caixa. Caixa de banco. É isso que eu sou. Precisa de alguma coisa? Assunto de banco, quem sabe?",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "There's a choice of four: knight, sorcerer, paladin or druid.": {
-   "pt": "",
+   "pt": "Há quatro opções: knight, sorcerer, paladin ou druid.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "He's an ol' trapper and knows his away around in Tibia, aye. \\z\n\t\t\tAsk him how a thing works and he'll be sure to have an answer. ...": {
-   "pt": "",
+   "pt": "Ele é um velho armadilheiro e conhece bem os caminhos de Tibia, sim. Pergunte a ele como uma coisa funciona e certamente terá uma resposta. ...",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Gloomy sort. Keeps glaring at me for some reason. Or maybe for no reason, harr. \\z\n\t\t\tFormidable blacksmith, anyway. Sharpest sword blade I've seen in a long time.": {
-   "pt": "",
+   "pt": "Sujeito sombrio. Vive me encarando por algum motivo. Ou talvez por motivo nenhum, harr. De todo jeito, um ferreiro formidável. A lâmina de espada mais afiada que vi em muito tempo.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Fetching white beard, I hope I grow one in due time, would impress the younger folk no end! \\z\n\t\t\tKnowing some sorcerer and druid spells like he does wouldn't come amiss, either. \\z\n\t\t\tGo to him if you need mage spells.": {
-   "pt": "",
+   "pt": "Que barba branca atraente, espero criar uma dessas com o tempo, impressionaria os mais jovens à beça! Saber algumas magias de sorcerer e druid como ele também não faria mal. Procure ele se precisar de magias de mago.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Could've used his talent to brew up some more explosive runes back in the sea fight against... \\z\n\t\t\tah well, you wouldn't know the name anyway. Gotta admit, his potions are good stuff.": {
-   "pt": "",
+   "pt": "O talento dele para preparar runas mais explosivas teria dado jeito naquela batalha naval contra... ah, deixa pra lá, você não conheceria o nome mesmo. Tenho que admitir: as potions dele são coisa boa.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "<shifts uneasily> Well, maybe I did come across his ship some time. In bad weather. \\z\n\t\t\tAnd couldn't do a thing for those poor souls. And anyway, he swam ashore here. \\z\n\t\t\tSo it all worked out in the end, see.": {
-   "pt": "",
+   "pt": "<remexe-se sem jeito> Bem, talvez eu tenha cruzado com o navio dele alguma vez. Em mau tempo. E não pude fazer nada por aquelas pobres almas. E de qualquer forma ele nadou até a praia aqui. Então no fim deu tudo certo, viu.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "That's Mr Morris to you, friend. \\z\n\t\t\tGo get yourself a useful thing to do and ask him about a quest, will you.": {
-   "pt": "",
+   "pt": "Para você é Mr Morris, amigo. Vá arrumar algo útil para fazer e pergunte a ele sobre uma quest, faça isso.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Harrr, what a dame! Would like to buy her a pint one day. \\z\n\t\t\t<leers> Unless she kills me with one of her icy looks first. Anyway, decent healer. \\z\n\t\t\tCan help ya with choosing a vocation.": {
-   "pt": "",
+   "pt": "Harrr, que dama! Queria lhe pagar uma cerveja um dia. <olha de esguelha> A não ser que ela me mate antes com um daqueles olhares gelados. Enfim, curandeira decente. Pode lhe ajudar a escolher uma vocação.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Aye, what about my name? You don't like it? Well, you don't have to wear it! \\z\n\t\t\tAnd I am quite happy with that!": {
-   "pt": "",
+   "pt": "Sim, o que tem meu nome? Não gostou? Bem, você não precisa carregá-lo! E eu estou bem contente com ele!",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Not my line of trade, friend! Mr Morris next door will tell you what needs doin' around here.": {
-   "pt": "",
+   "pt": "Não é o meu ramo, amigo! Mr Morris, ali ao lado, lhe diz o que precisa ser feito por aqui.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "I could swear he looks like that old pal I met back on... \\z\n\t\t\tah well, much salt water passed my ship since then. \\z\n\t\t\tIf ye need a spell or two for a knight or paladin, he's the spell teacher to go to.": {
-   "pt": "",
+   "pt": "Eu juraria que ele se parece com aquele velho camarada que conheci lá em... ah, bem, muita água salgada passou pelo meu navio desde então. Se você precisar de uma magia ou duas para knight ou paladin, é com ele que se aprende.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Arrr. We go wayyyy back, Keeran an' me. Best you ask him, I'm no good at details.": {
-   "pt": "",
+   "pt": "Arrr. Eu e Keeran nos conhecemos de muuuuito tempo. Melhor perguntar a ele, não sou bom com detalhes.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "I'm a clerk now. I have better stuff to look after than just a simple key, friend.": {
-   "pt": "",
+   "pt": "Agora eu sou caixa. Tenho coisa melhor para cuidar do que uma simples chave, amigo.",
    "n": 1,
    "npc": [
     "plunderpurse"
    ]
   },
   "Welcome, young adventurer! Harr! {Deposit} your gold or {withdraw} \\z\n\tyour money from your bank account. I can also explain the functions of your {bank} account to ya.": {
-   "pt": "",
+   "pt": "Bem-vindo, jovem aventureiro! Harr! {Depositar} seu ouro ou {sacar} seu dinheiro da conta bancária. Também posso lhe explicar as funções da sua conta do {banco}.",
    "n": 1,
    "npc": [
     "plunderpurse"
@@ -45575,168 +45575,168 @@
    ]
   },
   "Don't forget to always have a rope with you! Buy one here, only the best quality!": {
-   "pt": "",
+   "pt": "Não esqueça de andar sempre com uma corda! Compre uma aqui, só da melhor qualidade!",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Don't complain to ME when you fell down a hole without a rope to get you out! You can buy one here now!": {
-   "pt": "",
+   "pt": "Não venha reclamar comigo quando cair num buraco sem uma corda para lhe tirar de lá! Agora você pode comprar uma aqui!",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Everything an adventurer needs!": {
-   "pt": "",
+   "pt": "Tudo o que um aventureiro precisa!",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "A rope is the adventurer's best friend!": {
-   "pt": "",
+   "pt": "Uma corda é a melhor amiga do aventureiro!",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Fresh meat! Durable provisions! Ropes and shovels!": {
-   "pt": "",
+   "pt": "Carne fresca! Mantimentos duráveis! Cordas e pás!",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Feeling like a bit of treasure-seeking? Buy a shovel or a pick and investigate likely-looking stone piles and cracks!": {
-   "pt": "",
+   "pt": "Com vontade de caçar tesouro? Compre uma pá ou uma picareta e investigue montes de pedra e rachaduras suspeitas!",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Richard. Just Richard. Lost my surname with my past in that storm. <winks>": {
-   "pt": "",
+   "pt": "Richard. Só Richard. Perdi meu sobrenome junto com meu passado naquela tempestade. <pisca>",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "This lovely island here. Once I didn't have to live off squirrels, it became quite enjoyable. Nasty things though live underground, so take care where you tread and ALWAYS have a rope with you!": {
-   "pt": "",
+   "pt": "Esta ilha encantadora aqui. Depois que parei de viver de esquilo, ficou bem agradável. Mas coisas desagradáveis moram debaixo da terra, então cuidado onde pisa e ande SEMPRE com uma corda!",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "<shrugs> Never been, mate. Heard it's kinda cute, though.": {
-   "pt": "",
+   "pt": "<dá de ombros> Nunca fui, parceiro. Mas ouvi dizer que é bem bonitinho.",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "You know, I really don't want to poke into someone else's private life. Suffice it to say that everyone has chapters of his life he doesn't want to mention. Judging by Coltrayne's looks, we're looking at a trilogy here.": {
-   "pt": "",
+   "pt": "Sabe, eu realmente não quero me meter na vida privada dos outros. Basta dizer que todo mundo tem capítulos da vida que prefere não mencionar. A julgar pela cara do Coltrayne, estamos diante de uma trilogia.",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Old Inigo was the one who found me, actually, and brought me to the outpost. I was half starved by then. He taught me how to make better traps and how to fish... I owe much to Inigo.": {
-   "pt": "",
+   "pt": "Na verdade foi o velho Inigo quem me achou e me trouxe para o posto avançado. Eu estava meio morto de fome na época. Ele me ensinou a fazer armadilhas melhores e a pescar... Devo muito ao Inigo.",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Can you believe how old he is? He won't say it, but I wouldn't be surprised if he had been around for loooooong time.": {
-   "pt": "",
+   "pt": "Dá para acreditar na idade dele? Ele não diz, mas eu não me surpreenderia se estivesse por aí há muuuuuito tempo.",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Don't talk to ME about squirrels! <shudders> Had to live off them the first days, when they were the only thing to go into my self-made acorn traps. Nasty.": {
-   "pt": "",
+   "pt": "Não me fale de esquilos! <estremece> Tive que viver deles nos primeiros dias, quando eram a única coisa que caía nas armadilhas de bolota que eu mesmo fazia. Nojento.",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Don't know what to make of him. Great researcher in all Dawnport matters, though. Always has a quest or two where he needs help, if you're looking for adventuring work.": {
-   "pt": "",
+   "pt": "Não sei o que pensar dele. Mas é um grande pesquisador em tudo que diz respeito a Dawnport. Sempre tem uma quest ou duas em que precisa de ajuda, se você procura trabalho de aventureiro.",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Quiet little lady, her. Knows her way around the isle, looking for herbs and stuff but mostly spends her time in the temple, helping younglings like you choose a vocation.": {
-   "pt": "",
+   "pt": "Uma mocinha quieta, ela. Conhece bem a ilha, sempre atrás de ervas e tal, mas passa a maior parte do tempo no templo, ajudando novatos como você a escolher uma vocação.",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "You know, on the day that ol' pirate decides to make off with all that gold in the bank, I'm gonna come with him. Should be much more fun landing on a strange island with some gold to spend on booze and babes! <winks>": {
-   "pt": "",
+   "pt": "Sabe, no dia em que aquele velho pirata resolver sumir com todo o ouro do banco, eu vou junto. Deve ser bem mais divertido desembarcar numa ilha estranha com ouro para gastar em bebida e mulher! <pisca>",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Tries to act tough, but he's quite a witty and decent bloke who wouldn't hurt a fly. We enjoy a good laugh together in the evenings.": {
-   "pt": "",
+   "pt": "Tenta bancar o durão, mas é um sujeito espirituoso e decente que não faria mal a uma mosca. A gente dá boas risadas juntos à noite.",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "I wouldn't be too surprised if the key had been stolen. As often as everybody left it lying around unattended, something like that was bound to happen sooner or later.": {
-   "pt": "",
+   "pt": "Eu não me surpreenderia muito se a chave tivesse sido roubada. Do jeito que todo mundo deixava ela largada por aí sem ninguém olhando, uma coisa dessas ia acontecer cedo ou tarde.",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "I was a carpenter, back on Main. Wanted my own little shop. Didn't sit with the old man. So I shipped to somewhere else. Terrible storm. Woke up on this island. Had to eat squirrels before the adventurers found me and took me in. End of story.": {
-   "pt": "",
+   "pt": "Eu era carpinteiro, lá no continente. Queria minha própria lojinha. Não agradou ao velho. Então embarquei para outro lugar. Tempestade terrível. Acordei nesta ilha. Tive que comer esquilo até os aventureiros me acharem e me acolherem. Fim da história.",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Only the best quality, I assure you. A rope in need is a friend indeed! Imagine you stumble into a rat hole without a rope - heh, your bones will be gnawed clean before someone finds ya! Now, about that rope - ask me for {equipment} to see my wares. <winks>": {
-   "pt": "",
+   "pt": "Só da melhor qualidade, garanto. Corda na hora do aperto é amigo de verdade! Imagine tropeçar num buraco de rato sem corda - heh, seus ossos vão estar roídos e limpos antes que alguém lhe ache! Agora, sobre aquela corda - me peça {equipamento} para ver minhas mercadorias. <pisca>",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Of course, just browse through my wares. Or do you want to look only at {containers}, {food}, {equipment}, or {others}?": {
-   "pt": "",
+   "pt": "Claro, dê uma olhada nas minhas mercadorias. Ou você quer ver só {recipientes}, {comida}, {equipamento} ou {outros}?",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Hello there, mate. Here for a {trade}? My stock's just been refilled.": {
-   "pt": "",
+   "pt": "Olá, parceiro. Veio {negociar}? Meu estoque acabou de ser reposto.",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "Have fun!": {
-   "pt": "",
+   "pt": "Divirta-se!",
    "n": 1,
    "npc": [
     "richard"
    ]
   },
   "And godspeed, too.": {
-   "pt": "",
+   "pt": "E que os deuses lhe acompanhem.",
    "n": 1,
    "npc": [
     "richard"
@@ -61290,7 +61290,7 @@
    "n": 1
   },
   "decided": {
-   "pt": "",
+   "pt": "decidiu",
    "n": 1
   },
   "doors": {
@@ -62301,6 +62301,10 @@
   },
   "deposit": {
    "pt": "depósito",
+   "n": 0
+  },
+  "healer": {
+   "pt": "curandeira",
    "n": 0
   }
  }
