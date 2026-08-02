@@ -2333,7 +2333,7 @@
    ]
   },
   "So, my friend, are you willing to proceed to the next mission to become a recognised trader?": {
-   "pt": "",
+   "pt": "Então, meu amigo, está disposto a seguir para a próxima missão para se tornar um recognised trader?",
    "n": 10,
    "npc": [
     "rashid",
@@ -3891,7 +3891,7 @@
    ]
   },
   "Um... I don't think so.": {
-   "pt": "",
+   "pt": "Hum... acho que não.",
    "n": 8,
    "npc": [
     "rashid",
@@ -11203,7 +11203,7 @@
    ]
   },
   "I am a travelling trader. I don't buy everything, though. And not from everyone, for that matter.": {
-   "pt": "",
+   "pt": "Sou um comerciante viajante. Mas não compro tudo. E nem de qualquer um, aliás.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11211,7 +11211,7 @@
    ]
   },
   "I am Rashid, son of the desert.": {
-   "pt": "",
+   "pt": "Sou Rashid, filho do deserto.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11219,7 +11219,7 @@
    ]
   },
   "Of course, old friend. You can also browse only armor, legs, shields, helmets, boots, weapons, enchanted weapons, jewelry or miscellaneous stuff.": {
-   "pt": "",
+   "pt": "Claro, velho amigo. Você também pode dar uma olhada só em armaduras, calças, escudos, elmos, botas, armas, armas encantadas, joias ou itens diversos.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11227,7 +11227,7 @@
    ]
   },
   "Elves... I don't really trust them. All this talk about nature and flowers and treehugging... I'm sure there's some wicked scheme behind all this.": {
-   "pt": "",
+   "pt": "Elfos... Não confio muito neles. Toda essa conversa sobre natureza, flores e abraçar árvores... Tenho certeza de que há algum esquema maligno por trás disso tudo.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11235,7 +11235,7 @@
    ]
   },
   "My beloved hometown! Ah, the sweet scent of the desert sands, the perfect shape of the pyramids... stunningly beautiful.": {
-   "pt": "",
+   "pt": "Minha amada cidade natal! Ah, o doce aroma das areias do deserto, a forma perfeita das pirâmides... impressionantemente bela.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11243,7 +11243,7 @@
    ]
   },
   "I have to go to Carlin once in a while, since the queen wishes to see my exclusive wares in regular intervals.": {
-   "pt": "",
+   "pt": "Tenho que ir a Carlin de vez em quando, já que a rainha deseja ver minhas mercadorias exclusivas em intervalos regulares.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11251,7 +11251,7 @@
    ]
   },
   "Cormaya? Not a good place to make business, it's way too far and small.": {
-   "pt": "",
+   "pt": "Cormaya? Não é um bom lugar para fazer negócios, é longe e pequeno demais.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11259,7 +11259,7 @@
    ]
   },
   "It's not the real thing, but almost as good. The merchants there claim ridiculous prices, which is fine for my own business.": {
-   "pt": "",
+   "pt": "Não é a coisa real, mas quase tão bom. Os comerciantes de lá cobram preços ridículos, o que é bom para o meu próprio negócio.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11267,7 +11267,7 @@
    ]
   },
   "Ah yes, Edron! Such a lovely and quiet island! I usually make some nice business there.": {
-   "pt": "",
+   "pt": "Ah sim, Edron! Uma ilha tão adorável e tranquila! Costumo fazer bons negócios lá.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11275,7 +11275,7 @@
    ]
   },
   "Too few customers there, it's not worth the trip.": {
-   "pt": "",
+   "pt": "Poucos clientes demais lá, não vale a viagem.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11283,7 +11283,7 @@
    ]
   },
   "I don't like being underground much. I also tend to get lost in these labyrinthine dwarven tunnels, so I rather avoid them.": {
-   "pt": "",
+   "pt": "Não gosto muito de ficar debaixo da terra. Também costumo me perder nesses túneis labirínticos de anões, então prefiro evitá-los.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11291,7 +11291,7 @@
    ]
   },
   "When you avoid the slums, it's a really pretty city. Almost as pretty as the governor's daughter.": {
-   "pt": "",
+   "pt": "Quando você evita os cortiços, é uma cidade muito bonita. Quase tão bonita quanto a filha do governador.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11299,7 +11299,7 @@
    ]
   },
   "I like the settlement itself, but I don't set my foot into the jungle. Have you seen the size of these centipedes??": {
-   "pt": "",
+   "pt": "Gosto do assentamento em si, mas não ponho os pés na selva. Você já viu o tamanho dessas centopeias??",
    "n": 2,
    "npc": [
     "rashid",
@@ -11307,7 +11307,7 @@
    ]
   },
   "I wish it was a little bit warmer there, but with a good mug of barbarian mead in your tummy everything gets a lot cosier.": {
-   "pt": "",
+   "pt": "Eu gostaria que fosse um pouco mais quente lá, mas com uma boa caneca de barbarian mead na barriga, tudo fica bem mais aconchegante.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11315,7 +11315,7 @@
    ]
   },
   "I feel uncomfortable and rather unsafe in Thais, so I don't really travel there.": {
-   "pt": "",
+   "pt": "Me sinto desconfortável e bastante inseguro em Thais, então não costumo viajar até lá.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11323,7 +11323,7 @@
    ]
   },
   "Although it's the flourishing trade centre of Tibia, I don't like going there. Too much competition for my taste.": {
-   "pt": "",
+   "pt": "Embora seja o florescente centro comercial de Tibia, não gosto de ir lá. Concorrência demais para o meu gosto.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11331,7 +11331,7 @@
    ]
   },
   "It's almost time to journey on.": {
-   "pt": "",
+   "pt": "Já está quase na hora de seguir viagem.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11339,7 +11339,7 @@
    ]
   },
   "Kings, queens, emperors and kaliphs... everyone claims to be different and unique, but actually it's the same thing everywhere.": {
-   "pt": "",
+   "pt": "Reis, rainhas, imperadores e califas... todo mundo alega ser diferente e único, mas na verdade é a mesma coisa em todo lugar.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11347,7 +11347,7 @@
    ]
   },
   "Well, you could attempt the mission to become a recognised trader, but it requires a lot of travelling. Are you willing to try?": {
-   "pt": "",
+   "pt": "Bem, você poderia tentar a missão para se tornar um recognised trader, mas isso exige muita viagem. Está disposto a tentar?",
    "n": 2,
    "npc": [
     "rashid",
@@ -11355,7 +11355,7 @@
    ]
   },
   "Have you managed to obtain a rare deer trophy for my customer?": {
-   "pt": "",
+   "pt": "Você conseguiu obter um troféu raro de veado para o meu cliente?",
    "n": 2,
    "npc": [
     "rashid",
@@ -11363,7 +11363,7 @@
    ]
   },
   "Did you bring me the package?": {
-   "pt": "",
+   "pt": "Você me trouxe o pacote?",
    "n": 2,
    "npc": [
     "rashid",
@@ -11371,7 +11371,7 @@
    ]
   },
   "Have you brought the cheese?": {
-   "pt": "",
+   "pt": "Você trouxe o queijo?",
    "n": 2,
    "npc": [
     "rashid",
@@ -11379,7 +11379,7 @@
    ]
   },
   "Have you brought the vase?": {
-   "pt": "",
+   "pt": "Você trouxe o vaso?",
    "n": 2,
    "npc": [
     "rashid",
@@ -11387,7 +11387,7 @@
    ]
   },
   "Have you brought a cheap but good crimson sword?": {
-   "pt": "",
+   "pt": "Você trouxe uma crimson sword barata mas boa?",
    "n": 2,
    "npc": [
     "rashid",
@@ -11395,7 +11395,7 @@
    ]
   },
   "Have you brought me a gold fish??": {
-   "pt": "",
+   "pt": "Você me trouxe um peixe dourado??",
    "n": 2,
    "npc": [
     "rashid",
@@ -11403,7 +11403,7 @@
    ]
   },
   "Fine. Then get a hold of that deer trophy and bring it to me while I'm in Svargrond. Just ask me about your mission.": {
-   "pt": "",
+   "pt": "Muito bem. Então consiga aquele troféu de veado e me traga enquanto estou em Svargrond. É só me perguntar sobre sua missão.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11411,7 +11411,7 @@
    ]
   },
   "Well done! I'll take that from you. <snags it> Come see me another day, I'll be busy for a while now.": {
-   "pt": "",
+   "pt": "Muito bem! Vou pegar isso com você. <pega rapidamente> Venha me ver outro dia, vou ficar ocupado por um tempo agora.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11419,7 +11419,7 @@
    ]
   },
   "Fine. Then off you go, just ask Willard about the 'package for Rashid'.": {
-   "pt": "",
+   "pt": "Muito bem. Então vá, é só perguntar a Willard sobre o 'pacote para Rashid'.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11427,7 +11427,7 @@
    ]
   },
   "Great. Just place it over there - yes, thanks, that's it. Come see me another day, I'll be busy for a while now.": {
-   "pt": "",
+   "pt": "Ótimo. É só colocar ali - isso, obrigado, é isso mesmo. Venha me ver outro dia, vou ficar ocupado por um tempo agora.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11435,7 +11435,7 @@
    ]
   },
   "Okay, then please find Miraia in Darashia and ask her about the {'scarab cheese'}.": {
-   "pt": "",
+   "pt": "Ok, então por favor encontre Miraia em Darashia e pergunte a ela sobre o {'scarab cheese'}.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11443,7 +11443,7 @@
    ]
   },
   "Mmmhh, the lovely odeur of scarab cheese! I really can't understand why most people can't stand it. Thanks, well done!": {
-   "pt": "",
+   "pt": "Mmmhh, o adorável odeur do scarab cheese! Realmente não entendo por que a maioria das pessoas não aguenta. Obrigado, muito bem!",
    "n": 2,
    "npc": [
     "rashid",
@@ -11451,7 +11451,7 @@
    ]
   },
   "Okay, then please find {Briasol} in {Ab'Dendriel} and ask for a {'fine vase'}.": {
-   "pt": "",
+   "pt": "Ok, então por favor encontre {Briasol} em {Ab'Dendriel} e peça por um {'fine vase'}.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11459,7 +11459,7 @@
    ]
   },
   "I'm surprised that you managed to bring this vase without a single crack. That was what I needed to know, thank you.": {
-   "pt": "",
+   "pt": "Estou surpreso que você tenha conseguido trazer este vaso sem uma única rachadura. Isso era tudo que eu precisava saber, obrigado.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11467,7 +11467,7 @@
    ]
   },
   "Okay, I'm curious how you will do with {Uzgod}. Good luck!": {
-   "pt": "",
+   "pt": "Ok, estou curioso para ver como você vai se sair com {Uzgod}. Boa sorte!",
    "n": 2,
    "npc": [
     "rashid",
@@ -11475,7 +11475,7 @@
    ]
   },
   "Ha! You are clever indeed, well done! I'll take this from you. Come see me tomorrow, I think we two might get into business after all.": {
-   "pt": "",
+   "pt": "Ha! Você realmente é esperto, muito bem! Vou pegar isso com você. Venha me ver amanhã, acho que nós dois talvez possamos fazer negócios afinal.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11483,7 +11483,7 @@
    ]
   },
   "Thanks so much! I'll be waiting eagerly for your return then.": {
-   "pt": "",
+   "pt": "Muito obrigado! Vou esperar ansiosamente pelo seu retorno, então.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11491,7 +11491,7 @@
    ]
   },
   "Thank you!! Ah, this makes my day! I'll take the rest of the day off to get to know this little guy. Come see me tomorrow, if you like.": {
-   "pt": "",
+   "pt": "Obrigado!! Ah, isso faz o meu dia! Vou tirar o resto do dia de folga para conhecer esse carinha. Venha me ver amanhã, se quiser.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11499,7 +11499,7 @@
    ]
   },
   "Sorry, but you do not belong to my exclusive customers. I have to make sure that I can trust in the quality of your wares.": {
-   "pt": "",
+   "pt": "Desculpe, mas você não pertence aos meus clientes exclusivos. Preciso ter certeza de que posso confiar na qualidade das suas mercadorias.",
    "n": 2,
    "npc": [
     "rashid",
@@ -11507,7 +11507,7 @@
    ]
   },
   "Ah, a customer! Be greeted, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Ah, um cliente! Seja bem-vindo, |PLAYERNAME|!",
    "n": 2,
    "npc": [
     "rashid",
@@ -11515,7 +11515,7 @@
    ]
   },
   "Farewell, |PLAYERNAME|, may the winds guide your way.": {
-   "pt": "",
+   "pt": "Adeus, |PLAYERNAME|, que os ventos guiem seu caminho.",
    "n": 2,
    "npc": [
     "rashid",
@@ -45025,7 +45025,7 @@
    ]
   },
   "Ah, right. <ahem> I hereby declare you - one of my recognised traders! Feel free to offer me your wares, just ask me for a {trade}!": {
-   "pt": "",
+   "pt": "Ah, certo. <ahem> Por meio desta, declaro você - um dos meus recognised traders! Fique à vontade para me oferecer suas mercadorias, é só me pedir para {negociar}!",
    "n": 1,
    "npc": [
     "rashid"
@@ -57560,7 +57560,7 @@
    "n": 4
   },
   "uzgod": {
-   "pt": "",
+   "pt": "Uzgod",
    "n": 4
   },
   "fire": {
@@ -59144,15 +59144,15 @@
    "n": 2
   },
   "'scarab cheese'": {
-   "pt": "",
+   "pt": "'scarab cheese'",
    "n": 2
   },
   "briasol": {
-   "pt": "",
+   "pt": "Briasol",
    "n": 2
   },
   "'fine vase'": {
-   "pt": "",
+   "pt": "'fine vase'",
    "n": 2
   },
   "desert": {
