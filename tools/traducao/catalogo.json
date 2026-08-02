@@ -5488,7 +5488,7 @@
    ]
   },
   "It'd be better for you to leave now.": {
-   "pt": "",
+   "pt": "Seria melhor você ir embora agora.",
    "n": 4,
    "npc": [
     "armenius",
@@ -8216,7 +8216,7 @@
    ]
   },
   "Errrkss - coughcough - what the - heck did you put in there? Get out of my sight!": {
-   "pt": "",
+   "pt": "Errrkss - tossetosse - que - diabos você colocou aí? Suma da minha vista!",
    "n": 2,
    "npc": [
     "armenius",
@@ -8729,7 +8729,7 @@
    ]
   },
   "You don't have enought money.": {
-   "pt": "",
+   "pt": "Você não tem dinheiro suficiente.",
    "n": 2,
    "npc": [
     "briasol",
@@ -15933,28 +15933,28 @@
    ]
   },
   "What kind of strange offer is this? You're actually offering me a cookie?": {
-   "pt": "",
+   "pt": "Que tipo de oferta estranha é essa? Você está mesmo me oferecendo um biscoito?",
    "n": 1,
    "npc": [
     "armenius"
    ]
   },
   "Oh, the nerve. Sod off.": {
-   "pt": "",
+   "pt": "Ah, que descaramento. Cai fora.",
    "n": 1,
    "npc": [
     "armenius"
    ]
   },
   "Oh, the nerve. Go to the rats which raised you.": {
-   "pt": "",
+   "pt": "Ah, que descaramento. Vá para os ratos que o criaram.",
    "n": 1,
    "npc": [
     "armenius"
    ]
   },
   "Ah, an adventurer. Be greeted and have a seat. How may I {serve} you?": {
-   "pt": "",
+   "pt": "Ah, um aventureiro. Seja bem-vindo e sente-se. Como posso lhe {servir}?",
    "n": 1,
    "npc": [
     "armenius"
@@ -18880,21 +18880,21 @@
    ]
   },
   "I can bring you to our base in Liberty Bay for |TRAVELCOST|. Is that what you want?": {
-   "pt": "",
+   "pt": "Posso lhe levar até nossa base em Liberty Bay por |TRAVELCOST|. É isso que você quer?",
    "n": 1,
    "npc": [
     "captain_cookie"
    ]
   },
   "I can take you to {Liberty Bay}.": {
-   "pt": "",
+   "pt": "Posso lhe levar até {Liberty Bay}.",
    "n": 1,
    "npc": [
     "captain_cookie"
    ]
   },
   "I travelled here, hoping to find the cockaigne. Imagine my disappointment when I discovered I was wrong.": {
-   "pt": "",
+   "pt": "Viajei até aqui esperando encontrar a terra da fartura. Imagine minha decepção quando descobri que estava errado.",
    "n": 1,
    "npc": [
     "captain_cookie"
@@ -27336,21 +27336,21 @@
    ]
   },
   "You want entranzzze to zzze zzzity?": {
-   "pt": "",
+   "pt": "Você quer entrada para a zzzidade?",
    "n": 1,
    "npc": [
     "gate_guardian"
    ]
   },
   "Mh, zzzezzze paperzzz zzzeem legit, I have orderzzz to let you pazzz. Zzzo be it.": {
-   "pt": "",
+   "pt": "Mh, ezzzez papéizzz parezzzem legítimozzz, tenho ordenzzz para deixá-lo pazzzar. Zzzeja azzzim.",
    "n": 1,
    "npc": [
     "gate_guardian"
    ]
   },
   "Chhhhzzz. Ugly humanzzz! You better have a good reazzzon to be here!": {
-   "pt": "",
+   "pt": "Chhhhzzz. Humanozzz feiozzz! É bom que tenha um bom motivo para eztar aqui!",
    "n": 1,
    "npc": [
     "gate_guardian"
@@ -45501,14 +45501,14 @@
    ]
   },
   "By the Gods! You have the key to the cell! Thank you sooo much, mate. And now leave. I'll wait here until the air is clean and then I'm out of here.": {
-   "pt": "",
+   "pt": "Pelos deuses! Você tem a chave da cela! Muitíssimo obrigado, camarada. E agora vá. Vou esperar aqui até o ar ficar limpo, e depois saio daqui.",
    "n": 1,
    "npc": [
     "rehon"
    ]
   },
   "Hello, my friend.": {
-   "pt": "",
+   "pt": "Olá, meu amigo.",
    "n": 1,
    "npc": [
     "rehon"
@@ -49645,28 +49645,28 @@
    ]
   },
   "Do you want to travel to the {monument tower} for a 50 gold fee?": {
-   "pt": "",
+   "pt": "Quer viajar até a {monument tower} por uma taxa de 50 gold?",
    "n": 1,
    "npc": [
     "tarak_inner"
    ]
   },
   "Can I interest you in a trip to the {monument tower}?": {
-   "pt": "",
+   "pt": "Posso lhe interessar numa viagem até a {monument tower}?",
    "n": 1,
    "npc": [
     "tarak_inner"
    ]
   },
   "Do you want to go back to {Yalahar}?": {
-   "pt": "",
+   "pt": "Quer voltar para {Yalahar}?",
    "n": 1,
    "npc": [
     "tarak_sunken"
    ]
   },
   "Want to go back to Yalahar? Just ask me for a free {passage}.": {
-   "pt": "",
+   "pt": "Quer voltar para Yalahar? É só me pedir uma {passagem} de graça.",
    "n": 1,
    "npc": [
     "tarak_sunken"
@@ -49701,21 +49701,21 @@
    ]
   },
   "I warn you, those trolls are WAY more dangerous than the usual kind. Alone, I can't do anything for my brothers. Find a way to the trolls' hideout and rescue my brothers. Are you willing to help me?": {
-   "pt": "",
+   "pt": "Aviso desde já, esses trolls são BEM mais perigosos que o tipo comum. Sozinho, não posso fazer nada pelos meus irmãos. Encontre um caminho até o esconderijo dos trolls e resgate meus irmãos. Está disposto a me ajudar?",
    "n": 1,
    "npc": [
     "tehlim"
    ]
   },
   "Great! I hope you find my brothers. Good luck!": {
-   "pt": "",
+   "pt": "Ótimo! Espero que você encontre meus irmãos. Boa sorte!",
    "n": 1,
    "npc": [
     "tehlim"
    ]
   },
   "Hello. I'm so glad someone has found me. Did you meet THEM?!": {
-   "pt": "",
+   "pt": "Olá. Estou tão feliz que alguém me encontrou. Você encontrou COM ELES?!",
    "n": 1,
    "npc": [
     "tehlim"
@@ -53943,56 +53943,56 @@
    ]
   },
   "So you have killed the plague carriers. Have you also retrieved the research papers?": {
-   "pt": "",
+   "pt": "Então você matou os plague carriers. Também recuperou os documentos de pesquisa?",
    "n": 1,
    "npc": [
     "yalahari"
    ]
   },
   "This will teach these fishmen who is the ruler of that area. You have earned yourself a special privilege. But we will talk about that when we speak about your next mission.": {
-   "pt": "",
+   "pt": "Isso vai ensinar a esses fishmen quem manda naquela área. Você ganhou um privilégio especial. Mas vamos falar disso quando eu falar da sua próxima missão.",
    "n": 1,
    "npc": [
     "yalahari"
    ]
   },
   "Your failure is an outrage! I think we have to talk about the missions you have accomplished so far.": {
-   "pt": "",
+   "pt": "Seu fracasso é um ultraje! Acho que precisamos conversar sobre as missões que você já cumpriu até agora.",
    "n": 1,
    "npc": [
     "yalahari"
    ]
   },
   "Now we will have power we truly deserve!...": {
-   "pt": "",
+   "pt": "Agora vamos ter o poder que realmente merecemos!...",
    "n": 1,
    "npc": [
     "yalahari"
    ]
   },
   "So do you want to side with me |PLAYERNAME|?": {
-   "pt": "",
+   "pt": "Então você quer ficar do meu lado, |PLAYERNAME|?",
    "n": 1,
    "npc": [
     "yalahari"
    ]
   },
   "Great work, take this outfit and you are able to open the door to the reward room.": {
-   "pt": "",
+   "pt": "Ótimo trabalho, pegue este outfit e você poderá abrir a porta da sala de recompensa.",
    "n": 1,
    "npc": [
     "yalahari"
    ]
   },
   "Impressive indeed! Someone with your skills will quickly raise in our ranks of helpers. You have great potential, and if you are upfor further missions, just ask for them.": {
-   "pt": "",
+   "pt": "Impressionante, de fato! Alguém com suas habilidades vai subir rápido nas nossas fileiras de ajudantes. Você tem grande potencial, e se estiver disposto a mais missões, é só pedir.",
    "n": 1,
    "npc": [
     "yalahari"
    ]
   },
   "I knew that you were smart enough to make the right decision! Your next mission will be a special one!": {
-   "pt": "",
+   "pt": "Eu sabia que você era esperto o bastante para tomar a decisão certa! Sua próxima missão vai ser especial!",
    "n": 1,
    "npc": [
     "yalahari"
@@ -59640,7 +59640,7 @@
    "n": 1
   },
   "serve": {
-   "pt": "",
+   "pt": "servir",
    "n": 1
   },
   "chat": {
