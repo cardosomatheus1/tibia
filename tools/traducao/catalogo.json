@@ -5361,7 +5361,7 @@
    ]
   },
   "Now where did I put that form?": {
-   "pt": "",
+   "pt": "Onde foi que eu coloquei aquele formulário?",
    "n": 4,
    "npc": [
     "a_dead_bureaucrat1",
@@ -5371,7 +5371,7 @@
    ]
   },
   "Hail Pumin. Yes, hail.": {
-   "pt": "",
+   "pt": "Salve Pumin. Sim, salve.",
    "n": 4,
    "npc": [
     "a_dead_bureaucrat1",
@@ -5381,7 +5381,7 @@
    ]
   },
   "Hello": {
-   "pt": "",
+   "pt": "Olá",
    "n": 4,
    "npc": [
     "a_dead_bureaucrat1",
@@ -6157,7 +6157,7 @@
    ]
   },
   "Alright |PLAYERNAME|. Vocation?": {
-   "pt": "",
+   "pt": "Muito bem, |PLAYERNAME|. Vocação?",
    "n": 3,
    "npc": [
     "a_dead_bureaucrat1",
@@ -6473,7 +6473,7 @@
    ]
   },
   "Ask about {first addon} or {second addon}.": {
-   "pt": "",
+   "pt": "Pergunte sobre {first addon} ou {second addon}.",
    "n": 3,
    "npc": [
     "cranky_lizard_crone"
@@ -7311,7 +7311,7 @@
    ]
   },
   "Form 411? You need Form 287 to get that! Do you have it?": {
-   "pt": "",
+   "pt": "Form 411? Você precisa do Form 287 para conseguir isso! Você tem?",
    "n": 2,
    "npc": [
     "a_dead_bureaucrat1"
@@ -7325,14 +7325,14 @@
    ]
   },
   "If another prince comes to kiss me, I'll kick his ass so bad that he'll need a sedan chair to get away.": {
-   "pt": "",
+   "pt": "Se outro príncipe vier me beijar, vou chutar a bunda dele tão forte que ele vai precisar de uma cadeirinha para sair daqui.",
    "n": 2,
    "npc": [
     "a_frog"
    ]
   },
   "Pyrale? That idiot transformed me into an human once. But my wife came and kissed me, so I'm a frog again.": {
-   "pt": "",
+   "pt": "Pyrale? Aquele idiota me transformou em humano uma vez. Mas minha esposa veio e me beijou, então voltei a ser um sapo.",
    "n": 2,
    "npc": [
     "a_frog"
@@ -8707,7 +8707,7 @@
    ]
   },
   "So did you tell her that the cake came from me?": {
-   "pt": "",
+   "pt": "Então, você disse a ela que o bolo veio de mim?",
    "n": 2,
    "npc": [
     "bolfona",
@@ -11761,7 +11761,7 @@
    ]
   },
   "Greatings, mortal beigin.": {
-   "pt": "",
+   "pt": "Saudações, ser mortal.",
    "n": 2,
    "npc": [
     "talila",
@@ -11769,7 +11769,7 @@
    ]
   },
   "Yes, i have some potions and runes if you are interested. Or do you want to buy only potions or only runes?oh if you want sell or buy gems, your may also ask me.": {
-   "pt": "",
+   "pt": "Sim, tenho algumas potions e runas, se estiver interessado. Ou você quer comprar só potions ou só runas? Ah, se quiser vender ou comprar gemas, também pode me perguntar.",
    "n": 2,
    "npc": [
     "talila",
@@ -12349,98 +12349,98 @@
    ]
   },
   "Sure, where else. Everyone likes to meet my master, he is a great demon, isn't he? Your name is ...?": {
-   "pt": "",
+   "pt": "Claro, onde mais. Todo mundo gosta de conhecer meu mestre, ele é um grande demônio, não é? Seu nome é ...?",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat1"
    ]
   },
   "How very interesting. I need to tell that to my master immediately. Please go to my colleagues and ask for Form 356. You will need it in order to proceed.": {
-   "pt": "",
+   "pt": "Que interessante. Preciso contar isso ao meu mestre imediatamente. Por favor, vá até meus colegas e peça o Form 356. Você vai precisar dele para prosseguir.",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat1"
    ]
   },
   "Huhu, please don't hurt me with your": {
-   "pt": "",
+   "pt": "Huhu, por favor não me machuque com sua",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat1"
    ]
   },
   "Oh, what a pity. Go see one of my colleagues. I give you the permission to get Form 287. Bye!": {
-   "pt": "",
+   "pt": "Ah, que pena. Vá ver um dos meus colegas. Dou a você permissão para pegar o Form 287. Tchau!",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat1"
    ]
   },
   "Great. Here you are. Form 411. Come back anytime you want to talk. Bye.": {
-   "pt": "",
+   "pt": "Ótimo. Aqui está. Form 411. Volte sempre que quiser conversar. Tchau.",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat1"
    ]
   },
   "INCREDIBLE, you did it!! Have fun at Pumin's Domain!": {
-   "pt": "",
+   "pt": "INCRÍVEL, você conseguiu!! Divirta-se no Pumin's Domain!",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat1"
    ]
   },
   "Sure, you can get it from me. Here you are. Bye": {
-   "pt": "",
+   "pt": "Claro, pode pegar comigo. Aqui está. Tchau",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat2"
    ]
   },
   "Tell me if you liked it when you come back. What is your name?": {
-   "pt": "",
+   "pt": "Me diga se gostou quando voltar. Qual é o seu nome?",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat3"
    ]
   },
   "I was a": {
-   "pt": "",
+   "pt": "Eu era um",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat3"
    ]
   },
   "That's right, you can get Form 145 from me. However, I need Form 411 first. Come back when you have it.": {
-   "pt": "",
+   "pt": "Isso mesmo, você pode pegar o Form 145 comigo. Porém, preciso do Form 411 primeiro. Volte quando o tiver.",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat3"
    ]
   },
   "Well done! You have form 411!! Here is Form 145. Have fun with it.": {
-   "pt": "",
+   "pt": "Muito bem! Você tem o form 411!! Aqui está o Form 145. Divirta-se com ele.",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat3"
    ]
   },
   "I'm not sure if you know what you are doing but anyway. Your name is?": {
-   "pt": "",
+   "pt": "Não tenho certeza se você sabe o que está fazendo, mas enfim. Qual é o seu nome?",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat4"
    ]
   },
   "Sorry, you need Form 145 to get Form 356. Come back when you have it": {
-   "pt": "",
+   "pt": "Desculpe, você precisa do Form 145 para conseguir o Form 356. Volte quando o tiver",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat4"
    ]
   },
   "You are better than I thought! Congratulations, here you are: Form 356!": {
-   "pt": "",
+   "pt": "Você é melhor do que eu pensava! Parabéns, aqui está: Form 356!",
    "n": 1,
    "npc": [
     "a_dead_bureaucrat4"
@@ -12510,42 +12510,42 @@
    ]
   },
   "Don't even try to kiss me or I'll rondhouse kick you!": {
-   "pt": "",
+   "pt": "Nem tente me beijar ou eu vou lhe dar um chute giratório!",
    "n": 1,
    "npc": [
     "a_frog"
    ]
   },
   "Talking frogs don't exist, idiot. It's your fucking imagination tricking you. And now your imagination commands you to walk away.": {
-   "pt": "",
+   "pt": "Sapos falantes não existem, idiota. É a sua maldita imaginação lhe pregando peças. E agora sua imaginação lhe manda ir embora.",
    "n": 1,
    "npc": [
     "a_frog"
    ]
   },
   "Finally someone notices I'm a FROG. Congratulations, you're VERY observant... *sigh*": {
-   "pt": "",
+   "pt": "Finalmente alguém percebe que sou um SAPO. Parabéns, você é MUITO observador... *suspira*",
    "n": 1,
    "npc": [
     "a_frog"
    ]
   },
   "A quest? Yeah I got a quest! Go and tell King Tibianus his son tried to kiss me again!": {
-   "pt": "",
+   "pt": "Uma quest? É, tenho uma quest! Vá contar ao King Tibianus que o filho dele tentou me beijar de novo!",
    "n": 1,
    "npc": [
     "a_frog"
    ]
   },
   "*sigh* Yet another dumb adventurer.": {
-   "pt": "",
+   "pt": "*suspira* Mais um aventureiro burro.",
    "n": 1,
    "npc": [
     "a_frog"
    ]
   },
   "Hah! That idiot finally left.": {
-   "pt": "",
+   "pt": "Hah! Aquele idiota finalmente foi embora.",
    "n": 1,
    "npc": [
     "a_frog"
@@ -17228,42 +17228,42 @@
    ]
   },
   "Is that for me?": {
-   "pt": "",
+   "pt": "Isso é para mim?",
    "n": 1,
    "npc": [
     "bolfona"
    ]
   },
   "Err, thanks. I doubt it's from you. Who sent it?": {
-   "pt": "",
+   "pt": "Ahn, obrigada. Duvido que seja seu. Quem mandou?",
    "n": 1,
    "npc": [
     "bolfona"
    ]
   },
   "Oh, I thought you have one.": {
-   "pt": "",
+   "pt": "Ah, achei que você tivesse um.",
    "n": 1,
    "npc": [
     "bolfona"
    ]
   },
   "Oh, Frafnar. That's so nice of him. I gotta invite him for a beer.": {
-   "pt": "",
+   "pt": "Ah, Frafnar. Que gentileza da parte dele. Tenho que convidá-lo para uma cerveja.",
    "n": 1,
    "npc": [
     "bolfona"
    ]
   },
   "Never heard that name. Well, I don't mind, thanks for the cake.": {
-   "pt": "",
+   "pt": "Nunca ouvi esse nome. Bem, não me importo, obrigada pelo bolo.",
    "n": 1,
    "npc": [
     "bolfona"
    ]
   },
   "Are you talking to me? Well, go on chatting but don't expect an answer.": {
-   "pt": "",
+   "pt": "Está falando comigo? Bem, continue conversando, mas não espere uma resposta.",
    "n": 1,
    "npc": [
     "bolfona"
@@ -22191,28 +22191,28 @@
    ]
   },
   "I can offer you first & second addons of the following outfit: {Wayfarer}.": {
-   "pt": "",
+   "pt": "Posso lhe oferecer o primeiro e o segundo addon do seguinte outfit: {Wayfarer}.",
    "n": 1,
    "npc": [
     "cranky_lizard_crone"
    ]
   },
   "llected all the required pieces, say 'yes' and voila - you got yourself an addon!": {
-   "pt": "",
+   "pt": "cionado todas as peças necessárias, diga 'sim' e voilà - você conseguiu um addon!",
    "n": 1,
    "npc": [
     "cranky_lizard_crone"
    ]
   },
   "To achieve the first storage addon you need to give me the Old Cape. Do you have them with you?": {
-   "pt": "",
+   "pt": "Para conseguir o primeiro addon de armazenamento, você precisa me dar o Old Cape. Você tem isso com você?",
    "n": 1,
    "npc": [
     "cranky_lizard_crone"
    ]
   },
   "To achieve the second storage addon you need to give me the Sedge Hat. Do you have them with you?": {
-   "pt": "",
+   "pt": "Para conseguir o segundo addon de armazenamento, você precisa me dar o Sedge Hat. Você tem isso com você?",
    "n": 1,
    "npc": [
     "cranky_lizard_crone"
@@ -26496,28 +26496,28 @@
    ]
   },
   "There is indeed something you could do for me. You must know, I'm in love with Bolfana. I'm sure she'd have a beer with me if I got her a chocolate cake. Problem is that I can't leave this door as I'm on duty. Would you be so kind and help me?": {
-   "pt": "",
+   "pt": "Há sim algo que você poderia fazer por mim. Saiba que estou apaixonado por Bolfana. Tenho certeza de que ela tomaria uma cerveja comigo se eu lhe desse um bolo de chocolate. O problema é que não posso deixar esta porta, já que estou de serviço. Você seria gentil o bastante para me ajudar?",
    "n": 1,
    "npc": [
     "frafnar"
    ]
   },
   "Great! She works in the tavern of Beregar. It's situated in the western part of the city. Bring her a chocolate cake and tell her that it was me who sent it.": {
-   "pt": "",
+   "pt": "Ótimo! Ela trabalha na taverna de Beregar. Fica na parte oeste da cidade. Leve a ela um bolo de chocolate e diga que fui eu quem mandou.",
    "n": 1,
    "npc": [
     "frafnar"
    ]
   },
   "I hope your kidding 'cause I'll find out WHAT you've told her and I can get reeeeaaaalllly angry. I grant you access to the western part of the mine.....for NOW.": {
-   "pt": "",
+   "pt": "Espero que esteja brincando, porque vou descobrir O QUE você disse a ela, e posso ficar bem, beeeeeem bravo. Concedo a você acesso à parte oeste da mina.....por ENQUANTO.",
    "n": 1,
    "npc": [
     "frafnar"
    ]
   },
   "Don't you see that I'm trying to write a poem? <sighs> So what's the matter?": {
-   "pt": "",
+   "pt": "Não está vendo que estou tentando escrever um poema? <suspira> Então, qual é o problema?",
    "n": 1,
    "npc": [
     "frafnar"
@@ -27420,42 +27420,42 @@
    ]
   },
   "So I ask you: What is the name of the princess who fell in love with a Thaian nobleman during the regency of pharaoh Uthemath?": {
-   "pt": "",
+   "pt": "Então lhe pergunto: Qual é o nome da princesa que se apaixonou por um nobre thaiano durante a regência do pharaoh Uthemath?",
    "n": 1,
    "npc": [
     "gelidrazahs_thirst"
    ]
   },
   "That's right. Listen to the second question: Who is the author of the book ,The Language of the Wolves'?": {
-   "pt": "",
+   "pt": "Isso mesmo. Ouça a segunda pergunta: Quem é o autor do livro 'The Language of the Wolves'?",
    "n": 1,
    "npc": [
     "gelidrazahs_thirst"
    ]
   },
   "That's right. Listen to the third question: Which ancient Tibian race reportedly travelled the sky in cloud ships?": {
-   "pt": "",
+   "pt": "Isso mesmo. Ouça a terceira pergunta: Qual antiga raça de Tibia, segundo consta, viajava pelo céu em cloud ships?",
    "n": 1,
    "npc": [
     "gelidrazahs_thirst"
    ]
   },
   "That is correct. You satisfactorily answered all questions. You may pass and enter Gelidrazah's lair.": {
-   "pt": "",
+   "pt": "Isso está correto. Você respondeu satisfatoriamente a todas as perguntas. Pode passar e entrar no covil de Gelidrazah.",
    "n": 1,
    "npc": [
     "gelidrazahs_thirst"
    ]
   },
   "I don't know what you are talking about.": {
-   "pt": "",
+   "pt": "Não sei do que você está falando.",
    "n": 1,
    "npc": [
     "gelidrazahs_thirst"
    ]
   },
   "Have you come to answer Gelidrazah's questions?": {
-   "pt": "",
+   "pt": "Você veio responder às perguntas de Gelidrazah?",
    "n": 1,
    "npc": [
     "gelidrazahs_thirst"
@@ -29632,42 +29632,42 @@
    ]
   },
   "Oh well, I liked Nokmir. He used to be a good dwarf until that day on which he stole the ring from {Rerun}.": {
-   "pt": "",
+   "pt": "Ah, bem, eu gostava de Nokmir. Ele costumava ser um bom anão até aquele dia em que roubou o anel de {Rerun}.",
    "n": 1,
    "npc": [
     "grombur"
    ]
   },
   "Yeah, he's the lucky guy in this whole story. I heard rumours that emperor Rehal had plans to promote Nokmir, but after this whole thievery story, he might pick Rerun instead.": {
-   "pt": "",
+   "pt": "É, ele é o cara de sorte nessa história toda. Ouvi rumores de que o emperor Rehal tinha planos de promover Nokmir, mas depois de toda essa história de roubo, ele pode escolher Rerun no lugar.",
    "n": 1,
    "npc": [
     "grombur"
    ]
   },
   "Got any dwarven brown ale?? I DON'T THINK SO....and Bolfana, the tavern keeper, won't sell you anything. I'm sure about that...she doesn't like humans... I tell you what, if you get me a cask of dwarven brown ale, I allow you to enter the mine. Alright?": {
-   "pt": "",
+   "pt": "Tem alguma dwarven brown ale?? ACHO QUE NÃO....e Bolfana, a taberneira, não vai lhe vender nada. Tenho certeza disso...ela não gosta de humanos... Vou lhe dizer uma coisa, se você me trouxer um barril de dwarven brown ale, deixo você entrar na mina. Combinado?",
    "n": 1,
    "npc": [
     "grombur"
    ]
   },
   "HOW?....WHERE?....AHHHH, I don't mind....SLUUUUUURP....tastes a little flat but I had worse. Thank you. Just don't tell anyone that I let you in.": {
-   "pt": "",
+   "pt": "COMO?....ONDE?....AHHHH, não importa....GLUUUUUUB....tem gosto meio choco, mas já bebi coisa pior. Obrigado. Só não conte para ninguém que eu deixei você entrar.",
    "n": 1,
    "npc": [
     "grombur"
    ]
   },
   "Haha, fine! Don't waste time and get me the ale. See you.": {
-   "pt": "",
+   "pt": "Haha, tudo bem! Não perca tempo e me traga a ale. Até mais.",
    "n": 1,
    "npc": [
     "grombur"
    ]
   },
   "STOP RIGHT THERE!..... Oh, just a human. What's up big guy?": {
-   "pt": "",
+   "pt": "PARE AÍ MESMO!..... Ah, é só um humano. E aí, grandão?",
    "n": 1,
    "npc": [
     "grombur"
@@ -40797,42 +40797,42 @@
    ]
   },
   "I don't see how you could help me. I'm in deep, deep trouble. I'm accused of having stolen a {ring} from Rerun, but I haven't.": {
-   "pt": "",
+   "pt": "Não vejo como você poderia me ajudar. Estou em apuros bem sérios. Sou acusado de ter roubado um {anel} de Rerun, mas não roubei.",
    "n": 1,
    "npc": [
     "nokmir"
    ]
   },
   "WHAT?! I can't believe it. You saved my life... well, at least one week of it 'cause that would have been the time I had to spend in jail. If you want to, you can pass the door now and take a look at the northern mines. Have fun!": {
-   "pt": "",
+   "pt": "O QUÊ?! Não acredito. Você salvou minha vida... bem, pelo menos uma semana dela, porque seria o tempo que eu teria que passar na prisão. Se quiser, pode passar pela porta agora e dar uma olhada nas minas do norte. Divirta-se!",
    "n": 1,
    "npc": [
     "nokmir"
    ]
   },
   "Maybe Grombur knows more than me. The thing is he won't talk to me, and he will surely not accuse his best friend as a liar. What a dilemma!": {
-   "pt": "",
+   "pt": "Talvez Grombur saiba mais do que eu. O problema é que ele não vai falar comigo, e com certeza não vai acusar o melhor amigo de mentiroso. Que dilema!",
    "n": 1,
    "npc": [
     "nokmir"
    ]
   },
   "He's a miner in the southern wing. Maybe he has lost the ring there... but even if I find the ring, no one will believe me. Someone should talk to Grombur. He's Rerun's best friend.": {
-   "pt": "",
+   "pt": "Ele é minerador na ala sul. Talvez tenha perdido o anel lá... mas mesmo que eu encontre o anel, ninguém vai acreditar em mim. Alguém deveria falar com Grombur. Ele é o melhor amigo de Rerun.",
    "n": 1,
    "npc": [
     "nokmir"
    ]
   },
   "He's a good emperor but I doubt he is wise enough to see the truth behind that false accusation against me. If just someone would find out the truth about that whole mess.": {
-   "pt": "",
+   "pt": "Ele é um bom emperor, mas duvido que seja sábio o bastante para ver a verdade por trás dessa falsa acusação contra mim. Se ao menos alguém descobrisse a verdade sobre essa bagunça toda.",
    "n": 1,
    "npc": [
     "nokmir"
    ]
   },
   "You are....kind of tall! Hello.": {
-   "pt": "",
+   "pt": "Você é....meio alto! Olá.",
    "n": 1,
    "npc": [
     "nokmir"
@@ -49491,21 +49491,21 @@
    ]
   },
   "Are you interested in a trade?": {
-   "pt": "",
+   "pt": "Está interessado em negociar?",
    "n": 1,
    "npc": [
     "talila"
    ]
   },
   "Dont touch the wings, theyre delicate.": {
-   "pt": "",
+   "pt": "Não toque nas asas, elas são delicadas.",
    "n": 1,
    "npc": [
     "talila"
    ]
   },
   "Tralllalalla.": {
-   "pt": "",
+   "pt": "Tralllalalla.",
    "n": 1,
    "npc": [
     "talila"
@@ -52522,21 +52522,21 @@
    ]
   },
   "Im eager for a bath in the lake.": {
-   "pt": "",
+   "pt": "Estou ansiosa por um banho no lago.",
    "n": 1,
    "npc": [
     "valindara"
    ]
   },
   "Im interested in shiny precious things, if you have some.": {
-   "pt": "",
+   "pt": "Estou interessada em coisas preciosas brilhantes, se você tiver alguma.",
    "n": 1,
    "npc": [
     "valindara"
    ]
   },
   "No, you cant have this cloak.": {
-   "pt": "",
+   "pt": "Não, você não pode ficar com esta capa.",
    "n": 1,
    "npc": [
     "valindara"
@@ -53908,35 +53908,35 @@
    ]
   },
   "Hmmmm, you could indeed help me. See this mechanism? Some son of a rotworm put WAY too much stuff on this elevator and now it's broken. I need 3 gear wheels to fix it. You think you could get them for me?": {
-   "pt": "",
+   "pt": "Hmmmm, você realmente poderia me ajudar. Vê esse mecanismo? Algum filho de um rotworm colocou coisa demais neste elevador, e agora está quebrado. Preciso de 3 gear wheels para consertá-lo. Acha que consegue arranjá-las para mim?",
    "n": 1,
    "npc": [
     "xorlosh"
    ]
   },
   "HOLY MOTHER OF ALL ROTWORMS! You did it and they are of even better quality than the old ones. You should be the first one to try the elevator, just jump on it. See you my friend.": {
-   "pt": "",
+   "pt": "SANTA MÃE DE TODOS OS ROTWORMS! Você conseguiu, e elas são de qualidade ainda melhor que as antigas. Você deveria ser o primeiro a experimentar o elevador, é só pular nele. Até mais, meu amigo.",
    "n": 1,
    "npc": [
     "xorlosh"
    ]
   },
   "That would be great! Maybe a blacksmith can forge you some. Come back when you got them and ask me about your mission.": {
-   "pt": "",
+   "pt": "Isso seria ótimo! Talvez um ferreiro possa forjar algumas para você. Volte quando as tiver e me pergunte sobre sua missão.",
    "n": 1,
    "npc": [
     "xorlosh"
    ]
   },
   "The book about tunnelling is in the library which is located in the north eastern wing of Beregar city.": {
-   "pt": "",
+   "pt": "O livro sobre escavação de túneis está na biblioteca, localizada na ala nordeste da cidade de Beregar.",
    "n": 1,
    "npc": [
     "xorlosh"
    ]
   },
   "Who are you? Are you a genius in mechanics? You don't look like one.": {
-   "pt": "",
+   "pt": "Quem é você? Você é um gênio da mecânica? Não parece um.",
    "n": 1,
    "npc": [
     "xorlosh"
@@ -57340,11 +57340,11 @@
    "n": 4
   },
   "first addon": {
-   "pt": "",
+   "pt": "first addon",
    "n": 4
   },
   "second addon": {
-   "pt": "",
+   "pt": "second addon",
    "n": 4
   },
   "enpa-deia": {
@@ -61128,7 +61128,7 @@
    "n": 1
   },
   "ring": {
-   "pt": "",
+   "pt": "anel",
    "n": 1
   },
   "fix": {
