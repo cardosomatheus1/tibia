@@ -3590,7 +3590,7 @@
    ]
   },
   "Sorry, you are not on the required range of levels [": {
-   "pt": "",
+   "pt": "Desculpe, você não está na faixa de levels necessária [",
    "n": 8,
    "npc": [
     "gnombold",
@@ -3845,7 +3845,7 @@
    ]
   },
   "Currently, I can tell you all about the town, its temple, the bank, shops, spell trainers and the depot, as well as about the world status.": {
-   "pt": "",
+   "pt": "No momento posso lhe contar tudo sobre a cidade, seu templo, o banco, as lojas, os instrutores de magia e o depot, além do estado do mundo.",
    "n": 8,
    "npc": [
     "guide_alexena",
@@ -5104,7 +5104,7 @@
    ]
   },
   "Alright then. Come back when you got all neccessary items.": {
-   "pt": "",
+   "pt": "Muito bem, então. Volte quando tiver todos os itens necessários.",
    "n": 5,
    "npc": [
     "ariella",
@@ -5536,7 +5536,7 @@
    ]
   },
   "You already have this outfit!": {
-   "pt": "",
+   "pt": "Você já tem este outfit!",
    "n": 4,
    "npc": [
     "broken_servant_sentry",
@@ -6714,7 +6714,7 @@
    ]
   },
   "I'm the officer responsible for this area. I give out missions, accept mission reports and oversee our defences.": {
-   "pt": "",
+   "pt": "Sou o oficial responsável por esta área. Dou missões, aceito relatórios de missão e superviso nossas defesas.",
    "n": 3,
    "npc": [
     "gnomargery",
@@ -6723,7 +6723,7 @@
    ]
   },
   "That's not a valid mission name.": {
-   "pt": "",
+   "pt": "Esse não é um nome de missão válido.",
    "n": 3,
    "npc": [
     "gnomargery",
@@ -6746,14 +6746,14 @@
    ]
   },
   "You do not have enough level yet.": {
-   "pt": "",
+   "pt": "Você ainda não tem level suficiente.",
    "n": 3,
    "npc": [
     "gnommander"
    ]
   },
   "You already have that outfit.": {
-   "pt": "",
+   "pt": "Você já tem esse outfit.",
    "n": 3,
    "npc": [
     "gnommander",
@@ -6761,7 +6761,7 @@
    ]
   },
   "You already have that addon.": {
-   "pt": "",
+   "pt": "Você já tem esse addon.",
    "n": 3,
    "npc": [
     "gnommander",
@@ -6769,7 +6769,7 @@
    ]
   },
   "You do not have that money.": {
-   "pt": "",
+   "pt": "Você não tem esse dinheiro.",
    "n": 3,
    "npc": [
     "gnommander"
@@ -9936,7 +9936,7 @@
    ]
   },
   "Sorry, but no! Your expertise could be put to better use elsewhere. Here awaits you no challenge. You are desperately needed in the deeper levels of the Spike. Report there immediately.": {
-   "pt": "",
+   "pt": "Desculpe, mas não! Sua experiência seria mais bem aproveitada em outro lugar. Aqui não há desafio para você. Você é urgentemente necessário nos níveis mais profundos da Spike. Vá se apresentar lá imediatamente.",
    "n": 2,
    "npc": [
     "gnombold",
@@ -9959,7 +9959,7 @@
    ]
   },
   "You do not have the Cave Explorer outfit.": {
-   "pt": "",
+   "pt": "Você não tem o outfit Cave Explorer.",
    "n": 2,
    "npc": [
     "gnommander"
@@ -10941,7 +10941,7 @@
    ]
   },
   "Alright! As a matter of fact, I have one in store. Here you go!": {
-   "pt": "",
+   "pt": "Muito bem! Por acaso tenho um no estoque. Aqui está!",
    "n": 2,
    "npc": [
     "morgan"
@@ -15667,98 +15667,98 @@
    ]
   },
   "Have a drink in Meriana's only tavern!": {
-   "pt": "",
+   "pt": "Tome uma bebida na única taverna de Meriana!",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "So you brought a cookie to a pirate?": {
-   "pt": "",
+   "pt": "Então você trouxe um biscoito para uma pirata?",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "You mean my hat? Well, I might have another one just like that, but I won't simply give it away, even if you earned our trust. You'd have to fulfil a task first.": {
-   "pt": "",
+   "pt": "Está falando do meu chapéu? Bem, posso até ter outro igualzinho, mas não vou simplesmente dá-lo, mesmo você tendo ganhado nossa confiança. Primeiro você teria que cumprir uma tarefa.",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "Your task is to bring me the shirt of the Lethal Lissy, the sabre of Ron the Ripper, the hat of Brutus Bloodbeard and the eye patch of Deadeye Devious. Did you succeed?": {
-   "pt": "",
+   "pt": "Sua tarefa é me trazer a camisa da Lethal Lissy, o sabre do Ron the Ripper, o chapéu do Brutus Bloodbeard e o tapa-olho do Deadeye Devious. Você conseguiu?",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "You know, we have plenty of rum here but we lack some basic food. Especially food that easily becomes mouldy is a problem. Bring me 100 breads and you will help me a lot.": {
-   "pt": "",
+   "pt": "Sabe, temos rum de sobra aqui, mas nos falta comida básica. Comida que estraga fácil é um problema especial. Me traga 100 breads e você vai me ajudar muito.",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "Are you here to bring me the 100 pieces of bread that I requested?": {
-   "pt": "",
+   "pt": "Você veio me trazer as 100 unidades de bread que eu pedi?",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "Did you get a sample of the whisper beer from Carlin?": {
-   "pt": "",
+   "pt": "Você conseguiu uma amostra da whisper beer de Carlin?",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "How sweet of you ... Uhh ... OH NO ... Bozo did it again. Tell this prankster I'll pay him back.": {
-   "pt": "",
+   "pt": "Que gentileza a sua ... Uhh ... AH NÃO ... o Bozo fez de novo. Diga a esse brincalhão que eu vou revidar.",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "What a joy. At least for a few days adequate supply is ensured.": {
-   "pt": "",
+   "pt": "Que alegria. Pelo menos por uns dias o abastecimento adequado está garantido.",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "Come back when you got all neccessary items.": {
-   "pt": "",
+   "pt": "Volte quando tiver todos os itens necessários.",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "Thank you very much. I will test this beauty in privacy.": {
-   "pt": "",
+   "pt": "Muito obrigada. Vou testar esta beleza em particular.",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "Come back when you got the neccessary item.": {
-   "pt": "",
+   "pt": "Volte quando tiver o item necessário.",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "INCREDIBLE! You have found all four of them! |PLAYERNAME|, you have my respect. You more than deserve this hat. There you go.": {
-   "pt": "",
+   "pt": "INCRÍVEL! Você achou os quatro! |PLAYERNAME|, você tem meu respeito. Você merece este chapéu e muito mais. Aqui está.",
    "n": 1,
    "npc": [
     "ariella"
    ]
   },
   "Hi there.": {
-   "pt": "",
+   "pt": "Olá.",
    "n": 1,
    "npc": [
     "ariella"
@@ -23549,112 +23549,112 @@
    ]
   },
   "You're talking about my sabre? Well, even though you earned our trust, you'd have to fulfill a task first before you are granted to wear such a sabre.": {
-   "pt": "",
+   "pt": "Está falando do meu sabre? Bem, mesmo tendo ganhado nossa confiança, você ainda teria que cumprir uma tarefa antes de ter o direito de usar um sabre desses.",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "I need a new quality atlas for our captains. Only one of the best will do it. I heard the explorers society sells the best, but only to members of a certain rank. You will have to get this rank or ask a high ranking member to buy it for you.": {
-   "pt": "",
+   "pt": "Preciso de um atlas de qualidade para nossos capitães. Só um dos melhores serve. Ouvi dizer que a explorers society vende os melhores, mas só para membros de certa patente. Você vai ter que conseguir essa patente ou pedir a um membro graduado para comprar um para você.",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "Did you get an atlas of the explorers society as I requested?": {
-   "pt": "",
+   "pt": "Você conseguiu um atlas da explorers society como eu pedi?",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "You did some impressive things. I think people here start considering you as one of us. But these are dire times and everyone of us is expected to give his best and even exceed himself. Do you think you can handle that?": {
-   "pt": "",
+   "pt": "Você fez coisas impressionantes. Acho que o pessoal aqui está começando a considerá-lo um de nós. Mas estes são tempos difíceis, e espera-se que cada um dê o melhor de si e até se supere. Acha que dá conta disso?",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "Did you rescue one of those poor soon-to-be baby tortoises from Nargor?": {
-   "pt": "",
+   "pt": "Você resgatou uma daquelas pobres tartaruguinhas prestes a nascer, de Nargor?",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "Are you up to the task which I'm going to give you and willing to prove you're worthy of wearing such a sabre?": {
-   "pt": "",
+   "pt": "Você está à altura da tarefa que vou lhe dar, e disposto a provar que merece usar um sabre desses?",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "Have you gathered 100 eye patches?": {
-   "pt": "",
+   "pt": "Você juntou 100 eye patches?",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "Have you gathered 100 peg legs?": {
-   "pt": "",
+   "pt": "Você juntou 100 peg legs?",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "Have you gathered 100 hooks?": {
-   "pt": "",
+   "pt": "Você juntou 100 hooks?",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "Good! Come back to me once you have gathered 100 eye patches.": {
-   "pt": "",
+   "pt": "Ótimo! Volte a mim quando tiver juntado 100 eye patches.",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "Good job. Alright, now bring me 100 peg legs.": {
-   "pt": "",
+   "pt": "Bom trabalho. Muito bem, agora me traga 100 peg legs.",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "Nice. Lastly, bring me 100 pirate hooks. That should be enough to earn your sabre.": {
-   "pt": "",
+   "pt": "Legal. Por último, me traga 100 pirate hooks. Isso deve bastar para você merecer seu sabre.",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "I see, I see. Well done. Go to Morgan and tell him this codeword: 'firebird'. He'll know what to do.": {
-   "pt": "",
+   "pt": "Entendo, entendo. Muito bem. Vá até Morgan e diga a ele esta palavra-código: 'firebird'. Ele vai saber o que fazer.",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "Indeed, what a fine work... the book I mean. Your work was acceptable all in all.": {
-   "pt": "",
+   "pt": "De fato, que belo trabalho... o livro, quero dizer. No geral, seu trabalho foi aceitável.",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "A real tortoise egg ... I guess you are more accustomed to rescue some noblewoman in distress but you did something goodtoday.": {
-   "pt": "",
+   "pt": "Um ovo de tartaruga de verdade ... imagino que você esteja mais acostumado a resgatar alguma nobre em apuros, mas hoje você fez algo bom.",
    "n": 1,
    "npc": [
     "duncan"
    ]
   },
   "Hi, come closer. Have a look at my wares.": {
-   "pt": "",
+   "pt": "Oi, chegue mais perto. Dê uma olhada nas minhas mercadorias.",
    "n": 1,
    "npc": [
     "duncan"
@@ -24445,70 +24445,70 @@
    ]
   },
   "Oh, my beloved ring! Have you found it and want to return it to me?": {
-   "pt": "",
+   "pt": "Ah, meu amado anel! Você o achou e quer devolvê-lo a mim?",
    "n": 1,
    "npc": [
     "eleonore"
    ]
   },
   "I would need some help in another matter. It is only a small errand. Are you interested?": {
-   "pt": "",
+   "pt": "Eu precisaria de ajuda em outro assunto. É só uma pequena tarefa. Tem interesse?",
    "n": 1,
    "npc": [
     "eleonore"
    ]
   },
   "Great, thank you! As promised, here are your 5 gold pieces. Is there ... anything left that you might want to discuss with me?": {
-   "pt": "",
+   "pt": "Ótimo, obrigada! Como prometido, aqui estão suas 5 moedas de ouro. Há ... mais alguma coisa que você queira discutir comigo?",
    "n": 1,
    "npc": [
     "eleonore"
    ]
   },
   "You have returned my ring and proven yourself as trustworthy. There is something I have to discuss with you. Are you willing to listen?": {
-   "pt": "",
+   "pt": "Você devolveu meu anel e provou ser digno de confiança. Há algo que preciso discutir com você. Está disposto a escutar?",
    "n": 1,
    "npc": [
     "eleonore"
    ]
   },
   "<blushes> Oh, he is so wonderful. A very special man with a special place in my heart.": {
-   "pt": "",
+   "pt": "<cora> Ah, ele é tão maravilhoso. Um homem muito especial, com um lugar especial no meu coração.",
    "n": 1,
    "npc": [
     "eleonore"
    ]
   },
   "I can't thank you enough for freeing my beloved Ray from that evil spell. I am still shocked that a mermaid could steal his love that easily.": {
-   "pt": "",
+   "pt": "Não sei como lhe agradecer por libertar meu amado Ray daquele feitiço maligno. Ainda estou chocada que uma sereia pudesse roubar o amor dele tão fácil assim.",
    "n": 1,
    "npc": [
     "eleonore"
    ]
   },
   "Oh, thank you so much! Take this gold as a reward. ... which reminds me, I would need some help in another matter. It is only a small errand. Are you interested?": {
-   "pt": "",
+   "pt": "Ah, muito obrigada! Fique com este ouro como recompensa. ... o que me lembra, eu precisaria de ajuda em outro assunto. É só uma pequena tarefa. Tem interesse?",
    "n": 1,
    "npc": [
     "eleonore"
    ]
   },
   "Thank you! It is not a difficult matter but a rather urgent one. I need to send some money to a person in town. Would you be willing to run this small errand for me?": {
-   "pt": "",
+   "pt": "Obrigada! Não é um assunto difícil, mas é bem urgente. Preciso mandar um pouco de dinheiro para uma pessoa na cidade. Você estaria disposto a fazer essa pequena tarefa para mim?",
    "n": 1,
    "npc": [
     "eleonore"
    ]
   },
   "I was hoping that you'd agree. Please deliver these 200 gold pieces to the herbalist Charlotta in the south-western part of the town. If you return from this errand, I will grant you 5 gold pieces as reward for your efforts.": {
-   "pt": "",
+   "pt": "Eu estava esperando que você aceitasse. Por favor, entregue estas 200 moedas de ouro à herbalist Charlotta, na parte sudoeste da cidade. Se você voltar dessa tarefa, vou lhe dar 5 moedas de ouro como recompensa pelo esforço.",
    "n": 1,
    "npc": [
     "eleonore"
    ]
   },
   "Be greeted. What brings you {here}?": {
-   "pt": "",
+   "pt": "Seja bem-vindo. O que lhe traz {aqui}?",
    "n": 1,
    "npc": [
     "eleonore"
@@ -28113,91 +28113,91 @@
    ]
   },
   "Gnomes have lived autonomous for so long that it still feels odd to work with strangers for many of us.": {
-   "pt": "",
+   "pt": "Os gnomos vivem de forma autônoma há tanto tempo que ainda parece estranho, para muitos de nós, trabalhar com estranhos.",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "I can offer you several missions: to gather geomantic {charges}, to {fertilise} the mushroom caves, to destroy monster {nests} and to {kill} some crystal crushers.": {
-   "pt": "",
+   "pt": "Posso lhe oferecer várias missões: juntar {cargas} geomânticas, {fertilizar} as cavernas de cogumelos, destruir {ninhos} de monstros e {matar} uns crystal crushers.",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "What mission do you want to report about: gathering the geomantic {charges}, the {fertilisation} of the mushroom caves, about destroying monster {nests} and the {killing} of crystal crushers?": {
-   "pt": "",
+   "pt": "Sobre qual missão você quer relatar: a coleta das {cargas} geomânticas, a {fertilização} das cavernas de cogumelos, a destruição dos {ninhos} de monstros ou a {matança} de crystal crushers?",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "Gnowful! Charge this magnet at three monoliths in the cave system. With three charges, the magnet will disintegrate and charge you with its gathered energies. Step on the magnetic extractor here to deliver the charge to us, then report to me.": {
-   "pt": "",
+   "pt": "Gnowful! Carregue este ímã em três monólitos no sistema de cavernas. Com três cargas, o ímã vai se desintegrar e carregar você com as energias reunidas. Pise no extrator magnético aqui para nos entregar a carga, depois relate a mim.",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "Gnowful! Use the fertiliser on four gardener mushroom in the caves.": {
-   "pt": "",
+   "pt": "Gnowful! Use o fertilizante em quatro gardener mushroom nas cavernas.",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "Gnowful! Step into the transformer and destroy eight monster nests.": {
-   "pt": "",
+   "pt": "Gnowful! Entre no transformador e destrua oito ninhos de monstros.",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "Gnowful! Just go out to the caves and kill at least seven crystalcrushers.": {
-   "pt": "",
+   "pt": "Gnowful! É só ir até as cavernas e matar pelo menos sete crystalcrushers.",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "Your mission would be to seek out gardener mushrooms in the caves and use some fertiliser on them. If you are interested, I can give you some more information about it. Are you willing to accept this mission?": {
-   "pt": "",
+   "pt": "Sua missão seria procurar gardener mushrooms nas cavernas e usar fertilizante neles. Se tiver interesse, posso lhe dar mais informação sobre isso. Está disposto a aceitar esta missão?",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "Gnometastic! And here is your fertiliser - use it on four gardener mushroom in the caves. If you lose the fertiliser you'll have to bring your own. Gnomux sells all the equipment that is required for our missions.": {
-   "pt": "",
+   "pt": "Gnometastic! E aqui está seu fertilizante - use em quatro gardener mushroom nas cavernas. Se perder o fertilizante, vai ter que trazer o seu próprio. Gnomux vende todo o equipamento necessário para nossas missões.",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "Our mission for you is to step into the gnomish transformer and then destroy eight monster nests in the caves. If you are interested, I can give you some more information about it. Are you willing to accept this mission?": {
-   "pt": "",
+   "pt": "Nossa missão para você é entrar no transformador gnômico e depois destruir oito ninhos de monstros nas cavernas. Se tiver interesse, posso lhe dar mais informação sobre isso. Está disposto a aceitar esta missão?",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "Gnometastic! Don't forget to step into the transformer before you go out and destroy five monster nests. If your transformation runs out, return to the transformer to get another illusion.": {
-   "pt": "",
+   "pt": "Gnometastic! Não esqueça de entrar no transformador antes de sair e destruir cinco ninhos de monstros. Se sua transformação acabar, volte ao transformador para conseguir outra ilusão.",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "This mission will require you to kill some crystal crushers for us. If you are interested, I can give you some more information about it. Are you willing to accept this mission?": {
-   "pt": "",
+   "pt": "Esta missão vai exigir que você mate uns crystal crushers para nós. Se tiver interesse, posso lhe dar mais informação sobre isso. Está disposto a aceitar esta missão?",
    "n": 1,
    "npc": [
     "gnombold"
    ]
   },
   "Gnometastic! You should have no trouble to find enough crystal crushers. Killing seven of them should be enough.": {
-   "pt": "",
+   "pt": "Gnometastic! Você não deve ter dificuldade para achar crystal crushers suficientes. Matar sete deles já deve bastar.",
    "n": 1,
    "npc": [
     "gnombold"
@@ -28547,91 +28547,91 @@
    ]
   },
   "We are the only protectors of the world against the enemies below. With small stature comes great responsibilities, as they say.": {
-   "pt": "",
+   "pt": "Somos os únicos protetores do mundo contra os inimigos lá embaixo. Com estatura pequena vem grande responsabilidade, como dizem.",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "I can offer you several missions: to recharge our ghost {pacifiers}, to {release} the spiritual anger, to {track} an evil presence and to {kill} some demon skeletons.": {
-   "pt": "",
+   "pt": "Posso lhe oferecer várias missões: recarregar nossos {pacificadores} de fantasma, dar {libertação} à raiva espiritual, {rastrear} uma presença maligna e {matar} uns demon skeletons.",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "What mission do you want to report about: recharging the ghost {pacifiers}, the {release} of the spiritual anger, about {tracking} an evil presence and the {killing} of demon skeletons?": {
-   "pt": "",
+   "pt": "Sobre qual missão você quer relatar: a recarga dos {pacificadores} de fantasma, a {libertação} da raiva espiritual, o {rastreamento} de uma presença maligna ou a {matança} de demon skeletons?",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "Gnowful! Take the resonance charger and use it on seven of the pacifiers in the cave.": {
-   "pt": "",
+   "pt": "Gnowful! Pegue o carregador de ressonância e use em sete dos pacificadores na caverna.",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "Gnowful! Take the spirit shovel use it on four graves in the cave system.": {
-   "pt": "",
+   "pt": "Gnowful! Pegue a spirit shovel e use em quatro túmulos no sistema de cavernas.",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "Gnowful! Take the tracking device in the caves and locate the residual spirit energy.": {
-   "pt": "",
+   "pt": "Gnowful! Pegue o dispositivo de rastreamento nas cavernas e localize a energia espiritual residual.",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "Gnowful! Just go out to the caves and kill at least seven demon skeletons.": {
-   "pt": "",
+   "pt": "Gnowful! É só ir até as cavernas e matar pelo menos sete demon skeletons.",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "Gnometastic! Take this resonance charger and use it on seven of the pacifiers in the cave. If you lose the charger, you'll have to bring your own. Gnomux sells all the equipment that is required for our missions.": {
-   "pt": "",
+   "pt": "Gnometastic! Pegue este carregador de ressonância e use em sete dos pacificadores na caverna. Se perder o carregador, vai ter que trazer o seu próprio. Gnomux vende todo o equipamento necessário para nossas missões.",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "Your task would be to use a spirit shovel to release some spirit's anger from graves that can be found all around here. If you are interested, I can give you some more information about it. Are you willing to accept this mission?": {
-   "pt": "",
+   "pt": "Sua tarefa seria usar uma spirit shovel para libertar a raiva de espíritos de túmulos encontrados por toda esta região. Se tiver interesse, posso lhe dar mais informação sobre isso. Está disposto a aceitar esta missão?",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "Gnometastic! Take this spirit shovel and use it on four graves in the cave system. If you lose the shovel you'll have to bring your own. Gnomux sells all the equipment that is required for our missions.": {
-   "pt": "",
+   "pt": "Gnometastic! Pegue esta spirit shovel e use em quatro túmulos no sistema de cavernas. Se perder a pá, vai ter que trazer a sua própria. Gnomux vende todo o equipamento necessário para nossas missões.",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "Gnometastic! Use this tracking device in the caves and locate the residual spirit energy. If you lose the tracking device, you'll have to bring your own. Gnomux sells all the equipment that is required for our missions.": {
-   "pt": "",
+   "pt": "Gnometastic! Use este dispositivo de rastreamento nas cavernas e localize a energia espiritual residual. Se perder o dispositivo, vai ter que trazer o seu próprio. Gnomux vende todo o equipamento necessário para nossas missões.",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "We need someone to reduce the steadily growing number of demon skeletons in the caves. If you are interested, I can give you some more information about it. Are you willing to accept this mission?": {
-   "pt": "",
+   "pt": "Precisamos de alguém para reduzir o número cada vez maior de demon skeletons nas cavernas. Se tiver interesse, posso lhe dar mais informação sobre isso. Está disposto a aceitar esta missão?",
    "n": 1,
    "npc": [
     "gnomilly"
    ]
   },
   "Gnometastic! Just go out and kill them. You should find more of them than you like.": {
-   "pt": "",
+   "pt": "Gnometastic! É só ir lá fora e matá-los. Você deve achar mais deles do que gostaria.",
    "n": 1,
    "npc": [
     "gnomilly"
@@ -28785,56 +28785,56 @@
    ]
   },
   "I'm responsible for the security and reward heroes to our cause. If you are looking for missions, talk to Gnomilly, Gnombold and Gnomagery.": {
-   "pt": "",
+   "pt": "Sou responsável pela segurança e por recompensar os heróis da nossa causa. Se está procurando missões, fale com Gnomilly, Gnombold e Gnomagery.",
    "n": 1,
    "npc": [
     "gnommander"
    ]
   },
   "I can sell special outfit parts. If your fame is high enough, you might be {worthy} of such a reward.": {
-   "pt": "",
+   "pt": "Posso vender peças especiais de outfit. Se sua fama for alta o bastante, você pode ser {digno} de uma recompensa dessas.",
    "n": 1,
    "npc": [
     "gnommander"
    ]
   },
   "You are not worthy of a special reward yet.": {
-   "pt": "",
+   "pt": "Você ainda não é digno de uma recompensa especial.",
    "n": 1,
    "npc": [
     "gnommander"
    ]
   },
   "You can acquire the {basic} outfit for 1000 Gold, the {first} addon for 2000 gold and the {second} addon for 3000 gold. Which do you want to buy?": {
-   "pt": "",
+   "pt": "Você pode adquirir o outfit {básico} por 1000 Gold, o {primeiro} addon por 2000 gold e o {segundo} addon por 3000 gold. Qual você quer comprar?",
    "n": 1,
    "npc": [
     "gnommander"
    ]
   },
   "Do you want to buy the basic outfit for 1000 Gold?": {
-   "pt": "",
+   "pt": "Quer comprar o outfit básico por 1000 Gold?",
    "n": 1,
    "npc": [
     "gnommander"
    ]
   },
   "Do you want to buy the first addon for 2000 Gold?": {
-   "pt": "",
+   "pt": "Quer comprar o primeiro addon por 2000 Gold?",
    "n": 1,
    "npc": [
     "gnommander"
    ]
   },
   "Do you want to buy the second addon for 3000 Gold?": {
-   "pt": "",
+   "pt": "Quer comprar o segundo addon por 3000 Gold?",
    "n": 1,
    "npc": [
     "gnommander"
    ]
   },
   "Hi there! Welcome to the spike.": {
-   "pt": "",
+   "pt": "Olá! Bem-vindo à spike.",
    "n": 1,
    "npc": [
     "gnommander"
@@ -29828,77 +29828,77 @@
    ]
   },
   "I'm informed about the status the world is in. If you have questions, let me know.": {
-   "pt": "",
+   "pt": "Estou informada sobre o estado do mundo. Se tiver perguntas, me avise.",
    "n": 1,
    "npc": [
     "guide_davina"
    ]
   },
   "Need some help finding your way through Liberty Bay? Let me assist you.": {
-   "pt": "",
+   "pt": "Precisa de ajuda para se localizar em Liberty Bay? Deixe-me ajudar.",
    "n": 1,
    "npc": [
     "guide_davina"
    ]
   },
   "Hello, is this your first visit to Liberty Bay? I can show you around the town.": {
-   "pt": "",
+   "pt": "Olá, esta é sua primeira visita a Liberty Bay? Posso lhe mostrar a cidade.",
    "n": 1,
    "npc": [
     "guide_davina"
    ]
   },
   "The temple is just north west of the depot. You can't miss it.": {
-   "pt": "",
+   "pt": "O templo fica logo a noroeste do depot. Não tem como errar.",
    "n": 1,
    "npc": [
     "guide_davina"
    ]
   },
   "Jefrey, our bank clerk, can be found inside the depot. Easy to find.": {
-   "pt": "",
+   "pt": "Jefrey, nosso caixa de banco, fica dentro do depot. Fácil de achar.",
    "n": 1,
    "npc": [
     "guide_davina"
    ]
   },
   "You can buy weapons, armor, tools, gems, magical equipment, furniture and food here.": {
-   "pt": "",
+   "pt": "Você pode comprar armas, armadura, ferramentas, gemas, equipamento mágico, móveis e comida aqui.",
    "n": 1,
    "npc": [
     "guide_davina"
    ]
   },
   "Well, I'm a guide. I can mark important locations on your map and give you some information about the town. I do this for free, but I'm always happy about a small donation if you can spare some money.": {
-   "pt": "",
+   "pt": "Bem, eu sou guia. Posso marcar locais importantes no seu mapa e lhe dar informação sobre a cidade. Faço isso de graça, mas sempre fico feliz com uma pequena doação, se puder poupar algum dinheiro.",
    "n": 1,
    "npc": [
     "guide_davina"
    ]
   },
   "This city has three main districts - a noble district, a merchant district and the slums. The class difference is clearly visible here. Most shops are in the merchant district. There are also large sugarcane plantations.": {
-   "pt": "",
+   "pt": "Esta cidade tem três distritos principais - um distrito nobre, um distrito comercial e os cortiços. A diferença de classe é bem visível aqui. A maioria das lojas fica no distrito comercial. Também há grandes plantações de cana-de-açúcar.",
    "n": 1,
    "npc": [
     "guide_davina"
    ]
   },
   "I'm Davina. Glad to help you today.": {
-   "pt": "",
+   "pt": "Sou Davina. Feliz em ajudar você hoje.",
    "n": 1,
    "npc": [
     "guide_davina"
    ]
   },
   "Hello there, |PLAYERNAME| and welcome to Liberty Bay! Would you like some information and a map guide?": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|, e bem-vindo a Liberty Bay! Gostaria de informação e um guia de mapa?",
    "n": 1,
    "npc": [
     "guide_davina"
    ]
   },
   "Good bye and enjoy your stay in Liberty Bay, |PLAYERNAME|": {
-   "pt": "",
+   "pt": "Até logo, e aproveite sua estadia em Liberty Bay, |PLAYERNAME|",
    "n": 1,
    "npc": [
     "guide_davina"
@@ -39733,63 +39733,63 @@
    ]
   },
   "I can forge the finest {weapons} for knights and warriors. They may wear them proudly and visible to everyone.": {
-   "pt": "",
+   "pt": "Posso forjar as melhores {armas} para knights e guerreiros. Eles podem portá-las com orgulho, à vista de todos.",
    "n": 1,
    "npc": [
     "morgan"
    ]
   },
   "Would you rather be interested in a {knight's sword} or in a {warrior's sword}?": {
-   "pt": "",
+   "pt": "Você prefere ter interesse numa {knight's sword} ou numa {warrior's sword}?",
    "n": 1,
    "npc": [
     "morgan"
    ]
   },
   "Ahh. So Duncan sent you, eh? You must have done something really impressive. Okay, take this fine sabre from me, mate.": {
-   "pt": "",
+   "pt": "Ahh. Então foi Duncan que lhe mandou, é? Você deve ter feito algo realmente impressionante. Certo, fique com este belo sabre, camarada.",
    "n": 1,
    "npc": [
     "morgan"
    ]
   },
   "Thank you for delivering my letter to Eremo. I have no more missions for you.": {
-   "pt": "",
+   "pt": "Obrigado por entregar minha carta a Eremo. Não tenho mais missões para você.",
    "n": 1,
    "npc": [
     "morgan"
    ]
   },
   "Great! Simply bring me 100 iron ore and one royal steel and I will happily {forge} it for you.": {
-   "pt": "",
+   "pt": "Ótimo! É só me trazer 100 iron ore e um royal steel que eu {forjo} com prazer para você.",
    "n": 1,
    "npc": [
     "morgan"
    ]
   },
   "Great! Simply bring me 100 Iron Ore and one Crude Iron and I will happily {forge} it for you.": {
-   "pt": "",
+   "pt": "Ótimo! É só me trazer 100 Iron Ore e um Crude Iron que eu {forjo} com prazer para você.",
    "n": 1,
    "npc": [
     "morgan"
    ]
   },
   "What would you like me to forge for you? A {knight's sword} or a {warrior's sword}?": {
-   "pt": "",
+   "pt": "O que você gostaria que eu forjasse para você? Uma {knight's sword} ou uma {warrior's sword}?",
    "n": 1,
    "npc": [
     "morgan"
    ]
   },
   "Alright, we will see. Here, take this letter and deliver it safely to old Eremo on Cormaya.": {
-   "pt": "",
+   "pt": "Muito bem, vamos ver. Tome, leve esta carta e entregue-a em segurança ao velho Eremo, em Cormaya.",
    "n": 1,
    "npc": [
     "morgan"
    ]
   },
   "Hello there.": {
-   "pt": "",
+   "pt": "Olá.",
    "n": 1,
    "npc": [
     "morgan"
@@ -45067,98 +45067,98 @@
    ]
   },
   "Eleonore ... Yes, I remember her... vaguely. She is a pretty girl ... but still only a girl and now I am in love with a beautiful and passionate woman. A true {mermaid} even.": {
-   "pt": "",
+   "pt": "Eleonore ... Sim, lembro dela... vagamente. É uma garota bonita ... mas ainda assim só uma garota, e agora estou apaixonado por uma mulher linda e apaixonante. Uma verdadeira {sereia}, até.",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "Don't ask about silly missions. All I can think about is this lovely {mermaid}.": {
-   "pt": "",
+   "pt": "Não me pergunte sobre missões bobas. Só consigo pensar nesta adorável {sereia}.",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "Ask around in the settlement where you can help out. If you have proven your worth I might have some missions for you.": {
-   "pt": "",
+   "pt": "Pergunte por aí no povoado onde você pode ajudar. Se já provou seu valor, talvez eu tenha umas missões para você.",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "I think that means 'mission accomplished'. Hehe. I guess that will put an end to their efforts to buy any alchemical substance from Edron.": {
-   "pt": "",
+   "pt": "Acho que isso significa 'missão cumprida'. Hehe. Imagino que isso vá dar um fim aos esforços deles de comprar qualquer substância alquímica de Edron.",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "You did it! Excellent!": {
-   "pt": "",
+   "pt": "Você conseguiu! Excelente!",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "My pillow?? They know me all too well... <sigh> I've owned it since my childhood. However. Here, take it and convincehim that I am dead.": {
-   "pt": "",
+   "pt": "Meu travesseiro?? Eles me conhecem bem demais... <suspira> Tenho ele desde criança. Mas tudo bem. Tome, leve e convença-o de que estou morto.",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "The mermaid is the most beautiful creature I have ever met. She is so wonderful. It was some kind of magic as we first met. A look in her eyes and I suddenly knew there would be never again another woman in my life but her.": {
-   "pt": "",
+   "pt": "A sereia é a criatura mais linda que já conheci. Ela é maravilhosa. Foi como uma espécie de magia quando nos conhecemos. Um olhar nos olhos dela e de repente eu soube que nunca mais haveria outra mulher na minha vida além dela.",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "I am deeply ashamed that I lacked the willpower to resist her spell. Thank you for your help in that matter. Now my head is once more free to think about our {mission}.": {
-   "pt": "",
+   "pt": "Tenho profunda vergonha de não ter tido força de vontade para resistir ao feitiço dela. Obrigado pela sua ajuda nisso. Agora minha cabeça está livre de novo para pensar na nossa {missão}.",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "Ah, right! The pirate outfit! Here you go, now you are truly one of us.": {
-   "pt": "",
+   "pt": "Ah, é mesmo! O outfit de pirata! Aqui está, agora você é de verdade um de nós.",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "Ahh, thank you, my friend! What would we do without you? Here, take this reward for your efforts. If you want to continue to help us killing pirates, just ask me about that {task}.": {
-   "pt": "",
+   "pt": "Ahh, obrigado, meu amigo! O que faríamos sem você? Tome, fique com esta recompensa pelo esforço. Se quiser continuar nos ajudando a matar piratas, é só me perguntar sobre essa {tarefa}.",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "Go kill more pirates.": {
-   "pt": "",
+   "pt": "Vá matar mais piratas.",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "Do you, by chance, would like to kill pirates again for us?": {
-   "pt": "",
+   "pt": "Por acaso você gostaria de matar piratas para nós de novo?",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "Perfect. I know it sounds like a lot, but really, take your time. You won't do it for nothing, I promise.": {
-   "pt": "",
+   "pt": "Perfeito. Sei que parece muito, mas de verdade, sem pressa. Você não vai fazer isso à toa, prometo.",
    "n": 1,
    "npc": [
     "raymond_striker"
    ]
   },
   "Be greeted. Is there anything I can {do for you}?": {
-   "pt": "",
+   "pt": "Seja bem-vindo. Há algo que eu possa {fazer por você}?",
    "n": 1,
    "npc": [
     "raymond_striker"
@@ -57224,11 +57224,11 @@
    "n": 5
   },
   "worthy": {
-   "pt": "",
+   "pt": "digno",
    "n": 5
   },
   "do for you": {
-   "pt": "",
+   "pt": "fazer por você",
    "n": 5
   },
   "transport": {
@@ -58116,7 +58116,7 @@
    "n": 3
   },
   "mermaid": {
-   "pt": "",
+   "pt": "sereia",
    "n": 3
   },
   "sentry": {
@@ -58724,15 +58724,15 @@
    "n": 2
   },
   "charges": {
-   "pt": "",
+   "pt": "cargas",
    "n": 2
   },
   "nests": {
-   "pt": "",
+   "pt": "ninhos",
    "n": 2
   },
   "killing": {
-   "pt": "",
+   "pt": "matança",
    "n": 2
   },
   "spore": {
@@ -58748,11 +58748,11 @@
    "n": 2
   },
   "pacifiers": {
-   "pt": "",
+   "pt": "pacificadores",
    "n": 2
   },
   "release": {
-   "pt": "",
+   "pt": "libertação",
    "n": 2
   },
   "warzones": {
@@ -58760,7 +58760,7 @@
    "n": 2
   },
   "basic": {
-   "pt": "",
+   "pt": "básico",
    "n": 2
   },
   "races": {
@@ -59040,15 +59040,15 @@
    "n": 2
   },
   "knight's sword": {
-   "pt": "",
+   "pt": "knight's sword",
    "n": 2
   },
   "warrior's sword": {
-   "pt": "",
+   "pt": "warrior's sword",
    "n": 2
   },
   "forge": {
-   "pt": "",
+   "pt": "forjar",
    "n": 2
   },
   "explain": {
@@ -60368,11 +60368,11 @@
    "n": 1
   },
   "fertilise": {
-   "pt": "",
+   "pt": "fertilizar",
    "n": 1
   },
   "fertilisation": {
-   "pt": "",
+   "pt": "fertilização",
    "n": 1
   },
   "musical": {
@@ -60388,11 +60388,11 @@
    "n": 1
   },
   "track": {
-   "pt": "",
+   "pt": "rastrear",
    "n": 1
   },
   "tracking": {
-   "pt": "",
+   "pt": "rastreamento",
    "n": 1
   },
   "tavern": {
@@ -62267,6 +62267,10 @@
   },
   "spare": {
    "pt": "sobra",
+   "n": 0
+  },
+  "forge": {
+   "pt": "forjo",
    "n": 0
   }
  }
