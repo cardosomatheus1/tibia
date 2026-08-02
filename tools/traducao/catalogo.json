@@ -4750,7 +4750,7 @@
    ]
   },
   "Where do you want to go? To {Thais}, {Ab'Dendriel}, {Venore}, {Svargrond}, {Yalahar} or {Edron?}": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Thais}, {Ab'Dendriel}, {Venore}, {Svargrond}, {Yalahar} ou {Edron?}",
    "n": 6,
    "npc": [
     "captain_greyhound"
@@ -5426,7 +5426,7 @@
    ]
   },
   "See you, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Até mais, |PLAYERNAME|.",
    "n": 4,
    "npc": [
     "alexander",
@@ -10415,7 +10415,7 @@
    ]
   },
   "Good Bye, noble |PLAYERNAME|": {
-   "pt": "",
+   "pt": "Adeus, nobre |PLAYERNAME|",
    "n": 2,
    "npc": [
     "humphrey"
@@ -14393,21 +14393,21 @@
    ]
   },
   "Selling all sorts of magic equipment. Come and have a look": {
-   "pt": "",
+   "pt": "Vendendo todo tipo de equipamento mágico. Venha dar uma olhada",
    "n": 1,
    "npc": [
     "alexander"
    ]
   },
   "I'm selling runes, life rings, wands, rods and crystal balls. I also buy powerful spellbooks. If you like to see my offers, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Estou vendendo runes, life rings, wands, rods e crystal balls. Também compro spellbooks poderosos. Se quiser ver minhas ofertas, me peça para {negociar}.",
    "n": 1,
    "npc": [
     "alexander"
    ]
   },
   "Hi there |PLAYERNAME|, and welcome to the {magic} store.": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|, e bem-vindo à loja de {magia}.",
    "n": 1,
    "npc": [
     "alexander"
@@ -19195,14 +19195,14 @@
    ]
   },
   "My name is Captain Greyhound from the Royal Tibia Line.": {
-   "pt": "",
+   "pt": "Meu nome é Captain Greyhound, da Royal Tibia Line.",
    "n": 1,
    "npc": [
     "captain_greyhound"
    ]
   },
   "This is Carlin. Where do you want to go?": {
-   "pt": "",
+   "pt": "Isto é Carlin. Para onde você quer ir?",
    "n": 1,
    "npc": [
     "captain_greyhound"
@@ -22030,21 +22030,21 @@
    ]
   },
   "Passage to Grimvale and Edron.": {
-   "pt": "",
+   "pt": "Passagem para Grimvale e Edron.",
    "n": 1,
    "npc": [
     "cornell"
    ]
   },
   "I can travel you to {Grimvale} or {Edron}.": {
-   "pt": "",
+   "pt": "Posso levá-lo até {Grimvale} ou {Edron}.",
    "n": 1,
    "npc": [
     "cornell"
    ]
   },
   "Welcome on board, |PLAYERNAME|. Where can I {sail} you today, to {Grimvale} or {Edron}?": {
-   "pt": "",
+   "pt": "Bem-vindo a bordo, |PLAYERNAME|. Para onde posso {levar} você hoje, para {Grimvale} ou {Edron}?",
    "n": 1,
    "npc": [
     "cornell"
@@ -24599,21 +24599,21 @@
    ]
   },
   "I can teach you {support} spells. I can also tell you which spells are available at your {level}.": {
-   "pt": "",
+   "pt": "Posso lhe ensinar feitiços de {suporte}. Também posso lhe dizer quais feitiços estão disponíveis no seu {level}.",
    "n": 1,
    "npc": [
     "eliza"
    ]
   },
   "Support spells: {Enchant Party} (Sorcerer), {Heal Party} (Druid), {Protect Party} (Paladin), {Train Party} (Knight).": {
-   "pt": "",
+   "pt": "Feitiços de suporte: {Enchant Party} (Sorcerer), {Heal Party} (Druid), {Protect Party} (Paladin), {Train Party} (Knight).",
    "n": 1,
    "npc": [
     "eliza"
    ]
   },
   "I have spells for level {32}.": {
-   "pt": "",
+   "pt": "Tenho feitiços para o level {32}.",
    "n": 1,
    "npc": [
     "eliza"
@@ -24627,7 +24627,7 @@
    ]
   },
   "Welcome, |PLAYERNAME|. If you're interested in {spells} to support your party, I can be your teacher.": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|. Se estiver interessado em {magias} para apoiar seu grupo, posso ser seu professor.",
    "n": 1,
    "npc": [
     "eliza"
@@ -32243,14 +32243,14 @@
    ]
   },
   "So receive the embrace of Tibia, pilgrim.": {
-   "pt": "",
+   "pt": "Então receba o embrace of Tibia, peregrino.",
    "n": 1,
    "npc": [
     "humphrey"
    ]
   },
   "Welcome, noble |PLAYERNAME|": {
-   "pt": "",
+   "pt": "Bem-vindo, nobre |PLAYERNAME|",
    "n": 1,
    "npc": [
     "humphrey"
@@ -44850,14 +44850,14 @@
    ]
   },
   "Okay, then just browse through all of my wares.": {
-   "pt": "",
+   "pt": "Ok, então é só dar uma olhada em todas as minhas mercadorias.",
    "n": 1,
    "npc": [
     "rachel"
    ]
   },
   "Welcome |PLAYERNAME|! Whats your need?": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Qual sua necessidade?",
    "n": 1,
    "npc": [
     "rachel"
@@ -56856,7 +56856,7 @@
    "n": 8
   },
   "edron?": {
-   "pt": "",
+   "pt": "Edron?",
    "n": 8
   },
   "banor": {
@@ -57196,7 +57196,7 @@
    "n": 5
   },
   "grimvale": {
-   "pt": "",
+   "pt": "Grimvale",
    "n": 5
   },
   "fibula": {
