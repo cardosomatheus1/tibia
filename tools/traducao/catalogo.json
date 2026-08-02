@@ -2378,7 +2378,7 @@
    ]
   },
   "You already received my line of the prayer.": {
-   "pt": "",
+   "pt": "Você já recebeu o meu verso da oração.",
    "n": 9,
    "npc": [
     "amanda",
@@ -3972,7 +3972,7 @@
    ]
   },
   "Where do you want to go? To {Carlin}, {Ab'Dendriel}, {Venore}, {Port Hope}, {Liberty Bay}, {Svargrond}, {Yalahar}, {Roshamuul}, {Oramond} or {Edron}?": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Carlin}, {Ab'Dendriel}, {Venore}, {Port Hope}, {Liberty Bay}, {Svargrond}, {Yalahar}, {Roshamuul}, {Oramond} ou {Edron}?",
    "n": 7,
    "npc": [
     "captain_bluebear"
@@ -4738,7 +4738,7 @@
    ]
   },
   "We would like to welcome you on board.": {
-   "pt": "",
+   "pt": "Gostaríamos de lhe dar as boas-vindas a bordo.",
    "n": 6,
    "npc": [
     "captain_bluebear",
@@ -6391,7 +6391,7 @@
    ]
   },
   "We can transport everything you want.": {
-   "pt": "",
+   "pt": "Podemos transportar tudo que você quiser.",
    "n": 3,
    "npc": [
     "captain_bluebear",
@@ -6400,7 +6400,7 @@
    ]
   },
   "Many people who sailed to Darashia never returned because they were attacked by a ghostship! I'll never sail there!": {
-   "pt": "",
+   "pt": "Muita gente que navegou para Darashia nunca mais voltou porque foi atacada por um ghostship! Eu nunca vou navegar para lá!",
    "n": 3,
    "npc": [
     "captain_bluebear",
@@ -6871,7 +6871,7 @@
    ]
   },
   "Alright, I guess you need a stake first. Maybe Gamon can help you, the leg of a chair or something could just do. Try asking him for a stake, and if you have one, bring it back to me.": {
-   "pt": "",
+   "pt": "Muito bem, acho que primeiro você precisa de uma estaca. Talvez Gamon possa lhe ajudar, a perna de uma cadeira ou algo assim já serve. Tente pedir uma estaca a ele e, se conseguir uma, me traga de volta.",
    "n": 3,
    "npc": [
     "iptar-sin",
@@ -6880,7 +6880,7 @@
    ]
   },
   "I guess you couldn't convince Gamon to give you a stake, eh?": {
-   "pt": "",
+   "pt": "Acho que você não conseguiu convencer Gamon a lhe dar uma estaca, foi?",
    "n": 3,
    "npc": [
     "iptar-sin",
@@ -6889,7 +6889,7 @@
    ]
   },
   "So receive my prayer: 'Light shall be near - and darkness afar'. Now, bring your stake to Tibra in the Carlin church for the next line of the prayer. I will inform her what to do.": {
-   "pt": "",
+   "pt": "Então receba minha oração: 'Que a luz esteja perto - e a escuridão longe'. Agora, leve sua estaca até Tibra, na igreja de Carlin, para o próximo verso da oração. Vou avisá-la do que fazer.",
    "n": 3,
    "npc": [
     "iptar-sin",
@@ -6898,7 +6898,7 @@
    ]
   },
   "You should visit Tibra in the Carlin church now.": {
-   "pt": "",
+   "pt": "Você deve visitar Tibra na igreja de Carlin agora.",
    "n": 3,
    "npc": [
     "iptar-sin",
@@ -6907,7 +6907,7 @@
    ]
   },
   "Welcome, young |PLAYERNAME|! If you are heavily wounded or poisoned, I can {heal} you for free or you want the {adventurer stone}?": {
-   "pt": "",
+   "pt": "Bem-vindo, jovem |PLAYERNAME|! Se estiver muito ferido ou envenenado, posso {curar} você de graça, ou prefere a {adventurer stone}?",
    "n": 3,
    "npc": [
     "iptar-sin",
@@ -8820,14 +8820,14 @@
    ]
   },
   "I'm not sailing there. This route is afflicted by a ghostship! However I've heard that Captain Fearless from Venore sails there.": {
-   "pt": "",
+   "pt": "Não navego para lá. Essa rota é assombrada por um ghostship! Mas ouvi dizer que o Captain Fearless de Venore navega até lá.",
    "n": 2,
    "npc": [
     "captain_bluebear"
    ]
   },
   "This is Thais. Where do you want to go?": {
-   "pt": "",
+   "pt": "Isto é Thais. Para onde você quer ir?",
    "n": 2,
    "npc": [
     "captain_bluebear",
@@ -18814,14 +18814,14 @@
    ]
   },
   "Passages to Carlin, Ab'Dendriel, Edron, Venore, Port Hope, Liberty Bay, Yalahar, Roshamuul, Krailos, Oramond and Svargrond.": {
-   "pt": "",
+   "pt": "Passagens para Carlin, Ab'Dendriel, Edron, Venore, Port Hope, Liberty Bay, Yalahar, Roshamuul, Krailos, Oramond e Svargrond.",
    "n": 1,
    "npc": [
     "captain_bluebear"
    ]
   },
   "My name is Captain Bluebear from the Royal Tibia Line.": {
-   "pt": "",
+   "pt": "Meu nome é Captain Bluebear, da Royal Tibia Line.",
    "n": 1,
    "npc": [
     "captain_bluebear"
@@ -34046,203 +34046,203 @@
    ]
   },
   "Always be on guard.": {
-   "pt": "",
+   "pt": "Fique sempre em guarda.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Hmm.": {
-   "pt": "",
+   "pt": "Hmm.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "I need your help in a matter of utmost {urgency}.": {
-   "pt": "",
+   "pt": "Preciso da sua ajuda num assunto da máxima {urgência}.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "The situation is complicated and it's even hard to say where to {start} best, just to describe it to you.": {
-   "pt": "",
+   "pt": "A situação é complicada, e é até difícil dizer por onde {começar}, só para descrevê-la a você.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "You see, several incidents in history can be traced back to a single {source}.": {
-   "pt": "",
+   "pt": "Veja, vários incidentes ao longo da história podem ser rastreados até uma única {origem}.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Things get murkier the further you go down in history, but that's not even necessary. Even today we can discern a certain pattern in recent {events}.": {
-   "pt": "",
+   "pt": "As coisas ficam mais turvas quanto mais fundo se vai na história, mas nem é necessário. Mesmo hoje podemos discernir um certo padrão em {eventos} recentes.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "The recent rise of lycanthropy, the robbery of certain forbidden arcane texts and the vanishing of at least three dangerous individuals, targeted by the inquisition are just the tip of the {iceberg}.": {
-   "pt": "",
+   "pt": "O recente aumento da licantropia, o roubo de certos textos arcanos proibidos e o desaparecimento de pelo menos três indivíduos perigosos, alvos da inquisição, são só a ponta do {iceberg}.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "This outside force is moving behind the scenes since ages. Our research suggests that this force probably even {predates} the rise of humanity.": {
-   "pt": "",
+   "pt": "Essa força externa se move nos bastidores há eras. Nossa pesquisa sugere que essa força provavelmente até {antecede} o surgimento da humanidade.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Well, we are sure that the puppeteer behind all these events is an organisation. So old that even its name, the Shiron'Fal, has lost its meaning, because the {language} it originates from is long dead.": {
-   "pt": "",
+   "pt": "Bem, temos certeza de que o titereiro por trás de todos esses eventos é uma organização. Tão antiga que até o nome, Shiron'Fal, perdeu o sentido, porque a {língua} de origem está morta há muito tempo.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Here is where you come into play. We could identify the most recent plot of the Shiron'Fal and already had some {clashes}.": {
-   "pt": "",
+   "pt": "É aqui que você entra em cena. Conseguimos identificar o mais recente complô do Shiron'Fal e já tivemos alguns {confrontos}.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "In our efforts to hinder their plot, we achieved mixed results at best. But now things are escalating fast and we have to {hurry}.": {
-   "pt": "",
+   "pt": "Em nossos esforços para atrapalhar o complô deles, conseguimos, na melhor das hipóteses, resultados mistos. Mas agora as coisas estão escalando rápido e temos que {correr}.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Our resources are already stretched thin, so we need your help with the most recent {problem}.": {
-   "pt": "",
+   "pt": "Nossos recursos já estão no limite, então precisamos da sua ajuda com o mais recente {problema}.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "The legion tries to use a new form of twisted rituals to raise the bodies of well-known {knights}.": {
-   "pt": "",
+   "pt": "A legião tenta usar uma nova forma de rituais retorcidos para ressuscitar os corpos de {knights} conhecidos.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "These powerful undead were a terrible threat on their own but it seems even they are just part of some larger {scheme} that we cannot make out yet.": {
-   "pt": "",
+   "pt": "Esses undead poderosos já eram uma ameaça terrível por conta própria, mas parece que até eles são só parte de uma {trama} maior que ainda não conseguimos decifrar.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "We are still working feverishly to uncover their goals but for now more imminent {threats} are at hand.": {
-   "pt": "",
+   "pt": "Ainda estamos trabalhando febrilmente para descobrir os objetivos deles, mas por ora há {ameaças} mais iminentes em mãos.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Death cultists of the Shiron'Fal are trying to locate the bodies of fallen knights and raise them in blasphemous {rituals}.": {
-   "pt": "",
+   "pt": "Cultistas da morte do Shiron'Fal estão tentando localizar os corpos de knights caídos e ressuscitá-los em {rituais} blasfemos.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "The churches of the gods worked hand in hand to supply us with the means to {purge} the graves of those knights.": {
-   "pt": "",
+   "pt": "As igrejas dos deuses trabalharam lado a lado para nos fornecer os meios de {purgar} os túmulos daqueles knights.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "By now the cultists of the Shiron'Fal seem to have abandoned their search. But this is sadly no good news. It seems they gathered enough lich-knights to proceed with their {ultimate} plan.": {
-   "pt": "",
+   "pt": "A esta altura, os cultistas do Shiron'Fal parecem ter abandonado a busca. Mas infelizmente isso não é boa notícia. Parece que reuniram lich-knights suficientes para prosseguir com o plano {final} deles.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Sadly, I have no news yet. But I can give you information about the {locations} of the graves that we learned about. If you need more holy water just ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Infelizmente ainda não tenho novidades. Mas posso lhe dar informação sobre as {localizações} dos túmulos de que soubemos. Se precisar de mais holy water, é só me pedir para {negociar}.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Here is your second addon for your efforts!": {
-   "pt": "",
+   "pt": "Aqui está seu segundo addon pelo esforço!",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Here is your first addon for your efforts!": {
-   "pt": "",
+   "pt": "Aqui está seu primeiro addon pelo esforço!",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Incredible! You averted a crisis that would have utterly crippled our defences aganist any other threat that is arising. Let me grant you the honor to be one of the hands of the inquisition alongside with the according outfit as a reward.": {
-   "pt": "",
+   "pt": "Incrível! Você evitou uma crise que teria destruído por completo nossas defesas contra qualquer outra ameaça que surja. Deixe-me lhe conceder a honra de ser uma das mãos da inquisição, junto com o outfit correspondente como recompensa.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Indeed you averted us a great danger! We will ever be greatful to you hand of the inquisition!": {
-   "pt": "",
+   "pt": "De fato você nos livrou de um grande perigo! Seremos eternamente gratos a você, mão da inquisição!",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "You need to travel to the isle of the kings and end this threat before they raise king Zelos!": {
-   "pt": "",
+   "pt": "Você precisa viajar até a isle of the kings e acabar com essa ameaça antes que eles ressuscitem o rei Zelos!",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Welcome, |PLAYERNAME|! There is much we have to {discuss}.": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Temos muito o que {discutir}.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Hello, stranger! You look suspicious to me. I don't think we have anything to discuss.": {
-   "pt": "",
+   "pt": "Olá, estranho! Você me parece suspeito. Acho que não temos nada a discutir.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Welcome, |PLAYERNAME|! Is there anything to {report}?": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Há algo a {relatar}?",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Hello, stranger! Sorry, but I never heard about you. I'm looking for more experienced help.": {
-   "pt": "",
+   "pt": "Olá, estranho! Desculpe, mas nunca ouvi falar de você. Estou procurando ajuda mais experiente.",
    "n": 1,
    "npc": [
     "jack_springer"
    ]
   },
   "Of course, my friend.": {
-   "pt": "",
+   "pt": "Claro, meu amigo.",
    "n": 1,
    "npc": [
     "jack_springer"
@@ -44868,7 +44868,7 @@
    ]
   },
   "Ah, I see you brought a stake with you. Are you ready to receive my line of the prayer then?": {
-   "pt": "",
+   "pt": "Ah, vejo que você trouxe uma estaca. Está pronto para receber o meu verso da oração, então?",
    "n": 1,
    "npc": [
     "quentin"
@@ -55746,7 +55746,7 @@
    "n": 64
   },
   "adventurer stone": {
-   "pt": "",
+   "pt": "adventurer stone",
    "n": 63
   },
   "stake": {
@@ -56638,7 +56638,7 @@
    "n": 14
   },
   "report": {
-   "pt": "",
+   "pt": "relatar",
    "n": 14
   },
   "merchant": {
@@ -57774,7 +57774,7 @@
    "n": 3
   },
   "language": {
-   "pt": "",
+   "pt": "língua",
    "n": 3
   },
   "dixi's": {
@@ -57958,7 +57958,7 @@
    "n": 3
   },
   "start": {
-   "pt": "",
+   "pt": "começar",
    "n": 3
   },
   "ticket": {
@@ -58038,7 +58038,7 @@
    "n": 3
   },
   "problem": {
-   "pt": "",
+   "pt": "problema",
    "n": 3
   },
   "left": {
@@ -58138,7 +58138,7 @@
    "n": 3
   },
   "events": {
-   "pt": "",
+   "pt": "eventos",
    "n": 3
   },
   "vampire": {
@@ -58918,51 +58918,51 @@
    "n": 2
   },
   "urgency": {
-   "pt": "",
+   "pt": "urgência",
    "n": 2
   },
   "source": {
-   "pt": "",
+   "pt": "origem",
    "n": 2
   },
   "iceberg": {
-   "pt": "",
+   "pt": "iceberg",
    "n": 2
   },
   "predates": {
-   "pt": "",
+   "pt": "antecede",
    "n": 2
   },
   "clashes": {
-   "pt": "",
+   "pt": "confrontos",
    "n": 2
   },
   "hurry": {
-   "pt": "",
+   "pt": "correr",
    "n": 2
   },
   "scheme": {
-   "pt": "",
+   "pt": "trama",
    "n": 2
   },
   "threats": {
-   "pt": "",
+   "pt": "ameaças",
    "n": 2
   },
   "rituals": {
-   "pt": "",
+   "pt": "rituais",
    "n": 2
   },
   "purge": {
-   "pt": "",
+   "pt": "purgar",
    "n": 2
   },
   "locations": {
-   "pt": "",
+   "pt": "localizações",
    "n": 2
   },
   "discuss": {
-   "pt": "",
+   "pt": "discutir",
    "n": 2
   },
   "recipes": {
@@ -60726,7 +60726,7 @@
    "n": 1
   },
   "ultimate": {
-   "pt": "",
+   "pt": "final",
    "n": 1
   },
   "more": {
