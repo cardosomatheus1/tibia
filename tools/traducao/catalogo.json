@@ -5144,7 +5144,7 @@
    ]
   },
   "No, no, no, you even are no barb....barba...er.. one of us!!!! Talk to the Jarl first!": {
-   "pt": "",
+   "pt": "Não, não, não, você nem é um bár....bárba...er.. um de nós!!!! Fale com o Jarl primeiro!",
    "n": 5,
    "npc": [
     "buddel",
@@ -5155,7 +5155,7 @@
    ]
   },
   "Ohh, you got a nice ring there! Ya don't have to pay if you gimme the ring and I promise you I will bring you to the correct spot!*HICKS* Alright?": {
-   "pt": "",
+   "pt": "Ohh, que anel bonito você tem aí! Você não precisa pagar se me der o anel, e eu prometo que lhe levo ao lugar certo!*SOLUÇA* Combinado?",
    "n": 5,
    "npc": [
     "buddel",
@@ -5166,7 +5166,7 @@
    ]
   },
   "Give me 50 gold and I bring you to": {
-   "pt": "",
+   "pt": "Me dê 50 gold e eu lhe levo até",
    "n": 5,
    "npc": [
     "buddel",
@@ -5177,7 +5177,7 @@
    ]
   },
   "Get out o' here!*HICKS*": {
-   "pt": "",
+   "pt": "Sai daqui!*SOLUÇA*",
    "n": 5,
    "npc": [
     "buddel",
@@ -5188,7 +5188,7 @@
    ]
   },
   "Where are we at the moment? Is this Svargrond? Ahh yes!*HICKS* Where do you want to go?": {
-   "pt": "",
+   "pt": "Onde estamos agora? Isto é Svargrond? Ahh sim!*SOLUÇA* Para onde você quer ir?",
    "n": 5,
    "npc": [
     "buddel",
@@ -5516,7 +5516,7 @@
    ]
   },
   "Oh, please come in, |PLAYERNAME|. What can I do for you? If you need adventure equipment, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Ah, por favor, entre, |PLAYERNAME|. O que posso fazer por você? Se precisar de equipamento de aventura, me peça para {negociar}.",
    "n": 4,
    "npc": [
     "bertha",
@@ -8653,7 +8653,7 @@
    ]
   },
   "I sell equipment for your adventure! Just ask me for a {trade} to see my wares.": {
-   "pt": "",
+   "pt": "Eu vendo equipamento para sua aventura! É só me pedir para {negociar} e ver minhas mercadorias.",
    "n": 2,
    "npc": [
     "bertha",
@@ -8824,7 +8824,7 @@
    ]
   },
   "Where do you want to go? To {Carlin}, {Venore} or {Thais}?": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Carlin}, {Venore} ou {Thais}?",
    "n": 2,
    "npc": [
     "captain_breezelda"
@@ -12447,28 +12447,28 @@
    ]
   },
   "I'm aware what you are looking for. Usually I would rather devour you, but due to unfortunate circumstances, I need your {assistance}.": {
-   "pt": "",
+   "pt": "Sei o que você procura. Normalmente eu preferiria devorá-lo, mas devido a circunstâncias infelizes, preciso da sua {assistência}.",
    "n": 1,
    "npc": [
     "a_dragon_mother"
    ]
   },
   "Greetings humans! Consider yourselfs lucky, I'm in need of {help}.": {
-   "pt": "",
+   "pt": "Saudações, humanos! Considerem-se sortudos, eu preciso de {ajuda}.",
    "n": 1,
    "npc": [
     "a_dragon_mother"
    ]
   },
   "Grrr.": {
-   "pt": "",
+   "pt": "Grrr.",
    "n": 1,
    "npc": [
     "a_dragon_mother"
    ]
   },
   "You have done me a favour and the knowledge you are seeking shall be yours. I melted the ice for you, you can pass now.": {
-   "pt": "",
+   "pt": "Você me fez um favor, e o conhecimento que você busca será seu. Derreti o gelo para você, agora pode passar.",
    "n": 1,
    "npc": [
     "a_dragon_mother"
@@ -12755,14 +12755,14 @@
    ]
   },
   "Uhhhh...": {
-   "pt": "",
+   "pt": "Uhhhh...",
    "n": 1,
    "npc": [
     "a_restless_soul"
    ]
   },
   "Ahhhh! At last someone that can listen to my {story}!": {
-   "pt": "",
+   "pt": "Ahhhh! Finalmente alguém que pode escutar minha {história}!",
    "n": 1,
    "npc": [
     "a_restless_soul"
@@ -12972,7 +12972,7 @@
    ]
   },
   "<munch>": {
-   "pt": "",
+   "pt": "<mastiga>",
    "n": 1,
    "npc": [
     "a_starving_dog"
@@ -16654,7 +16654,7 @@
    ]
   },
   "Hey there, need some general goods or paperware?": {
-   "pt": "",
+   "pt": "Olá, precisa de produtos gerais ou papelaria?",
    "n": 1,
    "npc": [
     "bertha"
@@ -18236,35 +18236,35 @@
    ]
   },
   "Hey big guys. You? {Here}? *HICKS*": {
-   "pt": "",
+   "pt": "Ei, grandalhões. Vocês? {Aqui}? *SOLUÇA*",
    "n": 1,
    "npc": [
     "buddel"
    ]
   },
   "Where are we at the moment? Is this {Svargrond}? NO,*HICKS* it's Helheim! Anyway, where do you want to go?": {
-   "pt": "",
+   "pt": "Onde estamos agora? Isto é {Svargrond}? NÃO,*SOLUÇA* isto é Helheim! De qualquer forma, para onde você quer ir?",
    "n": 1,
    "npc": [
     "buddel_helheim"
    ]
   },
   "Where are we at the moment? Is this {Svargrond}? NO,*HICKS* it's Okolnir! Anyway, where do you want to go?": {
-   "pt": "",
+   "pt": "Onde estamos agora? Isto é {Svargrond}? NÃO,*SOLUÇA* isto é Okolnir! De qualquer forma, para onde você quer ir?",
    "n": 1,
    "npc": [
     "buddel_okolnir"
    ]
   },
   "Where are we at the moment? Is this {Svargrond}? NO,*HICKS* it's Camp! Anyway, where do you want to go?": {
-   "pt": "",
+   "pt": "Onde estamos agora? Isto é {Svargrond}? NÃO,*SOLUÇA* isto é Camp! De qualquer forma, para onde você quer ir?",
    "n": 1,
    "npc": [
     "buddel_raider_camp"
    ]
   },
   "Where are we at the moment? Is this {Svargrond}? NO,*HICKS* it's Tyrsung! Anyway, where do you want to go?": {
-   "pt": "",
+   "pt": "Onde estamos agora? Isto é {Svargrond}? NÃO,*SOLUÇA* isto é Tyrsung! De qualquer forma, para onde você quer ir?",
    "n": 1,
    "npc": [
     "buddel_tyrsung"
@@ -18810,7 +18810,7 @@
    ]
   },
   "This is Svargrond. Where do you want to go?": {
-   "pt": "",
+   "pt": "Isto é Svargrond. Para onde você quer ir?",
    "n": 1,
    "npc": [
     "captain_breezelda"
@@ -40601,14 +40601,14 @@
    ]
   },
   "Also selling runes, potions and magical equipment!": {
-   "pt": "",
+   "pt": "Também vendendo runes, potions e equipamento mágico!",
    "n": 1,
    "npc": [
     "nelly"
    ]
   },
   "Hello |PLAYERNAME|, What can I do for you? I'm working for the post office, but I also trade with important {potions}, {runes} and other magical equipment.": {
-   "pt": "",
+   "pt": "Olá |PLAYERNAME|, o que posso fazer por você? Trabalho para os correios, mas também negocio {potions}, {runes} importantes e outro equipamento mágico.",
    "n": 1,
    "npc": [
     "nelly"
@@ -46054,7 +46054,7 @@
    ]
   },
   "Greetings, traveller. I'm a magical trader and trainer for sorcerer spells. How may I help you?": {
-   "pt": "",
+   "pt": "Saudações, viajante. Sou uma comerciante mágica e instrutora de magias de sorcerer. Como posso ajudar?",
    "n": 1,
    "npc": [
     "romir"
@@ -48658,28 +48658,28 @@
    ]
   },
   "Chuqua jamjam!! Tiyopa Sinatuki?": {
-   "pt": "",
+   "pt": "Chuqua jamjam!! Tiyopa Sinatuki?",
    "n": 1,
    "npc": [
     "sinatuki"
    ]
   },
   "Jinuma, suvituka siq chuqua!! Nguraka, nguraka! <happily takes the food from you and gives you five glimmering crystals>": {
-   "pt": "",
+   "pt": "Jinuma, suvituka siq chuqua!! Nguraka, nguraka! <pega a comida de você com alegria e lhe dá cinco cristais reluzentes>",
    "n": 1,
    "npc": [
     "sinatuki"
    ]
   },
   "Jinuma, suvituka siq chuqua!! Nguraka, nguraka! <happily takes the food from you>": {
-   "pt": "",
+   "pt": "Jinuma, suvituka siq chuqua!! Nguraka, nguraka! <pega a comida de você com alegria>",
    "n": 1,
    "npc": [
     "sinatuki"
    ]
   },
   "Kisavuta! <giggles>": {
-   "pt": "",
+   "pt": "Kisavuta! <dá risadinha>",
    "n": 1,
    "npc": [
     "sinatuki"
@@ -50863,14 +50863,14 @@
    ]
   },
   "Hi |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Oi, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "thorwulf"
    ]
   },
   "Bye |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Tchau, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "thorwulf"
@@ -57100,7 +57100,7 @@
    "n": 5
   },
   "story": {
-   "pt": "",
+   "pt": "história",
    "n": 5
   },
   "elves": {
