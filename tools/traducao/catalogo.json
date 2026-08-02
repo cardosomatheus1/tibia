@@ -1660,7 +1660,7 @@
    ]
   },
   "Hello and welcome in the Gnomprona Gardens": {
-   "pt": "",
+   "pt": "Olá e bem-vindo aos Gnomprona Gardens",
    "n": 13,
    "npc": [
     "gnomadness",
@@ -12328,7 +12328,7 @@
    ]
   },
   "So you have come, |PLAYERNAME|. I hoped you would not...": {
-   "pt": "",
+   "pt": "Então você veio, |PLAYERNAME|. Eu esperava que não viesse...",
    "n": 1,
    "npc": [
     "a_beautiful_girl"
@@ -12475,7 +12475,7 @@
    ]
   },
   "Oh...": {
-   "pt": "",
+   "pt": "Ah...",
    "n": 1,
    "npc": [
     "a_fading_memory"
@@ -21197,14 +21197,14 @@
    ]
   },
   "I grant you ze permizzion to enter ze arena. Remember, you'will have to enter ze arena az a team of two. If you are not familiar wiz ze rulez, I can explain zem to you once again.": {
-   "pt": "",
+   "pt": "Concedo a você permizzzzão para entrar na arena. Lembre-zze, você vai ter que entrar na arena em dupla. Zze não ezztiver familiarizado com azz regrazz, pozzzzo explicá-lazz de novo.",
    "n": 1,
    "npc": [
     "chrak"
    ]
   },
   "Greetingz, competitor.": {
-   "pt": "",
+   "pt": "Zzaudazzõezz, competidor.",
    "n": 1,
    "npc": [
     "chrak"
@@ -28204,14 +28204,14 @@
    ]
   },
   "But you don't have it...": {
-   "pt": "",
+   "pt": "Mas você não tem isso...",
    "n": 1,
    "npc": [
     "gnome_trooper"
    ]
   },
   "Do you have something to deliver?": {
-   "pt": "",
+   "pt": "Você tem algo para entregar?",
    "n": 1,
    "npc": [
     "gnome_trooper"
@@ -28883,14 +28883,14 @@
    ]
   },
   "I'm responsible for resupplying foolish adventurers with equipment that they may have lost. If you're one of them, just ask me about a {trade}.": {
-   "pt": "",
+   "pt": "Sou responsável por reabastecer aventureiros tolos com equipamentos que possam ter perdido. Se você é um deles, é só me perguntar sobre {negociar}.",
    "n": 1,
    "npc": [
     "gnomux"
    ]
   },
   "What could I say about gnomes that anyone would not know? I mean, we're interesting if not fascinating, after all.": {
-   "pt": "",
+   "pt": "O que eu poderia dizer sobre gnomos que ninguém já soubesse? Quer dizer, somos interessantes, senão fascinantes, afinal.",
    "n": 1,
    "npc": [
     "gnomux"
@@ -39439,14 +39439,14 @@
    ]
   },
   "What a fascinating idea!": {
-   "pt": "",
+   "pt": "Que ideia fascinante!",
    "n": 1,
    "npc": [
     "milos"
    ]
   },
   "Oh hello. I hardly noticed you. I'm afraid I am a bit distracted at the moment.": {
-   "pt": "",
+   "pt": "Ah, olá. Mal percebi você. Receio que estou um pouco distraído no momento.",
    "n": 1,
    "npc": [
     "milos"
@@ -39873,28 +39873,28 @@
    ]
   },
   "Indeed, I can see the benefits of a mutual agreement. I will later read the details and send a letter to your superior.": {
-   "pt": "",
+   "pt": "De fato, consigo ver os benefícios de um acordo mútuo. Depois vou ler os detalhes e mandar uma carta ao seu superior.",
    "n": 1,
    "npc": [
     "mr._west"
    ]
   },
   "Yes, for the sake of my life I'll accept those terms. I know when I have lost. Tell your master I will comply with his orders.": {
-   "pt": "",
+   "pt": "Sim, para salvar minha vida, vou aceitar esses termos. Sei quando fui derrotado. Diga ao seu mestre que vou cumprir as ordens dele.",
    "n": 1,
    "npc": [
     "mr._west"
    ]
   },
   "<grumble> Maybe I should rearrange some warm currents to get rid of this horrible fog.": {
-   "pt": "",
+   "pt": "<resmunga> Talvez eu devesse rearranjar algumas correntes quentes para me livrar dessa neblina horrível.",
    "n": 1,
    "npc": [
     "mr_brandon"
    ]
   },
   "All these treasures I cannot reach... what a pity.": {
-   "pt": "",
+   "pt": "Todos esses tesouros que não consigo alcançar... que pena.",
    "n": 1,
    "npc": [
     "mr_brandon"
@@ -40958,14 +40958,14 @@
    ]
   },
   "Here, take the memory crystal and leave immediately.": {
-   "pt": "",
+   "pt": "Aqui, pegue o memory crystal e vá embora imediatamente.",
    "n": 1,
    "npc": [
     "nor"
    ]
   },
   "Psst, not that {loud}.": {
-   "pt": "",
+   "pt": "Psst, não tão {alto}.",
    "n": 1,
    "npc": [
     "nor"
@@ -46642,14 +46642,14 @@
    ]
   },
   "You can't get other present.": {
-   "pt": "",
+   "pt": "Você não pode ganhar outro presente.",
    "n": 1,
    "npc": [
     "santa_claus"
    ]
   },
   "Merry Christmas!": {
-   "pt": "",
+   "pt": "Feliz Natal!",
    "n": 1,
    "npc": [
     "santa_claus"
@@ -53110,14 +53110,14 @@
    ]
   },
   "Hey, I rarely see a dashing pirate like you! Get in, matey!": {
-   "pt": "",
+   "pt": "Ei, raramente vejo um pirata elegante como você! Entra, camarada!",
    "n": 1,
    "npc": [
     "vulturenose"
    ]
   },
   "YOU WILL NOT PASS! Erm ... I mean you don't look like a true pirate to me. You won't get in.": {
-   "pt": "",
+   "pt": "VOCÊ NÃO VAI PASSAR! Er ... quer dizer, você não parece um verdadeiro pirata para mim. Você não vai entrar.",
    "n": 1,
    "npc": [
     "vulturenose"
@@ -54720,14 +54720,14 @@
    ]
   },
   "You made it! Az zoon az you are prepared, I will brief you for your nexzt mizzion.": {
-   "pt": "",
+   "pt": "Você conzzeguiu! Azzzzim que ezztiver preparado, vou lhe pazzzzar informazzõezz para zzua próxima mizzzzão.",
    "n": 1,
    "npc": [
     "zizzle"
    ]
   },
   "Ah our human {alliez} have finally arrived! I've already feared zat ze emperor'z forzez had caught you. Your rezilienze and prowezz are imprezzive.": {
-   "pt": "",
+   "pt": "Ah, nossos {aliadozz} humanos finalmente chegaram! Eu já temia que azz forzzazz do emperor tivezzzzem capturado vocêzz. Zzua rezziliência e dezztreza zzão imprezzzzionantezz.",
    "n": 1,
    "npc": [
     "zizzle"
@@ -61136,7 +61136,7 @@
    "n": 1
   },
   "loud": {
-   "pt": "",
+   "pt": "alto",
    "n": 1
   },
   "mary": {
@@ -61856,7 +61856,7 @@
    "n": 1
   },
   "alliez": {
-   "pt": "",
+   "pt": "aliadozz",
    "n": 1
   },
   "hell": {
