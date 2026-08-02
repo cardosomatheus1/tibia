@@ -4702,7 +4702,7 @@
    ]
   },
   "Your weekly ticket is still valid. Would be a waste of money to purchase a second one": {
-   "pt": "",
+   "pt": "Seu bilhete semanal ainda é válido. Seria um desperdício de dinheiro comprar um segundo",
    "n": 6,
    "npc": [
     "brodrosch",
@@ -4714,7 +4714,7 @@
    ]
   },
   "Do you want to purchase a weekly ticket for the ore wagons? With it you can travel freely and swiftly through Kazordoon for one week. 250 gold only. Deal?": {
-   "pt": "",
+   "pt": "Quer comprar um bilhete semanal para os vagões de minério? Com ele você pode viajar livre e rapidamente por Kazordoon durante uma semana. Só 250 gold. Fechado?",
    "n": 6,
    "npc": [
     "brodrosch",
@@ -4726,7 +4726,7 @@
    ]
   },
   "Here is your stamp. It can't be transferred to another person and will last one week from now. You'll get notified upon using an ore wagon when it isn't valid anymore.": {
-   "pt": "",
+   "pt": "Aqui está seu carimbo. Ele não pode ser transferido para outra pessoa e vai durar uma semana a partir de agora. Você será avisado ao usar um vagão de minério quando ele não for mais válido.",
    "n": 6,
    "npc": [
     "brodrosch",
@@ -6496,7 +6496,7 @@
    ]
   },
   "Welcome, |PLAYERNAME|! Do you feel adventurous? Do you want a weekly {ticket} for the ore wagon system here? You can use it right here to get to the centre of Kazordoon!": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Está se sentindo aventureiro? Quer um {bilhete} semanal para o sistema de vagões de minério daqui? Você pode usá-lo bem aqui para chegar ao centro de Kazordoon!",
    "n": 3,
    "npc": [
     "dukosch",
@@ -6505,7 +6505,7 @@
    ]
   },
   "Hope to see you again.": {
-   "pt": "",
+   "pt": "Espero vê-lo de novo.",
    "n": 3,
    "npc": [
     "dukosch",
@@ -8208,7 +8208,7 @@
    ]
   },
   "<mumbles>": {
-   "pt": "",
+   "pt": "<resmunga>",
    "n": 2,
    "npc": [
     "arkulius",
@@ -11551,7 +11551,7 @@
    ]
   },
   "Sorry, that's only dust in your purse.": {
-   "pt": "",
+   "pt": "Desculpe, isso é só poeira na sua bolsa.",
    "n": 2,
    "npc": [
     "robson"
@@ -32201,42 +32201,42 @@
    ]
   },
   "Bah, Farmine here, Farmine there. Is there nothing else than Farmine to talk about these days? Hrmpf, whatever. So what do you want?": {
-   "pt": "",
+   "pt": "Bah, Farmine aqui, Farmine ali. Não tem mais nada para falar hoje em dia além de Farmine? Hrmpf, tanto faz. Então, o que você quer?",
    "n": 1,
    "npc": [
     "humgolf"
    ]
   },
   "You are here to apologise? Have you got anything that would make me reconsider my decision never to talk to you again about this subject?": {
-   "pt": "",
+   "pt": "Você veio se desculpar? Tem alguma coisa que me faria reconsiderar minha decisão de nunca mais falar sobre esse assunto com você?",
    "n": 1,
    "npc": [
     "humgolf"
    ]
   },
   "Yeah, of course they can't do without my worms. Mining and worms go hand in hand. Well, in the case of the worms it is only an imaginary hand of course. I'll send them some of my finest worms.": {
-   "pt": "",
+   "pt": "Sim, claro que eles não vivem sem meus worms. Mineração e worms andam de mãos dadas. Bem, no caso dos worms é só uma mão imaginária, claro. Vou mandar alguns dos meus melhores worms para eles.",
    "n": 1,
    "npc": [
     "humgolf"
    ]
   },
   "Hah! Now you talk like a dwarf! That's the spirit! Of course you can have some of my worms. I'll send a bunch to Farmine as soon as possible.": {
-   "pt": "",
+   "pt": "Hah! Agora sim você fala como um anão! Esse é o espírito! Claro que você pode ficar com alguns dos meus worms. Vou mandar um bocado para Farmine assim que possível.",
    "n": 1,
    "npc": [
     "humgolf"
    ]
   },
   "Uh, how cute! Look how he's snapping for my fingers! You really know how to make an old dwarf happy! Well, so let's try again. Why do you think I should send my precious worms to Farmine?": {
-   "pt": "",
+   "pt": "Ah, que fofo! Olha só como ele fica bicando meus dedos! Você realmente sabe como deixar um velho anão feliz! Bem, vamos tentar de novo. Por que você acha que eu deveria mandar meus preciosos worms para Farmine?",
    "n": 1,
    "npc": [
     "humgolf"
    ]
   },
   "|PLAYERNAME|, good day .. or night, whatever.": {
-   "pt": "",
+   "pt": "|PLAYERNAME|, bom dia .. ou boa noite, tanto faz.",
    "n": 1,
    "npc": [
     "humgolf"
@@ -39145,42 +39145,42 @@
    ]
   },
   "Welcome to the Jolly Axeman, |PLAYERNAME|. Have a good time and eat some food!": {
-   "pt": "",
+   "pt": "Bem-vindo ao Jolly Axeman, |PLAYERNAME|. Divirta-se e coma alguma coisa!",
    "n": 1,
    "npc": [
     "maryza"
    ]
   },
   "The cookbook of the famous dwarven kitchen. You're lucky. I have a few copies on sale. Do you like one for 150 gold?": {
-   "pt": "",
+   "pt": "O cookbook da famosa culinária anã. Você tem sorte. Tenho algumas cópias à venda. Quer uma por 150 gold?",
    "n": 1,
    "npc": [
     "maryza"
    ]
   },
   "I'm sorry but I sell only one copy to each customer. Otherwise they would have been sold out a long time ago.": {
-   "pt": "",
+   "pt": "Sinto muito, mas vendo só uma cópia por cliente. Senão já teriam esgotado há muito tempo.",
    "n": 1,
    "npc": [
     "maryza"
    ]
   },
   "No gold, no sale, that's it.": {
-   "pt": "",
+   "pt": "Sem gold, sem venda, é assim.",
    "n": 1,
    "npc": [
     "maryza"
    ]
   },
   "Here you are. Happy cooking!": {
-   "pt": "",
+   "pt": "Aqui está. Boa cozinha!",
    "n": 1,
    "npc": [
     "maryza"
    ]
   },
   "I have but a few copies, anyway.": {
-   "pt": "",
+   "pt": "De qualquer forma, só tenho mais algumas cópias.",
    "n": 1,
    "npc": [
     "maryza"
@@ -39299,28 +39299,28 @@
    ]
   },
   "Yes, I can hear them even from here. It has to be a legion of beavers! I'll send the men to get the wood as soon as their gnawing frenzy has settled! You can report to Ongulf that men and wood will be on their way!": {
-   "pt": "",
+   "pt": "Sim, dá para ouvi-los até daqui. Só pode ser uma legião de castores! Vou mandar os homens buscar a madeira assim que a fúria de roer deles se acalmar! Você pode informar a Ongulf que homens e madeira estão a caminho!",
    "n": 1,
    "npc": [
     "melfar"
    ]
   },
   "If you place the beaver bait on trees on some strategic locations, we could let the beavers do the work and later on, I'll send men to get the fallen trees.": {
-   "pt": "",
+   "pt": "Se você colocar a beaver bait em árvores em alguns locais estratégicos, podemos deixar os castores fazerem o trabalho e, depois, vou mandar homens buscar as árvores derrubadas.",
    "n": 1,
    "npc": [
     "melfar"
    ]
   },
   "You want to buy a Flask with Beaver Bait for 100 gold coins?": {
-   "pt": "",
+   "pt": "Quer comprar um Flask with Beaver Bait por 100 moedas de ouro?",
    "n": 1,
    "npc": [
     "melfar"
    ]
   },
   "Just great, another disturbance. Just what I need.": {
-   "pt": "",
+   "pt": "Que ótimo, mais um incômodo. Bem o que eu precisava.",
    "n": 1,
    "npc": [
     "melfar"
@@ -45851,42 +45851,42 @@
    ]
   },
   "Just great. Getting stranded on a remote underground isle was not that bad but now I'm becoming a tourist attraction!": {
-   "pt": "",
+   "pt": "Que ótimo. Ficar preso numa ilha subterrânea remota não era tão ruim, mas agora estou virando atração turística!",
    "n": 1,
    "npc": [
     "robson"
    ]
   },
   "Do you want to buy a parcel for 15 gold?": {
-   "pt": "",
+   "pt": "Quer comprar um pacote por 15 gold?",
    "n": 1,
    "npc": [
     "robson"
    ]
   },
   "Do you want to buy a label for 1 gold?": {
-   "pt": "",
+   "pt": "Quer comprar uma etiqueta por 1 gold?",
    "n": 1,
    "npc": [
     "robson"
    ]
   },
   "I knew I would be stuck with that stuff.": {
-   "pt": "",
+   "pt": "Eu sabia que ia ficar empacado com essas coisas.",
    "n": 1,
    "npc": [
     "robson"
    ]
   },
   "Hrmpf, I'd say welcome if I felt like lying.": {
-   "pt": "",
+   "pt": "Hrmpf, eu diria bem-vindo se estivesse com vontade de mentir.",
    "n": 1,
    "npc": [
     "robson"
    ]
   },
   "No patience at all!": {
-   "pt": "",
+   "pt": "Nenhuma paciência!",
    "n": 1,
    "npc": [
     "robson"
@@ -53740,49 +53740,49 @@
    ]
   },
   "You brought me a cookie?": {
-   "pt": "",
+   "pt": "Você me trouxe um cookie?",
    "n": 1,
    "npc": [
     "wyda"
    ]
   },
   "Arrr... here we go again.... do you have a #$*§# blood herb for me?": {
-   "pt": "",
+   "pt": "Arrr... lá vamos nós de novo.... você tem uma #$*§# blood herb para mim?",
    "n": 1,
    "npc": [
     "wyda"
    ]
   },
   "Well, it's a welcome change from all that gingerbread ... AHHH HOW DARE YOU??? FEEL MY WRATH!": {
-   "pt": "",
+   "pt": "Bem, é uma mudança bem-vinda depois de tanto gingerbread ... AHHH COMO VOCÊ OUSA??? SINTA MINHA FÚRIA!",
    "n": 1,
    "npc": [
     "wyda"
    ]
   },
   "Thank you -SOOO- much! No, I really mean it! Really! Here, let me give you a reward...": {
-   "pt": "",
+   "pt": "Muitíssimo obrigada! Não, falo sério! De verdade! Aqui, deixa eu lhe dar uma recompensa...",
    "n": 1,
    "npc": [
     "wyda"
    ]
   },
   "Thank you -SOOO- much! No, I really mean it! Really! Ah, you know what, you can have this old thing...": {
-   "pt": "",
+   "pt": "Muitíssimo obrigada! Não, falo sério! De verdade! Ah, sabe de uma coisa, pode ficar com essa coisa velha...",
    "n": 1,
    "npc": [
     "wyda"
    ]
   },
   "No, you don't have any...": {
-   "pt": "",
+   "pt": "Não, você não tem nenhuma...",
    "n": 1,
    "npc": [
     "wyda"
    ]
   },
   "What? A mundane talking to me? Amusing.": {
-   "pt": "",
+   "pt": "O quê? Um mundano falando comigo? Divertido.",
    "n": 1,
    "npc": [
     "wyda"
@@ -57888,7 +57888,7 @@
    "n": 3
   },
   "ticket": {
-   "pt": "",
+   "pt": "bilhete",
    "n": 3
   },
   "heroes": {
