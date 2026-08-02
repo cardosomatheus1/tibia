@@ -7120,14 +7120,14 @@
    ]
   },
   "Good. Killing 20 will teach them a lesson, without provoking desperate retaliation. \\z\n\t\t\t\tStill, take care!": {
-   "pt": "",
+   "pt": "Bom. Matar 20 vai lhes dar uma lição, sem provocar uma retaliação desesperada. Ainda assim, tome cuidado!",
    "n": 3,
    "npc": [
     "mr_morris"
    ]
   },
   "Ah, very good job. That should put a crimp in their activities. Here's your reward.": {
-   "pt": "",
+   "pt": "Ah, ótimo trabalho. Isso deve atrapalhar bem as atividades deles. Aqui está sua recompensa.",
    "n": 3,
    "npc": [
     "mr_morris"
@@ -8850,21 +8850,21 @@
    ]
   },
   "By tempest! What's all this gold weighing us down? Don't you think that's a little risky with all \\z\n\t\t\t\tthese pirates around? You can take": {
-   "pt": "",
+   "pt": "Pelos temporais! Que ouro todo é esse nos afundando? Não acha isso um pouco arriscado com tanto pirata por aí? Você pode levar",
    "n": 2,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "What? Whatever that is, it's not a port I sail to.": {
-   "pt": "",
+   "pt": "O quê? Seja lá o que for isso, não é um porto para onde eu navego.",
    "n": 2,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Changed your mind? Which city do you want to head to,": {
-   "pt": "",
+   "pt": "Mudou de ideia? Para qual cidade você quer ir,",
    "n": 2,
    "npc": [
     "captain_dreadnought"
@@ -10462,7 +10462,7 @@
    ]
   },
   "Buying all sorts of creature products!": {
-   "pt": "",
+   "pt": "Compro todo tipo de creature product!",
    "n": 2,
    "npc": [
     "inigo",
@@ -10470,7 +10470,7 @@
    ]
   },
   "You're looking thoughtful. Maybe I can help you?": {
-   "pt": "",
+   "pt": "Você parece pensativo. Talvez eu possa ajudar?",
    "n": 2,
    "npc": [
     "inigo",
@@ -10959,7 +10959,7 @@
    ]
   },
   "Hm. Well, you look like you want to take a look at the unknown yourself. \\z\n\t\t\tI might have a job for you. Choose what you would like to do - {fetch} some things, or {kill} some monsters.": {
-   "pt": "",
+   "pt": "Hm. Bem, você parece querer dar uma olhada no desconhecido por conta própria. Talvez eu tenha um trabalho para você. Escolha o que prefere fazer - {buscar} algumas coisas, ou {matar} alguns monstros.",
    "n": 2,
    "npc": [
     "mr_morris"
@@ -18919,266 +18919,266 @@
    ]
   },
   "No smuggling aboard this ship! Only 20 pieces of any creature product allowed!": {
-   "pt": "",
+   "pt": "Nada de contrabando a bordo deste navio! Só 20 unidades de cada creature product!",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "No fear! The Sea Cat will ship you safely to the mainland!": {
-   "pt": "",
+   "pt": "Sem medo! O Sea Cat leva você em segurança até o continente!",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "All aboard! Prepare to sail!": {
-   "pt": "",
+   "pt": "Todos a bordo! Preparar para zarpar!",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Come hell or high water, we'll reach any port I sail you to!": {
-   "pt": "",
+   "pt": "Nem que caia o céu, a gente chega a qualquer porto para onde eu lhe levar!",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "This island is too small. I need sea water around me.": {
-   "pt": "",
+   "pt": "Esta ilha é pequena demais. Preciso de água salgada ao meu redor.",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So it's Ab'Dendriel, the tree city of the elves you chose as your new home?": {
-   "pt": "",
+   "pt": "Então é Ab'Dendriel, a cidade-árvore dos elfos, que você escolheu como novo lar?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So it's Ankrahmun, the city you chose as your new home?": {
-   "pt": "",
+   "pt": "Então é Ankrahmun a cidade que você escolheu como novo lar?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So it's Carlin, the city under women's rule, a rival to Thais you chose as your new home?": {
-   "pt": "",
+   "pt": "Então é Carlin, a cidade sob o governo das mulheres, rival de Thais, que você escolheu como novo lar?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So it's Darashia, the city you chose as your new home?": {
-   "pt": "",
+   "pt": "Então é Darashia a cidade que você escolheu como novo lar?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So it's Edron, the city you chose as your new home?": {
-   "pt": "",
+   "pt": "Então é Edron a cidade que você escolheu como novo lar?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So it's Liberty Bay, the city you chose as your new home?": {
-   "pt": "",
+   "pt": "Então é Liberty Bay a cidade que você escolheu como novo lar?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So it's Port Hope, the city you chose as your new home?": {
-   "pt": "",
+   "pt": "Então é Port Hope a cidade que você escolheu como novo lar?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So it's Thais, the oldest of the human kingdoms you chose as your new home?": {
-   "pt": "",
+   "pt": "Então é Thais, o mais antigo dos reinos humanos, que você escolheu como novo lar?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So it's Venore, \\z\n\t\t\tthe rich swamp city of traders, recommended for new heroes, that you chose as your new home?": {
-   "pt": "",
+   "pt": "Então é Venore, a rica cidade pantanosa dos mercadores, recomendada para novos heróis, que você escolheu como novo lar?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Ruby Dreadnought. But it's Captain Dreadnought to you!": {
-   "pt": "",
+   "pt": "Ruby Dreadnought. Mas para você é Captain Dreadnought!",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "I'm captain of this little sloop here, the Sea Cat.": {
-   "pt": "",
+   "pt": "Sou o capitão desta pequena chalupa aqui, o Sea Cat.",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "She's pretty, isn't she? Will ship you safely to any port. Though a young landlubber such as you should \\z\n\tconsider to travel to Thais first. The travel is for free. Just once though! You have to ask for a {passage}.": {
-   "pt": "",
+   "pt": "Ela é bonita, não é? Vai lhe levar em segurança a qualquer porto. Embora um jovem marinheiro de água doce como você devesse pensar em viajar primeiro para Thais. A viagem é de graça. Só uma vez, porém! Você tem que pedir uma {passagem}.",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "You chose a peaceful world. Not much danger from other adventurers. Just beware the monsters. \\z\n\tWant go there, ask for a {passage}.": {
-   "pt": "",
+   "pt": "Você escolheu um mundo pacífico. Pouco perigo vindo de outros aventureiros. Só tome cuidado com os monstros. Se quiser ir para lá, peça uma {passagem}.",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "That old place? Sorry, I don't sail there, no loot to be had.": {
-   "pt": "",
+   "pt": "Aquele lugar velho? Desculpe, não navego para lá, não há saque nenhum.",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Some regions in the world can't be accessed by everyone. Gotta pay, you know? \\z\n\tIf you spend some real cash for premium time, I can bring you to much more challenging locations.": {
-   "pt": "",
+   "pt": "Algumas regiões do mundo não podem ser acessadas por qualquer um. Tem que pagar, sabe? Se você gastar dinheiro de verdade em premium time, posso lhe levar a lugares muito mais desafiadores.",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "That's what the whole place is called.": {
-   "pt": "",
+   "pt": "É assim que o lugar todo se chama.",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Good. Got all you want to take to the mainland, {yes}? Gear, limbs, loot?": {
-   "pt": "",
+   "pt": "Bom. Levando tudo o que quer para o continente, {sim}? Equipamento, membros, saque?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "What? Then what DO you want? Learn about the main Tibian {cities}?": {
-   "pt": "",
+   "pt": "O quê? Então o que você QUER? Saber sobre as principais {cidades} de Tibia?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "While you take time to ponder, I will just stroll over there and pretend not to listen to you thinking.": {
-   "pt": "",
+   "pt": "Enquanto você pondera, eu vou dar uma volta ali e fingir que não estou ouvindo você pensar.",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Well, I can tell you stuff about": {
-   "pt": "",
+   "pt": "Bem, eu posso lhe contar coisas sobre",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So you know it all, huh? Where do you want me to bring you to, kid? |TOWNS|?": {
-   "pt": "",
+   "pt": "Então você sabe de tudo, é? Para onde quer que eu lhe leve, garoto? |TOWNS|?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Do you want to know about": {
-   "pt": "",
+   "pt": "Você quer saber sobre",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So, you've decided on your new home city? Which one will it be?": {
-   "pt": "",
+   "pt": "Então já decidiu qual será sua nova cidade natal? Qual vai ser?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "So you want to donate": {
-   "pt": "",
+   "pt": "Então você quer doar",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Well, that's really generous of you. That'll feed a lot of hungry mouths for a while. \\z\n\t\t\t\tRight, now which {city} did you say you wanted to go to?": {
-   "pt": "",
+   "pt": "Bem, isso é muito generoso da sua parte. Vai alimentar muita boca faminta por um bom tempo. Certo, agora, para qual {cidade} você disse que queria ir?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Well, har har. Very funny. Come on, pick up the gold you just dropped.": {
-   "pt": "",
+   "pt": "Ha, ha. Muito engraçado. Vamos, pegue de volta o ouro que você acabou de derrubar.",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Negative, can't bring you there without a premium account. \\z\n\t\t\t\tYou should be glad you get to travel by ship - usually that's a premium service too, you know.": {
-   "pt": "",
+   "pt": "Negativo, não posso lhe levar até lá sem uma conta premium. Já devia estar contente por viajar de navio - normalmente isso também é serviço premium, sabia?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Cast off! Don't forget to talk to the guide at the port for directions to nearest bars... err, shops and \\z\n\t\t\tbank and such!": {
-   "pt": "",
+   "pt": "Soltar amarras! Não esqueça de falar com o guia no porto para saber onde ficam os bares mais próximos... ahn, quero dizer, as lojas, o banco e coisas assim!",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Kid, listen. Answering with a clear {yes} or {no} will get you much further in Tibia. \\z\n\t\t\tMost people are not as sharp-eared as I am. Got that?": {
-   "pt": "",
+   "pt": "Garoto, escute. Responder com um {sim} ou {não} claro vai lhe levar bem mais longe em Tibia. A maioria das pessoas não tem o ouvido tão afiado quanto o meu. Entendeu?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Errr... was that a foreign language? Could you just answer with a clear {yes} or {no}?": {
-   "pt": "",
+   "pt": "Ahn... isso era alguma língua estrangeira? Você poderia só responder com um {sim} ou {não} claro?",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Aw, come on! Talk to me in human words! {Yes}, {no}, or mention a city's name, that kind of stuff.": {
-   "pt": "",
+   "pt": "Ah, qual é! Fale comigo em palavras humanas! {Sim}, {não}, ou diga o nome de uma cidade, esse tipo de coisa.",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "Well, well, a new": {
-   "pt": "",
+   "pt": "Ora, ora, um novo",
    "n": 1,
    "npc": [
     "captain_dreadnought"
    ]
   },
   "You sure you want to spend time on this piece of rock? I can show you the world! Huh.": {
-   "pt": "",
+   "pt": "Tem certeza de que quer gastar tempo neste pedaço de pedra? Eu posso lhe mostrar o mundo! Hunf.",
    "n": 1,
    "npc": [
     "captain_dreadnought"
@@ -39961,301 +39961,301 @@
    ]
   },
   "I have a quest that needs doing. Interested?": {
-   "pt": "",
+   "pt": "Tenho uma quest que precisa ser feita. Interessado?",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Hmmm. Interesting. If only someone could help investigate this.": {
-   "pt": "",
+   "pt": "Hmmm. Interessante. Se ao menos alguém pudesse ajudar a investigar isso.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "There's a task for an intrepid adventurer open! Any volunteers?": {
-   "pt": "",
+   "pt": "Há uma tarefa aberta para um aventureiro intrépido! Algum voluntário?",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Hey, you. Yes, you. I could use your help.": {
-   "pt": "",
+   "pt": "Ei, você. Sim, você. Eu bem que precisaria da sua ajuda.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "<sigh> The Adventurers' Guild really should have equipped me with more man power. \\z\n\t\tWho's to keep all those monsters in check?": {
-   "pt": "",
+   "pt": "<suspira> A Guilda dos Aventureiros devia mesmo ter me dado mais gente. Quem vai manter todos esses monstros sob controle?",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "So much to investigate, so little time...": {
-   "pt": "",
+   "pt": "Tanta coisa para investigar, tão pouco tempo...",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "There's three things that need to be found. You can look for an {amulet}, \\z\n\t\t\ta {log book} or pick some rare {herbs}. Take your pick.": {
-   "pt": "",
+   "pt": "Há três coisas que precisam ser encontradas. Você pode procurar um {amulet}, um {log book} ou colher {herbs} raras. Escolha.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Well, those monsters have grown very uppity lately. There's a choice of three - mountain {trolls}, \\z\n\t\t\tmuglex clan {goblins} or, if you are up to it or together with some friends, \\z\n\t\t\tthere's a need to weed out some risky {minotaur} bruisers. Choose your target.": {
-   "pt": "",
+   "pt": "Bem, aqueles monstros andam muito atrevidos ultimamente. Há três opções - mountain {trolls}, {goblins} do clã muglex ou, se você tiver estômago para isso ou estiver com amigos, há uma necessidade de conter uns {minotaur} bruisers perigosos. Escolha seu alvo.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Mr Morris will do.": {
-   "pt": "",
+   "pt": "Pode me chamar de Mr Morris.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "There's always someone who needs to be at the front, to take the first step into the unknown. \\z\n\t\t\tMy whole life has been full of such steps.": {
-   "pt": "",
+   "pt": "Sempre há alguém que precisa ir na frente, dar o primeiro passo rumo ao desconhecido. Minha vida inteira foi feita desses passos.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Ah, that old story of how it was named? I spread it around. \\z\n\t\t\tCan't remember really what its origins are. Interesting archeological findings here, though.": {
-   "pt": "",
+   "pt": "Ah, aquela velha história de como recebeu o nome? Fui eu que espalhei. Não lembro direito qual é a origem real. Mas há achados arqueológicos interessantes por aqui.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Ah yes. Well, the magic that led us here seems to be most potent at a certain time, close before sunrise. \\z\n\t\t\tPerhaps like a giant pulse, or beacon. Maybe the gods set it here, or a mad sorcerer, \\z\n\t\t\twe don't know for sure yet... The portal deep down in the caves, resonating with magical energy where you came \\z\n\t\t\tthrough, can maybe bring something else into this world as well. \\z\n\t\t\tSo it must be carefully guarded while we investigate the island for more clues... \\z\n\t\t\tThere are some very interesting archeological findings here on the island throughout. \\z\n\t\t\tSeems the island has drawn some cults here, but why they are gone now, no one knows.": {
-   "pt": "",
+   "pt": "Ah, sim. Bem, a magia que nos trouxe até aqui parece ser mais potente numa certa hora, pouco antes do nascer do sol. Talvez como um pulso gigante, ou um farol. Talvez os deuses a tenham posto aqui, ou um feiticeiro louco, ainda não sabemos ao certo... O portal lá no fundo das cavernas, ressoando com energia mágica, por onde você passou, talvez possa trazer outra coisa a este mundo também. Então ele precisa ser bem guardado enquanto investigamos a ilha em busca de mais pistas... Há achados arqueológicos muito interessantes por toda a ilha. Parece que a ilha atraiu alguns cultos para cá, mas por que se foram, ninguém sabe.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "It seems that throughout its history, this island was inhabited by very different species. \\z\n\t\t\tI like to study their remains.": {
-   "pt": "",
+   "pt": "Parece que, ao longo da história, esta ilha foi habitada por espécies muito diferentes. Gosto de estudar o que restou delas.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Yeah. Long time I haven't been to that place. How's old Vascalir? Still hanging around in the academy? \\z\n\t\t\tAnd Kraknaknork? Hah, I remember our brawl after that last card game. Fun times.": {
-   "pt": "",
+   "pt": "É. Faz tempo que não vou àquele lugar. Como vai o velho Vascalir? Ainda perambulando pela academia? E Kraknaknork? Hah, lembro da nossa briga depois daquele último jogo de cartas. Bons tempos.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "What about him? Is he in one of his dark moods again? That's his normal mood, I mean. \\z\n\t\t\tJust buy your armor, weaponry and ammunition there and don't worry.": {
-   "pt": "",
+   "pt": "O que tem ele? Está de novo num daqueles humores sombrios? Quer dizer, esse é o humor normal dele. É só comprar sua armadura, armamento e munição lá e não se preocupar.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Tired of the academy, maybe, but not of teaching. If you need druid or sorcerer spells, go to him.": {
-   "pt": "",
+   "pt": "Cansado da academia, talvez, mas não de ensinar. Se precisar de spells de druid ou sorcerer, procure ele.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Ah, good old Hamish. A real wizard with potions. \\z\n\t\t\tWill supply you with very useful magic equipment for hunting.": {
-   "pt": "",
+   "pt": "Ah, o bom e velho Hamish. Um verdadeiro mago das potions. Vai lhe fornecer equipamento mágico muito útil para a caça.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Exactly. Has a nice ring to it.": {
-   "pt": "",
+   "pt": "Exatamente. Soa bem, não?",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "She's a good listener if you should still hesitate as to the choice of your definite vocation.": {
-   "pt": "",
+   "pt": "Ela sabe ouvir, caso você ainda hesite quanto à escolha da sua vocation definitiva.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Well, for him it's always been just a question of ''Your gold or your life'' - gold it is nowadays. \\z\n\t\t\tYou can stash your loose change at ol' Abram, but make sure to withdraw it once you leave Dawnport!": {
-   "pt": "",
+   "pt": "Bem, para ele sempre foi só uma questão de ''sua bolsa ou sua vida'' - hoje em dia é a bolsa. Você pode guardar seus trocados com o velho Abram, mas não esqueça de sacar tudo antes de deixar Dawnport!",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Ran across Inigo a few times on some remote islands, years and years ago. \\z\n\t\t\tTalked him into coming along here, and he seems to enjoy helping newcomers find their way. \\z\n\t\t\tPassing his knowledge on to the next generation.": {
-   "pt": "",
+   "pt": "Cruzei com Inigo algumas vezes em ilhas remotas, muitos e muitos anos atrás. Convenci ele a vir junto para cá, e parece que gosta de ajudar os recém-chegados a se acharem. Passando o conhecimento dele para a próxima geração.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "We found him here half-dead and fixed him up, now he fixes us dinner and roof beams. \\z\n\t\t\tDefinitely someone you should check out for food, a rope and a shovel.": {
-   "pt": "",
+   "pt": "Nós o achamos aqui meio morto e o remendamos; agora ele remenda nosso jantar e as vigas do telhado. Sem dúvida alguém a procurar por comida, uma corda e uma pá.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Been together through many a desperate situation. A romantic underneath it all. \\z\n\t\t\tFound the time to specialise on spells for paladins and knights somewhere along the way.": {
-   "pt": "",
+   "pt": "Passamos juntos por muita situação desesperada. Um romântico no fundo. Achou tempo, em algum ponto do caminho, para se especializar em spells de paladin e knight.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Be careful that he doesn't bore you to death with accountants of, well, your bank account history.": {
-   "pt": "",
+   "pt": "Cuidado para ele não lhe matar de tédio com os relatos, bem, do histórico da sua conta bancária.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "He's still down there? And what about the others of his group?": {
-   "pt": "",
+   "pt": "Ele ainda está lá embaixo? E os outros do grupo dele?",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Ah, the goblin who sneaks around here now and then? Lives in a cave to the west, somewhere.": {
-   "pt": "",
+   "pt": "Ah, o goblin que fica rondando por aqui de vez em quando? Mora numa caverna a oeste, em algum lugar.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "The first log book from the first foray group has been stolen by trolls. \\z\n\t\t\t\tOne wonders what for, as they can hardly read! Anyway, we need it back. \\z\n\t\t\t\tWould you go looking for it?": {
-   "pt": "",
+   "pt": "O primeiro diário de bordo do primeiro grupo de reconhecimento foi roubado por trolls. Fica-se pensando para quê, já que eles mal sabem ler! Enfim, precisamos dele de volta. Você iria procurá-lo?",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Ah, yes, that's it! Torn and gnawed, but, ah well, the information is still retrievable. \\z\n\t\t\t\tThank you. Here's your reward.": {
-   "pt": "",
+   "pt": "Ah, sim, é esse! Rasgado e roído, mas, bem, ainda dá para recuperar a informação. Obrigado. Aqui está sua recompensa.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Some of those salamanders have crawled into Oressa's herb garden and munched all her Dawnfire herbs. \\z\n\t\t\t\tWould you get some fresh herbs?": {
-   "pt": "",
+   "pt": "Algumas daquelas salamandras se enfiaram na horta de ervas da Oressa e devoraram todas as Dawnfire herbs dela. Você traria ervas frescas?",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Ah, wonderful. Freshly cut and full of potent... whatever it is it does. \\z\n\t\t\t\tThanks. Here's your reward.": {
-   "pt": "",
+   "pt": "Ah, maravilhoso. Recém-colhidas e cheias de potente... seja lá o que isso faça. Obrigado. Aqui está sua recompensa.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "This is an undercover thing - the key to the dormitory has disappeared. \\z\n\t\t\t\tNo one wants to own up who has lost it, at least not to me. Maybe they'll talk to you. \\z\n\t\t\t\tI'll reward you if you find it. You in?": {
-   "pt": "",
+   "pt": "Isto é uma coisa discreta - a chave do dormitório desapareceu. Ninguém quer assumir que a perdeu, pelo menos não para mim. Talvez falem com você. Eu lhe recompenso se achar. Topa?",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Ah, you're here to report about the {key} - any progress?": {
-   "pt": "",
+   "pt": "Ah, veio dar notícias sobre a {chave} - algum progresso?",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Wonderful. I don't believe you will find Dormovo alive, though. \\z\n\t\t\t\tHe would not have stayed abroad that long without refilling his inkpot for his research notes. \\z\n\t\t\t\tBut at least the amulet should be retrieved.": {
-   "pt": "",
+   "pt": "Maravilha. Mas não creio que você vá encontrar Dormovo vivo. Ele não teria ficado tanto tempo fora sem reabastecer o tinteiro das anotações de pesquisa. Ao menos o amuleto deve ser recuperado.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Good. The logbook or whatever is left of it is very valuable to my research. \\z\n\t\t\t\tIf you return its contents to me, I will reward you accordingly.": {
-   "pt": "",
+   "pt": "Bom. O diário de bordo, ou o que restou dele, é muito valioso para minha pesquisa. Se você me trouxer o conteúdo, eu lhe recompenso à altura.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Good. Just chat with the guys. Someone is bound to remember *something* about that key.": {
-   "pt": "",
+   "pt": "Ótimo. É só conversar com o pessoal. Alguém há de lembrar de *alguma coisa* sobre aquela chave.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "The key to the dormitory! Finally! You're a real sleuth. Here's your reward.": {
-   "pt": "",
+   "pt": "A chave do dormitório! Até que enfim! Você é um verdadeiro detetive. Aqui está sua recompensa.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Come back when you have slain {20 mountain trolls!}": {
-   "pt": "",
+   "pt": "Volte quando tiver abatido {20 mountain trolls!}",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Come back when you have slain {20 muglex clan footman!}": {
-   "pt": "",
+   "pt": "Volte quando tiver abatido {20 muglex clan footman!}",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Come back when you have slain {20 minotaur bruisers!}": {
-   "pt": "",
+   "pt": "Volte quando tiver abatido {20 minotaur bruisers!}",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "You already done this task.": {
-   "pt": "",
+   "pt": "Você já fez esta tarefa.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Welcome, young adventurer. \\z\nIf you seek to help me with some things, I might have a little {quest} or {mission} for you.": {
-   "pt": "",
+   "pt": "Bem-vindo, jovem aventureiro. Se quiser me ajudar com algumas coisas, talvez eu tenha uma pequena {quest} ou {missão} para você.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Watch your back, young friend.": {
-   "pt": "",
+   "pt": "Cuide-se, jovem amigo.",
    "n": 1,
    "npc": [
     "mr_morris"
    ]
   },
   "Manners.": {
-   "pt": "",
+   "pt": "Educação.",
    "n": 1,
    "npc": [
     "mr_morris"
@@ -56306,7 +56306,7 @@
    "n": 30
   },
   "magic": {
-   "pt": "",
+   "pt": "magia",
    "n": 27
   },
   "captain": {
@@ -56670,7 +56670,7 @@
    "n": 13
   },
   "key": {
-   "pt": "",
+   "pt": "chave",
    "n": 12
   },
   "go": {
@@ -56838,7 +56838,7 @@
    "n": 9
   },
   "reward": {
-   "pt": "",
+   "pt": "recompensa",
    "n": 9
   },
   "hole": {
@@ -56994,7 +56994,7 @@
    "n": 7
   },
   "city": {
-   "pt": "",
+   "pt": "cidade",
    "n": 7
   },
   "good": {
@@ -57610,7 +57610,7 @@
    "n": 4
   },
   "distance": {
-   "pt": "",
+   "pt": "distância",
    "n": 4
   },
   "rumours": {
@@ -57674,7 +57674,7 @@
    "n": 4
   },
   "change": {
-   "pt": "",
+   "pt": "trocar",
    "n": 4
   },
   "subject": {
@@ -58186,7 +58186,7 @@
    "n": 3
   },
   "fetch": {
-   "pt": "",
+   "pt": "buscar",
    "n": 3
   },
   "mermaid": {
@@ -58466,7 +58466,7 @@
    "n": 2
   },
   "cities": {
-   "pt": "",
+   "pt": "cidades",
    "n": 2
   },
   "yeti": {
@@ -58710,11 +58710,11 @@
    "n": 2
   },
   "arena": {
-   "pt": "",
+   "pt": "arena",
    "n": 2
   },
   "cause": {
-   "pt": "",
+   "pt": "causa",
    "n": 2
   },
   "meluna": {
@@ -59162,7 +59162,7 @@
    "n": 2
   },
   "healer": {
-   "pt": "",
+   "pt": "curandeiro",
    "n": 2
   },
   "quarter": {
@@ -59454,7 +59454,7 @@
    "n": 2
   },
   "bank account": {
-   "pt": "",
+   "pt": "conta bancária",
    "n": 2
   },
   "precious": {
@@ -60666,11 +60666,11 @@
    "n": 1
   },
   "dying": {
-   "pt": "",
+   "pt": "morrer",
    "n": 1
   },
   "portal": {
-   "pt": "",
+   "pt": "portal",
    "n": 1
   },
   "questing": {
@@ -61278,7 +61278,7 @@
    "n": 1
   },
   "close": {
-   "pt": "",
+   "pt": "corpo a corpo",
    "n": 1
   },
   "spear": {
@@ -61286,7 +61286,7 @@
    "n": 1
   },
   "choosing": {
-   "pt": "",
+   "pt": "escolher",
    "n": 1
   },
   "decided": {
@@ -61502,7 +61502,7 @@
    "n": 1
   },
   "others": {
-   "pt": "",
+   "pt": "outros",
    "n": 1
   },
   "squirrel": {
@@ -61882,11 +61882,11 @@
    "n": 1
   },
   "rent": {
-   "pt": "",
+   "pt": "aluguel",
    "n": 1
   },
   "market": {
-   "pt": "",
+   "pt": "mercado",
    "n": 1
   },
   "bananas": {
