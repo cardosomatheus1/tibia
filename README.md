@@ -158,8 +158,8 @@ python3 tools/sprites/novo_efeito.py efeito \
 Também converte uma folha de personagem (4 direções × N quadros) em outfit:
 
 ```bash
-python3 tools/sprites/folha_para_outfit.py folha.png tools/sprites/arte/mago --altura 46
-python3 tools/sprites/novo_outfit.py tools/sprites/arte/mago --assets ... --id 1950
+python3 tools/sprites/folha_para_outfit.py folha.png tools/sprites/arte/mago --altura 33
+python3 tools/sprites/novo_outfit.py tools/sprites/arte/mago --assets ... --id 1950 --colorizavel
 ```
 
 ![Outfit próprio no 15.25](docs/images/outfit-mago-perto.png)

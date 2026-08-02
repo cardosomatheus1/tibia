@@ -101,12 +101,21 @@ leste, norte (de costas), oeste:
 
 ```bash
 python3 tools/sprites/folha_para_outfit.py folha.png tools/sprites/arte/mago \
-    --altura 46 --cores 32
+    --altura 33 --cores 32
 
 python3 tools/sprites/novo_outfit.py tools/sprites/arte/mago \
     --assets /caminho/do/client/assets \
-    --dat-servidor data/items/appearances.dat --id 1950
+    --dat-servidor data/items/appearances.dat --id 1950 --colorizavel
 ```
+
+> ⚠️ **Respeite os 32 px.** O personagem padrão do Tibia tem 32 px de altura
+> (medi a caixa exata do `citizen`: 32×32). O client desenha o nome e as
+> barras a **12 px fixos** acima da base do personagem — `creature.cpp`,
+> `cropSizeText`, porque `adjust-creature-information-based-crop-size` vem
+> `false` no `setup.otml`. Se o seu personagem for mais alto que isso, o
+> nome cai em cima dele:
+>
+> ![Altura errada e altura certa](../../docs/images/outfit-mago-altura.png)
 
 ![Os 12 sprites convertidos](../../docs/images/outfit-mago-sprites.png)
 
@@ -130,9 +139,32 @@ E o outfit no jogo:
 > ⚠️ **Outfit tem duas camadas, sempre.** O desenho e a máscara que diz
 > quais pixels recebem a cor escolhida pelo jogador. Um outfit de camada
 > única *parece* válido no arquivo, mas o client desenha errado — sai tudo
-> lavado numa cor só. O `novo_outfit.py` manda uma máscara vazia: o outfit
-> sai com as cores que você pintou e simplesmente não responde ao seletor
-> de cores.
+> lavado numa cor só.
+
+### Trocar as cores
+
+Com `--colorizavel`, o outfit responde ao seletor de cores do jogo como
+qualquer outfit oficial:
+
+![Trocando a cor do manto no seletor](../../docs/images/outfit-mago-cores.png)
+
+A ferramenta monta o par que o client espera: a **base** entrega os pixels
+coloríveis em tom de cinza (a cor sai da multiplicação) e a **máscara**
+marca cabeça, corpo, pernas e pés — amarelo, vermelho, verde e azul, nessa
+ordem.
+
+Quais pixels entram na máscara sai do **matiz dominante** do sprite, que
+quase sempre é o da roupa. Assim o cajado, a chama, o rosto e o filete
+dourado ficam de fora e mantêm a cor original — trocar a cor do personagem
+não deve trocar a cor da tocha. Se o palpite errar, force com
+`--matiz <graus>` (0 vermelho, 120 verde, 240 azul).
+
+A divisão cabeça/corpo/pernas/pés é por **faixa vertical** (`FAIXAS` no
+`novo_outfit.py`) — funciona bem para figura em pé; para algo com formato
+diferente, ajuste as frações.
+
+Sem `--colorizavel` a máscara vai vazia: o outfit sai exatamente com as
+cores que você pintou e ignora o seletor.
 
 O `/looktype` do datapack tinha um teto fixo de 1469, de quando o datapack
 era de uma versão mais velha. A 15.25 já traz looktype até 1949, então o
