@@ -34,7 +34,7 @@ def falas_estaticas(quest: dict) -> list[str]:
         for s in m.get("states", []):
             if "text" in s:
                 falas.append(s["text"])
-    return falas
+    return [f for f in falas if len(f) > 1]
 
 
 def dinamicos_da_quest(quest: dict) -> int:
