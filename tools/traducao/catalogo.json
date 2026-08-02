@@ -5798,7 +5798,7 @@
    ]
   },
   "Farewell, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Adeus, |PLAYERNAME|.",
    "n": 4,
    "npc": [
     "gerimor",
@@ -7553,7 +7553,7 @@
    ]
   },
   "I'll wait for you.": {
-   "pt": "",
+   "pt": "Vou esperar por você.",
    "n": 2,
    "npc": [
     "amanda",
@@ -7685,7 +7685,7 @@
    ]
   },
   "You don't have the needed itens yet.": {
-   "pt": "",
+   "pt": "Você ainda não tem os itens necessários.",
    "n": 2,
    "npc": [
     "andrew_lyze"
@@ -8993,7 +8993,7 @@
    ]
   },
   "Where do you want to go - {Thais}, {Darashia}, {Venore}, {Liberty Bay}, {Ankrahmun}, {Yalahar} or {Edron?}": {
-   "pt": "",
+   "pt": "Para onde você quer ir - {Thais}, {Darashia}, {Venore}, {Liberty Bay}, {Ankrahmun}, {Yalahar} ou {Edron?}",
    "n": 2,
    "npc": [
     "charles"
@@ -10983,14 +10983,14 @@
    ]
   },
   "This Tiara is an award by the academy of Edron in recognition of my service here.": {
-   "pt": "",
+   "pt": "Esta Tiara é uma condecoração da academia de Edron em reconhecimento ao meu serviço aqui.",
    "n": 2,
    "npc": [
     "myra"
    ]
   },
   "Before I can nominate you for an award, please complete your task.": {
-   "pt": "",
+   "pt": "Antes de eu poder indicá-lo para uma condecoração, por favor conclua sua tarefa.",
    "n": 2,
    "npc": [
     "myra",
@@ -10998,7 +10998,7 @@
    ]
   },
   "Go to the academy in Edron and tell Zoltan that I sent you, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Vá até a academia em Edron e diga a Zoltan que fui eu que lhe mandei, |PLAYERNAME|.",
    "n": 2,
    "npc": [
     "myra"
@@ -15219,91 +15219,91 @@
    ]
   },
   "As far as I know it is a place of helish heat with bloodthirsty monsters of all kinds.": {
-   "pt": "",
+   "pt": "Até onde sei, é um lugar de calor infernal, com monstros sanguinários de todo tipo.",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "This sarcophagus seals the entrance to the caves down there. Only here you can get all the {materials} you need for a working compass of this kind. So no entrance here - no further magic compasses in Tibia. In theory.": {
-   "pt": "",
+   "pt": "Este sarcófago sela a entrada das cavernas lá embaixo. Só aqui você consegue todos os {materiais} necessários para um compasso funcional desse tipo. Então sem entrada aqui, sem mais magic compasses em Tibia. Em teoria.",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "On first glance, this cave does not look very spectacular, but the things you find in there, are. You have to know that this is the only place where you can find the respective materials to build the compass.": {
-   "pt": "",
+   "pt": "À primeira vista, esta caverna não parece muito espetacular, mas as coisas que você encontra lá dentro são. Saiba que este é o único lugar onde se encontram os materiais necessários para construir o compasso.",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "May I repair your compass if possible?": {
-   "pt": "",
+   "pt": "Posso consertar seu compasso, se for possível?",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "Here's your broken compass!": {
-   "pt": "",
+   "pt": "Aqui está seu broken compass!",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "Done. Worry, the effect won't last forever!": {
-   "pt": "",
+   "pt": "Pronto. Cuidado, o efeito não vai durar para sempre!",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "You're already with my bait!": {
-   "pt": "",
+   "pt": "Você já está com minha isca!",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "You cannot do that yet.": {
-   "pt": "",
+   "pt": "Você ainda não pode fazer isso.",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "It was decided to collect all of the compasses, destroy them and throw them in the fiery depths of Tibia. I still have some of them here. I {sell} them for a low price if you want.": {
-   "pt": "",
+   "pt": "Decidiu-se recolher todos os compassos, destruí-los e jogá-los nas profundezas em chamas de Tibia. Ainda tenho alguns aqui. Eu os {vendo} por um preço baixo, se você quiser.",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "Would you like to buy a broken compass for 10.000 gold?": {
-   "pt": "",
+   "pt": "Gostaria de comprar um broken compass por 10.000 gold?",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "Hello, I am the warden of this {monument}. The {sarcophagus} in front of you was established to prevent people from going {down} there. But I doubt that this step is sufficient.": {
-   "pt": "",
+   "pt": "Olá, sou o guardião deste {monumento}. O {sarcófago} à sua frente foi colocado para impedir que as pessoas descessem {lá embaixo}. Mas duvido que essa medida seja suficiente.",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "Well, let's see if your mission was successful. Just bring me all needed {materials}.": {
-   "pt": "",
+   "pt": "Bem, vamos ver se sua missão teve sucesso. É só me trazer todos os {materiais} necessários.",
    "n": 1,
    "npc": [
     "andrew_lyze"
    ]
   },
   "If you dug up all three crystals of sufficient quantity and obtained the poison gland, the charging of your compass can start! For the very first time it will be charged by the violet crystal. Ready to {unleash} the power of the crystals?": {
-   "pt": "",
+   "pt": "Se você desenterrou os três cristais em quantidade suficiente e obteve a glândula de veneno, o carregamento do seu compasso pode começar! Pela primeira vez ele será carregado pelo cristal violeta. Pronto para {liberar} o poder dos cristais?",
    "n": 1,
    "npc": [
     "andrew_lyze"
@@ -17984,42 +17984,42 @@
    ]
   },
   "Yes, I have been informed and haven't yet drunk enough to forget, so you can count yourself lucky. Are you prepared to <hicks> receive my line of the prayer?": {
-   "pt": "",
+   "pt": "Sim, fui informado e ainda não bebi o bastante para esquecer, então pode se considerar sortudo. Está preparado para <soluça> receber o meu verso da oração?",
    "n": 1,
    "npc": [
     "brewster"
    ]
   },
   "So receive my prayer: 'Your hand shall be guided - your feet shall walk in <hicks> harmony'. Now, take your stake to Tyrias in <hicks> Liberty Bay for the next line of the prayer. I shall let him know what he is to do.": {
-   "pt": "",
+   "pt": "Então receba minha oração: 'Sua mão será guiada - seus pés caminharão em <soluça> harmonia'. Agora, leve sua estaca até Tyrias, em <soluça> Liberty Bay, para o próximo verso da oração. Vou avisá-lo do que fazer.",
    "n": 1,
    "npc": [
     "brewster"
    ]
   },
   "You should visit Tyrias in Liberty Bay now.": {
-   "pt": "",
+   "pt": "Você deve visitar Tyrias em Liberty Bay agora.",
    "n": 1,
    "npc": [
     "brewster"
    ]
   },
   "You have already received my line of the prayer. Don't make me do more work than necessary!": {
-   "pt": "",
+   "pt": "Você já recebeu meu verso da oração. Não me faça trabalhar mais do que o necessário!",
    "n": 1,
    "npc": [
     "brewster"
    ]
   },
   "A blessed stake? That's a <hicks> strange request. Maybe Quentin knows more, he is one of the oldest monks after all.": {
-   "pt": "",
+   "pt": "Uma blessed stake? É um pedido <soluça> estranho. Talvez Quentin saiba mais, ele é um dos monges mais antigos, afinal.",
    "n": 1,
    "npc": [
     "brewster"
    ]
   },
   "The only person who might have some cough syrup is this druid Ustan. You find him in the tavern. Hmmm the tavern ... <hicks>": {
-   "pt": "",
+   "pt": "A única pessoa que talvez tenha cough syrup é aquele druid, Ustan. Você o encontra na taverna. Hmmm a taverna ... <soluça>",
    "n": 1,
    "npc": [
     "brewster"
@@ -20287,42 +20287,42 @@
    ]
   },
   "Passages to Thais, Darashia, Edron, Venore, Ankrahmun, Liberty Bay and Yalahar.": {
-   "pt": "",
+   "pt": "Passagens para Thais, Darashia, Edron, Venore, Ankrahmun, Liberty Bay e Yalahar.",
    "n": 1,
    "npc": [
     "charles"
    ]
   },
   "Im the captain of the Poodle, the proudest ship on all oceans.": {
-   "pt": "",
+   "pt": "Sou o capitão do Poodle, o navio mais orgulhoso de todos os oceanos.",
    "n": 1,
    "npc": [
     "charles"
    ]
   },
   "It's Charles.": {
-   "pt": "",
+   "pt": "É Charles.",
    "n": 1,
    "npc": [
     "charles"
    ]
   },
   "Do you seek a shortcut passage to {Thais} for 100 gold, to {Edron} for 90 gold, to {Liberty Bay} for 20 gold or to {Yalahar} for 200 gold?": {
-   "pt": "",
+   "pt": "Procura um atalho de passagem para {Thais} por 100 gold, para {Edron} por 90 gold, para {Liberty Bay} por 20 gold ou para {Yalahar} por 200 gold?",
    "n": 1,
    "npc": [
     "charles"
    ]
   },
   "Set the sails and good luck to us!": {
-   "pt": "",
+   "pt": "Içar as velas, e boa sorte para nós!",
    "n": 1,
    "npc": [
     "charles"
    ]
   },
   "Ahoy. Where can I sail you today?": {
-   "pt": "",
+   "pt": "Ahoy. Para onde posso levar você hoje?",
    "n": 1,
    "npc": [
     "charles"
@@ -30346,77 +30346,77 @@
    ]
   },
   "Hello, is this your first visit to Port Hope? I can show you around a little.": {
-   "pt": "",
+   "pt": "Olá, esta é sua primeira visita a Port Hope? Posso lhe mostrar um pouco os arredores.",
    "n": 1,
    "npc": [
     "guide_tiko"
    ]
   },
   "Ask me if you want to know something about the world status!": {
-   "pt": "",
+   "pt": "Pergunte-me se quiser saber algo sobre o estado do mundo!",
    "n": 1,
    "npc": [
     "guide_tiko"
    ]
   },
   "Need some help finding your way through Port Hope? Let me assist you.": {
-   "pt": "",
+   "pt": "Precisa de ajuda para se localizar em Port Hope? Deixe-me ajudar.",
    "n": 1,
    "npc": [
     "guide_tiko"
    ]
   },
   "The temple is in the north-eastern part of town, left of the depot. The priest there has a little alcohol problem, though. It's sad.": {
-   "pt": "",
+   "pt": "O templo fica na parte nordeste da cidade, à esquerda do depot. Mas o sacerdote de lá tem um probleminha com álcool. É triste.",
    "n": 1,
    "npc": [
     "guide_tiko"
    ]
   },
   "Our bank can be found one floor above the depot. Just talk to Ferks.": {
-   "pt": "",
+   "pt": "Nosso banco fica um andar acima do depot. É só falar com Ferks.",
    "n": 1,
    "npc": [
     "guide_tiko"
    ]
   },
   "The shops here are very close to one another. I can mark them for you if you'd like.": {
-   "pt": "",
+   "pt": "As lojas daqui ficam bem perto umas das outras. Posso marcá-las no seu mapa, se quiser.",
    "n": 1,
    "npc": [
     "guide_tiko"
    ]
   },
   "I'll help you not to get lost in Port Hope. I can mark important locations on your map and give you some information about the town and the world status.": {
-   "pt": "",
+   "pt": "Vou lhe ajudar a não se perder em Port Hope. Posso marcar locais importantes no seu mapa e lhe dar informação sobre a cidade e o estado do mundo.",
    "n": 1,
    "npc": [
     "guide_tiko"
    ]
   },
   "The inhabitants of Port Hope are bravely facing the constant threat from the jungle. The town is built on pile dwellings and most shops are close to each other.": {
-   "pt": "",
+   "pt": "Os habitantes de Port Hope enfrentam com coragem a ameaça constante da selva. A cidade é construída sobre palafitas, e a maioria das lojas fica perto umas das outras.",
    "n": 1,
    "npc": [
     "guide_tiko"
    ]
   },
   "I'm Tiko and your guide today. Have a good day!": {
-   "pt": "",
+   "pt": "Sou Tiko, seu guia hoje. Tenha um bom dia!",
    "n": 1,
    "npc": [
     "guide_tiko"
    ]
   },
   "Hello there, and welcome to Port Hope! Would you like some information and a map guide?": {
-   "pt": "",
+   "pt": "Olá, e bem-vindo a Port Hope! Gostaria de informação e um guia de mapa?",
    "n": 1,
    "npc": [
     "guide_tiko"
    ]
   },
   "Good bye and enjoy your stay in Port Hope, |PLAYERNAME|": {
-   "pt": "",
+   "pt": "Até logo, e aproveite sua estadia em Port Hope, |PLAYERNAME|",
    "n": 1,
    "npc": [
     "guide_tiko"
@@ -40335,168 +40335,168 @@
    ]
   },
   "Please ask about the 'outfit' first.": {
-   "pt": "",
+   "pt": "Por favor, pergunte sobre o 'outfit' primeiro.",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Well... maybe, if you help me a little, I could convince the academy of Edron that you are a valuable help here and deserve an award too. How about it?": {
-   "pt": "",
+   "pt": "Bem... talvez, se você me ajudar um pouco, eu possa convencer a academia de Edron de que você é uma ajuda valiosa aqui e também merece uma condecoração. O que me diz?",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "I don't have any tasks for you right now, |PLAYERNAME|. You were of great help.": {
-   "pt": "",
+   "pt": "Não tenho nenhuma tarefa para você no momento, |PLAYERNAME|. Você foi de grande ajuda.",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "That's a pity.": {
-   "pt": "",
+   "pt": "Que pena.",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Fine! Let's start with the 70 bat wings. I really feel uncomfortable out there in the jungle.": {
-   "pt": "",
+   "pt": "Certo! Vamos começar com as 70 bat wings. Eu me sinto muito desconfortável lá fora na selva.",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Oh, did you bring the 70 bat wings for me?": {
-   "pt": "",
+   "pt": "Ah, você me trouxe as 70 bat wings?",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Have you found 20 pieces of red cloth?": {
-   "pt": "",
+   "pt": "Você achou 20 unidades de red cloth?",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Were you able to retrieve 40 pieces of ape fur?": {
-   "pt": "",
+   "pt": "Você conseguiu recuperar 40 unidades de ape fur?",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Did you convince the elves to give you 35 holy orchids?": {
-   "pt": "",
+   "pt": "Você convenceu os elfos a lhe dar 35 holy orchids?",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Oh, did you bring 10 spools of spider silk yarn for me?": {
-   "pt": "",
+   "pt": "Ah, você me trouxe 10 spools of spider silk yarn?",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Have you found 60 lizard scales?": {
-   "pt": "",
+   "pt": "Você achou 60 lizard scales?",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Were you able to get all 40 red dragon scales?": {
-   "pt": "",
+   "pt": "Você conseguiu as 40 red dragon scales, todas?",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Have you collected 15 ounces of magic sulphur?": {
-   "pt": "",
+   "pt": "Você coletou 15 onças de magic sulphur?",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Have you gathered 30 ounces of vampire dust?": {
-   "pt": "",
+   "pt": "Você juntou 30 onças de vampire dust?",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Thank you! I really needed them for my anti-wrinkle lotion. Now, please bring me 20 pieces of red cloth.": {
-   "pt": "",
+   "pt": "Obrigada! Eu realmente precisava delas para minha loção antirrugas. Agora, por favor, me traga 20 unidades de red cloth.",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Great! This should be enough for my new dress. Don't forget to bring me 40 pieces of ape fur next!": {
-   "pt": "",
+   "pt": "Ótimo! Isso deve bastar para o meu vestido novo. Não esqueça de me trazer 40 unidades de ape fur em seguida!",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Nice job, player. You see, I'm testing a new depilation cream. I guess if it works on ape fur it's good quality. Next, please bring me 35 holy orchids.": {
-   "pt": "",
+   "pt": "Bom trabalho, player. Veja, estou testando um creme depilatório novo. Imagino que, se funcionar em pelo de macaco, é de boa qualidade. Em seguida, por favor, me traga 35 holy orchids.",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Thank god! The scent of holy orchids is simply the only possible solution against the horrible stench from the tavern latrine. Now, please bring me 10 rolls of spider silk yarn.": {
-   "pt": "",
+   "pt": "Graças a deus! O perfume das holy orchids é simplesmente a única solução possível contra o fedor horrível da latrina da taverna. Agora, por favor, me traga 10 rolls of spider silk yarn.",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "I appreciate it. My pet doggie manages to bite through all sorts of leashes, which is why he is always gone. I'm sure this strong yarn will keep him. Now, go for the 60 lizard scales!": {
-   "pt": "",
+   "pt": "Eu agradeço. Meu cachorrinho de estimação consegue roer qualquer tipo de coleira, por isso ele está sempre solto. Tenho certeza de que esse fio resistente vai segurá-lo. Agora, vá atrás das 60 lizard scales!",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Good job. They will look almost like sequins on my new dress. Please go for the 40 red dragon scales now.": {
-   "pt": "",
+   "pt": "Bom trabalho. Vão ficar quase como lantejoulas no meu vestido novo. Agora vá atrás das 40 red dragon scales, por favor.",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Thanks! They make a pretty decoration, don't you think? Please bring me 15 ounces of magic sulphur now!": {
-   "pt": "",
+   "pt": "Obrigada! Ficam uma decoração bonita, não acha? Agora me traga 15 onças de magic sulphur, por favor!",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Ah, that's enough magic sulphur for my new peeling. You should try it once, your skin gets incredibly smooth. Now, the only thing I need is vampire dust. 30 ounces will suffice.": {
-   "pt": "",
+   "pt": "Ah, isso é magic sulphur suficiente para meu novo peeling. Você devia experimentar uma vez, a pele fica incrivelmente macia. Agora, a única coisa que preciso é vampire dust. 30 onças bastam.",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Ah, great. Now I can finally finish the potion which the academy of Edron asked me to. I guess, now you want your reward, don't you?": {
-   "pt": "",
+   "pt": "Ah, ótimo. Agora finalmente posso terminar a poção que a academia de Edron me pediu. Imagino que agora você queira sua recompensa, não é?",
    "n": 1,
    "npc": [
     "myra"
    ]
   },
   "Greetings, |PLAYERNAME|. If you are looking for sorcerer {spells} don't hesitate to ask.": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. Se está procurando {magias} de sorcerer, não hesite em perguntar.",
    "n": 1,
    "npc": [
     "myra"
@@ -58260,7 +58260,7 @@
    "n": 2
   },
   "materials": {
-   "pt": "",
+   "pt": "materiais",
    "n": 2
   },
   "gareth": {
@@ -59596,19 +59596,19 @@
    "n": 1
   },
   "monument": {
-   "pt": "",
+   "pt": "monumento",
    "n": 1
   },
   "sarcophagus": {
-   "pt": "",
+   "pt": "sarcófago",
    "n": 1
   },
   "down": {
-   "pt": "",
+   "pt": "lá embaixo",
    "n": 1
   },
   "unleash": {
-   "pt": "",
+   "pt": "liberar",
    "n": 1
   },
   "hunter": {
@@ -62271,6 +62271,10 @@
   },
   "forge": {
    "pt": "forjo",
+   "n": 0
+  },
+  "sell": {
+   "pt": "vendo",
    "n": 0
   }
  }
