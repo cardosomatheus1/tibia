@@ -55736,14 +55736,14 @@
    ]
   },
   "Find the special wood in the barbarian camps of Hrodmir and bring it to Tereban. It might be a good idea to start looking in the northernmost camp.": {
-   "pt": "Encontre a madeira especial nos acampamentos bárbaros de Hrodmir e leve até Tereban. Pode ser uma boa ideia começar procurando no acampamento mais ao norte.",
+   "pt": "Encontre a wood especial nos acampamentos bárbaros de Hrodmir e leve até Tereban. Pode ser uma boa ideia começar procurando no acampamento mais ao norte.",
    "n": 1,
    "npc": [
     "quest:004_a_father_s_burden"
    ]
   },
   "You delivered the Wood to Tereban.": {
-   "pt": "Você entregou a Madeira para Tereban.",
+   "pt": "Você entregou a Wood para Tereban.",
    "n": 1,
    "npc": [
     "quest:004_a_father_s_burden"
@@ -55757,14 +55757,14 @@
    ]
   },
   "Find the spectral cloth hidden deep in the crypts of the isle of the kings and bring it to Tereban. You might have to look for a secret entrance.": {
-   "pt": "Encontre o tecido espectral escondido nas profundezas das criptas da ilha dos reis e leve até Tereban. Você talvez precise procurar uma entrada secreta.",
+   "pt": "Encontre o spectral cloth escondido nas profundezas das criptas da ilha dos reis e leve até Tereban. Você talvez precise procurar uma entrada secreta.",
    "n": 1,
    "npc": [
     "quest:004_a_father_s_burden"
    ]
   },
   "You delivered the spectral cloth to Tereban.": {
-   "pt": "Você entregou o tecido espectral para Tereban.",
+   "pt": "Você entregou o spectral cloth para Tereban.",
    "n": 1,
    "npc": [
     "quest:004_a_father_s_burden"
@@ -55778,7 +55778,7 @@
    ]
   },
   "Find exquisite silk in the spider caves of southern Zao and deliver it to Tereban.": {
-   "pt": "Encontre seda requintada nas cavernas de aranha ao sul de Zao e entregue a Tereban.",
+   "pt": "Encontre exquisite silk nas cavernas de aranha ao sul de Zao e entregue a Tereban.",
    "n": 1,
    "npc": [
     "quest:004_a_father_s_burden"
@@ -55799,14 +55799,14 @@
    ]
   },
   "Find a magic crystal in the tomb buried under the sand east of Ankrahmun and bring it to Tereban.": {
-   "pt": "Encontre um cristal mágico no túmulo enterrado sob a areia a leste de Ankrahmun e leve até Tereban.",
+   "pt": "Encontre um magic crystal no túmulo enterrado sob a areia a leste de Ankrahmun e leve até Tereban.",
    "n": 1,
    "npc": [
     "quest:004_a_father_s_burden"
    ]
   },
   "Tereban received the magic crystal he was looking for.": {
-   "pt": "Tereban recebeu o cristal mágico que procurava.",
+   "pt": "Tereban recebeu o magic crystal que procurava.",
    "n": 1,
    "npc": [
     "quest:004_a_father_s_burden"
@@ -55820,7 +55820,7 @@
    ]
   },
   "Find the mystic root under the city of Banuta and bring it to Tereban.": {
-   "pt": "Encontre a raiz mística sob a cidade de Banuta e leve até Tereban.",
+   "pt": "Encontre o mystic root sob a cidade de Banuta e leve até Tereban.",
    "n": 1,
    "npc": [
     "quest:004_a_father_s_burden"
@@ -55841,14 +55841,14 @@
    ]
   },
   "Find some old iron in the mines of Kazordoon for Tereban. Don't get lost - start searching close to the city.": {
-   "pt": "Encontre um pouco de ferro velho nas minas de Kazordoon para Tereban. Não se perca - comece procurando perto da cidade.",
+   "pt": "Encontre um pouco de old iron nas minas de Kazordoon para Tereban. Não se perca - comece procurando perto da cidade.",
    "n": 1,
    "npc": [
     "quest:004_a_father_s_burden"
    ]
   },
   "Tereban got the old iron he required.": {
-   "pt": "Tereban conseguiu o ferro velho que precisava.",
+   "pt": "Tereban conseguiu o old iron que precisava.",
    "n": 1,
    "npc": [
     "quest:004_a_father_s_burden"
@@ -56212,14 +56212,14 @@
    ]
   },
   "Your Mission is to go to a little camp of lizards at north-east of the Dragonblaze Peaks. You have to find and deliver the Tactical map complete the mission.": {
-   "pt": "Sua missão é ir até um pequeno acampamento de lagartos a nordeste dos Dragonblaze Peaks. Você precisa encontrar e entregar o mapa tático para completar a missão.",
+   "pt": "Sua missão é ir até um pequeno acampamento de lagartos a nordeste dos Dragonblaze Peaks. Você precisa encontrar e entregar o tactical map para completar a missão.",
    "n": 1,
    "npc": [
     "quest:006_children_of_the_revolution"
    ]
   },
   "You delivered the Tactical map to Zalamon.": {
-   "pt": "Você entregou o mapa tático a Zalamon.",
+   "pt": "Você entregou o tactical map a Zalamon.",
    "n": 1,
    "npc": [
     "quest:006_children_of_the_revolution"
@@ -56338,7 +56338,7 @@
    ]
   },
   "Report Zalamon about the strange symbols that you found.": {
-   "pt": "Reporte a Zalamon os símbolos estranhos que você encontrou.",
+   "pt": "Reporte a Zalamon os strange symbols que você encontrou.",
    "n": 1,
    "npc": [
     "quest:006_children_of_the_revolution"
@@ -56506,70 +56506,70 @@
    ]
   },
   "Quentin told you about an old prayer which can bind holy energy to an object. Each of its ten lines has to be recited by a different priest though. Bring Quentin a wooden stake from Gamon to start.": {
-   "pt": "Quentin lhe contou sobre uma antiga oração que pode vincular energia sagrada a um objeto. Porém, cada uma de suas dez linhas precisa ser recitada por um padre diferente. Leve a Quentin uma estaca de madeira de Gamon para começar.",
+   "pt": "Quentin lhe contou sobre uma antiga oração que pode vincular energia sagrada a um objeto. Porém, cada uma de suas dez linhas precisa ser recitada por um padre diferente. Leve a Quentin uma wooden stake de Gamon para começar.",
    "n": 1,
    "npc": [
     "quest:008_friends_and_traders"
    ]
   },
   "You received Quentin's prayer: \"Light shall be near - and darkness afar\". Now, bring your stake to Tibra in the Carlin church for the next line of the prayer.": {
-   "pt": "Você recebeu a oração de Quentin: \"Que a luz esteja perto - e a escuridão longe\". Agora, leve sua estaca até Tibra na igreja de Carlin para a próxima linha da oração.",
+   "pt": "Você recebeu a oração de Quentin: \"Que a luz esteja perto - e a escuridão longe\". Agora, leve sua wooden stake até Tibra na igreja de Carlin para a próxima linha da oração.",
    "n": 1,
    "npc": [
     "quest:008_friends_and_traders"
    ]
   },
   "You received Tibra's prayer: \"Hope may fill your heart - doubt shall be banned\". Now, bring your stake to Maealil in the Elven settlement for the next line of the prayer.": {
-   "pt": "Você recebeu a oração de Tibra: \"Que a esperança encha seu coração - e a dúvida seja banida\". Agora, leve sua estaca até Maealil no assentamento élfico para a próxima linha da oração.",
+   "pt": "Você recebeu a oração de Tibra: \"Que a esperança encha seu coração - e a dúvida seja banida\". Agora, leve sua wooden stake até Maealil no assentamento élfico para a próxima linha da oração.",
    "n": 1,
    "npc": [
     "quest:008_friends_and_traders"
    ]
   },
   "You received Maealil's prayer: \"Peace may fill your soul - evil shall be cleansed\". Now, bring your stake to Yberius in the Venore temple for the next line of the prayer.": {
-   "pt": "Você recebeu a oração de Maealil: \"Que a paz encha sua alma - e o mal seja purificado\". Agora, leve sua estaca até Yberius no templo de Venore para a próxima linha da oração.",
+   "pt": "Você recebeu a oração de Maealil: \"Que a paz encha sua alma - e o mal seja purificado\". Agora, leve sua wooden stake até Yberius no templo de Venore para a próxima linha da oração.",
    "n": 1,
    "npc": [
     "quest:008_friends_and_traders"
    ]
   },
   "You received Yberius' prayer: \"Protection will be granted - from dangers at hand\". Now, bring your stake to Isimov in the dwarven settlement for the next line of the prayer.": {
-   "pt": "Você recebeu a oração de Yberius: \"Que a proteção seja concedida - dos perigos próximos\". Agora, leve sua estaca até Isimov no assentamento anão para a próxima linha da oração.",
+   "pt": "Você recebeu a oração de Yberius: \"Que a proteção seja concedida - dos perigos próximos\". Agora, leve sua wooden stake até Isimov no assentamento anão para a próxima linha da oração.",
    "n": 1,
    "npc": [
     "quest:008_friends_and_traders"
    ]
   },
   "You received Isimov's prayer: \"Unclean spirits shall be repelled\". Now, bring your stake to Amanda in Edron for the next line of the prayer.": {
-   "pt": "Você recebeu a oração de Isimov: \"Que os espíritos impuros sejam repelidos\". Agora, leve sua estaca até Amanda em Edron para a próxima linha da oração.",
+   "pt": "Você recebeu a oração de Isimov: \"Que os espíritos impuros sejam repelidos\". Agora, leve sua wooden stake até Amanda em Edron para a próxima linha da oração.",
    "n": 1,
    "npc": [
     "quest:008_friends_and_traders"
    ]
   },
   "You received Amanda's prayer: \"Wicked curses shall be broken\". Now, bring your stake to Kasmir in Darashia for the next line of the prayer.": {
-   "pt": "Você recebeu a oração de Amanda: \"Que as maldições perversas sejam quebradas\". Agora, leve sua estaca até Kasmir em Darashia para a próxima linha da oração.",
+   "pt": "Você recebeu a oração de Amanda: \"Que as maldições perversas sejam quebradas\". Agora, leve sua wooden stake até Kasmir em Darashia para a próxima linha da oração.",
    "n": 1,
    "npc": [
     "quest:008_friends_and_traders"
    ]
   },
   "You received Kasmir's prayer: \"Let there be honor and humility\". Now, bring your stake to Rahkem in Ankrahmun for the next line of the prayer.": {
-   "pt": "Você recebeu a oração de Kasmir: \"Que haja honra e humildade\". Agora, leve sua estaca até Rahkem em Ankrahmun para a próxima linha da oração.",
+   "pt": "Você recebeu a oração de Kasmir: \"Que haja honra e humildade\". Agora, leve sua wooden stake até Rahkem em Ankrahmun para a próxima linha da oração.",
    "n": 1,
    "npc": [
     "quest:008_friends_and_traders"
    ]
   },
   "You received Rahkem's prayer: \"Let there be power and compassion\". Now, bring your stake to Brewster in Port Hope for the next line of the prayer.": {
-   "pt": "Você recebeu a oração de Rahkem: \"Que haja poder e compaixão\". Agora, leve sua estaca até Brewster em Port Hope para a próxima linha da oração.",
+   "pt": "Você recebeu a oração de Rahkem: \"Que haja poder e compaixão\". Agora, leve sua wooden stake até Brewster em Port Hope para a próxima linha da oração.",
    "n": 1,
    "npc": [
     "quest:008_friends_and_traders"
    ]
   },
   "You received Brewster's prayer: \"Your hand shall be guided - your feet shall walk in harmony\". Now, bring your stake to Tyrias in Liberty Bay for the next line of the prayer.": {
-   "pt": "Você recebeu a oração de Brewster: \"Que sua mão seja guiada - que seus pés caminhem em harmonia\". Agora, leve sua estaca até Tyrias em Liberty Bay para a próxima linha da oração.",
+   "pt": "Você recebeu a oração de Brewster: \"Que sua mão seja guiada - que seus pés caminhem em harmonia\". Agora, leve sua wooden stake até Tyrias em Liberty Bay para a próxima linha da oração.",
    "n": 1,
    "npc": [
     "quest:008_friends_and_traders"
@@ -56583,7 +56583,7 @@
    ]
   },
   "Chondur was surprised to hear that you had to travel through all of Tibia to have your wooden stake blessed. He offered you help with the blessing if you should need one again in the future.": {
-   "pt": "Chondur ficou surpreso ao ouvir que você teve que viajar por toda Tibia para abençoar sua estaca de madeira. Ele se ofereceu para ajudar com a bênção caso você precise de outra no futuro.",
+   "pt": "Chondur ficou surpreso ao ouvir que você teve que viajar por toda Tibia para abençoar sua wooden stake. Ele se ofereceu para ajudar com a bênção caso você precise de outra no futuro.",
    "n": 1,
    "npc": [
     "quest:008_friends_and_traders"
@@ -59909,28 +59909,28 @@
    ]
   },
   "Dwarven Armor Quest": {
-   "pt": "A Quest da Armadura Anã",
+   "pt": "Dwarven Armor Quest",
    "n": 1,
    "npc": [
     "quest:013_sam_s_old_backpack"
    ]
   },
   "Sam sends you to see Kroox in Kazordoon to get a special dwarven armor. Just tell him, his old buddy Sam is sending you.": {
-   "pt": "Sam o envia para ver Kroox em Kazordoon para conseguir uma armadura anã especial. Basta dizer a ele que seu velho amigo Sam o está enviando.",
+   "pt": "Sam o envia para ver Kroox em Kazordoon para conseguir uma dwarven armor especial. Basta dizer a ele que seu velho amigo Sam o está enviando.",
    "n": 1,
    "npc": [
     "quest:013_sam_s_old_backpack"
    ]
   },
   "You have the permission to retrive a dwarven armor from the mines. The problem is, some giant spiders made the tunnels where the storage is their new home.": {
-   "pt": "Você tem permissão para retirar uma armadura anã das minas. O problema é que algumas aranhas gigantes fizeram dos túneis onde fica o armazém o novo lar delas.",
+   "pt": "Você tem permissão para retirar uma dwarven armor das minas. O problema é que algumas aranhas gigantes fizeram dos túneis onde fica o armazém o novo lar delas.",
    "n": 1,
    "npc": [
     "quest:013_sam_s_old_backpack"
    ]
   },
   "You have completed Dwarven Armor Quest!": {
-   "pt": "Você completou a Quest da Armadura Anã!",
+   "pt": "Você completou a Dwarven Armor Quest!",
    "n": 1,
    "npc": [
     "quest:013_sam_s_old_backpack"
@@ -60511,7 +60511,7 @@
    ]
   },
   "You defeated Omruc and received a helmet adornment.": {
-   "pt": "Você derrotou Omruc e recebeu um enfeite de elmo.",
+   "pt": "Você derrotou Omruc e recebeu um helmet adornment.",
    "n": 1,
    "npc": [
     "quest:016_the_ancient_tombs"
@@ -60609,7 +60609,7 @@
    ]
   },
   "You solved the musical riddles of Vashresamun's Tomb and received a left horn.": {
-   "pt": "Você resolveu os enigmas musicais da Tumba de Vashresamun e recebeu um chifre esquerdo.",
+   "pt": "Você resolveu os enigmas musicais da Tumba de Vashresamun e recebeu um left horn.",
    "n": 1,
    "npc": [
     "quest:016_the_ancient_tombs"
@@ -60728,7 +60728,7 @@
    ]
   },
   "Hairycles wants to create a life charm for the ape people. He needs a hydra egg since it has strong regenerating powers.": {
-   "pt": "Hairycles quer criar um amuleto de vida para o povo dos macacos. Ele precisa de um ovo de hydra, já que tem fortes poderes regenerativos.",
+   "pt": "Hairycles quer criar um amuleto de vida para o povo dos macacos. Ele precisa de um hydra egg, já que tem fortes poderes regenerativos.",
    "n": 1,
    "npc": [
     "quest:017_the_ape_city"
@@ -60791,7 +60791,7 @@
    ]
   },
   "You successfully destroyed the monument of the snake god. As reward, you can buy sacred statues from Hairycles. If you haven't done so yet, you should also ask him for a shaman outfit.": {
-   "pt": "Você destruiu com sucesso o monumento do deus serpente. Como recompensa, você pode comprar estátuas sagradas de Hairycles. Se ainda não fez isso, você também deveria pedir a ele um shaman outfit.",
+   "pt": "Você destruiu com sucesso o monumento do deus serpente. Como recompensa, você pode comprar sacred statues de Hairycles. Se ainda não fez isso, você também deveria pedir a ele um shaman outfit.",
    "n": 1,
    "npc": [
     "quest:017_the_ape_city"
@@ -60840,7 +60840,7 @@
    ]
   },
   "You brought the cockroach legs to Santiago. He still has something to tell you though.": {
-   "pt": "Você trouxe as pernas de barata para Santiago. Porém, ele ainda tem algo para lhe contar.",
+   "pt": "Você trouxe as cockroach legs para Santiago. Porém, ele ainda tem algo para lhe contar.",
    "n": 1,
    "npc": [
     "quest:018_the_beginning"
@@ -61043,7 +61043,7 @@
    ]
   },
   "Efreet Mission 2: The Tear of Daraman": {
-   "pt": "Missão Efreet 2: A Lágrima de Daraman",
+   "pt": "Missão Efreet 2: The Tear of Daraman",
    "n": 1,
    "npc": [
     "quest:019_the_djinn_war_efreet_faction"
@@ -61253,7 +61253,7 @@
    ]
   },
   "You have found Rerun's ring. Bring the ring to the emperor Rehal and talk to him about Nokmir.": {
-   "pt": "Você encontrou o anel de Rerun. Leve o anel até o imperador Rehal e fale com ele sobre Nokmir.",
+   "pt": "Você encontrou o Rerun's ring. Leve o anel até o imperador Rehal e fale com ele sobre Nokmir.",
    "n": 1,
    "npc": [
     "quest:021_the_hidden_city_of_beregar"
@@ -61288,7 +61288,7 @@
    ]
   },
   "Sweet as Chocolate Cake": {
-   "pt": "Doce como um Bolo de Chocolate",
+   "pt": "Doce como Chocolate Cake",
    "n": 1,
    "npc": [
     "quest:021_the_hidden_city_of_beregar"
@@ -63955,7 +63955,7 @@
    ]
   },
   "You are a friend of Dalbrect. Since you returned his family brooch he will sail you to the Isle of Kings unless you do something stupid.": {
-   "pt": "Você é amigo de Dalbrect. Já que você devolveu o broche de família dele, ele vai levá-lo de barco até a Ilha dos Reis, a menos que você faça alguma besteira.",
+   "pt": "Você é amigo de Dalbrect. Já que você devolveu o family brooch dele, ele vai levá-lo de barco até a Ilha dos Reis, a menos que você faça alguma besteira.",
    "n": 1,
    "npc": [
     "quest:030_the_white_raven_monastery"
@@ -63976,7 +63976,7 @@
    ]
   },
   "You returned Fugio's Diary. Costello was very thankful about your help and gave you a blessed ankh as reward.": {
-   "pt": "Você devolveu o Diário de Fugio. Costello ficou muito grato pela sua ajuda e lhe deu um ankh abençoado como recompensa.",
+   "pt": "Você devolveu o Diário de Fugio. Costello ficou muito grato pela sua ajuda e lhe deu um blessed ankh como recompensa.",
    "n": 1,
    "npc": [
     "quest:030_the_white_raven_monastery"
@@ -64907,14 +64907,14 @@
    ]
   },
   "Ask Bozo about your mission, he might be finished with the whoopee cushion by now.": {
-   "pt": "Pergunte a Bozo sobre sua missão, ele já deve ter terminado a almofada de peido a essa altura.",
+   "pt": "Pergunte a Bozo sobre sua missão, ele já deve ter terminado a whoopee cushion a essa altura.",
    "n": 1,
    "npc": [
     "quest:033_what_a_foolish_quest"
    ]
   },
   "Place the whoopee cushion on the queen's throne in Carlin by using the cushion with the throne.": {
-   "pt": "Coloque a almofada de peido no trono da rainha em Carlin, usando a almofada com o trono.",
+   "pt": "Coloque a whoopee cushion no trono da rainha em Carlin, usando-a com o trono.",
    "n": 1,
    "npc": [
     "quest:033_what_a_foolish_quest"
@@ -64935,7 +64935,7 @@
    ]
   },
   "Get the toy mouse of Queen Eloise's cat and show it to Carina, the jeweler in Venore, to scare her.": {
-   "pt": "Pegue o rato de brinquedo do gato da Queen Eloise e mostre a Carina, a joalheira de Venore, para assustá-la.",
+   "pt": "Pegue o toy mouse do gato da Queen Eloise e mostre a Carina, a joalheira de Venore, para assustá-la.",
    "n": 1,
    "npc": [
     "quest:033_what_a_foolish_quest"
@@ -64956,14 +64956,14 @@
    ]
   },
   "Gather some easily inflammable sulphur using a spoon on an inactive lava hole.": {
-   "pt": "Junte um pouco de enxofre facilmente inflamável usando uma colher num buraco de lava inativo.",
+   "pt": "Junte um pouco de easily inflammable sulphur usando uma colher num inactive lava hole.",
    "n": 1,
    "npc": [
     "quest:033_what_a_foolish_quest"
    ]
   },
   "You brought Bozo the sulphur. Now cut him some leaves of the jungle dweller bush with a kitchen knife.": {
-   "pt": "Você trouxe o enxofre para Bozo. Agora corte para ele algumas folhas do arbusto jungle dweller com uma faca de cozinha.",
+   "pt": "Você trouxe o enxofre para Bozo. Agora corte para ele algumas folhas do jungle dweller bush com um kitchen knife.",
    "n": 1,
    "npc": [
     "quest:033_what_a_foolish_quest"
@@ -65068,7 +65068,7 @@
    ]
   },
   "Use your mummy disguise to scare the caliph Kazzan in Darashia. DON'T use the disguise too early or you will fail the quest.": {
-   "pt": "Use seu disfarce de múmia para assustar o califa Kazzan em Darashia. NÃO use o disfarce cedo demais ou você vai falhar na quest.",
+   "pt": "Use seu mummy disguise para assustar o califa Kazzan em Darashia. NÃO use o disfarce cedo demais ou você vai falhar na quest.",
    "n": 1,
    "npc": [
     "quest:033_what_a_foolish_quest"
@@ -65481,7 +65481,7 @@
    ]
   },
   "You saved the Dragon Mother's egg and she melted the ice wall that blocked your way.": {
-   "pt": "Você salvou o ovo da Dragon Mother, e ela derreteu a parede de gelo que bloqueava seu caminho.",
+   "pt": "Você salvou o ovo da Dragon Mother, e ela derreteu a ice wall que bloqueava seu caminho.",
    "n": 1,
    "npc": [
     "quest:036_forgotten_knowledge"
@@ -67238,7 +67238,7 @@
    ]
   },
   "Talk to Sinclair and take the ghost residue.": {
-   "pt": "Fale com Sinclair e pegue o resíduo fantasma.",
+   "pt": "Fale com Sinclair e pegue o ghost residue.",
    "n": 1,
    "npc": [
     "quest:044_spirithunters_quest"
@@ -67525,7 +67525,7 @@
    ]
   },
   "Bake garlic cookies by using the garlic dough on a baking tray before you put it on the oven. Hand out cookies to the citizens and watch their reactions. Report any suspicious people to Julius.": {
-   "pt": "Asse biscoitos de alho usando a massa de alho numa assadeira antes de colocá-la no forno. Distribua os biscoitos aos cidadãos e observe as reações deles. Reporte qualquer pessoa suspeita a Julius.",
+   "pt": "Asse garlic cookies usando a massa de alho numa baking tray antes de colocá-la no forno. Distribua os biscoitos aos cidadãos e observe as reações deles. Reporte qualquer pessoa suspeita a Julius.",
    "n": 1,
    "npc": [
     "quest:046_blood_brothers"
