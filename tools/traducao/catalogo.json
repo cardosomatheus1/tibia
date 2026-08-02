@@ -3259,7 +3259,7 @@
    ]
   },
   "Do you want to buy a football for 111 gold?": {
-   "pt": "",
+   "pt": "Quer comprar uma football por 111 gold?",
    "n": 8,
    "npc": [
     "beatrice",
@@ -11882,7 +11882,7 @@
    ]
   },
   "I had some cough syrup a while ago. It was stolen in an ape raid. I fear if you want more cough syrup you will have to buy it in the druids guild in carlin.": {
-   "pt": "",
+   "pt": "Eu tinha um cough syrup tempos atrás. Foi roubado num ataque de macacos. Receio que, se você quiser mais cough syrup, vai ter que comprar na guilda dos druidas em Carlin.",
    "n": 2,
    "npc": [
     "tom",
@@ -11890,7 +11890,7 @@
    ]
   },
   "Would you like to wear bear paws like I do? No problem, just bring me 50 bear paws and 50 wolf paws and I'll fit them on.": {
-   "pt": "",
+   "pt": "Quer usar bear paws como eu? Sem problema, é só me trazer 50 bear paws e 50 wolf paws que eu faço o ajuste.",
    "n": 2,
    "npc": [
     "tom",
@@ -11898,7 +11898,7 @@
    ]
   },
   "Have you brought 50 bear paws and 50 wolf paws?": {
-   "pt": "",
+   "pt": "Trouxe 50 bear paws e 50 wolf paws?",
    "n": 2,
    "npc": [
     "tom",
@@ -11906,7 +11906,7 @@
    ]
   },
   "Excellent! Like promised, here are your bear paws.": {
-   "pt": "",
+   "pt": "Excelente! Como prometido, aqui estão suas bear paws.",
    "n": 2,
    "npc": [
     "tom",
@@ -23063,7 +23063,7 @@
    ]
   },
   "<clears throat> Get your armor and shields heeeeeeere! Upstairs!": {
-   "pt": "",
+   "pt": "<pigarreia> Armaduras e escudos aquiiiiii! Lá em cima!",
    "n": 1,
    "npc": [
     "dixi"
@@ -23133,7 +23133,7 @@
    ]
   },
   "<giggles> I love gossiping - err, I mean providing valuable information of course, just tell me a name! <winks>": {
-   "pt": "",
+   "pt": "<dá risadinha> Eu adoro fofocar - ahn, quero dizer, fornecer informações valiosas, claro, é só me dizer um nome! <pisca>",
    "n": 1,
    "npc": [
     "dixi"
@@ -23161,14 +23161,14 @@
    ]
   },
   "You will learn everything you need to know about professions once you reach the {Island of Destiny}.": {
-   "pt": "",
+   "pt": "Você vai aprender tudo o que precisa saber sobre profissões quando chegar à {Island of Destiny}.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "As a premium adventurer you can visit different regions on this island, trade with {Lee'Delle} and much more.": {
-   "pt": "",
+   "pt": "Como aventureiro premium você pode visitar outras regiões desta ilha, negociar com {Lee'Delle} e muito mais.",
    "n": 1,
    "npc": [
     "dixi"
@@ -23182,49 +23182,49 @@
    ]
   },
   "Oh, I'm sorry, but my grandfather {Obi} doesn't like seeing me waving around with pointy things. He sells weapons himself, just go downstairs!": {
-   "pt": "",
+   "pt": "Ah, desculpe, mas meu avô {Obi} não gosta de me ver balançando coisas pontudas por aí. Ele mesmo vende armas, é só descer!",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "Are you hungry? Then you should visit {Willie} or {Billy} in the West of town. {Norma} also has yummy stuff! Oh, and you could pick {blueberries} or eat the food some {monsters} carry with them.": {
-   "pt": "",
+   "pt": "Está com fome? Então procure {Willie} ou {Billy} no oeste da vila. {Norma} também tem coisas gostosas! Ah, e você pode colher {amoras} ou comer a comida que alguns {monstros} carregam.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "{Lily} sells effective health potions and antidote potions against poison.": {
-   "pt": "",
+   "pt": "{Lily} vende health potions eficazes e antidote potions contra veneno.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "The big building in the centre of Rookgaard. They have a library, a training centre, a {bank} and the room of the {oracle}. {Seymore} is the teacher there.": {
-   "pt": "",
+   "pt": "O prédio grande no centro de Rookgaard. Tem biblioteca, centro de treino, um {banco} e a sala do {oráculo}. {Seymore} é o professor de lá.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "King Tibianus is a wise and noble monarch. This island of {Rookgaard} belongs to his kingdom.": {
-   "pt": "",
+   "pt": "O rei Tibianus é um monarca sábio e nobre. Esta ilha de {Rookgaard} pertence ao reino dele.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "Our lovely village will provide shelter for you. Once you are level 8, you can travel to {mainland} and choose a {profession}.": {
-   "pt": "",
+   "pt": "Nossa vilazinha querida vai lhe dar abrigo. Quando estiver no level 8, você pode viajar para o {continente} e escolher uma {profissão}.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "If you want to fight monsters in {dungeons}, you definitely need some good {equipment} such as a {weapon}, an {armor} and a {shield}.": {
-   "pt": "",
+   "pt": "Se quer lutar contra monstros nas {masmorras}, você precisa mesmo de um bom {equipamento}, como uma {arma}, uma {armadura} e um {escudo}.",
    "n": 1,
    "npc": [
     "dixi"
@@ -23245,7 +23245,7 @@
    ]
   },
   "You need to make sure you have some basic {equipment} before you head into dungeons such as the {sewers}.": {
-   "pt": "",
+   "pt": "Você tem que garantir um {equipamento} básico antes de entrar em masmorras como os {esgotos}.",
    "n": 1,
    "npc": [
     "dixi"
@@ -23266,21 +23266,21 @@
    ]
   },
   "How can I help you? I can give you general {hints}, information about {citizens} or talk about many other topics. Just ask me!": {
-   "pt": "",
+   "pt": "Como posso ajudar? Posso lhe dar {dicas} gerais, informações sobre os {moradores} ou falar de muitos outros assuntos. É só perguntar!",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "I'm sorry honey, but I can't lend you gold. Earn it yourself by fighting {monsters} and picking up the things they carry. Sell it to {merchants} to make profit!": {
-   "pt": "",
+   "pt": "Sinto muito, querido, mas não posso lhe emprestar ouro. Ganhe o seu lutando contra {monstros} e pegando o que eles carregam. Venda aos {comerciantes} para lucrar!",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "You should never embark on an adventure without it. Ask {Al Dee} or {Lee'Delle} for it!": {
-   "pt": "",
+   "pt": "Você nunca deve partir para uma aventura sem isso. Peça a {Al Dee} ou {Lee'Delle}!",
    "n": 1,
    "npc": [
     "dixi"
@@ -23294,70 +23294,70 @@
    ]
   },
   "Me and my grandfather {Obi} sell {equipment} of all kinds. Just ask him or me for a {trade} if you like to see our offers.": {
-   "pt": "",
+   "pt": "Eu e meu avô {Obi} vendemos {equipamento} de todo tipo. É só pedir a ele ou a mim para {negociar} se quiser ver nossas ofertas.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "Norma used to sell {equipment}, but she finally earned enough {money} to fulfil one of her dreams - her own bar!": {
-   "pt": "",
+   "pt": "Norma vendia {equipamento}, mas finalmente juntou {dinheiro} suficiente para realizar um dos sonhos dela - o próprio bar!",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "I never understand what he's talking about.": {
-   "pt": "",
+   "pt": "Nunca entendo do que ele está falando.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "I'm glad that he's here. He does a great job!": {
-   "pt": "",
+   "pt": "Fico feliz que ele esteja aqui. Faz um ótimo trabalho!",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "Sometimes, I help Zirella collecting wood. Her old back aches all the time. It's a shame her son Tom doesn't help her.": {
-   "pt": "",
+   "pt": "Às vezes eu ajudo Zirella a juntar lenha. As costas velhas dela doem o tempo todo. É uma pena que o filho dela, Tom, não a ajude.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "In Al Dee's shop you will find important general equipment such as {ropes}, {shovels} and torches.": {
-   "pt": "",
+   "pt": "Na loja do Al Dee você encontra equipamento geral importante, como {cordas}, {pás} e tochas.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "One day, I want to become a brave adventurer like her and leave this town!": {
-   "pt": "",
+   "pt": "Um dia eu quero ser uma aventureira corajosa como ela e sair desta vila!",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "Billy can be kind of scary. He swears a lot and doesn't talk to everybody.": {
-   "pt": "",
+   "pt": "Billy pode ser meio assustador. Xinga muito e não fala com qualquer um.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "Uncle Willie and {Billy} are farmers, which means they are a good place to sell and buy {food}.": {
-   "pt": "",
+   "pt": "O tio Willie e o {Billy} são fazendeiros, ou seja, é um bom lugar para vender e comprar {comida}.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "He can heal you if you're injured or poisoned.": {
-   "pt": "",
+   "pt": "Ele pode curá-lo se você estiver ferido ou envenenado.",
    "n": 1,
    "npc": [
     "dixi"
@@ -23371,21 +23371,21 @@
    ]
   },
   "I think he's a bit strange, living alone outside this village. How can he dislike to chat with everybody here?": {
-   "pt": "",
+   "pt": "Acho ele meio estranho, morando sozinho fora da vila. Como pode não gostar de bater papo com todo mundo daqui?",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "Lee'Delle's shop is on the {premium} side of the village. You should visit it!": {
-   "pt": "",
+   "pt": "A loja da Lee'Delle fica no lado {premium} da vila. Você devia visitar!",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "I always give my cookies and blueberries to Lily. She loves them! Also, she sells {potions}.": {
-   "pt": "",
+   "pt": "Eu sempre dou meus biscoitos e amoras para a Lily. Ela adora! E ela também vende {potions}.",
    "n": 1,
    "npc": [
     "dixi"
@@ -23399,14 +23399,14 @@
    ]
   },
   "I wish he would talk to his mother {Zirella} again. I feel so sorry for her. Anyway, as Tom is a tanner, you can sell leather and fresh corpses to him.": {
-   "pt": "",
+   "pt": "Eu queria que ele voltasse a falar com a mãe, {Zirella}. Tenho tanta pena dela. Enfim, como Tom é curtidor, você pode vender couro e cadáveres frescos para ele.",
    "n": 1,
    "npc": [
     "dixi"
    ]
   },
   "He's one of our reliable guardsmen. Without them, many {monsters} would roam the village of {Rookgaard}!": {
-   "pt": "",
+   "pt": "Ele é um dos nossos guardas de confiança. Sem eles, muitos {monstros} andariam soltos pela vila de {Rookgaard}!",
    "n": 1,
    "npc": [
     "dixi"
@@ -36622,7 +36622,7 @@
    ]
   },
   "It's about |TIME|.": {
-   "pt": "",
+   "pt": "São por volta de |TIME|.",
    "n": 1,
    "npc": [
     "lee_delle"
@@ -36720,7 +36720,7 @@
    ]
   },
   "Well, the mainland also consists of several continents. You can go there once you've reached level 8 and talked to the {oracle}.": {
-   "pt": "",
+   "pt": "Bem, o que chamam de continente na verdade é formado por vários continentes. Você pode ir para lá quando chegar ao level 8 e falar com o {oráculo}.",
    "n": 1,
    "npc": [
     "lee_delle"
@@ -36783,105 +36783,105 @@
    ]
   },
   "Al Dee has a general {equipment} store in the north-western part of the village.": {
-   "pt": "",
+   "pt": "Al Dee tem uma loja de {equipamento} geral na parte noroeste da vila.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "She lives under the {academy}. Always nice to chat with her!": {
-   "pt": "",
+   "pt": "Ela mora embaixo da {academia}. É sempre bom bater um papo com ela!",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "He's a local farmer. If you need fresh {food} to regain health, it's a good place to go. He's only trading with premium adventurers, though.": {
-   "pt": "",
+   "pt": "Ele é um fazendeiro local. Se precisa de {comida} fresca para recuperar a vida, é um bom lugar. Mas ele só negocia com aventureiros premium.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "He's a local farmer. If you need fresh {food} to regain your health, it's a good place to go. However, many monsters carry also food such as meat. Or you could simply pick {blueberries}.": {
-   "pt": "",
+   "pt": "Ele é um fazendeiro local. Se precisa de {comida} fresca para recuperar a vida, é um bom lugar. Mas muitos monstros também carregam comida, como meat. Ou você pode simplesmente colher {amoras}.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "She's {Obi's} granddaughter and deals with {armors} and {shields}, just as I do.": {
-   "pt": "",
+   "pt": "Ela é neta do {Obi's} e cuida de {armaduras} e {escudos}, assim como eu.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "She buys all {blueberries} and {cookies} you can find.": {
-   "pt": "",
+   "pt": "Ela compra todas as {amoras} e {biscoitos} que você achar.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "He is the {bank} clerk, just below the academy.": {
-   "pt": "",
+   "pt": "Ele é o caixa do {banco}, logo abaixo da academia.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "Seymour is a teacher running the {academy}. He has a lot of important {information} about Tibia.": {
-   "pt": "",
+   "pt": "Seymour é o professor que dirige a {academia}. Ele tem muita {informação} importante sobre Tibia.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "He is a great warrior and our protector.": {
-   "pt": "",
+   "pt": "Ele é um grande guerreiro e nosso protetor.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "Oh, but it's fun to play!": {
-   "pt": "",
+   "pt": "Ah, mas é divertido de jogar!",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "Oh, thank you so much! Please take this piece of armor as reward.": {
-   "pt": "",
+   "pt": "Ah, muito obrigada! Por favor, fique com esta peça de armadura como recompensa.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "Honey flowers are my favourites <sighs>.": {
-   "pt": "",
+   "pt": "Honey flowers são as minhas favoritas <suspira>.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "Bye, bye, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Tchau, tchau, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "Sure, take a look, honey.": {
-   "pt": "",
+   "pt": "Claro, dê uma olhada, querido.",
    "n": 1,
    "npc": [
     "lee_delle"
    ]
   },
   "Nice to see you, |PLAYERNAME|! Ask me for a {trade} if you like to see my exclusive offers.": {
-   "pt": "",
+   "pt": "Que bom ver você, |PLAYERNAME|! Me peça para {negociar} se quiser ver minhas ofertas exclusivas.",
    "n": 1,
    "npc": [
     "lee_delle"
@@ -41508,7 +41508,7 @@
    ]
   },
   "Ah, Rookgaard. Home sweet home, that's what it became for me, but I will always miss {Thais} and {Sam}.": {
-   "pt": "",
+   "pt": "Ah, Rookgaard. Lar doce lar, foi nisso que virou para mim, mas sempre vou sentir falta de {Thais} e de {Sam}.",
    "n": 1,
    "npc": [
     "obi"
@@ -41536,14 +41536,14 @@
    ]
   },
   "told them to let me sell food, but no! Sorry, you have to ask {Willie} or {Billy} on the farms west of here.": {
-   "pt": "",
+   "pt": "eu disse para me deixarem vender comida, mas não! Desculpe, você tem que procurar {Willie} ou {Billy} nas fazendas a oeste daqui.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "There are many sewer entrances throughout Rookgaard. One is right outside this shop and to the left. For more details about monsters and dungeons, best talk to one of the {guards}.": {
-   "pt": "",
+   "pt": "Há muitas entradas de esgoto espalhadas por Rookgaard. Uma fica logo na saída desta loja, à esquerda. Para mais detalhes sobre monstros e masmorras, é melhor falar com um dos {guardas}.",
    "n": 1,
    "npc": [
     "obi"
@@ -41564,7 +41564,7 @@
    ]
   },
   "I wish I could help you with that, but no, I was told to stick to weapons. Go see {Lily}.": {
-   "pt": "",
+   "pt": "Eu queria poder lhe ajudar com isso, mas não, me mandaram ficar só nas armas. Procure a {Lily}.",
    "n": 1,
    "npc": [
     "obi"
@@ -41606,7 +41606,7 @@
    ]
   },
   "I wish I could help you with that, but no, I was told to stick to weapons. Go see {Al Dee} or {Lee'Delle}.": {
-   "pt": "",
+   "pt": "Eu queria poder lhe ajudar com isso, mas não, me mandaram ficar só nas armas. Procure {Al Dee} ou {Lee'Delle}.",
    "n": 1,
    "npc": [
     "obi"
@@ -41620,91 +41620,91 @@
    ]
   },
   "I don't know how anyone could give up the flourishing business she led. She should have listened to me and find someone who continues that business for her.": {
-   "pt": "",
+   "pt": "Não sei como alguém abandona um negócio florescente como o que ela tocava. Ela devia ter me escutado e achado alguém para tocar aquilo por ela.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "I told him there was no danger, but he wouldn't listen to me, no one listens to me.": {
-   "pt": "",
+   "pt": "Eu disse que não havia perigo, mas ele não quis me escutar, ninguém me escuta.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "I suggested him opening a tourist guide company with me, Obi's and Santiago's, but he didn't approve. I really don't understand why.": {
-   "pt": "",
+   "pt": "Sugeri a ele abrir uma empresa de guias turísticos comigo, a Obi's e Santiago's, mas ele não aprovou. Realmente não entendo por quê.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "An old woman shouldn't be treated like that, no way, that's bad.": {
-   "pt": "",
+   "pt": "Uma senhora não devia ser tratada assim, de jeito nenhum, isso é errado.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "Oh, this guy is so greedy, so greedy. Ripping off poor adventurers like you!": {
-   "pt": "",
+   "pt": "Ah, esse sujeito é tão ganancioso, tão ganancioso. Explorando pobres aventureiros como você!",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "She is beautiful, very, very beautiful. I hope I can impress her somehow.": {
-   "pt": "",
+   "pt": "Ela é linda, muito, muito linda. Espero conseguir impressioná-la de alguma forma.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "He's just like his cousin {Willie}.": {
-   "pt": "",
+   "pt": "Ele é igualzinho ao primo {Willie}.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "This guy doesn't understand that he should entrust me with the food business, too. He really should do. Then he had time for his farm.": {
-   "pt": "",
+   "pt": "Esse sujeito não entende que devia me confiar o negócio de comida também. Devia mesmo. Assim ele teria tempo para a fazenda dele.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "He shouldn't heal people for free, no he shouldn't. That would be a great source of income for the village that could be invested in enhancing the smithy.": {
-   "pt": "",
+   "pt": "Ele não devia curar as pessoas de graça, não devia mesmo. Daria uma bela fonte de renda para a vila, que poderia ser investida em melhorar a ferraria.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "Oh, what an endearing little girl, and she's working so hard to help me, even without receiving payment. Such a sweet little girl!": {
-   "pt": "",
+   "pt": "Ah, que menininha adorável, e trabalha tanto para me ajudar, mesmo sem receber pagamento. Que menininha doce!",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "I don't like him, actually I dislike him deeply. He is so greedy that he doesn't want to share his profit he gains from health potions.": {
-   "pt": "",
+   "pt": "Não gosto dele, na verdade tenho profunda antipatia. É tão ganancioso que não quer dividir o lucro que tira das health potions.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "She ruins the market with her offers! This is bad for us honest merchants, really bad.": {
-   "pt": "",
+   "pt": "Ela arruína o mercado com essas ofertas! Isso é ruim para nós, comerciantes honestos, muito ruim.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "I knew it! I knew she would try to get the monopoly on potions in this village! But no one has listened to me!": {
-   "pt": "",
+   "pt": "Eu sabia! Eu sabia que ela ia tentar ficar com o monopólio das potions nesta vila! Mas ninguém me escutou!",
    "n": 1,
    "npc": [
     "obi"
@@ -41718,28 +41718,28 @@
    ]
   },
   "I told everyone he will cause trouble. He talks people into giving him their money and putting it on the {bank}! They rather should leave it here with us honest merchants!": {
-   "pt": "",
+   "pt": "Eu avisei todo mundo que ele ia dar problema. Ele convence as pessoas a entregar o dinheiro delas e pôr no {banco}! Era melhor deixarem aqui com a gente, comerciantes honestos!",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "He is the head of the local academy. I encouraged him to sponsor you, but no one listens to Obi, no one listens to me, as usual.": {
-   "pt": "",
+   "pt": "Ele é o chefe da academia local. Incentivei-o a lhe patrocinar, mas ninguém escuta o Obi, ninguém me escuta, como sempre.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "Well, he just buys what no one else wants. Stuff that's long dead. I can live with that, yes, I can live with that.": {
-   "pt": "",
+   "pt": "Bem, ele só compra o que ninguém mais quer. Coisa morta faz tempo. Posso conviver com isso, sim, posso conviver com isso.",
    "n": 1,
    "npc": [
     "obi"
    ]
   },
   "What a hero, what a hero.": {
-   "pt": "",
+   "pt": "Que herói, que herói.",
    "n": 1,
    "npc": [
     "obi"
@@ -51392,7 +51392,7 @@
    ]
   },
   "That's what I thought. I marked the wolf den on your map. To go there, exit the village to the north and walk north-east. Good luck finding that poacher and figuring out a plan to take those skins! Hehe.": {
-   "pt": "",
+   "pt": "Foi o que pensei. Marquei o covil dos lobos no seu mapa. Para chegar lá, saia da vila pelo norte e siga a nordeste. Boa sorte para achar aquele caçador ilegal e bolar um plano para pegar essas peles! Hehe.",
    "n": 1,
    "npc": [
     "tom"
@@ -51406,7 +51406,7 @@
    ]
   },
   "Are you sure? I think I see some war wolf leather on you. You should reply with {yes}.": {
-   "pt": "",
+   "pt": "Tem certeza? Acho que estou vendo war wolf leather com você. É melhor responder {sim}.",
    "n": 1,
    "npc": [
     "tom"
@@ -51546,126 +51546,126 @@
    ]
   },
   "Now that's an interesting woman.": {
-   "pt": "",
+   "pt": "Aí sim, uma mulher interessante.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "He's a better cook than his cousin {Willie}, actually.": {
-   "pt": "",
+   "pt": "Ele é melhor cozinheiro que o primo {Willie}, na verdade.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "I kinda like him. At least he says what he thinks.": {
-   "pt": "",
+   "pt": "Eu meio que gosto dele. Pelo menos fala o que pensa.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "Yep.": {
-   "pt": "",
+   "pt": "É.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "He sticks his nose too much in books.": {
-   "pt": "",
+   "pt": "Ele enfia demais o nariz nos livros.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "My mother?? Did you meet my mother??": {
-   "pt": "",
+   "pt": "Minha mãe?? Você conheceu minha mãe??",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "I don't have a problem with him.": {
-   "pt": "",
+   "pt": "Não tenho problema com ele.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "Typical pencil pusher.": {
-   "pt": "",
+   "pt": "Típico burocrata.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "It's in the academy, just above Seymour. Go there once you are level 8 to leave this place.": {
-   "pt": "",
+   "pt": "Fica na academia, logo acima do Seymour. Vá lá quando estiver no level 8 para sair daqui.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "He is such a hypocrite.": {
-   "pt": "",
+   "pt": "Ele é um hipócrita e tanto.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "I like her beer.": {
-   "pt": "",
+   "pt": "Gosto da cerveja dela.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "She buys my fine leather clothes.": {
-   "pt": "",
+   "pt": "Ela compra minhas roupas finas de couro.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "I wonder what spectacular monsters he has found.": {
-   "pt": "",
+   "pt": "Fico imaginando que monstros espetaculares ele achou.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "Her nose is a little high in the air, I think. She never shakes my hand.": {
-   "pt": "",
+   "pt": "Ela é meio nariz empinado, acho. Nunca aperta minha mão.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "I wonder if he's angry because his potion monopoly fell.": {
-   "pt": "",
+   "pt": "Fico pensando se ele está bravo porque o monopólio de potions dele caiu.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "I'm not what you'd call a 'believer'.": {
-   "pt": "",
+   "pt": "Não sou o que se chamaria de 'crente'.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "He's okay.": {
-   "pt": "",
+   "pt": "Ele é gente boa.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "You don't have all items.": {
-   "pt": "",
+   "pt": "Você não tem todos os itens.",
    "n": 1,
    "npc": [
     "tom"
@@ -51679,14 +51679,14 @@
    ]
   },
   "Now, now - we can't work with that. Go back to that wolf den and fulfil your mission! Unless there is anything else I can help you with.": {
-   "pt": "",
+   "pt": "Ora, ora - assim não dá para trabalhar. Volte àquele covil de lobos e cumpra sua missão! A menos que eu possa lhe ajudar em outra coisa.",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "Hey there, |PLAYERNAME|. You look... exhausted. Did you run a lot? And more importantly, were you able to find some war wolf leather?": {
-   "pt": "",
+   "pt": "E aí, |PLAYERNAME|. Você parece... exausto. Correu muito? E o mais importante: conseguiu achar war wolf leather?",
    "n": 1,
    "npc": [
     "tom"
@@ -51714,14 +51714,14 @@
    ]
   },
   "D'oh?": {
-   "pt": "",
+   "pt": "Hã?",
    "n": 1,
    "npc": [
     "tom"
    ]
   },
   "Sure, check what I buy.": {
-   "pt": "",
+   "pt": "Claro, veja o que eu compro.",
    "n": 1,
    "npc": [
     "tom"
