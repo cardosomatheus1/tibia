@@ -169,6 +169,25 @@ outfit): [`tools/sprites/README.md`](tools/sprites/README.md).
 
 ---
 
+## 🗺️ Editando o mapa por script
+
+Em [`tools/mapa/`](tools/mapa/) tem o leitor/editor de OTBM: descobre ids
+olhando o que já existe no mapa, desenha os sprites para você escolher,
+constrói a partir de uma planta em texto e **renderiza a prévia fora do
+jogo** — sem reiniciar o servidor a cada tentativa.
+
+```bash
+python3 tools/mapa/ler_mapa.py 32351 32218 32355 32224 7          # que ids usar
+python3 tools/mapa/construir.py planta.json 32362 32286 7 --backup
+python3 tools/mapa/render.py --assets ... --saida previa.png 32359 32283 32373 32295 7
+```
+
+![Construção feita por script, renderizada fora do jogo](docs/images/mapa-torre-previa.png)
+
+Formato do OTBM e as pegadinhas dele: [`tools/mapa/README.md`](tools/mapa/README.md).
+
+---
+
 ## ⚙️ Configurando o seu servidor
 
 - **`docker/.env`** — nome do servidor, IP anunciado, portas, senhas do banco e do site. Criado automaticamente a partir de [`docker/.env.dist`](docker/.env.dist).

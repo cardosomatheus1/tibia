@@ -1,0 +1,61 @@
+{
+  "_comentario": "Torre do mago: parede de pedra, chao de marmore e uma porta ao sul. Ids tirados das casas de Thais (ver ler_mapa.py).",
+  "legenda": {
+    ".": {
+      "chao": 409,
+      "limpar": true
+    },
+    ",": {
+      "chao": 410,
+      "limpar": true
+    },
+    "-": {
+      "chao": 409,
+      "itens": [
+        1295
+      ],
+      "limpar": true
+    },
+    "|": {
+      "chao": 409,
+      "itens": [
+        1294
+      ],
+      "limpar": true
+    },
+    "1": {
+      "chao": 409,
+      "itens": [
+        1301
+      ],
+      "limpar": true
+    },
+    "2": {
+      "chao": 409,
+      "itens": [
+        1300
+      ],
+      "limpar": true
+    },
+    "D": {
+      "chao": 409,
+      "itens": [
+        1632
+      ],
+      "limpar": true
+    },
+    "g": {
+      "chao": 4515,
+      "limpar": true
+    }
+  },
+  "desenho": [
+    "1-------2",
+    "|.,.,.,.|",
+    "|,.,.,.,|",
+    "|.,.,.,.|",
+    "|,.,.,.,|",
+    "|.,.,.,.|",
+    "1---D---2"
+  ]
+}
