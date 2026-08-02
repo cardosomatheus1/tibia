@@ -6279,7 +6279,7 @@
    ]
   },
   "Come into my tavern and share some stories!": {
-   "pt": "",
+   "pt": "Entre na minha taverna e compartilhe umas histórias!",
    "n": 3,
    "npc": [
     "archery",
@@ -6288,7 +6288,7 @@
    ]
   },
   "I have spells for level {1}, {8}, {10}, {13}, {17}, {20}, {25} and {35}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {10}, {13}, {17}, {20}, {25} e {35}.",
    "n": 3,
    "npc": [
     "asrak",
@@ -9423,7 +9423,7 @@
    ]
   },
   "It is exactly |TIME|.": {
-   "pt": "",
+   "pt": "São exatamente |TIME|.",
    "n": 2,
    "npc": [
     "dane",
@@ -9534,7 +9534,7 @@
    ]
   },
   "We are always looking for sniper gloves. They are supposed to raise accuracy. If you find a pair, bring them here. Maybe I can offer you a nice trade.": {
-   "pt": "",
+   "pt": "Estamos sempre à procura de sniper gloves. Dizem que aumentam a precisão. Se achar um par, traga aqui. Talvez eu possa lhe oferecer uma boa troca.",
    "n": 2,
    "npc": [
     "elane",
@@ -9542,7 +9542,7 @@
    ]
   },
   "My attack spells is: {Lesser Ethereal Spear}.": {
-   "pt": "",
+   "pt": "Minha magia de ataque é: {Lesser Ethereal Spear}.",
    "n": 2,
    "npc": [
     "elane",
@@ -9550,7 +9550,7 @@
    ]
   },
   "My healing spells are: {Cure Poison}, {Divine Healing}, {Intense Healing}, {Light Healing} and {Magic Patch}.": {
-   "pt": "",
+   "pt": "Minhas magias de cura são: {Cure Poison}, {Divine Healing}, {Intense Healing}, {Light Healing} e {Magic Patch}.",
    "n": 2,
    "npc": [
     "elane",
@@ -9558,7 +9558,7 @@
    ]
   },
   "My support spells are: {Arrow Call}, {Conjure Arrow}, {Conjure Explosive Arrow}, {Find Fiend}, {Find Person}, {Great Light} and {Light}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Arrow Call}, {Conjure Arrow}, {Conjure Explosive Arrow}, {Find Fiend}, {Find Person}, {Great Light} e {Light}.",
    "n": 2,
    "npc": [
     "elane",
@@ -9566,7 +9566,7 @@
    ]
   },
   "My rune spells are: {Destroy Field} Rune.": {
-   "pt": "",
+   "pt": "Minha magia de rune é: {Destroy Field} Rune.",
    "n": 2,
    "npc": [
     "elane",
@@ -9574,14 +9574,14 @@
    ]
   },
   "I am the leader of the Paladins. I help our members.": {
-   "pt": "",
+   "pt": "Sou a líder dos Paladins. Ajudo nossos membros.",
    "n": 2,
    "npc": [
     "elane"
    ]
   },
   "Harkath Bloodblade is the royal general.": {
-   "pt": "",
+   "pt": "Harkath Bloodblade é o general real.",
    "n": 2,
    "npc": [
     "elane",
@@ -10786,7 +10786,7 @@
    ]
   },
   "Welcome in the name of the gods, pilgrim |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Bem-vindo em nome dos deuses, peregrino |PLAYERNAME|!",
    "n": 2,
    "npc": [
     "lynda",
@@ -11096,7 +11096,7 @@
    ]
   },
   "I am honored to be the assistant of the great, the illustrious, the magnificent {Durin}!": {
-   "pt": "",
+   "pt": "Tenho a honra de ser o assistente do grande, do ilustre, do magnífico {Durin}!",
    "n": 2,
    "npc": [
     "oswald"
@@ -24043,259 +24043,259 @@
    ]
   },
   "Paladins are great warriors and magicians. Besides that we are excellent missile fighters. Many people in Tibia want to join us.": {
-   "pt": "",
+   "pt": "Paladins são grandes guerreiros e magos. Além disso, somos excelentes lutadores à distância. Muita gente em Tibia quer se juntar a nós.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Of course, we aren't as strong as knights, but no druid or sorcerer will ever defeat a paladin with a sword.": {
-   "pt": "",
+   "pt": "Claro, não somos tão fortes quanto knights, mas nenhum druid ou sorcerer jamais derrota um paladin com uma espada.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "There are many magic spells and runes paladins can use.": {
-   "pt": "",
+   "pt": "Há muitas magias e runes que paladins podem usar.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Paladins are the best missile fighters in Tibia!": {
-   "pt": "",
+   "pt": "Paladins são os melhores lutadores à distância de Tibia!",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "I am a paladin, not a storyteller.": {
-   "pt": "",
+   "pt": "Sou paladin, não contadora de histórias.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Every paladin profits from his vocation. It has many advantages to be a paladin.": {
-   "pt": "",
+   "pt": "Todo paladin se beneficia da própria vocação. Ser paladin tem muitas vantagens.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "We will help you to improve your skills. Besides I offer spells for paladins.": {
-   "pt": "",
+   "pt": "Vamos lhe ajudar a melhorar suas skills. Além disso, ofereço magias para paladins.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Some paladins serve in the kings army.": {
-   "pt": "",
+   "pt": "Alguns paladins servem no exército do rei.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "He has some potential.": {
-   "pt": "",
+   "pt": "Ele tem algum potencial.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "How spineless do you have to be to become a jester?": {
-   "pt": "",
+   "pt": "Quanta falta de espinha dorsal é preciso ter para virar bobo da corte?",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "The McRonalds are simple farmers.": {
-   "pt": "",
+   "pt": "Os McRonald são fazendeiros simples.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "He must have been skilled before he became the way he is now. Such a pity.": {
-   "pt": "",
+   "pt": "Ele deve ter sido habilidoso antes de ficar do jeito que está agora. Que pena.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "The alcohol he sells shrouds the mind and the eye.": {
-   "pt": "",
+   "pt": "O álcool que ele vende turva a mente e a vista.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "One of the most important members of our guild. She makes all the bows and arrows we need.": {
-   "pt": "",
+   "pt": "Uma das membras mais importantes da nossa guilda. Ela faz todos os bows e arrows de que precisamos.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "He sells a lot of useful equipment.": {
-   "pt": "",
+   "pt": "Ele vende muito equipamento útil.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "He and his guildfellows lack the grace of a true warrior.": {
-   "pt": "",
+   "pt": "Ele e os colegas de guilda não têm a elegância de um verdadeiro guerreiro.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "A fine warrior and a skilled general.": {
-   "pt": "",
+   "pt": "Um ótimo guerreiro e um general habilidoso.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "King Tibianus is a wise ruler.": {
-   "pt": "",
+   "pt": "King Tibianus é um governante sábio.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "A follower of evil that will get what he deserves one day.": {
-   "pt": "",
+   "pt": "Um seguidor do mal que um dia vai ter o que merece.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Mhm, a little too nice for my taste. Still, it's amazing how she endures all those men stalking her, especially this creepy Oswald.": {
-   "pt": "",
+   "pt": "Mhm, um pouco boazinha demais para o meu gosto. Ainda assim, é incrível como ela aguenta todos aqueles homens rondando ela, especialmente esse Oswald arrepiante.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "A skilled healer, that's for sure.": {
-   "pt": "",
+   "pt": "Uma curandeira habilidosa, com certeza.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Just another arrogant sorcerer.": {
-   "pt": "",
+   "pt": "Só mais um sorcerer arrogante.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "If there wouldn't be higher powers to protect him...": {
-   "pt": "",
+   "pt": "Se não houvesse poderes superiores para protegê-lo...",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "A humble monk and a wise man.": {
-   "pt": "",
+   "pt": "Um monge humilde e um homem sábio.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Strong man. But a little shy.": {
-   "pt": "",
+   "pt": "Homem forte. Mas um pouco tímido.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Oh, my winged tiara? Those are traditionally awarded after having completed a difficult {task} for our guild, only to female aspirants though. Male warriors will receive a hooded cloak.": {
-   "pt": "",
+   "pt": "Ah, minha winged tiara? Tradicionalmente elas são concedidas após a conclusão de uma {tarefa} difícil para a nossa guilda, mas só para aspirantes mulheres. Guerreiros homens recebem um hooded cloak.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "So you are saying that you would like to prove that you deserve to wear such a hooded cloak?": {
-   "pt": "",
+   "pt": "Então você está dizendo que gostaria de provar que merece usar um hooded cloak desses?",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "I'm so excited! Have you really found my crossbow?": {
-   "pt": "",
+   "pt": "Estou tão animada! Você realmente achou minha crossbow?",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Did you bring me 100 pieces of lizard leather and 100 pieces of red dragon leather?": {
-   "pt": "",
+   "pt": "Você me trouxe 100 unidades de lizard leather e 100 unidades de red dragon leather?",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Were you able to get hold of 5 enchanted chicken wings?": {
-   "pt": "",
+   "pt": "Conseguiu pôr as mãos em 5 enchanted chicken wings?",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Ah, have you brought one piece of royal steel, draconian steel and hell steel each?": {
-   "pt": "",
+   "pt": "Ah, você trouxe uma unidade de royal steel, draconian steel e hell steel, cada?",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "That's the spirit! I hope you will find my crossbow, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Esse é o espírito! Espero que você ache minha crossbow, |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Yeah! I could kiss you right here and there! Besides, you're a handsome one. <giggles> Please bring me 100 pieces of lizard leather and 100 pieces of red dragon leather now!": {
-   "pt": "",
+   "pt": "Isso! Eu quase lhe beijaria aqui mesmo! Aliás, você é um belo rapaz. <dá risadinha> Agora me traga 100 unidades de lizard leather e 100 unidades de red dragon leather!",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Good work, |PLAYERNAME|! That is enough leather for a lot of sturdy quivers. Now, please bring me 5 enchanted chicken wings.": {
-   "pt": "",
+   "pt": "Bom trabalho, |PLAYERNAME|! Isso é couro suficiente para muitas quivers resistentes. Agora, por favor, me traga 5 enchanted chicken wings.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Great! Now we can create a few more Tiaras. If only they weren't that expensive... Well anyway, please obtain one piece of royal steel, draconian steel and hell steel each.": {
-   "pt": "",
+   "pt": "Ótimo! Agora podemos criar mais algumas Tiaras. Se ao menos não fossem tão caras... Enfim, por favor obtenha uma unidade de royal steel, draconian steel e hell steel, cada.",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Wow, I'm impressed, |PLAYERNAME|. Your really are a valuable member of our paladin guild. I shall grant you your reward now. Wear it proudly!": {
-   "pt": "",
+   "pt": "Uau, estou impressionada, |PLAYERNAME|. Você é mesmo um membro valioso da nossa guilda de paladins. Vou lhe conceder sua recompensa agora. Use com orgulho!",
    "n": 1,
    "npc": [
     "elane"
    ]
   },
   "Welcome to the paladins' guild, |PLAYERNAME|! How can I help you?": {
-   "pt": "",
+   "pt": "Bem-vindo à guilda dos paladins, |PLAYERNAME|! Como posso ajudar?",
    "n": 1,
    "npc": [
     "elane"
@@ -26605,287 +26605,287 @@
    ]
   },
   "I hope you like it. Would you like some {food}?": {
-   "pt": "",
+   "pt": "Espero que goste. Quer um pouco de {comida}?",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "I am the owner of this saloon. I call it Frodo's Hut. I am also {selling} food.": {
-   "pt": "",
+   "pt": "Sou o dono deste salão. Chamo de Frodo's Hut. Também estou {vendendo} comida.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "I can offer you bread, cheese, ham, or meat. If you'd like to see my offers, ask me for a trade.": {
-   "pt": "",
+   "pt": "Posso lhe oferecer bread, cheese, ham ou meat. Se quiser ver minhas ofertas, me peça para negociar.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Some travelers from Edron told about a great treasure guarded by cruel demons in the dungeons there.": {
-   "pt": "",
+   "pt": "Uns viajantes de Edron contaram sobre um grande tesouro guardado por demônios cruéis nas masmorras de lá.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Oh, our beloved king! Thanks to him, alcohol is so cheap.": {
-   "pt": "",
+   "pt": "Ah, nosso amado rei! Graças a ele, o álcool é tão barato.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Hehe. Great customers.": {
-   "pt": "",
+   "pt": "Hehe. Ótimos clientes.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Just call me Frodo.": {
-   "pt": "",
+   "pt": "Pode só me chamar de Frodo.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Ah yes, the graveyard dungeon. All I know is this riddle: His Grave to the south, the tree above, his soul in the shade. No idea what that means, though!": {
-   "pt": "",
+   "pt": "Ah sim, a masmorra do cemitério. Tudo que sei é este enigma: Seu túmulo ao sul, a árvore acima, sua alma na sombra. Mas não faço ideia do que isso significa!",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "I heard it when I was a child.": {
-   "pt": "",
+   "pt": "Ouvi isso quando era criança.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Yes, I remember him. His name was Berfasmur.": {
-   "pt": "",
+   "pt": "Sim, lembro dele. O nome era Berfasmur.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Sorry, he spoke only very little. I know nothing more about him.": {
-   "pt": "",
+   "pt": "Desculpe, ele falava muito pouco. Não sei mais nada sobre ele.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Come on! You know that our world is called Tibia.": {
-   "pt": "",
+   "pt": "Ah, qual é! Você sabe que nosso mundo se chama Tibia.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Nothing more than a tale for warriors.": {
-   "pt": "",
+   "pt": "Nada além de um conto para guerreiros.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Uhm, do not mention him. It may scare customers away.": {
-   "pt": "",
+   "pt": "Ahn, não mencione ele. Pode espantar os clientes.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "No idea who that is, but maybe you'll find something in the Royal Archives...": {
-   "pt": "",
+   "pt": "Não faço ideia de quem seja, mas talvez você ache algo nos Royal Archives...",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Oh, the Royal Archives are in Rain Castle!": {
-   "pt": "",
+   "pt": "Ah, os Royal Archives ficam em Rain Castle!",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "The king's residence has been renovated lately.": {
-   "pt": "",
+   "pt": "A residência do rei foi reformada recentemente.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Many travellers tell funny stories about all the emancipated women in this northern town.": {
-   "pt": "",
+   "pt": "Muitos viajantes contam histórias engraçadas sobre todas as mulheres emancipadas daquela cidade do norte.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Here in Thais is the center of Tibia.": {
-   "pt": "",
+   "pt": "Aqui em Thais é o centro de Tibia.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "He is a little shy. In his youth he dreamed to become a druid.": {
-   "pt": "",
+   "pt": "Ele é um pouco tímido. Na juventude sonhava em virar druid.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "He's able to drink a bottle or two.": {
-   "pt": "",
+   "pt": "Ele dá conta de beber uma garrafa ou duas.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "I am trying to hire him for an evening or two.": {
-   "pt": "",
+   "pt": "Estou tentando contratá-lo para uma noite ou duas.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Oh, that old guy! He's a good customer, that's for sure.": {
-   "pt": "",
+   "pt": "Ah, aquele velho! É um bom cliente, com certeza.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Can you believe that she actually told her guildfellows that alcohol is a bad thing?": {
-   "pt": "",
+   "pt": "Dá para acreditar que ela disse mesmo aos colegas de guilda que álcool é uma coisa ruim?",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "She makes excellent arrows and bows.": {
-   "pt": "",
+   "pt": "Ela faz arrows e bows excelentes.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Many of his customers visit my Hut, too.": {
-   "pt": "",
+   "pt": "Muitos dos clientes dele também frequentam meu Hut.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "The knights have sometimes parties here after some arena fights.": {
-   "pt": "",
+   "pt": "Os knights às vezes fazem festa aqui depois de umas lutas na arena.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Too disciplined to enjoy life.": {
-   "pt": "",
+   "pt": "Disciplinado demais para aproveitar a vida.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "I think some time ago a stranger from Fibula with that name stayed here for some nights.": {
-   "pt": "",
+   "pt": "Acho que, faz um tempo, um estranho de Fibula com esse nome ficou hospedado aqui por algumas noites.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "I overheard some conversations about his evilness. That's enough to hope, that I never ever meet him.": {
-   "pt": "",
+   "pt": "Ouvi sem querer umas conversas sobre a maldade dele. Já basta para eu torcer para nunca encontrá-lo.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "A sorceress, you can find her in their guild sitting befor a book - always!": {
-   "pt": "",
+   "pt": "Uma sorceress, você a encontra na guilda dela sentada diante de um livro - sempre!",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Just between you and me: What a babe!": {
-   "pt": "",
+   "pt": "Só entre nós: que gata!",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Marvik seldom leaves his guildhall at all.": {
-   "pt": "",
+   "pt": "Marvik quase nunca sai da guildhall dele.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "The McRonalds are a nice couple. Donald is a dear friend of mine.": {
-   "pt": "",
+   "pt": "Os McRonald são um casal simpático. Donald é um grande amigo meu.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Muriel has never visited this place.": {
-   "pt": "",
+   "pt": "Muriel nunca visitou este lugar.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "I hate him. Each of his visits here ends with a bar brawl.": {
-   "pt": "",
+   "pt": "Eu o odeio. Cada visita dele aqui termina numa briga de bar.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "He hardly visits my humble tavern.": {
-   "pt": "",
+   "pt": "Ele quase nunca visita minha humilde taverna.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "A loud neighbour, I get a lot of complaints about him.": {
-   "pt": "",
+   "pt": "Um vizinho barulhento, recebo muita reclamação dele.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "That fellow is filthy rich. He rented a room upstairs for months in advance and always orders the best beer and wine i serve.": {
-   "pt": "",
+   "pt": "Aquele sujeito é podre de rico. Alugou um quarto lá em cima com meses de antecedência e sempre pede a melhor cerveja e o melhor vinho que sirvo.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "I don't know where he gets these fluids. If I could sell them here, the hut would be crowded.": {
-   "pt": "",
+   "pt": "Não sei onde ele consegue essas bebidas. Se eu pudesse vendê-las aqui, o hut ficaria lotado.",
    "n": 1,
    "npc": [
     "frodo"
    ]
   },
   "Welcome to Frodo's Hut. You heard about the {news}?": {
-   "pt": "",
+   "pt": "Bem-vindo ao Frodo's Hut. Já soube das {novidades}?",
    "n": 1,
    "npc": [
     "frodo"
@@ -38281,147 +38281,147 @@
    ]
   },
   "Ok, let's keep it then.": {
-   "pt": "",
+   "pt": "Certo, então vamos manter.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Ok, your marriage proposal to {": {
-   "pt": "",
+   "pt": "Certo, sua proposta de casamento a {",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Great! Marriages should be an eternal commitment.": {
-   "pt": "",
+   "pt": "Ótimo! Casamento devia ser um compromisso eterno.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Ok, you are now divorced of {": {
-   "pt": "",
+   "pt": "Certo, agora você está divorciado de {",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Would you like to get married? Make sure you have a wedding ring and the wedding outfit box with you.": {
-   "pt": "",
+   "pt": "Gostaria de se casar? Garanta que está com um wedding ring e a wedding outfit box.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "That's fine.": {
-   "pt": "",
+   "pt": "Tudo bem.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "And who would you like to marry?": {
-   "pt": "",
+   "pt": "E com quem você gostaria de se casar?",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Is your soulmate and friends here with you for the celebration?": {
-   "pt": "",
+   "pt": "Sua alma gêmea e seus amigos estão aqui com você para a celebração?",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Then go bring them here!": {
-   "pt": "",
+   "pt": "Então vá trazê-los aqui!",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Good, let's {begin} then!": {
-   "pt": "",
+   "pt": "Bom, então vamos {começar}!",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Did you bring a sample of each wand and each rod with you?": {
-   "pt": "",
+   "pt": "Você trouxe uma amostra de cada wand e de cada rod?",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Did you obtain 10 ounces of magic sulphur?": {
-   "pt": "",
+   "pt": "Você obteve 10 onças de magic sulphur?",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Were you actually able to retrieve the Necromancer's soul stone?": {
-   "pt": "",
+   "pt": "Você conseguiu mesmo recuperar a soul stone do Necromancer?",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Am I sensing enough holy energy from ankhs here?": {
-   "pt": "",
+   "pt": "Estou sentindo energia sagrada suficiente vindo desses ankhs?",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "I'm glad to tell you that I have finished the ritual, player. Here is your new wand. I hope you carry it proudly for everyone to see..": {
-   "pt": "",
+   "pt": "Tenho o prazer de lhe dizer que terminei o ritual, player. Aqui está sua nova wand. Espero que a carregue com orgulho para todos verem..",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Please let me focus for a while, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Por favor, me deixe concentrar por um instante, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Alright then. Come back to with a sample of all five wands and five rods, please.": {
-   "pt": "",
+   "pt": "Muito bem, então. Volte com uma amostra das cinco wands e cinco rods, por favor.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Thank you, that must have been a lot to carry. Now, please bring me 10 ounces of magic sulphur.": {
-   "pt": "",
+   "pt": "Obrigada, deve ter sido pesado carregar tudo isso. Agora, por favor, me traga 10 onças de magic sulphur.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Very good. I will immediately start to prepare the ritual and extract the elemental energy from the wands and rods. Please bring me the Necromancer's soul stone now.": {
-   "pt": "",
+   "pt": "Muito bem. Vou começar imediatamente a preparar o ritual e extrair a energia elemental das wands e rods. Agora, por favor, me traga a soul stone do Necromancer.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "You have found a rarity there, |PLAYERNAME|. This will become the tip of your blessed wand. Please bring me 20 ankhs now to complete the ritual.": {
-   "pt": "",
+   "pt": "Você achou uma raridade aí, |PLAYERNAME|. Isso vai virar a ponta da sua blessed wand. Agora, por favor, me traga 20 ankhs para completar o ritual.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "The ingredients for the ritual are complete! I will start to prepare your blessed wand, but I have to medidate first. Please come back later to hear how the ritual went.": {
-   "pt": "",
+   "pt": "Os ingredientes do ritual estão completos! Vou começar a preparar sua blessed wand, mas primeiro preciso meditar. Por favor, volte mais tarde para saber como o ritual foi.",
    "n": 1,
    "npc": [
     "lynda"
@@ -38442,70 +38442,70 @@
    ]
   },
   "A player with this name does not exist.": {
-   "pt": "",
+   "pt": "Não existe nenhum player com esse nome.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "You REALLY want to marry yourself? c'mon, be serious.": {
-   "pt": "",
+   "pt": "Você REALMENTE quer se casar consigo mesmo? Ah, qual é, seja sério.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "As I said, you need a wedding ring and the wedding outfit box in order to marry.": {
-   "pt": "",
+   "pt": "Como eu disse, você precisa de um wedding ring e da wedding outfit box para se casar.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Since both of you are willing to marry, I accept to celebrate your marriage, go prepare yourself, and tell me when you are ready for the {celebration}": {
-   "pt": "",
+   "pt": "Já que os dois estão dispostos a se casar, aceito celebrar o matrimônio de vocês. Vá se preparar e me avise quando estiver pronto para a {celebração}",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Ok, now let's wait and see if {": {
-   "pt": "",
+   "pt": "Certo, agora vamos esperar para ver se {",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Your partner didn't accept your proposal, yet": {
-   "pt": "",
+   "pt": "Seu parceiro ainda não aceitou sua proposta",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Are you sure you want to remove your wedding proposal with {": {
-   "pt": "",
+   "pt": "Tem certeza de que quer retirar sua proposta de casamento com {",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "You don't have any pending proposal to be removed.": {
-   "pt": "",
+   "pt": "Você não tem nenhuma proposta pendente para remover.",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "Are you sure you want to divorce of {": {
-   "pt": "",
+   "pt": "Tem certeza de que quer se divorciar de {",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "You aren't married to get a divorce.": {
-   "pt": "",
+   "pt": "Você não é casado para se divorciar.",
    "n": 1,
    "npc": [
     "lynda"
@@ -42831,259 +42831,259 @@
    ]
   },
   "I think the gods are too busy to care about us mortals, hmm... that makes me feel godlike, too.": {
-   "pt": "",
+   "pt": "Acho que os deuses estão ocupados demais para se importar com nós, mortais, hmm... isso me faz sentir meio divino também.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "I have a job of great responsibility, mostly I keep annoying persons away from my boss.": {
-   "pt": "",
+   "pt": "Tenho um trabalho de grande responsabilidade, basicamente afasto pessoas chatas do meu chefe.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "You better don't ask, you wouldn't like the answer.": {
-   "pt": "",
+   "pt": "É melhor não perguntar, você não ia gostar da resposta.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Ah, yes, yes, hail to King {Tibianus}! Long live the king and so on...": {
-   "pt": "",
+   "pt": "Ah, sim, sim, salve o King {Tibianus}! Vida longa ao rei e tal...",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "I overheard a conversation of officials, that magic will be forbidden soon.": {
-   "pt": "",
+   "pt": "Ouvi sem querer uma conversa de autoridades, dizem que a magia vai ser proibida em breve.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "My name is Oswald, but let's proceed, I am a very busy man.": {
-   "pt": "",
+   "pt": "Meu nome é Oswald, mas vamos em frente, sou um homem muito ocupado.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Hey, I am not a shopkeeper, I am an important man!": {
-   "pt": "",
+   "pt": "Ei, eu não sou lojista, sou um homem importante!",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "It is nearly tea time, so please hurry!": {
-   "pt": "",
+   "pt": "Já é quase hora do chá, então por favor se apresse!",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "It's rumoured that Sam does not forge all weapons himself, but buys them from his cousin, who is married to a cyclops.": {
-   "pt": "",
+   "pt": "Diz o boato que Sam não forja todas as armas sozinho, mas compra do primo dele, que é casado com um cyclops.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "If you want to see dungeons just don't pay your taxes.": {
-   "pt": "",
+   "pt": "Se quer ver masmorra, é só não pagar seus impostos.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "It's beyond all doubt that certain sinister elements in our city have certain knowledge about this myth.": {
-   "pt": "",
+   "pt": "Não há dúvida alguma de que certos elementos sinistros da nossa cidade sabem algo sobre esse mito.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "You are not the first one to ask about that. Am I the only one that preferes wine to such disgusting stuff?": {
-   "pt": "",
+   "pt": "Você não é o primeiro a me perguntar isso. Serei o único que prefere vinho a essa coisa repugnante?",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "What do you expect from ex-soldiers? He is nuts! Hacked on the head far too often.": {
-   "pt": "",
+   "pt": "O que se espera de ex-soldado? Ele é doido! Levou golpe na cabeça vezes demais.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Isn't he the artist formerly known as the prince?": {
-   "pt": "",
+   "pt": "Ele não é o artista antes conhecido como o príncipe?",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "I never found any rumour concerning him, isn't that odd?": {
-   "pt": "",
+   "pt": "Nunca achei boato nenhum a respeito dele, não é estranho?",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "They say she killed over a dozen husbands already.": {
-   "pt": "",
+   "pt": "Dizem que ela já matou mais de uma dúzia de maridos.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "This man lives in the darkness like a rat and is also as handsome as one of them. He surely is up to no good and often consorts with sinister strangers.": {
-   "pt": "",
+   "pt": "Esse homem vive na escuridão como um rato e é tão bonito quanto um. Com certeza não trama nada de bom e costuma se juntar a estranhos sinistros.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Just last week a one eyed man, who had a room at Frodo's, met him in the middle of the night.": {
-   "pt": "",
+   "pt": "Semana passada mesmo, um homem caolho, que tinha um quarto no Frodo's, se encontrou com ele no meio da noite.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "He sells his scrolls far too expensive.": {
-   "pt": "",
+   "pt": "Ele vende os scrolls dele caro demais.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "I was told he lost a body part or two in duels... if you know what I mean.": {
-   "pt": "",
+   "pt": "Me disseram que ele perdeu uma parte do corpo ou duas em duelos... se é que você me entende.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "He is rumoured to summon kinky demons to... well you know.": {
-   "pt": "",
+   "pt": "Dizem que ele invoca demônios pervertidos para... bem, você sabe.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "You know a rumour? TELL ME! TELL ME! TELL ME!": {
-   "pt": "",
+   "pt": "Você sabe um boato? ME CONTA! ME CONTA! ME CONTA!",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Fascinating! Absolutely fascinating!": {
-   "pt": "",
+   "pt": "Fascinante! Absolutamente fascinante!",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "I heard he was a ladies' man in younger days. In our days he is rumoured to wear women clothes now and then.": {
-   "pt": "",
+   "pt": "Ouvi dizer que ele era um conquistador quando jovem. Hoje em dia, dizem que às vezes usa roupa de mulher.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "A simple shopkeeper with minor intelligence.": {
-   "pt": "",
+   "pt": "Um lojista simples com pouca inteligência.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "They say he isn't truly dead. He was... or is a necromant after all.": {
-   "pt": "",
+   "pt": "Dizem que ele não está de fato morto. Ele era... ou é necromante, afinal de contas.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Some say he is Ferumbras in disguise.": {
-   "pt": "",
+   "pt": "Alguns dizem que ele é Ferumbras disfarçado.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "What a shame. He claimed to be the king of thiefs and was caught stealing some fruit.": {
-   "pt": "",
+   "pt": "Que vergonha. Ele se dizia rei dos ladrões e foi pego roubando fruta.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Just between you and me, he can be quite a tyrant.": {
-   "pt": "",
+   "pt": "Só entre nós, ele consegue ser um tirano e tanto.",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "AHHHH!!! WHERE??? WHERE???": {
-   "pt": "",
+   "pt": "AHHHH!!! ONDE??? ONDE???",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "What? So why in the world should I give you an invitation? It's not as if you were someone important, are you?": {
-   "pt": "",
+   "pt": "O quê? Então por que diabos eu lhe daria um convite? Não é como se você fosse alguém importante, é?",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Well, rich and generous people are always welcome in the palace.If you donate 1000 gold to a fund I oversee, I'll give you an invitation, ok?": {
-   "pt": "",
+   "pt": "Bem, gente rica e generosa é sempre bem-vinda no palácio. Se você doar 1000 gold a um fundo que superviso, eu lhe dou um convite, certo?",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Excellent! Here is your invitation!": {
-   "pt": "",
+   "pt": "Excelente! Aqui está seu convite!",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Not that I am bribeable but I doubt that you own 1000 gold pieces. Or do you?": {
-   "pt": "",
+   "pt": "Não que eu seja subornável, mas duvido que você tenha 1000 moedas de ouro. Ou tem?",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Oh, hello |PLAYERNAME|. What is it?": {
-   "pt": "",
+   "pt": "Ah, olá |PLAYERNAME|. O que é?",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Finally!": {
-   "pt": "",
+   "pt": "Até que enfim!",
    "n": 1,
    "npc": [
     "oswald"
    ]
   },
   "Good bye, and don't come back too soon.": {
-   "pt": "",
+   "pt": "Até logo, e não volte tão cedo.",
    "n": 1,
    "npc": [
     "oswald"
@@ -56686,11 +56686,11 @@
    "n": 12
   },
   "news": {
-   "pt": "",
+   "pt": "novidades",
    "n": 12
   },
   "task": {
-   "pt": "",
+   "pt": "tarefa",
    "n": 12
   },
   "trip": {
@@ -57818,7 +57818,7 @@
    "n": 3
   },
   "selling": {
-   "pt": "",
+   "pt": "vendendo",
    "n": 3
   },
   "magician quarter": {
@@ -59098,7 +59098,7 @@
    "n": 2
   },
   "celebration": {
-   "pt": "",
+   "pt": "celebração",
    "n": 2
   },
   "spool of yarn": {
@@ -61042,7 +61042,7 @@
    "n": 1
   },
   "begin": {
-   "pt": "",
+   "pt": "começar",
    "n": 1
   },
   "marry": {
