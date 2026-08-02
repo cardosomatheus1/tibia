@@ -28,14 +28,23 @@ from collections import Counter
 from pathlib import Path
 
 # textos que o NPC fala
+#
+# O grupo de captura usa `.*?` (zero ou mais), nao `.+?` (um ou mais). A
+# diferenca importa: com `+`, uma string vazia ("") nunca fecha no proprio
+# par de aspas -- a segunda aspas vira so mais um caractere qualquer para o
+# `.+?` engolir, e o regex sai caçando a PROXIMA aspas no arquivo inteiro
+# como fechamento. O resultado e um "texto" que na verdade e codigo Lua cru
+# capturado entre duas strings sem relacao nenhuma. Com `*`, a correspondencia
+# vazia fecha ali mesmo -- e o filtro `len(texto) > 1` de `varrer()` descarta
+# essa entrada, como deveria.
 PADROES_TEXTO = [
-    re.compile(r"""(?:text|message|msg)\s*=\s*(['"])(.+?)\1""", re.S),
-    re.compile(r"""npcHandler:say\(\s*(['"])(.+?)\1""", re.S),
-    re.compile(r"""setMessage\(\s*[A-Z_]+\s*,\s*(['"])(.+?)\1""", re.S),
-    re.compile(r"""npc:talk\(\s*[^,]+,\s*(['"])(.+?)\1""", re.S),
+    re.compile(r"""(?:text|message|msg)\s*=\s*(['"])(.*?)\1""", re.S),
+    re.compile(r"""npcHandler:say\(\s*(['"])(.*?)\1""", re.S),
+    re.compile(r"""setMessage\(\s*[A-Z_]+\s*,\s*(['"])(.*?)\1""", re.S),
+    re.compile(r"""npc:talk\(\s*[^,]+,\s*(['"])(.*?)\1""", re.S),
     # as respostas padrao de todo NPC, na tabela do npc_handler:
     #   [MESSAGE_GREET] = "..."
-    re.compile(r"""\[MESSAGE_[A-Z_]+\]\s*=\s*(['"])(.+?)\1""", re.S),
+    re.compile(r"""\[MESSAGE_[A-Z_]+\]\s*=\s*(['"])(.*?)\1""", re.S),
 ]
 # palavras que o jogador digita
 PADRAO_CHAVE = re.compile(r"""addKeyword\(\s*\{([^}]*)\}""", re.S)

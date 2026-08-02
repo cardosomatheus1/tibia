@@ -5143,17 +5143,6 @@
     "rashid_custom"
    ]
   },
-  "\",\n\t},\n}\n\nlocal keywordHandler = KeywordHandler:new()\nlocal npcHandler = NpcHandler:new(keywordHandler)\n\nkeywordHandler:addKeyword({": {
-   "pt": "",
-   "n": 5,
-   "npc": [
-    "bodh_the_kan",
-    "chesa_the_guardian",
-    "dahr-enpa_rahng",
-    "dajcho_the_monk",
-    "saih_the_guardian"
-   ]
-  },
   "No, no, no, you even are no barb....barba...er.. one of us!!!! Talk to the Jarl first!": {
    "pt": "",
    "n": 5,
@@ -12983,13 +12972,6 @@
    ]
   },
   "<munch>": {
-   "pt": "",
-   "n": 1,
-   "npc": [
-    "a_starving_dog"
-   ]
-  },
-  "\")\nkeywordHandler:addGreetKeyword({": {
    "pt": "",
    "n": 1,
    "npc": [
@@ -24448,13 +24430,6 @@
     "elathriel"
    ]
   },
-  "\",\n})\nkeywordHandler:addKeyword({": {
-   "pt": "",
-   "n": 1,
-   "npc": [
-    "elathriel"
-   ]
-  },
   "If you are that curious, do you want to buy a key for 5000 gold? \\z\n\t\t\t\t\t\tDon't blame me if you get sucked in.": {
    "pt": "",
    "n": 1,
@@ -25125,13 +25100,6 @@
    "n": 1,
    "npc": [
     "emperor_rehal"
-   ]
-  },
-  "\",\n\t},\n}\n\nnpcConfig.shop = { -- Sellable items\n\t{ itemName =": {
-   "pt": "",
-   "n": 1,
-   "npc": [
-    "enpa-deia_pema"
    ]
   },
   "Harmony, friend. Allow me to welcome you in the {Blue Valley}. I offer guidance for the {pilgrimage} and can provide {healing}. Or can I help you otherwise?": {
@@ -26889,13 +26857,6 @@
    "n": 1,
    "npc": [
     "frodo"
-   ]
-  },
-  "\"\n\t\t\tif sleightInfo[message].cost > 0 then\n\t\t\t\ttext = sleightInfo[message].cost ..": {
-   "pt": "",
-   "n": 1,
-   "npc": [
-    "frosty"
    ]
   },
   "What about 'no' do you not understand, hrm? You are more annoying than any {percht} around here! Not to mention those bothersome {bunnies} who try to graw away my nose!": {
@@ -29439,27 +29400,6 @@
     "gregor"
    ]
   },
-  "\"\n\t\t\ttable.sort(started, function(a, b)\n\t\t\t\treturn (a < b)\n\t\t\tend)\n\t\t\tlocal t = 0\n\t\t\tlocal id\n\t\t\tfor i = 1, #started do\n\t\t\t\tid = started[i]\n\t\t\t\tt = t + 1\n\t\t\t\ttext = text ..": {
-   "pt": "",
-   "n": 1,
-   "npc": [
-    "grizzly_adams"
-   ]
-  },
-  "\"\n\t\t\tlocal sep =": {
-   "pt": "",
-   "n": 1,
-   "npc": [
-    "grizzly_adams"
-   ]
-  },
-  "\"\n\t\tlocal sep =": {
-   "pt": "",
-   "n": 1,
-   "npc": [
-    "grizzly_adams"
-   ]
-  },
   "You're a lucky one. You can go and kill him without spending your 'boss points'. Have fun!": {
    "pt": "",
    "n": 1,
@@ -31903,7 +31843,7 @@
     "hireling"
    ]
   },
-  "\"\n\t\tif food_id == 29408 then\n\t\t\tmessage =": {
+  "Oh yes, a tasty roasted wings to make you even tougher and skilled with the defensive arts.": {
    "pt": "",
    "n": 1,
    "npc": [
@@ -49186,13 +49126,6 @@
     "spectulus"
    ]
   },
-  "\", npc, creature)\n\t\t\t\tnpcHandler:setTopic(playerId, 0)\n\t\t\t\treturn true\n\t\t\tend\n\t\t\tplayer:addItem(3028, 10)\n\t\t\tplayer:addItem(3037, 1)\n\t\t\tplayer:addExperience(1000, true)\n\t\t\tplayer:setStorageValue(Storage.Quest.U8_54.SeaOfLight.Mission3, 4)\n\t\t\tplayer:setStorageValue(Storage.Quest.U8_54.SeaOfLight.Questline, 10)\n\t\t\tnpcHandler:say({": {
-   "pt": "",
-   "n": 1,
-   "npc": [
-    "spectulus"
-   ]
-  },
   "Of course you are. And here we go. I have to ask some questions first. One: You aint afraid of no ghost, right?": {
    "pt": "",
    "n": 1,
@@ -55523,13 +55456,6 @@
   },
   "|PLAYERNAME|, I am already talking to you.": {
    "pt": "|PLAYERNAME|, já estou falando com você.",
-   "n": 1,
-   "npc": [
-    "npc_handler"
-   ]
-  },
-  "\",\n\t\t\t[MESSAGE_WALKAWAY_FEMALE] =": {
-   "pt": "",
    "n": 1,
    "npc": [
     "npc_handler"
