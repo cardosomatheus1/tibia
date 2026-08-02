@@ -6830,7 +6830,7 @@
    ]
   },
   "You haven't started any task yet.": {
-   "pt": "",
+   "pt": "Você ainda não começou nenhuma tarefa.",
    "n": 3,
    "npc": [
     "grizzly_adams"
@@ -10026,21 +10026,21 @@
    ]
   },
   "You have '": {
-   "pt": "",
+   "pt": "Você tem '",
    "n": 2,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You've three unfinished tasks running old chap. If you want to accept a new one, you have to delete one of your old ones. Do you want to delete a task?": {
-   "pt": "",
+   "pt": "Você tem três tarefas inacabadas em andamento, meu caro. Se quiser aceitar uma nova, tem que apagar uma das antigas. Quer apagar uma tarefa?",
    "n": 2,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You have": {
-   "pt": "",
+   "pt": "Você tem",
    "n": 2,
    "npc": [
     "grizzly_adams",
@@ -10048,7 +10048,7 @@
    ]
   },
   "You currently killed": {
-   "pt": "",
+   "pt": "Você já matou",
    "n": 2,
    "npc": [
     "grizzly_adams"
@@ -12102,7 +12102,7 @@
    ]
   },
   "Oh, two t-trolls. Hellooo, wittle twolls. <hicks>": {
-   "pt": "",
+   "pt": "Ah, dois t-trolls. Oieee, tolizinhos tolls. <soluça>",
    "n": 2,
    "npc": [
     "vescu"
@@ -29401,217 +29401,217 @@
    ]
   },
   "You're a lucky one. You can go and kill him without spending your 'boss points'. Have fun!": {
-   "pt": "",
+   "pt": "Você é sortudo. Pode ir matá-lo sem gastar seus 'boss points'. Divirta-se!",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You have already complete this task": {
-   "pt": "",
+   "pt": "Você já completou esta tarefa",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You've killed": {
-   "pt": "",
+   "pt": "Você matou",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Great! A warm welcome to our newest member: |PLAYERNAME|! Ask me for a {task} if you want to go on a hunt.": {
-   "pt": "",
+   "pt": "Ótimo! Boas-vindas calorosas ao nosso mais novo membro: |PLAYERNAME|! Me peça uma {tarefa} se quiser sair para caçar.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You have nothing to report.": {
-   "pt": "",
+   "pt": "Você não tem nada a relatar.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You'll have to {join}, to get any {tasks}.": {
-   "pt": "",
+   "pt": "Você vai ter que {entrar} para conseguir qualquer {tarefas}.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You are ready to advance one rank in our society |PLAYERNAME|. Ask me for a {promotion} first.": {
-   "pt": "",
+   "pt": "Você está pronto para avançar uma patente na nossa sociedade, |PLAYERNAME|. Primeiro me peça uma {promoção}.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You're lucky today. This time you'll get an experience reward and": {
-   "pt": "",
+   "pt": "Você está com sorte hoje. Desta vez você ganha uma recompensa de experiência e",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Alright, what would you like to hunt? {Crocodiles}, {badgers}, {tarantulas}, {carniphilas}, {stone golems}, {mammoths}, {gnarlhounds}, {terramites}, {apes}, {thornback tortoises} or {gargoyles}.": {
-   "pt": "",
+   "pt": "Muito bem, o que você gostaria de caçar? {Crocodiles}, {badgers}, {tarantulas}, {carniphilas}, {stone golems}, {mammoths}, {gnarlhounds}, {terramites}, {apes}, {thornback tortoises} ou {gargoyles}.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "The spawn of pure evil must be erased from Tibia. You'll find demons lurking in the northern ruins of Edron as well as in some other deeper dungeons of Tibia. Slay 6666 demons for the greater good! Do you think you can handle this task?": {
-   "pt": "",
+   "pt": "A prole do mal puro precisa ser apagada de Tibia. Você vai achar demons à espreita nas ruínas ao norte de Edron, assim como em outras masmorras mais profundas de Tibia. Abata 6666 demons pelo bem maior! Acha que dá conta desta tarefa?",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "In this task you must defeat": {
-   "pt": "",
+   "pt": "Nesta tarefa você precisa derrotar",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Congratulations, |PLAYERNAME|! You have gained the highest rank: 'Elite hunter'. If you haven't done yet, ask me for the {special} task.": {
-   "pt": "",
+   "pt": "Parabéns, |PLAYERNAME|! Você alcançou a patente mais alta: 'Elite hunter'. Se ainda não fez, me peça a tarefa {especial}.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You have not enough points for promotion.": {
-   "pt": "",
+   "pt": "Você não tem pontos suficientes para promoção.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You can choose between the {Snapper}, {Hide}, {Deathbine} and the {Bloodtusk}.": {
-   "pt": "",
+   "pt": "Você pode escolher entre {Snapper}, {Hide}, {Deathbine} e {Bloodtusk}.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "The current task": {
-   "pt": "",
+   "pt": "A tarefa atual",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Canceling a task will make the counter restart.": {
-   "pt": "",
+   "pt": "Cancelar uma tarefa faz o contador reiniciar.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Are you sure you want to cancel this task?": {
-   "pt": "",
+   "pt": "Tem certeza de que quer cancelar esta tarefa?",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You currently killed 0/": {
-   "pt": "",
+   "pt": "Você já matou 0/",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You have canceled the task": {
-   "pt": "",
+   "pt": "Você cancelou a tarefa",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "At this time, you have": {
-   "pt": "",
+   "pt": "No momento, você tem",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Speak to me again when you are done hunting": {
-   "pt": "",
+   "pt": "Fale comigo de novo quando terminar de caçar",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You have already started the task. Go find Tiquandas Revenge and take revenge yourself!": {
-   "pt": "",
+   "pt": "Você já começou a tarefa. Vá encontrar Tiquandas Revenge e se vingue você mesmo!",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Great achievement, old chap! You are an outstanding hunter, no doubt about it!": {
-   "pt": "",
+   "pt": "Grande feito, meu caro! Você é um caçador excepcional, sem dúvida alguma!",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "This task is a very dangerous one. I want you to look for {Demodras'} hideout. It might be somewhere under the {Plains of Havoc}. Good luck, old chap, come back in one piece and ask me about the special task when you're done.": {
-   "pt": "",
+   "pt": "Esta tarefa é muito perigosa. Quero que você procure o esconderijo de {Demodras'}. Deve ficar em algum lugar sob as {Plains of Havoc}. Boa sorte, meu caro, volte inteiro e me pergunte sobre a tarefa especial quando terminar.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You have already started the special task. Find Demodras and kill it.": {
-   "pt": "",
+   "pt": "Você já começou a tarefa especial. Encontre Demodras e mate-o.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Jolly good show! You can cross swords with any creature in this world! I bow to you.": {
-   "pt": "",
+   "pt": "Show e tanto! Você pode cruzar espadas com qualquer criatura deste mundo! Curvo-me diante de você.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "You have already finished all special tasks.": {
-   "pt": "",
+   "pt": "Você já concluiu todas as tarefas especiais.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Hi there, do you want to to {join} the 'Paw and Fur - Hunting Elite'?": {
-   "pt": "",
+   "pt": "Olá, quer {entrar} para a 'Paw and Fur - Hunting Elite'?",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Good to see you again |PLAYERNAME|. You gained": {
-   "pt": "",
+   "pt": "Bom ver você de novo, |PLAYERNAME|. Você ganhou",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Welcome to the 'Paw and Fur - Hunting Elite' |PLAYERNAME|. Feel free to do {tasks} for us.": {
-   "pt": "",
+   "pt": "Bem-vindo à 'Paw and Fur - Hunting Elite', |PLAYERNAME|. Fique à vontade para fazer {tarefas} para nós.",
    "n": 1,
    "npc": [
     "grizzly_adams"
    ]
   },
   "Happy hunting, old chap!": {
-   "pt": "",
+   "pt": "Boa caçada, meu caro!",
    "n": 1,
    "npc": [
     "grizzly_adams"
@@ -53040,70 +53040,70 @@
    ]
   },
   "I wish there was like a {potion} which makes you sober in an instant. Dwarven rings wear off so fast. <hicks>": {
-   "pt": "",
+   "pt": "Eu queria que existisse tipo uma {potion} que deixasse a gente sóbrio num instante. Os anéis dos anões perdem o efeito tão rápido. <soluça>",
    "n": 1,
    "npc": [
     "vescu"
    ]
   },
   "It's so hard to know the exact time when to stop drinking. <hicks> C-could you help me to brew such a potion?": {
-   "pt": "",
+   "pt": "É tão difícil saber a hora exata de parar de beber. <soluça> V-você podia me ajudar a preparar uma potion dessas?",
    "n": 1,
    "npc": [
     "vescu"
    ]
   },
   "Right. <hicks> Since you helped me to b-brew that potion and thus ensured the high quality of my work <hicks>, I'll give you my old assassin costume. It lacks the head part, but it's almost like new. Don't pretend to be me though, 'kay? <hicks>": {
-   "pt": "",
+   "pt": "Certo. <soluça> Já que você me ajudou a p-preparar aquela potion e assim garantiu a alta qualidade do meu trabalho <soluça>, vou lhe dar meu antigo assassin costume. Falta a parte da cabeça, mas está quase novo. Só não vá fingir que é eu, 'tá? <soluça>",
    "n": 1,
    "npc": [
     "vescu"
    ]
   },
   "G-good. Go get them, I'll have a beer in the meantime.": {
-   "pt": "",
+   "pt": "B-bom. Vá buscá-los, vou tomar uma cerveja enquanto isso.",
    "n": 1,
    "npc": [
     "vescu"
    ]
   },
   "Next time you lie to me I'll k-kill you. <hicks> Don't think I can't aim well just because I'm d-drunk.": {
-   "pt": "",
+   "pt": "Da próxima vez que mentir para mim eu vou t-te matar. <soluça> Não pense que eu não miro bem só porque estou b-bêbado.",
    "n": 1,
    "npc": [
     "vescu"
    ]
   },
   "Then not <hicks>.": {
-   "pt": "",
+   "pt": "Então não <soluça>.",
    "n": 1,
    "npc": [
     "vescu"
    ]
   },
   "H-hurry up! <hicks> I have to start working soon.": {
-   "pt": "",
+   "pt": "C-corra! <soluça> Eu preciso começar a trabalhar logo.",
    "n": 1,
    "npc": [
     "vescu"
    ]
   },
   "Hey t-there, you look like someone who enjoys a good {booze}.": {
-   "pt": "",
+   "pt": "Ei, o-oi, você parece alguém que gosta de uma boa {bebida}.",
    "n": 1,
    "npc": [
     "vescu"
    ]
   },
   "Ohhh it's you again! Did you bring what I asked for? <hicks>": {
-   "pt": "",
+   "pt": "Ohhh é você de novo! Trouxe o que eu pedi? <soluça>",
    "n": 1,
    "npc": [
     "vescu"
    ]
   },
   "T-time for another b-beer. <hicks>": {
-   "pt": "",
+   "pt": "H-hora de outra c-cerveja. <soluça>",
    "n": 1,
    "npc": [
     "vescu"
@@ -56668,7 +56668,7 @@
    "n": 10
   },
   "potion": {
-   "pt": "",
+   "pt": "potion",
    "n": 10
   },
   "nature": {
@@ -57524,7 +57524,7 @@
    "n": 4
   },
   "tasks": {
-   "pt": "",
+   "pt": "tarefas",
    "n": 4
   },
   "dwarf": {
@@ -57808,7 +57808,7 @@
    "n": 3
   },
   "join": {
-   "pt": "",
+   "pt": "entrar",
    "n": 3
   },
   "corruption": {
@@ -57988,7 +57988,7 @@
    "n": 3
   },
   "promotion": {
-   "pt": "",
+   "pt": "promoção",
    "n": 3
   },
   "map": {
@@ -60460,7 +60460,7 @@
    "n": 1
   },
   "special": {
-   "pt": "",
+   "pt": "especial",
    "n": 1
   },
   "snapper": {
@@ -61796,7 +61796,7 @@
    "n": 1
   },
   "booze": {
-   "pt": "",
+   "pt": "bebida",
    "n": 1
   },
   "spent": {
