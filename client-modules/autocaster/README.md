@@ -150,6 +150,68 @@ aba Caster disparam sobre o alvo selecionado aqui.
 
 ![Aba Caster](../../docs/images/autocaster-caster.png)
 
+## Testado em jogo (protocolo 15.25)
+
+Não é só teoria: o módulo foi ligado no otclient do mehah falando **15.25** com
+o Canary deste repositório, num campo aberto a norte de Thais (32359, 32282, 7)
+— fora da cidade, porque **dentro de depot/templo é protection zone e monstro
+nenhum ataca**.
+
+Com `exura gran` em 95%, `exura` em 80%, health potion em 50%, mana potion em
+40%, `exori vis` em 30% de mana e a aba Target ligada, contra um grupo de
+cyclops:
+
+![AutoCaster curando durante o combate](../../docs/images/autocaster-teste-cura.png)
+
+O rodapé é o *Helper Status*: ele mostra a última ação que o motor disparou e o
+estado do personagem. Amostrando essa linha durante a luta, dá para ver as três
+regras se revezando na ordem de prioridade certa:
+
+![Sequência de ações do motor](../../docs/images/autocaster-teste-acoes.png)
+
+`exura gran (hp 88%)` → a cura entrou porque a vida caiu abaixo de 95%;
+`potion 268 (39%)` → a mana potion entrou porque a mana caiu abaixo de 40%;
+`exori vis` → o shooter disparou quando não havia nada mais urgente.
+
+A mira e o shooter, com o alvo escolhido pelo próprio módulo (caixa vermelha no
+monstro e na battle list):
+
+![Aba Caster durante a caça](../../docs/images/autocaster-teste-caster.png)
+![Aba Target durante a caça](../../docs/images/autocaster-teste-target.png)
+
+E a potion sendo bebida de verdade (`Using one of 72 mana potions...`):
+
+![Potion sendo usada](../../docs/images/autocaster-teste-potion.png)
+
+### ⚠️ Não teste com um personagem GOD
+
+Isso custou um bom tempo de investigação, então fica registrado: **um
+personagem de group 6 (god) é imune a tudo** e os monstros simplesmente o
+ignoram. São três camadas independentes:
+
+1. as flags `cannotbeattacked` e `ignoredbymonsters` do group em
+   `data/XML/groups.xml`;
+2. o `data/scripts/creaturescripts/player/login.lua`, que põe todo group
+   ≥ gamemaster em **ghost mode** ao logar;
+3. o `Game::combatBlockHit` (`src/game/game.cpp`), que devolve `true` — ou
+   seja, **bloqueia 100% do dano** — quando o alvo está em ghost mode.
+
+O sintoma é confuso: você bate nos monstros normalmente, gasta mana, mas a
+vida nunca sai de 100%. Para testar combate de verdade:
+
+```
+/afk off
+/afk on                                   -- desliga a ghost mode
+/removeflag SeuNome, CannotBeAttacked
+/removeflag SeuNome, IgnoredByMonsters
+/removeflag SeuNome, HasInfiniteMana
+```
+
+O `/afk on` só desliga a ghost mode se você ainda não estiver na lista de AFK —
+por isso o `/afk off` antes. Lembre que o `login.lua` religa a ghost mode a
+**cada** login. Alternativa definitiva: `UPDATE players SET group_id = 1` e
+relogar (aí você perde as talkactions de god).
+
 ## Como o motor funciona
 
 Um laço roda a cada 150 ms e avalia as regras **em ordem de prioridade**,

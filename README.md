@@ -122,6 +122,23 @@ No outro PC, use `http://IP_DA_MAQUINA:8088/login` no client e `http://IP_DA_MAQ
 
 ---
 
+## 🤖 AutoCaster — semibot de assistência (estilo RTCaster)
+
+Em [`client-modules/autocaster/`](client-modules/autocaster/) tem um módulo de
+client no formato do **RTCaster do RubinOT**: auto-cura por magia e por potion,
+sio na party, auto-haste, shooter de magias/runas e a aba de **caça** (escolha
+de alvo por prioridade + chase). Roda **no client** — o servidor não precisa de
+nenhuma alteração.
+
+Testado em jogo no **protocolo 15.25**, curando e atacando de verdade num campo
+fora da cidade:
+
+![AutoCaster curando em combate real](docs/images/autocaster-teste-cura.png)
+
+Instalação e documentação completa: [`client-modules/autocaster/README.md`](client-modules/autocaster/README.md).
+
+---
+
 ## ⚙️ Configurando o seu servidor
 
 - **`docker/.env`** — nome do servidor, IP anunciado, portas, senhas do banco e do site. Criado automaticamente a partir de [`docker/.env.dist`](docker/.env.dist).
