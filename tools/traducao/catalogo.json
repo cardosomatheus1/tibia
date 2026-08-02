@@ -5974,7 +5974,7 @@
    ]
   },
   "Ok, here we go ...": {
-   "pt": "",
+   "pt": "Certo, lá vamos nós ...",
    "n": 4,
    "npc": [
     "olrik",
@@ -6364,14 +6364,14 @@
    ]
   },
   "Well, I sell freshly caught fish. You like some? Of course, you can buy more than one at once. *grin* Just ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Bem, eu vendo peixe recém-pescado. Você quer um pouco? Claro, você pode comprar mais de um de uma vez. *sorriso maroto* É só me pedir para {negociar}.",
    "n": 3,
    "npc": [
     "bruno"
    ]
   },
   "Keep in mind you won't find better offers here. Just browse through my wares.": {
-   "pt": "",
+   "pt": "Lembre-se de que você não vai achar ofertas melhores por aqui. Dê uma olhada nas minhas mercadorias.",
    "n": 3,
    "npc": [
     "cael",
@@ -8560,7 +8560,7 @@
    ]
   },
   "Bye!": {
-   "pt": "",
+   "pt": "Tchau!",
    "n": 2,
    "npc": [
     "ashari"
@@ -9119,7 +9119,7 @@
    ]
   },
   "Muhahaha!": {
-   "pt": "",
+   "pt": "Muhahaha!",
    "n": 2,
    "npc": [
     "cruleo",
@@ -10247,7 +10247,7 @@
    ]
   },
   "Hello.": {
-   "pt": "",
+   "pt": "Olá.",
    "n": 2,
    "npc": [
     "harog",
@@ -10828,7 +10828,7 @@
    ]
   },
   "I can take you to {Yalahar} or {Fenrock}!": {
-   "pt": "",
+   "pt": "Posso lhe levar até {Yalahar} ou {Fenrock}!",
    "n": 2,
    "npc": [
     "maris_mistrock"
@@ -14554,7 +14554,7 @@
    ]
   },
   "Please leave me alone... I have to study.": {
-   "pt": "",
+   "pt": "Por favor, me deixe em paz... tenho que estudar.",
    "n": 1,
    "npc": [
     "amarie"
@@ -15996,7 +15996,7 @@
    ]
   },
   "Hello, stranger! These caves must seem strange to you. I wonder what brings you here... maybe you are interested in some work? There are several tasks I could need a hand with.": {
-   "pt": "",
+   "pt": "Olá, estranho! Estas cavernas devem lhe parecer estranhas. Fico pensando o que o traz aqui... talvez tenha interesse em algum trabalho? Há várias tarefas em que eu poderia usar uma mão.",
    "n": 1,
    "npc": [
     "ashari"
@@ -16591,21 +16591,21 @@
    ]
   },
   "Nature is in pain.": {
-   "pt": "",
+   "pt": "A natureza está sofrendo.",
    "n": 1,
    "npc": [
     "benevola"
    ]
   },
   "The weather is fine today.": {
-   "pt": "",
+   "pt": "O tempo está bom hoje.",
    "n": 1,
    "npc": [
     "benevola"
    ]
   },
   "I can hear the call of the forest.": {
-   "pt": "",
+   "pt": "Consigo ouvir o chamado da floresta.",
    "n": 1,
    "npc": [
     "benevola"
@@ -18026,7 +18026,7 @@
    ]
   },
   "Come and take a look at the finest gems in the lands of Tibia.": {
-   "pt": "",
+   "pt": "Venha dar uma olhada nas melhores gemas das terras de Tibia.",
    "n": 1,
    "npc": [
     "briasol"
@@ -18187,49 +18187,49 @@
    ]
   },
   "My name is Bruno.": {
-   "pt": "",
+   "pt": "Meu nome é Bruno.",
    "n": 1,
    "npc": [
     "bruno"
    ]
   },
   "My job is to catch fish and to sell them here.": {
-   "pt": "",
+   "pt": "Meu trabalho é pescar peixe e vendê-lo aqui.",
    "n": 1,
    "npc": [
     "bruno"
    ]
   },
   "Ah yes, my lovely wife. God forgive her, but she can't stop talking. So my work is a great rest for my poor ears. *laughs loudly*": {
-   "pt": "",
+   "pt": "Ah sim, minha adorável esposa. Que Deus a perdoe, mas ela não consegue parar de falar. Então meu trabalho é um grande descanso para meus pobres ouvidos. *ri alto*",
    "n": 1,
    "npc": [
     "bruno"
    ]
   },
   "I like this old salt. I learned much from him. Whatever. You like some fish? *grin*": {
-   "pt": "",
+   "pt": "Gosto desse velho lobo do mar. Aprendi muito com ele. Enfim. Você quer um pouco de peixe? *sorriso maroto*",
    "n": 1,
    "npc": [
     "bruno"
    ]
   },
   "Ahoi, |PLAYERNAME|. You want to buy some fresh fish?": {
-   "pt": "",
+   "pt": "Ahoi, |PLAYERNAME|. Quer comprar peixe fresco?",
    "n": 1,
    "npc": [
     "bruno"
    ]
   },
   "Good bye and come again!": {
-   "pt": "",
+   "pt": "Até logo, e volte sempre!",
    "n": 1,
    "npc": [
     "bruno"
    ]
   },
   "Buy all the fish you want. It's fresh and healthy, promised.": {
-   "pt": "",
+   "pt": "Compre todo o peixe que quiser. É fresco e saudável, prometo.",
    "n": 1,
    "npc": [
     "bruno"
@@ -22219,14 +22219,14 @@
    ]
   },
   "<gulp gulp>": {
-   "pt": "",
+   "pt": "<engole engole>",
    "n": 1,
    "npc": [
     "cruleo"
    ]
   },
   "This will earn me some handsome amount of gold!": {
-   "pt": "",
+   "pt": "Isso vai me render uma bela quantia de ouro!",
    "n": 1,
    "npc": [
     "cruleo"
@@ -23402,7 +23402,7 @@
    ]
   },
   "Stand still on the examination platform |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Fique parado na plataforma de exame, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "doctor_gnomedix"
@@ -27861,7 +27861,7 @@
    ]
   },
   "Our relations improve with every mission you undertake on our behalf. Another way to improve your relations with us gnomes is to trade in minor crystal tokens. ...": {
-   "pt": "",
+   "pt": "Nossas relações melhoram a cada missão que você cumpre em nosso nome. Outro jeito de melhorar suas relações conosco, os gnomos, é negociar minor crystal tokens. ...",
    "n": 1,
    "npc": [
     "gnomally"
@@ -28505,7 +28505,7 @@
    ]
   },
   "Hello fearless {recruit}.": {
-   "pt": "",
+   "pt": "Olá, {recruta} destemido.",
    "n": 1,
    "npc": [
     "gnomespector"
@@ -31480,14 +31480,14 @@
    ]
   },
   "Do you seek a passage to Yalahar for |TRAVELCOST|?": {
-   "pt": "",
+   "pt": "Procura uma passagem para Yalahar por |TRAVELCOST|?",
    "n": 1,
    "npc": [
     "harlow_vengoth"
    ]
   },
   "Want to go back to {Yalahar} for 50 gold? Just ask me.": {
-   "pt": "",
+   "pt": "Quer voltar para {Yalahar} por 50 gold? É só me perguntar.",
    "n": 1,
    "npc": [
     "harlow_vengoth"
@@ -39061,49 +39061,49 @@
    ]
   },
   "My name is Marlene.": {
-   "pt": "",
+   "pt": "Meu nome é Marlene.",
    "n": 1,
    "npc": [
     "marlene"
    ]
   },
   "I'm Bruno's wife. Besides: Have you already heard the latest news about the seamonster, Aneus, or the rumours in this area?": {
-   "pt": "",
+   "pt": "Sou esposa do Bruno. Aliás: você já ouviu as últimas notícias sobre o monstro marinho, Aneus, ou os boatos desta região?",
    "n": 1,
    "npc": [
     "marlene"
    ]
   },
   "Bruno is a wonderful husband. But he is seldom at home. *looks a little bit sad*": {
-   "pt": "",
+   "pt": "Bruno é um marido maravilhoso. Mas quase nunca está em casa. *parece um pouco triste*",
    "n": 1,
    "npc": [
     "marlene"
    ]
   },
   "Ah, old Graubart. A very nice person. But he is strange. He always is busy when I want to talk to him. *lost in thoughts*": {
-   "pt": "",
+   "pt": "Ah, o velho Graubart. Uma pessoa muito simpática. Mas é estranho. Está sempre ocupado quando quero falar com ele. *perdida em pensamentos*",
    "n": 1,
    "npc": [
     "marlene"
    ]
   },
   "My pleasure, I always enjoy sharing interesting stories.": {
-   "pt": "",
+   "pt": "O prazer é meu, sempre gosto de compartilhar histórias interessantes.",
    "n": 1,
    "npc": [
     "marlene"
    ]
   },
   "Ahhh, welcome |PLAYERNAME|! Say, have you already heard the latest news about the {seamonster}, {Aneus}, or the {rumours} in this area?": {
-   "pt": "",
+   "pt": "Ahhh, bem-vindo, |PLAYERNAME|! Diga, você já ouviu as últimas notícias sobre o {monstro marinho}, {Aneus}, ou os {boatos} desta região?",
    "n": 1,
    "npc": [
     "marlene"
    ]
   },
   "Good bye and come again for another small talk! *waves*": {
-   "pt": "",
+   "pt": "Até logo, e volte para outro bate-papo! *acena*",
    "n": 1,
    "npc": [
     "marlene"
@@ -42092,7 +42092,7 @@
    ]
   },
   "My measurements? Listen, lets make that a bit more exciting ... No, no, not what you think! I mean let's gamble. I will roll a dice. If I roll a 6 you win and I'll tell you what you need to know, else I win and get 5 gold. Deal?": {
-   "pt": "",
+   "pt": "Minhas medidas? Escute, vamos deixar isso mais emocionante ... Não, não, não é o que você está pensando! Quero dizer, vamos apostar. Vou rolar um dado. Se sair 6, você ganha e eu lhe conto o que precisa saber, senão eu ganho e fico com 5 gold. Combinado?",
    "n": 1,
    "npc": [
     "olrik"
@@ -47930,14 +47930,14 @@
    ]
   },
   "Fine elven armor and weapons. Have a look.": {
-   "pt": "",
+   "pt": "Belas armaduras e armas élficas. Dê uma olhada.",
    "n": 1,
    "npc": [
     "shanar"
    ]
   },
   "Looking for protective spells for druids? I can teach you.": {
-   "pt": "",
+   "pt": "Procurando magias de proteção para druids? Posso lhe ensinar.",
    "n": 1,
    "npc": [
     "shanar"
@@ -51136,7 +51136,7 @@
    ]
   },
   "There, there initiate. You will now become one of us, as so many before you. One of the {Barkless}. Walk with us and you will walk tall my friend.": {
-   "pt": "",
+   "pt": "Calma, calma, iniciado. Agora você vai se tornar um de nós, como tantos antes de você. Um dos {Barkless}. Caminhe conosco e você caminhará de cabeça erguida, meu amigo.",
    "n": 1,
    "npc": [
     "tigo"
@@ -60380,7 +60380,7 @@
    "n": 1
   },
   "recruit": {
-   "pt": "",
+   "pt": "recruta",
    "n": 1
   },
   "endurance": {
@@ -61012,11 +61012,11 @@
    "n": 1
   },
   "seamonster": {
-   "pt": "",
+   "pt": "monstro marinho",
    "n": 1
   },
   "aneus": {
-   "pt": "",
+   "pt": "Aneus",
    "n": 1
   },
   "archives": {
@@ -61752,7 +61752,7 @@
    "n": 1
   },
   "barkless": {
-   "pt": "",
+   "pt": "Barkless",
    "n": 1
   },
   "karl": {
