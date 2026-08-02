@@ -6065,7 +6065,7 @@
    ]
   },
   "I can't reveal much to you right now as time is of the essence. I can tell you though that the glooth plant and the whole town are in danger and we have to act to stop a {madman} and his schemes.": {
-   "pt": "",
+   "pt": "Não posso revelar muito para você agora, já que o tempo é essencial. Mas posso lhe dizer que a glooth plant e a cidade inteira estão em perigo, e temos que agir para impedir um {louco} e seus planos.",
    "n": 4,
    "npc": [
     "strange_pipe",
@@ -6075,7 +6075,7 @@
    ]
   },
   "I defeated him there in the past. It has been abandoned for many {years}, but I suspected him to return from the dead eventually, as he has done so often before.": {
-   "pt": "",
+   "pt": "Eu o derrotei lá no passado. O lugar está abandonado há muitos {anos}, mas eu suspeitava que ele voltaria dos mortos eventualmente, como já fez tantas vezes antes.",
    "n": 4,
    "npc": [
     "strange_pipe",
@@ -6085,7 +6085,7 @@
    ]
   },
   "The creature is powerful but not very clever. It seems it can be easily {enraged} and then it would likely let slip all caution and would relentlessly attack without regard for its safety.": {
-   "pt": "",
+   "pt": "A criatura é poderosa, mas não muito inteligente. Parece que pode ser facilmente {enfurecida}, e aí provavelmente perderia toda a cautela e atacaria sem parar, sem se importar com a própria segurança.",
    "n": 4,
    "npc": [
     "strange_pipe",
@@ -6095,7 +6095,7 @@
    ]
   },
   "I used the time to prepare. You'll find my talking tubes all the {way} to his lair, and I can provide you with vital information about the things ahead.": {
-   "pt": "",
+   "pt": "Usei o tempo para me preparar. Você vai encontrar meus tubos falantes por todo o {caminho} até o covil dele, e posso lhe fornecer informações vitais sobre o que está por vir.",
    "n": 4,
    "npc": [
     "strange_pipe",
@@ -6166,7 +6166,7 @@
    ]
   },
   "Alone ... so alone. So cold.": {
-   "pt": "",
+   "pt": "Sozinha ... tão sozinha. Tão fria.",
    "n": 3,
    "npc": [
     "a_ghostly_woman"
@@ -6905,7 +6905,7 @@
    ]
   },
   "I can travel you to {thais}.": {
-   "pt": "",
+   "pt": "Posso levá-lo até {Thais}.",
    "n": 3,
    "npc": [
     "jack_drone"
@@ -8193,7 +8193,7 @@
    ]
   },
   "I am the owner of this saloon. I call it Archery's Hut. I am also {selling} ammunitions.": {
-   "pt": "",
+   "pt": "Sou o dono deste saloon. Eu o chamo de Archery's Hut. Também estou {vendendo} munições.",
    "n": 2,
    "npc": [
     "archery",
@@ -8622,7 +8622,7 @@
    ]
   },
   "I sell a selection of": {
-   "pt": "",
+   "pt": "Vendo uma seleção de",
    "n": 2,
    "npc": [
     "battlemart",
@@ -8630,7 +8630,7 @@
    ]
   },
   "Farewell, |PLAYERNAME|, I'll be here if you need me again.": {
-   "pt": "",
+   "pt": "Adeus, |PLAYERNAME|, estarei aqui se precisar de mim de novo.",
    "n": 2,
    "npc": [
     "battlemart",
@@ -9845,7 +9845,7 @@
    ]
   },
   "I hope you have a cold day, friend.": {
-   "pt": "",
+   "pt": "Espero que você tenha um dia frio, amigo.",
    "n": 2,
    "npc": [
     "freezhild"
@@ -9929,7 +9929,7 @@
    ]
   },
   "I guess I will stick around for a time to watch over the grave. After this final watch I will find peace, I can feel this. Thank you, human being. You redeemed me.": {
-   "pt": "",
+   "pt": "Acho que vou ficar por aqui um tempo vigiando o túmulo. Depois dessa última vigília, vou encontrar paz, consigo sentir isso. Obrigado, ser humano. Você me redimiu.",
    "n": 2,
    "npc": [
     "ghostly_wolf"
@@ -11808,7 +11808,7 @@
    ]
   },
   "You can not take it anymore": {
-   "pt": "",
+   "pt": "Você não consegue carregar mais",
    "n": 2,
    "npc": [
     "testserver_assistant"
@@ -12594,21 +12594,21 @@
    ]
   },
   "Once I was a member of the order of the nightmare knights. Now I am but a shadow who walks these cold halls.": {
-   "pt": "",
+   "pt": "Um dia fui membro da ordem dos nightmare knights. Agora sou apenas uma sombra que anda por estes corredores frios.",
    "n": 1,
    "npc": [
     "a_ghostly_woman"
    ]
   },
   "The north has a puzzle to complete.": {
-   "pt": "",
+   "pt": "O norte tem um quebra-cabeça a completar.",
    "n": 1,
    "npc": [
     "a_ghostly_woman"
    ]
   },
   "I feel you. I hear your thoughts. You are ... alive.": {
-   "pt": "",
+   "pt": "Sinto você. Ouço seus pensamentos. Você está ... vivo.",
    "n": 1,
    "npc": [
     "a_ghostly_woman"
@@ -15653,14 +15653,14 @@
    ]
   },
   "Welcome to Archery's shop!": {
-   "pt": "",
+   "pt": "Bem-vindo à loja da Archery!",
    "n": 1,
    "npc": [
     "archery"
    ]
   },
   "Welcome to Archery's Rook shop.": {
-   "pt": "",
+   "pt": "Bem-vindo à loja da Archery's Rook.",
    "n": 1,
    "npc": [
     "archery_rook"
@@ -16353,14 +16353,14 @@
    ]
   },
   "I am not here to fight you, fool. Like it or not, we will have to work together to stop the catastrophe you and that priest have initiated.": {
-   "pt": "",
+   "pt": "Não estou aqui para lutar contra você, tolo. Goste ou não, vamos ter que trabalhar juntos para impedir a catástrofe que você e aquele padre iniciaram.",
    "n": 1,
    "npc": [
     "awarness_of_the_emperor"
    ]
   },
   "Greetings, mortal. Be aware that you are trying my patience while we are talking.": {
-   "pt": "",
+   "pt": "Saudações, mortal. Saiba que você está testando minha paciência enquanto conversamos.",
    "n": 1,
    "npc": [
     "awarness_of_the_emperor"
@@ -16549,7 +16549,7 @@
    ]
   },
   "It is good to see you. I'm always at your {shop options}": {
-   "pt": "",
+   "pt": "É bom ver você. Estou sempre à disposição para suas {opções de loja}",
    "n": 1,
    "npc": [
     "battlemart"
@@ -17137,7 +17137,7 @@
    ]
   },
   "You already have started this quest.": {
-   "pt": "",
+   "pt": "Você já começou essa quest.",
    "n": 1,
    "npc": [
     "bloodshade_rotten"
@@ -25103,21 +25103,21 @@
    ]
   },
   "Harmony, friend. Allow me to welcome you in the {Blue Valley}. I offer guidance for the {pilgrimage} and can provide {healing}. Or can I help you otherwise?": {
-   "pt": "",
+   "pt": "Harmonia, amigo. Permita-me lhe dar as boas-vindas ao {Blue Valley}. Ofereço orientação para a {peregrinação} e posso fornecer {cura}. Ou posso ajudá-lo de outra forma?",
    "n": 1,
    "npc": [
     "enpa-deia_pema"
    ]
   },
   "Harmony and balance on your travels, friend.": {
-   "pt": "",
+   "pt": "Harmonia e equilíbrio nas suas viagens, amigo.",
    "n": 1,
    "npc": [
     "enpa-deia_pema"
    ]
   },
   "Safe and insightful travels, friend.": {
-   "pt": "",
+   "pt": "Viagens seguras e perspicazes, amigo.",
    "n": 1,
    "npc": [
     "enpa-deia_pema"
@@ -26545,28 +26545,28 @@
    ]
   },
   "Crate of weapons you say.. for me?": {
-   "pt": "",
+   "pt": "Crate of weapons, você diz.. para mim?",
    "n": 1,
    "npc": [
     "freezhild"
    ]
   },
   "I'm wondering why you are doing this. Well, we accept the gift. Don't think that this makes you a friend though.": {
-   "pt": "",
+   "pt": "Fico imaginando por que você está fazendo isso. Bem, aceitamos o presente. Mas não pense que isso faz de você um amigo.",
    "n": 1,
    "npc": [
     "freezhild"
    ]
   },
   "You don't have any crate of weapons!": {
-   "pt": "",
+   "pt": "Você não tem nenhum crate of weapons!",
    "n": 1,
    "npc": [
     "freezhild"
    ]
   },
   "Welcome, to my cool home.": {
-   "pt": "",
+   "pt": "Bem-vindo à minha casa fria.",
    "n": 1,
    "npc": [
     "freezhild"
@@ -27770,7 +27770,7 @@
    ]
   },
   "You are speaking the language of animals? I'm surprised. But I'm not in the right mood for a chat.": {
-   "pt": "",
+   "pt": "Você está falando a língua dos animais? Estou surpreso. Mas não estou com humor para conversar.",
    "n": 1,
    "npc": [
     "ghostly_wolf"
@@ -33888,14 +33888,14 @@
    ]
   },
   "Do you seek a passage back to thais?": {
-   "pt": "",
+   "pt": "Você busca uma passagem de volta para Thais?",
    "n": 1,
    "npc": [
     "jack_drone"
    ]
   },
   "Welcome on board, |PLAYERNAME|. Where can I {sail} you today? I can travel you back to {thais}.": {
-   "pt": "",
+   "pt": "Bem-vindo a bordo, |PLAYERNAME|. Para onde posso {levar} você hoje? Posso levá-lo de volta até {Thais}.",
    "n": 1,
    "npc": [
     "jack_drone"
@@ -49792,28 +49792,28 @@
    ]
   },
   "Well, I need the parts of a sorcerer's robe, a paladin's bow, a knight's shield, and a druid's rod. If you cannot find one of them, ask me about it and I might provide you with some minor hints.": {
-   "pt": "",
+   "pt": "Bem, preciso das peças de um sorcerer's robe, um paladin's bow, um knight's shield e um druid's rod. Se não conseguir encontrar algum deles, me pergunte sobre ele e talvez eu lhe dê algumas dicas pequenas.",
    "n": 1,
    "npc": [
     "tereban_functions"
    ]
   },
   "Thank you for your help!": {
-   "pt": "",
+   "pt": "Obrigado pela sua ajuda!",
    "n": 1,
    "npc": [
     "tereban_functions"
    ]
   },
   "I am relieved someone as capable as you will handle the task. Well, I need the parts of a sorcerer's robe, a paladin's bow, a knight's shield, and a druid's wand.": {
-   "pt": "",
+   "pt": "Fico aliviado que alguém tão capaz quanto você vá cuidar dessa tarefa. Bem, preciso das peças de um sorcerer's robe, um paladin's bow, um knight's shield e um druid's wand.",
    "n": 1,
    "npc": [
     "tereban_functions"
    ]
   },
   "Oh my. I really hope you will change your mind.": {
-   "pt": "",
+   "pt": "Ai meu Deus. Espero mesmo que você mude de ideia.",
    "n": 1,
    "npc": [
     "tereban_functions"
@@ -49918,28 +49918,28 @@
    ]
   },
   "There you have": {
-   "pt": "",
+   "pt": "Aqui está",
    "n": 1,
    "npc": [
     "testserver_assistant"
    ]
   },
   "Here you are |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Aqui está, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "testserver_assistant"
    ]
   },
   "You have been blessed by all gods, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Você foi abençoado por todos os deuses, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "testserver_assistant"
    ]
   },
   "Hey |PLAYERNAME|. I'm Testserver Assistant and I can give {money}, {experience} and {blessing} which will be useful for testing on": {
-   "pt": "",
+   "pt": "Ei, |PLAYERNAME|. Sou o Testserver Assistant e posso dar {dinheiro}, {experiência} e {bênção}, que serão úteis para testar em",
    "n": 1,
    "npc": [
     "testserver_assistant"
@@ -50303,14 +50303,14 @@
    ]
   },
   "Ah, a customer! Be greeted, |PLAYERNAME|! I buy all kinds of loot, would you like a {trade}? I can also show you my {shop options}.": {
-   "pt": "",
+   "pt": "Ah, um cliente! Seja bem-vindo, |PLAYERNAME|! Compro todo tipo de loot, gostaria de {negociar}? Também posso lhe mostrar minhas {opções de loja}.",
    "n": 1,
    "npc": [
     "the_lootmonger"
    ]
   },
   "Ah, a customer! Be greeted, |PLAYERNAME|! I buy all kinds of loot, would you look at": {
-   "pt": "",
+   "pt": "Ah, um cliente! Seja bem-vindo, |PLAYERNAME|! Compro todo tipo de loot, gostaria de dar uma olhada em",
    "n": 1,
    "npc": [
     "the_lootmonger"
@@ -52193,7 +52193,7 @@
    ]
   },
   "<the dwarf quizzically raises his brow - the only destinations he accepts seems to be {Cormaya} or {Kazordoon}>": {
-   "pt": "",
+   "pt": "<o anão ergue a sobrancelha, intrigado - os únicos destinos que ele parece aceitar são {Cormaya} ou {Kazordoon}>",
    "n": 1,
    "npc": [
     "urks_the_mute"
@@ -55147,21 +55147,21 @@
    ]
   },
   "You want trip to Izzle of Zzao?": {
-   "pt": "",
+   "pt": "Você quer viagem para a Ilha de Zzao?",
    "n": 1,
    "npc": [
     "zurak_arena"
    ]
   },
   "It'zz done your travel to.": {
-   "pt": "",
+   "pt": "Ezztá pronta a zzua viagem para.",
    "n": 1,
    "npc": [
     "zurak_arena"
    ]
   },
   "Me zzimple ferryman. I arrange {trip} to Zzao.": {
-   "pt": "",
+   "pt": "Mim pescador simples. Eu arranjo {viagem} para Zzao.",
    "n": 1,
    "npc": [
     "zurak_arena"
@@ -56900,7 +56900,7 @@
    "n": 8
   },
   "years": {
-   "pt": "",
+   "pt": "anos",
    "n": 8
   },
   "cenath": {
@@ -57556,7 +57556,7 @@
    "n": 4
   },
   "blessing": {
-   "pt": "",
+   "pt": "bênção",
    "n": 4
   },
   "uzgod": {
@@ -57616,15 +57616,15 @@
    "n": 4
   },
   "madman": {
-   "pt": "",
+   "pt": "louco",
    "n": 4
   },
   "enraged": {
-   "pt": "",
+   "pt": "enfurecida",
    "n": 4
   },
   "way": {
-   "pt": "",
+   "pt": "caminho",
    "n": 4
   },
   "importance": {
@@ -58328,7 +58328,7 @@
    "n": 2
   },
   "shop options": {
-   "pt": "",
+   "pt": "opções de loja",
    "n": 2
   },
   "noodles": {
