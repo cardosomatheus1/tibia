@@ -426,18 +426,27 @@ local function magiasPorGrupo(grupo)
   return lista
 end
 
--- o icone vem do SpellInfo do client, casado pelas palavras da magia
+-- O icone vem do SpellInfo do client, casado pelas palavras da magia.
+-- Os dois clients guardam o indice de um jeito diferente:
+--   otclient (mehah, 15.x): info.clientId aponta direto para o sheet
+--   OTClientV8 (10.x):      info.icon e' um nome, resolvido em SpellIcons
+-- Tentamos os dois, entao o mesmo modulo serve para ambos.
+local function indiceDoIcone(info)
+  local id = tonumber(info.clientId)
+  if id then return id end
+  id = tonumber(info.icon)
+  if id then return id end
+  if SpellIcons and info.icon and SpellIcons[info.icon] then
+    return SpellIcons[info.icon][1]
+  end
+  return nil
+end
+
 local function iconePorPalavras(palavras)
   local base = SpellInfo and SpellInfo[PERFIL]
-  if not base or not palavras then return nil end
+  if not base or not palavras or palavras == "" then return nil end
   for _, info in pairs(base) do
-    if info.words == palavras then
-      local id = tonumber(info.icon)
-      if not id and SpellIcons and SpellIcons[info.icon] then
-        id = SpellIcons[info.icon][1]
-      end
-      return id
-    end
+    if info.words == palavras then return indiceDoIcone(info) end
   end
   return nil
 end

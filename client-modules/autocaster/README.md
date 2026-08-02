@@ -19,9 +19,41 @@ cp -r client-modules/autocaster /caminho/do/client/modules/
 Reinicie o client. O módulo carrega sozinho (`autoload: true`) e cria um
 botão na barra lateral, junto dos outros. Atalho: **Ctrl+Shift+A**.
 
-Funciona no **OTClientV8** e no **otclient do mehah** — só usa APIs de
-núcleo (`g_game`, `g_map`, `g_ui`), sem depender do framework de bot do
-OTCv8.
+## Qual client usar
+
+| Client | Protocolo | Aceita este módulo? |
+|---|---|---|
+| [otclient (mehah)](https://github.com/mehah/otclient) | 7.72 – **15.x** | ✅ sim — **é o caminho para 15.25** |
+| OTClientV8 | até ~12.x | ✅ sim (foi onde validei em execução) |
+| Client oficial 15.25 (dudantas) | 15.25 | ❌ não — é Qt/C++ fechado, sem módulos Lua |
+
+O client oficial **não tem sistema de módulos**: ele é um executável Qt
+compilado, então nenhum semibot pode ser adicionado a ele. É por isso que o
+RubinOT precisou fazer o RTC — um client próprio. Para ter o AutoCaster
+falando 15.25 com o Canary, use o **otclient do mehah**, que é open source
+e suporta o protocolo 15.x.
+
+O módulo só usa APIs de núcleo (`g_game`, `g_map`, `g_ui`) e trata as
+diferenças entre os dois clients:
+
+- **ícone da magia**: o mehah indexa o sprite sheet por `info.clientId`; o
+  OTClientV8 usa `info.icon` resolvido em `SpellIcons`. O módulo tenta os
+  dois.
+- **vocação**: os dois clients recebem do Canary o `clientid` (opcode
+  `0x9F` manda `vocation->getClientId()` em ambos os protocolos), e nenhum
+  dos dois usa essa numeração nas suas tabelas de magia. Por isso a
+  comparação é por nome.
+
+### Ícones do Monk
+
+Os ícones das magias de Monk existem no sheet do mehah
+(`data/images/game/spells/spell-icons-32x32.png`, 187 ícones) — são as
+magias com `clientId` 161–178:
+
+![Ícones das magias de Monk](../../docs/images/autocaster-icones-monk.png)
+
+No OTClientV8 elas aparecem sem ícone, porque o sheet dele é de 2023 e não
+tem essa arte.
 
 ## As três abas
 
