@@ -3353,7 +3353,7 @@
    ]
   },
   "Good bye. Come back soon.": {
-   "pt": "",
+   "pt": "Até logo. Volte logo.",
    "n": 8,
    "npc": [
     "cornelia",
@@ -4323,7 +4323,7 @@
    ]
   },
   "Do you want to sail": {
-   "pt": "",
+   "pt": "Você quer navegar",
    "n": 6,
    "npc": [
     "alternative_rock",
@@ -5082,7 +5082,7 @@
    ]
   },
   "Have a nice trip!": {
-   "pt": "",
+   "pt": "Boa viagem!",
    "n": 5,
    "npc": [
     "anderson",
@@ -5445,7 +5445,7 @@
    ]
   },
   "We are ferrymen. We transport goods and passengers to the Ice Islands.": {
-   "pt": "",
+   "pt": "Somos barqueiros. Transportamos mercadorias e passageiros para as Ice Islands.",
    "n": 4,
    "npc": [
     "anderson",
@@ -6261,7 +6261,7 @@
    ]
   },
   "Good bye. You are welcome.": {
-   "pt": "",
+   "pt": "Até logo. Foi um prazer.",
    "n": 3,
    "npc": [
     "anderson",
@@ -7294,7 +7294,7 @@
    ]
   },
   "You can check the {balance} of your bank account, {deposit} money or {withdraw} it. \\z\n\t\t\tYou can also {transfer} money to other characters, provided that they have a vocation.": {
-   "pt": "",
+   "pt": "Você pode consultar o {saldo} da sua conta bancária, {depositar} dinheiro ou {sacar}. Também pode {transferir} dinheiro para outros personagens, desde que eles tenham uma vocação.",
    "n": 3,
    "npc": [
     "wentworth"
@@ -7548,7 +7548,7 @@
    ]
   },
   "Passages to Tibia, Folda and Vega.": {
-   "pt": "",
+   "pt": "Passagens para Tibia, Folda e Vega.",
    "n": 2,
    "npc": [
     "alternative_rock",
@@ -7688,7 +7688,7 @@
    ]
   },
   "Ahoi, young man |PLAYERNAME| and welcome to the Nordic Tibia Ferries. If you need a {passage}, let me know.": {
-   "pt": "",
+   "pt": "Ahoi, jovem |PLAYERNAME|, e bem-vindo à Nordic Tibia Ferries. Se precisar de uma {passagem}, é só avisar.",
    "n": 2,
    "npc": [
     "anderson",
@@ -8917,7 +8917,7 @@
    ]
   },
   "I can travel you to {Tibia}.": {
-   "pt": "",
+   "pt": "Posso lhe levar até {Tibia}.",
    "n": 2,
    "npc": [
     "captain_jack"
@@ -9123,7 +9123,7 @@
    ]
   },
   "Uhm, as you wish.": {
-   "pt": "",
+   "pt": "Ahn, como quiser.",
    "n": 2,
    "npc": [
     "costello"
@@ -9802,7 +9802,7 @@
    ]
   },
   "We allow able champions of all races to fight for our cause against the challenges of the {arena}. So are you interested? I'm not interested in fancy'wordplay, so a simple {yes} or {no} will suffice!": {
-   "pt": "",
+   "pt": "Permitimos que campeões capazes de todas as raças lutem pela nossa causa contra os desafios da {arena}. Então, tem interesse? Não me interessa jogo de palavras, um simples {sim} ou {não} basta!",
    "n": 2,
    "npc": [
     "farhilorn_of_the_winter_court",
@@ -9810,7 +9810,7 @@
    ]
   },
   "You are now able to enter the teleport.": {
-   "pt": "",
+   "pt": "Agora você pode entrar no teleporte.",
    "n": 2,
    "npc": [
     "farhilorn_of_the_winter_court",
@@ -9818,7 +9818,7 @@
    ]
   },
   "This place has always been a site where the champions of summer and winter have clashed in battle. Over the centuries this spectacle has drawn many creatures here to watch, participate and indulge in less savory activities.": {
-   "pt": "",
+   "pt": "Este lugar sempre foi onde os campeões do verão e do inverno se enfrentaram em batalha. Ao longo dos séculos, esse espetáculo atraiu muitas criaturas para assistir, participar e se entregar a atividades menos nobres.",
    "n": 2,
    "npc": [
     "farhilorn_of_the_winter_court",
@@ -9826,7 +9826,7 @@
    ]
   },
   "Hello fighter. I guess you are here to {fight} for our noble {cause}.": {
-   "pt": "",
+   "pt": "Olá, lutador. Imagino que esteja aqui para {lutar} pela nossa nobre {causa}.",
    "n": 2,
    "npc": [
     "farhilorn_of_the_winter_court",
@@ -11590,7 +11590,7 @@
    ]
   },
   "So you want to exchange": {
-   "pt": "",
+   "pt": "Então você quer trocar",
    "n": 2,
    "npc": [
     "ruprecht"
@@ -12148,7 +12148,7 @@
    ]
   },
   "We can {change} money for you. You can also access your {bank account}.": {
-   "pt": "",
+   "pt": "Podemos {trocar} dinheiro para você. Você também pode acessar sua {conta bancária}.",
    "n": 2,
    "npc": [
     "wentworth"
@@ -12169,7 +12169,7 @@
    ]
   },
   "Bye, bye!": {
-   "pt": "",
+   "pt": "Tchau, tchau!",
    "n": 2,
    "npc": [
     "woblin"
@@ -15223,14 +15223,14 @@
    ]
   },
   "Do you want a passage to": {
-   "pt": "",
+   "pt": "Você quer uma passagem para",
    "n": 1,
    "npc": [
     "anderson"
    ]
   },
   "Where do you want to go today? We serve the routes to Senja, {Folda} and {Vega} and back to {Tibia}.": {
-   "pt": "",
+   "pt": "Para onde quer ir hoje? Atendemos as rotas para Senja, {Folda} e {Vega}, e de volta para {Tibia}.",
    "n": 1,
    "npc": [
     "anderson"
@@ -19654,7 +19654,7 @@
    ]
   },
   "Do you seek a passage back to Tibia?": {
-   "pt": "",
+   "pt": "Procura uma passagem de volta para Tibia?",
    "n": 1,
    "npc": [
     "captain_jack"
@@ -20123,7 +20123,7 @@
    ]
   },
   "Where do you want to go? To {Folda}, {Senja} or {Tibia}?": {
-   "pt": "",
+   "pt": "Para onde quer ir? Para {Folda}, {Senja} ou {Tibia}?",
    "n": 1,
    "npc": [
     "carlson"
@@ -22139,70 +22139,70 @@
    ]
   },
   "To be honest, I fear the omen in my dreams may be true. \\z\n\t\t\t\t\tPerhaps Fugio is unable to see the danger down there. \\z\n\t\t\t\t\tPerhaps ... you are willing to investigate this matter?": {
-   "pt": "",
+   "pt": "Para ser sincero, temo que o presságio dos meus sonhos seja verdadeiro. Talvez Fugio não consiga enxergar o perigo lá embaixo. Talvez ... você esteja disposto a investigar isso?",
    "n": 1,
    "npc": [
     "costello"
    ]
   },
   "Do you want me to inspect a diary?": {
-   "pt": "",
+   "pt": "Quer que eu examine um diário?",
    "n": 1,
    "npc": [
     "costello"
    ]
   },
   "Who are you to demand holy water from the White Raven Monastery? Who sent you??": {
-   "pt": "",
+   "pt": "Quem é você para exigir holy water do White Raven Monastery? Quem lhe mandou??",
    "n": 1,
    "npc": [
     "costello"
    ]
   },
   "I already filled your vial with holy water.": {
-   "pt": "",
+   "pt": "Eu já enchi seu vial com holy water.",
    "n": 1,
    "npc": [
     "costello"
    ]
   },
   "Ahh, Amanda from Edron sent you! I hope she's doing well. So why did she send you here?": {
-   "pt": "",
+   "pt": "Ahh, foi Amanda de Edron quem lhe mandou! Espero que ela esteja bem. Então por que ela lhe mandou aqui?",
    "n": 1,
    "npc": [
     "costello"
    ]
   },
   "Thank you very much! From now on you may open the warded doors to the catacombs.": {
-   "pt": "",
+   "pt": "Muito obrigado! De agora em diante você pode abrir as portas protegidas das catacumbas.",
    "n": 1,
    "npc": [
     "costello"
    ]
   },
   "By the gods! This is brother Fugio's handwriting and what I read is horrible indeed! You have done our order a great favour by giving this diary to me! Take this blessed Ankh. May it protect you in even your darkest hours.": {
-   "pt": "",
+   "pt": "Pelos deuses! Esta é a letra do irmão Fugio, e o que leio é realmente terrível! Você prestou um grande favor à nossa ordem ao me entregar este diário! Fique com este Ankh abençoado. Que ele lhe proteja mesmo nas horas mais sombrias.",
    "n": 1,
    "npc": [
     "costello"
    ]
   },
   "I never heard that name and you won't get holy water for some stranger.": {
-   "pt": "",
+   "pt": "Nunca ouvi esse nome, e você não vai conseguir holy water para um desconhecido qualquer.",
    "n": 1,
    "npc": [
     "costello"
    ]
   },
   "Ohh, why didn't you tell me before? Sure you get some holy water if it's for Amanda! Here you are.": {
-   "pt": "",
+   "pt": "Ohh, por que não disse antes? Claro que você leva holy water se é para a Amanda! Aqui está.",
    "n": 1,
    "npc": [
     "costello"
    ]
   },
   "Welcome, |PLAYERNAME|! Feel free to tell me what has brought you here.": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Fique à vontade para me dizer o que lhe trouxe aqui.",
    "n": 1,
    "npc": [
     "costello"
@@ -46240,42 +46240,42 @@
    ]
   },
   "I have these offers:": {
-   "pt": "",
+   "pt": "Tenho estas ofertas:",
    "n": 1,
    "npc": [
     "ruprecht"
    ]
   },
   "Thank you, here is your 1 christmas token.": {
-   "pt": "",
+   "pt": "Obrigado, aqui está seu 1 christmas token.",
    "n": 1,
    "npc": [
     "ruprecht"
    ]
   },
   "You don't have a present bag.": {
-   "pt": "",
+   "pt": "Você não tem uma present bag.",
    "n": 1,
    "npc": [
     "ruprecht"
    ]
   },
   "Thank you, here is your": {
-   "pt": "",
+   "pt": "Obrigado, aqui está seu",
    "n": 1,
    "npc": [
     "ruprecht"
    ]
   },
   "You don't have enough of tokens.": {
-   "pt": "",
+   "pt": "Você não tem tokens suficientes.",
    "n": 1,
    "npc": [
     "ruprecht"
    ]
   },
   "Come back when you are ready to trade some tokens!": {
-   "pt": "",
+   "pt": "Volte quando estiver pronto para negociar alguns tokens!",
    "n": 1,
    "npc": [
     "ruprecht"
@@ -46912,7 +46912,7 @@
    ]
   },
   "Hey there, adventurer! Need a little rest in my inn? Have some food!": {
-   "pt": "",
+   "pt": "E aí, aventureiro! Precisa de um descanso na minha estalagem? Coma alguma coisa!",
    "n": 1,
    "npc": [
     "scott"
@@ -46947,147 +46947,147 @@
    ]
   },
   "In this category I have '{Light healing}', '{Wound cleansing}', and '{Cure poison}'.": {
-   "pt": "",
+   "pt": "Nesta categoria eu tenho '{Light healing}', '{Wound cleansing}' e '{Cure poison}'.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "In this category I have '{Find person}', '{Magic Rope}', '{Levitate}', '{Light}', '{Great Light}', and '{Haste}'.": {
-   "pt": "",
+   "pt": "Nesta categoria eu tenho '{Find person}', '{Magic Rope}', '{Levitate}', '{Light}', '{Great Light}' e '{Haste}'.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "In this category I have '{Brutal strike}' for knights.": {
-   "pt": "",
+   "pt": "Nesta categoria eu tenho '{Brutal strike}' para knights.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "In this category I have '{Conjure Arrow}' for paladins.": {
-   "pt": "",
+   "pt": "Nesta categoria eu tenho '{Conjure Arrow}' para paladins.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "I can teach you {healing spells}, {support spells}, {conjure spells} and {attack spells}. What kind of spell do you wish to learn?": {
-   "pt": "",
+   "pt": "Posso lhe ensinar {healing spells}, {support spells}, {conjure spells} e {attack spells}. Que tipo de magia deseja aprender?",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "I am Ser Tybald. <bows courteously>.": {
-   "pt": "",
+   "pt": "Sou Ser Tybald. <faz uma reverência cortês>.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "I'm just an adventurer looking for action. Learn from the best! Just ask me about knight and paladin {spells}.": {
-   "pt": "",
+   "pt": "Sou apenas um aventureiro atrás de ação. Aprenda com o melhor! É só me perguntar sobre {magias} de knight e paladin.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "From afar, the island glowed at midnight as if dawn was at hand. A fierce magical light, beckoning, calling out, promising power past redemption - but I am sure {Garamond} has a better idea as to the exact nature of that magical power.": {
-   "pt": "",
+   "pt": "De longe, a ilha brilhava à meia-noite como se o amanhecer estivesse próximo. Uma luz mágica feroz, acenando, chamando, prometendo um poder além da redenção - mas tenho certeza de que {Garamond} sabe melhor qual é a natureza exata desse poder mágico.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "He's a mentor to all young adventurers. If you have a question as to what you should or could do, and how this world works, talk to Inigo, he will be happy to help.": {
-   "pt": "",
+   "pt": "Ele é mentor de todos os jovens aventureiros. Se tiver dúvida sobre o que deve ou pode fazer, e sobre como este mundo funciona, fale com Inigo, ele vai ajudar com prazer.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "Now there is someone who has had his share of grief. No wonder he came to {Dawnport} to assist raising new heroes for the {Tibian} lands.": {
-   "pt": "",
+   "pt": "Aí está alguém que já teve sua cota de dor. Não é à toa que veio para {Dawnport} ajudar a formar novos heróis para as terras {Tibian}.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "Is that old man still teaching magic spells?": {
-   "pt": "",
+   "pt": "Aquele velho ainda está ensinando magias?",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "We know each other from old, yes. Will we talk about it? No.": {
-   "pt": "",
+   "pt": "Nós nos conhecemos de longa data, sim. Vamos falar sobre isso? Não.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "That old pirate has settled down now it seems.": {
-   "pt": "",
+   "pt": "Parece que aquele velho pirata se aquietou agora.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "He's quite a good cook, which helps improve the mood on bad days. He's a carpenter by trade. Did a good job reinforcing this outpost, too.": {
-   "pt": "",
+   "pt": "Ele é um cozinheiro e tanto, o que ajuda a levantar o ânimo nos dias ruins. De ofício é carpinteiro. Também fez um bom trabalho reforçando este posto avançado.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "It used to be a kind of title in other times, but it serves nicely as a first name here.": {
-   "pt": "",
+   "pt": "Antigamente era uma espécie de título, mas serve muito bem como primeiro nome por aqui.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "What a beautiful lady. Do you know the Lay of the White Lady Illadria? ... 'Calm and slender like a birch, soft and white like snow, yet strong and warm like the sun she is.' Well, it fits perfectly. I am her sworn protector.": {
-   "pt": "",
+   "pt": "Que dama linda. Conhece a Balada da Dama Branca Illadria? ... 'Serena e esbelta como uma bétula, macia e branca como a neve, e ainda assim forte e quente como o sol ela é.' Bem, descreve perfeitamente. Sou seu protetor juramentado.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "Ah, still so young and naive about the gods and demons... Still, I envy him his unspoilt beliefs. If I could turn back time... but never mind my ramblings.": {
-   "pt": "",
+   "pt": "Ah, ainda tão jovem e ingênuo quanto a deuses e demônios... Ainda assim, invejo as crenças intactas dele. Se eu pudesse voltar o tempo... mas não ligue para o meu falatório.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "Mr Morris has much on his mind and may have been somewhat distracted with regard to that key. He probably just misplaced it, somewhere on top of all those archeological findings he stores.": {
-   "pt": "",
+   "pt": "Mr Morris tem muita coisa na cabeça e pode ter se distraído com aquela chave. Provavelmente só a colocou fora do lugar, em cima de algum daqueles achados arqueológicos que ele guarda.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "Be greeted, young adventurer.": {
-   "pt": "",
+   "pt": "Saudações, jovem aventureiro.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "Always stay upwind, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Fique sempre a favor do vento, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "ser_tybald"
    ]
   },
   "A go-getter. I like that.": {
-   "pt": "",
+   "pt": "Um sujeito decidido. Gosto disso.",
    "n": 1,
    "npc": [
     "ser_tybald"
@@ -49474,14 +49474,14 @@
    ]
   },
   "Where do you want to go? To {Tibia}, {Senja} or {Vega}?": {
-   "pt": "",
+   "pt": "Para onde quer ir? Para {Tibia}, {Senja} ou {Vega}?",
    "n": 1,
    "npc": [
     "svenson"
    ]
   },
   "Do you want to buy a heavy ball for 123 gold?": {
-   "pt": "",
+   "pt": "Quer comprar uma heavy ball por 123 gold?",
    "n": 1,
    "npc": [
     "svenson"
@@ -53296,21 +53296,21 @@
    ]
   },
   "There are three different coin types in Tibia: 100 gold coins equal 1 platinum coin, \\z\n\t\t\t100 platinum coins equal 1 crystal coin. \\z\n\t\t\tSo if you'd like to change 100 gold into 1 platinum, simply say '{change gold}' and then '1 platinum'.": {
-   "pt": "",
+   "pt": "Há três tipos de moeda em Tibia: 100 gold coins equivalem a 1 platinum coin, 100 platinum coins equivalem a 1 crystal coin. Então, se quiser trocar 100 gold por 1 platinum, é só dizer '{trocar ouro}' e depois '1 platinum'.",
    "n": 1,
    "npc": [
     "wentworth"
    ]
   },
   "Your bank account will be used automatically when you want to {rent} a house or place an offer \\z\n\t\t\ton an item on the {market}. Let me know if you want to know about how either one works.": {
-   "pt": "",
+   "pt": "Sua conta bancária é usada automaticamente quando você quer alugar uma casa com {aluguel} ou fazer uma oferta por um item no {mercado}. Me avise se quiser saber como cada um funciona.",
    "n": 1,
    "npc": [
     "wentworth"
    ]
   },
   "I work in this bank. I can change money for you and help you with your bank account.": {
-   "pt": "",
+   "pt": "Trabalho neste banco. Posso trocar dinheiro para você e lhe ajudar com sua conta bancária.",
    "n": 1,
    "npc": [
     "wentworth"
@@ -53674,133 +53674,133 @@
    ]
   },
   "Stinky Old Nasty.": {
-   "pt": "",
+   "pt": "Old Nasty fedorento.",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Mine precious!": {
-   "pt": "",
+   "pt": "Meu precioso!",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "No part of clan. Me prefer company of {precious}. Or mirror image. Always nice to see pretty me!": {
-   "pt": "",
+   "pt": "Woblin não ser de clã. Woblin preferir companhia do {precioso}. Ou do reflexo no espelho. Sempre bom ver o Woblin bonito!",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Me not like minos either. Huge mean bullies! Woblin peaceful here.": {
-   "pt": "",
+   "pt": "Woblin também não gostar de minos. Brutamontes enormes e maus! Woblin ser pacífico aqui.",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Me not like trolls. Big furry stinky trolls!": {
-   "pt": "",
+   "pt": "Woblin não gostar de trolls. Trolls grandes, peludos e fedorentos!",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Mean short people, make Woblin's clan do slave work for them.": {
-   "pt": "",
+   "pt": "Gente baixinha e má, faz o clã do Woblin trabalhar de escravo para eles.",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Ugly stomping giants, always busy hammering stone.": {
-   "pt": "",
+   "pt": "Gigantes feios e pisadores, sempre ocupados martelando pedra.",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "What you on quest for? Go leave Woblin alone with {precious}.": {
-   "pt": "",
+   "pt": "Você atrás de que quest? Vai e deixa Woblin sozinho com o {precioso}.",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Fish good. Fish quiet and tasty. Woblin try to catch fishes, but... hm you could earn yourself {reward}!": {
-   "pt": "",
+   "pt": "Peixe ser bom. Peixe ser quieto e gostoso. Woblin tentar pegar peixes, mas... hm você poderia ganhar uma {recompensa}!",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Me not trade! Goods my precious now! By old goblin law all that one has in his pockets for two days is family heirloom! Me no part with my goods ... hm unless you provide Woblin with some {reward}!": {
-   "pt": "",
+   "pt": "Woblin não negociar! Mercadoria ser meu precioso agora! Pela velha lei goblin, tudo que fica dois dias no bolso vira herança de família! Woblin não largar minha mercadoria ... hm a não ser que você dê alguma {recompensa} ao Woblin!",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Lost what? Key?": {
-   "pt": "",
+   "pt": "Perdeu o quê? A chave?",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Me not give key! Key my precious now!": {
-   "pt": "",
+   "pt": "Woblin não dar chave! Chave ser meu precioso agora!",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Me not give key! Key my precious now! \\z\n\t\t\t\tBy old goblin law all that one has in his pockets for two days is family heirloom! \\z\n\t\t\t\tMe no part with my precious ... hm unless you provide Woblin with some {reward}!": {
-   "pt": "",
+   "pt": "Woblin não dar chave! Chave ser meu precioso agora! Pela velha lei goblin, tudo que fica dois dias no bolso vira herança de família! Woblin não largar meu precioso ... hm a não ser que você dê alguma {recompensa} ao Woblin!",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "You can keep lousy key! Didn't like it anymore anyway.": {
-   "pt": "",
+   "pt": "Pode ficar com a chave xoxa! Woblin nem gostava mais dela mesmo.",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Me good angler but one fish eludes me since many many weeks. I call fish ''Old Nasty''. \\z\n\t\t\t\tYou might catch him in this cave, in that pond there. Bring me {Old Nasty} and I'll give you key!": {
-   "pt": "",
+   "pt": "Woblin ser bom pescador, mas um peixe escapar dele faz muitas e muitas semanas. Woblin chamar o peixe de ''Old Nasty''. Você talvez pegar ele nesta caverna, naquele lago ali. Traz {Old Nasty} para Woblin e Woblin dá a chave!",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "You bring me Old Nasty?": {
-   "pt": "",
+   "pt": "Você trazer Old Nasty para Woblin?",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "You did it! That's my old arch enemy! Here take lousy key. Didn't like it anymore anyway.": {
-   "pt": "",
+   "pt": "Você conseguiu! Esse ser meu velho arqui-inimigo! Toma a chave xoxa. Woblin nem gostava mais dela mesmo.",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "You have not Old Nasty! Odd, you stink just like him though!": {
-   "pt": "",
+   "pt": "Você não ter Old Nasty! Esquisito, você feder igualzinho a ele!",
    "n": 1,
    "npc": [
     "woblin"
    ]
   },
   "Hi there human!": {
-   "pt": "",
+   "pt": "Oi aí, humano!",
    "n": 1,
    "npc": [
     "woblin"
@@ -59458,7 +59458,7 @@
    "n": 2
   },
   "precious": {
-   "pt": "",
+   "pt": "precioso",
    "n": 2
   },
   "dead trees": {
