@@ -6143,14 +6143,14 @@
    ]
   },
   "This player does not exist.": {
-   "pt": "",
+   "pt": "Este jogador não existe.",
    "n": 4,
    "npc": [
     "bank_system"
    ]
   },
   "There is not enough gold on your guild account.": {
-   "pt": "",
+   "pt": "Não há ouro suficiente na conta da sua guild.",
    "n": 4,
    "npc": [
     "bank_system"
@@ -7290,14 +7290,14 @@
    ]
   },
   "We are happy to inform you that your transfer request was successfully carried out.": {
-   "pt": "",
+   "pt": "Temos o prazer de informar que sua solicitação de transferência foi realizada com sucesso.",
    "n": 3,
    "npc": [
     "bank_system"
    ]
   },
   "Fill in this field with person who receives your gold!": {
-   "pt": "",
+   "pt": "Preencha este campo com a pessoa que vai receber seu ouro!",
    "n": 3,
    "npc": [
     "bank_system"
@@ -12202,28 +12202,28 @@
    ]
   },
   "Alright, is there something else I can do for you?": {
-   "pt": "",
+   "pt": "Muito bem, há mais alguma coisa que eu possa fazer por você?",
    "n": 2,
    "npc": [
     "bank_system"
    ]
   },
   "You are not a member of a guild.": {
-   "pt": "",
+   "pt": "Você não é membro de uma guild.",
    "n": 2,
    "npc": [
     "bank_system"
    ]
   },
   "I am sorry but it seems you are currently not in any guild.": {
-   "pt": "",
+   "pt": "Sinto muito, mas parece que você não está em nenhuma guild no momento.",
    "n": 2,
    "npc": [
     "bank_system"
    ]
   },
   "You do not have enough money!": {
-   "pt": "",
+   "pt": "Você não tem dinheiro suficiente!",
    "n": 2,
    "npc": [
     "modules"
@@ -26888,7 +26888,7 @@
    ]
   },
   "For a": {
-   "pt": "",
+   "pt": "Por",
    "n": 1,
    "npc": [
     "frosty"
@@ -55168,238 +55168,238 @@
    ]
   },
   "We are sorry to inform you that we could not fulfill your request, \\z\n                                due to a lack of the required sum on your bank account.": {
-   "pt": "",
+   "pt": "Lamentamos informar que não pudemos atender sua solicitação, devido à falta da quantia necessária na sua conta bancária.",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "We are sorry to inform you that we could not fulfill your request, \\z\n                                due to a lack of the required sum on your guild account.": {
-   "pt": "",
+   "pt": "Lamentamos informar que não pudemos atender sua solicitação, devido à falta da quantia necessária na conta da guild.",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "We are sorry to inform you that we could not fulfill your request, due to a lack of the required sum on your guild account.": {
-   "pt": "",
+   "pt": "Lamentamos informar que não pudemos atender sua solicitação, devido à falta da quantia necessária na conta da guild.",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "Whoah, hold on, you have no free capacity to carry all those coins!": {
-   "pt": "",
+   "pt": "Opa, espera aí, você não tem capacidade livre para carregar todas essas moedas!",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "Please tell me the amount of gold you would like to transfer.": {
-   "pt": "",
+   "pt": "Por favor, me diga a quantidade de ouro que você gostaria de transferir.",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "You cannot transfer money to this account.": {
-   "pt": "",
+   "pt": "Você não pode transferir dinheiro para esta conta.",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "Would you like to change your platinum coins into {gold} or {crystal}?": {
-   "pt": "",
+   "pt": "Você gostaria de trocar suas platinum coins por {ouro} ou {cristal}?",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "How many platinum coins would you like to change into {gold}?": {
-   "pt": "",
+   "pt": "Quantas platinum coins você gostaria de trocar por {ouro}?",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "Please tell me how much gold it is you would like to deposit into your guild account.": {
-   "pt": "",
+   "pt": "Por favor, me diga quanto ouro você gostaria de depositar na conta da sua guild.",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "Only guild leaders or vice leaders can withdraw money from the guild account.": {
-   "pt": "",
+   "pt": "Somente líderes ou vice-líderes de guild podem sacar dinheiro da conta da guild.",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "Are you sure you wish to withdraw %d gold from your guild account?": {
-   "pt": "",
+   "pt": "Tem certeza de que deseja sacar %d de ouro da conta da sua guild?",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "Please tell me how much gold you would like to withdraw from your guild account.": {
-   "pt": "",
+   "pt": "Por favor, me diga quanto ouro você gostaria de sacar da conta da sua guild.",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "Only guild leaders or vice leaders can transfer money from the guild account.": {
-   "pt": "",
+   "pt": "Somente líderes ou vice-líderes de guild podem transferir dinheiro da conta da guild.",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "Please tell me the amount of gold you would like to transfer to a guild.": {
-   "pt": "",
+   "pt": "Por favor, me diga a quantidade de ouro que você gostaria de transferir para uma guild.",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "This guild does not exist.": {
-   "pt": "",
+   "pt": "Esta guild não existe.",
    "n": 1,
    "npc": [
     "bank_system"
    ]
   },
   "I sell many powerful melee weapons.": {
-   "pt": "",
+   "pt": "Vendo muitas armas poderosas de combate corpo a corpo.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "I can bring you to": {
-   "pt": "",
+   "pt": "Posso levá-lo até",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "You are already promoted!": {
-   "pt": "",
+   "pt": "Você já foi promovido!",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "You need a premium account in order to get promoted.": {
-   "pt": "",
+   "pt": "Você precisa de uma conta premium para ser promovido.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "You already know this spell.": {
-   "pt": "",
+   "pt": "Você já sabe esta magia.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "You cannot learn this spell.": {
-   "pt": "",
+   "pt": "Você não pode aprender esta magia.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "You already possess this blessing.": {
-   "pt": "",
+   "pt": "Você já possui esta bênção.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "You need the blessing of the great geomancer first.": {
-   "pt": "",
+   "pt": "Você precisa primeiro da bênção do great geomancer.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "You don't have any of the other blessings nor an amulet of loss, \\z\n                           so it wouldn't make sense to bestow this protection on you now. \\z\n                           Remember that it can only protect you from the loss of those!": {
-   "pt": "",
+   "pt": "Você não tem nenhuma das outras bênçãos nem um amulet of loss, então não faria sentido conceder esta proteção a você agora. Lembre-se de que ela só pode protegê-lo da perda dessas coisas!",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "Oh. You do not have enough money.": {
-   "pt": "",
+   "pt": "Ah. Você não tem dinheiro suficiente.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "I'm sorry, but you need a premium account in order to travel onboard our ships.": {
-   "pt": "",
+   "pt": "Sinto muito, mas você precisa de uma conta premium para viajar em nossos navios.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "You must reach level": {
-   "pt": "",
+   "pt": "Você precisa alcançar o level",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "First get rid of those blood stains! You are not going to ruin my vehicle!": {
-   "pt": "",
+   "pt": "Primeiro se livre dessas manchas de sangue! Você não vai estragar meu veículo!",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "Sorry, but you need to wait three seconds before travel again.": {
-   "pt": "",
+   "pt": "Desculpe, mas você precisa esperar três segundos antes de viajar de novo.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "Get out of there with this blood.": {
-   "pt": "",
+   "pt": "Saia daí com esse sangue.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "It was a pleasure doing business with you.": {
-   "pt": "",
+   "pt": "Foi um prazer fazer negócios com você.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "I can only allow premium players to travel there.": {
-   "pt": "",
+   "pt": "Só posso permitir que jogadores premium viajem para lá.",
    "n": 1,
    "npc": [
     "modules"
    ]
   },
   "hail king": {
-   "pt": "",
+   "pt": "hail king",
    "n": 1,
    "npc": [
     "npc_handler"
    ]
   },
   "hail queen": {
-   "pt": "",
+   "pt": "hail queen",
    "n": 1,
    "npc": [
     "npc_handler"
