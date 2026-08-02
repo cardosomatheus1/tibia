@@ -6973,7 +6973,7 @@
    ]
   },
   "Where do you want to go? To {Thais}": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Thais}",
    "n": 3,
    "npc": [
     "kendra"
@@ -7255,7 +7255,7 @@
    ]
   },
   "Great! Let me see. Amazing! I will take this, thank you!": {
-   "pt": "",
+   "pt": "Ótimo! Deixa eu ver. Incrível! Vou ficar com isso, obrigado!",
    "n": 3,
    "npc": [
     "rock_steady"
@@ -11558,14 +11558,14 @@
    ]
   },
   "Have you noticed that I'm actually the only rock on this island with a proper job? Those lazy pebbleheads! I'm proud to announce: I'm a trader": {
-   "pt": "",
+   "pt": "Você percebeu que eu sou, na verdade, a única pedra desta ilha com um emprego decente? Aquelas cabeças-de-seixo preguiçosas! Tenho orgulho de anunciar: sou um trader",
    "n": 2,
    "npc": [
     "rock_in_a_hard_place"
    ]
   },
   "Have you got anything for me today?": {
-   "pt": "",
+   "pt": "Você tem alguma coisa para mim hoje?",
    "n": 2,
    "npc": [
     "rock_steady"
@@ -14505,7 +14505,7 @@
    ]
   },
   "Find the Golden Anchor and click there, after talk with Navigator.": {
-   "pt": "",
+   "pt": "Encontre a Golden Anchor e clique lá, depois de falar com Navigator.",
    "n": 1,
    "npc": [
     "alternative_rock"
@@ -35414,7 +35414,7 @@
    ]
   },
   "Passages to Thais": {
-   "pt": "",
+   "pt": "Passagens para Thais",
    "n": 1,
    "npc": [
     "kendra"
@@ -45893,77 +45893,77 @@
    ]
   },
   "No, you got it all wrong! I said I'm stuck between a rock and a hard place!": {
-   "pt": "",
+   "pt": "Não, você entendeu tudo errado! Eu disse que estou entre a pedra e a espada!",
    "n": 1,
    "npc": [
     "rock_in_a_hard_place"
    ]
   },
   "I can help you buy trading stuff with you. Good for me, good for you. It's a win-win!": {
-   "pt": "",
+   "pt": "Posso ajudar você a comprar coisas de troca. Bom para mim, bom para você. Todo mundo sai ganhando!",
    "n": 1,
    "npc": [
     "rock_in_a_hard_place"
    ]
   },
   "You would be surprised how many things are washed ashore here. I trade": {
-   "pt": "",
+   "pt": "Você ficaria surpreso com quantas coisas dão à costa aqui. Eu negocio",
    "n": 1,
    "npc": [
     "rock_in_a_hard_place"
    ]
   },
   "Everyone on this island has gone crazy! Except for me and you, it seems. Let's {trade} like normal people would.": {
-   "pt": "",
+   "pt": "Todo mundo nesta ilha enlouqueceu! Exceto eu e você, ao que parece. Vamos {negociar} como gente normal faria.",
    "n": 1,
    "npc": [
     "rock_in_a_hard_place"
    ]
   },
   "Promise to come back sometime, will ya?": {
-   "pt": "",
+   "pt": "Promete que volta algum dia, hein?",
    "n": 1,
    "npc": [
     "rock_in_a_hard_place"
    ]
   },
   "Hey! Don't leave me alone with all these lunatics!": {
-   "pt": "",
+   "pt": "Ei! Não me deixe sozinho com todos esses lunáticos!",
    "n": 1,
    "npc": [
     "rock_in_a_hard_place"
    ]
   },
   "If you want anything, you should talk to Old Rock Boy over there. I do {collect} stuff, though. So just ask if you're interested in helping me.": {
-   "pt": "",
+   "pt": "Se você quer alguma coisa, deveria falar com o Old Rock Boy ali. Mas eu {coleto} coisas. Então é só perguntar se tiver interesse em me ajudar.",
    "n": 1,
    "npc": [
     "rock_steady"
    ]
   },
   "You dont have the required items!": {
-   "pt": "",
+   "pt": "Você não tem os itens necessários!",
    "n": 1,
    "npc": [
     "rock_steady"
    ]
   },
   "Welcome, this is the {Gray Beach temple}, |PLAYERNAME|. Whether you are wounded, poisoned - or wait, don't tell me - yes, this is probably a case of being more emotionally hurt, I will do my best to {heal} you.": {
-   "pt": "",
+   "pt": "Bem-vindo, este é o {Gray Beach temple}, |PLAYERNAME|. Esteja ferido, envenenado - ou espera, não me diga - sim, isso provavelmente é um caso de estar mais magoado emocionalmente, farei o meu melhor para lhe {curar}.",
    "n": 1,
    "npc": [
     "rock_with_a_soft_spot"
    ]
   },
   "Only the best for you.": {
-   "pt": "",
+   "pt": "Só o melhor para você.",
    "n": 1,
    "npc": [
     "rock_with_a_soft_spot"
    ]
   },
   "Goodbye then, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Adeus então, |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "rock_with_a_soft_spot"
@@ -61448,11 +61448,11 @@
    "n": 1
   },
   "collect": {
-   "pt": "",
+   "pt": "coletar",
    "n": 1
   },
   "gray beach temple": {
-   "pt": "",
+   "pt": "Gray Beach temple",
    "n": 1
   },
   "amazons": {
@@ -62307,6 +62307,10 @@
   },
   "disturb": {
    "pt": "perturba",
+   "n": 0
+  },
+  "collect": {
+   "pt": "coleto",
    "n": 0
   }
  }
