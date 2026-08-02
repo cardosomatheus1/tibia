@@ -6464,7 +6464,7 @@
    ]
   },
   "My hero! A friend of mine sent you to liberate me? A true friend!": {
-   "pt": "",
+   "pt": "Meu herói! Um amigo meu lhe mandou para me libertar? Um verdadeiro amigo!",
    "n": 3,
    "npc": [
     "corym_worker_01",
@@ -17298,7 +17298,7 @@
    ]
   },
   "Hi! I hope you're not going to kill me!": {
-   "pt": "",
+   "pt": "Oi! Espero que você não vá me matar!",
    "n": 1,
    "npc": [
     "boveas"
@@ -20112,21 +20112,21 @@
    ]
   },
   "If you want to play with me please come near me.": {
-   "pt": "",
+   "pt": "Se quiser jogar comigo, por favor chegue perto de mim.",
    "n": 1,
    "npc": [
     "cassino"
    ]
   },
   "Your bet is lower than the min {": {
-   "pt": "",
+   "pt": "Sua aposta é menor que o mínimo {",
    "n": 1,
    "npc": [
     "cassino"
    ]
   },
   "Welcome to the Cassino! Here we play with: \\n [PAYOUT 180%] {HIGH / LOW}: High for 4, 5, 6 and Low for 1, 2, and 3 - {ODD / EVEN }: Odd for 1, 3, 5 and Even for 2, 4 and 6 \\n [PAYOUT 500%] {NUMBERS}: You choose the number, and if you get it right ... {$$$$$}": {
-   "pt": "",
+   "pt": "Bem-vindo ao Cassino! Aqui jogamos com: \\n [PAGAMENTO 180%] {HIGH / LOW}: High para 4, 5, 6 e Low para 1, 2 e 3 - {ODD / EVEN}: Odd para 1, 3, 5 e Even para 2, 4 e 6 \\n [PAGAMENTO 500%] {NUMBERS}: Você escolhe o número, e se acertar ... {$$$$$}",
    "n": 1,
    "npc": [
     "cassino"
@@ -21225,14 +21225,14 @@
    ]
   },
   "The exhibition is not for free. You have to pay 50 Gold to get in. Next please!": {
-   "pt": "",
+   "pt": "A exposição não é de graça. Você tem que pagar 50 Gold para entrar. Próximo, por favor!",
    "n": 1,
    "npc": [
     "cillia"
    ]
   },
   "And here we go!": {
-   "pt": "",
+   "pt": "E lá vamos nós!",
    "n": 1,
    "npc": [
     "cillia"
@@ -22107,14 +22107,14 @@
    ]
   },
   "We need weapons to overcome our situation.": {
-   "pt": "",
+   "pt": "Precisamos de armas para superar nossa situação.",
    "n": 1,
    "npc": [
     "corym_worker_02"
    ]
   },
   "Every man is the architect of his own fortune. I want to see the daylight again! Just smell fresh air.": {
-   "pt": "",
+   "pt": "Cada homem é o arquiteto da própria sorte. Quero ver a luz do dia de novo! Só sentir o cheiro do ar fresco.",
    "n": 1,
    "npc": [
     "corym_worker_04"
@@ -58188,7 +58188,7 @@
    "n": 2
   },
   "numbers": {
-   "pt": "",
+   "pt": "NUMBERS",
    "n": 2
   },
   "pick": {
@@ -59880,15 +59880,15 @@
    "n": 1
   },
   "high / low": {
-   "pt": "",
+   "pt": "HIGH / LOW",
    "n": 1
   },
   "odd / even": {
-   "pt": "",
+   "pt": "ODD / EVEN",
    "n": 1
   },
   "$$$$$": {
-   "pt": "",
+   "pt": "$$$$$",
    "n": 1
   },
   "spelllsssssss": {
