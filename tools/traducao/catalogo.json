@@ -7164,7 +7164,7 @@
    ]
   },
   "I think you must be one of the richest inhabitants in the world! \\z\n\t\t\t\tYour account balance is": {
-   "pt": "",
+   "pt": "Acho que você deve ser um dos habitantes mais ricos do mundo! O saldo da sua conta é",
    "n": 3,
    "npc": [
     "paulie",
@@ -7173,7 +7173,7 @@
    ]
   },
   "You have made ten millions and it still grows! Your account balance is \\z": {
-   "pt": "",
+   "pt": "Você já fez dez milhões e ainda cresce! O saldo da sua conta é ",
    "n": 3,
    "npc": [
     "paulie",
@@ -7182,7 +7182,7 @@
    ]
   },
   "Wow, you have reached the magic number of a million gp!!! \\z\n\t\t\t\tYour account balance is": {
-   "pt": "",
+   "pt": "Uau, você chegou ao número mágico de um milhão de gp!!! O saldo da sua conta é",
    "n": 3,
    "npc": [
     "paulie",
@@ -7191,7 +7191,7 @@
    ]
   },
   "You certainly have made a pretty penny. Your account balance is \\z": {
-   "pt": "",
+   "pt": "Você certamente juntou um bom dinheiro. O saldo da sua conta é ",
    "n": 3,
    "npc": [
     "paulie",
@@ -7218,7 +7218,7 @@
    ]
   },
   "Whoah, hold on, you have no room in your inventory to carry all those coins. \\z\n\t\t\t\t\tI don't want you to drop it on the floor, maybe come back with a cart!": {
-   "pt": "",
+   "pt": "Opa, calma lá, você não tem espaço no inventário para carregar todas essas moedas. Não quero que você derrube tudo no chão, quem sabe volte com uma carroça!",
    "n": 3,
    "npc": [
     "paulie",
@@ -9011,7 +9011,7 @@
    ]
   },
   "You don't have enough...": {
-   "pt": "",
+   "pt": "Você não tem o suficiente...",
    "n": 2,
    "npc": [
     "charlotta",
@@ -10543,7 +10543,7 @@
    ]
   },
   "My name is Jack Fate from the Royal Tibia Line.": {
-   "pt": "",
+   "pt": "Meu nome é Jack Fate, da Royal Tibia Line.",
    "n": 2,
    "npc": [
     "jack_fate",
@@ -10765,14 +10765,14 @@
    ]
   },
   "The good thing is that those horrible rats stay mostly in town. The bad thing is that they do so because of bigger {monsters} that would devour them outside.": {
-   "pt": "",
+   "pt": "O bom é que aqueles ratos horríveis quase não saem da cidade. O ruim é que ficam por causa de {monstros} maiores que os devorariam lá fora.",
    "n": 2,
    "npc": [
     "loui"
    ]
   },
   "He owns a shop in town.": {
-   "pt": "",
+   "pt": "Ele tem uma loja na cidade.",
    "n": 2,
    "npc": [
     "loui"
@@ -11730,14 +11730,14 @@
    ]
   },
   "Aha! I can see it! Now that you've waited patiently without shaving, your beard is perfect! All thanks to my, err, potion. Yes. Goodbye!": {
-   "pt": "",
+   "pt": "Aha! Estou vendo! Agora que você esperou com paciência sem se barbear, sua barba está perfeita! Tudo graças à minha, ahn, poção. Isso. Até logo!",
    "n": 2,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Hmm, it seems you need to wait a bit longer for the potion to take full effect. Please be patient.": {
-   "pt": "",
+   "pt": "Hmm, parece que você precisa esperar mais um pouco para a poção fazer efeito completo. Tenha paciência.",
    "n": 2,
    "npc": [
     "simon_the_beggar"
@@ -15216,7 +15216,7 @@
    ]
   },
   "Fetchi maruk buta.": {
-   "pt": "",
+   "pt": "Fetchi maruk buta.",
    "n": 1,
    "npc": [
     "an_orc_guard"
@@ -17078,77 +17078,77 @@
    ]
   },
   "Maruk rambo zambo!": {
-   "pt": "",
+   "pt": "Maruk rambo zambo!",
    "n": 1,
    "npc": [
     "blind_orc"
    ]
   },
   "Maruk nixda!": {
-   "pt": "",
+   "pt": "Maruk nixda!",
    "n": 1,
    "npc": [
     "blind_orc"
    ]
   },
   "Buta maruk klamuk!": {
-   "pt": "",
+   "pt": "Buta maruk klamuk!",
    "n": 1,
    "npc": [
     "blind_orc"
    ]
   },
   "Ikem Charach maruk.": {
-   "pt": "",
+   "pt": "Ikem Charach maruk.",
    "n": 1,
    "npc": [
     "blind_orc"
    ]
   },
   "Futchi!": {
-   "pt": "",
+   "pt": "Futchi!",
    "n": 1,
    "npc": [
     "blind_orc"
    ]
   },
   "Buta humak!": {
-   "pt": "",
+   "pt": "Buta humak!",
    "n": 1,
    "npc": [
     "blind_orc"
    ]
   },
   "Ikem pashak porak, bata, dora. Ba goshak maruk?": {
-   "pt": "",
+   "pt": "Ikem pashak porak, bata, dora. Ba goshak maruk?",
    "n": 1,
    "npc": [
     "blind_orc"
    ]
   },
   "Ikem pashak charcha, burka, burka bata, hakhak. Ba goshak maruk?": {
-   "pt": "",
+   "pt": "Ikem pashak charcha, burka, burka bata, hakhak. Ba goshak maruk?",
    "n": 1,
    "npc": [
     "blind_orc"
    ]
   },
   "Ikem pashak aka bora, tulak bora, grofa. Ba goshak maruk?": {
-   "pt": "",
+   "pt": "Ikem pashak aka bora, tulak bora, grofa. Ba goshak maruk?",
    "n": 1,
    "npc": [
     "blind_orc"
    ]
   },
   "Ikem pashak donga. Ba goshak maruk?": {
-   "pt": "",
+   "pt": "Ikem pashak donga. Ba goshak maruk?",
    "n": 1,
    "npc": [
     "blind_orc"
    ]
   },
   "Futchi.": {
-   "pt": "",
+   "pt": "Futchi.",
    "n": 1,
    "npc": [
     "blind_orc"
@@ -20074,7 +20074,7 @@
    ]
   },
   "Welcome back, Isleth Eagonst! Do you still have that piece of meat or ham? If so, please ask me for a {trade} and I'll give you some gold for it.": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, Isleth Eagonst! Ainda está com aquele pedaço de meat ou ham? Se estiver, me peça para {negociar} e eu lhe dou algum ouro por ele.",
    "n": 1,
    "npc": [
     "carlos"
@@ -20396,7 +20396,7 @@
    ]
   },
   "Hello young friend! I can attune you to a city of your choice. \\z\n\t\tIf you step to the teleporter here you will not appear in the city you came from as usual, \\z\n\t\tbut the city of your choice. Is it what you wish?": {
-   "pt": "",
+   "pt": "Olá, jovem amigo! Posso sintonizá-lo com uma cidade à sua escolha. Se você entrar no teleporte daqui, não vai aparecer na cidade de onde veio, como de costume, e sim na cidade que escolher. É isso que deseja?",
    "n": 1,
    "npc": [
     "charos"
@@ -21782,7 +21782,7 @@
    ]
   },
   "Blessings, Player! How may I be of service? Do you wish to trade some {token}s, or would you like some {information} or {talk}? Should I {enchant} certain items for you?": {
-   "pt": "Bênçãos, Player! Como posso servi-lo? Deseja negociar alguns {token}s, ou prefere {information} ou {talk}? Devo {enchant} certos itens para você?",
+   "pt": "Bênçãos, Player! Como posso servi-lo? Deseja negociar alguns {token}s, ou prefere uma {informação} ou {conversar}? Devo {encantar} certos itens para você?",
    "n": 1,
    "npc": [
     "cledwyn"
@@ -24862,7 +24862,7 @@
    ]
   },
   "You don'\\t have enough money.": {
-   "pt": "",
+   "pt": "Você não tem dinheiro suficiente.",
    "n": 1,
    "npc": [
     "emael"
@@ -26311,7 +26311,7 @@
    ]
   },
   "You want me to transport you and your spouse back to {Fibula}?": {
-   "pt": "",
+   "pt": "Quer que eu leve você e seu cônjuge de volta para {Fibula}?",
    "n": 1,
    "npc": [
     "ferryman_kamil_meluna"
@@ -33983,63 +33983,63 @@
    ]
   },
   "I'm the captain of this - well, wreck. Argh.": {
-   "pt": "",
+   "pt": "Sou o capitão deste - bem, destroço. Argh.",
    "n": 1,
    "npc": [
     "jack_fate_goroma"
    ]
   },
   "I'm the captain of this - well, wreck. Argh": {
-   "pt": "",
+   "pt": "Sou o capitão deste - bem, destroço. Argh",
    "n": 1,
    "npc": [
     "jack_fate_goroma"
    ]
   },
   "This is where we are... the volcano island Goroma. There are many rumours about this place.": {
-   "pt": "",
+   "pt": "É aqui que estamos... a ilha vulcânica Goroma. Corre muito boato sobre este lugar.",
    "n": 1,
    "npc": [
     "jack_fate_goroma"
    ]
   },
   "I'd love to bring you back to Liberty Bay, but as you can see, my ship is ruined. I also hurt my leg and can barely move. Can you help me?": {
-   "pt": "",
+   "pt": "Eu adoraria levá-lo de volta para Liberty Bay, mas como pode ver, meu navio está destruído. Também machuquei a perna e mal consigo me mexer. Pode me ajudar?",
    "n": 1,
    "npc": [
     "jack_fate_goroma"
    ]
   },
   "Have you brought 30 pieces of wood so that I can repair the ship?": {
-   "pt": "",
+   "pt": "Trouxe 30 pedaços de wood para eu poder consertar o navio?",
    "n": 1,
    "npc": [
     "jack_fate_goroma"
    ]
   },
   "Do you want to travel back to Liberty Bay?": {
-   "pt": "",
+   "pt": "Quer viajar de volta para Liberty Bay?",
    "n": 1,
    "npc": [
     "jack_fate_goroma"
    ]
   },
   "Good! Please return once you have gathered 30 pieces of wood.": {
-   "pt": "",
+   "pt": "Ótimo! Volte assim que tiver juntado 30 pedaços de wood.",
    "n": 1,
    "npc": [
     "jack_fate_goroma"
    ]
   },
   "Excellent! Now we can leave this godforsaken place. Thank you for your help. Should you ever want to return to this island, ask me for a passage to Goroma.": {
-   "pt": "",
+   "pt": "Excelente! Agora podemos deixar este lugar esquecido pelos deuses. Obrigado pela ajuda. Se algum dia quiser voltar a esta ilha, me peça uma passagem para Goroma.",
    "n": 1,
    "npc": [
     "jack_fate_goroma"
    ]
   },
   "Hello, Sir |PLAYERNAME|. Where can I {sail} you today?": {
-   "pt": "",
+   "pt": "Olá, Sir |PLAYERNAME|. Para onde posso {levar} você hoje?",
    "n": 1,
    "npc": [
     "jack_fate_goroma"
@@ -37784,14 +37784,14 @@
    ]
   },
   "While looking for something - which I forgot - I found that {hole}. I went down, even though I had no torch. And then I heard {THEM}! There must be dozens!": {
-   "pt": "",
+   "pt": "Enquanto procurava uma coisa - que já esqueci qual - achei aquele {buraco}. Desci, mesmo sem tocha. E então eu ouvi {ELES}! Devem ser dezenas!",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "They were so many, EVERYWHERE! I could barely escape alive. I have no clue what THEY were but one more second down there and I'd have been dead!": {
-   "pt": "",
+   "pt": "Eram tantos, POR TODA PARTE! Mal escapei com vida. Não faço ideia do que ELES eram, mas mais um segundo lá embaixo e eu estaria morto!",
    "n": 1,
    "npc": [
     "loui"
@@ -37833,21 +37833,21 @@
    ]
   },
   "Was it...? Yes, I might have looked for blueberries as I foolishly entered this unholy {hole}.": {
-   "pt": "",
+   "pt": "Era...? Sim, eu devia estar procurando blueberries quando entrei feito tolo neste {buraco} profano.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "There must be an army of them, just down this {hole}.": {
-   "pt": "",
+   "pt": "Deve haver um exército deles, bem no fundo deste {buraco}.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "Then, they must be magic wielding beasts using creature illusion! Good thing you escaped.": {
-   "pt": "",
+   "pt": "Então devem ser feras que usam magia, com creature illusion! Ainda bem que você escapou.",
    "n": 1,
    "npc": [
     "loui"
@@ -37861,7 +37861,7 @@
    ]
   },
   "I have no quests but to stay away from that {hole} and I recommend you to do the same.": {
-   "pt": "",
+   "pt": "Não tenho quest nenhuma além de ficar longe daquele {buraco}, e recomendo que você faça o mesmo.",
    "n": 1,
    "npc": [
     "loui"
@@ -37903,84 +37903,84 @@
    ]
   },
   "Harmless old woman.": {
-   "pt": "",
+   "pt": "Uma velhinha inofensiva.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "Who's that? Never heard about her.": {
-   "pt": "",
+   "pt": "Quem é essa? Nunca ouvi falar dela.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "He's a farmer.": {
-   "pt": "",
+   "pt": "Ele é fazendeiro.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "The gods may protect me from his rudeness.": {
-   "pt": "",
+   "pt": "Que os deuses me protejam da grosseria dele.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "A hermit on the other side of town.": {
-   "pt": "",
+   "pt": "Um eremita do outro lado da cidade.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "The oracle! Yes! You should get off this island as fast as you can!": {
-   "pt": "",
+   "pt": "O oráculo! Sim! Você devia sair desta ilha o mais rápido que puder!",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "Young and inexperienced he is.": {
-   "pt": "",
+   "pt": "Jovem e inexperiente, isso é o que ele é.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "Seymour is the headmaster of the local {academy}.": {
-   "pt": "",
+   "pt": "Seymour é o diretor da {academia} local.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "I'm sure he has never seen monsters like those in this hole before.": {
-   "pt": "",
+   "pt": "Tenho certeza de que ele nunca viu monstros como os daquele buraco.",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "I tried to warn him about these monsters but he just laughed at me!! It's an outrage!": {
-   "pt": "",
+   "pt": "Tentei avisá-lo sobre esses monstros mas ele só riu de mim!! É um absurdo!",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "May the gods protect you! And stay away from that hole!": {
-   "pt": "",
+   "pt": "Que os deuses o protejam! E fique longe daquele buraco!",
    "n": 1,
    "npc": [
     "loui"
    ]
   },
   "BEWARE! Beware of that {hole}!": {
-   "pt": "",
+   "pt": "CUIDADO! Cuidado com aquele {buraco}!",
    "n": 1,
    "npc": [
     "loui"
@@ -47892,7 +47892,7 @@
    ]
   },
   "Hmmm, let me look at you. <missing message, destiny for paladin>!": {
-   "pt": "",
+   "pt": "Hmmm, deixe-me olhar para você. <missing message, destiny for paladin>!",
    "n": 1,
    "npc": [
     "seymour"
@@ -48571,84 +48571,84 @@
    ]
   },
   "Haha, that beard is - well, not fake, but there's a trick behind it. I noticed people tend to be more generous towards a poor gramps. Want to know my trick?": {
-   "pt": "",
+   "pt": "Haha, essa barba é - bem, não é falsa, mas tem um truque por trás. Notei que as pessoas costumam ser mais generosas com um velhinho pobre. Quer saber meu truque?",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Have you brought me the 100 pieces of ape fur and 20000 gold pieces?": {
-   "pt": "",
+   "pt": "Trouxe as 100 unidades de ape fur e as 20000 moedas de ouro?",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Hmm, I'm not done yet with your potion. But here, let me sprinkle a few drops of my own potion on your face... there you go. Now you just have to wait.": {
-   "pt": "",
+   "pt": "Hmm, ainda não terminei sua poção. Mas venha cá, deixe-me borrifar umas gotas da minha própria poção no seu rosto... pronto. Agora é só esperar.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Oh, I'm sorry... I almost forgot! Okay, okay... here is your promised dress. I'm sure it will look so much better on you than on me- I mean, my, err, sister.": {
-   "pt": "",
+   "pt": "Ah, desculpe... quase esqueci! Certo, certo... aqui está o vestido prometido. Tenho certeza de que vai ficar bem melhor em você do que em mim- quer dizer, na minha, ahn, irmã.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Great! Come back to me once you have the 100 pieces of ape fur and I'll do my part of the deal.": {
-   "pt": "",
+   "pt": "Ótimo! Volte quando tiver as 100 unidades de ape fur e eu cumpro minha parte do acordo.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Ahh! Very good. I will start mixing the potion immediately. Come back later. Bye bye.": {
-   "pt": "",
+   "pt": "Ahh! Muito bem. Vou começar a misturar a poção agora mesmo. Volte mais tarde. Tchau tchau.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "It seems you already have this addon, don't you try to mock me son!": {
-   "pt": "",
+   "pt": "Parece que você já tem este addon, não tente zombar de mim, filho!",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "No, no. Our deal is finished, no complaining now, I don't have time all day. And no, you can't have my staff.": {
-   "pt": "",
+   "pt": "Não, não. Nosso acordo está encerrado, sem reclamação agora, não tenho o dia todo. E não, você não pode ficar com meu cajado.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "I said, no! Or well - I have a suggestion to make. Will you listen?": {
-   "pt": "",
+   "pt": "Eu disse que não! Ou bem - tenho uma sugestão a fazer. Vai me ouvir?",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Good! Come back to me once you have retrieved my staff. Good luck.": {
-   "pt": "",
+   "pt": "Ótimo! Volte quando tiver recuperado meu cajado. Boa sorte.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Did you bring my favourite staff??": {
-   "pt": "",
+   "pt": "Trouxe meu cajado favorito?",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Yes!! That's it! I'm so glad! Here, you can have my other one. Thanks!": {
-   "pt": "",
+   "pt": "Sim!! É esse! Estou tão feliz! Tome, pode ficar com o outro. Obrigado!",
    "n": 1,
    "npc": [
     "simon_the_beggar"
@@ -48683,7 +48683,7 @@
    ]
   },
   "Thank you very much. Can you spare 500 more gold pieces for me? I will give you a nice hint.": {
-   "pt": "",
+   "pt": "Muito obrigado. Pode me dar mais 500 moedas de ouro? Eu lhe dou uma boa dica.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
@@ -48697,21 +48697,21 @@
    ]
   },
   "Pah! I said 200 gold. You don't have that much.": {
-   "pt": "",
+   "pt": "Pff! Eu disse 200 de ouro. Você não tem tudo isso.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Now you own the hot key.": {
-   "pt": "",
+   "pt": "Agora a hotkey é sua.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
    ]
   },
   "Hello |PLAYERNAME|. I am a poor man. Please help me.": {
-   "pt": "",
+   "pt": "Olá |PLAYERNAME|. Sou um homem pobre. Por favor, me ajude.",
    "n": 1,
    "npc": [
     "simon_the_beggar"
@@ -50433,7 +50433,7 @@
    ]
   },
   "IN": {
-   "pt": "",
+   "pt": "IN",
    "n": 1,
    "npc": [
     "the_oracle"
@@ -53345,7 +53345,7 @@
    ]
   },
   "Ah, what the heck.Make sure you know what you want before you bug me.": {
-   "pt": "",
+   "pt": "Ah, que seja. Tenha certeza do que quer antes de vir me amolar.",
    "n": 1,
    "npc": [
     "willie"
@@ -53408,14 +53408,14 @@
    ]
   },
   "I try out old and new {recipes}. You can sell all {food} to me.": {
-   "pt": "",
+   "pt": "Eu testo {receitas} velhas e novas. Pode me vender toda a {comida} que tiver.",
    "n": 1,
    "npc": [
     "willie"
    ]
   },
   "I'd love to try a banana pie but I lack the {bananas}. If you get me one, I'll reward you.": {
-   "pt": "",
+   "pt": "Eu adoraria provar uma banana pie mas me faltam as {bananas}. Se me arranjar uma, eu recompenso você.",
    "n": 1,
    "npc": [
     "willie"
@@ -53429,7 +53429,7 @@
    ]
   },
   "This island would be wonderful if there weren't a constant flood of newcomers.": {
-   "pt": "",
+   "pt": "Esta ilha seria maravilhosa se não fosse a enxurrada constante de recém-chegados.",
    "n": 1,
    "npc": [
     "willie"
@@ -53464,7 +53464,7 @@
    ]
   },
   "I'm glad that we don't see many officials here.": {
-   "pt": "",
+   "pt": "Ainda bem que não se vê muita autoridade por aqui.",
    "n": 1,
    "npc": [
     "willie"
@@ -53485,14 +53485,14 @@
    ]
   },
   "My cousin {Billy} cooks rat stew. Yuck! Can you imagine that?": {
-   "pt": "",
+   "pt": "Meu primo {Billy} cozinha ensopado de rato. Eca! Dá para imaginar?",
    "n": 1,
    "npc": [
     "willie"
    ]
   },
   "Are you afraid of monsters? I bet even the sight of a {rat} would let your knees tremble. Hahaha.": {
-   "pt": "",
+   "pt": "Tem medo de monstros? Aposto que só de ver um {rato} seus joelhos tremeriam. Hahaha.",
    "n": 1,
    "npc": [
     "willie"
@@ -53520,7 +53520,7 @@
    ]
   },
   "Don't ever mention his name again! He can't even {cook}!": {
-   "pt": "",
+   "pt": "Nunca mais mencione o nome dele! Ele nem é {cozinheiro}!",
    "n": 1,
    "npc": [
     "willie"
@@ -53548,7 +53548,7 @@
    ]
   },
   "She thinks she owns this island with her underpriced offers.": {
-   "pt": "",
+   "pt": "Ela acha que é dona da ilha com essas ofertas abaixo do preço.",
    "n": 1,
    "npc": [
     "willie"
@@ -53583,7 +53583,7 @@
    ]
   },
   "Hopefully it gets you off this island soon so you can stop bugging me.": {
-   "pt": "",
+   "pt": "Tomara que isso te tire logo desta ilha para você parar de me amolar.",
    "n": 1,
    "npc": [
     "willie"
@@ -53597,7 +53597,7 @@
    ]
   },
   "If he wants to sacrifice all his free time for beginners, fine with me. Then they don't disturb me.": {
-   "pt": "",
+   "pt": "Se ele quer sacrificar todo o tempo livre com iniciantes, por mim tudo bem. Assim eles não me incomodam.",
    "n": 1,
    "npc": [
     "willie"
@@ -53632,14 +53632,14 @@
    ]
   },
   "Have you found a banana for me?": {
-   "pt": "",
+   "pt": "Achou uma banana para mim?",
    "n": 1,
    "npc": [
     "willie"
    ]
   },
   "A banana! Great. Here, take this shield, I don't need it anyway.": {
-   "pt": "",
+   "pt": "Uma banana! Ótimo. Tome, fique com este escudo, eu não preciso dele mesmo.",
    "n": 1,
    "npc": [
     "willie"
@@ -54766,7 +54766,7 @@
    ]
   },
   "Oh, welcome back, dear Isleth Eagonst! Are you here for a little chat? Just use the highlighted {keywords} again to choose a {topic}.": {
-   "pt": "",
+   "pt": "Ah, bem-vindo de volta, querido Isleth Eagonst! Veio para um dedo de prosa? É só usar de novo as {palavras-chave} destacadas para escolher um {assunto}.",
    "n": 1,
    "npc": [
     "zirella"

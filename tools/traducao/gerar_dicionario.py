@@ -23,6 +23,38 @@ def tolerante(texto: str) -> str:
     return re.sub(r"[^\w{}|]+$", "", re.sub(r"^[^\w{}|]+", "", t))
 
 
+# O extrator pega o texto **como esta escrito no .lua**, com as barras
+# invertidas cruas. O que chega no `Npc:say` e o que o Lua ja resolveu: a
+# frase quebrada em tres linhas com `\z` chega inteira, numa linha so.
+# Sem desfazer isso aqui, a chave do dicionario nunca casaria com a fala —
+# 116 frases sairiam em ingles sem ninguem entender por que.
+ESCAPES_LUA = {"n": "\n", "t": "\t", "r": "\r", "a": "\a", "b": "\b",
+               "f": "\f", "v": "\v", "\\": "\\", '"': '"', "'": "'"}
+
+
+def como_o_lua_le(texto: str) -> str:
+    saida, i = [], 0
+    while i < len(texto):
+        c = texto[i]
+        if c != "\\" or i + 1 >= len(texto):
+            saida.append(c)
+            i += 1
+            continue
+        prox = texto[i + 1]
+        if prox == "z":
+            # `\z` engole todo o espaco em branco que vem depois
+            i += 2
+            while i < len(texto) and texto[i].isspace():
+                i += 1
+        elif prox in ESCAPES_LUA:
+            saida.append(ESCAPES_LUA[prox])
+            i += 2
+        else:
+            saida.append(c)
+            i += 1
+    return "".join(saida)
+
+
 def escapar(s: str) -> str:
     return s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n")
 
@@ -41,7 +73,8 @@ def main() -> int:
     # Traducao feita a mao nunca e descartada, nem a de frase que sumiu do
     # datapack: guardar custa uma linha e, se a frase voltar, ja funciona.
     # Descartar custa o trabalho de uma pessoa.
-    textos = {k: v["pt"] for k, v in cat.get("textos", {}).items() if v.get("pt")}
+    textos = {como_o_lua_le(k): v["pt"]
+              for k, v in cat.get("textos", {}).items() if v.get("pt")}
     palavras = {k: v["pt"] for k, v in cat.get("palavras", {}).items() if v.get("pt")}
     apelidos = {k: v["pt"] for k, v in cat.get("apelidos", {}).items() if v.get("pt")}
 
