@@ -11618,28 +11618,28 @@
    ]
   },
   "I've forgotten to tell you something. Of course I need proof that you killed cockroaches. Please bring me at least 3 of their legs. Good luck!": {
-   "pt": "",
+   "pt": "Esqueci de te dizer uma coisa. Claro que preciso de prova de que você matou baratas. Traga pelo menos 3 pernas delas. Boa sorte!",
    "n": 2,
    "npc": [
     "santiago"
    ]
   },
   "I knew I could count on you. Here, take this good and sturdy weapon in your hand. Then go back to my house and down the ladder. Good luck, and {bye} for now!": {
-   "pt": "",
+   "pt": "Sabia que podia contar com você. Tome, pegue esta arma boa e resistente. Depois volte à minha casa e desça a escada. Boa sorte, e {tchau} por enquanto!",
    "n": 2,
    "npc": [
     "santiago"
    ]
   },
   "This is an important lesson from me - an experienced veteran fighter. Take this! Look at your status bar again. As you can see, you've lost health. Now I'll tell you how to heal that, {yes}?": {
-   "pt": "",
+   "pt": "Esta é uma lição importante minha, de lutador veterano. Tome essa! Olhe sua barra de status de novo. Como vê, você perdeu vida. Agora vou te dizer como curar isso, {sim}?",
    "n": 2,
    "npc": [
     "santiago"
    ]
   },
   "I knew you'd get it right away. You can loot food from many creatures, such as deer and rabbits. You can find them in the forest nearby. By the way... have you seen {Zirella}?": {
-   "pt": "",
+   "pt": "Sabia que você pegaria na hora. Dá para tirar comida do loot de muitas criaturas, como cervos e coelhos. Você os encontra na floresta aqui perto. Aliás... você viu a {Zirella}?",
    "n": 2,
    "npc": [
     "santiago"
@@ -12106,7 +12106,7 @@
    ]
   },
   "Great, then please find the wasps' nest, kill one and use the empty flask on its dead body.": {
-   "pt": "",
+   "pt": "Ótimo, então encontre o ninho das vespas, mate uma e use o empty flask no corpo dela.",
    "n": 2,
    "npc": [
     "vascalir"
@@ -12183,7 +12183,7 @@
    ]
   },
   "The intricate bundle for the strike imbuement consists of 20 protective charms and 25 sabreteeth. Would you like to buy it for 4 gold tokens??": {
-   "pt": "",
+   "pt": "O pacote intricate do imbuement Strike consiste em 20 protective charms e 25 sabreteeth. Gostaria de comprá-lo por 4 gold tokens?",
    "n": 2,
    "npc": [
     "yana"
@@ -19983,14 +19983,14 @@
    ]
   },
   "By the way, if you want to look at old hints again, find the 'Help' button near your inventory and select 'Tutorial Hints'.": {
-   "pt": "",
+   "pt": "Aliás, se quiser rever dicas antigas, procure o botão 'Help' perto do inventário e escolha 'Tutorial Hints'.",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Very well. Just choose an outfit and a colour combination that suits you. You can open this dialogue anytime by right-clicking on yourself and selecting 'Set Outfit'. Just try it and then talk to me again!": {
-   "pt": "",
+   "pt": "Muito bem. Escolha um visual e uma combinação de cores que te agrade. Você pode abrir essa janela quando quiser clicando com o botão direito em si mesmo e escolhendo 'Set Outfit'. Experimente e depois fale comigo de novo!",
    "n": 1,
    "npc": [
     "carlos"
@@ -20011,14 +20011,14 @@
    ]
   },
   "Splendid. I'll be awaiting your return eagerly. Don't forget that you can click on the 'Chase Opponent' button to run after those fast creatures. Good {bye} for now!": {
-   "pt": "",
+   "pt": "Esplêndido. Aguardo sua volta ansiosamente. Não esqueça que dá para clicar em 'Chase Opponent' para correr atrás das criaturas rápidas. {Tchau} por enquanto!",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "What's that delicious smell? That must be a piece of meat! Please hurry, simply ask me for a {trade} and I'll give you two gold pieces for it!": {
-   "pt": "",
+   "pt": "Que cheiro delicioso é esse? Deve ser um pedaço de carne! Depressa, é só pedir para {negociar} e te dou duas moedas de ouro por ele!",
    "n": 1,
    "npc": [
     "carlos"
@@ -20053,21 +20053,21 @@
    ]
   },
   "Oh hey |PLAYERNAME|, you didn't answer my question yet - could you help me get some {food}? I'll even give you some gold for it.": {
-   "pt": "",
+   "pt": "Ei, |PLAYERNAME|, você ainda não respondeu — poderia me arrumar alguma {comida}? Eu até te dou ouro por isso.",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Welcome back |PLAYERNAME|, I hope you changed your mind and will bring me some {meat}? I'll even give you some gold for it.": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, |PLAYERNAME|, espero que tenha mudado de ideia e me traga um pouco de {carne}. Eu até te dou ouro por isso.",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Welcome back, |PLAYERNAME|! Did you have a successful hunt and carry a piece of {meat} or ham with you?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, |PLAYERNAME|! A caçada foi boa? Está com um pedaço de {carne} ou presunto?",
    "n": 1,
    "npc": [
     "carlos"
@@ -20081,28 +20081,28 @@
    ]
   },
   "Welcome back, |PLAYERNAME|! Where did you put that delicious piece of food? Did you eat it yourself? Well, if you find another one, please come back.": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, |PLAYERNAME|! Onde foi parar aquele pedaço delicioso? Você mesmo comeu? Bom, se achar outro, volte aqui.",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Hey there, |PLAYERNAME|! Well, that's how trading with NPCs like me works. I think you are ready now to cross the bridge to Rookgaard! Take care!": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|! Pois é, é assim que funciona negociar com NPCs como eu. Acho que você já está pronto para cruzar a ponte até Rookgaard! Cuide-se!",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Hello again, |PLAYERNAME|! What are you still doing here? You should head over the bridge to Rookgaard village now!": {
-   "pt": "",
+   "pt": "Olá de novo, |PLAYERNAME|! O que ainda faz aqui? Já devia estar atravessando a ponte para o vilarejo de Rookgaard!",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Very nice! Food for me! Sell it to me, fast! Once you sold your food to me, just say {ready} to let me know you are done.": {
-   "pt": "",
+   "pt": "Muito bom! Comida para mim! Venda logo! Depois de me vender a comida, diga {pronto} para eu saber que terminou.",
    "n": 1,
    "npc": [
     "carlos"
@@ -21712,7 +21712,7 @@
    ]
   },
   "With pleasure. <bows> I trade {token}s. There are several ways to obtain the {token}s I am interested in - killing certain bosses, for example. In exchange for a certain amount of tokens, I can offer you some first-class items.": {
-   "pt": "",
+   "pt": "Com prazer. <faz uma reverência> Eu negocio {token}s. Há várias maneiras de obter os {token}s que me interessam - matar certos bosses, por exemplo. Em troca de uma certa quantidade de tokens, posso lhe oferecer itens de primeira classe.",
    "n": 1,
    "npc": [
     "cledwyn"
@@ -21747,42 +21747,42 @@
    ]
   },
   "Sorry, friend, but one good turn deserves another. You need to obtain the rift warrior outfit first.": {
-   "pt": "",
+   "pt": "Desculpe, amigo, mas uma boa ação merece outra. Você precisa obter o rift warrior outfit primeiro.",
    "n": 1,
    "npc": [
     "cledwyn"
    ]
   },
   "Ah, excellent. Obtain the first addon for your rift warrior outfit.": {
-   "pt": "",
+   "pt": "Ah, excelente. Obtenha o primeiro addon do seu rift warrior outfit.",
    "n": 1,
    "npc": [
     "cledwyn"
    ]
   },
   "Sorry, friend, you already have the first Rift Warrior addon.": {
-   "pt": "",
+   "pt": "Desculpe, amigo, você já tem o primeiro addon do Rift Warrior.",
    "n": 1,
    "npc": [
     "cledwyn"
    ]
   },
   "Ah, excellent. Obtain the second addon for your rift warrior outfit.": {
-   "pt": "",
+   "pt": "Ah, excelente. Obtenha o segundo addon do seu rift warrior outfit.",
    "n": 1,
    "npc": [
     "cledwyn"
    ]
   },
   "Sorry, friend, you already have the second Rift Warrior addon.": {
-   "pt": "",
+   "pt": "Desculpe, amigo, você já tem o segundo addon do Rift Warrior.",
    "n": 1,
    "npc": [
     "cledwyn"
    ]
   },
   "Blessings, Player! How may I be of service? Do you wish to trade some {token}s, or would you like some {information} or {talk}? Should I {enchant} certain items for you?": {
-   "pt": "",
+   "pt": "Bênçãos, Player! Como posso servi-lo? Deseja negociar alguns {token}s, ou prefere {information} ou {talk}? Devo {enchant} certos itens para você?",
    "n": 1,
    "npc": [
     "cledwyn"
@@ -46730,175 +46730,175 @@
    ]
   },
   "Hey! You over there, could you help me with a little quest? Just say 'hi' or 'hello' to talk to me!": {
-   "pt": "",
+   "pt": "Ei! Você aí, poderia me ajudar com uma quest rapidinha? É só dizer 'oi' ou 'olá' para falar comigo!",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Don't be shy, can't hurt to greet me with 'hello' or 'hi'!": {
-   "pt": "",
+   "pt": "Não seja tímido, não custa me cumprimentar com 'olá' ou 'oi'!",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Oh, what's wrong? As I said, simply go to my house south of here and go upstairs. Then come back and we'll continue our chat.": {
-   "pt": "",
+   "pt": "Ah, o que houve? Como eu disse, vá até minha casa ao sul daqui e suba a escada. Depois volte e continuamos a conversa.",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Great, please go to my house, just a few steps south of here. Upstairs in my room, you'll find a chest. You can keep what you find inside of it! Come back after you got it and greet me to talk to me again. {Yes}?": {
-   "pt": "",
+   "pt": "Ótimo, vá até minha casa, uns poucos passos ao sul daqui. No andar de cima, no meu quarto, há um baú. Pode ficar com o que achar dentro! Volte depois de pegar e me cumprimente para falarmos de novo. {Sim}?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Alright! Do you see the button called 'Quest Log'? There you can check the status of quests, like this one. {Bye} for now!": {
-   "pt": "",
+   "pt": "Certo! Está vendo o botão 'Quest Log'? Ali você acompanha o andamento das quests, como esta. {Tchau} por enquanto!",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Ah, no need to say anything, I can see it suits you perfectly. Now we're getting to the fun part, let's get you armed! Are you ready for some {action}?": {
-   "pt": "",
+   "pt": "Ah, não precisa dizer nada, vejo que caiu perfeitamente em você. Agora vem a parte divertida: vamos te armar! Pronto para um pouco de {ação}?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Oh, you don't wear it properly yet. You need to drag and drop it from your bag to your armor slot. Here, let me show you again. Is it a little {clearer} now?": {
-   "pt": "",
+   "pt": "Ah, você ainda não está usando direito. Arraste do saco até o slot de armadura. Deixe eu mostrar de novo. Ficou {mais claro} agora?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Oh no, did you lose my coat? Well, lucky you, I have a spare one here. Don't lose it again! Now we're getting to the fun part, let's get you armed! Are you ready for some {action}?": {
-   "pt": "",
+   "pt": "Ah, não, você perdeu meu casaco? Bom, teve sorte, tenho outro aqui. Não perca de novo! Agora vem a parte divertida: vamos te armar! Pronto para um pouco de {ação}?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "That's just great! Now you have more health points, can carry more stuff and walk faster. Talking about health, did you get {hurt} by those cockroaches?": {
-   "pt": "",
+   "pt": "Isso é ótimo! Agora você tem mais pontos de vida, carrega mais coisas e anda mais rápido. Por falar em vida, aquelas baratas te {machucar}?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Really? You look fine to me, must have been just a scratch. Well, there are much more dangerous monsters than cockroaches out there. Take a look at your status bar. You have 155 Health right now. I'll show you something, {yes}?": {
-   "pt": "",
+   "pt": "Sério? Você me parece bem, deve ter sido só um arranhão. Bom, há monstros muito mais perigosos que baratas por aí. Olhe sua barra de status. Você tem 155 de vida agora. Vou te mostrar uma coisa, {sim}?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Really?? She was looking for someone to help her. Maybe you could go and see her. She lives just to the east and down the mountain. So, thank you again and {bye} for now!": {
-   "pt": "",
+   "pt": "Sério?? Ela estava procurando alguém para ajudá-la. Talvez você pudesse ir vê-la. Ela mora a leste, descendo a montanha. Então, obrigado de novo e {tchau} por enquanto!",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Hello |PLAYERNAME|, nice to see you on Rookgaard! I saw you walking by and wondered if you could help me. Could you? Please, say {yes}!": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|, que bom te ver em Rookgaard! Vi você passando e pensei se poderia me ajudar. Pode? Por favor, diga {sim}!",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Oh, |PLAYERNAME|, it's you again! It's probably impolite to disturb a busy adventurer like you, but I really need help. Please, say {yes}!": {
-   "pt": "",
+   "pt": "Ah, |PLAYERNAME|, é você de novo! Deve ser falta de educação incomodar um aventureiro ocupado, mas preciso muito de ajuda. Por favor, diga {sim}!",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Welcome back, |PLAYERNAME|! Ahh, you found my chest. Let me take a look at you. You put on that coat, {yes}?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, |PLAYERNAME|! Ahh, você achou meu baú. Deixe-me te olhar. Vestiu aquele casaco, {sim}?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Hey, I want to give you a weapon for free! You should not refuse that, in fact you should say '{yes}'!": {
-   "pt": "",
+   "pt": "Ei, quero te dar uma arma de graça! Não devia recusar isso; na verdade, devia dizer '{sim}'!",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Good job! For that, I'll grant you 100 experience points! Oh - what was that? I think you advanced a level, {right}?": {
-   "pt": "",
+   "pt": "Bom trabalho! Por isso, te dou 100 pontos de experiência! Ah — o que foi aquilo? Acho que você subiu de nível, {certo}?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Welcome back! Where were we... ? Ah, right, I asked you if you saw your 'level up'! You did, {right}?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta! Onde estávamos...? Ah, isso, perguntei se você viu seu 'level up'! Viu, {certo}?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Welcome back! Where were we... ? Ah, right, I asked you if those nasty cockroaches {hurt} you! Did they?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta! Onde estávamos...? Ah, isso, perguntei se aquelas baratas nojentas te {machucar}! E aí?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Welcome back! Where were we... ? Ah, right, I asked you if I should demonstrate some damage on you. Let's do it, {okay}?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta! Onde estávamos...? Ah, isso, perguntei se eu devia demonstrar um pouco de dano em você. Vamos lá, {certo}?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Welcome back! Where were we... ? Ah, right, I was about to show you how you regain health, right?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta! Onde estávamos...? Ah, isso, eu ia te mostrar como recuperar vida, certo?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Welcome back! Where were we... ? Ah, right, I gave you a fish to eat?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta! Onde estávamos...? Ah, isso, eu te dei um peixe para comer?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Welcome back! Where were we... ? Ah, right, I asked you if you saw Zirella! Did you?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta! Onde estávamos...? Ah, isso, perguntei se você viu a Zirella! E então?",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Hello again, |PLAYERNAME|! It's great to see you. If you like, we can chat a little. Just use the highlighted {keywords} again to choose a {topic}.": {
-   "pt": "",
+   "pt": "Olá de novo, |PLAYERNAME|! Que bom te ver. Se quiser, podemos conversar um pouco. É só usar as {palavras-chave} destacadas para escolher um {assunto}.",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Take care, |PLAYERNAME|!.": {
-   "pt": "",
+   "pt": "Cuide-se, |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "santiago"
    ]
   },
   "Good bye traveller, and enjoy your stay on Rookgaard.": {
-   "pt": "",
+   "pt": "Até mais, viajante, e aproveite sua estadia em Rookgaard.",
    "n": 1,
    "npc": [
     "santiago"
@@ -52638,7 +52638,7 @@
    ]
   },
   "Awesome! Off to work with you. I've marked the barn on your map.": {
-   "pt": "",
+   "pt": "Excelente! Ao trabalho, então. Marquei o celeiro no seu mapa.",
    "n": 1,
    "npc": [
     "vascalir"
@@ -52652,7 +52652,7 @@
    ]
   },
   "No worries, let's refresh your memory. To fight a monster, click on it in the battle list and you'll automatically attack it. It's as easy as that! If you want to practice, just hunt a few harmless rabbits south of here. Remember it now?": {
-   "pt": "",
+   "pt": "Sem problemas, vamos refrescar sua memória. Para lutar contra um monstro, clique nele na battle list e você o atacará automaticamente. É simples assim! Se quiser praticar, cace alguns coelhos inofensivos ao sul daqui. Lembrou agora?",
    "n": 1,
    "npc": [
     "vascalir"
@@ -52680,14 +52680,14 @@
    ]
   },
   "Here, this studded armor will protect you much better. Fits you perfectly! Now - let's work on your footwear. Tom the Tanner can create great boots out of quality leather. You should pay him a visit!": {
-   "pt": "",
+   "pt": "Tome, esta studded armor vai lhe proteger muito melhor. Serviu perfeitamente! Agora - vamos cuidar do seu calçado. Tom, o curtidor, sabe fazer ótimas botas com couro de qualidade. Você devia visitá-lo!",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Seriously, don't reject that offer. I'm going to give you a studded armor. No one refuses free stuff! If you don't like it, you can sell it - I don't need it anymore. I promise it's not too used or smelly. Want it?": {
-   "pt": "",
+   "pt": "Sério, não recuse essa oferta. Vou lhe dar uma studded armor. Ninguém recusa coisa de graça! Se não gostar, pode vender - eu não preciso mais dela. Prometo que não está muito usada nem fedida. Quer?",
    "n": 1,
    "npc": [
     "vascalir"
@@ -52715,14 +52715,14 @@
    ]
   },
   "This brass helmet will make sure you don't hurt your head. I probably should have given that to you BEFORE you made a rocky tunnel collapse! Take your well-deserved break. Once you're ready for the next mission, talk to me again.": {
-   "pt": "",
+   "pt": "Este brass helmet garante que você não machuque a cabeça. Eu provavelmente devia ter lhe dado isso ANTES de você derrubar um túnel de pedra! Aproveite seu merecido descanso. Quando estiver pronto para a próxima missão, fale comigo de novo.",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Seriously, don't reject that offer. I'm going to give you a brass helmet. No one refuses free stuff! If you don't like it, you can sell it - I don't need it anymore. I promise there are no fleas in it. Want it?": {
-   "pt": "",
+   "pt": "Sério, não recuse essa oferta. Vou lhe dar um brass helmet. Ninguém recusa coisa de graça! Se não gostar, pode vender - eu não preciso mais dele. Prometo que não tem pulgas dentro. Quer?",
    "n": 1,
    "npc": [
     "vascalir"
@@ -52743,28 +52743,28 @@
    ]
   },
   "Well done, this bone is exactly what I needed! Great. I have to do some preparations, but as reward for your great work, I have a shiny new weapon for you. Here, would you like to have this sword?": {
-   "pt": "",
+   "pt": "Muito bem, este osso é exatamente o que eu precisava! Ótimo. Tenho alguns preparativos a fazer, mas como recompensa pelo seu ótimo trabalho, tenho uma arma novinha em folha para você. Tome, quer ficar com esta sword?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Ah... well, if you lost that bone on the way, that's too bad. I just hope you didn't get hungry and nibbled on it. I wouldn't eat cursed flesh if I were you. Anyway, you can still have this old sword as reward, do you want it?": {
-   "pt": "",
+   "pt": "Ah... bem, se você perdeu aquele osso no caminho, que pena. Só espero que não tenha ficado com fome e dado uma mordida nele. Eu não comeria carne amaldiçoada se fosse você. De qualquer forma, você ainda pode ficar com esta velha sword como recompensa, quer?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "This sword has helped me in many fierce battles. I hope you can put it to good use. Once you're ready for the next mission, talk to me again.": {
-   "pt": "",
+   "pt": "Esta sword me ajudou em muitas batalhas ferozes. Espero que você lhe dê bom uso. Quando estiver pronto para a próxima missão, fale comigo de novo.",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Seriously, don't reject that offer. Just take that sword, it's free. If you don't like it, you can sell it - I don't need it anymore. I promise there are no blood stains on it. Want it?": {
-   "pt": "",
+   "pt": "Sério, não recuse essa oferta. Fique com essa sword, é de graça. Se não gostar, pode vender - eu não preciso mais dela. Prometo que não tem manchas de sangue nela. Quer?",
    "n": 1,
    "npc": [
     "vascalir"
@@ -52778,7 +52778,7 @@
    ]
   },
   "Alright. Here is the empty flask to use on a dead wasp. I also marked the wasps' nest on your map. Be careful and don't forget to wear your silver amulet for poison protection!": {
-   "pt": "",
+   "pt": "Certo. Aqui está o empty flask para usar numa vespa morta. Também marquei o ninho das vespas no seu mapa. Tenha cuidado e não esqueça de usar seu silver amulet para se proteger do veneno!",
    "n": 1,
    "npc": [
     "vascalir"
@@ -52792,7 +52792,7 @@
    ]
   },
   "Oh, but there you have it in your inventory! Yeah, your backpack is a bit of a mess. I understand you overlooked it. Dig deeper!": {
-   "pt": "",
+   "pt": "Ah, mas está aí no seu inventário! Pois é, sua backpack está uma bagunça. Entendo que tenha passado despercebido. Procure mais fundo!",
    "n": 1,
    "npc": [
     "vascalir"
@@ -52806,35 +52806,35 @@
    ]
   },
   "Well, please come back with the poison soon. We won't have much time until Kraknaknork's next attack.": {
-   "pt": "",
+   "pt": "Bem, por favor volte logo com o veneno. Não teremos muito tempo até o próximo ataque de Kraknaknork.",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Oh, but you don't carry any - did you lose the flask? I can give you a new empty one, but that will also reset your mission, meaning you have to extract new poison. Would you like that?": {
-   "pt": "",
+   "pt": "Ah, mas você não está carregando nenhum - perdeu o frasco? Posso lhe dar um vazio novo, mas isso também reinicia sua missão, ou seja, você terá que extrair veneno de novo. Quer isso?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Alright. Here is the empty flask to use on a dead wasp. Don't lose it this time!": {
-   "pt": "",
+   "pt": "Certo. Aqui está o empty flask para usar numa vespa morta. Não perca dessa vez!",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "This brass shield is actually brand-new. It's never been used! I hope it will serve you well. Take a small break, regenerate your health, and then talk to me again for your final mission!": {
-   "pt": "",
+   "pt": "Este brass shield é novinho em folha, na verdade. Nunca foi usado! Espero que lhe sirva bem. Faça uma pequena pausa, recupere sua vida e depois fale comigo de novo para sua missão final!",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Seriously, don't reject that offer. Just take that shield, it's free. If you don't like it, you can sell it - I don't need it anymore. I promise it's really brand-new. Want it?": {
-   "pt": "",
+   "pt": "Sério, não recuse essa oferta. Fique com esse escudo, é de graça. Se não gostar, pode vender - eu não preciso mais dele. Prometo que é realmente novinho em folha. Quer?",
    "n": 1,
    "npc": [
     "vascalir"
@@ -52848,7 +52848,7 @@
    ]
   },
   "Alright. Talk to me again to continue with your mission, but heed my words!": {
-   "pt": "",
+   "pt": "Certo. Fale comigo de novo para continuar sua missão, mas preste atenção às minhas palavras!",
    "n": 1,
    "npc": [
     "vascalir"
@@ -52862,56 +52862,56 @@
    ]
   },
   "Welcome, adventurer |PLAYERNAME|. Thank you for offering your help - but you are already too experienced to start this quest. Just go on hunting monsters, you'll be better off that way.": {
-   "pt": "",
+   "pt": "Bem-vindo, aventureiro |PLAYERNAME|. Obrigado por oferecer sua ajuda - mas você já tem experiência demais para começar esta quest. Continue caçando monstros, vai render mais para você.",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "|PLAYERNAME|, the only thing left for you to do here is to talk to the oracle above the academy and leave for the Isle of Destiny. Thanks again for your great work and good luck on your journeys!": {
-   "pt": "",
+   "pt": "|PLAYERNAME|, só resta uma coisa para você fazer aqui: falar com o oráculo acima da academia e partir para a Isle of Destiny. Obrigado mais uma vez pelo ótimo trabalho e boa sorte nas suas viagens!",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Greetings, |PLAYERNAME|. Right now I don't need your help. I heard that Lily south-west of here requires assistance though.": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. No momento não preciso da sua ajuda. Mas ouvi dizer que Lily, a sudoeste daqui, está precisando.",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Greetings, |PLAYERNAME|. Right now I don't need your help. You should pay a visit to Tom the Tanner. His hut is south-west of the academy!": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. No momento não preciso da sua ajuda. Você devia fazer uma visita a Tom, o curtidor. A cabana dele fica a sudoeste da academia!",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "You can find the vault if you go down the stairs in the northern part of the academy. The book should be in a large blue chest somewhere down there - I hope it's not burnt yet.": {
-   "pt": "",
+   "pt": "Você encontra o cofre descendo as escadas na parte norte da academia. O livro deve estar num grande baú azul em algum lugar lá embaixo - espero que ainda não tenha queimado.",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "I think it's a good idea to go see Paulie before you leave the village again. Just go downstairs and to the right to find the bank.": {
-   "pt": "",
+   "pt": "Acho boa ideia procurar Paulie antes de você sair da vila de novo. É só descer as escadas e ir para a direita para achar o banco.",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "|PLAYERNAME|, you need to discover the troll tunnel and find a way to make it collapse. Maybe you're able to use some of the trolls' tools. Make sure they can't enter the village via that tunnel anymore!": {
-   "pt": "",
+   "pt": "|PLAYERNAME|, você precisa descobrir o túnel dos trolls e achar um jeito de fazê-lo desabar. Talvez consiga usar algumas das ferramentas dos trolls. Garanta que eles não possam mais entrar na vila por aquele túnel!",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "|PLAYERNAME|, the air smells like victory. Head into the orc fortress and vanquish Kraknaknork once and for all. Don't forget to take the items from below the academy!": {
-   "pt": "",
+   "pt": "|PLAYERNAME|, o ar cheira a vitória. Vá até a fortaleza dos orcs e derrote Kraknaknork de uma vez por todas. Não esqueça de pegar os itens debaixo da academia!",
    "n": 1,
    "npc": [
     "vascalir"
@@ -52939,14 +52939,14 @@
    ]
   },
   "Greetings, |PLAYERNAME|. I've heard a loud rumbling from the roof - I hope the stones didn't fall on your toes. Have you loaded at least two catapults?": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. Ouvi um estrondo alto vindo do telhado - espero que as pedras não tenham caído nos seus pés. Você carregou pelo menos duas catapultas?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Greetings, |PLAYERNAME|. Actually I have some more equipment I could give to you, but first I want to see how you fight. You have fought before, haven't you?": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. Na verdade eu tenho mais equipamento para lhe dar, mas antes quero ver como você luta. Você já lutou antes, não já?",
    "n": 1,
    "npc": [
     "vascalir"
@@ -52967,42 +52967,42 @@
    ]
   },
   "Oh, hello |PLAYERNAME|! Have you made up your mind about sneaking into the tarantula's lair and retrieving a sample of her web? Are you up for it?": {
-   "pt": "",
+   "pt": "Ah, olá |PLAYERNAME|! Já decidiu se vai se infiltrar no covil da tarântula e trazer uma amostra da teia dela? Está disposto?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Do you need the instruction for the tarantula's lair again?": {
-   "pt": "",
+   "pt": "Precisa das instruções para o covil da tarântula de novo?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Oh, well done! Let me take that spider web sample from you - careful, careful... it's sturdy, yet fragile. Thank you! I should be able to make a great paralyse trap with this one. Here, I have something sturdy for you as well - want it?": {
-   "pt": "",
+   "pt": "Ah, muito bem! Deixe-me pegar essa amostra de teia de aranha - cuidado, cuidado... é resistente e ao mesmo tempo frágil. Obrigado! Devo conseguir fazer uma bela armadilha de paralisia com ela. Tome, tenho algo resistente para você também - quer?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Welcome back, |PLAYERNAME|! How about that studded armor - would you like to have it now?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, |PLAYERNAME|! E aquela studded armor - quer ficar com ela agora?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "|PLAYERNAME|! Thank the gods you are back! While you were gone, something horrible happened. Do you smell the fire?": {
-   "pt": "",
+   "pt": "|PLAYERNAME|! Graças aos deuses você voltou! Enquanto esteve fora, algo terrível aconteceu. Está sentindo cheiro de fogo?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Oh my, what happened to your hair? Your face is all black, too - it must have been a hell of flames down there. That's so brave of you. Did you get the book?": {
-   "pt": "",
+   "pt": "Nossa, o que aconteceu com o seu cabelo? O seu rosto também está todo preto - deve ter sido um inferno de chamas lá embaixo. Que coragem a sua. Conseguiu pegar o livro?",
    "n": 1,
    "npc": [
     "vascalir"
@@ -53016,21 +53016,21 @@
    ]
   },
   "Now that you know how to store your money, it's time to go after the trolls. I'm even going to give you some more equipment as reward. Do you feel ready for that mission?": {
-   "pt": "",
+   "pt": "Agora que você sabe guardar seu dinheiro, é hora de ir atrás dos trolls. Vou até lhe dar mais equipamento como recompensa. Se sente pronto para essa missão?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "|PLAYERNAME|, welcome back! That was great work you did there. Let me give you something for your efforts - you deserve it. Here, want a helmet?": {
-   "pt": "",
+   "pt": "|PLAYERNAME|, bem-vindo de volta! Você fez um ótimo trabalho lá. Deixe-me lhe dar algo pelo esforço - você merece. Tome, quer um capacete?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Greetings, |PLAYERNAME|. Do you have enough space for the brass helmet now?": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. Já tem espaço suficiente para o brass helmet agora?",
    "n": 1,
    "npc": [
     "vascalir"
@@ -53044,63 +53044,63 @@
    ]
   },
   "Greetings, |PLAYERNAME|. I see you haven't explored the whole crypt yet - do you need explanations again?": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. Vejo que você ainda não explorou a cripta inteira - precisa das explicações de novo?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Welcome back, |PLAYERNAME|! Did you find a nice, fleshy bone in the crypt?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, |PLAYERNAME|! Achou um osso bom e carnudo na cripta?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Welcome back, |PLAYERNAME|! Do you have enough space for that sword now?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, |PLAYERNAME|! Já tem espaço suficiente para aquela sword agora?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Greetings, |PLAYERNAME|! I'm in a really good mood, I must say. We're almost able to infiltrate Kraknaknork's hideout. I have one last little favour to ask and then my plan is complete. Are you ready?": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|! Estou de ótimo humor, devo dizer. Estamos quase conseguindo nos infiltrar no esconderijo de Kraknaknork. Tenho um último pequeno favor a pedir e então meu plano estará completo. Está pronto?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Welcome back, |PLAYERNAME|! But - back so soon? Please find the wasps' lair in the north-western region of Rookgaard and use the flask I gave you on its dead body. Or did you lose the flask?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, |PLAYERNAME|! Mas - de volta tão cedo? Por favor, encontre o covil das vespas na região noroeste de Rookgaard e use o frasco que eu lhe dei no corpo já morto de uma delas. Ou você perdeu o frasco?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Welcome back, |PLAYERNAME|! Were you able to bring back some wasp poison?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, |PLAYERNAME|! Conseguiu trazer um pouco de veneno de vespa?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "Welcome back, |PLAYERNAME|! Do you have enough space for that brass shield now?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, |PLAYERNAME|! Já tem espaço suficiente para aquele brass shield agora?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "|PLAYERNAME|, the time of our triumph has come. Are you ready to vanquish Kraknaknork once and for all?": {
-   "pt": "",
+   "pt": "|PLAYERNAME|, chegou a hora do nosso triunfo. Está pronto para derrotar Kraknaknork de uma vez por todas?",
    "n": 1,
    "npc": [
     "vascalir"
    ]
   },
   "|PLAYERNAME|! You're back! And you're covered in orc blood... that can only mean... were you able to kill Kraknaknork?": {
-   "pt": "",
+   "pt": "|PLAYERNAME|! Você voltou! E está coberto de sangue de orc... isso só pode significar... você conseguiu matar Kraknaknork?",
    "n": 1,
    "npc": [
     "vascalir"
@@ -54073,56 +54073,56 @@
    ]
   },
   "The basic bundle for the strike imbuement consists of 20 protective charms. Would you like to buy it for 2 gold tokens??": {
-   "pt": "",
+   "pt": "O pacote basic do imbuement Strike consiste em 20 protective charms. Gostaria de comprá-lo por 2 gold tokens?",
    "n": 1,
    "npc": [
     "yana"
    ]
   },
   "The powerful bundle for the strike imbuement consists of 20 protective charms, 25 sabreteeth and 5 vexclaw talons. Would you like to buy it for 6 gold tokens??": {
-   "pt": "",
+   "pt": "O pacote powerful do imbuement Strike consiste em 20 protective charms, 25 sabreteeth e 5 vexclaw talons. Gostaria de comprá-lo por 6 gold tokens?",
    "n": 1,
    "npc": [
     "yana"
    ]
   },
   "The basic bundle for the vampirism imbuement consists of 25 vampire teeth. Would you like to buy it for 2 gold tokens??": {
-   "pt": "",
+   "pt": "O pacote basic do imbuement Vampirism consiste em 25 vampire teeth. Gostaria de comprá-lo por 2 gold tokens?",
    "n": 1,
    "npc": [
     "yana"
    ]
   },
   "The powerful bundle for the vampirism imbuement consists of 25 vampire teeth, 15 bloody pincers and 5 pieces of dead brain. Would you like to it for 6 gold tokens??": {
-   "pt": "",
+   "pt": "O pacote powerful do imbuement Vampirism consiste em 25 vampire teeth, 15 bloody pincers e 5 pieces of dead brain. Gostaria de comprá-lo por 6 gold tokens?",
    "n": 1,
    "npc": [
     "yana"
    ]
   },
   "The basic bundle for the void imbuement consists of 25 rope belts. Would you like to buy it for 2 gold tokens??": {
-   "pt": "",
+   "pt": "O pacote basic do imbuement Void consiste em 25 rope belts. Gostaria de comprá-lo por 2 gold tokens?",
    "n": 1,
    "npc": [
     "yana"
    ]
   },
   "The intricate bundle for the void imbuement consists of 25 rope belts and 25 silencer claws. Would you like to buy it for 4 gold tokens??.": {
-   "pt": "",
+   "pt": "O pacote intricate do imbuement Void consiste em 25 rope belts e 25 silencer claws. Gostaria de comprá-lo por 4 gold tokens?",
    "n": 1,
    "npc": [
     "yana"
    ]
   },
   "The powerful bundle for the void imbuement consists of 25 rope belts, 25 silencer claws and 5 grimeleech wings. Would you like to buy it for 6 gold tokens??": {
-   "pt": "",
+   "pt": "O pacote powerful do imbuement Void consiste em 25 rope belts, 25 silencer claws e 5 grimeleech wings. Gostaria de comprá-lo por 6 gold tokens?",
    "n": 1,
    "npc": [
     "yana"
    ]
   },
   "If you have any gold tokens with you, let's have a look! These are my offers.": {
-   "pt": "",
+   "pt": "Se você tiver gold tokens com você, vamos dar uma olhada! Estas são as minhas ofertas.",
    "n": 1,
    "npc": [
     "yana"
@@ -54654,7 +54654,7 @@
    ]
   },
   "By the way, 'quest' is a keyword that many NPCs react to, especially those which have tasks for you. So darling, about that {quest}... are you listening?": {
-   "pt": "",
+   "pt": "Aliás, 'quest' é uma palavra-chave a que muitos NPCs reagem, especialmente os que têm tarefas para você. Então, querido, sobre aquela {quest}... está ouvindo?",
    "n": 1,
    "npc": [
     "zirella"
@@ -54668,42 +54668,42 @@
    ]
   },
   "You're such a treasure. In the forest south of here, there are {dead trees} without any leaves. The first thing you have to do is search for one, {okay}?": {
-   "pt": "",
+   "pt": "Você é um tesouro. Na floresta ao sul daqui há {árvores mortas}, sem nenhuma folha. A primeira coisa é procurar uma, {certo}?",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "Splendid, once you've found one, 'Use' it to break a branch from it. Did you understand that so far?": {
-   "pt": "",
+   "pt": "Esplêndido. Quando achar uma, use-a para quebrar um galho. Entendeu até aqui?",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "Good... so after you broke a branch, please push it here and select 'use with'. That will turn your mouse cursor into crosshairs. Then left-click on my cart. {Alright}?": {
-   "pt": "",
+   "pt": "Bom... depois de quebrar um galho, empurre-o até aqui e escolha 'usar com'. O cursor vira uma mira. Aí clique com o botão esquerdo na minha carroça. {Certo}?",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "To push the branch, drag and drop it on the grass by holding the left mousebutton and moving the cursor to where you want to throw the branch. Just push it near my cart before you 'Use' it, {alright}?": {
-   "pt": "",
+   "pt": "Para empurrar o galho, arraste-o pela grama segurando o botão esquerdo e leve o cursor até onde quiser jogá-lo. Empurre-o para perto da minha carroça antes de 'usar', {certo}?",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "Oh, you deserve it. You really have earned some experience! Also, you may enter my little house now and take what's in that chest beside my bed. Good {bye} for now!": {
-   "pt": "",
+   "pt": "Ah, você merece. Ganhou experiência de verdade! E pode entrar na minha casinha e pegar o que há no baú ao lado da cama. {Tchau} por enquanto!",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "Well then, I hope you find nice and dry branches for me! Good {bye}!": {
-   "pt": "",
+   "pt": "Pois então, espero que encontre galhos bons e secos para mim! {Tchau}!",
    "n": 1,
    "npc": [
     "zirella"
@@ -54717,35 +54717,35 @@
    ]
   },
   "Welcome back, darling... so about that firewood, could you please {help} me?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, querido... então, sobre aquela lenha, você poderia me {ajuda}?",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "Welcome back, darling... so about the {dead trees}, let me explain that a little more, {yes}?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, querido... então, sobre as {árvores mortas}, deixe eu explicar melhor, {sim}?",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "Welcome back, darling... so about the {branches}, let me explain that a little more, {yes}?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, querido... então, sobre os {galhos}, deixe eu explicar melhor, {sim}?",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "Welcome back, darling... so about the {pushing}, let me explain that a little more, {yes}?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, querido... então, sobre {empurrar}, deixe eu explicar melhor, {sim}?",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "Welcome back, darling... so about the {cart}, let me explain that a little more, {yes}?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, querido... então, sobre a {carroça}, deixe eu explicar melhor, {sim}?",
    "n": 1,
    "npc": [
     "zirella"
@@ -54759,7 +54759,7 @@
    ]
   },
   "Right, thank you sweetheart! This will be enough to heat my oven. Oh, and you are probably waiting for your reward, {yes}?": {
-   "pt": "",
+   "pt": "Isso, obrigada, meu bem! Isto vai bastar para aquecer meu forno. Ah, e você deve estar esperando sua recompensa, {sim}?",
    "n": 1,
    "npc": [
     "zirella"
