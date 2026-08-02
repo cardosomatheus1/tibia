@@ -3579,7 +3579,7 @@
    ]
   },
   "You do not have enough money.": {
-   "pt": "",
+   "pt": "Você não tem dinheiro suficiente.",
    "n": 8,
    "npc": [
     "faloriel",
@@ -3986,7 +3986,7 @@
    ]
   },
   "I'm ready to bring you to {Oramond}, {Krailos}, {Venore} or {Darashia}.": {
-   "pt": "",
+   "pt": "Estou pronto para lhe levar a {Oramond}, {Krailos}, {Venore} ou {Darashia}.",
    "n": 7,
    "npc": [
     "captain_harava"
@@ -4302,7 +4302,7 @@
    ]
   },
   "I can fly you to {Darashia}, to {Svargrond}, to {Kazordoon}, to {Zao}, to the {Femor Hills}, {Edron} or to {Marapur} if you like. Where do you want to go?": {
-   "pt": "",
+   "pt": "Posso lhe levar voando até {Darashia}, {Svargrond}, {Kazordoon}, {Zao}, {Femor Hills}, {Edron} ou {Marapur}, se quiser. Para onde você quer ir?",
    "n": 7,
    "npc": [
     "tanyt"
@@ -4757,7 +4757,7 @@
    ]
   },
   "Feel the wind in your hair during one of my carpet rides!": {
-   "pt": "",
+   "pt": "Sinta o vento no cabelo num dos meus passeios de tapete!",
    "n": 6,
    "npc": [
     "chemar",
@@ -5463,7 +5463,7 @@
    ]
   },
   "Greetings.": {
-   "pt": "",
+   "pt": "Saudações.",
    "n": 4,
    "npc": [
     "andrew_lyze",
@@ -5751,7 +5751,7 @@
    ]
   },
   "Daraman's blessings and good bye.": {
-   "pt": "",
+   "pt": "As bênçãos de Daraman, e até logo.",
    "n": 4,
    "npc": [
     "eliyas",
@@ -9625,7 +9625,7 @@
    ]
   },
   "I am a jeweller. Maybe you want to have a look at my wonderful {offers}.": {
-   "pt": "",
+   "pt": "Sou joalheiro. Talvez você queira dar uma olhada nas minhas maravilhosas {ofertas}.",
    "n": 2,
    "npc": [
     "eliyas",
@@ -9633,7 +9633,7 @@
    ]
   },
   "Well, I sell gems and {goblets}. If you'd like to see my offers, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Bem, eu vendo gemas e {taças}. Se quiser ver minhas ofertas, me peça para {negociar}.",
    "n": 2,
    "npc": [
     "eliyas",
@@ -9641,7 +9641,7 @@
    ]
   },
   "Ah, our newest import! We have golden goblets, silver goblets and bronze goblets. All of them have space for a hand-written dedication.": {
-   "pt": "",
+   "pt": "Ah, nossa importação mais nova! Temos golden goblets, silver goblets e bronze goblets. Todos com espaço para uma dedicatória escrita à mão.",
    "n": 2,
    "npc": [
     "eliyas",
@@ -9649,7 +9649,7 @@
    ]
   },
   "Be greeted, |PLAYERNAME|. Which of my fine gems do you {need}?": {
-   "pt": "",
+   "pt": "Seja bem-vindo, |PLAYERNAME|. De qual das minhas belas gemas você {precisa}?",
    "n": 2,
    "npc": [
     "eliyas",
@@ -9786,7 +9786,7 @@
    ]
   },
   "Health potions! Mana potions! Buy them here!": {
-   "pt": "",
+   "pt": "Health potions! Mana potions! Compre aqui!",
    "n": 2,
    "npc": [
     "faloriel",
@@ -9794,7 +9794,7 @@
    ]
   },
   "All kinds of potions available here!": {
-   "pt": "",
+   "pt": "Todo tipo de potions disponível aqui!",
    "n": 2,
    "npc": [
     "faloriel",
@@ -10622,7 +10622,7 @@
    ]
   },
   "If you need runes, this is the market stall for you!": {
-   "pt": "",
+   "pt": "Se precisa de runes, esta é a barraca certa para você!",
    "n": 2,
    "npc": [
     "khanna",
@@ -10630,7 +10630,7 @@
    ]
   },
   "I'm selling magic equipment. Come and have a look.": {
-   "pt": "",
+   "pt": "Estou vendendo equipamento mágico. Venha dar uma olhada.",
    "n": 2,
    "npc": [
     "khanna",
@@ -10937,7 +10937,7 @@
    ]
   },
   "I guess I could do this, yes. But I have to impose a condition. If you bring me ten sphinx feathers I will steal this ring for you.": {
-   "pt": "",
+   "pt": "Acho que posso fazer isso, sim. Mas tenho que impor uma condição. Se você me trouxer dez sphinx feathers, eu roubo esse anel para você.",
    "n": 2,
    "npc": [
     "moe"
@@ -11796,7 +11796,7 @@
    ]
   },
   "I can fly you to {Darashia}, {Edron}, {Issavi}, {Svargrond}, {Kazordoon}, {Zao} or to {Femor Hills} if you like. Where do you want to go?": {
-   "pt": "",
+   "pt": "Posso lhe levar voando até {Darashia}, {Edron}, {Issavi}, {Svargrond}, {Kazordoon}, {Zao} ou {Femor Hills}, se quiser. Para onde você quer ir?",
    "n": 2,
    "npc": [
     "tanyt",
@@ -11804,7 +11804,7 @@
    ]
   },
   "Ah, the wind brings in another visitor. Welcome, dear guest. Are you looking for a {passage} with my carpet?": {
-   "pt": "",
+   "pt": "Ah, o vento traz outro visitante. Bem-vindo, caro convidado. Está procurando uma {passagem} no meu tapete?",
    "n": 2,
    "npc": [
     "tanyt",
@@ -14684,49 +14684,49 @@
    ]
   },
   "What a beautiful palace. The Kilmareshians are highly skilful architects.": {
-   "pt": "",
+   "pt": "Que palácio lindo. Os kilmareshianos são arquitetos muito habilidosos.",
    "n": 1,
    "npc": [
     "ambassador_of_rathleton"
    ]
   },
   "The new treaty of amity and commerce with Kilmaresh is of utmost importance.": {
-   "pt": "",
+   "pt": "O novo tratado de amizade e comércio com Kilmaresh é da maior importância.",
    "n": 1,
    "npc": [
     "ambassador_of_rathleton"
    ]
   },
   "The pending freight from the saffron coasts is overdue.": {
-   "pt": "",
+   "pt": "O frete pendente das costas do açafrão está atrasado.",
    "n": 1,
    "npc": [
     "ambassador_of_rathleton"
    ]
   },
   "This is a very beautiful ring. Thank you for this generous present!": {
-   "pt": "",
+   "pt": "Este é um anel muito bonito. Obrigado por este presente generoso!",
    "n": 1,
    "npc": [
     "ambassador_of_rathleton"
    ]
   },
   "Didn't you bring my gift?": {
-   "pt": "",
+   "pt": "Você não trouxe meu presente?",
    "n": 1,
    "npc": [
     "ambassador_of_rathleton"
    ]
   },
   "I don't need a present right now. Thank you.": {
-   "pt": "",
+   "pt": "Não preciso de um presente agora. Obrigado.",
    "n": 1,
    "npc": [
     "ambassador_of_rathleton"
    ]
   },
   "Greetings, friend.": {
-   "pt": "",
+   "pt": "Saudações, amigo.",
    "n": 1,
    "npc": [
     "ambassador_of_rathleton"
@@ -19640,14 +19640,14 @@
    ]
   },
   "Come on board! The winds are prosperous!": {
-   "pt": "",
+   "pt": "Suba a bordo! Os ventos são favoráveis!",
    "n": 1,
    "npc": [
     "captain_harava"
    ]
   },
   "Welcome on board, traveller. Where can I {sail} you today?": {
-   "pt": "",
+   "pt": "Bem-vindo a bordo, viajante. Para onde posso {levar} você hoje?",
    "n": 1,
    "npc": [
     "captain_harava"
@@ -19661,21 +19661,21 @@
    ]
   },
   "There are two different routes. The dangerous one will be available once a day and it is likely that a seemonster will attack the ship once again. And a {safe} route that we can take directly there.": {
-   "pt": "",
+   "pt": "Há duas rotas diferentes. A perigosa fica disponível uma vez por dia, e é provável que um seemonster ataque o navio de novo. E uma rota {segura}, que podemos seguir direto até lá.",
    "n": 1,
    "npc": [
     "captain_jack_rat"
    ]
   },
   "Do you want to take the safe route?": {
-   "pt": "",
+   "pt": "Quer seguir a rota segura?",
    "n": 1,
    "npc": [
     "captain_jack_rat"
    ]
   },
   "Hail, pirat! Come on board to go home! Welcome on board of the ship Flying Bat. Should I set {sail}s?": {
-   "pt": "",
+   "pt": "Salve, pirat! Suba a bordo para ir para casa! Bem-vindo a bordo do navio Flying Bat. Devo {içar} as velas?",
    "n": 1,
    "npc": [
     "captain_jack_rat"
@@ -25912,91 +25912,91 @@
    ]
   },
   "Praised be Suon and Bastesh.": {
-   "pt": "",
+   "pt": "Louvados sejam Suon e Bastesh.",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "I should talk to Kallimae soon.": {
-   "pt": "",
+   "pt": "Eu devia falar com Kallimae logo.",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "Issavi's safety is my first concern.": {
-   "pt": "",
+   "pt": "A segurança de Issavi é minha maior preocupação.",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "Very good. But now you need the Ring of Secret Thoughts back in order to extract the Ambassador's memories.": {
-   "pt": "",
+   "pt": "Muito bem. Mas agora você precisa recuperar o Ring of Secret Thoughts para extrair as memórias do Embaixador.",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "You found the Ring of Secret Thoughts! Well done! Now give it to the Ambassador as a present. He's a peacock and will accept such a precious gift for sure. As soon as he wears it, his memories will be stored in the ring.": {
-   "pt": "",
+   "pt": "Você achou o Ring of Secret Thoughts! Muito bem! Agora dê-o ao Embaixador de presente. Ele é um pavão e com certeza vai aceitar um presente tão precioso. Assim que ele o usar, as memórias dele ficarão guardadas no anel.",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "I'm willing to admit that I need help. And the help of someone who is not from {Issavi} at that. But the task could be dangerous and you would become embroiled in the politics and court intrigues of {Kilmaresh}. Will you help me anyhow?": {
-   "pt": "",
+   "pt": "Estou disposta a admitir que preciso de ajuda. E ajuda de alguém que nem é de {Issavi}, ainda por cima. Mas a tarefa pode ser perigosa, e você se enredaria na política e nas intrigas da corte de {Kilmaresh}. Ainda assim, vai me ajudar?",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "This is the proof we need! Very well done! You have to report this to our {Empress}. She will grant you an audience now.": {
-   "pt": "",
+   "pt": "É esta a prova de que precisamos! Muito bem! Você precisa relatar isso à nossa {Imperatriz}. Ela vai lhe conceder uma audiência agora.",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "You haven't completed your mission yet. Keep searching!": {
-   "pt": "",
+   "pt": "Você ainda não concluiu sua missão. Continue procurando!",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "I don't know whether you are experienced in such things. If not, you could ask somebody who is. But I'm not sure where in Issavi you should look to hire a thief.": {
-   "pt": "",
+   "pt": "Não sei se você tem experiência nesse tipo de coisa. Se não tiver, pode perguntar a alguém que tenha. Mas não tenho certeza de onde em Issavi você deveria procurar para contratar um ladrão.",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "I guess claiming back a present would be a bit suspicious. You'll have to find another way. I resent thinking about theft but sometimes, desperate times call for desperate measures.": {
-   "pt": "",
+   "pt": "Imagino que pedir de volta um presente seria meio suspeito. Você vai ter que achar outro jeito. Não gosto de pensar em roubo, mas às vezes tempos desesperados pedem medidas desesperadas.",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "You got the ring back? Very well done! Now search for the memories that will prove the Ambassador's treason. I don't know much about ancient artefacts but you could ask the librarian in the palace. I'm sure he knows something helpful.": {
-   "pt": "",
+   "pt": "Você recuperou o anel? Muito bem! Agora procure as memórias que vão provar a traição do Embaixador. Não sei muito sobre artefatos antigos, mas você pode perguntar ao bibliotecário do palácio. Tenho certeza de que ele sabe algo útil.",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "Good luck on your audience with the Empress. May Kilmaresh prosper.": {
-   "pt": "",
+   "pt": "Boa sorte na sua audiência com a Imperatriz. Que Kilmaresh prospere.",
    "n": 1,
    "npc": [
     "eshaya"
    ]
   },
   "Suon's and Bastesh's blessing, dear guest!": {
-   "pt": "",
+   "pt": "A bênção de Suon e Bastesh, caro convidado!",
    "n": 1,
    "npc": [
     "eshaya"
@@ -26178,28 +26178,28 @@
    ]
   },
   "So, the Librarian sent you. Well, yes, I have a vial of the hallucinogen you need. I'll give it to you for 1000 gold. Do you agree?": {
-   "pt": "",
+   "pt": "Então foi o Bibliotecário que lhe mandou. Bem, sim, tenho um vial do alucinógeno de que você precisa. Eu lhe dou por 1000 gold. Combinado?",
    "n": 1,
    "npc": [
     "faloriel"
    ]
   },
   "I don't have anything to offer you regarding a ring.": {
-   "pt": "",
+   "pt": "Não tenho nada a lhe oferecer quanto a um anel.",
    "n": 1,
    "npc": [
     "faloriel"
    ]
   },
   "Great. Here, take it.": {
-   "pt": "",
+   "pt": "Ótimo. Tome, fique com isto.",
    "n": 1,
    "npc": [
     "faloriel"
    ]
   },
   "Greetings, dear guest and welcome to my {potion} shop.": {
-   "pt": "",
+   "pt": "Saudações, caro convidado, e bem-vindo à minha loja de {potion}.",
    "n": 1,
    "npc": [
     "faloriel"
@@ -26899,28 +26899,28 @@
    ]
   },
   "What about 'no' do you not understand, hrm? You are more annoying than any {percht} around here! Not to mention those bothersome {bunnies} who try to graw away my nose!": {
-   "pt": "",
+   "pt": "O que você não entende em 'não', hrm? Você é mais irritante que qualquer {percht} por aqui! Sem falar naqueles {coelhinhos} incômodos que tentam roer meu nariz!",
    "n": 1,
    "npc": [
     "frosty"
    ]
   },
   "Well why didn't you say that rightaway, if you give me such a skull I can give you one of my {sleighs}.": {
-   "pt": "",
+   "pt": "Bem, por que não disse isso logo? Se você me der um crânio desses, posso lhe dar um dos meus {sleighs}.",
    "n": 1,
    "npc": [
     "frosty"
    ]
   },
   "Always trying to eat my nose!": {
-   "pt": "",
+   "pt": "Sempre tentando comer meu nariz!",
    "n": 1,
    "npc": [
     "frosty"
    ]
   },
   "You already have this sleigh!": {
-   "pt": "",
+   "pt": "Você já tem este trenó!",
    "n": 1,
    "npc": [
     "frosty"
@@ -26934,42 +26934,42 @@
    ]
   },
   "Nasty creatures especially their queen that sits frozzen on her throne beneath this island.": {
-   "pt": "",
+   "pt": "Criaturas desagradáveis, especialmente a rainha delas, que fica congelada no trono, sob esta ilha.",
    "n": 1,
    "npc": [
     "frosty"
    ]
   },
   "You do not have needed items!": {
-   "pt": "",
+   "pt": "Você não tem os itens necessários!",
    "n": 1,
    "npc": [
     "frosty"
    ]
   },
   "I can give you one of the following sleighs: {": {
-   "pt": "",
+   "pt": "Posso lhe dar um dos seguintes trenós: {",
    "n": 1,
    "npc": [
     "frosty"
    ]
   },
   "Just tell me which {sleigh} you want to know more about.": {
-   "pt": "",
+   "pt": "É só me dizer sobre qual {trenó} você quer saber mais.",
    "n": 1,
    "npc": [
     "frosty"
    ]
   },
   "Come back when you get these items.": {
-   "pt": "",
+   "pt": "Volte quando conseguir esses itens.",
    "n": 1,
    "npc": [
     "frosty"
    ]
   },
   "No, you can't have my nose! If you're in need of a {carrot}, go to the market or just dig up one! Or did you come to bring me a {percht skull}?": {
-   "pt": "",
+   "pt": "Não, você não pode ficar com meu nariz! Se precisa de uma {cenoura}, vá ao mercado ou desenterre uma! Ou você veio me trazer uma {percht skull}?",
    "n": 1,
    "npc": [
     "frosty"
@@ -39646,84 +39646,84 @@
    ]
   },
   "The menu of the day sounds delicious!": {
-   "pt": "",
+   "pt": "O cardápio do dia parece delicioso!",
    "n": 1,
    "npc": [
     "moe"
    ]
   },
   "The last visit to the theatre was quite rewarding.": {
-   "pt": "",
+   "pt": "A última ida ao teatro valeu muito a pena.",
    "n": 1,
    "npc": [
     "moe"
    ]
   },
   "Such a beautiful and wealthy city - with so many opportunities ...": {
-   "pt": "",
+   "pt": "Uma cidade tão bonita e rica - com tantas oportunidades ...",
    "n": 1,
    "npc": [
     "moe"
    ]
   },
   "Thank you! They look so pretty, I'm very pleased. Agreed, now I will steal the ring from the Ambassador of Rathleton. Just be patient, I have to wait for a good moment.": {
-   "pt": "",
+   "pt": "Obrigado! Estão tão bonitas, estou muito satisfeito. Combinado, agora vou roubar o anel do Ambassador of Rathleton. Só tenha paciência, preciso esperar o momento certo.",
    "n": 1,
    "npc": [
     "moe"
    ]
   },
   "If you bring me ten sphinx feathers, I will steal this ring for you.": {
-   "pt": "",
+   "pt": "Se você me trouxer dez sphinx feathers, eu roubo esse anel para você.",
    "n": 1,
    "npc": [
     "moe"
    ]
   },
   "You already delivered the feathers. Be patient while I steal the ring.": {
-   "pt": "",
+   "pt": "Você já entregou as penas. Tenha paciência enquanto eu roubo o anel.",
    "n": 1,
    "npc": [
     "moe"
    ]
   },
   "You're arriving at the right time. I have the ring you asked for. It was not too difficult. I just had to wait until the Ambassador left his residence and then I climbed in through the window. Here it is.": {
-   "pt": "",
+   "pt": "Você chega bem na hora. Tenho o anel que você pediu. Não foi tão difícil. Só tive que esperar o Embaixador sair da residência e então entrei pela janela. Aqui está.",
    "n": 1,
    "npc": [
     "moe"
    ]
   },
   "I will steal it, promised. I'm just waiting for a good moment.": {
-   "pt": "",
+   "pt": "Eu vou roubá-lo, prometo. Só estou esperando o momento certo.",
    "n": 1,
    "npc": [
     "moe"
    ]
   },
   "You don't need this ring anymore.": {
-   "pt": "",
+   "pt": "Você não precisa mais deste anel.",
    "n": 1,
    "npc": [
     "moe"
    ]
   },
   "I'm upset to accuse myself, the lyre is hidden in a tomb west of Kilmaresh.": {
-   "pt": "",
+   "pt": "Custa-me me incriminar, mas a lira está escondida num túmulo a oeste de Kilmaresh.",
    "n": 1,
    "npc": [
     "moe"
    ]
   },
   "You already know about the lyre's location.": {
-   "pt": "",
+   "pt": "Você já sabe onde fica a lira.",
    "n": 1,
    "npc": [
     "moe"
    ]
   },
   "Greetings, traveller. It seems, you're a {guest} here, just like me.": {
-   "pt": "",
+   "pt": "Saudações, viajante. Parece que você é um {convidado} aqui, assim como eu.",
    "n": 1,
    "npc": [
     "moe"
@@ -50335,35 +50335,35 @@
    ]
   },
   "I really have to find this scroll. Where did I put it?": {
-   "pt": "",
+   "pt": "Eu realmente preciso achar este scroll. Onde foi que eu o coloquei?",
    "n": 1,
    "npc": [
     "the_librarian"
    ]
   },
   "Too much dust here. I should tidy up on occasion.": {
-   "pt": "",
+   "pt": "Poeira demais aqui. Eu devia arrumar isso de vez em quando.",
    "n": 1,
    "npc": [
     "the_librarian"
    ]
   },
   "Someone opened the Grimoire of Flames without permission. Egregious!": {
-   "pt": "",
+   "pt": "Alguém abriu o Grimoire of Flames sem permissão. Um escândalo!",
    "n": 1,
    "npc": [
     "the_librarian"
    ]
   },
   "You don't need any instructions about the ring right now.": {
-   "pt": "",
+   "pt": "Você não precisa de instruções sobre o anel no momento.",
    "n": 1,
    "npc": [
     "the_librarian"
    ]
   },
   "Greetings, dear guest. If you are interested in paperware such as books or scrolls, ask me for a trade.": {
-   "pt": "",
+   "pt": "Saudações, caro convidado. Se tem interesse em papelaria, como livros ou scrolls, me peça para negociar.",
    "n": 1,
    "npc": [
     "the_librarian"
@@ -57134,7 +57134,7 @@
    "n": 6
   },
   "need": {
-   "pt": "",
+   "pt": "precisa",
    "n": 6
   },
   "sword": {
@@ -57474,7 +57474,7 @@
    "n": 4
   },
   "goblets": {
-   "pt": "",
+   "pt": "taças",
    "n": 4
   },
   "enchant party": {
@@ -58730,15 +58730,15 @@
    "n": 2
   },
   "bunnies": {
-   "pt": "",
+   "pt": "coelhinhos",
    "n": 2
   },
   "carrot": {
-   "pt": "",
+   "pt": "cenoura",
    "n": 2
   },
   "percht skull": {
-   "pt": "",
+   "pt": "percht skull",
    "n": 2
   },
   "healing spells": {
@@ -59938,7 +59938,7 @@
    "n": 1
   },
   "safe": {
-   "pt": "",
+   "pt": "segura",
    "n": 1
   },
   "back": {
@@ -60210,7 +60210,7 @@
    "n": 1
   },
   "empress": {
-   "pt": "",
+   "pt": "imperatriz",
    "n": 1
   },
   "strange": {
@@ -60270,7 +60270,7 @@
    "n": 1
   },
   "percht": {
-   "pt": "",
+   "pt": "percht",
    "n": 1
   },
   "sleighs": {
@@ -60278,7 +60278,7 @@
    "n": 1
   },
   "sleigh": {
-   "pt": "",
+   "pt": "trenó",
    "n": 1
   },
   "angelo": {
@@ -61130,7 +61130,7 @@
    "n": 1
   },
   "guest": {
-   "pt": "",
+   "pt": "convidado",
    "n": 1
   },
   "addon": {
@@ -62333,6 +62333,10 @@
   },
   "strange": {
    "pt": "estranha",
+   "n": 0
+  },
+  "sail": {
+   "pt": "içar",
    "n": 0
   }
  }
