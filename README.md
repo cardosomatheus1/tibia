@@ -139,6 +139,27 @@ Instalação e documentação completa: [`client-modules/autocaster/README.md`](
 
 ---
 
+## 🎨 Sprites próprios (efeitos e projéteis novos)
+
+Em [`tools/sprites/`](tools/sprites/) tem o pipeline para colocar arte sua
+dentro dos assets do client 15.x: grava as folhas `sprites-<sha>.bmp.lzma`,
+atualiza o `catalog-content.json` e acrescenta a aparência no
+`appearances.dat`. **Sem `protoc` e sem recompilar o servidor** — o Canary
+registra os efeitos lendo o próprio `appearances.dat`.
+
+```bash
+python3 tools/sprites/novo_efeito.py efeito \
+    --assets /caminho/do/client/assets --dat-servidor data/items/appearances.dat \
+    --id 350 --duracao 110 arte/*.png
+```
+
+![Magia com sprites próprios rodando no 15.25](docs/images/sprites-em-jogo.png)
+
+Documentação do formato e do modelo de sprite do Tibia (efeito × missile ×
+outfit): [`tools/sprites/README.md`](tools/sprites/README.md).
+
+---
+
 ## ⚙️ Configurando o seu servidor
 
 - **`docker/.env`** — nome do servidor, IP anunciado, portas, senhas do banco e do site. Criado automaticamente a partir de [`docker/.env.dist`](docker/.env.dist).
