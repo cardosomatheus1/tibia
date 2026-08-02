@@ -11544,7 +11544,7 @@
    ]
   },
   "WRONG!": {
-   "pt": "",
+   "pt": "ERRADO!",
    "n": 2,
    "npc": [
     "riddler"
@@ -13686,154 +13686,154 @@
    ]
   },
   "YOURS? WHAT IS YOURS! NOTHING IS YOURS! IS MINE! GO AWAY, YES?!": {
-   "pt": "",
+   "pt": "SEU? O QUE É SEU! NADA É SEU! É MEU! VAI EMBORA, SIM?!",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "YOU STUPID! STUBBORN! I KILL YOU! WILL LEAVE NOW?!": {
-   "pt": "",
+   "pt": "VOCÊ BURRO! TEIMOSO! EU MATA VOCÊ! VAI EMBORA AGORA?!",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "ARRRRRRRRRR! YOU ME DRIVE MAD! HOW I MAKE YOU GO??": {
-   "pt": "",
+   "pt": "ARRRRRRRRRR! VOCÊ EU DEIXA LOUCO! COMO EU FAZ VOCÊ IR EMBORA??",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "I GIVE YOU NO!": {
-   "pt": "",
+   "pt": "EU DÁ VOCÊ NÃO!",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Please? What you mean please? Like I say please you say bye? Please?": {
-   "pt": "",
+   "pt": "Por favor? O que você quer dizer por favor? Tipo eu diz por favor você diz tchau? Por favor?",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Annoying kid. Bro hates him, but talking no help. Bro needs {fighting spirit}!": {
-   "pt": "",
+   "pt": "Criança chata. Bro odeia ele, mas falar não ajuda. Bro precisar {espírito de luta}!",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "If you want to help bro, bring him fighting spirit. Magic fighting spirit. Ask Djinn.": {
-   "pt": "",
+   "pt": "Se você quer ajudar bro, traz para ele espírito de luta. Espírito de luta mágico. Pergunta para Djinn.",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Bron gave me present. Ugly, but nice from him. Me want to give present too. You help me?": {
-   "pt": "",
+   "pt": "Bron deu presente para mim. Feio, mas legal da parte dele. Mim quer dar presente também. Você ajuda mim?",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "You bring 100 iron ore?": {
-   "pt": "",
+   "pt": "Você traz 100 iron ore?",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "You bring crude iron?": {
-   "pt": "",
+   "pt": "Você traz crude iron?",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "You bring 50 behemoth fangs?": {
-   "pt": "",
+   "pt": "Você traz 50 behemoth fangs?",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "You bring 50 lizard leather?": {
-   "pt": "",
+   "pt": "Você traz 50 lizard leather?",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Axe is done! For you. Take. Wear like me.": {
-   "pt": "",
+   "pt": "Axe pronto! Para você. Pega. Usa que nem mim.",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Axe is not done yet!": {
-   "pt": "",
+   "pt": "Axe não pronto ainda!",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Oh. Easy. Okay. Please is good. Now don't say anything. Head aches.": {
-   "pt": "",
+   "pt": "Oh. Calma. Ok. Por favor é bom. Agora não diz nada. Cabeça dói.",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Good. You get 100 iron ore first. Come back.": {
-   "pt": "",
+   "pt": "Bom. Você pega 100 iron ore primeiro. Volta.",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Good! Now bring crude iron.": {
-   "pt": "",
+   "pt": "Bom! Agora traz crude iron.",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Good! Now bring 50 behemoth fangs.": {
-   "pt": "",
+   "pt": "Bom! Agora traz 50 behemoth fangs.",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Good! Now bring 50 lizard leather.": {
-   "pt": "",
+   "pt": "Bom! Agora traz 50 lizard leather.",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Ah! All stuff there. I will start making axes now. Come later and ask me for axe.": {
-   "pt": "",
+   "pt": "Ah! Tudo coisa aqui. Mim vai começar fazer axe agora. Vem depois e pede mim axe.",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "You back. You know, you right. Brother is right. Fist not always good. Tell him that!": {
-   "pt": "",
+   "pt": "Você voltar. Você sabe, você certo. Irmão certo. Punho nem sempre bom. Diz para ele isso!",
    "n": 1,
    "npc": [
     "ajax"
    ]
   },
   "Whatcha do in my place?": {
-   "pt": "",
+   "pt": "Que cê tá fazendo no meu lugar?",
    "n": 1,
    "npc": [
     "ajax"
@@ -45683,168 +45683,168 @@
    ]
   },
   "This tower, of course, silly one. It holds my {master'}s {treasure}.": {
-   "pt": "",
+   "pt": "Esta torre, é claro, bobo. Ela guarda o {tesouro} do meu {master'}.",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "His name is none of your business": {
-   "pt": "",
+   "pt": "O nome dele não é da sua conta",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "I am guarding the treasures of the tower. Only those who pass the {test} of the three sigils may pass.": {
-   "pt": "",
+   "pt": "Estou guardando os tesouros da torre. Só quem passar no {teste} dos três selos pode passar.",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "I am known as the riddler. That is all you need to know.": {
-   "pt": "",
+   "pt": "Sou conhecido como o riddler. Isso é tudo que você precisa saber.",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "I am the guardian of the paradox tower.": {
-   "pt": "",
+   "pt": "Sou o guardião da torre do paradoxo.",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "The key of this tower! You will never find it! A malicious plant spirit is guarding it!.": {
-   "pt": "",
+   "pt": "A chave desta torre! Você nunca vai encontrá-la! Um espírito maligno de planta está guardando-a!",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "Death awaits those who fail the test of the three seals! Do you really want me to test you?": {
-   "pt": "",
+   "pt": "A morte aguarda aqueles que falham no teste dos três selos! Você realmente quer que eu o teste?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "FOOL! Now you're doomed! But well ... \\z\n\t\t\tSo be it! Let's start out with the Seal of Knowledge and the first question: \\z\n\t\t\tWhat name did the necromant king choose for himself?": {
-   "pt": "",
+   "pt": "TOLO! Agora você está condenado! Mas bem ... Que assim seja! Vamos começar com o Seal of Knowledge e a primeira pergunta: Que nome o necromant king escolheu para si mesmo?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "HOHO! You have learned your lesson well. \\z\n\t\t\tQuestion number two then: Who or what is the feared Hugo?": {
-   "pt": "",
+   "pt": "HOHO! Você aprendeu bem sua lição. Pergunta número dois, então: Quem ou o que é o temido Hugo?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "HOHO! Right again. All right. The final question of the first seal: Who was the first warrior to follow the path of the Mooh'Tah?": {
-   "pt": "",
+   "pt": "HOHO! Certo de novo. Muito bem. A pergunta final do primeiro selo: Quem foi o primeiro guerreiro a seguir o caminho do Mooh'Tah?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "Hmmm, so you think cheating will get you through that test? Then your final question of the first seal is: What is the meaning of life?": {
-   "pt": "",
+   "pt": "Hmmm, então você acha que trapacear vai lhe fazer passar nesse teste? Então sua pergunta final do primeiro selo é: Qual é o sentido da vida?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "HOHO! Lucky you. You have passed the first seal! So ... would you like to continue with the Seal of the Mind?": {
-   "pt": "",
+   "pt": "HOHO! Sorte a sua. Você passou no primeiro selo! Então ... gostaria de continuar com o Seal of the Mind?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "As you wish, foolish one! Here is my first question: It's lighter then a feather but no living creature can hold it for ten minutes?": {
-   "pt": "",
+   "pt": "Como quiser, tolo! Aqui está minha primeira pergunta: É mais leve que uma pena, mas nenhuma criatura viva consegue segurá-la por dez minutos?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "That was an easy one. Let's try the second: If you name it, you break it.": {
-   "pt": "",
+   "pt": "Essa foi fácil. Vamos tentar a segunda: Se você a nomeia, você a quebra.",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "Hm. I bet you think you're smart. All right. \\z\n\t\t\tHow about this: What does everybody want to become but nobody to be?": {
-   "pt": "",
+   "pt": "Hm. Aposto que você se acha esperto. Muito bem. Que tal essa: O que todo mundo quer se tornar, mas ninguém quer ser?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "ARGH! You did it again! Well all right. Do you wish to break the Seal of Madness?": {
-   "pt": "",
+   "pt": "ARGH! Você conseguiu de novo! Bem, muito bem. Deseja quebrar o Seal of Madness?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "GOOD! So I will get you at last. Answer this: What is your favourite colour?": {
-   "pt": "",
+   "pt": "BOM! Então finalmente vou pegar você. Responda isso: Qual é sua cor favorita?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "UHM UH OH ... How could you guess that? Are you mad??? All right. \\z\n\t\t\tPenultimate question: What is the opposite?": {
-   "pt": "",
+   "pt": "UHM UH OH ... Como você adivinhou isso? Você está louco??? Muito bem. Penúltima pergunta: O que é o oposto?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "NO! NO! NO! That can't be true. You're not only mad, you are a complete idiot! \\z\n\t\t\tAh well. Here is the last question: What is 1 plus 1?": {
-   "pt": "",
+   "pt": "NÃO! NÃO! NÃO! Isso não pode ser verdade. Você não é só louco, é um completo idiota! Ah bem. Aqui está a última pergunta: Quanto é 1 mais 1?",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "DAMN YOUUUUUUUUUUUUUUUUUUUUUU!": {
-   "pt": "",
+   "pt": "MALDITOOOOOOOOOOOOOOOOOOOOOO!",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "WRONG! Next time get your own answers. To hell with thee, cheater Sischfried!": {
-   "pt": "",
+   "pt": "ERRADO! Da próxima vez, consiga suas próprias respostas. Vá para o inferno, trapaceiro Sischfried!",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "|PLAYERNAME| HEHEHEHE! Another fool visits the {tower}! Excellent!": {
-   "pt": "",
+   "pt": "|PLAYERNAME| HEHEHEHE! Mais um tolo visita a {torre}! Excelente!",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "HEHEHE! I knew you don't have the stomach.": {
-   "pt": "",
+   "pt": "HEHEHE! Eu sabia que você não tinha estômago para isso.",
    "n": 1,
    "npc": [
     "riddler"
    ]
   },
   "COWARD! CHICKEN! HEHEHEHE!": {
-   "pt": "",
+   "pt": "COVARDE! GALINHA! HEHEHEHE!",
    "n": 1,
    "npc": [
     "riddler"
@@ -59548,7 +59548,7 @@
    "n": 1
   },
   "fighting spirit": {
-   "pt": "",
+   "pt": "espírito de luta",
    "n": 1
   },
   "vital": {
@@ -61436,11 +61436,11 @@
    "n": 1
   },
   "master'": {
-   "pt": "",
+   "pt": "mestre",
    "n": 1
   },
   "tower": {
-   "pt": "",
+   "pt": "torre",
    "n": 1
   },
   "paradox": {
