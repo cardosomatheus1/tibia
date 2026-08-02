@@ -5894,7 +5894,7 @@
    ]
   },
   "I have now no mission for you.": {
-   "pt": "",
+   "pt": "No momento não tenho missão para você.",
    "n": 4,
    "npc": [
     "hjaern",
@@ -6844,7 +6844,7 @@
    ]
   },
   "There are three difficulties: Greenhorn, Scrapper and Warlord. On each challenge you will be confronted with ten monsters increasing in strength.": {
-   "pt": "",
+   "pt": "Há três dificuldades: Greenhorn, Scrapper e Warlord. Em cada desafio você vai enfrentar dez monstros com força crescente.",
    "n": 3,
    "npc": [
     "halvar"
@@ -10408,7 +10408,7 @@
    ]
   },
   "Do you bring frostheart shards for our spell?": {
-   "pt": "",
+   "pt": "Você trouxe frostheart shards para nossa magia?",
    "n": 2,
    "npc": [
     "hjaern"
@@ -10495,7 +10495,7 @@
    ]
   },
   "Alright, we are even!": {
-   "pt": "",
+   "pt": "Muito bem, estamos quites!",
    "n": 2,
    "npc": [
     "iskan",
@@ -10503,7 +10503,7 @@
    ]
   },
   "You don't have enough. Bring me the money and I will forget about it.": {
-   "pt": "",
+   "pt": "Você não tem o suficiente. Me traga o dinheiro e eu esqueço o assunto.",
    "n": 2,
    "npc": [
     "iskan",
@@ -10554,7 +10554,7 @@
    ]
   },
   "Besides the {enhanced} blessing available from me, I know of one other, granted by a solitary {nomad} far west of Svargrond. There are also five different other blessings available, each in a sacred place. ...\\nThese blessings are: the {spiritual} shielding, the spark of the {phoenix}, the {embrace} of Tibia, the fire of the {suns} and the wisdom of {solitude}.": {
-   "pt": "",
+   "pt": "Além da bênção {aprimorada} que ofereço, conheço outra, concedida por um {nômade} solitário bem a oeste de Svargrond. Há também cinco outras bênçãos diferentes disponíveis, cada uma num lugar sagrado. ...\\nEssas bênçãos são: o escudo {espiritual}, a fagulha da {fênix}, o {abraço} de Tibia, o fogo dos {sóis} e a sabedoria da {solidão}.",
    "n": 2,
    "npc": [
     "kais",
@@ -11021,7 +11021,7 @@
    ]
   },
   "Keep a stiff upper lip!": {
-   "pt": "",
+   "pt": "Mantenha o queixo erguido!",
    "n": 2,
    "npc": [
     "nomad"
@@ -31060,105 +31060,105 @@
    ]
   },
   "What do you want to know? Something about the three different {difficulties}, the {general} rules or the {prices}? Maybe you also want to know what happens when you {die}?": {
-   "pt": "",
+   "pt": "O que você quer saber? Algo sobre as três {dificuldades} diferentes, as regras {gerais} ou os {preços}? Talvez também queira saber o que acontece quando você {morre}?",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "That is the easiest way in our arena. The {fee} is 1000 gold. We were setting this up for of our children to challenge some easy monsters and train them for the future.": {
-   "pt": "",
+   "pt": "Esse é o jeito mais fácil na nossa arena. A {taxa} é 1000 gold. Preparamos isto para nossas crianças enfrentarem monstros fáceis e treinarem para o futuro.",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "The most common difficulty for us. The {fee} is 5000 gold. So if you are experienced in fighting middle class monsters this is your challenge!": {
-   "pt": "",
+   "pt": "A dificuldade mais comum para nós. A {taxa} é 5000 gold. Então, se você tem experiência lutando contra monstros de classe média, este é o seu desafio!",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "Only the strongest among us will take this challenge. The {fee} is 10000 gold. If you pass that I promise you the respect of all citizens here. You will be a hero!": {
-   "pt": "",
+   "pt": "Só os mais fortes entre nós encaram este desafio. A {taxa} é 10000 gold. Se você passar, prometo o respeito de todos os cidadãos daqui. Você será um herói!",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "The fee is either 1000, 5000 or 10000 gold for one try. Remember that if you {die}, it is YOUR problem and you won't be able to get back to your corpse and your backpack.": {
-   "pt": "",
+   "pt": "A taxa é 1000, 5000 ou 10000 gold por uma tentativa. Lembre-se de que, se você {morrer}, o problema é SEU, e você não vai conseguir voltar ao seu corpo e à sua backpack.",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "It would be better not to die! In every pit there is an emergency exit, the portal to the south. If you die in a pit... well... your corpse and backpack are gone, so you enter the arena at your own risk.": {
-   "pt": "",
+   "pt": "Seria melhor não morrer! Em cada fosso há uma saída de emergência, o portal ao sul. Se você morrer num fosso... bem... seu corpo e sua backpack se vão, então você entra na arena por sua conta e risco.",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "Basically you pay me a {fee}, and you are sent into an arena with 10 different stages. If you succeed you will be rewarded accordingly.": {
-   "pt": "",
+   "pt": "Basicamente você me paga uma {taxa}, e é enviado a uma arena com 10 estágios diferentes. Se tiver sucesso, será recompensado de acordo.",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "My job is to explain about the rules and to get the fee from the competitors.": {
-   "pt": "",
+   "pt": "Meu trabalho é explicar as regras e cobrar a taxa dos competidores.",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "Well I would rather call it an {Ultimate Challenge} than a mission.": {
-   "pt": "",
+   "pt": "Bem, eu prefiro chamar de {Ultimate Challenge} do que de missão.",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "You already paid the fee, go and fight!": {
-   "pt": "",
+   "pt": "Você já pagou a taxa, vá e lute!",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "So you agree with the {rules} and want to participate in the {challenge}? The {fee} for one try in {": {
-   "pt": "",
+   "pt": "Então você concorda com as {regras} e quer participar do {desafio}? A {taxa} para uma tentativa em {",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "You've already completed the arena in all {difficulty levels}.": {
-   "pt": "",
+   "pt": "Você já completou a arena em todos os {níveis de dificuldade}.",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "As you wish! You can pass the door now and enter the teleporter to the pits.": {
-   "pt": "",
+   "pt": "Como desejar! Você pode passar pela porta agora e entrar no teleporte para os fossos.",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "Come back when you are ready then.": {
-   "pt": "",
+   "pt": "Volte quando estiver pronto, então.",
    "n": 1,
    "npc": [
     "halvar"
    ]
   },
   "Hello competitor! Do you want to {fight} in the arena or shall I explain the {rules} first?": {
-   "pt": "",
+   "pt": "Olá, competidor! Quer {lutar} na arena, ou devo explicar as {regras} primeiro?",
    "n": 1,
    "npc": [
     "halvar"
@@ -32012,77 +32012,77 @@
    ]
   },
   "The spirits are at peace now. The threat of the chakoyas is averted for now. I thank you for your help. Perhaps you should ask Silfind if you can help her in some matters.": {
-   "pt": "",
+   "pt": "Os espíritos estão em paz agora. A ameaça dos chakoyas está afastada por ora. Agradeço sua ajuda. Talvez você deva perguntar a Silfind se pode ajudá-la em algumas questões.",
    "n": 1,
    "npc": [
     "hjaern"
    ]
   },
   "Do you want to sell all your shards for 2000 gold coins per each?": {
-   "pt": "",
+   "pt": "Quer vender todos os seus shards por 2000 gold coins cada?",
    "n": 1,
    "npc": [
     "hjaern"
    ]
   },
   "Take this. It might suit your Nordic outfit fine.": {
-   "pt": "",
+   "pt": "Tome isto. Deve combinar bem com seu outfit nórdico.",
    "n": 1,
    "npc": [
     "hjaern"
    ]
   },
   "Take this. It might suit your Nordic outfit fine. From now on we only can give you 2000 gold pieces for each shard.": {
-   "pt": "",
+   "pt": "Tome isto. Deve combinar bem com seu outfit nórdico. De agora em diante só podemos lhe dar 2000 moedas de ouro por cada shard.",
    "n": 1,
    "npc": [
     "hjaern"
    ]
   },
   "You want to sacrifice a cookie to the spirits?": {
-   "pt": "",
+   "pt": "Quer sacrificar um biscoito para os espíritos?",
    "n": 1,
    "npc": [
     "hjaern"
    ]
   },
   "This is good news. As I explained, travel to Helheim, seek the reason for the unrest there and then report to me about your mission.": {
-   "pt": "",
+   "pt": "Isso é uma boa notícia. Como eu expliquei, viaje até Helheim, procure a razão da agitação lá e depois relate a mim sobre sua missão.",
    "n": 1,
    "npc": [
     "hjaern"
    ]
   },
   "Excellent, you collected 5 of them. If you have collected 5 or more, talk to me about your {reward}.": {
-   "pt": "",
+   "pt": "Excelente, você coletou 5 deles. Se coletou 5 ou mais, fale comigo sobre sua {recompensa}.",
    "n": 1,
    "npc": [
     "hjaern"
    ]
   },
   "Excellent, you collected 10 of them. If you have collected 15 or more, talk to me about your {reward}.": {
-   "pt": "",
+   "pt": "Excelente, você coletou 10 deles. Se coletou 15 ou mais, fale comigo sobre sua {recompensa}.",
    "n": 1,
    "npc": [
     "hjaern"
    ]
   },
   "Here your are.": {
-   "pt": "",
+   "pt": "Aqui está.",
    "n": 1,
    "npc": [
     "hjaern"
    ]
   },
   "In the name of the spirits I accept this offer ... UHNGH ... The spirits are not amused!": {
-   "pt": "",
+   "pt": "Em nome dos espíritos, aceito esta oferta ... UHNGH ... Os espíritos não estão nada satisfeitos!",
    "n": 1,
    "npc": [
     "hjaern"
    ]
   },
   "Be greeted, |PLAYERNAME|. The {spiritual} world looks upon you and your deeds.": {
-   "pt": "",
+   "pt": "Seja bem-vindo, |PLAYERNAME|. O mundo {espiritual} observa você e seus feitos.",
    "n": 1,
    "npc": [
     "hjaern"
@@ -38172,49 +38172,49 @@
    ]
   },
   "Ah, you've just come in time. An experienced explorer is just what we need here! Would you like to go on a mission for us?": {
-   "pt": "",
+   "pt": "Ah, você chegou bem na hora. Um explorador experiente é exatamente do que precisamos aqui! Gostaria de sair numa missão para nós?",
    "n": 1,
    "npc": [
     "lurik"
    ]
   },
   "You're not done yet...": {
-   "pt": "",
+   "pt": "Você ainda não terminou...",
    "n": 1,
    "npc": [
     "lurik"
    ]
   },
   "Have you retrieved the memory crystal?": {
-   "pt": "",
+   "pt": "Você recuperou o memory crystal?",
    "n": 1,
    "npc": [
     "lurik"
    ]
   },
   "Give me some more time!": {
-   "pt": "",
+   "pt": "Me dê mais um pouco de tempo!",
    "n": 1,
    "npc": [
     "lurik"
    ]
   },
   "Excellent. Just report about your mission when you got the memory crystal.": {
-   "pt": "",
+   "pt": "Excelente. É só relatar sobre sua missão quando tiver o memory crystal.",
    "n": 1,
    "npc": [
     "lurik"
    ]
   },
   "Ah, great. Please give me some time to evaluate the information. Then talk to me again about your mission.": {
-   "pt": "",
+   "pt": "Ah, ótimo. Por favor, me dê um tempo para avaliar a informação. Depois fale comigo de novo sobre sua missão.",
    "n": 1,
    "npc": [
     "lurik"
    ]
   },
   "Welcome to the {explorer society} headquarter of Svargrond, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Bem-vindo à sede da {explorer society} de Svargrond, |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "lurik"
@@ -40839,49 +40839,49 @@
    ]
   },
   "I am able to grant you the heart of the mountain's blessing. But I must ask of you to sacrifice |BLESSCOST| gold. Are you willing to part with that amount of wealth?": {
-   "pt": "",
+   "pt": "Posso lhe conceder a bênção do coração da montanha. Mas preciso lhe pedir o sacrifício de |BLESSCOST| gold. Está disposto a abrir mão dessa quantia?",
    "n": 1,
    "npc": [
     "nomad"
    ]
   },
   "Receive the heart of the mountain then.": {
-   "pt": "",
+   "pt": "Receba então o coração da montanha.",
    "n": 1,
    "npc": [
     "nomad"
    ]
   },
   "Well, as I am quite in a {fix} currently, my only hope to escape this situation may be to grant you {healing} or an {enhanced} blessing if you wish. You must desire SOMETHING, right? Sure you do.": {
-   "pt": "",
+   "pt": "Bem, já que estou num {aperto} no momento, minha única esperança de escapar dessa situação pode ser lhe conceder {cura} ou uma bênção {aprimorada}, se você quiser. Você deve desejar ALGUMA coisa, não? Claro que deseja.",
    "n": 1,
    "npc": [
     "nomad"
    ]
   },
   "I know of a mysterious djinn, bound to an existence of slavery far to the north of Tiquanda's jungles. He is bound to tell you his secrets and offer you the 'blood of the mountain'. ...\\nI do not know where exactly but I guess you must first dig that one out to actually talk to him.": {
-   "pt": "",
+   "pt": "Conheço um djinn misterioso, condenado a uma existência de escravidão bem ao norte das selvas de Tiquanda. Ele é obrigado a lhe contar os segredos dele e oferecer o 'sangue da montanha'. ...\\nNão sei exatamente onde, mas imagino que você precise primeiro desenterrá-lo para de fato falar com ele.",
    "n": 1,
    "npc": [
     "nomad"
    ]
   },
   "I am one with nature, one with the ice and the cold. Names are of no worth out here. Out here, you face isolation and loneliness. Only your strength, willpower and {training} can keep you alive.": {
-   "pt": "",
+   "pt": "Sou um só com a natureza, um só com o gelo e o frio. Nomes não valem nada aqui fora. Aqui fora, você enfrenta isolamento e solidão. Só sua força, força de vontade e {treinamento} podem mantê-lo vivo.",
    "n": 1,
    "npc": [
     "nomad"
    ]
   },
   "My life is one of hardship, hardship I chose freely. Endurance, strength and the power of the will are my only companions in this frigid wilderness. My strength comes from disciplined training and knowledge of the outdoors.": {
-   "pt": "",
+   "pt": "Minha vida é feita de dificuldades, dificuldades que escolhi livremente. Resistência, força e o poder da vontade são meus únicos companheiros nesta natureza gélida. Minha força vem do treinamento disciplinado e do conhecimento do ambiente selvagem.",
    "n": 1,
    "npc": [
     "nomad"
    ]
   },
   "Ah, another diciple of the extreme... surviving the icy outdoors? Let me {help}! If you need some first aid out here, I can provide {healing} or grant you an {enhanced} blessing!": {
-   "pt": "",
+   "pt": "Ah, mais um discípulo do extremo... sobrevivendo ao gelo lá fora? Deixe-me {ajudar}! Se precisar de primeiros socorros aqui, posso oferecer {cura} ou lhe conceder uma bênção {aprimorada}!",
    "n": 1,
    "npc": [
     "nomad"
@@ -49358,49 +49358,49 @@
    ]
   },
   "A true barbarian is something special among our people. Everyone who wants to become a barbarian will have to pass the barbarian {test}.": {
-   "pt": "",
+   "pt": "Um verdadeiro bárbaro é algo especial entre o nosso povo. Todo mundo que quer se tornar bárbaro tem que passar no {teste} de bárbaro.",
    "n": 1,
    "npc": [
     "sven"
    ]
   },
   "Do you have some honey with you?": {
-   "pt": "",
+   "pt": "Você tem um pouco de honey com você?",
    "n": 1,
    "npc": [
     "sven"
    ]
   },
   "Good, for this honeycomb I allow you 20 sips from the mead bucket over there. Talk to me again about barbarian mead if you have passed the test.": {
-   "pt": "",
+   "pt": "Ótimo, por este honeycomb eu lhe permito 20 goles do balde de mead ali. Fale comigo de novo sobre o mead de bárbaro se tiver passado no teste.",
    "n": 1,
    "npc": [
     "sven"
    ]
   },
   "I don't know if you realise the consequences. You won't be a member of our community anymore. I ask you for the last time: Are you willing to pay": {
-   "pt": "",
+   "pt": "Não sei se você entende as consequências. Você não será mais membro da nossa comunidade. Pergunto pela última vez: está disposto a pagar",
    "n": 1,
    "npc": [
     "sven"
    ]
   },
   "Alright, it's your choice. If you regret your decision and want to be a barbarian again, talk to me about the {barbarian} test.": {
-   "pt": "",
+   "pt": "Muito bem, a escolha é sua. Se se arrepender da decisão e quiser voltar a ser bárbaro, fale comigo sobre o teste de {bárbaro}.",
    "n": 1,
    "npc": [
     "sven"
    ]
   },
   "Iskan told me that you killed huskies here in Svargrond. I will be lenient towards you and won't ban you from Svargrond. But you have to pay me a compensation of 1500 gold for each husky you have killed. Are you willing to pay": {
-   "pt": "",
+   "pt": "Iskan me disse que você matou huskies aqui em Svargrond. Vou ser tolerante e não vou banir você de Svargrond. Mas você tem que me pagar uma compensação de 1500 gold por cada husky que matou. Está disposto a pagar",
    "n": 1,
    "npc": [
     "sven"
    ]
   },
   "Be greeted, |PLAYERNAME|! What brings you {here}?": {
-   "pt": "",
+   "pt": "Seja bem-vindo, |PLAYERNAME|! O que lhe traz {aqui}?",
    "n": 1,
    "npc": [
     "sven"
@@ -55612,23 +55612,23 @@
    "n": 84
   },
   "spiritual": {
-   "pt": "",
+   "pt": "espiritual",
    "n": 78
   },
   "phoenix": {
-   "pt": "",
+   "pt": "fênix",
    "n": 77
   },
   "embrace": {
-   "pt": "",
+   "pt": "abraço",
    "n": 77
   },
   "suns": {
-   "pt": "",
+   "pt": "sóis",
    "n": 77
   },
   "solitude": {
-   "pt": "",
+   "pt": "solidão",
    "n": 77
   },
   "runes": {
@@ -56376,7 +56376,7 @@
    "n": 21
   },
   "test": {
-   "pt": "",
+   "pt": "teste",
    "n": 21
   },
   "tom": {
@@ -56888,7 +56888,7 @@
    "n": 8
   },
   "enhanced": {
-   "pt": "",
+   "pt": "aprimorada",
    "n": 8
   },
   "treasure": {
@@ -57012,7 +57012,7 @@
    "n": 6
   },
   "general": {
-   "pt": "",
+   "pt": "gerais",
    "n": 6
   },
   "helmet": {
@@ -57084,7 +57084,7 @@
    "n": 6
   },
   "fee": {
-   "pt": "",
+   "pt": "taxa",
    "n": 6
   },
   "drink": {
@@ -57552,7 +57552,7 @@
    "n": 4
   },
   "nomad": {
-   "pt": "",
+   "pt": "nômade",
    "n": 4
   },
   "blessing": {
@@ -57832,7 +57832,7 @@
    "n": 3
   },
   "barbarian": {
-   "pt": "",
+   "pt": "bárbaro",
    "n": 3
   },
   "enemies": {
@@ -58004,11 +58004,11 @@
    "n": 3
   },
   "die": {
-   "pt": "",
+   "pt": "morrer",
    "n": 3
   },
   "rules": {
-   "pt": "",
+   "pt": "regras",
    "n": 3
   },
   "storkus": {
@@ -58800,7 +58800,7 @@
    "n": 2
   },
   "difficulties": {
-   "pt": "",
+   "pt": "dificuldades",
    "n": 2
   },
   "transportation": {
@@ -59056,7 +59056,7 @@
    "n": 2
   },
   "training": {
-   "pt": "",
+   "pt": "treinamento",
    "n": 2
   },
   "dreamers": {
@@ -60520,19 +60520,19 @@
    "n": 1
   },
   "prices": {
-   "pt": "",
+   "pt": "preços",
    "n": 1
   },
   "ultimate challenge": {
-   "pt": "",
+   "pt": "Ultimate Challenge",
    "n": 1
   },
   "challenge": {
-   "pt": "",
+   "pt": "desafio",
    "n": 1
   },
   "difficulty levels": {
-   "pt": "",
+   "pt": "níveis de dificuldade",
    "n": 1
   },
   "levels": {
@@ -60964,7 +60964,7 @@
    "n": 1
   },
   "explorer society": {
-   "pt": "",
+   "pt": "explorer society",
    "n": 1
   },
   "begin": {
@@ -61132,7 +61132,7 @@
    "n": 1
   },
   "fix": {
-   "pt": "",
+   "pt": "aperto",
    "n": 1
   },
   "loud": {
@@ -62275,6 +62275,10 @@
   },
   "sell": {
    "pt": "vendo",
+   "n": 0
+  },
+  "die": {
+   "pt": "morre",
    "n": 0
   }
  }
