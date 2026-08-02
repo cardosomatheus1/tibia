@@ -1539,7 +1539,7 @@
    ]
   },
   "It seems you have already cooked this dish this year. Please come back next year in August.": {
-   "pt": "",
+   "pt": "Parece que você já cozinhou este prato neste ano. Por favor, volte no ano que vem, em agosto.",
    "n": 14,
    "npc": [
     "jean_pierre"
@@ -7706,7 +7706,7 @@
    ]
   },
   "Just get out of my way! You killed this beautiful creature. I have nothing more to say. Damn druid of Crunor!": {
-   "pt": "",
+   "pt": "Só saia da minha frente! Você matou essa criatura linda. Não tenho mais nada a dizer. Maldito druid de Crunor!",
    "n": 2,
    "npc": [
     "angelo"
@@ -10835,7 +10835,7 @@
    ]
   },
   "What?!": {
-   "pt": "",
+   "pt": "O quê?!",
    "n": 2,
    "npc": [
     "mazarius",
@@ -15478,112 +15478,112 @@
    ]
   },
   "The scientists are still missing? You just found some strange green shining mummies and a big oasis? I give you this analysis tool for the water of the oasis. Maybe that's the key. Could you bring me a sample of this water?": {
-   "pt": "",
+   "pt": "Os cientistas ainda estão desaparecidos? Você acabou de achar umas múmias verdes brilhantes estranhas e um oásis grande? Vou lhe dar esta ferramenta de análise para a água do oásis. Talvez seja essa a chave. Você poderia me trazer uma amostra dessa água?",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "Very good. Hopefully analysing this sample will get us closer to the solution of this mistery.": {
-   "pt": "",
+   "pt": "Muito bem. Espero que analisar esta amostra nos aproxime da solução desse mistério.",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "Do you have the sample I asked you for?": {
-   "pt": "",
+   "pt": "Você tem a amostra que eu pedi?",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "Thanks a lot. Let me check the result. Well, I think you need the counteragent. Please apply it to the oasis!": {
-   "pt": "",
+   "pt": "Muito obrigado. Deixe-me conferir o resultado. Bem, acho que você precisa do contra-agente. Por favor, aplique no oásis!",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "What has happened? You applied the counteragent to the oasis and then it was destroyed by a sandstorm? Keep on investigating the place.": {
-   "pt": "",
+   "pt": "O que aconteceu? Você aplicou o contra-agente no oásis e depois ele foi destruído por uma tempestade de areia? Continue investigando o lugar.",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "{Gareth} told you that there are rumours about fake artefacts in the MoTA? And it is your task to check that with a magnifier? I see. I don't need one right now, so you can have one of mine. You find one in the crate over there.": {
-   "pt": "",
+   "pt": "{Gareth} lhe disse que há boatos sobre artefatos falsos no MoTA? E é sua tarefa verificar isso com uma lupa? Entendo. Não preciso de uma agora, então você pode ficar com uma das minhas. Você acha uma naquele caixote ali.",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "So you found out that one artefact in the MoTA is fake? And {Gareth} sent you to me to get a new artefact as a replacement? Sorry, I hardly know you so I don't trust you. I won't help you with that!": {
-   "pt": "",
+   "pt": "Então você descobriu que um artefato no MoTA é falso? E {Gareth} lhe mandou até mim para conseguir um artefato novo como substituto? Desculpe, mal o conheço, então não confio em você. Não vou ajudá-lo com isso!",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "The project is called 'Sandy {Cave} Project' and is funded by the {MoTA}. Its goal is the investigation of this {cave}.": {
-   "pt": "",
+   "pt": "O projeto se chama 'Sandy {Cave} Project' e é financiado pelo {MoTA}. O objetivo dele é a investigação desta {caverna}.",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "MoTA is short for the recently founded Museum of Tibian Arts. We work together in close collaboration. New {results} are communicated to the museum instantly.": {
-   "pt": "",
+   "pt": "MoTA é a abreviação do recém-fundado Museum of Tibian Arts. Trabalhamos juntos em estreita colaboração. Novos {resultados} são comunicados ao museu na hora.",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "We have no scientific results so far to reach our {goal}, because my workers aren't back yet. Should I be {worried}?": {
-   "pt": "",
+   "pt": "Ainda não temos resultados científicos para alcançar nosso {objetivo}, porque meus trabalhadores ainda não voltaram. Devo estar {preocupado}?",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "Then I have to find out why they don't return. But I'm old and my back aches. Would you like to go there and look for my workers?": {
-   "pt": "",
+   "pt": "Então tenho que descobrir por que não voltam. Mas estou velho e minhas costas doem. Você iria até lá procurar meus trabalhadores?",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "Fantastic! Go there and then tell me what you've seen. I've opened the door for you. Take care of yourself!": {
-   "pt": "",
+   "pt": "Fantástico! Vá até lá e depois me conte o que você viu. Abri a porta para você. Se cuide!",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "We don't know exactly why this cave has now exposed an entry via the {dark pyramid}. It seems that the cave already existed for a long time, however, without a connection to our world. Maybe some smaller earth movements have changed the situation.": {
-   "pt": "",
+   "pt": "Não sabemos exatamente por que esta caverna agora expôs uma entrada pela {dark pyramid}. Parece que a caverna já existia há muito tempo, mas sem conexão com nosso mundo. Talvez alguns pequenos movimentos de terra tenham mudado a situação.",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "We don't know yet to wich extent the cave and the dark pyramid belong together. Thisi s what we try to find out. Maybe the history of this place has to be rewritten.": {
-   "pt": "",
+   "pt": "Ainda não sabemos até que ponto a caverna e a dark pyramid estão ligadas. É isso que tentamos descobrir. Talvez a história deste lugar precise ser reescrita.",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "The Druid of Crunor? He told you that a new cave appeared here? That's right. I'm the head of a {project} that tries to find out more about this new {area}.": {
-   "pt": "",
+   "pt": "O Druid de Crunor? Ele lhe disse que uma caverna nova apareceu aqui? Isso mesmo. Sou o chefe de um {projeto} que tenta descobrir mais sobre esta nova {área}.",
    "n": 1,
    "npc": [
     "angelo"
    ]
   },
   "The Druid of Crunor? He told you that a new cave appeared here? That's right. I'm the head of a project that tries to find out more about this new area.": {
-   "pt": "",
+   "pt": "O Druid de Crunor? Ele lhe disse que uma caverna nova apareceu aqui? Isso mesmo. Sou o chefe de um projeto que tenta descobrir mais sobre esta nova área.",
    "n": 1,
    "npc": [
     "angelo"
@@ -27462,112 +27462,112 @@
    ]
   },
   "This place is a sanctuary of Crunor and provides me with a opportunity of spiritual contemplation.": {
-   "pt": "",
+   "pt": "Este lugar é um santuário de Crunor e me dá a oportunidade de contemplação espiritual.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "We focus our interest on this we see as threatening for live and the laws of nature itself.": {
-   "pt": "",
+   "pt": "Concentramos nosso interesse no que vemos como ameaça à vida e às próprias leis da natureza.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "We might not be many but we are diverse. Our rather informal order came together in the dawn of time, when the wars of the gods ravaged the world.": {
-   "pt": "",
+   "pt": "Talvez não sejamos muitos, mas somos diversos. Nossa ordem bem informal se uniu na aurora dos tempos, quando as guerras dos deuses devastavam o mundo.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "Interference comes in different forms. In this particular case there is sadly little time for subtlety and a more direct approach is necessary.": {
-   "pt": "",
+   "pt": "A interferência vem de formas diferentes. Neste caso em particular, infelizmente há pouco tempo para sutileza, e uma abordagem mais direta é necessária.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "The fae granted me permission to enter their hidden realm. As a druid I'm in close touch with nature so I could gain their trust. The nature spirits are inhabiting this peninsula for ages.": {
-   "pt": "",
+   "pt": "Os fae me concederam permissão para entrar no reino escondido deles. Como druid, tenho contato próximo com a natureza, então consegui ganhar a confiança deles. Os espíritos da natureza habitam esta península há eras.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "Those cults have to be stopped by any means possible. These are desperate times and they demand desperate actions.": {
-   "pt": "",
+   "pt": "Esses cultos precisam ser detidos por qualquer meio possível. São tempos desesperados, e exigem ações desesperadas.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "Spare lives where you see it fit but the cults may not be allowed to exist and disrupt the fabric of the world even more.": {
-   "pt": "",
+   "pt": "Poupe vidas onde achar adequado, mas os cultos não podem ter permissão de existir e perturbar ainda mais o tecido do mundo.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "The weakened fabric of our reality still repels the unnatural intruder. The cults provide the thing a hold and supply it with more power, even if we couldn't figure out yet, how this works at all.": {
-   "pt": "",
+   "pt": "O tecido enfraquecido da nossa realidade ainda repele o intruso antinatural. Os cultos dão àquela coisa um ponto de apoio e a suprem com mais poder, mesmo que ainda não tenhamos descoberto como isso funciona.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "I have several missions available that deal with servering the ties of the corrupting influence on our world.": {
-   "pt": "",
+   "pt": "Tenho várias missões disponíveis que lidam com romper os laços da influência corruptora sobre nosso mundo.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "You have already fulfilled your job to my full satisfaction. The cults are investigated and the final boss is eliminated. I have nothing more for you to do. Fare you well!": {
-   "pt": "",
+   "pt": "Você já cumpriu seu trabalho para minha total satisfação. Os cultos foram investigados e o boss final foi eliminado. Não tenho mais nada para você fazer. Vá bem!",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "You already done this mission.": {
-   "pt": "",
+   "pt": "Você já concluiu esta missão.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "Very nice! Come back if you have found what's going on in this cult.": {
-   "pt": "",
+   "pt": "Muito bom! Volte quando tiver descoberto o que está acontecendo neste culto.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "You have not finished your work yet. Come back when you're done.": {
-   "pt": "",
+   "pt": "Você ainda não terminou seu trabalho. Volte quando terminar.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "Here's your reward. Thank you and farewell!": {
-   "pt": "",
+   "pt": "Aqui está sua recompensa. Obrigado e adeus!",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "What a pitty! You can come back, when ever you want, if you have changed your opinion.": {
-   "pt": "",
+   "pt": "Que pena! Você pode voltar, quando quiser, se mudar de ideia.",
    "n": 1,
    "npc": [
     "gerimor"
    ]
   },
   "Greeting, |PLAYERNAME|! I welcome you to this sacred {place}. If you are interested in {missions} just ask.": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|! Eu o recebo neste {lugar} sagrado. Se tiver interesse em {missões}, é só perguntar.",
    "n": 1,
    "npc": [
     "gerimor"
@@ -34287,147 +34287,147 @@
    ]
   },
   "Well, I'm not a simple cook. I travel the whole Tibian continent for the most artfully seasoned {recipes} and constantly develop new ones.": {
-   "pt": "",
+   "pt": "Bem, não sou um cozinheiro qualquer. Viajo o continente de Tibia inteiro atrás das {receitas} mais bem temperadas e sempre desenvolvo novas.",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "You're interested in my recipes? Well. They are not for sale, but if you want to become my {apprentice}, I'll share my knowledge with you.": {
-   "pt": "",
+   "pt": "Tem interesse nas minhas receitas? Bem. Elas não estão à venda, mas se você quiser virar meu {aprendiz}, eu divido meu conhecimento com você.",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "You can now cook any dish you want from this list: {Rotworm Stew, Hydra Tongue Salad, Roasted Dragon Wings, Tropical Fried Terrorbird, Banana Chocolate Shake, Veggie Casserole, Filled Jalapeno Peppers, Blessed Steak, Northern Fishburger, Carrot Cake, Coconut Shrimp Bake, Blackjack, Demonic Candy Balls, Sweet Mangonaise Elixir}.": {
-   "pt": "",
+   "pt": "Agora você pode cozinhar qualquer prato desta lista: {Rotworm Stew, Hydra Tongue Salad, Roasted Dragon Wings, Tropical Fried Terrorbird, Banana Chocolate Shake, Veggie Casserole, Filled Jalapeno Peppers, Blessed Steak, Northern Fishburger, Carrot Cake, Coconut Shrimp Bake, Blackjack, Demonic Candy Balls, Sweet Mangonaise Elixir}.",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Hmm. You look quite promising. Can't hurt to give it a try, I guess. Would you like to become my apprentice, |PLAYERNAME|?": {
-   "pt": "",
+   "pt": "Hmm. Você parece bem promissor. Não custa tentar, imagino. Gostaria de virar meu aprendiz, |PLAYERNAME|?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Fine, young human. Ask me for a {recipe} anytime and I'll teach you what I know.": {
-   "pt": "",
+   "pt": "Certo, jovem humano. Me peça uma {receita} quando quiser e eu ensino o que sei.",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to cook Rotworm Stew with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para cozinhar Rotworm Stew comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to prepare a Hydra Tongue Salad with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para preparar uma Hydra Tongue Salad comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to prepare Roasted Dragon Wings with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para preparar Roasted Dragon Wings comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to prepare a Tropical Fried Terrorbird with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para preparar um Tropical Fried Terrorbird comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to make a Banana Chocolate Shake with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para fazer um Banana Chocolate Shake comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to cook a Veggie Casserole with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para cozinhar um Veggie Casserole comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to prepare Filled Jalapeño Peppers with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para preparar Filled Jalapeño Peppers comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to prepare a Blessed Steak with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para preparar um Blessed Steak comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to make a Northern Fishburger with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para fazer um Northern Fishburger comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to bake a Carrot Cake with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para assar um Carrot Cake comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to prepare a Coconut Shrimp Bake with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para preparar um Coconut Shrimp Bake comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to cook a Blackjack with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para cozinhar um Blackjack comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to make Demonic Candy Balls with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para fazer Demonic Candy Balls comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Did you gather all necessary ingredients to mix Sweet Mangonaise Elixir with me?": {
-   "pt": "",
+   "pt": "Você juntou todos os ingredientes necessários para misturar Sweet Mangonaise Elixir comigo?",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "No?, come back when you are ready to cook.": {
-   "pt": "",
+   "pt": "Não?, volte quando estiver pronto para cozinhar.",
    "n": 1,
    "npc": [
     "jean_pierre"
    ]
   },
   "Greetings, |PLAYERNAME|. What are you doing out here?": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. O que você está fazendo aqui fora?",
    "n": 1,
    "npc": [
     "jean_pierre"
@@ -38529,126 +38529,126 @@
    ]
   },
   "Some annoying nightmarish creatures rove about in the tunnels underneath this island. They are threatening the members of my court and devastate the flora and fauna. They also threaten the natural balance. Would you go and fight them for me?": {
-   "pt": "",
+   "pt": "Umas criaturas de pesadelo irritantes vagam pelos túneis sob esta ilha. Estão ameaçando os membros da minha corte e devastando a flora e a fauna. Também ameaçam o equilíbrio natural. Você iria lutar contra elas por mim?",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Have you defeated the nightmare monsters?": {
-   "pt": "",
+   "pt": "Você derrotou os monstros de pesadelo?",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Have you found the moon mirror and freed the captured fairies?": {
-   "pt": "",
+   "pt": "Você encontrou o moon mirror e libertou as fadas capturadas?",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Have you already found the starlight vial and the sun catcher?": {
-   "pt": "",
+   "pt": "Você já encontrou o starlight vial e o sun catcher?",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Could you already gather the three lights?": {
-   "pt": "",
+   "pt": "Você já conseguiu reunir as três luzes?",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Have you repaired the magical barrier? Is Feyrist safe?": {
-   "pt": "",
+   "pt": "Você consertou a barreira mágica? Feyrist está a salvo?",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Thank you again, mortal being! The fae will be forever grateful.": {
-   "pt": "",
+   "pt": "Obrigada de novo, ser mortal! Os fae ficarão eternamente gratos.",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "I knew you would be willing to help us. Kill two hundred of them as well as the terrible demon Kroazur who's leading them. That should bring some relief for the fae.": {
-   "pt": "",
+   "pt": "Eu sabia que você estaria disposto a nos ajudar. Mate duzentos deles, além do terrível demônio Kroazur que os lidera. Isso deve trazer algum alívio para os fae.",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Thank you! You rendered a great favour to the fae courts and Feyrist alike. Would you help us with another problem?": {
-   "pt": "",
+   "pt": "Obrigada! Você prestou um grande favor às cortes fae e a Feyrist. Você nos ajudaria com outro problema?",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "You rendered a great favour to the fae courts and Feyrist alike. Would you help us with another problem?": {
-   "pt": "",
+   "pt": "Você prestou um grande favor às cortes fae e a Feyrist. Você nos ajudaria com outro problema?",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "You have to kill two hundred of nightmare creatures and the terrible demon Kroazur who's leading them. That should bring some relief for the fae.": {
-   "pt": "",
+   "pt": "Você precisa matar duzentas criaturas de pesadelo e o terrível demônio Kroazur que as lidera. Isso deve trazer algum alívio para os fae.",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Thank you, mortal being! Please keep the mirror. I think you may need it soon, because there is another problem. Would you help us again?": {
-   "pt": "",
+   "pt": "Obrigada, ser mortal! Por favor, fique com o espelho. Acho que você vai precisar dele em breve, porque há outro problema. Você nos ajudaria de novo?",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Please keep the mirror. I think you may need it soon, because there is another problem. Would you help us again?": {
-   "pt": "",
+   "pt": "Por favor, fique com o espelho. Acho que você vai precisar dele em breve, porque há outro problema. Você nos ajudaria de novo?",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Please seek out the tainted fae, retrieve the artefact and free the captured fairies.": {
-   "pt": "",
+   "pt": "Por favor, procure os fae corrompidos, recupere o artefato e liberte as fadas capturadas.",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "You have to catch the respective lights and store it in the corresponding vessel.": {
-   "pt": "",
+   "pt": "Você precisa capturar as respectivas luzes e guardá-las no recipiente correspondente.",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Thank you, mortal being! The fae will be forever grateful. Take this blossom bag as a little thank-you gift. Such blossoms grow on our trees just once in a decade, so they are quite rare.": {
-   "pt": "",
+   "pt": "Obrigada, ser mortal! Os fae ficarão eternamente gratos. Fique com este blossom bag como um pequeno agradecimento. Essas flores crescem nas nossas árvores só uma vez a cada década, então são bem raras.",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "If you charge all fifteen arcane sources with the respective light, Feyrist's protection will be ensured again.": {
-   "pt": "",
+   "pt": "Se você carregar as quinze fontes arcanas com a luz respectiva, a proteção de Feyrist estará garantida de novo.",
    "n": 1,
    "npc": [
     "maelyrra"
    ]
   },
   "Nature's blessings! Welcome to the land of dreams.": {
-   "pt": "",
+   "pt": "As bênçãos da natureza! Bem-vindo à terra dos sonhos.",
    "n": 1,
    "npc": [
     "maelyrra"
@@ -39187,98 +39187,98 @@
    ]
   },
   "Ah, you have heard about my search for experienced help. And indeed your reputation for solving certain {problems} has preceded you.": {
-   "pt": "",
+   "pt": "Ah, você ouviu falar da minha busca por ajuda experiente. E de fato sua reputação por resolver certos {problemas} o precedeu.",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "My problems are, so to say, dire news for the whole world. <sigh> I don't want to confuse you with overly complicated and lengthy stories, so do you want to hear the {long} version or the {short}?": {
-   "pt": "",
+   "pt": "Meus problemas são, por assim dizer, notícias terríveis para o mundo inteiro. <suspira> Não quero confundi-lo com histórias longas demais e complicadas, então você quer ouvir a versão {longa} ou a {curta}?",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "Good!, but I need 30 {demonic essences} to exchange with the demonic messenger for a ticket for you to enter the Abodes of Torments.": {
-   "pt": "",
+   "pt": "Ótimo!, mas preciso de 30 {demonic essences} para trocar com o mensageiro demoníaco por um bilhete de entrada nas Abodes of Torments para você.",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "Do you have 30 demonic essences to offer to the demonic messenger?": {
-   "pt": "",
+   "pt": "Você tem 30 demonic essences para oferecer ao mensageiro demoníaco?",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "Excellent! This will empower possibilty to create a breach is enough to let you pass into that hellish hiding place. ...": {
-   "pt": "",
+   "pt": "Excelente! Isso vai fortalecer a possibilidade de criar uma brecha suficiente para deixá-lo passar para aquele esconderijo infernal. ...",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "You don't have the demonic essences, back here when you get it.": {
-   "pt": "",
+   "pt": "Você não tem as demonic essences, volte aqui quando as conseguir.",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "Given the internal power plays amongst the Seven, they are the ideal keepers for individual parts of an powerful artefact. Not one of them would allow his compatriots to hold such a power, and neither would trust the other.": {
-   "pt": "",
+   "pt": "Dados os jogos de poder internos entre os Sete, eles são os guardiões ideais para partes individuais de um artefato poderoso. Nenhum deles permitiria que os compatriotas detivessem tal poder, e nenhum confiaria no outro.",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "Ah, a good man and a competent aid.": {
-   "pt": "",
+   "pt": "Ah, um bom homem e um ajudante competente.",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "I like the quietness and the climate. And admittedly it helped my studies not to be constantly disturbed by petitioners.": {
-   "pt": "",
+   "pt": "Gosto do sossego e do clima. E devo admitir que ajudou meus estudos não ser constantemente incomodado por peticionários.",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "Thais has become a melting pot of some source. Yet whatever you melt, if the ingredients are corrupted, the outcome is always flawed.": {
-   "pt": "",
+   "pt": "Thais se tornou um caldeirão de alguma fonte. Mas seja lá o que você misture, se os ingredientes estão corrompidos, o resultado sempre sai falho.",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "Instead of banding together and starting to change something, they and Thais keep wasting resources in hostilities.": {
-   "pt": "",
+   "pt": "Em vez de se unirem e começarem a mudar algo, eles e Thais continuam desperdiçando recursos em hostilidades.",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "Edron has become as stagnant as the teachings in its academy. No new idea has been thought there for decades. The whole Edron is an example for what happens when humanity has become fat and lazy.": {
-   "pt": "",
+   "pt": "Edron se tornou tão estagnada quanto os ensinamentos da academia de lá. Nenhuma ideia nova é pensada lá há décadas. Edron inteira é um exemplo do que acontece quando a humanidade fica gorda e preguiçosa.",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "An almost laughable greed is persistent in that city. At least this makes knowledge and materials conveniently available to those who can match their prizes.": {
-   "pt": "",
+   "pt": "Uma ganância quase risível persiste naquela cidade. Pelo menos isso torna conhecimento e materiais convenientemente disponíveis para quem consegue pagar os preços.",
    "n": 1,
    "npc": [
     "mazarius"
    ]
   },
   "Greetings, dear visitor. Please tell me what {brings} you here, to my humble adobe.": {
-   "pt": "",
+   "pt": "Saudações, caro visitante. Por favor, me diga o que o {traz} aqui, à minha humilde morada.",
    "n": 1,
    "npc": [
     "mazarius"
@@ -46390,84 +46390,84 @@
    ]
   },
   "Oh, so you want a reward, hm? Well... let's see. What did you do for us - helping Mortis with his {repairs} and defended him?": {
-   "pt": "",
+   "pt": "Ah, então você quer uma recompensa, hm? Bem... vamos ver. O que você fez por nós - ajudou Mortis com os {reparos} dele e o defendeu?",
    "n": 1,
    "npc": [
     "sandomo"
    ]
   },
   "Come back after you have done at least one of the tasks I talked you about.": {
-   "pt": "",
+   "pt": "Volte depois de ter feito pelo menos uma das tarefas de que falei com você.",
    "n": 1,
    "npc": [
     "sandomo"
    ]
   },
   "I do not see inquisition gold registered in my book from you.": {
-   "pt": "",
+   "pt": "Não vejo inquisition gold registrado no meu livro em seu nome.",
    "n": 1,
    "npc": [
     "sandomo"
    ]
   },
   "Ah yes, you currently have": {
-   "pt": "",
+   "pt": "Ah sim, no momento você tem",
    "n": 1,
    "npc": [
     "sandomo"
    ]
   },
   "You do not seem to have enough inquisition gold yet to trade for clusters, as it's registered in my book.": {
-   "pt": "",
+   "pt": "Parece que você ainda não tem inquisition gold suficiente para trocar por clusters, segundo registrado no meu livro.",
    "n": 1,
    "npc": [
     "sandomo"
    ]
   },
   "You should tell me a real number.": {
-   "pt": "",
+   "pt": "Você deveria me dizer um número real.",
    "n": 1,
    "npc": [
     "sandomo"
    ]
   },
   "You do not have enough inquisition gold for that, so far you can ask for up to": {
-   "pt": "",
+   "pt": "Você não tem inquisition gold suficiente para isso, até agora você pode pedir até",
    "n": 1,
    "npc": [
     "sandomo"
    ]
   },
   "There you are. Now I register": {
-   "pt": "",
+   "pt": "Aqui está. Agora eu registro",
    "n": 1,
    "npc": [
     "sandomo"
    ]
   },
   "Head to brother Maun if you are in need of basic supplies. He will help you - for a small fee.": {
-   "pt": "",
+   "pt": "Vá até o irmão Maun se precisar de suprimentos básicos. Ele vai ajudá-lo - por uma pequena taxa.",
    "n": 1,
    "npc": [
     "sandomo"
    ]
   },
   "Brother Maun is a valuable member of the Inquisition. He will help you out with supplies. Provided you can actually compensate of course.": {
-   "pt": "",
+   "pt": "O irmão Maun é um membro valioso da Inquisição. Ele vai ajudá-lo com suprimentos. Desde que você possa de fato compensá-lo, claro.",
    "n": 1,
    "npc": [
     "sandomo"
    ]
   },
   "Hm. Greetings.": {
-   "pt": "",
+   "pt": "Hm. Saudações.",
    "n": 1,
    "npc": [
     "sandomo"
    ]
   },
   "Praise the gods, I bid you farewell.": {
-   "pt": "",
+   "pt": "Louvados sejam os deuses, lhe dou adeus.",
    "n": 1,
    "npc": [
     "sandomo"
@@ -56292,7 +56292,7 @@
    "n": 24
   },
   "apprentice": {
-   "pt": "",
+   "pt": "aprendiz",
    "n": 24
   },
   "lee'delle": {
@@ -57080,7 +57080,7 @@
    "n": 6
   },
   "place": {
-   "pt": "",
+   "pt": "lugar",
    "n": 6
   },
   "fee": {
@@ -57152,7 +57152,7 @@
    "n": 5
   },
   "project": {
-   "pt": "",
+   "pt": "projeto",
    "n": 5
   },
   "conjure": {
@@ -57764,7 +57764,7 @@
    "n": 3
   },
   "recipe": {
-   "pt": "",
+   "pt": "receita",
    "n": 3
   },
   "guild": {
@@ -58104,11 +58104,11 @@
    "n": 3
   },
   "long": {
-   "pt": "",
+   "pt": "longa",
    "n": 3
   },
   "short": {
-   "pt": "",
+   "pt": "curta",
    "n": 3
   },
   "fetch": {
@@ -58268,11 +58268,11 @@
    "n": 2
   },
   "cave": {
-   "pt": "",
+   "pt": "caverna",
    "n": 2
   },
   "goal": {
-   "pt": "",
+   "pt": "objetivo",
    "n": 2
   },
   "butterfly hunt": {
@@ -59624,19 +59624,19 @@
    "n": 1
   },
   "mota": {
-   "pt": "",
+   "pt": "MoTA",
    "n": 1
   },
   "worried": {
-   "pt": "",
+   "pt": "preocupado",
    "n": 1
   },
   "dark pyramid": {
-   "pt": "",
+   "pt": "dark pyramid",
    "n": 1
   },
   "area": {
-   "pt": "",
+   "pt": "área",
    "n": 1
   },
   "serve": {
@@ -61028,7 +61028,7 @@
    "n": 1
   },
   "problems": {
-   "pt": "",
+   "pt": "problemas",
    "n": 1
   },
   "demonic essences": {
@@ -61036,7 +61036,7 @@
    "n": 1
   },
   "brings": {
-   "pt": "",
+   "pt": "traz",
    "n": 1
   },
   "mountain": {
@@ -61464,7 +61464,7 @@
    "n": 1
   },
   "repairs": {
-   "pt": "",
+   "pt": "reparos",
    "n": 1
   },
   "vacation": {
