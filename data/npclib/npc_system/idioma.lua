@@ -65,7 +65,17 @@ function Idioma.lista()
 	return saida
 end
 
-function Idioma.do_jogador(player)
+-- O destinatário chega ora como objeto, ora como id: o `sayWithDelay` do
+-- npc.lua guarda só o id para atravessar o addEvent. Aceita os dois.
+local function como_jogador(alvo)
+	if type(alvo) == "number" then
+		return Player(alvo)
+	end
+	return alvo
+end
+
+function Idioma.do_jogador(alvo)
+	local player = como_jogador(alvo)
 	if not player then
 		return Idioma.PADRAO
 	end
