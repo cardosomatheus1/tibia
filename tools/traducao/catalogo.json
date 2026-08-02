@@ -8971,7 +8971,7 @@
    ]
   },
   "Please leave me alone in my mourning.": {
-   "pt": "",
+   "pt": "Por favor, me deixe sozinha no meu luto.",
    "n": 2,
    "npc": [
     "caramellia"
@@ -11586,21 +11586,21 @@
    ]
   },
   "Good bye, |PLAYERNAME|, please come back soon.": {
-   "pt": "",
+   "pt": "Adeus, |PLAYERNAME|, por favor volte logo.",
    "n": 2,
    "npc": [
     "sandra"
    ]
   },
   "Slime is my mission. Is there anything more important? There isn't. To me. Right now at least.": {
-   "pt": "",
+   "pt": "Slime é minha missão. Há algo mais importante? Não há. Para mim. Pelo menos agora.",
    "n": 2,
    "npc": [
     "sane_mage"
    ]
   },
   "Yes... then, goodbye.": {
-   "pt": "",
+   "pt": "Sim... então, adeus.",
    "n": 2,
    "npc": [
     "sane_mage"
@@ -11740,7 +11740,7 @@
    ]
   },
   "Goodbye and good luck |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Adeus e boa sorte, |PLAYERNAME|.",
    "n": 2,
    "npc": [
     "sinclair"
@@ -19818,77 +19818,77 @@
    ]
   },
   "Can I finally have some peace...?": {
-   "pt": "",
+   "pt": "Posso finalmente ter um pouco de paz...?",
    "n": 1,
    "npc": [
     "caramellia"
    ]
   },
   "All is lost. With {Winfred} dead, my love has died and I'm only an empty shell without hope or purpose.": {
-   "pt": "",
+   "pt": "Tudo está perdido. Com {Winfred} morto, meu amor morreu, e sou só uma casca vazia sem esperança ou propósito.",
    "n": 1,
    "npc": [
     "caramellia"
    ]
   },
   "We put all our hope in this far away colony. Sadly, we never made it there and I will never know what our life would have been like in Port Hope.": {
-   "pt": "",
+   "pt": "Colocamos toda a nossa esperança nessa colônia distante. Infelizmente, nunca chegamos lá, e nunca vou saber como teria sido nossa vida em Port Hope.",
    "n": 1,
    "npc": [
     "caramellia"
    ]
   },
   "I guess he was the one that put my father up to the whole thing. He spied on Winfred and me and it was certainly him that suggested my {imprisonment} in this tower.": {
-   "pt": "",
+   "pt": "Imagino que tenha sido ele quem convenceu meu pai a fazer tudo isso. Ele espionava Winfred e eu, e certamente foi ele que sugeriu meu {aprisionamento} nesta torre.",
    "n": 1,
    "npc": [
     "caramellia"
    ]
   },
   "This forsaken place seems as remote from the rest of the world as my heart is.": {
-   "pt": "",
+   "pt": "Este lugar abandonado parece tão distante do resto do mundo quanto meu coração está.",
    "n": 1,
    "npc": [
     "caramellia"
    ]
   },
   "The bustling streets of Thais are all but a faint memory to me.": {
-   "pt": "",
+   "pt": "As ruas movimentadas de Thais não passam de uma memória vaga para mim.",
    "n": 1,
    "npc": [
     "caramellia"
    ]
   },
   "Carlin is a lovely and green city as far as I remember.": {
-   "pt": "",
+   "pt": "Carlin é uma cidade adorável e verde, pelo que me lembro.",
    "n": 1,
    "npc": [
     "caramellia"
    ]
   },
   "My father wanted me to marry a wealthy Venorean. He understood so little about love and the ways of the heart.": {
-   "pt": "",
+   "pt": "Meu pai queria que eu me casasse com um homem rico de Venore. Ele entendia tão pouco sobre o amor e os caminhos do coração.",
    "n": 1,
    "npc": [
     "caramellia"
    ]
   },
   "The city of the elves is an exotic wonder.": {
-   "pt": "",
+   "pt": "A cidade dos elfos é uma maravilha exótica.",
    "n": 1,
    "npc": [
     "caramellia"
    ]
   },
   "The city is like the dwarfs that built it. Stony, never-changing and hard to understand for an outsider.": {
-   "pt": "",
+   "pt": "A cidade é como os anões que a construíram. Pétrea, imutável e difícil de entender para um forasteiro.",
    "n": 1,
    "npc": [
     "caramellia"
    ]
   },
   "Hello, |PLAYERNAME|. Please leave me alone in my {mourning}.": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|. Por favor, me deixe sozinha no meu {luto}.",
    "n": 1,
    "npc": [
     "caramellia"
@@ -32257,70 +32257,70 @@
    ]
   },
   "I'm just a simple {huntsman}.": {
-   "pt": "",
+   "pt": "Sou só um {caçador} simples.",
    "n": 1,
    "npc": [
     "huntsman"
    ]
   },
   "Sorry, I don't think telling a stranger your name is a smart thing to do.": {
-   "pt": "",
+   "pt": "Desculpe, não acho que contar seu nome a um estranho seja uma coisa inteligente de se fazer.",
    "n": 1,
    "npc": [
     "huntsman"
    ]
   },
   "I hunt game of all sorts to earn a living. I respect the {balance} of nature though and take only as much as I need.": {
-   "pt": "",
+   "pt": "Caço animais de todo tipo para viver. Mas respeito o {equilíbrio} da natureza e pego só o que preciso.",
    "n": 1,
    "npc": [
     "huntsman"
    ]
   },
   "She is a bit overly concerned about that nature and balance stuff but she has a good heart. She is living in the woods between Carlin and Ab'Dendriel. I'll mark her hut on your map.": {
-   "pt": "",
+   "pt": "Ela é um pouco preocupada demais com essa coisa de natureza e equilíbrio, mas tem um bom coração. Ela mora na floresta entre Carlin e Ab'Dendriel. Vou marcar a cabana dela no seu mapa.",
    "n": 1,
    "npc": [
     "huntsman"
    ]
   },
   "The white deer are somewhat sacred to the elves. Though their fur and antlers are rumoured to earn a decent amount of {gold} on the market, it's probably not worth the trouble.": {
-   "pt": "",
+   "pt": "Os white deer são meio sagrados para os elfos. Embora se diga que a pele e os chifres deles rendem uma boa quantidade de {ouro} no mercado, provavelmente não vale o esforço.",
    "n": 1,
    "npc": [
     "huntsman"
    ]
   },
   "Just between you and me, I heard a guy named {Cruleo} is offering some handsome cash for the trophies of a white deer.": {
-   "pt": "",
+   "pt": "Só entre nós, ouvi dizer que um cara chamado {Cruleo} está oferecendo uma bela quantia por troféus de white deer.",
    "n": 1,
    "npc": [
     "huntsman"
    ]
   },
   "He has a house in the wilderness. Just between Ab'Dendriel and the orcland. I'll mark his hut on your map.": {
-   "pt": "",
+   "pt": "Ele tem uma casa na natureza selvagem. Bem entre Ab'Dendriel e a orcland. Vou marcar a cabana dele no seu mapa.",
    "n": 1,
    "npc": [
     "huntsman"
    ]
   },
   "Good bye. Take care.": {
-   "pt": "",
+   "pt": "Adeus. Cuide-se.",
    "n": 1,
    "npc": [
     "huntsman"
    ]
   },
   "I can still see you.": {
-   "pt": "",
+   "pt": "Ainda consigo ver você.",
    "n": 1,
    "npc": [
     "huntsman"
    ]
   },
   "Howdy partner.": {
-   "pt": "",
+   "pt": "E aí, parceiro.",
    "n": 1,
    "npc": [
     "huntsman"
@@ -46474,168 +46474,168 @@
    ]
   },
   "Great spirit potions as well as health and mana potions in different sizes!": {
-   "pt": "",
+   "pt": "Ótimas spirit potions, assim como health e mana potions em vários tamanhos!",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "If you need alchemical fluids like slime and blood, get them here.": {
-   "pt": "",
+   "pt": "Se precisar de fluidos alquímicos como slime e sangue, consiga-os aqui.",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "I sell potions and fluids. If you'd like to see my offers, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Vendo potions e fluidos. Se quiser ver minhas ofertas, me peça para {negociar}.",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "We have a special offer right now for depositing vials. Are you interested in hearing it?": {
-   "pt": "",
+   "pt": "Temos uma oferta especial agora para depositar vials. Está interessado em ouvir?",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Would you like to get a lottery ticket instead of the deposit for your vials?": {
-   "pt": "",
+   "pt": "Gostaria de receber um bilhete de loteria em vez do depósito pelos seus vials?",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Are you here to claim a prize?": {
-   "pt": "",
+   "pt": "Você veio reivindicar um prêmio?",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Pssht, not that loud. So they have sent you to get... the stuff?": {
-   "pt": "",
+   "pt": "Pssht, não tão alto. Então mandaram você buscar... as coisas?",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "What?? How dare you?! I am a sorcerer of the most reknown academy on the face of this world. Do you think some lousy pirates could scare me? Get lost! Now! I will have no further dealings with the likes of you!": {
-   "pt": "",
+   "pt": "O quê?? Como ousa?! Sou uma sorcerer da academia mais renomada da face deste mundo. Acha que uns piratas de meia-tigela poderiam me assustar? Suma! Agora! Não vou ter mais negócios com gente como você!",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Great! I've signed you up for our bonus system. From now on, you will have the chance to win the potion belt addon!": {
-   "pt": "",
+   "pt": "Ótimo! Cadastrei você no nosso sistema de bônus. A partir de agora, você terá a chance de ganhar o addon potion belt!",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Alright, thank you very much! Here is your lottery ticket, good luck. Would you like to deposit more vials that way?": {
-   "pt": "",
+   "pt": "Muito bem, muito obrigada! Aqui está seu bilhete de loteria, boa sorte. Gostaria de depositar mais vials assim?",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Sorry, but you don't have 100 empty flasks or vials of the SAME kind and thus don't qualify for the lottery. Would you like to deposit the vials you have as usual and receive 5 gold per vial?": {
-   "pt": "",
+   "pt": "Desculpe, mas você não tem 100 flasks ou vials vazios do MESMO tipo, então não se qualifica para a loteria. Gostaria de depositar os vials que tem normalmente e receber 5 gold por vial?",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Congratulations! Here, from now on you can wear our lovely potion belt as accessory.": {
-   "pt": "",
+   "pt": "Parabéns! Aqui, a partir de agora você pode usar nosso adorável potion belt como acessório.",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Sorry, but you don't have your lottery ticket with you.": {
-   "pt": "",
+   "pt": "Desculpe, mas você não tem seu bilhete de loteria com você.",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Finally. You have no idea how difficult it is to keep something secret here. And you brought me all the crystal coins I demanded?": {
-   "pt": "",
+   "pt": "Finalmente. Você não faz ideia de como é difícil manter algo em segredo aqui. E você me trouxe todas as crystal coins que exigi?",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Hello |PLAYERNAME|, welcome to the fluid and potion {shop} of Edron.": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|, bem-vindo à {loja} de fluidos e potions de Edron.",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Of course, just browse through my wares. By the way, if you'd like to join our bonus system for depositing flasks and vial, you have to tell me about that {deposit}.": {
-   "pt": "",
+   "pt": "Claro, é só dar uma olhada nas minhas mercadorias. Aliás, se quiser participar do nosso sistema de bônus para depositar flasks e vials, tem que me falar sobre esse {depósito}.",
    "n": 1,
    "npc": [
     "sandra"
    ]
   },
   "Hm? What is the meaning of all this?": {
-   "pt": "",
+   "pt": "Hm? Qual é o significado de tudo isso?",
    "n": 1,
    "npc": [
     "sane_mage"
    ]
   },
   "What have I become? What is slime if it's not for everyone?": {
-   "pt": "",
+   "pt": "No que eu me tornei? O que é slime se não é para todos?",
    "n": 1,
    "npc": [
     "sane_mage"
    ]
   },
   "Slime! Everywhere! SLIME TIME! Or... not?": {
-   "pt": "",
+   "pt": "Slime! Por toda parte! HORA DO SLIME! Ou... não?",
    "n": 1,
    "npc": [
     "sane_mage"
    ]
   },
   "I AM THE... I mean... I am - what is a mage, if he is not {mad}? If he isn't... raging? I am... I am just sane. A sane mage.": {
-   "pt": "",
+   "pt": "EU SOU O... quer dizer... eu sou - o que é um mage, se não está {louco}? Se não está... enfurecido? Eu sou... eu sou só são. Um sane mage.",
    "n": 1,
    "npc": [
     "sane_mage"
    ]
   },
   "I am not mad... I- YES, that's the whole problem, isn't it? What's going on, what's happening to me? I don't even know anymore.": {
-   "pt": "",
+   "pt": "Não estou louco... Eu- SIM, esse é o problema todo, não é? O que está acontecendo, o que está acontecendo comigo? Nem sei mais.",
    "n": 1,
    "npc": [
     "sane_mage"
    ]
   },
   "Yes, well... I'm taking a break. It will take some time. I don't know how long I just... I want to get away from all this for some time, that's it.": {
-   "pt": "",
+   "pt": "Sim, bem... estou tirando uma folga. Vai levar um tempo. Não sei quanto, só... quero me afastar de tudo isso por um tempo, é isso.",
    "n": 1,
    "npc": [
     "sane_mage"
    ]
   },
   "You want to help me? HELP me? You? Who... who are you anyway? Ah nevermind.": {
-   "pt": "",
+   "pt": "Você quer me ajudar? Me AJUDAR? Você? Quem... quem é você afinal? Ah, deixa para lá.",
    "n": 1,
    "npc": [
     "sane_mage"
    ]
   },
   "...er... hello? Yes...? Well, if... if you have any questions - I am not even here.": {
-   "pt": "",
+   "pt": "...er... olá? Sim...? Bem, se... se você tiver alguma pergunta - eu nem estou aqui.",
    "n": 1,
    "npc": [
     "sane_mage"
@@ -48686,98 +48686,98 @@
    ]
   },
   "Indeed, there has to be some other way.": {
-   "pt": "",
+   "pt": "Realmente, tem que haver algum outro jeito.",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "Mmh, interesting.": {
-   "pt": "",
+   "pt": "Mmh, interessante.",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "Yes indeed, all of the equipment should be checked and calibrated regularly.": {
-   "pt": "",
+   "pt": "Sim, realmente, todo o equipamento deveria ser verificado e calibrado regularmente.",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "No, we have to give this another go.": {
-   "pt": "",
+   "pt": "Não, temos que tentar de novo.",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "So, did you find anything worth examining? Did you actually catch a ghost?": {
-   "pt": "",
+   "pt": "Então, você achou algo que valha a pena examinar? Você realmente capturou um fantasma?",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "You already done this quest.": {
-   "pt": "",
+   "pt": "Você já fez essa quest.",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "Talk research with spectulus to take some mission.": {
-   "pt": "",
+   "pt": "Fale sobre pesquisa com spectulus para pegar alguma missão.",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "Good, now all you need to do is find a ghost, defeat it and catch its very essence with the cage. Once you have it, return to me and Spectulus and I will move it into our chamber device. Good luck, return to me as soon as you are prepared.": {
-   "pt": "",
+   "pt": "Ótimo, agora tudo que você precisa fazer é encontrar um fantasma, derrotá-lo e capturar a própria essência dele com a cage. Assim que a tiver, volte até mim e Spectulus, e vou movê-la para nosso chamber device. Boa sorte, volte assim que estiver preparado.",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "Go and use the machine in a dead ghost!": {
-   "pt": "",
+   "pt": "Vá e use a máquina num fantasma morto!",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "Good, of course you will also receive an additional monetary reward for your troubles. Are you fine with that?": {
-   "pt": "",
+   "pt": "Ótimo, claro que você também vai receber uma recompensa monetária adicional pelo seu esforço. Tudo bem assim?",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "Alright, let us see how many ghosts you caught!": {
-   "pt": "",
+   "pt": "Muito bem, vamos ver quantos fantasmas você capturou!",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "You didnt catch the ghost pieces.": {
-   "pt": "",
+   "pt": "Você não capturou os pedaços do fantasma.",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "Alright you found something! Are you really finished hunting out there?": {
-   "pt": "",
+   "pt": "Muito bem, você achou alguma coisa! Você realmente terminou de caçar por aí?",
    "n": 1,
    "npc": [
     "sinclair"
    ]
   },
   "Greetings |PLAYERNAME|. I have - very - little time, please make it as short as possible. I may be able to help you if you are here to help us with any of our tasks or missions.": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. Tenho - muito - pouco tempo, por favor seja o mais breve possível. Talvez eu possa ajudá-lo, se você veio nos ajudar com alguma das nossas tarefas ou missões.",
    "n": 1,
    "npc": [
     "sinclair"
@@ -58424,11 +58424,11 @@
    "n": 2
   },
   "imprisonment": {
-   "pt": "",
+   "pt": "aprisionamento",
    "n": 2
   },
   "mourning": {
-   "pt": "",
+   "pt": "luto",
    "n": 2
   },
   "ready": {
@@ -59168,7 +59168,7 @@
    "n": 2
   },
   "mad": {
-   "pt": "",
+   "pt": "louco",
    "n": 2
   },
   "action": {
@@ -60572,11 +60572,11 @@
    "n": 1
   },
   "huntsman": {
-   "pt": "",
+   "pt": "caçador",
    "n": 1
   },
   "cruleo": {
-   "pt": "",
+   "pt": "Cruleo",
    "n": 1
   },
   "imbuement packages": {
@@ -62331,6 +62331,10 @@
   },
   "information": {
    "pt": "informações",
+   "n": 0
+  },
+  "balance": {
+   "pt": "equilíbrio",
    "n": 0
   }
  }
