@@ -10910,7 +10910,7 @@
    ]
   },
   "Excellent! Come back to me once you have collected 100 pieces of ape fur.": {
-   "pt": "",
+   "pt": "Excelente! Volte a mim quando tiver juntado 100 unidades de ape fur.",
    "n": 2,
    "npc": [
     "miraia",
@@ -10918,7 +10918,7 @@
    ]
   },
   "That is a shameless lie.": {
-   "pt": "",
+   "pt": "Isso é uma mentira descarada.",
    "n": 2,
    "npc": [
     "miraia",
@@ -35176,14 +35176,14 @@
    ]
   },
   "So receive my prayer: 'Let there be honour and humility'. Now, bring your stake to Rahkem in Ankrahmun for the next line of the prayer. I will inform him what to do.": {
-   "pt": "",
+   "pt": "Então receba minha oração: 'Que haja honra e humildade'. Agora, leve sua estaca até Rahkem, em Ankrahmun, para o próximo verso da oração. Vou avisá-lo do que fazer.",
    "n": 1,
    "npc": [
     "kasmir"
    ]
   },
   "You should visit Rahkem in Ankrahmun now, pilgrim.": {
-   "pt": "",
+   "pt": "Você deve visitar Rahkem em Ankrahmun agora, peregrino.",
    "n": 1,
    "npc": [
     "kasmir"
@@ -45165,28 +45165,28 @@
    ]
   },
   "My attack spells are: {Annihilation}, {Berserk}, {Brutal Strike}, {Chivalrous Challenge}, {Divine Caldera}, {Divine Missile}, {Ethereal Spear}, {Fierce Berserk}, {Front Sweep}, {Groundshaker}, {Holy Flash}, {Inflict Wound}, {Lesser Front Sweep}, {Strong Ethereal Spear} and {Whirlwind Throw}.": {
-   "pt": "",
+   "pt": "Minhas magias de ataque são: {Annihilation}, {Berserk}, {Brutal Strike}, {Chivalrous Challenge}, {Divine Caldera}, {Divine Missile}, {Ethereal Spear}, {Fierce Berserk}, {Front Sweep}, {Groundshaker}, {Holy Flash}, {Inflict Wound}, {Lesser Front Sweep}, {Strong Ethereal Spear} e {Whirlwind Throw}.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "My healing spells are: {Bruise Bane}, {Cure Bleeding}, {Cure Curse}, {Cure Poison}, {Divine Healing}, {Fair Wound Cleansing}, {Intense Healing}, {Intense Recovery}, {Intense Wound Cleansing}, {Light Healing}, {Magic Patch}, {Recovery}, {Salvation} and {Wound Cleansing}.": {
-   "pt": "",
+   "pt": "Minhas magias de cura são: {Bruise Bane}, {Cure Bleeding}, {Cure Curse}, {Cure Poison}, {Divine Healing}, {Fair Wound Cleansing}, {Intense Healing}, {Intense Recovery}, {Intense Wound Cleansing}, {Light Healing}, {Magic Patch}, {Recovery}, {Salvation} e {Wound Cleansing}.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "My support spells are: {Arrow Call}, {Cancel Invisibility}, {Charge}, {Conjure Arrow}, {Conjure Explosive Arrow}, {Enchant Spear}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope}, {Summon Knight Familiar}, {Summon Paladin Familiar} and {Swift Foot}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Arrow Call}, {Cancel Invisibility}, {Charge}, {Conjure Arrow}, {Conjure Explosive Arrow}, {Enchant Spear}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope}, {Summon Knight Familiar}, {Summon Paladin Familiar} e {Swift Foot}.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "I have spells for level {1}, {8}, {9}, {10}, {12}, {13}, {14}, {16}, {17}, {20}, {21}, {23}, {25}, {26}, {27}, {28}, {33}, {35}, {40}, {45}, {50}, {55}, {60}, {70}, {80}, {90}, {100}, {110}, {150}, {200} and {300}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {9}, {10}, {12}, {13}, {14}, {16}, {17}, {20}, {21}, {23}, {25}, {26}, {27}, {28}, {33}, {35}, {40}, {45}, {50}, {55}, {60}, {70}, {80}, {90}, {100}, {110}, {150}, {200} e {300}.",
    "n": 1,
    "npc": [
     "razan"
@@ -45256,28 +45256,28 @@
    ]
   },
   "My turban? Eh no, you can't have it. Only oriental weapon masters may wear it after having completed a difficult task.": {
-   "pt": "",
+   "pt": "Meu turbante? Ah, não, você não pode ficar com ele. Só mestres de armas orientais podem usá-lo, depois de concluir uma tarefa difícil.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "You mean, you would like to prove that you deserve to wear such a turban?": {
-   "pt": "",
+   "pt": "Quer dizer que você gostaria de provar que merece usar um turbante desses?",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "Greetings |PLAYERNAME|. What leads you to me?": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. O que o traz até mim?",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "Daraman's blessings.": {
-   "pt": "",
+   "pt": "As bênçãos de Daraman.",
    "n": 1,
    "npc": [
     "razan"
@@ -47853,28 +47853,28 @@
    ]
   },
   "My attack spells are: {Apprentice's Strike}, {Buzz}, {Chill Out}, {Creature Illusion}, {Curse}, {Death Strike}, {Electrify}, {Energy Beam}, {Energy Strike}, {Energy Wave}, {Envenom}, {Expose Weakness}, {Fire Wave}, {Flame Strike}, {Great Energy Beam}, {Great Fire Wave}, {Ice Strike}, {Ice Wave}, {Lightning}, {Mud Attack}, {Physical Strike}, {Sap Strength}, {Scorch}, {Strong Energy Strike}, {Strong Flame Strike}, {Strong Ice Strike}, {Strong Ice Wave}, {Strong Terra Strike}, {Terra Strike} and {Terra Wave}.": {
-   "pt": "",
+   "pt": "Minhas magias de ataque são: {Apprentice's Strike}, {Buzz}, {Chill Out}, {Creature Illusion}, {Curse}, {Death Strike}, {Electrify}, {Energy Beam}, {Energy Strike}, {Energy Wave}, {Envenom}, {Expose Weakness}, {Fire Wave}, {Flame Strike}, {Great Energy Beam}, {Great Fire Wave}, {Ice Strike}, {Ice Wave}, {Lightning}, {Mud Attack}, {Physical Strike}, {Sap Strength}, {Scorch}, {Strong Energy Strike}, {Strong Flame Strike}, {Strong Ice Strike}, {Strong Ice Wave}, {Strong Terra Strike}, {Terra Strike} e {Terra Wave}.",
    "n": 1,
    "npc": [
     "shalmar"
    ]
   },
   "My support spells are: {Animate Dead}, {Cancel Magic Shield}, {Convince Creature}, {Find Fiend}, {Find Person}, {Food}, {Great Light}, {Haste}, {Invisible}, {Levitate}, {Light}, {Magic Rope}, {Magic Shield}, {Strong Haste}, {Summon Creature}, {Summon Druid Familiar}, {Summon Sorcerer Familiar} and {Ultimate Light}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Animate Dead}, {Cancel Magic Shield}, {Convince Creature}, {Find Fiend}, {Find Person}, {Food}, {Great Light}, {Haste}, {Invisible}, {Levitate}, {Light}, {Magic Rope}, {Magic Shield}, {Strong Haste}, {Summon Creature}, {Summon Druid Familiar}, {Summon Sorcerer Familiar} e {Ultimate Light}.",
    "n": 1,
    "npc": [
     "shalmar"
    ]
   },
   "My rune spells are: {Avalanche} Rune, {Chameleon} Rune, {Cure Poison Rune}, {Destroy Field} Rune, {Disintegrate} Rune, {Energy Bomb} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Explosion} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Fireball} Rune, {Great Fireball} Rune, {Heavy Magic Missile} Rune, {Icicle} Rune, {Intense Healing Rune}, {Light Magic Missile} Rune, {Magic Wall} Rune, {Paralyse} Rune, {Poison Bomb} Rune, {Poison Field} Rune, {Poison Wall} Rune, {Soulfire} Rune, {Stalagmite} Rune, {Stone Shower} Rune, {Sudden Death} Rune, {Thunderstorm} Rune and {Ultimate Healing Rune}.": {
-   "pt": "",
+   "pt": "Minhas magias de rune são: {Avalanche} Rune, {Chameleon} Rune, {Cure Poison Rune}, {Destroy Field} Rune, {Disintegrate} Rune, {Energy Bomb} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Explosion} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Fireball} Rune, {Great Fireball} Rune, {Heavy Magic Missile} Rune, {Icicle} Rune, {Intense Healing Rune}, {Light Magic Missile} Rune, {Magic Wall} Rune, {Paralyse} Rune, {Poison Bomb} Rune, {Poison Field} Rune, {Poison Wall} Rune, {Soulfire} Rune, {Stalagmite} Rune, {Stone Shower} Rune, {Sudden Death} Rune, {Thunderstorm} Rune e {Ultimate Healing Rune}.",
    "n": 1,
    "npc": [
     "shalmar"
    ]
   },
   "I have spells for level {1}, {8}, {9}, {10}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {20}, {21}, {22}, {23}, {24}, {25}, {26}, {27}, {28}, {29}, {30}, {31}, {32}, {33}, {34}, {35}, {36}, {37}, {38}, {40}, {41}, {45}, {50}, {54}, {55}, {70}, {75}, {80}, {175}, {200}, {275} and {300}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {9}, {10}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {20}, {21}, {22}, {23}, {24}, {25}, {26}, {27}, {28}, {29}, {30}, {31}, {32}, {33}, {34}, {35}, {36}, {37}, {38}, {40}, {41}, {45}, {50}, {54}, {55}, {70}, {75}, {80}, {175}, {200}, {275} e {300}.",
    "n": 1,
    "npc": [
     "shalmar"
