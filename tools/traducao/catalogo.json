@@ -4335,7 +4335,7 @@
    ]
   },
   "Asha Thrazi.": {
-   "pt": "",
+   "pt": "Asha Thrazi.",
    "n": 6,
    "npc": [
     "anerui",
@@ -9747,14 +9747,14 @@
    ]
   },
   "I greet thee, outsider.": {
-   "pt": "",
+   "pt": "Eu vos saúdo, forasteiro.",
    "n": 2,
    "npc": [
     "eroth"
    ]
   },
   "Asha Thrazi. Go, where you have to go.": {
-   "pt": "",
+   "pt": "Asha Thrazi. Vá aonde tiver que ir.",
    "n": 2,
    "npc": [
     "eroth"
@@ -10783,7 +10783,7 @@
    ]
   },
   "I think you have forgotten to bring your stake.": {
-   "pt": "",
+   "pt": "Acho que você esqueceu de trazer sua estaca.",
    "n": 2,
    "npc": [
     "maealil",
@@ -25530,35 +25530,35 @@
    ]
   },
   "I can teach you {attack} spells, {support} spells and spells for {runes}. What kind of spell do you wish to learn? I can also tell you which spells are available at your {level}.": {
-   "pt": "",
+   "pt": "Posso lhe ensinar magias de {ataque}, magias de {suporte} e magias de {runas}. Que tipo de magia deseja aprender? Também posso lhe dizer quais magias estão disponíveis no seu {level}.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "My attack spells are: {Apprentice's Strike}, {Chill Out} and {Mud Attack}.": {
-   "pt": "",
+   "pt": "Minhas magias de ataque são: {Apprentice's Strike}, {Chill Out} e {Mud Attack}.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "My support spells are: {Convince Creature}, {Creature Illusion}, {Invisibility}, {Magic Shield} and {Summon Creature}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Convince Creature}, {Creature Illusion}, {Invisibility}, {Magic Shield} e {Summon Creature}.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "My rune spells are: {Chameleon} Rune, {Destroy Field} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Poison Field} Rune and {Poison Wall} Rune.": {
-   "pt": "",
+   "pt": "Minhas magias de rune são: {Chameleon} Rune, {Destroy Field} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Poison Field} Rune e {Poison Wall} Rune.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "I have spells for level {1}, {8}, {14}, {15}, {16}, {17}, {18}, {23}, {25}, {27}, {29}, {33}, {35} and {41}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {14}, {15}, {16}, {17}, {18}, {23}, {25}, {27}, {29}, {33}, {35} e {41}.",
    "n": 1,
    "npc": [
     "eroth"
@@ -25600,63 +25600,63 @@
    ]
   },
   "I am the leader of the Cenath caste.": {
-   "pt": "",
+   "pt": "Sou o líder da casta Cenath.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "The Kuridai are aggressive and victims of their instincts. Without our help they would surely die in a foolish war.": {
-   "pt": "",
+   "pt": "Os Kuridai são agressivos e vítimas dos próprios instintos. Sem nossa ajuda, com certeza morreriam numa guerra tola.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "Gods are for the weak. We will master the world on our own. We need no gods.": {
-   "pt": "",
+   "pt": "Deuses são para os fracos. Vamos dominar o mundo por conta própria. Não precisamos de deuses.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "They lack the understanding of unity. We are keeping them together and prevent them from being slaughtered one by one.": {
-   "pt": "",
+   "pt": "Falta a eles a compreensão da unidade. Nós os mantemos unidos e impedimos que sejam massacrados um a um.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "We are the shepherds of our people. The other castes need our guidance.": {
-   "pt": "",
+   "pt": "Somos os pastores do nosso povo. As outras castas precisam da nossa orientação.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "Magic comes almost naturally to the Cenath. We keep the secrets of ages.": {
-   "pt": "",
+   "pt": "A magia vem quase naturalmente aos Cenath. Guardamos os segredos das eras.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "I can teach the spells 'magic shield', 'destroy field', 'creature illusion', 'chameleon', 'convince creature', and 'summon creature'.": {
-   "pt": "",
+   "pt": "Posso ensinar as magias 'magic shield', 'destroy field', 'creature illusion', 'chameleon', 'convince creature' e 'summon creature'.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "Have you ever heard of Elvenbane? It is the castle west of Ab'Dendriel which is inhabited by villains from all over the continent. Any support in this war is welcome. Are you willing to help?": {
-   "pt": "",
+   "pt": "Você já ouviu falar de Elvenbane? É o castelo a oeste de Ab'Dendriel, habitado por vilões de todo o continente. Qualquer apoio nesta guerra é bem-vindo. Está disposto a ajudar?",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "I heard the blow! The reflection must have caused a overcharge of magical energy leading to the contraction and the implosion. Just like I hoped! Please take this as a reward. Thank you very much.": {
-   "pt": "",
+   "pt": "Ouvi a explosão! O reflexo deve ter causado uma sobrecarga de energia mágica, levando à contração e à implosão. Exatamente como eu esperava! Por favor, fique com isto como recompensa. Muito obrigado.",
    "n": 1,
    "npc": [
     "eroth"
@@ -38452,14 +38452,14 @@
    ]
   },
   "So receive my prayer: 'Peace may fill your soul - evil shall be cleansed'. Now, bring your stake to Yberius in the Venore temple for the next line of the prayer. I will inform him what to do.": {
-   "pt": "",
+   "pt": "Então receba minha oração: 'Que a paz encha sua alma - o mal será purificado'. Agora, leve sua estaca até Yberius, no templo de Venore, para o próximo verso da oração. Vou avisá-lo do que fazer.",
    "n": 1,
    "npc": [
     "maealil"
    ]
   },
   "You should visit Yberius in the Venore temple now.": {
-   "pt": "",
+   "pt": "Você deve visitar Yberius no templo de Venore agora.",
    "n": 1,
    "npc": [
     "maealil"
@@ -38473,21 +38473,21 @@
    ]
   },
   "I can teach you {healing} spells and spells for {runes}. What kind of spell do you wish to learn? I can also tell you which spells are available at your {level}.": {
-   "pt": "",
+   "pt": "Posso lhe ensinar magias de {cura} e magias de {runas}. Que tipo de magia deseja aprender? Também posso lhe dizer quais magias estão disponíveis no seu {level}.",
    "n": 1,
    "npc": [
     "maealil"
    ]
   },
   "My rune spells are: {Cure Poison Rune}, {Intense Healing Rune} and {Ultimate Healing Rune}.": {
-   "pt": "",
+   "pt": "Minhas magias de rune são: {Cure Poison Rune}, {Intense Healing Rune} e {Ultimate Healing Rune}.",
    "n": 1,
    "npc": [
     "maealil"
    ]
   },
   "I have spells for level {1}, {8}, {10}, {15}, {20}, {24} and {30}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {10}, {15}, {20}, {24} e {30}.",
    "n": 1,
    "npc": [
     "maealil"
@@ -39796,21 +39796,21 @@
    ]
   },
   "Did you bring the dress?": {
-   "pt": "",
+   "pt": "Você trouxe o vestido?",
    "n": 1,
    "npc": [
     "mortimer"
    ]
   },
   "The reports from Port Hope have already arrived here and our progress is astonishing. We think it is possible to create an astral bridge between our bases. Are you interested to assist us with this?": {
-   "pt": "",
+   "pt": "Os relatórios de Port Hope já chegaram aqui, e nosso progresso é espantoso. Achamos que é possível criar uma ponte astral entre nossas bases. Tem interesse em nos ajudar com isso?",
    "n": 1,
    "npc": [
     "mortimer"
    ]
   },
   "Good! Ask me for another mission.": {
-   "pt": "",
+   "pt": "Ótimo! Me peça outra missão.",
    "n": 1,
    "npc": [
     "mortimer"
