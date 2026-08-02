@@ -1673,7 +1673,7 @@
    ]
   },
   "...": {
-   "pt": "",
+   "pt": "...",
    "n": 12,
    "npc": [
     "arkarra",
@@ -3572,7 +3572,7 @@
    ]
   },
   "Have you finished your mission?": {
-   "pt": "",
+   "pt": "Você concluiu sua missão?",
    "n": 8,
    "npc": [
     "dorian"
@@ -5358,7 +5358,7 @@
    ]
   },
   "You need to wait some hours to take another mission again or you are still on a mission.": {
-   "pt": "",
+   "pt": "Você precisa esperar algumas horas para pegar outra missão, ou ainda está numa missão.",
    "n": 5,
    "npc": [
     "rottin_wood"
@@ -5517,7 +5517,7 @@
    ]
   },
   "Welcome to the post office!": {
-   "pt": "",
+   "pt": "Bem-vindo aos correios!",
    "n": 4,
    "npc": [
     "benjamin",
@@ -5733,7 +5733,7 @@
    ]
   },
   "Good bye, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Até logo, |PLAYERNAME|!",
    "n": 4,
    "npc": [
     "dorian",
@@ -5950,7 +5950,7 @@
    ]
   },
   "See you next time!": {
-   "pt": "",
+   "pt": "Até a próxima!",
    "n": 4,
    "npc": [
     "junkar_mines",
@@ -6314,7 +6314,7 @@
    ]
   },
   "If you need help with letters or parcels, just ask me. I can explain everything.": {
-   "pt": "",
+   "pt": "Se precisar de ajuda com cartas ou pacotes, é só me perguntar. Posso explicar tudo.",
    "n": 3,
    "npc": [
     "benjamin",
@@ -6323,7 +6323,7 @@
    ]
   },
   "Hey, send a letter to your friend now and then. Keep in touch, you know.": {
-   "pt": "",
+   "pt": "Ei, mande uma carta para seu amigo de vez em quando. Mantenha contato, sabe como é.",
    "n": 3,
    "npc": [
     "benjamin",
@@ -6332,7 +6332,7 @@
    ]
   },
   "Hello. How may I help you |PLAYERNAME|? Ask me for a {trade} if you want to buy something. I can also explain the {mail} system.": {
-   "pt": "",
+   "pt": "Olá. Como posso ajudá-lo, |PLAYERNAME|? Me peça para {negociar} se quiser comprar algo. Também posso explicar o sistema de {correio}.",
    "n": 3,
    "npc": [
     "benjamin",
@@ -6923,7 +6923,7 @@
    ]
   },
   "So much to do. So many things to be fixed.": {
-   "pt": "",
+   "pt": "Tanta coisa para fazer. Tanta coisa para consertar.",
    "n": 3,
    "npc": [
     "junkar_mines",
@@ -6932,7 +6932,7 @@
    ]
   },
   "Still so much work.": {
-   "pt": "",
+   "pt": "Ainda tanto trabalho.",
    "n": 3,
    "npc": [
     "junkar_mines",
@@ -6941,7 +6941,7 @@
    ]
   },
   "Full steam ahead!": {
-   "pt": "",
+   "pt": "A todo vapor!",
    "n": 3,
    "npc": [
     "junkar_mines",
@@ -6950,7 +6950,7 @@
    ]
   },
   "Well, then you stay here, simple as that.": {
-   "pt": "",
+   "pt": "Bem, então você fica aqui, simples assim.",
    "n": 3,
    "npc": [
     "junkar_mines",
@@ -6959,7 +6959,7 @@
    ]
   },
   "Welcome, |PLAYERNAME|! You are lucky that the service is running right now. Save your coal for the days to come though!": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Você tem sorte, o serviço está funcionando agora. Mas guarde seu carvão para os dias que vêm!",
    "n": 3,
    "npc": [
     "junkar_mines",
@@ -6968,7 +6968,7 @@
    ]
   },
   "<Sigh> No patience!": {
-   "pt": "",
+   "pt": "<Suspira> Sem paciência!",
    "n": 3,
    "npc": [
     "junkar_mines",
@@ -7134,7 +7134,7 @@
    ]
   },
   "<sniff><sniff>": {
-   "pt": "",
+   "pt": "<fareja><fareja>",
    "n": 3,
    "npc": [
     "noodles"
@@ -7379,7 +7379,7 @@
    ]
   },
   "<sniff>": {
-   "pt": "",
+   "pt": "<fareja>",
    "n": 2,
    "npc": [
     "a_starving_dog",
@@ -7408,7 +7408,7 @@
    ]
   },
   "Take care, guardian.": {
-   "pt": "",
+   "pt": "Cuide-se, guardião.",
    "n": 2,
    "npc": [
     "a_weakened_forest_fury"
@@ -8649,7 +8649,7 @@
    ]
   },
   "Oh they don't change that much since in the old days as... <tells a boring and confusing story about a cake, a parcel, himself and two squirrels, at least he tells you his measurements in the end>": {
-   "pt": "",
+   "pt": "Ah, não mudou tanto desde antigamente quando... <conta uma história chata e confusa sobre um bolo, um pacote, ele mesmo e dois esquilos; pelo menos no final ele conta suas medidas>",
    "n": 2,
    "npc": [
     "benjamin",
@@ -9886,7 +9886,7 @@
    ]
   },
   "Bye. Tell others about... my little shop here.": {
-   "pt": "",
+   "pt": "Tchau. Conte aos outros sobre... minha lojinha aqui.",
    "n": 2,
    "npc": [
     "gamel"
@@ -11039,14 +11039,14 @@
    ]
   },
   "Woof!": {
-   "pt": "",
+   "pt": "Au!",
    "n": 2,
    "npc": [
     "noodles"
    ]
   },
   "Woof! <wiggle>": {
-   "pt": "",
+   "pt": "Au! <se contorce>",
    "n": 2,
    "npc": [
     "noodles"
@@ -13410,70 +13410,70 @@
    ]
   },
   "My name is now known only to the wind and it shall remain like this until I will return to my kin.": {
-   "pt": "",
+   "pt": "Meu nome agora só o vento conhece, e assim há de continuar até eu retornar aos meus.",
    "n": 1,
    "npc": [
     "a_weakened_forest_fury"
    ]
   },
   "I was a guardian of this glade. I am the last one... everyone had to leave.": {
-   "pt": "",
+   "pt": "Eu era guardiã desta clareira. Sou a última... todos tiveram que partir.",
    "n": 1,
    "npc": [
     "a_weakened_forest_fury"
    ]
   },
   "This glade's time is growing short if nothing will be done soon.": {
-   "pt": "",
+   "pt": "O tempo desta clareira está se esgotando se nada for feito logo.",
    "n": 1,
    "npc": [
     "a_weakened_forest_fury"
    ]
   },
   "Cruel beings. Large and monstrous, with a single eye, staring at their prey.": {
-   "pt": "",
+   "pt": "Seres cruéis. Grandes e monstruosos, com um único olho, fitando a presa.",
    "n": 1,
    "npc": [
     "a_weakened_forest_fury"
    ]
   },
   "Seeds to give life to strong trees, blooming and proud. The {intruders} robbed us from them.": {
-   "pt": "",
+   "pt": "Sementes para dar vida a árvores fortes, floridas e altivas. Os {invasores} nos roubaram delas.",
    "n": 1,
    "npc": [
     "a_weakened_forest_fury"
    ]
   },
   "The intruders appeared in the blink of an eye. Out of thin air, as if they came from nowhere. They overrun the glade within ours and drove away what was remaining from us within the day.": {
-   "pt": "",
+   "pt": "Os invasores apareceram num piscar de olhos. Do nada, como se tivessem vindo de lugar nenhum. Tomaram a clareira que era nossa e expulsaram o que restava de nós ainda naquele dia.",
    "n": 1,
    "npc": [
     "a_weakened_forest_fury"
    ]
   },
   "The purest water flows through this well. For centuries we concealed it, for other beings to not lay their eyes on it.": {
-   "pt": "",
+   "pt": "A água mais pura corre por este poço. Por séculos a escondemos, para que outros seres não pousassem os olhos nela.",
    "n": 1,
    "npc": [
     "a_weakened_forest_fury"
    ]
   },
   "Phials for the purest water from our sacred well. They are finely crafted and very fragile. We keep a small supply up here around the well. Probably the only thing the intruders did not care for.": {
-   "pt": "",
+   "pt": "Frascos para a água mais pura do nosso poço sagrado. São finamente trabalhados e muito frágeis. Guardamos uma pequena reserva aqui perto do poço. Provavelmente a única coisa que os invasores não quiseram.",
    "n": 1,
    "npc": [
     "a_weakened_forest_fury"
    ]
   },
   "I already handed a cage to you. If you are in need of another one, you will have to return to me later.": {
-   "pt": "",
+   "pt": "Já lhe entreguei uma gaiola. Se precisar de outra, terá que voltar a mim mais tarde.",
    "n": 1,
    "npc": [
     "a_weakened_forest_fury"
    ]
   },
   "I greet you, human. This is a time of distress, more than ever are we in need of guardians to protect us and our world.": {
-   "pt": "",
+   "pt": "Eu o saúdo, humano. Este é um tempo de aflição, mais do que nunca precisamos de guardiões para nos proteger, a nós e ao nosso mundo.",
    "n": 1,
    "npc": [
     "a_weakened_forest_fury"
@@ -16630,7 +16630,7 @@
    ]
   },
   "It was a pleasure to help you.": {
-   "pt": "",
+   "pt": "Foi um prazer ajudá-lo.",
    "n": 1,
    "npc": [
     "benjamin"
@@ -23427,56 +23427,56 @@
    ]
   },
   "What a fine material. That will be worth a coin or two. So far, so good. Ask me for another mission if you're ready for it.": {
-   "pt": "",
+   "pt": "Que material fino. Vai valer umas moedinhas. Até aqui, tudo bem. Me peça outra missão quando estiver pronto.",
    "n": 1,
    "npc": [
     "dorian"
    ]
   },
   "What an ugly vase. But who am I to question the taste of our customers? Anyway, I might have another mission in store for you.": {
-   "pt": "",
+   "pt": "Que vaso feio. Mas quem sou eu para questionar o gosto dos nossos clientes? De qualquer forma, talvez eu tenha outra missão reservada para você.",
    "n": 1,
    "npc": [
     "dorian"
    ]
   },
   "Excellent, that serves this fool right. I fear in your next mission, you'll have to get your hands dirty. Just ask me to learn more about it.": {
-   "pt": "",
+   "pt": "Excelente, bem feito para esse tolo. Receio que na sua próxima missão você vá ter que sujar as mãos. É só me perguntar para saber mais.",
    "n": 1,
    "npc": [
     "dorian"
    ]
   },
   "That goblet is hardly worth all this trouble but we had to insist on our payment. However, I assume you are eager for more missions, so just ask.": {
-   "pt": "",
+   "pt": "Aquele cálice mal vale todo esse trabalho, mas tivemos que insistir no pagamento. De todo modo, imagino que você esteja ansioso por mais missões, então é só perguntar.",
    "n": 1,
    "npc": [
     "dorian"
    ]
   },
   "This little goldfish will bring us a hefty ransom! Just ask me if you're ready for another mission.": {
-   "pt": "",
+   "pt": "Esse peixinho dourado vai nos render um belo resgate! É só me perguntar se estiver pronto para outra missão.",
    "n": 1,
    "npc": [
     "dorian"
    ]
   },
   "Hm. Well, we could use some fresh blood. Ahum. Do you want to join the thieves guild, |PLAYERNAME|?": {
-   "pt": "",
+   "pt": "Hm. Bem, podíamos usar sangue novo. Ahum. Quer se juntar à guilda dos ladrões, |PLAYERNAME|?",
    "n": 1,
    "npc": [
     "dorian"
    ]
   },
   "Yes, I sell lock picks. Ask me for a trade.": {
-   "pt": "",
+   "pt": "Sim, eu vendo lock picks. Me peça para negociar.",
    "n": 1,
    "npc": [
     "dorian"
    ]
   },
   "Greetings, |PLAYERNAME|! Why do you disturb me?": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|! Por que me incomoda?",
    "n": 1,
    "npc": [
     "dorian"
@@ -23777,49 +23777,49 @@
    ]
   },
   "I'm looking for a new assistant!": {
-   "pt": "",
+   "pt": "Estou procurando um novo assistente!",
    "n": 1,
    "npc": [
     "eclesius"
    ]
   },
   "Err, what was it again that I wanted...?": {
-   "pt": "",
+   "pt": "Ahn, o que era mesmo que eu queria...?",
    "n": 1,
    "npc": [
     "eclesius"
    ]
   },
   "Do come in! Mind the step of the magical door, though.": {
-   "pt": "",
+   "pt": "Entre, sim! Mas cuidado com o degrau da porta mágica.",
    "n": 1,
    "npc": [
     "eclesius"
    ]
   },
   "I'm so sorry... I promise it won't happen again. Problem is, I can't remember where I made the error...": {
-   "pt": "",
+   "pt": "Sinto muitíssimo... prometo que não vai acontecer de novo. O problema é que não lembro onde cometi o erro...",
    "n": 1,
    "npc": [
     "eclesius"
    ]
   },
   "Actually, I STILL prefer inexperienced assistants. They're easier to keep an eye on and don't tend to backstab you.": {
-   "pt": "",
+   "pt": "Na verdade, ainda prefiro assistentes inexperientes. É mais fácil vigiá-los e eles não costumam apunhalar pelas costas.",
    "n": 1,
    "npc": [
     "eclesius"
    ]
   },
   "So much to do, so much to do... uh... where should I start?": {
-   "pt": "",
+   "pt": "Tanta coisa para fazer, tanta coisa para fazer... uh... por onde eu começo?",
    "n": 1,
    "npc": [
     "eclesius"
    ]
   },
   "Who are you? What do you want? You seem too experienced to become my assistant. Please leave.": {
-   "pt": "",
+   "pt": "Quem é você? O que quer? Você parece experiente demais para virar meu assistente. Por favor, vá embora.",
    "n": 1,
    "npc": [
     "eclesius"
@@ -27032,42 +27032,42 @@
    ]
   },
   "Pssst!": {
-   "pt": "",
+   "pt": "Psiu!",
    "n": 1,
    "npc": [
     "gamel"
    ]
   },
   "I don't like the way you look. Help me boys!": {
-   "pt": "",
+   "pt": "Não gosto da sua cara. Me ajudem, rapazes!",
    "n": 1,
    "npc": [
     "gamel"
    ]
   },
   "You have a letter for me?": {
-   "pt": "",
+   "pt": "Você tem uma carta para mim?",
    "n": 1,
    "npc": [
     "gamel"
    ]
   },
   "Oh well. I guess I am still on the hook. Tell your 'uncle' I will proceed as he suggested.": {
-   "pt": "",
+   "pt": "Ah, bem. Acho que ainda estou enrolado nisso. Diga ao seu 'tio' que vou proceder como ele sugeriu.",
    "n": 1,
    "npc": [
     "gamel"
    ]
   },
   "You don't have any letter!": {
-   "pt": "",
+   "pt": "Você não tem carta nenhuma!",
    "n": 1,
    "npc": [
     "gamel"
    ]
   },
   "Pssst! Be silent. Do you wish to {buy} something?": {
-   "pt": "",
+   "pt": "Psiu! Fique quieto. Deseja {comprar} alguma coisa?",
    "n": 1,
    "npc": [
     "gamel"
@@ -35068,7 +35068,7 @@
    ]
   },
   "Where do you want me to take you? To {Kazordoon} or to {Robsons Isle}? Occasionally we can even reach the {mines} if they are cleared.": {
-   "pt": "",
+   "pt": "Para onde você quer que eu lhe leve? Para {Kazordoon} ou para {Robsons Isle}? De vez em quando conseguimos até chegar às {minas}, se estiverem liberadas.",
    "n": 1,
    "npc": [
     "junkar_thais"
@@ -40948,42 +40948,42 @@
    ]
   },
   "Grrrrrrr.": {
-   "pt": "",
+   "pt": "Grrrrrrr.",
    "n": 1,
    "npc": [
     "noodles"
    ]
   },
   "<wiggles>": {
-   "pt": "",
+   "pt": "<se contorce>",
    "n": 1,
    "npc": [
     "noodles"
    ]
   },
   "Woof! Woof!": {
-   "pt": "",
+   "pt": "Au! Au!",
    "n": 1,
    "npc": [
     "noodles"
    ]
   },
   "Wooof!": {
-   "pt": "",
+   "pt": "Auuu!",
    "n": 1,
    "npc": [
     "noodles"
    ]
   },
   "Meeep! Grrrrr! <spits>": {
-   "pt": "",
+   "pt": "Miiii! Grrrrr! <cospe>",
    "n": 1,
    "npc": [
     "noodles"
    ]
   },
   "<sniff> Woof! <sniff>": {
-   "pt": "",
+   "pt": "<fareja> Au! <fareja>",
    "n": 1,
    "npc": [
     "noodles"
@@ -46156,63 +46156,63 @@
    ]
   },
   "Oh, you want some work? You can help us, alright. Did you know that the people of the city think those rabbit feet are actually lucky charms?": {
-   "pt": "",
+   "pt": "Ah, você quer trabalho? Pode nos ajudar, sim senhor. Sabia que o povo da cidade acha que essas patas de coelho são amuletos da sorte?",
    "n": 1,
    "npc": [
     "rottin_wood"
    ]
   },
   "Good to see you back. Now, did you bring us the lucky charms?": {
-   "pt": "",
+   "pt": "Bom te ver de volta. Então, trouxe os amuletos da sorte para nós?",
    "n": 1,
    "npc": [
     "rottin_wood"
    ]
   },
   "Ah there you are. So, did you repair all the broken structures?": {
-   "pt": "",
+   "pt": "Ah, aí está você. Então, consertou todas as estruturas quebradas?",
    "n": 1,
    "npc": [
     "rottin_wood"
    ]
   },
   "You did it!! And I assume you took only what you needed? Heh. No, I know it. Because my men took the rest. Thanks for helping us, you did a very good job. In fact I have a little 'extra' for you here, thanks again.": {
-   "pt": "",
+   "pt": "Você conseguiu!! E imagino que pegou só o que precisava? Heh. Não, eu sei que sim. Porque meus homens pegaram o resto. Obrigado por nos ajudar, você fez um ótimo trabalho. Aliás, tenho um 'extra' aqui para você, obrigado de novo.",
    "n": 1,
    "npc": [
     "rottin_wood"
    ]
   },
   "Good, because that is exactly what you will help us with - getting more 'lucky charms'. If we won't get our hands on new charms in time, we will surely have to starve... during the autumn. That would be a hard time for all of us. So... you in?": {
-   "pt": "",
+   "pt": "Ótimo, porque é exatamente com isso que você vai nos ajudar - conseguir mais 'amuletos da sorte'. Se não colocarmos as mãos em amuletos novos a tempo, com certeza vamos passar fome... durante o outono. Seria um tempo duro para todos nós. Então... topa?",
    "n": 1,
    "npc": [
     "rottin_wood"
    ]
   },
   "Good hunt. That will be enough to help us uhm... get through the winter yes. Now if you want to help us getting even more lucky charms, you can always ask.": {
-   "pt": "",
+   "pt": "Boa caçada. Isso vai bastar para nos ajudar a... passar pelo inverno, sim. Agora, se quiser nos ajudar a conseguir ainda mais amuletos da sorte, pode sempre perguntar.",
    "n": 1,
    "npc": [
     "rottin_wood"
    ]
   },
   "You do not have sufficient rabbit's foot.": {
-   "pt": "",
+   "pt": "Você não tem rabbit's foot suficientes.",
    "n": 1,
    "npc": [
     "rottin_wood"
    ]
   },
   "Good, good. Do you remember the old saying? If it ain't broken, it was not made by us. Now, off you go!": {
-   "pt": "",
+   "pt": "Bom, bom. Lembra do velho ditado? Se não está quebrado, não fomos nós que fizemos. Agora, vá em frente!",
    "n": 1,
    "npc": [
     "rottin_wood"
    ]
   },
   "Hunter's greeting! I assume you want something from me since you came all the way out here on your own. This is a dangerous place to be, I doubt that all my men will accept strangers like I do. You don't seem to have any problems with that, though.": {
-   "pt": "",
+   "pt": "Saudações de caçador! Imagino que você queira algo de mim, já que veio até aqui sozinho. Este é um lugar perigoso, duvido que todos os meus homens aceitem estranhos como eu aceito. Mas você não parece ter problema nenhum com isso.",
    "n": 1,
    "npc": [
     "rottin_wood"
@@ -51889,56 +51889,56 @@
    ]
   },
   "Hear me! Hear me! The mage Wyrdin in the Edron academy is looking for brave adventurers to undertake a task!": {
-   "pt": "",
+   "pt": "Ouçam! Ouçam! O mago Wyrdin, na academia de Edron, procura aventureiros corajosos para uma tarefa!",
    "n": 1,
    "npc": [
     "towncryer"
    ]
   },
   "Hear me! Hear me! The postmaster's guild has open spots for aspiring postmen! Contact Kevin Postner at the post office in the plains south of Kazordoon!": {
-   "pt": "",
+   "pt": "Ouçam! Ouçam! A guilda dos postmasters tem vagas abertas para aspirantes a carteiro! Procure Kevin Postner nos correios das planícies ao sul de Kazordoon!",
    "n": 1,
    "npc": [
     "towncryer"
    ]
   },
   "Hear me! Hear me! The inquisition is looking for daring people to fight evil! Apply at the inquisition headquarters next to the Thaian jail!": {
-   "pt": "",
+   "pt": "Ouçam! Ouçam! A inquisição procura gente destemida para combater o mal! Candidate-se na sede da inquisição, ao lado da cadeia de Thais!",
    "n": 1,
    "npc": [
     "towncryer"
    ]
   },
   "In Ankrahmun's desert, a storm has revealed the entry to a nightmare that can't be sealed. Horrible creatures there spell instant death to all young adventurers who dare take a breath!": {
-   "pt": "",
+   "pt": "No deserto de Ankrahmun, uma tempestade revelou a entrada de um pesadelo que não pode ser selado. Criaturas horríveis ali significam morte instantânea para todo jovem aventureiro que ousar respirar por lá!",
    "n": 1,
    "npc": [
     "towncryer"
    ]
   },
   "Near Darashia's coast, a storm has revealed the entry to a nightmare that can't be sealed. Horrible creatures there spell instant death to all young adventurers who dare take a breath!": {
-   "pt": "",
+   "pt": "Perto da costa de Darashia, uma tempestade revelou a entrada de um pesadelo que não pode ser selado. Criaturas horríveis ali significam morte instantânea para todo jovem aventureiro que ousar respirar por lá!",
    "n": 1,
    "npc": [
     "towncryer"
    ]
   },
   "Near Drefia's mountains, a storm has revealed the entry to a nightmare that can't be sealed. Horrible creatures there spell instant death to all young adventurers who dare take a breath!": {
-   "pt": "",
+   "pt": "Perto das montanhas de Drefia, uma tempestade revelou a entrada de um pesadelo que não pode ser selado. Criaturas horríveis ali significam morte instantânea para todo jovem aventureiro que ousar respirar por lá!",
    "n": 1,
    "npc": [
     "towncryer"
    ]
   },
   "Hear ye! Hear ye! What a lucky and beautiful day! Visit Carlin, Ankrahmun, or Liberty Bay. Yasir, the oriental trader might be there. Gather your creature products, for this chance is rare.": {
-   "pt": "",
+   "pt": "Ouvi! Ouvi! Que dia lindo e de sorte! Visitem Carlin, Ankrahmun ou Liberty Bay. Yasir, o mercador oriental, talvez esteja lá. Juntem seus creature products, pois esta chance é rara.",
    "n": 1,
    "npc": [
     "towncryer"
    ]
   },
   "Hear ye! Hear ye! A fiery gate has opened, threatening a city! Guard the people frightened, their death would be a pity!": {
-   "pt": "",
+   "pt": "Ouvi! Ouvi! Um portal de fogo se abriu, ameaçando uma cidade! Protejam o povo apavorado, a morte deles seria uma pena!",
    "n": 1,
    "npc": [
     "towncryer"
@@ -57238,7 +57238,7 @@
    "n": 5
   },
   "mail": {
-   "pt": "",
+   "pt": "correio",
    "n": 5
   },
   "footballs": {
@@ -57758,7 +57758,7 @@
    "n": 3
   },
   "intruders": {
-   "pt": "",
+   "pt": "invasores",
    "n": 3
   },
   "books": {
@@ -58986,7 +58986,7 @@
    "n": 2
   },
   "mines": {
-   "pt": "",
+   "pt": "minas",
    "n": 2
   },
   "kais": {
