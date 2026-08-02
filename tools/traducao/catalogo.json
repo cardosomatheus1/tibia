@@ -6051,7 +6051,7 @@
    ]
   },
   "If you have a crime to report and clues, then do it, but don't waste my time.": {
-   "pt": "",
+   "pt": "Se tem um crime para relatar e pistas, então faça isso, mas não perca meu tempo.",
    "n": 4,
    "npc": [
     "shauna"
@@ -7248,7 +7248,7 @@
    ]
   },
   "I don't like rumours.": {
-   "pt": "",
+   "pt": "Não gosto de rumores.",
    "n": 3,
    "npc": [
     "phillip"
@@ -11114,7 +11114,7 @@
    ]
   },
   "The southern king is called Tibianus. He and our queen Eloise are in a constant struggle.": {
-   "pt": "",
+   "pt": "O rei do sul se chama Tibianus. Ele e nossa rainha Eloise estão em conflito constante.",
    "n": 2,
    "npc": [
     "phillip"
@@ -11670,35 +11670,35 @@
    ]
   },
   "HAIL TO QUEEN ELOISE!": {
-   "pt": "",
+   "pt": "SALVE A QUEEN ELOISE!",
    "n": 2,
    "npc": [
     "shauna"
    ]
   },
   "If they make trouble, I'll put them behind bars like all others.": {
-   "pt": "",
+   "pt": "Se causarem problema, vou colocá-los atrás das grades como todos os outros.",
    "n": 2,
    "npc": [
     "shauna"
    ]
   },
   "The Bonecrusher family is ideally suited for military jobs.": {
-   "pt": "",
+   "pt": "A família Bonecrusher é ideal para trabalhos militares.",
    "n": 2,
    "npc": [
     "shauna"
    ]
   },
   "Rowenna is one of our local smiths. When you look for weapons, look for Rowenna.": {
-   "pt": "",
+   "pt": "Rowenna é uma das nossas ferreiras locais. Quando procurar armas, procure Rowenna.",
    "n": 2,
    "npc": [
     "shauna"
    ]
   },
   "Cornelia is one of our local smiths. When you look for armor, look for Cornelia.": {
-   "pt": "",
+   "pt": "Cornelia é uma das nossas ferreiras locais. Quando procurar armaduras, procure Cornelia.",
    "n": 2,
    "npc": [
     "shauna"
@@ -43681,154 +43681,154 @@
    ]
   },
   "I am fine, thank you very much.": {
-   "pt": "",
+   "pt": "Estou bem, muito obrigado.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "My business is knowlegde and it is for free.": {
-   "pt": "",
+   "pt": "Meu negócio é o conhecimento, e é de graça.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "I am honored to be teacher in this school.": {
-   "pt": "",
+   "pt": "Tenho a honra de ser professor nesta escola.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "I run this school, there are other travelling teachers who we call Loremasters.": {
-   "pt": "",
+   "pt": "Administro esta escola, há outros professores viajantes que chamamos de Loremasters.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "If you are lucky you'll meet one in your journeys.": {
-   "pt": "",
+   "pt": "Se tiver sorte, você vai encontrar um nas suas jornadas.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "My name is Phillip.": {
-   "pt": "",
+   "pt": "Meu nome é Phillip.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "It is |TIME|.": {
-   "pt": "",
+   "pt": "Agora é |TIME|.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "I will provide you with all knowledge I have.": {
-   "pt": "",
+   "pt": "Vou lhe fornecer todo o conhecimento que tenho.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "Monsters come in different shape and power. It's said there is a zoo in the dwarfs' town.": {
-   "pt": "",
+   "pt": "Monstros vêm em diferentes formas e poderes. Dizem que há um zoológico na cidade dos anões.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "Dungeons are places of danger and puzzles. In some of them a bright mind will serve you more then a blade.": {
-   "pt": "",
+   "pt": "Dungeons são lugares de perigo e enigmas. Em algumas delas, uma mente brilhante vai lhe servir mais do que uma lâmina.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "An interesting place you should consider to visit.": {
-   "pt": "",
+   "pt": "Um lugar interessante que você deveria considerar visitar.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "You don't have to thank me, it's only my duty.": {
-   "pt": "",
+   "pt": "Não precisa me agradecer, é só meu dever.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "To learn about gods, visit the temples and talk to the priests.": {
-   "pt": "",
+   "pt": "Para aprender sobre deuses, visite os templos e fale com os padres.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "To learn about weapons read appropriate books or talk to the smiths.": {
-   "pt": "",
+   "pt": "Para aprender sobre armas, leia os livros apropriados ou fale com os ferreiros.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "To learn about magic talk to the guild leaders.": {
-   "pt": "",
+   "pt": "Para aprender sobre magia, fale com os líderes das guildas.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "Rebellion? What for? We are contend with our situation.": {
-   "pt": "",
+   "pt": "Rebelião? Para quê? Estamos contentes com nossa situação.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "Tod will come and save us all. He will bring freedom and beer to the men of Carlin.": {
-   "pt": "",
+   "pt": "Tod virá e nos salvará a todos. Ele trará liberdade e cerveja para os homens de Carlin.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "This servant of evil is protected by the dark gods and can't be harmed.": {
-   "pt": "",
+   "pt": "Este servo do mal é protegido pelos deuses das trevas e não pode ser ferido.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "He is a follower of evil. His powers were boosted by a sinister force and he is beyond human restrictions now.": {
-   "pt": "",
+   "pt": "Ele é um seguidor do mal. Seus poderes foram potencializados por uma força sinistra, e agora ele está além das limitações humanas.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "This weapon is said to be very powerful and unique. It was hidden in ancient times and now is thought to be lost.": {
-   "pt": "",
+   "pt": "Dizem que essa arma é muito poderosa e única. Foi escondida em tempos antigos, e agora se acredita que esteja perdida.",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "Hello, mighty adventurer |PLAYERNAME|. Can I teach you something you don't know?": {
-   "pt": "",
+   "pt": "Olá, poderoso aventureiro |PLAYERNAME|. Posso lhe ensinar algo que você não saiba?",
    "n": 1,
    "npc": [
     "phillip"
    ]
   },
   "Did the bell ring?": {
-   "pt": "",
+   "pt": "O sino tocou?",
    "n": 1,
    "npc": [
     "phillip"
@@ -47944,154 +47944,154 @@
    ]
   },
   "No news are good news.": {
-   "pt": "",
+   "pt": "Nenhuma notícia é uma boa notícia.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "Just fine.": {
-   "pt": "",
+   "pt": "Tudo bem.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "Would you like to buy the general key to the town?": {
-   "pt": "",
+   "pt": "Gostaria de comprar a chave geral da cidade?",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "Yeah, I bet you'd like to do that! HO, HO, HO!": {
-   "pt": "",
+   "pt": "É, aposto que você gostaria de fazer isso! HO, HO, HO!",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "The castle is one of the safest places in Carlin.": {
-   "pt": "",
+   "pt": "O castelo é um dos lugares mais seguros de Carlin.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "Our people are fine and peaceful.": {
-   "pt": "",
+   "pt": "Nosso povo está bem e é pacífico.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "I bet they spy on us... not my business, however.": {
-   "pt": "",
+   "pt": "Aposto que eles nos espionam... mas isso não é da minha conta.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "I scared this bigmouth so much that he left the town by night. HO, HO, HO!": {
-   "pt": "",
+   "pt": "Assustei tanto aquele boca-grande que ele saiu da cidade durante a noite. HO, HO, HO!",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "The city is is a peaceful place, and it's up to me to keep it this way.": {
-   "pt": "",
+   "pt": "A cidade é um lugar pacífico, e cabe a mim mantê-la assim.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "He is the guy responsible to keep the sewers working. Someone has to do such kind of jobs. I can't handle all the garbage of the city myself.": {
-   "pt": "",
+   "pt": "Ele é o cara responsável por manter os esgotos funcionando. Alguém tem que fazer esse tipo de trabalho. Não posso cuidar de todo o lixo da cidade sozinha.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "She has the sharpest eye in the region, I'd say.": {
-   "pt": "",
+   "pt": "Ela tem o olho mais afiado da região, eu diria.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "Her peacefulness is sometimes near stupidity.": {
-   "pt": "",
+   "pt": "A tranquilidade dela às vezes beira a burrice.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "I worship Banor of course.": {
-   "pt": "",
+   "pt": "Eu adoro Banor, claro.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "For me, he's the god of justice.": {
-   "pt": "",
+   "pt": "Para mim, ele é o deus da justiça.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "His cult is forbidden in our town.": {
-   "pt": "",
+   "pt": "O culto dele é proibido na nossa cidade.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "Wouldn't wonder if some males worship him secretly. HO, HO, HO!": {
-   "pt": "",
+   "pt": "Não me surpreenderia se alguns homens o adorassem em segredo. HO, HO, HO!",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "I deal more with the human mosters, you know? HO, HO, HO!": {
-   "pt": "",
+   "pt": "Eu lido mais com os monstros humanos, sabe? HO, HO, HO!",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "Would certainly make a good butterknife. HO, HO, HO!": {
-   "pt": "",
+   "pt": "Com certeza faria uma boa faca de manteiga. HO, HO, HO!",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "The only thing that rebels here now and then is the stomach of a male after trying to make illegal alcohol. HO, HO, HO!": {
-   "pt": "",
+   "pt": "A única coisa que se rebela aqui de vez em quando é o estômago de um homem depois de tentar fazer álcool ilegal. HO, HO, HO!",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "For obvious reasons it's forbidden in our city.": {
-   "pt": "",
+   "pt": "Por razões óbvias, é proibido na nossa cidade.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "What do you think? I am the sheriff of Carlin.": {
-   "pt": "",
+   "pt": "O que você acha? Sou a xerife de Carlin.",
    "n": 1,
    "npc": [
     "shauna"
    ]
   },
   "Howdy, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "E aí, |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "shauna"
