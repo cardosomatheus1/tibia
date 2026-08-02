@@ -5966,7 +5966,7 @@
    ]
   },
   "Goodbye. Human. Being!": {
-   "pt": "",
+   "pt": "Adeus. Humano. Ser!",
    "n": 4,
    "npc": [
     "nina",
@@ -7354,14 +7354,14 @@
    ]
   },
   "Advancing to the west, you recognise an increase of onyx on the ground.": {
-   "pt": "",
+   "pt": "Avançando para o oeste, você percebe um aumento de onyx no chão.",
    "n": 2,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You return to the plateau in the east.": {
-   "pt": "",
+   "pt": "Você retorna ao platô no leste.",
    "n": 2,
    "npc": [
     "a_sleeping_dragon"
@@ -12769,203 +12769,203 @@
    ]
   },
   "You find yourself inside the dragon's dream. You can {look} around or {go} into a specific direction. You can also {take} or {use} an object. Enter {help} to display this information at any time.": {
-   "pt": "",
+   "pt": "Você se encontra dentro do sonho do dragão. Você pode {olhar} ao redor ou {ir} numa direção específica. Também pode {pegar} ou {usar} um objeto. Digite {ajuda} para exibir esta informação a qualquer momento.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You carefully lift the onyx attachment from its socket. It is lighter than you expected.": {
-   "pt": "",
+   "pt": "Você cuidadosamente ergue o encaixe de onyx do seu soquete. Está mais leve do que você esperava.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You wander to the south, passing large obelisks of emerald to your left and sprawling trees of topaz to your right.": {
-   "pt": "",
+   "pt": "Você vagueia para o sul, passando por grandes obeliscos de emerald à sua esquerda e árvores frondosas de topaz à sua direita.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "As you rip the solid stand out of its socket and take it with you, the large gate opens with a deafening rumble.": {
-   "pt": "",
+   "pt": "Enquanto você arranca o suporte sólido do seu soquete e o leva com você, o grande portão se abre com um estrondo ensurdecedor.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You gasp at the size of the large open gate as you walk through to head further to the east.": {
-   "pt": "",
+   "pt": "Você se surpreende com o tamanho do grande portão aberto enquanto passa por ele, seguindo mais para o leste.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You reach for a small solitary arrangement of combined small houses and put it in your pocket.": {
-   "pt": "",
+   "pt": "Você pega um pequeno arranjo solitário de casinhas combinadas e o coloca no bolso.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You take an emerald from the pile.": {
-   "pt": "",
+   "pt": "Você pega uma emerald da pilha.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You return through the semi-translucent gate to the west.": {
-   "pt": "",
+   "pt": "Você retorna pelo portão semitranslúcido em direção ao oeste.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You head back north to the plateau.": {
-   "pt": "",
+   "pt": "Você volta para o norte, rumo ao platô.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You travel east across several large emerald bluffs and edges. All sorts of gems are scattered alongside your path.": {
-   "pt": "",
+   "pt": "Você viaja para o leste, através de vários grandes penhascos e bordas de emerald. Todo tipo de gema está espalhado pelo seu caminho.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You take a rather large ruby out of a pile before you.": {
-   "pt": "",
+   "pt": "Você tira uma ruby bem grande de uma pilha à sua frente.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You head north passing countless stones in the crimson sea of stones beneath your feet.": {
-   "pt": "",
+   "pt": "Você segue para o norte, passando por incontáveis pedras no mar carmesim de pedras sob seus pés.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "Avoiding the bright light, you carefully put the attachment on top of the strange socket. ...": {
-   "pt": "",
+   "pt": "Evitando a luz forte, você cuidadosamente coloca o encaixe em cima do soquete estranho. ...",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "Your path to the north is open. You pass the gigantic gate wings to your left and right as you advance. After about an hour of travel you hear a slight rustling in the distance. You head further into that direction. ...": {
-   "pt": "",
+   "pt": "Seu caminho para o norte está aberto. Você passa pelas gigantescas asas do portão à sua esquerda e direita enquanto avança. Depois de cerca de uma hora de viagem, você ouve um leve farfalhar ao longe. Você segue mais naquela direção. ...",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You travel all the way back down the dune and through the gate to the south.": {
-   "pt": "",
+   "pt": "Você viaja todo o caminho de volta, descendo a duna e passando pelo portão em direção ao sul.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You return to the crimson sea of rubies in the south.": {
-   "pt": "",
+   "pt": "Você retorna ao mar carmesim de rubies no sul.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You travel back to the plateau in the west.": {
-   "pt": "",
+   "pt": "Você viaja de volta ao platô no oeste.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You continue travelling the barren sea of gemstones to the north.": {
-   "pt": "",
+   "pt": "Você continua viajando pelo mar árido de gemas em direção ao norte.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You leave the massive open gate behind you and go to the west.": {
-   "pt": "",
+   "pt": "Você deixa o portão enorme e aberto para trás e segue para o oeste.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You carefully remove the sapphire from Bastesh's grasp.": {
-   "pt": "",
+   "pt": "Você cuidadosamente remove a sapphire da mão de Bastesh.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You head back to the east and to the plateau.": {
-   "pt": "",
+   "pt": "Você volta para o leste, rumo ao platô.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You head back south to the site with the onyx lookout.": {
-   "pt": "",
+   "pt": "Você volta para o sul, ao local com o mirante de onyx.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "You put the stand into a small recess you find near the middle of the plateau.": {
-   "pt": "",
+   "pt": "Você coloca o suporte num pequeno nicho que encontra perto do meio do platô.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "As the ruby slips into the notch, the strong red of the stone intensifies a thousandfold. You fear to hurt your eyes and turn away immediately. The ray seems to be directed to the centre of the plateau with astounding precision.": {
-   "pt": "",
+   "pt": "Enquanto a ruby desliza para dentro do entalhe, o vermelho forte da pedra se intensifica mil vezes. Com medo de machucar os olhos, você desvia o olhar imediatamente. O raio parece estar direcionado ao centro do platô com uma precisão impressionante.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "As the sapphire slips into the notch, the deep blue of the stone intensifies a thousandfold. You fear to hurt your eyes and turn away immediately. The ray seems to be directed to the centre of the plateau with astounding precision.": {
-   "pt": "",
+   "pt": "Enquanto a sapphire desliza para dentro do entalhe, o azul profundo da pedra se intensifica mil vezes. Com medo de machucar os olhos, você desvia o olhar imediatamente. O raio parece estar direcionado ao centro do platô com uma precisão impressionante.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "As the emerald slips into the notch, the vibrant green of the stone intensifies a thousandfold. You fear to hurt your eyes and turn away immediately. The ray seems to be directed to the centre of the plateau with astounding precision.": {
-   "pt": "",
+   "pt": "Enquanto a emerald desliza para dentro do entalhe, o verde vibrante da pedra se intensifica mil vezes. Com medo de machucar os olhos, você desvia o olhar imediatamente. O raio parece estar direcionado ao centro do platô com uma precisão impressionante.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "I call you the wayfarer. You travelled through my dreams. You ultimately freed my mind. My mind accepted you and so will I.": {
-   "pt": "",
+   "pt": "Eu o chamo de andarilho. Você viajou pelos meus sonhos. No fim, você libertou minha mente. Minha mente o aceitou, e eu também aceitarei.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "ZzzzZzzZz...chrrr...": {
-   "pt": "",
+   "pt": "ZzzzZzzZz...chrrr...",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
    ]
   },
   "Greetings, {wayfarer}.": {
-   "pt": "",
+   "pt": "Saudações, {andarilho}.",
    "n": 1,
    "npc": [
     "a_sleeping_dragon"
@@ -12979,28 +12979,28 @@
    ]
   },
   "'Alice the chalice'... Hmpf, of course I won't TELL you my name, I am UNDERCOVER! Now be quiet or they will hear you.": {
-   "pt": "",
+   "pt": "'Alice the chalice'... Hmpf, claro que não vou lhe CONTAR meu nome, estou DISFARÇADO! Agora fique quieto ou eles vão ouvir você.",
    "n": 1,
    "npc": [
     "a_strange_chalice"
    ]
   },
   "Well, I am drinking most of the time. Er, no I mean - trying to hold my fluids... ah, wait that came out wrong: I am doing research. Let's just keep it at that.": {
-   "pt": "",
+   "pt": "Bem, eu bebo a maior parte do tempo. Er, não, quer dizer - tentando segurar meus fluidos... ah, espera, isso saiu errado: estou fazendo pesquisa. Vamos deixar por isso mesmo.",
    "n": 1,
    "npc": [
     "a_strange_chalice"
    ]
   },
   "Finally. That's what I... oh wait, you're still talking to me - you will blow my cover! What do you want? Oh wait, did my {daughter} send you? It has been some time now, indeed.": {
-   "pt": "",
+   "pt": "Finalmente. Isso é o que eu... ah espera, você ainda está falando comigo - vai estragar meu disfarce! O que você quer? Ah espera, foi minha {filha} que lhe mandou? Já faz um tempo mesmo.",
    "n": 1,
    "npc": [
     "a_strange_chalice"
    ]
   },
   "Hi? What do you mean 'hi' - can't you see I am a... I have to lower my voice. Did it occur to you, that this 'chalice' does not want to be disturbed?! Leave me alone!": {
-   "pt": "",
+   "pt": "Oi? Como assim 'oi' - não está vendo que eu sou um... Preciso baixar a voz. Já lhe ocorreu que este 'cálice' não quer ser incomodado?! Me deixa em paz!",
    "n": 1,
    "npc": [
     "a_strange_chalice"
@@ -22233,21 +22233,21 @@
    ]
   },
   "You come here to ask us to spare your people? This land has no tolerance for the weak, we have it neither. If you want us to consider you as useful for us, you'll have to prove it in a {test} of strength and courage.": {
-   "pt": "",
+   "pt": "Você vem aqui pedir que poupemos seu povo? Esta terra não tem tolerância para os fracos, e nós também não. Se quer que o consideremos útil para nós, terá que provar isso num {teste} de força e coragem.",
    "n": 1,
    "npc": [
     "curos"
    ]
   },
   "With the death of their leader, the rebels return to our camps one by one, deeply humiliated. It might be a wise decision to let a useful tool like you continue to exist.": {
-   "pt": "",
+   "pt": "Com a morte do líder deles, os rebeldes voltam para os nossos acampamentos um a um, profundamente humilhados. Pode ser uma decisão sábia deixar uma ferramenta útil como você continuar a existir.",
    "n": 1,
    "npc": [
     "curos"
    ]
   },
   "Be greeted blank skin.": {
-   "pt": "",
+   "pt": "Seja bem-vindo, pele nua.",
    "n": 1,
    "npc": [
     "curos"
@@ -26314,140 +26314,140 @@
    ]
   },
   "You haven't killed": {
-   "pt": "",
+   "pt": "Você ainda não matou",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "You have defeated all the Goshnar's Bosses. Your soul shines brighter with each victory.": {
-   "pt": "",
+   "pt": "Você derrotou todos os Goshnar's Bosses. Sua alma brilha mais forte a cada vitória.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "It has been a while since I roamed the world of the living in a mortal shell.": {
-   "pt": "",
+   "pt": "Já faz um tempo desde que vaguei pelo mundo dos vivos num invólucro mortal.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "I had many names in my live. The one that would be the most recognizable is probably the name Goshnar. Even that was an assumed name that I took when I left my mundane past behind.": {
-   "pt": "",
+   "pt": "Tive muitos nomes em minha vida. O mais reconhecível provavelmente é o nome Goshnar. Até esse foi um nome assumido, que adotei quando deixei meu passado mundano para trás.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "Everything in my life was just a tool to further my goals. The brotherhood of bones was just a tool for me. As was everyone or everything. In the path I had chosen nothing mattered but me and my ambitions.": {
-   "pt": "",
+   "pt": "Tudo em minha vida era apenas uma ferramenta para promover meus objetivos. A brotherhood of bones era apenas uma ferramenta para mim. Assim como todos e tudo mais. No caminho que eu havia escolhido, nada importava além de mim e das minhas ambições.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "Necromancy was a passion at first, another tool while I amassed power and a crutch when my ambitions surpassed that what it could accomplish.": {
-   "pt": "",
+   "pt": "A necromancia foi uma paixão no início, outra ferramenta enquanto eu acumulava poder, e uma muleta quando minhas ambições superaram o que ela podia realizar.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "My demise did not meet me unprepared. As a powerful necromancer I had fettered my soul in the living world and the realms beyond. I had prepared for my return and was confident in my power.": {
-   "pt": "",
+   "pt": "Minha morte não me pegou despreparado. Como um poderoso necromante, eu havia acorrentado minha alma ao mundo dos vivos e aos reinos além dele. Eu havia me preparado para o meu retorno e confiava no meu poder.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "My soul wandered the plains of Zarganash, waiting for my wards to power up. Waiting for my soul to be slowly pulled back and manifest in the world of the living once again. What I had not taken into consideration was peace.": {
-   "pt": "",
+   "pt": "Minha alma vagou pelas planícies de Zarganash, esperando meus wards ganharem força. Esperando minha alma ser lentamente puxada de volta e se manifestar no mundo dos vivos mais uma vez. O que eu não havia levado em consideração foi a paz.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "I recognized the extent of my folly and failure. I decided not to return to the world of the living.": {
-   "pt": "",
+   "pt": "Reconheci a extensão da minha loucura e do meu fracasso. Decidi não retornar ao mundo dos vivos.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "The only way I can get rid of them is to disperse them, to 'kill' them so to say. But they are tainted parts of myself and even going near them might endanger my sanity and stability. So all I can do is to ask you to do this daunting task.": {
-   "pt": "",
+   "pt": "A única forma de me livrar deles é dispersá-los, 'matá-los', por assim dizer. Mas eles são partes corrompidas de mim mesmo, e mesmo chegar perto deles pode colocar em risco minha sanidade e estabilidade. Então tudo que posso fazer é lhe pedir para realizar essa tarefa árdua.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "I'm aware I have no right to ask and I have little to offer as a payment, but I ask you nonetheless. Will you face my fettered vices and destroy them for me?": {
-   "pt": "",
+   "pt": "Sei que não tenho o direito de pedir e tenho pouco a oferecer como pagamento, mas peço mesmo assim. Você vai enfrentar meus vícios acorrentados e destruí-los por mim?",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "Thank you for accepting this burden.": {
-   "pt": "",
+   "pt": "Obrigado por aceitar esse fardo.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "You haven't killed Malice yet. You haven't killed Hatred yet. You haven't killed Spite yet. You haven't killed Cruelty yet. You haven't killed Greed yet.": {
-   "pt": "",
+   "pt": "Você ainda não matou Malice. Você ainda não matou Hatred. Você ainda não matou Spite. Você ainda não matou Cruelty. Você ainda não matou Greed.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "My daughter was as ambitious as me, yet she lacked my intellect and my raw talent. She still was great and talented yet I sadly let her feel my disdain. One of the many errors that my way of hubris made me do.": {
-   "pt": "",
+   "pt": "Minha filha era tão ambiciosa quanto eu, mas lhe faltava meu intelecto e meu talento bruto. Ainda assim, ela era ótima e talentosa, mas infelizmente eu a fiz sentir meu desdém. Um dos muitos erros que minha soberba me fez cometer.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "I'm not aware of the fate of my linage. Neither I'm able to relate to the mortal world in that way. Each of us is an individual, not bound by ties of blood or herritage.": {
-   "pt": "",
+   "pt": "Não sei do destino da minha linhagem. Tampouco consigo me relacionar com o mundo mortal dessa forma. Cada um de nós é um indivíduo, não preso por laços de sangue ou herança.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "His avatar might be destroyed for now and it'd grip on Zarganash considerably weakened. Yet he burrowed to deep into the essence of this realm to be annihilated this easy.": {
-   "pt": "",
+   "pt": "O avatar dele pode estar destruído por enquanto, e seu domínio sobre Zarganash, consideravelmente enfraquecido. Mas ele se enterrou fundo demais na essência deste reino para ser aniquilado tão facilmente.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "I despised my followers for their petty agendas and for their limited vision of my own goals and personality.": {
-   "pt": "",
+   "pt": "Eu desprezava meus seguidores por suas agendas mesquinhas e por sua visão limitada dos meus próprios objetivos e personalidade.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "I have cleansed you from the taints that you carried with you. You are now free from the burden that you should not have to bear.": {
-   "pt": "",
+   "pt": "Eu o purifiquei das corrupções que você carregava consigo. Agora você está livre do fardo que não deveria ter que suportar.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "You are not tainted by the darkness of the world. You are pure and free from the burdens that others carry.": {
-   "pt": "",
+   "pt": "Você não está corrompido pela escuridão do mundo. Você é puro e livre dos fardos que outros carregam.",
    "n": 1,
    "npc": [
     "flickering_soul"
    ]
   },
   "Be greeted, living soul!": {
-   "pt": "",
+   "pt": "Seja bem-vindo, alma viva!",
    "n": 1,
    "npc": [
     "flickering_soul"
@@ -40573,28 +40573,28 @@
    ]
   },
   "Lhnjei gouthn naumpi! I know why you are here. I can {explain} everything.": {
-   "pt": "",
+   "pt": "Lhnjei gouthn naumpi! Sei por que você está aqui. Posso {explicar} tudo.",
    "n": 1,
    "npc": [
     "navigator"
    ]
   },
   "By entering this place, you have earned the right to learn what this is all about. This is a long story. Are you sure you want to hear this, {yes}?": {
-   "pt": "",
+   "pt": "Ao entrar neste lugar, você ganhou o direito de saber do que se trata tudo isso. É uma longa história. Tem certeza de que quer ouvi-la, {sim}?",
    "n": 1,
    "npc": [
     "navigator"
    ]
   },
   "Do you have enough, can I stop?": {
-   "pt": "",
+   "pt": "Já é suficiente, posso parar?",
    "n": 1,
    "npc": [
     "navigator"
    ]
   },
   "Then take this one. And remember: DO NOT TELL ANYONE ABOUT ME OR ANYTHING YOU HAVE HEARD HERE TODAY.": {
-   "pt": "",
+   "pt": "Então pegue este. E lembre-se: NÃO CONTE A NINGUÉM SOBRE MIM OU QUALQUER COISA QUE VOCÊ TENHA OUVIDO AQUI HOJE.",
    "n": 1,
    "npc": [
     "navigator"
@@ -40769,28 +40769,28 @@
    ]
   },
   "The lizards here are the chosen ones of their kind. We believe them to be the strongest warriors in these lands.So I lead my people here to learn their ways. We are mere assassins but they are using foreign techniques and seem to be far more efficient": {
-   "pt": "",
+   "pt": "Os lagartos daqui são os escolhidos de sua espécie. Acreditamos que sejam os guerreiros mais fortes destas terras. Por isso trouxe meu povo aqui para aprender seus métodos. Somos meros assassinos, mas eles usam técnicas estrangeiras e parecem ser muito mais eficientes",
    "n": 1,
    "npc": [
     "nina"
    ]
   },
   "We of the Grey Shadow clan are studying the ways of the Chosen. Our training is hard, encounters with the lizards often deadly. Every one of us fights on his own. Each one more deadly than the other. Under my lead we wil rise renewed, as the Shadow Nina.": {
-   "pt": "",
+   "pt": "Nós, do clã Grey Shadow, estudamos os métodos dos Chosen. Nosso treinamento é duro, encontros com os lagartos costumam ser fatais. Cada um de nós luta por conta própria. Cada um mais mortífero que o outro. Sob minha liderança, vamos ressurgir renovados, como os Shadow Nina.",
    "n": 1,
    "npc": [
     "nina"
    ]
   },
   "I am Nina, leader of the Grey Shadow clan. Me and my followers, the Shadow Nina, are exploring the largely uncharted parts of the continent Zao.": {
-   "pt": "",
+   "pt": "Sou Nina, líder do clã Grey Shadow. Eu e meus seguidores, os Shadow Nina, estamos explorando as partes, em grande parte inexploradas, do continente Zao.",
    "n": 1,
    "npc": [
     "nina"
    ]
   },
   "Beware, if you go any further you will have to fight a large group of Chosen. This place is called the Fire Dragon Dojo. Tread carefully since these are lizard training grounds.": {
-   "pt": "",
+   "pt": "Cuidado, se você for mais além, terá que lutar contra um grande grupo de Chosen. Este lugar se chama Fire Dragon Dojo. Ande com cautela, já que este é um terreno de treinamento dos lagartos.",
    "n": 1,
    "npc": [
     "nina"
@@ -42603,21 +42603,21 @@
    ]
   },
   "You can help in the fight against the hive. There are several missions available to destabilise the hive. Just ask for them if you want to learn more. After completing many missions you might be worthy to get a reward.": {
-   "pt": "",
+   "pt": "Você pode ajudar na luta contra a hive. Há várias missões disponíveis para desestabilizar a hive. É só pedir por elas se quiser saber mais. Depois de completar muitas missões, você pode ser digno de receber uma recompensa.",
    "n": 1,
    "npc": [
     "orockle"
    ]
   },
   "You could try to blind the hive, you might disrupt its digestion, you could gather acid or you can disable the swarm pores. ...": {
-   "pt": "",
+   "pt": "Você poderia tentar cegar a hive, poderia atrapalhar sua digestão, poderia coletar ácido ou poderia desativar os swarm pores. ...",
    "n": 1,
    "npc": [
     "orockle"
    ]
   },
   "So be it. Now you are a member of the inquisition. You might ask me for a mission to raise in my esteem.": {
-   "pt": "",
+   "pt": "Que assim seja. Agora você é um membro da inquisition. Pode me pedir uma missão para subir na minha estima.",
    "n": 1,
    "npc": [
     "orockle"
@@ -54958,168 +54958,168 @@
    ]
   },
   "I wait. I wait for someone like you to come here. I wait for them to grow disconsolate. I wait for them to despair. And I wait for them to die. Muhahaha.": {
-   "pt": "",
+   "pt": "Eu espero. Espero por alguém como você para vir aqui. Espero eles ficarem desconsolados. Espero eles caírem em desespero. E espero eles morrerem. Muhahaha.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "I am Zumtah, Zumtah the impeccable, Zumtah the marvellous, Zumtah the... the... eternal.": {
-   "pt": "",
+   "pt": "Eu sou Zumtah, Zumtah o impecável, Zumtah o maravilhoso, Zumtah o... o... eterno.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "The land you are currently dwelling in, human. Don't you have any sense of your surroundings?": {
-   "pt": "",
+   "pt": "A terra em que você está atualmente, humano. Você não tem noção nenhuma do que está ao seu redor?",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "I have seen many of them. I have seen many of them die. In here, with me. Perhaps you will be pleased to meet them. Not long and you will join their ranks. Muhaha.": {
-   "pt": "",
+   "pt": "Já vi muitos deles. Já vi muitos deles morrerem. Aqui dentro, comigo. Talvez você fique contente em conhecê-los. Não vai demorar e você se juntará às fileiras deles. Muhaha.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "Pesky creatures. Many of them have been brought here, many of them died here. Humans, lizards, beasts, they all die the same. Down here, with me. Muhahaha.": {
-   "pt": "",
+   "pt": "Criaturas chatas. Muitas foram trazidas para cá, muitas morreram aqui. Humanos, lagartos, feras, todos morrem do mesmo jeito. Aqui embaixo, comigo. Muhahaha.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "What? What do you mean by that?": {
-   "pt": "",
+   "pt": "O quê? O que você quer dizer com isso?",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "Hmm, an old one. I don't care much about politics or power, as here, he has none. Here, only I have power. Muhaha.": {
-   "pt": "",
+   "pt": "Hmm, um antigo. Não ligo muito para política ou poder, já que aqui ele não tem nenhum. Aqui, só eu tenho poder. Muhaha.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "What are you talking about, such things do not matter down here. Down here alone, isolated and broken. Muhaha.": {
-   "pt": "",
+   "pt": "Do que você está falando, essas coisas não importam aqui embaixo. Aqui embaixo, sozinho, isolado e quebrado. Muhaha.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "You are searching for the way out? Do you want to go home? Are you homesick, nostalgic, allergic? I am sorry. You will stay. Muhahahaha. Haha. Are you giving up then?": {
-   "pt": "",
+   "pt": "Está procurando a saída? Quer ir para casa? Está com saudades, nostálgico, alérgico? Sinto muito. Você vai ficar. Muhahahaha. Haha. Está desistindo então?",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "A what? I don't even know what you're talking about, human. If you aren't just giving up - will you kindly change the topic please?": {
-   "pt": "",
+   "pt": "Um o quê? Nem sei do que você está falando, humano. Se você não estiver simplesmente desistindo - poderia gentilmente mudar de assunto, por favor?",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "Haha, no! No. Why don't you just stop asking me that and start enjoying your stay here?": {
-   "pt": "",
+   "pt": "Haha, não! Não. Por que você não para de me perguntar isso e começa a aproveitar sua estadia aqui?",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "Oh, you mean - if I have ever been out of here in those 278 years? Well, I - I can't remember. No, I can't remember. Sorry.": {
-   "pt": "",
+   "pt": "Ah, você quer dizer - se eu já saí daqui nesses 278 anos? Bem, eu - eu não consigo lembrar. Não, não consigo lembrar. Desculpe.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "No, I really can't remember. I enjoyed my stay here so much that I forgot how it looks outside of this hole. Outside. The air, the sky, the light. Oh well... well.": {
-   "pt": "",
+   "pt": "Não, realmente não consigo lembrar. Eu gostei tanto de ficar aqui que esqueci como é lá fora deste buraco. Lá fora. O ar, o céu, a luz. Ah, bem... bem.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "It's you, why did they throw you in here again? Anyway, I will just transform you once more. I also recovered your crate which will wait for you at the exit. There, feel free to go.": {
-   "pt": "",
+   "pt": "É você, por que jogaram você aqui de novo mesmo? De qualquer forma, vou só transformar você mais uma vez. Também recuperei seu caixote, que vai esperar por você na saída. Pronto, sinta-se à vontade para ir.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "I've already told you that you can't get out. What's the problem? Do you even see an exit?": {
-   "pt": "",
+   "pt": "Já lhe disse que você não pode sair. Qual é o problema? Você sequer vê uma saída?",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "You are starting to get on my nerves. Is this the only topic you know?": {
-   "pt": "",
+   "pt": "Você está começando a me irritar. Esse é o único assunto que você conhece?",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "But there is no escape, I said NO. You've already asked several times and my answer will stay the same. What is this? Are you trying to test me?": {
-   "pt": "",
+   "pt": "Mas não há escapatória, eu disse NÃO. Você já perguntou várias vezes e minha resposta vai continuar a mesma. O que é isso? Está tentando me testar?",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "Muhahaha. Where? I can only see a dark cave with nothing than bones and a djinn in it. You mean that small hole there? Muhahaha.": {
-   "pt": "",
+   "pt": "Muhahaha. Onde? Só consigo ver uma caverna escura com nada além de ossos e um djinn nela. Você quer dizer aquele buraquinho ali? Muhahaha.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "Pesky, persistent human.": {
-   "pt": "",
+   "pt": "Humano chato e persistente.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "Muhahaha. Then I will give you a test. How many years do you think have I been here? {89}, {164} or {278}?": {
-   "pt": "",
+   "pt": "Muhahaha. Então vou lhe dar um teste. Quantos anos você acha que estou aqui? {89}, {164} ou {278}?",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "Correct human, and that is not nearly how high you would need to count to tell all the lost souls I've seen dying here. I AM PERPETUAL. Muahahaha.": {
-   "pt": "",
+   "pt": "Correto, humano, e isso nem chega perto de quanto você precisaria contar para saber de todas as almas perdidas que já vi morrer aqui. EU SOU PERPÉTUO. Muahahaha.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "Wrong answer human! Muahahaha.": {
-   "pt": "",
+   "pt": "Resposta errada, humano! Muahahaha.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "Another visitor to this constricted, cosy, calm realm, perfect except for an {exit}. Muhaha.": {
-   "pt": "",
+   "pt": "Mais um visitante para este reino apertado, aconchegante e calmo, perfeito exceto por uma {saída}. Muhaha.",
    "n": 1,
    "npc": [
     "zumtah"
    ]
   },
   "Muhahaha.": {
-   "pt": "",
+   "pt": "Muhahaha.",
    "n": 1,
    "npc": [
     "zumtah"
@@ -56600,7 +56600,7 @@
    "n": 12
   },
   "go": {
-   "pt": "",
+   "pt": "ir",
    "n": 12
   },
   "backpack": {
@@ -58180,7 +58180,7 @@
    "n": 2
   },
   "wayfarer": {
-   "pt": "",
+   "pt": "andarilho",
    "n": 2
   },
   "zatragil": {
@@ -59452,15 +59452,15 @@
    "n": 1
   },
   "look": {
-   "pt": "",
+   "pt": "olhar",
    "n": 1
   },
   "take": {
-   "pt": "",
+   "pt": "pegar",
    "n": 1
   },
   "daughter": {
-   "pt": "",
+   "pt": "filha",
    "n": 1
   },
   "mesh kaha rogh'": {
@@ -61880,7 +61880,7 @@
    "n": 1
   },
   "exit": {
-   "pt": "",
+   "pt": "saída",
    "n": 1
   },
   "crystal": {
