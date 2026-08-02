@@ -5062,7 +5062,7 @@
    ]
   },
   "Shove off, little one! Humans are not welcome here, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Cai fora, pequenino! Humano não é bem-vindo aqui, |PLAYERNAME|!",
    "n": 5,
    "npc": [
     "alesar",
@@ -5416,7 +5416,7 @@
    ]
   },
   "At your service, just browse through my wares.": {
-   "pt": "",
+   "pt": "Ao seu dispor, dê uma olhada nas minhas mercadorias.",
    "n": 4,
    "npc": [
     "alesar",
@@ -5877,7 +5877,7 @@
    ]
   },
   "Farewell, human.": {
-   "pt": "",
+   "pt": "Adeus, humano.",
    "n": 4,
    "npc": [
     "haroun",
@@ -6286,7 +6286,7 @@
    ]
   },
   "So be it!": {
-   "pt": "",
+   "pt": "Que assim seja!",
    "n": 3,
    "npc": [
     "awarness_of_the_emperor",
@@ -7515,7 +7515,7 @@
    ]
   },
   "I'm sorry, but you don't have Malor's permission to trade with me.": {
-   "pt": "",
+   "pt": "Sinto muito, mas você não tem a permissão de Malor para negociar comigo.",
    "n": 2,
    "npc": [
     "alesar",
@@ -10070,7 +10070,7 @@
    ]
   },
   "I'm Jonathan. Pleased to meet you.": {
-   "pt": "",
+   "pt": "Sou Jonathan. Prazer em conhecê-lo.",
    "n": 2,
    "npc": [
     "guide_edna",
@@ -10240,7 +10240,7 @@
    ]
   },
   "Okay. Enjoy.": {
-   "pt": "",
+   "pt": "Certo. Aproveite.",
    "n": 2,
    "npc": [
     "harlow"
@@ -10255,7 +10255,7 @@
    ]
   },
   "Be greeted, human |PLAYERNAME|. How can a humble djinn be of service?": {
-   "pt": "",
+   "pt": "Seja bem-vindo, humano |PLAYERNAME|. Como um humilde djinn pode servi-lo?",
    "n": 2,
    "npc": [
     "haroun",
@@ -10263,7 +10263,7 @@
    ]
   },
   "Do you want to trade Boots of haste for Enchanted Chicken Wing?": {
-   "pt": "",
+   "pt": "Quer trocar Boots of Haste por Enchanted Chicken Wing?",
    "n": 2,
    "npc": [
     "haroun",
@@ -10271,7 +10271,7 @@
    ]
   },
   "Do you want to trade 4 Warrior Helmet for Warrior Sweat?": {
-   "pt": "",
+   "pt": "Quer trocar 4 Warrior Helmet por Warrior Sweat?",
    "n": 2,
    "npc": [
     "haroun",
@@ -10279,7 +10279,7 @@
    ]
   },
   "Do you want to trade 2 Royal Helmet for Fighting Spirit": {
-   "pt": "",
+   "pt": "Quer trocar 2 Royal Helmet por Fighting Spirit",
    "n": 2,
    "npc": [
     "haroun",
@@ -10287,7 +10287,7 @@
    ]
   },
   "Do you want to trade 3 Fire Sword for Magic Sulphur": {
-   "pt": "",
+   "pt": "Quer trocar 3 Fire Sword por Magic Sulphur",
    "n": 2,
    "npc": [
     "haroun",
@@ -10295,7 +10295,7 @@
    ]
   },
   "I trade Enchanted Chicken Wing for Boots of Haste, Warrior Sweat for 4 Warrior Helmets, Fighting Spirit for 2 Royal Helmet Magic Sulphur for 3 Fire Swords": {
-   "pt": "",
+   "pt": "Eu troco Enchanted Chicken Wing por Boots of Haste, Warrior Sweat por 4 Warrior Helmets, Fighting Spirit por 2 Royal Helmet, Magic Sulphur por 3 Fire Swords",
    "n": 2,
    "npc": [
     "haroun",
@@ -10303,7 +10303,7 @@
    ]
   },
   "Sorry but you don't have the item.": {
-   "pt": "",
+   "pt": "Desculpe, mas você não tem o item.",
    "n": 2,
    "npc": [
     "haroun",
@@ -11005,7 +11005,7 @@
    ]
   },
   "You brought cookies! How nice of you! Can I have one?": {
-   "pt": "",
+   "pt": "Você trouxe biscoitos! Que gentileza! Posso ficar com um?",
    "n": 2,
    "npc": [
     "nah_bob",
@@ -11013,7 +11013,7 @@
    ]
   },
   "You see, good deeds like this will ... YOU ... YOU SPAWN OF EVIL! I WILL MAKE SURE THE MASTER LEARNS ABOUT THIS!": {
-   "pt": "",
+   "pt": "Veja, boas ações como essa vão ... VOCÊ ... VOCÊ, CRIA DO MAL! VOU GARANTIR QUE O MESTRE SAIBA DISSO!",
    "n": 2,
    "npc": [
     "nah_bob",
@@ -11777,7 +11777,7 @@
    ]
   },
   "Hello, what brings you here?": {
-   "pt": "",
+   "pt": "Olá, o que lhe traz aqui?",
    "n": 2,
    "npc": [
     "tamerin",
@@ -25047,56 +25047,56 @@
    ]
   },
   "May Fire and Earth bless you, stranger. What leads you to Beregar, the dwarven city?": {
-   "pt": "",
+   "pt": "Que o Fogo e a Terra o abençoem, estranho. O que o traz a Beregar, a cidade dos anões?",
    "n": 1,
    "npc": [
     "emperor_rehal"
    ]
   },
   "I always liked him and I still can't believe that he really stole that ring.": {
-   "pt": "",
+   "pt": "Sempre gostei dele e ainda não consigo acreditar que ele realmente roubou aquele anel.",
    "n": 1,
    "npc": [
     "emperor_rehal"
    ]
   },
   "Interesting. The fact that you have the ring means that Nokmir can't have stolen it. Combined with the information Grombur gave you, the case appears in a completely different light. ...": {
-   "pt": "",
+   "pt": "Interessante. O fato de você ter o anel significa que Nokmir não pode tê-lo roubado. Combinado com a informação que Grombur lhe deu, o caso aparece sob uma luz completamente diferente. ...",
    "n": 1,
    "npc": [
     "emperor_rehal"
    ]
   },
   "Let there be justice for all. Nokmir is innocent and acquitted from all charges! And Rerun... I want him in prison for this malicious act!": {
-   "pt": "",
+   "pt": "Que haja justiça para todos. Nokmir é inocente e absolvido de todas as acusações! E Rerun... quero ele na prisão por esse ato malicioso!",
    "n": 1,
    "npc": [
     "emperor_rehal"
    ]
   },
   "He's very ambitious and always volunteers for the long shifts.": {
-   "pt": "",
+   "pt": "Ele é muito ambicioso e sempre se voluntaria para os turnos longos.",
    "n": 1,
    "npc": [
     "emperor_rehal"
    ]
   },
   "As you have proven yourself trustworthy I'm going to assign you a special mission. Are you interested?": {
-   "pt": "",
+   "pt": "Já que você provou ser digno de confiança, vou lhe designar uma missão especial. Tem interesse?",
    "n": 1,
    "npc": [
     "emperor_rehal"
    ]
   },
   "My son was captured by trolls? Doesn't sound like him, but if you say so. Now you want a reward, huh? ...": {
-   "pt": "",
+   "pt": "Meu filho foi capturado por trolls? Não parece coisa dele, mas se você diz. Agora você quer uma recompensa, hã? ...",
    "n": 1,
    "npc": [
     "emperor_rehal"
    ]
   },
   "Look at these dwarven legs. They were forged years ago by a dwarf who was rather tall for our kind. I want you to have them. Thank you for rescuing my son |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Olhe estas dwarven legs. Foram forjadas há anos por um anão que era bem alto para o nosso povo. Quero que fiquem com você. Obrigado por resgatar meu filho, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "emperor_rehal"
@@ -29905,56 +29905,56 @@
    ]
   },
   "Want to know the status of all the world changes? Ask me.": {
-   "pt": "",
+   "pt": "Quer saber o estado de todas as mudanças do mundo? Pergunte-me.",
    "n": 1,
    "npc": [
     "guide_edna"
    ]
   },
   "The temple is just south west of here. Actually, it's a temple raft and the priestess is somewhat... meow... you'll see what I mean.": {
-   "pt": "",
+   "pt": "O templo fica logo a sudoeste daqui. Na verdade, é uma balsa-templo, e a sacerdotisa é meio... miau... você vai entender o que eu quero dizer.",
    "n": 1,
    "npc": [
     "guide_edna"
    ]
   },
   "Our bank clerk Znozel is somewhat... special. You can find him north of this harbour and then to the right, past the tavern.": {
-   "pt": "",
+   "pt": "Nosso caixa de banco, Znozel, é meio... especial. Você o encontra ao norte deste porto e depois à direita, passando a taverna.",
    "n": 1,
    "npc": [
     "guide_edna"
    ]
   },
   "The depot is a place where you can safely store your belongings. You are also protected against attacks there. I escort newcomers there, but it's just north of here.": {
-   "pt": "",
+   "pt": "O depot é um lugar onde você pode guardar seus pertences com segurança. Você também fica protegido contra ataques lá. Eu escolto recém-chegados até lá, mas fica logo ao norte daqui.",
    "n": 1,
    "npc": [
     "guide_edna"
    ]
   },
   "I'm the only feline guide in Tibia. I might not have fingers anymore, but with my paw I can still mark important locations on your map and give you some information about the town and the world status.": {
-   "pt": "",
+   "pt": "Sou a única guia felina de Tibia. Posso não ter mais dedos, mas com a pata ainda consigo marcar locais importantes no seu mapa e lhe dar informação sobre a cidade e o estado do mundo.",
    "n": 1,
    "npc": [
     "guide_edna"
    ]
   },
   "Yalahar is a very old city of gigantic size, consisting of a city centre and eight quarters. The beings that are closest to be called rulers of the city are the Yalahari.": {
-   "pt": "",
+   "pt": "Yalahar é uma cidade muito antiga, de tamanho gigantesco, composta por um centro e oito bairros. Os seres mais próximos de serem chamados governantes da cidade são os Yalahari.",
    "n": 1,
    "npc": [
     "guide_edna"
    ]
   },
   "Meow, welcome to Yalahar |PLAYERNAME|! Even though I might not look like it, I can give you {information} and a {map} guide. Need some?": {
-   "pt": "",
+   "pt": "Miau, bem-vindo a Yalahar, |PLAYERNAME|! Mesmo que eu não pareça, posso lhe dar {informação} e um guia de {mapa}. Precisa de algum?",
    "n": 1,
    "npc": [
     "guide_edna"
    ]
   },
   "Enjoy your stay in Yalahar, |PLAYERNAME|. Meow.": {
-   "pt": "",
+   "pt": "Aproveite sua estadia em Yalahar, |PLAYERNAME|. Miau.",
    "n": 1,
    "npc": [
     "guide_edna"
@@ -31431,49 +31431,49 @@
    ]
   },
   "So you are saying you're looking for someone to take you to Vengoth?": {
-   "pt": "",
+   "pt": "Então você está dizendo que está procurando alguém para levá-lo a Vengoth?",
    "n": 1,
    "npc": [
     "harlow"
    ]
   },
   "I could do that, it's not far from here. I don't run a charity organisation, though. Tell you what. Give me 100 gold pieces, and me and my boat are yours for the trip. Okay?": {
-   "pt": "",
+   "pt": "Eu poderia fazer isso, não é longe daqui. Mas não toco uma instituição de caridade. Vou lhe dizer uma coisa. Me dê 100 moedas de ouro, e eu e meu barco somos seus para a viagem. Certo?",
    "n": 1,
    "npc": [
     "harlow"
    ]
   },
   "Want me to bring you to Vengoth again for 100 gold?": {
-   "pt": "",
+   "pt": "Quer que eu lhe leve a Vengoth de novo por 100 gold?",
    "n": 1,
    "npc": [
     "harlow"
    ]
   },
   "I have a {job}, you know?": {
-   "pt": "",
+   "pt": "Eu tenho um {trabalho}, sabia?",
    "n": 1,
    "npc": [
     "harlow"
    ]
   },
   "Well, I'm kind of a delivery man I guess. I take on small {transportation} jobs with my boat.": {
-   "pt": "",
+   "pt": "Bem, acho que sou meio que um entregador. Faço pequenos trabalhos de {transporte} com meu barco.",
    "n": 1,
    "npc": [
     "harlow"
    ]
   },
   "What the heck, stop bothering me with your questions.": {
-   "pt": "",
+   "pt": "Que diabos, pare de me incomodar com suas perguntas.",
    "n": 1,
    "npc": [
     "harlow"
    ]
   },
   "What do you want, |PLAYERNAME|? I'm a {busy} man.": {
-   "pt": "",
+   "pt": "O que você quer, |PLAYERNAME|? Sou um homem {ocupado}.",
    "n": 1,
    "npc": [
     "harlow"
@@ -38956,42 +38956,42 @@
    ]
   },
   "Do you want go to the": {
-   "pt": "",
+   "pt": "Quer ir para",
    "n": 1,
    "npc": [
     "maris"
    ]
   },
   "I can take you to {Fenrock} and {Mistrock}!": {
-   "pt": "",
+   "pt": "Posso lhe levar até {Fenrock} e {Mistrock}!",
    "n": 1,
    "npc": [
     "maris"
    ]
   },
   "Stop mumbling and don't bug me.": {
-   "pt": "",
+   "pt": "Pare de resmungar e não me amole.",
    "n": 1,
    "npc": [
     "maris"
    ]
   },
   "The good thing about cookies is that they last for a long time. So they are well suited for a boat trip. I'll take some of those, okay?": {
-   "pt": "",
+   "pt": "O bom dos biscoitos é que duram muito tempo. Então são ótimos para uma viagem de barco. Vou pegar uns, certo?",
    "n": 1,
    "npc": [
     "maris"
    ]
   },
   "Let's try that stuff first - ARRRRRRHH! <coughs> That must have been the worst cookie I've ever eaten. Get off my ship.": {
-   "pt": "",
+   "pt": "Vamos experimentar isso primeiro - ARRRRRRHH! <tosse> Deve ter sido o pior biscoito que já comi na vida. Saia do meu navio.",
    "n": 1,
    "npc": [
     "maris"
    ]
   },
   "I hope you have a good reason to step near my {ship}, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Espero que você tenha um bom motivo para chegar perto do meu {navio}, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "maris"
@@ -49547,56 +49547,56 @@
    ]
   },
   "You have kept your promise. Now, it's time to fulfil my part of the bargain. What kind of animals shall I raise? {Warbeasts} or {cattle}?": {
-   "pt": "",
+   "pt": "Você cumpriu sua promessa. Agora é hora de eu cumprir minha parte do acordo. Que tipo de animal devo criar? {Feras de guerra} ou {gado}?",
    "n": 1,
    "npc": [
     "tamerin"
    ]
   },
   "Thank you very much. As I said, as soon as you have helped me to solve both of my problems, we will talk about your mission. Have you killed {morik}?": {
-   "pt": "",
+   "pt": "Muito obrigado. Como eu disse, assim que você me ajudar a resolver os dois problemas, vamos falar da sua missão. Você matou {morik}?",
    "n": 1,
    "npc": [
     "tamerin"
    ]
   },
   "Come back when you have the cure.": {
-   "pt": "",
+   "pt": "Volte quando tiver a cura.",
    "n": 1,
    "npc": [
     "tamerin"
    ]
   },
   "So he finally got what he deserved. As I said, as soon as you have helped me to solve both of my problems, we will talk about your {mission}.": {
-   "pt": "",
+   "pt": "Então ele finalmente teve o que merecia. Como eu disse, assim que você me ajudar a resolver os dois problemas, vamos falar da sua {missão}.",
    "n": 1,
    "npc": [
     "tamerin"
    ]
   },
   "Come back when you got rid with Morik.": {
-   "pt": "",
+   "pt": "Volte quando tiver se livrado de Morik.",
    "n": 1,
    "npc": [
     "tamerin"
    ]
   },
   "I ask you for two things! For one thing, I need an animal cure and for another thing, I ask you to get rid of the gladiator Morik for me.": {
-   "pt": "",
+   "pt": "Peço duas coisas! Por um lado, preciso de um animal cure, e por outro, peço que se livre do gladiador Morik para mim.",
    "n": 1,
    "npc": [
     "tamerin"
    ]
   },
   "Have you the {animal cure}?": {
-   "pt": "",
+   "pt": "Você tem o {animal cure}?",
    "n": 1,
    "npc": [
     "tamerin"
    ]
   },
   "Have you killed {morik}?": {
-   "pt": "",
+   "pt": "Você matou {morik}?",
    "n": 1,
    "npc": [
     "tamerin"
@@ -57996,7 +57996,7 @@
    "n": 3
   },
   "busy": {
-   "pt": "",
+   "pt": "ocupado",
    "n": 3
   },
   "arena quarter": {
@@ -58804,7 +58804,7 @@
    "n": 2
   },
   "transportation": {
-   "pt": "",
+   "pt": "transporte",
    "n": 2
   },
   "believer": {
@@ -59224,7 +59224,7 @@
    "n": 2
   },
   "morik": {
-   "pt": "",
+   "pt": "morik",
    "n": 2
   },
   "monument tower": {
@@ -61588,15 +61588,15 @@
    "n": 1
   },
   "warbeasts": {
-   "pt": "",
+   "pt": "feras de guerra",
    "n": 1
   },
   "cattle": {
-   "pt": "",
+   "pt": "gado",
    "n": 1
   },
   "animal cure": {
-   "pt": "",
+   "pt": "animal cure",
    "n": 1
   },
   "descendants": {
@@ -62283,6 +62283,10 @@
   },
   "transport": {
    "pt": "transporto",
+   "n": 0
+  },
+  "job": {
+   "pt": "trabalho",
    "n": 0
   }
  }
