@@ -4316,7 +4316,7 @@
    ]
   },
   "Cling clang!": {
-   "pt": "",
+   "pt": "Clim clam!",
    "n": 6,
    "npc": [
     "a_sweaty_cyclops"
@@ -5821,14 +5821,14 @@
    ]
   },
   "Wrong answer!": {
-   "pt": "",
+   "pt": "Resposta errada!",
    "n": 4,
    "npc": [
     "gnomerik"
    ]
   },
   "Stop it! The test is over, you can ask me for your {results}.": {
-   "pt": "",
+   "pt": "Pare! O teste acabou, você pode me pedir seus {resultados}.",
    "n": 4,
    "npc": [
     "gnomerik"
@@ -6541,14 +6541,14 @@
    ]
   },
   "Sometimes people get imprisoned for some time. \\z\n\t\t\t\tTrue criminals will be cast out and for committing the worst crimes offenders are thrown into the hellgate.": {
-   "pt": "",
+   "pt": "Às vezes as pessoas são presas por um tempo. Verdadeiros criminosos são banidos, e por cometer os piores crimes os infratores são jogados no hellgate.",
    "n": 3,
    "npc": [
     "elathriel"
    ]
   },
   "I offer hardly anything except for knowledge of {spells}.": {
-   "pt": "",
+   "pt": "Não ofereço quase nada, exceto conhecimento de {magias}.",
    "n": 3,
    "npc": [
     "elathriel"
@@ -7376,21 +7376,21 @@
    ]
   },
   "Is one of elven family or such thing. Me not understand lil' ones and their business.": {
-   "pt": "",
+   "pt": "Ser um de família élfica ou coisa assim. Big Ben não entender pequeninos e assuntos deles.",
    "n": 2,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Firy steel it is. Need green ones' breath to melt. Or red even better. Me can make from shield. Lil' one want to trade?": {
-   "pt": "",
+   "pt": "Aço de fogo isso ser. Precisar sopro de verde para derreter. Ou vermelho, ainda melhor. Big Ben poder fazer de escudo. Pequenino querer negociar?",
    "n": 2,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Lil' one bring three bast skirts.": {
-   "pt": "",
+   "pt": "Pequenino trazer três bast skirts.",
    "n": 2,
    "npc": [
     "a_sweaty_cyclops"
@@ -7404,7 +7404,7 @@
    ]
   },
   "Wait right there. I will eat you after writing down what I found out.": {
-   "pt": "",
+   "pt": "Espere bem aí. Vou comê-lo depois de anotar o que descobri.",
    "n": 2,
    "npc": [
     "a_wrinkled_bonelord"
@@ -9586,28 +9586,28 @@
    ]
   },
   "For safety we keep the door to the hellgate locked all times. I have the {keys} to open it when needed.": {
-   "pt": "",
+   "pt": "Por segurança, mantemos a porta do hellgate sempre trancada. Tenho as {chaves} para abri-la quando necessário.",
    "n": 2,
    "npc": [
     "elathriel"
    ]
   },
   "A human weakling, not much more.": {
-   "pt": "",
+   "pt": "Um humano fraquinho, pouco mais que isso.",
    "n": 2,
    "npc": [
     "elathriel"
    ]
   },
   "Be greeted |PLAYERNAME|. What is your {business} near the {hellgate}?": {
-   "pt": "",
+   "pt": "Seja bem-vindo, |PLAYERNAME|. Qual é o seu {assunto} perto do {hellgate}?",
    "n": 2,
    "npc": [
     "elathriel"
    ]
   },
   "Asha Thrazi, stranger!": {
-   "pt": "",
+   "pt": "Asha Thrazi, estranho!",
    "n": 2,
    "npc": [
     "elathriel"
@@ -9944,7 +9944,7 @@
    ]
   },
   "Hello and welcome in the gnomish {recruitment} office.": {
-   "pt": "",
+   "pt": "Olá, e bem-vindo ao escritório de {recrutamento} gnômico.",
    "n": 2,
    "npc": [
     "gnomerik"
@@ -13070,322 +13070,322 @@
    ]
   },
   "Hum hum, huhum": {
-   "pt": "",
+   "pt": "Hum hum, huhum",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Silly lil' human": {
-   "pt": "",
+   "pt": "Humano pequenino bobo",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "I am smith.": {
-   "pt": "",
+   "pt": "Big Ben ser ferreiro.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Working steel is my profession.": {
-   "pt": "",
+   "pt": "Trabalhar aço ser profissão de Big Ben.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Manny kinds of. Like {Mesh Kaha Rogh'}, {Za'Kalortith}, {Uth'Byth}, {Uth'Morc}, {Uth'Amon}, {Uth'Maer}, {Uth'Doon}, and {Zatragil}.": {
-   "pt": "",
+   "pt": "Muitos tipos ter. Tipo {Mesh Kaha Rogh'}, {Za'Kalortith}, {Uth'Byth}, {Uth'Morc}, {Uth'Amon}, {Uth'Maer}, {Uth'Doon}, e {Zatragil}.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Most ancients use dream silver for different stuff. Now ancients most gone. Most not know about.": {
-   "pt": "",
+   "pt": "Maioria dos antigos usar dream silver para coisas diferentes. Agora antigos maioria sumidos. Maioria não saber sobre.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "It's high steel called. Only lil' lil' ones know how make.": {
-   "pt": "",
+   "pt": "Isso ser chamado de high steel. Só pequenininhos saber fazer.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "It's evil. Demon iron is. No good cyclops goes where you can find and need evil flame to melt.": {
-   "pt": "",
+   "pt": "Isso ser maligno. Demon iron ser. Nenhum cyclops bom ir onde você poder achar e precisar chama maligna para derreter.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Steel that is singing when forged. No one knows where find today.": {
-   "pt": "",
+   "pt": "Aço que cantar quando forjado. Ninguém saber onde achar hoje.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Not good to make stuff off. Bad steel it is. But eating magic, so useful is.": {
-   "pt": "",
+   "pt": "Não bom para fazer coisas com. Aço ruim isso ser. Mas comer magia, então útil ser.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Brightsteel is. Much art made with it. Sorcerers too lazy and afraid to enchant much.": {
-   "pt": "",
+   "pt": "Brightsteel isso ser. Muita arte feita com ele. Sorcerers preguiçosos demais e com medo de encantar muito.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Heartiron from heart of big old mountain, found very deep. Lil' lil ones fiercely defend. Not wanting to have it used for stuff but holy stuff.": {
-   "pt": "",
+   "pt": "Heartiron do coração de montanha grande e velha, achado bem fundo. Pequenininhos defender ferozmente. Não querer usado para coisas menos coisas sagradas.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Me parents live here before town was. Me not care about lil' ones.": {
-   "pt": "",
+   "pt": "Pais de Big Ben viver aqui antes de cidade existir. Big Ben não ligar para pequenininhos.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Lil' lil' ones are so fun. We often chat.": {
-   "pt": "",
+   "pt": "Pequenininhos ser tão divertidos. Nós conversar bastante.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "One day I'll go and look.": {
-   "pt": "",
+   "pt": "Um dia Big Ben ir olhar.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "I called Bencthyclthrtrprr by me people. Lil' ones me call Big Ben.": {
-   "pt": "",
+   "pt": "Big Ben chamado de Bencthyclthrtrprr pelo povo de Big Ben. Pequeninos chamar Big Ben.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "You shut up. Me not want to hear.": {
-   "pt": "",
+   "pt": "Você calar boca. Big Ben não querer ouvir.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Do lil' one want to trade a fire sword?": {
-   "pt": "",
+   "pt": "Pequenino querer negociar fire sword?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Do lil' one want to trade a dragon shield?": {
-   "pt": "",
+   "pt": "Pequenino querer negociar dragon shield?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Do lil' one want to trade a sword of valor?": {
-   "pt": "",
+   "pt": "Pequenino querer negociar sword of valor?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Do lil' one want to trade a warlord sword?": {
-   "pt": "",
+   "pt": "Pequenino querer negociar warlord sword?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "They were friend with me parents. Long before elves here, they often made visit. No longer come here.": {
-   "pt": "",
+   "pt": "Eles ser amigos dos pais de Big Ben. Muito antes de elfos aqui, eles visitar sempre. Não vir mais aqui.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Me not fight them, they not fight me.": {
-   "pt": "",
+   "pt": "Big Ben não lutar com eles, eles não lutar com Big Ben.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Me wish I could make weapon like it.": {
-   "pt": "",
+   "pt": "Big Ben querer poder fazer arma que nem essa.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Me people not live here much. Most are far away.": {
-   "pt": "",
+   "pt": "Povo de Big Ben não morar muito aqui. Maioria longe estar.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Wait. Me work no cheap is. Do favour for me first, yes?": {
-   "pt": "",
+   "pt": "Espera. Trabalho de Big Ben não barato ser. Fazer favor para Big Ben primeiro, sim?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Me need gift for woman. We dance, so me want to give her bast skirt. But she big is. So I need many to make big one. Bring three okay? Me wait.": {
-   "pt": "",
+   "pt": "Big Ben precisar presente para mulher. Nós dançar, então Big Ben querer dar bast skirt para ela. Mas ela grande ser. Então Big Ben precisar muitas para fazer uma grande. Trazer três, certo? Big Ben esperar.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Good good! Woman happy will be. Now me happy too and help you.": {
-   "pt": "",
+   "pt": "Bom, bom! Mulher feliz vai ficar. Agora Big Ben feliz também e ajudar você.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Very noble. Shiny. Me like. But breaks so fast. Me can make from shiny armour. Lil' one want to trade?": {
-   "pt": "",
+   "pt": "Muito nobre. Brilhante. Big Ben gostar. Mas quebrar tão rápido. Big Ben poder fazer de shiny armour. Pequenino querer negociar?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Hellsteel is. Cursed and evil. Dangerous to work with. Me can make from evil helmet. Lil' one want to trade?": {
-   "pt": "",
+   "pt": "Hellsteel isso ser. Amaldiçoado e maligno. Perigoso trabalhar com. Big Ben poder fazer de evil helmet. Pequenino querer negociar?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Good iron is. Me friends use it much for fight. Me can make from weapon. Lil' one want to trade?": {
-   "pt": "",
+   "pt": "Ferro bom ser. Amigos de Big Ben usar muito para lutar. Big Ben poder fazer de arma. Pequenino querer negociar?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Me can make nasty bolt from soul orbs. Trade all?": {
-   "pt": "",
+   "pt": "Big Ben poder fazer bolt malvado de soul orbs. Negociar tudo?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Can melt gold ingot for li'l one. You want?": {
-   "pt": "",
+   "pt": "Poder derreter gold ingot para pequenino. Você querer?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Whoooosh There!": {
-   "pt": "",
+   "pt": "Whoooosh Pronto!",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Want to make gear wheel from iron ore?": {
-   "pt": "",
+   "pt": "Querer fazer gear wheel de iron ore?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Lil' one already has mighty amulet. Big Ben no make another!": {
-   "pt": "",
+   "pt": "Pequenino já ter amuleto poderoso. Big Ben não fazer outro!",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Big Ben still hammering! Come back in": {
-   "pt": "",
+   "pt": "Big Ben ainda martelando! Voltar em",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Ahh, li'l one wants amulet. Here! Have it! Mighty, mighty amulet li'l one has. Don't know what but mighty, mighty it is!!!": {
-   "pt": "",
+   "pt": "Ahh, pequenino querer amuleto. Aqui! Pegar! Amuleto poderoso, poderoso pequenino ter. Não saber o quê mas poderoso, poderoso ele ser!!!",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Me can do unbroken but Big Ben want gold 5000 and all four pieces. Yes?": {
-   "pt": "",
+   "pt": "Big Ben poder fazer sem quebra mas Big Ben querer 5000 de gold e as quatro peças. Sim?",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Lil' one already did this! Big Ben no make again!": {
-   "pt": "",
+   "pt": "Pequenino já fez isso! Big Ben não fazer de novo!",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Big Ben already working! Come back later!": {
-   "pt": "",
+   "pt": "Big Ben já trabalhando! Voltar mais tarde!",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Well, well. I do that! Big Ben makes li'l amulet unbroken with big hammer in big hands! No worry! Come back after sun hits the horizon 24 times and ask me for amulet.": {
-   "pt": "",
+   "pt": "Bem, bem. Big Ben fazer isso! Big Ben deixar amuletinho sem quebra com martelo grande em mãos grandes! Não preocupar! Voltar depois de sol tocar horizonte 24 vezes e pedir amuleto a Big Ben.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Lil' one not have all pieces.": {
-   "pt": "",
+   "pt": "Pequenino não ter todas as peças.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Lil' one has not enough money.": {
-   "pt": "",
+   "pt": "Pequenino não ter dinheiro suficiente.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Hum Humm! Welcume lil' |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Hum Humm! Bem-vindo, pequenino |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
    ]
   },
   "Good bye lil' one.": {
-   "pt": "",
+   "pt": "Até logo, pequenino.",
    "n": 1,
    "npc": [
     "a_sweaty_cyclops"
@@ -13462,161 +13462,161 @@
    ]
   },
   "485611800364197.": {
-   "pt": "",
+   "pt": "485611800364197.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "78572611857643646724.": {
-   "pt": "",
+   "pt": "78572611857643646724.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "Yes, yes, I will kill you soon enough, now let me continue my investigation on you.": {
-   "pt": "",
+   "pt": "Sim, sim, vou matá-lo em breve, agora me deixe continuar minha investigação sobre você.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "They will mourn the day they abandoned us.": {
-   "pt": "",
+   "pt": "Eles vão se lamentar do dia em que nos abandonaram.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "I am the great librarian.": {
-   "pt": "",
+   "pt": "Sou o grande bibliotecário.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "It's a fine library, isn't it?": {
-   "pt": "",
+   "pt": "É uma bela biblioteca, não é?",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "I am 486486 and NOT 'Blinky' as some people called me ... before they died.": {
-   "pt": "",
+   "pt": "Sou 486486 e NÃO 'Blinky', como algumas pessoas me chamavam ... antes de morrerem.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "It's 1, not 'Tibia', silly.": {
-   "pt": "",
+   "pt": "É 1, não 'Tibia', bobo.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "Uglyness incarnate. One eye! Imagine that! Horrible!": {
-   "pt": "",
+   "pt": "A feiura encarnada. Um olho só! Imagine isso! Horrível!",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "These fools and their superstitious life cult don't understand anything of importance.": {
-   "pt": "",
+   "pt": "Esses tolos e o culto supersticioso à vida deles não entendem nada de importante.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "Only inferior species need weapons.": {
-   "pt": "",
+   "pt": "Só espécies inferiores precisam de arma.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "I heard that elves moved in upstairs.": {
-   "pt": "",
+   "pt": "Ouvi dizer que elfos se mudaram para lá em cima.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "Numbers are essential. They are the secret behind the scenes. If you are a master of mathematics you are a master over life and death.": {
-   "pt": "",
+   "pt": "Números são essenciais. São o segredo por trás de tudo. Se você domina a matemática, domina a vida e a morte.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "Our books are written in 469, of course you can't understand them.": {
-   "pt": "",
+   "pt": "Nossos livros são escritos em 469, claro que você não consegue entendê-los.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "Go and wash your eyes for using this obscene number!": {
-   "pt": "",
+   "pt": "Vá lavar os olhos por usar esse número obsceno!",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "The language of my kind. Superior to any other language and only to be spoken by entities with enough eyes to blink it.": {
-   "pt": "",
+   "pt": "A língua da minha espécie. Superior a qualquer outra língua, e só pode ser falada por entidades com olhos suficientes para piscá-la.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "Noisy pests.": {
-   "pt": "",
+   "pt": "Pragas barulhentas.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "Their mages are so close to the truth. Closer then they know and closer then it's good for them.": {
-   "pt": "",
+   "pt": "Os magos deles estão tão perto da verdade. Mais perto do que sabem, e mais perto do que é bom para eles.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "Good tools to work with ... After their death, that is.": {
-   "pt": "",
+   "pt": "Boas ferramentas para trabalhar ... depois da morte deles, é claro.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "You pitiful two-eyed creatures. In our eyes, you look weird. It is pathetic how much you depend on hands and legs. Since we bonelords have more eyes than any creature in the world, it is obvious that you can determine the value of a species by the number of its eyes.": {
-   "pt": "",
+   "pt": "Suas criaturas patéticas de dois olhos. Aos nossos olhos, vocês parecem estranhos. É patético o quanto dependem de mãos e pernas. Já que nós, bonelords, temos mais olhos que qualquer criatura no mundo, é óbvio que se pode determinar o valor de uma espécie pelo número de olhos que tem.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "Our race is very old. Over the time, we have been given many different names by other races. The term bonelord sticks to us for quite a while now. In our language the name of our race is not fix but a complex formula, and as such it always changes for the subjective viewer.": {
-   "pt": "",
+   "pt": "Nossa raça é muito antiga. Com o tempo, recebemos muitos nomes diferentes de outras raças. O termo bonelord gruda em nós há um bom tempo. Na nossa língua, o nome da nossa raça não é fixo, é uma fórmula complexa, e como tal sempre muda conforme quem observa.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "Our language is beyond comprehension by your lesser beings. It heavily relies on mathemagic. Your brain is not suited for the mathemagical processing necessary to understand our language.To decipher even our most basic texts, it would need a genius that can calculate numbers within seconds in his brain.": {
-   "pt": "",
+   "pt": "Nossa língua está além da compreensão de seres inferiores como vocês. Depende muito de mathemagic. O cérebro de vocês não é adequado para o processamento matemágico necessário para entender nossa língua. Para decifrar até nossos textos mais básicos, seria preciso um gênio capaz de calcular números em segundos na própria cabeça.",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
    ]
   },
   "What is this? An optically challenged entity called |PLAYERNAME|. How fascinating!": {
-   "pt": "",
+   "pt": "O que é isso? Uma entidade oticamente limitada chamada |PLAYERNAME|. Que fascinante!",
    "n": 1,
    "npc": [
     "a_wrinkled_bonelord"
@@ -24284,161 +24284,161 @@
    ]
   },
   "I am the leader of the Kuridai and the Az'irel of Ab'Dendriel. \\z\n\t\t\t\tHumans would call it {sheriff}, executioner, or avenger.": {
-   "pt": "",
+   "pt": "Sou a líder dos Kuridai e a Az'irel de Ab'Dendriel. Humanos chamariam de {xerife}, carrasco ou vingador.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "It was here among other structures, like the depot tower, before our people came here. \\z\n\t\t\t\tIt's secured by a sealed door.": {
-   "pt": "",
+   "pt": "Estava aqui entre outras estruturas, como a torre do depot, antes de o nosso povo chegar. É protegido por uma porta selada.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "Not that I like to talk to you, but I am Elathriel Shadowslayer.": {
-   "pt": "",
+   "pt": "Não que eu goste de falar com você, mas sou Elathriel Shadowslayer.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "It's one of the more useful concepts we can learn from the other races.": {
-   "pt": "",
+   "pt": "É um dos conceitos mais úteis que podemos aprender com as outras raças.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "It's hard for some of my people to grasp the true concept of a strong leader.": {
-   "pt": "",
+   "pt": "É difícil para alguns do meu povo compreender o verdadeiro conceito de um líder forte.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "I mastered some battle spells.": {
-   "pt": "",
+   "pt": "Dominei algumas magias de batalha.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "I couldn't care less.": {
-   "pt": "",
+   "pt": "Não podia me importar menos.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "Druidic magic is too peaceful for my taste.": {
-   "pt": "",
+   "pt": "A magia druídica é pacífica demais para o meu gosto.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "I have seen human sorcerers doing some impressive things ... before they died.": {
-   "pt": "",
+   "pt": "Já vi sorcerers humanos fazendo coisas impressionantes ... antes de morrerem.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "We might use the shelter earth and hills provide us, but their obsession for metal is a waste of time.": {
-   "pt": "",
+   "pt": "Podemos até usar o abrigo que a terra e as colinas nos dão, mas a obsessão deles por metal é perda de tempo.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "Like all inferior races, they can be at least of use for something good. \\z\n\t\t\t\tThe other castes are just jealous of us making use of them.": {
-   "pt": "",
+   "pt": "Como todas as raças inferiores, pelo menos podem servir para algo bom. As outras castas só têm inveja de nós por usá-los.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "I still doubt it exists.": {
-   "pt": "",
+   "pt": "Ainda duvido que exista.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "Even if he'd walk through the town above, the other castes would not see the necessity to follow OUR way.": {
-   "pt": "",
+   "pt": "Mesmo que ele caminhasse pela cidade lá em cima, as outras castas não veriam necessidade de seguir o NOSSO caminho.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "My people are divided in castes in these times, until they comprehend \\z\n\t\t\t\tthat only the way of the Kuridai can save us all.": {
-   "pt": "",
+   "pt": "Meu povo está dividido em castas nestes tempos, até que compreendam que só o caminho dos Kuridai pode nos salvar a todos.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "Arrogant bastards, but they wield quite powerful magic.": {
-   "pt": "",
+   "pt": "Desgraçados arrogantes, mas empunham magia bem poderosa.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "Dreamers are of no practical use. I don't mourn their demise.": {
-   "pt": "",
+   "pt": "Sonhadores não têm utilidade prática nenhuma. Não choro pelo fim deles.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "Confused cowards. For all their skill, they still tend to hide and run. What a waste.": {
-   "pt": "",
+   "pt": "Covardes confusos. Com toda a habilidade deles, ainda tendem a se esconder e fugir. Que desperdício.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "We are the heart of the elven society. We forge, we build, and we don't allow our people to be pushed around.": {
-   "pt": "",
+   "pt": "Somos o coração da sociedade élfica. Forjamos, construímos, e não permitimos que nosso povo seja empurrado por aí.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "We watch this city and the actions of its inhabitants closely.": {
-   "pt": "",
+   "pt": "Observamos esta cidade e as ações dos seus habitantes de perto.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "The merchants of venore provide us with some useful goods. \\z\n\t\t\t\tStill I an convinced that they get more out of our bargain then we do.": {
-   "pt": "",
+   "pt": "Os comerciantes de venore nos fornecem alguns produtos úteis. Ainda assim, estou convencida de que eles lucram mais com nosso acordo do que nós.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "The Thaian kingdom and we share some enemies, so it's only logical to cooperate in a few areas.": {
-   "pt": "",
+   "pt": "O reino de Thais e nós compartilhamos alguns inimigos, então é só lógico cooperar em algumas áreas.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "If you are that curious, do you want to buy a key for 5000 gold? \\z\n\t\t\t\t\t\tDon't blame me if you get sucked in.": {
-   "pt": "",
+   "pt": "Se você é tão curioso assim, quer comprar uma chave por 5000 gold? Não me culpe se você for sugado para dentro.",
    "n": 1,
    "npc": [
     "elathriel"
    ]
   },
   "Believe me, it's better for you that way.": {
-   "pt": "",
+   "pt": "Acredite, é melhor para você assim.",
    "n": 1,
    "npc": [
     "elathriel"
@@ -28316,189 +28316,189 @@
    ]
   },
   "Yes... Yes... <sigh>. We already talked about that. I can't remember if you have already tried the {test}, so lets get going.": {
-   "pt": "",
+   "pt": "Sim... Sim... <suspira>. Já falamos sobre isso. Não lembro se você já tentou o {teste}, então vamos em frente.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "We are hiring people to fight in our so called Bigfoot company against the foes of gnomekind. Are you interested in joining?": {
-   "pt": "",
+   "pt": "Estamos contratando gente para lutar na nossa chamada Bigfoot company contra os inimigos do povo gnômico. Tem interesse em se juntar a nós?",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "What do you think describes gnomish society best? {A}) Ingenuity {B}) Bravery {C}) Humility {D}) All of the above.": {
-   "pt": "",
+   "pt": "O que você acha que melhor descreve a sociedade gnômica? {A}) Engenhosidade {B}) Bravura {C}) Humildade {D}) Todas as anteriores.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "What is the front part of a spear? Is it {A}) the pointed one. {B}) The blunt one. {C}) Whatever causes the most damage {D}) A spear is no weapon but a fruit that grows on surface trees.": {
-   "pt": "",
+   "pt": "Qual é a parte da frente de uma lança? É {A}) a pontiaguda. {B}) A rombuda. {C}) Seja lá qual causa mais dano {D}) Lança não é arma, é uma fruta que cresce em árvores da superfície.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "What comes first? {A}) safety {B}) I {C}) duty {D}) George": {
-   "pt": "",
+   "pt": "O que vem primeiro? {A}) segurança {B}) eu {C}) dever {D}) George",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "In case of emergency {A}) break glass {B}) break a leg {C}) have a break {D}) call a gnome?": {
-   "pt": "",
+   "pt": "Em caso de emergência {A}) quebre o vidro {B}) quebre uma perna {C}) faça uma pausa {D}) chame um gnomo?",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "The greatest disaster I can imagine is ... {A}) to fail the gnomes {B}) a ruined mushroom pie {C}) accidentally hammering my finger {D}) having some work to do": {
-   "pt": "",
+   "pt": "O maior desastre que consigo imaginar é ... {A}) falhar com os gnomos {B}) uma mushroom pie arruinada {C}) martelar o próprio dedo sem querer {D}) ter algum trabalho para fazer",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "What would your favourite pet be? {A}) A Krazzelzak of course. {B}) An Uxmoff to be honest. {C}) Montpiffs were always my favourite. {D}) A Humdrella and nothing else!": {
-   "pt": "",
+   "pt": "Qual seria o seu animal de estimação favorito? {A}) Um Krazzelzak, claro. {B}) Um Uxmoff, para ser sincero. {C}) Montpiffs sempre foram meus favoritos. {D}) Um Humdrella e mais nada!",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "Why do you want to become a bigfoot? {A}) To become rich and famous. {B}) To become famous and rich. {C}) To become rich or famous. {D}) To serve the gnomish community in their struggle?": {
-   "pt": "",
+   "pt": "Por que você quer virar um bigfoot? {A}) Para ficar rico e famoso. {B}) Para ficar famoso e rico. {C}) Para ficar rico ou famoso. {D}) Para servir a comunidade gnômica na luta dela?",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "Indeed an excellent and smart decision for an ungnomish lifeform. But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "De fato, uma decisão excelente e esperta para uma forma de vida não-gnômica. Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "A well thought out answer I have to admit. But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Uma resposta bem pensada, tenho que admitir. Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "Ah, we have a true warrior here I guess. But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Ah, imagino que temos aqui um verdadeiro guerreiro. Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "Fear not. We don't expect too much of you anyway. But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Não tema. De qualquer forma, não esperamos muito de você. Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "Ha! A Krazzelzak would for sure fit someone like you! But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Ha! Um Krazzelzak com certeza combinaria com alguém como você! Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "Although chances are the gnome will end up rescuing you instead, it is the attempt that counts. But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Embora as chances sejam de que o gnomo acabe resgatando você, é a tentativa que conta. Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "I knew this question was too easy. But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Eu sabia que essa pergunta era fácil demais. Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "That's the spirit! Initiative is always a good thing. Well most of the time. But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Esse é o espírito! Iniciativa é sempre uma coisa boa. Bem, na maior parte do tempo. Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "You have no idea how many answer this question wrong. But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Você não faz ideia de quantos erram essa pergunta. Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "That's the spirit! But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Esse é o espírito! Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "Of COURSE you wouldn't! NO ONE would! But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Claro que você não faria! NINGUÉM faria! Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "I can only hope that is your honest opinion. But let us continue with the test.": {
-   "pt": "",
+   "pt": "Só posso esperar que essa seja sua opinião sincera. Mas vamos continuar com o teste.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "Oh, you silver tongued devil almost made me blush. But of course you're right. But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Ah, seu conversador convincente, quase me fez corar. Mas claro que você tem razão. Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "How true. How true. *sigh* But fear not! We gnomes are here to help! But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "Que verdade. Que verdade. *suspira* Mas não tema! Nós, gnomos, estamos aqui para ajudar! Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "That's just what I'd do - if I weren't a gnome already, that is. But let us continue with the {test}.": {
-   "pt": "",
+   "pt": "É exatamente o que eu faria - se eu já não fosse um gnomo, quero dizer. Mas vamos continuar com o {teste}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "Excellent! Well this concludes the test. Now let us see your {results}.": {
-   "pt": "",
+   "pt": "Excelente! Bem, isso conclui o teste. Agora vamos ver seus {resultados}.",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "You have passed the test with": {
-   "pt": "",
+   "pt": "Você passou no teste com",
    "n": 1,
    "npc": [
     "gnomerik"
    ]
   },
   "Excellent! Now let us begin with the gnomish aptitude test. Just tell me when you feel ready for the {test}!": {
-   "pt": "",
+   "pt": "Excelente! Agora vamos começar o teste de aptidão gnômico. É só me dizer quando se sentir pronto para o {teste}!",
    "n": 1,
    "npc": [
     "gnomerik"
@@ -57008,7 +57008,7 @@
    "n": 6
   },
   "results": {
-   "pt": "",
+   "pt": "resultados",
    "n": 6
   },
   "general": {
@@ -57396,7 +57396,7 @@
    "n": 4
   },
   "hellgate": {
-   "pt": "",
+   "pt": "hellgate",
    "n": 4
   },
   "goblets": {
@@ -57912,7 +57912,7 @@
    "n": 3
   },
   "business": {
-   "pt": "",
+   "pt": "assunto",
    "n": 3
   },
   "service": {
@@ -58576,11 +58576,11 @@
    "n": 2
   },
   "sheriff": {
-   "pt": "",
+   "pt": "xerife",
    "n": 2
   },
   "keys": {
-   "pt": "",
+   "pt": "chaves",
    "n": 2
   },
   "ok": {
@@ -58744,7 +58744,7 @@
    "n": 2
   },
   "recruitment": {
-   "pt": "",
+   "pt": "recrutamento",
    "n": 2
   },
   "pacifiers": {
