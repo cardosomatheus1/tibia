@@ -6696,7 +6696,7 @@
    ]
   },
   "Hi there! I'm ready to brief you with {tactical} advice.": {
-   "pt": "",
+   "pt": "Olá! Estou pronto para lhe dar conselhos {táticos}.",
    "n": 3,
    "npc": [
     "gnomad",
@@ -6705,7 +6705,7 @@
    ]
   },
   "Good bye and take care!": {
-   "pt": "",
+   "pt": "Até logo, e se cuide!",
    "n": 3,
    "npc": [
     "gnomad",
@@ -6732,14 +6732,14 @@
    ]
   },
   "It seems you did not even set one big foot into the warzone, I am sorry.": {
-   "pt": "",
+   "pt": "Parece que você nem pôs um pé grande na warzone, sinto muito.",
    "n": 3,
    "npc": [
     "gnomission"
    ]
   },
   "We've already talked about that.": {
-   "pt": "",
+   "pt": "Já falamos sobre isso.",
    "n": 3,
    "npc": [
     "gnomission"
@@ -13007,49 +13007,49 @@
    ]
   },
   "A bill? Oh boy so you are delivering another bill to poor me?": {
-   "pt": "",
+   "pt": "Uma conta? Ah, não, você está entregando outra conta para o pobre de mim?",
    "n": 1,
    "npc": [
     "a_strange_fellow"
    ]
   },
   "Ok, ok, I'll take it. I guess I have no other choice anyways. And now leave me alone in my misery please.": {
-   "pt": "",
+   "pt": "Certo, certo, eu pego. Acho que não tenho outra escolha mesmo. E agora me deixe sozinho na minha miséria, por favor.",
    "n": 1,
    "npc": [
     "a_strange_fellow"
    ]
   },
   "Uh? What do you want?!": {
-   "pt": "",
+   "pt": "Hã? O que você quer?!",
    "n": 1,
    "npc": [
     "a_strange_fellow"
    ]
   },
   "What? My hat?? Theres... nothing special about it!": {
-   "pt": "",
+   "pt": "O quê? Meu chapéu?? Não tem... nada de especial nele!",
    "n": 1,
    "npc": [
     "a_strange_fellow"
    ]
   },
   "Stop bugging me about that hat, do you listen?": {
-   "pt": "",
+   "pt": "Pare de me amolar com esse chapéu, está me ouvindo?",
    "n": 1,
    "npc": [
     "a_strange_fellow"
    ]
   },
   "Hey! Don't touch that hat! Leave it alone!!! Don't do this!!!!": {
-   "pt": "",
+   "pt": "Ei! Não toque nesse chapéu! Deixe em paz!!! Não faça isso!!!!",
    "n": 1,
    "npc": [
     "a_strange_fellow"
    ]
   },
   "Noooooo! Argh, ok, ok, I guess I can't deny it anymore, I am David Brassacres, the magnificent, so what do you want?": {
-   "pt": "",
+   "pt": "Nãããão! Argh, certo, certo, acho que não posso mais negar, sou David Brassacres, o magnífico, então o que você quer?",
    "n": 1,
    "npc": [
     "a_strange_fellow"
@@ -16003,7 +16003,7 @@
    ]
   },
   "The passage to the afterlife is filled with obstacles, but I can help you with my wares.": {
-   "pt": "",
+   "pt": "A passagem para a vida após a morte está cheia de obstáculos, mas posso ajudá-lo com minhas mercadorias.",
    "n": 1,
    "npc": [
     "ashtamor"
@@ -17270,28 +17270,28 @@
    ]
   },
   "Yessss! Now I only need to build my own small brewery, figure out the secret recipe, duplicate the dwarvish brew and BANG I'll be back in business! Here take this as a reward.": {
-   "pt": "",
+   "pt": "Issso! Agora só preciso construir minha própria cervejaria pequena, descobrir a receita secreta, duplicar a cerveja dos anões e BUM, estou de volta aos negócios! Tome, fique com isto como recompensa.",
    "n": 1,
    "npc": [
     "boozer"
    ]
   },
   "Shush!! I don't want everybody to know what I am up to. Listen, things are not going too well, I need a new attraction. Do you want to help me?": {
-   "pt": "",
+   "pt": "Psiu!! Não quero que todo mundo saiba o que estou tramando. Escute, as coisas não andam muito bem, preciso de uma atração nova. Quer me ajudar?",
    "n": 1,
    "npc": [
     "boozer"
    ]
   },
   "Good! Listen closely. Take this bottle and go to Kazordoon. I need a sample of their very special brown ale. You may find a cask in their brewery. Come back as soon as you got it.": {
-   "pt": "",
+   "pt": "Ótimo! Preste bem atenção. Pegue esta garrafa e vá até Kazordoon. Preciso de uma amostra da brown ale bem especial deles. Você deve achar um barril na cervejaria de lá. Volte assim que conseguir.",
    "n": 1,
    "npc": [
     "boozer"
    ]
   },
   "Welcome to the Hard Rock Racing Track, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Bem-vindo ao Hard Rock Racing Track, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "boozer"
@@ -22051,14 +22051,14 @@
    ]
   },
   "We have to dig up valuable resources, but don't get enough to eat. The situation is terrible.": {
-   "pt": "",
+   "pt": "Temos que escavar recursos valiosos, mas não temos comida suficiente. A situação é terrível.",
    "n": 1,
    "npc": [
     "corym_butler"
    ]
   },
   "What we get to eat is really ridiculous.": {
-   "pt": "",
+   "pt": "O que ganhamos para comer é realmente ridículo.",
    "n": 1,
    "npc": [
     "corym_footman"
@@ -22100,7 +22100,7 @@
    ]
   },
   "The repression has taken too long. With our new weapons the respective people will get their just punishment.": {
-   "pt": "",
+   "pt": "A repressão já durou tempo demais. Com nossas novas armas, as pessoas responsáveis vão receber o castigo merecido.",
    "n": 1,
    "npc": [
     "corym_slave"
@@ -25978,28 +25978,28 @@
    ]
   },
   "I am Eustacio. At your service.": {
-   "pt": "",
+   "pt": "Sou Eustacio. Ao seu dispor.",
    "n": 1,
    "npc": [
     "eustacio"
    ]
   },
   "It's just the time to make a fortune.": {
-   "pt": "",
+   "pt": "É a hora certa para fazer fortuna.",
    "n": 1,
    "npc": [
     "eustacio"
    ]
   },
   "I am an aspiring businessman, who thrives to climb the ladder of success in the Venorean society.": {
-   "pt": "",
+   "pt": "Sou um empresário aspirante, que se esforça para subir a escada do sucesso na sociedade de Venore.",
    "n": 1,
    "npc": [
     "eustacio"
    ]
   },
   "Hello my friend. What a delight to see you, even on a busy day. You can check your status or ask me about the location of ongoing raids.": {
-   "pt": "",
+   "pt": "Olá, meu amigo. Que alegria vê-lo, mesmo num dia corrido. Você pode conferir seu status ou me perguntar sobre a localização dos raids em andamento.",
    "n": 1,
    "npc": [
     "eustacio"
@@ -27777,28 +27777,28 @@
    ]
   },
   "I'm the gnomish tactical advisor for this area!": {
-   "pt": "",
+   "pt": "Sou o assessor tático gnômico desta região!",
    "n": 1,
    "npc": [
     "gnomad"
    ]
   },
   "Ah you are amazed by our crystals, aren't you? Well, you have only seen a tiny fraction of what they are able to do.": {
-   "pt": "",
+   "pt": "Ah, você está impressionado com nossos cristais, não está? Bem, você só viu uma fração minúscula do que eles conseguem fazer.",
    "n": 1,
    "npc": [
     "gnomad"
    ]
   },
   "In the last century mushrooms have become more and more important for producing raw materials and tools and less important for sustenance.": {
-   "pt": "",
+   "pt": "No último século, os cogumelos ficaram cada vez mais importantes para produzir matéria-prima e ferramentas, e menos importantes para sustento.",
    "n": 1,
    "npc": [
     "gnomad"
    ]
   },
   "We gnomes are masters of growing and working crystals and we also mastered the raising of a variety of mushrooms for different purposes.": {
-   "pt": "",
+   "pt": "Nós, gnomos, somos mestres em cultivar e trabalhar cristais, e também dominamos a criação de vários tipos de cogumelo para diferentes fins.",
    "n": 1,
    "npc": [
     "gnomad"
@@ -28687,98 +28687,98 @@
    ]
   },
   "I am responsible for our war {missions}, to {trade} with seasoned soldiers and rewarding war {heroes}. You have to be rank 4 to enter the {warzones}.": {
-   "pt": "",
+   "pt": "Sou responsável pelas nossas {missões} de guerra, por {negociar} com soldados experientes e recompensar {heróis} de guerra. Você precisa estar na patente 4 para entrar nas {warzones}.",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "As a war hero you are allowed to use the warzone teleporter one for free!": {
-   "pt": "",
+   "pt": "Como herói de guerra, você pode usar o teleporte um da warzone de graça!",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "I can't let you enter the warzone teleporter one for free, unless you handle me a Deathstrike's snippet. But can still always use a red teleport crystal.": {
-   "pt": "",
+   "pt": "Não posso deixá-lo entrar de graça no teleporte um da warzone, a menos que me entregue um Deathstrike's snippet. Mas você sempre pode usar um red teleport crystal.",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "As a war hero you are allowed to use the warzone teleporter three for free!": {
-   "pt": "",
+   "pt": "Como herói de guerra, você pode usar o teleporte três da warzone de graça!",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "I can't let you enter the warzone teleporter two for free, unless you handle me an Abyssador's lash. But can still always use a red teleport crystal.": {
-   "pt": "",
+   "pt": "Não posso deixá-lo entrar de graça no teleporte dois da warzone, a menos que me entregue um Abyssador's lash. Mas você sempre pode usar um red teleport crystal.",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "You need to defeat the first warzone boss to be able to get free access to the second warzone.": {
-   "pt": "",
+   "pt": "Você precisa derrotar o primeiro boss da warzone para ter acesso gratuito à segunda warzone.",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "As a war hero you are allowed to use the warzone teleporter second for free!": {
-   "pt": "",
+   "pt": "Como herói de guerra, você pode usar o teleporte dois da warzone de graça!",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "I can't let you enter the warzone teleporter three for free, unless you handle me a Gnomevil's hat. But can still always use a red teleport crystal.": {
-   "pt": "",
+   "pt": "Não posso deixá-lo entrar de graça no teleporte três da warzone, a menos que me entregue um Gnomevil's hat. Mas você sempre pode usar um red teleport crystal.",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "You need to defeat the second warzone boss to be able to get free access to the third warzone.": {
-   "pt": "",
+   "pt": "Você precisa derrotar o segundo boss da warzone para ter acesso gratuito à terceira warzone.",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "Fine, I grant you the permission to enter the warzones. Be warned though, this will be not a picnic. Better bring some friends with you. Bringing a lot of them sounds like a good idea.": {
-   "pt": "",
+   "pt": "Certo, concedo a você permissão para entrar nas warzones. Mas fica o aviso, isso não vai ser um piquenique. É melhor trazer uns amigos. Trazer muitos deles parece uma boa ideia.",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "You have already accepted this mission.": {
-   "pt": "",
+   "pt": "Você já aceitou esta missão.",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "Sorry, you have not yet earned enough renown that we would risk your life in such a dangerous mission.": {
-   "pt": "",
+   "pt": "Desculpe, você ainda não ganhou fama suficiente para arriscarmos sua vida numa missão tão perigosa.",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "Only if you have killed 20 of our major enemies in the warzones I am allowed to trade with you.": {
-   "pt": "",
+   "pt": "Só se você tiver matado 20 dos nossos principais inimigos nas warzones é que posso negociar com você.",
    "n": 1,
    "npc": [
     "gnomission"
    ]
   },
   "Hello |PLAYERNAME|. You are probably eager to enter the {warzones}.": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|. Você provavelmente está ansioso para entrar nas {warzones}.",
    "n": 1,
    "npc": [
     "gnomission"
@@ -32103,98 +32103,98 @@
    ]
   },
   "A new uniform for the post officers? I am sorry but my dog ate the last dress pattern we used. You need to supply us with a new dress pattern.": {
-   "pt": "",
+   "pt": "Um uniforme novo para os carteiros? Sinto muito, mas meu cachorro comeu o último molde de vestido que usamos. Você precisa nos fornecer um molde novo.",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "It was ... wonderous beyond wildest imaginations! I have no clue where Kevin Postner got it from. Better ask him.": {
-   "pt": "",
+   "pt": "Foi ... maravilhoso além da imaginação mais louca! Não faço ideia de onde Kevin Postner conseguiu aquilo. Melhor perguntar a ele.",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "By the gods of fashion! Didn't it do that I fed the last dress pattern to my poor dog? Will this mocking of all which is taste and fashion never stop?? Ok, ok, you will get those ugly, stinking uniforms and now get lost, fashion terrorist.": {
-   "pt": "",
+   "pt": "Pelos deuses da moda! Não foi porque eu dei o último molde de vestido para o meu pobre cachorro comer? Esse deboche de tudo que é bom gosto e moda nunca vai parar?? Certo, certo, você vai ter esses uniformes feios e fedorentos, e agora suma, terrorista da moda.",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "Sorry, but my time is currently reserved for premium matters.": {
-   "pt": "",
+   "pt": "Desculpe, mas meu tempo está reservado no momento para assuntos premium.",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "I am so excited! This poor man's look will be an outfit like the world has never seen before.": {
-   "pt": "",
+   "pt": "Estou tão animado! Esse visual de homem pobre vai ser um outfit como o mundo nunca viu.",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "Sorry, but I am not done with the outfit yet. Venore wasn't built in a day.": {
-   "pt": "",
+   "pt": "Desculpe, mas ainda não terminei o outfit. Venore não foi construída em um dia.",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "Eureka! Alas, the poor man's outfit is finished, but... to be honest... it turned out much less appealing than I expected. However, you can have it if you want, okay?": {
-   "pt": "",
+   "pt": "Eureka! Enfim, o outfit de homem pobre está pronto, mas... para ser sincero... ficou muito menos atraente do que eu esperava. Mas você pode ficar com ele se quiser, certo?",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "I guess my vision wasn't that grand after all. I hope there are still people who enjoy it.": {
-   "pt": "",
+   "pt": "Acho que minha visão não era tão grandiosa assim, afinal. Espero que ainda haja gente que goste.",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "Terrific! What are you waiting for?! Start right away gathering 20 pieces of brown cloth and come back once you have them!": {
-   "pt": "",
+   "pt": "Terrível! O que você está esperando?! Comece agora mesmo a juntar 20 unidades de brown cloth e volte assim que tiver!",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "Here you go. Maybe you enjoy if after all.": {
-   "pt": "",
+   "pt": "Aqui está. Talvez você goste, afinal.",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "Argh! I guess this awesome idea has to remain unimplemented. What a pity.": {
-   "pt": "",
+   "pt": "Argh! Acho que essa ideia incrível vai ter que ficar sem realizar. Que pena.",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "Do you want me to repeat the task requirements?": {
-   "pt": "",
+   "pt": "Quer que eu repita os requisitos da tarefa?",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "Hurry! I am at my creative peak right now!": {
-   "pt": "",
+   "pt": "Rápido! Estou no auge da minha criatividade agora!",
    "n": 1,
    "npc": [
     "hugo"
    ]
   },
   "Well, if you should change your mind, just ask me for the beggar outfit.": {
-   "pt": "",
+   "pt": "Bem, se mudar de ideia, é só me pedir o beggar outfit.",
    "n": 1,
    "npc": [
     "hugo"
@@ -41308,35 +41308,35 @@
    ]
   },
   "Excuse me, but I'm waiting for someone important!": {
-   "pt": "",
+   "pt": "Com licença, mas estou esperando alguém importante!",
    "n": 1,
    "npc": [
     "nurik"
    ]
   },
   "Wait a minute! Do I get that right? You're the owner of the dwarven bridge and you are willing to sell it to me??": {
-   "pt": "",
+   "pt": "Espere um minuto! Entendi direito? Você é o dono da ponte dos anões e está disposto a vendê-la para mim??",
    "n": 1,
    "npc": [
     "nurik"
    ]
   },
   "How splendid! Do you have the necessary documents with you?": {
-   "pt": "",
+   "pt": "Que esplêndido! Você tem os documentos necessários com você?",
    "n": 1,
    "npc": [
     "nurik"
    ]
   },
   "Oh my, oh my. I'm so excited! So let's seal this deal as fast as possible so I can visit my very own dwarven bridge. Are you ready for the transaction?": {
-   "pt": "",
+   "pt": "Nossa, nossa. Estou tão animado! Então vamos fechar esse negócio o mais rápido possível para eu poder visitar minha própria ponte dos anões. Está pronto para a transação?",
    "n": 1,
    "npc": [
     "nurik"
    ]
   },
   "It's .. It's YOU! At last!! So what's this special proposal you would like to make, my friend?": {
-   "pt": "",
+   "pt": "É .. É VOCÊ! Finalmente!! Então qual é essa proposta especial que você gostaria de fazer, meu amigo?",
    "n": 1,
    "npc": [
     "nurik"
@@ -44864,98 +44864,98 @@
    ]
   },
   "Are you here to get a task or to report you finished task?": {
-   "pt": "",
+   "pt": "Você veio pegar uma tarefa ou relatar que terminou uma?",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "Me humble name is Rafzan. Good old goblin name meaning honest, generous and nice person, I swear!": {
-   "pt": "",
+   "pt": "Nome humilde de Rafzan ser Rafzan. Bom nome goblin antigo que significar pessoa honesta, generosa e legal, juro!",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "Most goblins so afraid of everything, that they fight everything. Me different. Me just want trade.": {
-   "pt": "",
+   "pt": "Maioria dos goblins ter tanto medo de tudo que lutar contra tudo. Rafzan diferente. Rafzan só querer negociar.",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "You humans are so big, strong, clever and beautiful. Me really feel little and green beside you. Must be sooo fun to be human. You surely always make profit!": {
-   "pt": "",
+   "pt": "Vocês humanos ser tão grandes, fortes, espertos e bonitos. Rafzan realmente se sentir pequeno e verde perto de vocês. Deve ser taaão divertido ser humano. Vocês com certeza sempre lucrar!",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "To be honest to me human friend, me only heard about it, never seen one. I imagine it's something cute and cuddly.": {
-   "pt": "",
+   "pt": "Para ser honesto com amigo humano de Rafzan, Rafzan só ouviu falar, nunca viu um. Rafzan imaginar que ser coisa fofa e aconchegante.",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "Swamp is horrible. Slowly eating away at health of poor little goblin. No profit here at all. Me will die poor and desperate, probably eaten by giant mosquitoes.": {
-   "pt": "",
+   "pt": "Pântano ser horrível. Comendo devagar a saúde de goblin pequeno e pobre. Nenhum lucro aqui, nenhum mesmo. Rafzan vai morrer pobre e desesperado, provavelmente comido por mosquitos gigantes.",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "Beardmen are nasty. Always want to kill little goblin. No trade at all. Not good, not good.": {
-   "pt": "",
+   "pt": "Beardmen ser desagradáveis. Sempre querer matar goblin pequeno. Nenhum negócio, nenhum mesmo. Não bom, não bom.",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "So much to do, so little help. Me poor goblin desperately needs help. Me have a few tasks me need to be done. I can offer you all money I made if you only help me a little with stuff which is easy to strong smart human but impossible for poor, little me.": {
-   "pt": "",
+   "pt": "Tanto para fazer, tão pouca ajuda. Rafzan, pobre goblin, precisar desesperadamente de ajuda. Rafzan ter algumas tarefas que precisar ser feitas. Rafzan poder oferecer todo dinheiro que ganhou se você só ajudar um pouco com coisas que ser fácil para humano forte e esperto mas impossível para Rafzan, pequeno e pobre.",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "Me heard Thais is big city with king! Must be strong and clever, to become chief of all humans. Me cannot imagine how many people you have to beat up to become king of all humans. Surely he makes lot of profit in his pretty city.": {
-   "pt": "",
+   "pt": "Rafzan ouviu que Thais ser cidade grande com rei! Ele deve ser forte e esperto, para virar chefe de todos os humanos. Rafzan não conseguir imaginar quanta gente você tem que surrar para virar rei de todos os humanos. Com certeza ele lucrar muito na cidade bonita dele.",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "They are mean and cruel. Humble goblin rarely trades with them. They would rather kill poor me if not too greedy for stuff only me can get them. Still, they rob me of it for a few spare coins and there is noooo profit for poor goblin.": {
-   "pt": "",
+   "pt": "Eles ser maus e cruéis. Goblin humilde raramente negociar com eles. Eles preferir matar Rafzan pobre se não fossem tão gananciosos por coisas que só Rafzan consegue pegar para eles. Ainda assim, eles roubar Rafzan por umas moedinhas e nenhuuum lucro sobrar para goblin pobre.",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "Me job merchant is. Me trade with all kinds of things. Me not good trader though, so you get everything incredibly cheap! You might think me mad, but please don't rip off poor goblin too much. Me has four or five wives and dozens of kids to feed!": {
-   "pt": "",
+   "pt": "Trabalho de Rafzan ser comerciante. Rafzan negociar com todo tipo de coisa. Rafzan não ser bom comerciante, então você conseguir tudo incrivelmente barato! Você talvez achar Rafzan louco, mas por favor não explore demais o goblin pobre. Rafzan ter quatro ou cinco esposas e dezenas de filhos para alimentar!",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "Humans so clever. Much, much smarter than poor, stupid goblin. They have big rich town. Goblin lives here poor and hungry. Me so impressed by you strong and smart humans. So much to learn from you. Poor goblin only sees pretty city from afar. Poor goblin too afraid to go there.": {
-   "pt": "",
+   "pt": "Humanos tão espertos. Muito, muito mais espertos que goblin pobre e burro. Eles ter cidade grande e rica. Goblin morar aqui pobre e faminto. Rafzan tão impressionado com vocês, humanos fortes e espertos. Tanto para aprender com vocês. Goblin pobre só ver cidade bonita de longe. Goblin pobre ter muito medo de ir lá.",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "Me have seen a gold coin once or twice. So bright and shiny it hurt me poor eyes. You surely are incredibly rich human who has even three or four coins at once! Perhaps you want to exchange them for some things me offer? Just don't rob me too much, me little stupid goblin, have no idea what stuff is worth... you look honest, you surely pay fair price like I ask and tell if it's too cheap.": {
-   "pt": "",
+   "pt": "Rafzan já viu moeda de ouro uma ou duas vezes. Tão brilhante que doeu os olhos pobres de Rafzan. Você com certeza ser humano incrivelmente rico que ter até três ou quatro moedas de uma vez! Quem sabe você querer trocar por umas coisas que Rafzan oferecer? Só não roube Rafzan demais, Rafzan ser goblin pequeno e burro, não fazer ideia do que as coisas valer... você parecer honesto, você com certeza pagar preço justo que Rafzan pedir e avisar se for barato demais.",
    "n": 1,
    "npc": [
     "rafzan"
    ]
   },
   "Furry guys are strange fellows. Always collecting things and stuff. Not easy to make them share, oh there is noooo profit for little, poor me to be made. They build underground dens that can stretch quite far. Rumour has it the corym have strange tunnels that connect their different networks all over the world.": {
-   "pt": "",
+   "pt": "Peludos ser sujeitos estranhos. Sempre coletando coisas e tralhas. Não ser fácil fazer eles dividir, ah, nenhuuum lucro para Rafzan pequeno e pobre fazer. Eles construir tocas subterrâneas que se estender bem longe. Boato dizer que corym ter túneis estranhos que ligar as redes diferentes deles pelo mundo todo.",
    "n": 1,
    "npc": [
     "rafzan"
@@ -45970,84 +45970,84 @@
    ]
   },
   "Check out my good and sturdy weapons!": {
-   "pt": "",
+   "pt": "Dê uma olhada nas minhas armas boas e resistentes!",
    "n": 1,
    "npc": [
     "romella"
    ]
   },
   "I am Romella and I will be serving you today.": {
-   "pt": "",
+   "pt": "Sou Romella e vou atendê-lo hoje.",
    "n": 1,
    "npc": [
     "romella"
    ]
   },
   "I have many weapons to offer. If you'd like to see my offers, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Tenho muitas armas para oferecer. Se quiser ver minhas ofertas, me peça para {negociar}.",
    "n": 1,
    "npc": [
     "romella"
    ]
   },
   "I sell and buy weapons. If you'd like to see my offers, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Eu compro e vendo armas. Se quiser ver minhas ofertas, me peça para {negociar}.",
    "n": 1,
    "npc": [
     "romella"
    ]
   },
   "Our warehouse is the main supplier of the local garrison.": {
-   "pt": "",
+   "pt": "Nosso armazém é o principal fornecedor da guarnição local.",
    "n": 1,
    "npc": [
     "romella"
    ]
   },
   "It says the amazons are looking for a certain magical weapon in this area.": {
-   "pt": "",
+   "pt": "Dizem que as amazons estão procurando uma certa arma mágica nesta região.",
    "n": 1,
    "npc": [
     "romella"
    ]
   },
   "I wonder how they finance themselves. I bet they are secretly trading in some strange stuff.": {
-   "pt": "",
+   "pt": "Fico pensando como elas se sustentam. Aposto que negociam secretamente algum tipo de coisa estranha.",
    "n": 1,
    "npc": [
     "romella"
    ]
   },
   "Make sure to buy some extra weapons before facing that one.": {
-   "pt": "",
+   "pt": "Garanta comprar armas extras antes de enfrentar esse aí.",
    "n": 1,
    "npc": [
     "romella"
    ]
   },
   "I heard the amazons are after it.": {
-   "pt": "",
+   "pt": "Ouvi dizer que as amazons andam atrás disso.",
    "n": 1,
    "npc": [
     "romella"
    ]
   },
   "Don't go exploring without weapons. Especially you'll need a machete.": {
-   "pt": "",
+   "pt": "Não vá explorar sem armas. Você vai precisar especialmente de um machete.",
    "n": 1,
    "npc": [
     "romella"
    ]
   },
   "I welcome thee, |PLAYERNAME|! I suppose you are looking for a trade in fine weapons!": {
-   "pt": "",
+   "pt": "Eu o recebo, |PLAYERNAME|! Suponho que esteja procurando negociar belas armas!",
    "n": 1,
    "npc": [
     "romella"
    ]
   },
   "Goodbye and please bring more gold next time <chuckles>. I mean, it would be nice to see you again.": {
-   "pt": "",
+   "pt": "Até logo, e por favor traga mais ouro da próxima vez <ri baixinho>. Quero dizer, seria bom vê-lo de novo.",
    "n": 1,
    "npc": [
     "romella"
@@ -57892,7 +57892,7 @@
    "n": 3
   },
   "heroes": {
-   "pt": "",
+   "pt": "heróis",
    "n": 3
   },
   "containers": {
@@ -57976,7 +57976,7 @@
    "n": 3
   },
   "tactical": {
-   "pt": "",
+   "pt": "tática",
    "n": 3
   },
   "scouts": {
@@ -58756,7 +58756,7 @@
    "n": 2
   },
   "warzones": {
-   "pt": "",
+   "pt": "warzones",
    "n": 2
   },
   "basic": {
@@ -62287,6 +62287,10 @@
   },
   "job": {
    "pt": "trabalho",
+   "n": 0
+  },
+  "tactical": {
+   "pt": "táticos",
    "n": 0
   }
  }
