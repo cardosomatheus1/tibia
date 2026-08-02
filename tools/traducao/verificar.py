@@ -115,12 +115,37 @@ def main() -> int:
         for nome, frase in problemas_glos[:8]:
             print(f"  {nome}: {frase[:60]}")
 
+    # 5. palavra clicavel traduzida sem caminho de volta. E o erro mais
+    #    grave que existe aqui: o jogador clica em {dicas}, o NPC nao
+    #    entende, e a conversa vira beco sem saida.
+    import re as _re
+    entrada = {v["pt"].lower() for v in cat.get("palavras", {}).values() if v.get("pt")}
+    entrada |= {v["pt"].lower() for v in cat.get("apelidos", {}).values() if v.get("pt")}
+    originais = set(cat.get("palavras", {})) | set(cat.get("apelidos", {}))
+    quebradas = []
+    for original, dado in cat.get("textos", {}).items():
+        pt = dado.get("pt")
+        if not pt:
+            continue
+        for termo in _re.findall(r"\{([^}|]+)\}", pt):
+            t = termo.strip().lower()
+            if t and t not in entrada and t not in originais:
+                quebradas.append((t, pt))
+                break
+
+    if quebradas:
+        print(f"\npalavra clicavel sem caminho de volta ({len(quebradas)}):")
+        print("  o jogador clica, o NPC nao entende, a conversa trava.")
+        print("  ou traduza de volta no catalogo, ou deixe o termo no original.")
+        for termo, frase in quebradas[:10]:
+            print(f"  {{{termo}}}: {frase[:58]}")
+
     perdidas = [k for k in orfas if k not in dict(sugestoes)]
     if perdidas:
         print(f"\ntraducao orfa sem par ({len(perdidas)}): a frase sumiu do datapack.")
         print("  fica guardada no catalogo — se a frase voltar, volta a funcionar.")
 
-    precisa_olhar = bool(tolerados or sugestoes or problemas_glos)
+    precisa_olhar = bool(tolerados or sugestoes or problemas_glos or quebradas)
     print("\n" + ("precisa de uma olhada." if precisa_olhar else "tudo em ordem."))
     return 1 if precisa_olhar else 0
 

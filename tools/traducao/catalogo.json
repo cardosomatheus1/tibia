@@ -56050,7 +56050,7 @@
    "n": 32
   },
   "temple": {
-   "pt": "",
+   "pt": "templo",
    "n": 32
   },
   "summon druid familiar": {
@@ -58518,7 +58518,7 @@
    "n": 2
   },
   "adventurer": {
-   "pt": "",
+   "pt": "aventureiro",
    "n": 2
   },
   "first": {

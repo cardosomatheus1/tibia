@@ -68,6 +68,40 @@ Nome de magia fica no original na saída de propósito. Se o NPC dissesse
 não existe em nenhum outro lugar do jogo. Como apelido, ele **pode** dizer
 "cura suprema" e o NPC entende — só não inventa nome novo na resposta.
 
+## A estratégia
+
+Traduzir por frequência foi um erro, e o `progresso.py` mostra o preço:
+**373 NPCs ficaram pela metade**. Metade é a pior leitura possível — o
+jogador vê a saudação em português, a resposta em inglês, e conclui que o
+servidor está quebrado. Em inglês inteiro pelo menos é coerente.
+
+Três regras, e as três são cobradas por ferramenta, não por boa intenção:
+
+**1. A unidade de trabalho é o NPC inteiro.** Nunca se entrega um NPC pela
+metade. `por_npc.py` mostra o roteiro completo de um personagem na ordem
+do arquivo, que é o que preserva a voz — e é impossível dar voz a um
+personagem traduzindo suas frases separadas por semanas.
+
+**2. A ordem é por cidade, uma de cada vez.** Com Rookgaard 100%, quem
+começa o jogo tem a experiência completa mesmo que Thais não tenha
+começado. `progresso.py` mede por cidade, não o percentual global, que
+engana.
+
+Ordem: **Rookgaard e Dawnport** (todo jogador passa), depois **Thais**,
+depois as demais na ordem em que o jogador tende a conhecê-las.
+
+**3. Nada entra sem passar nos portões.** `verificar.py` reprova se:
+
+| Portão | Por quê |
+|---|---|
+| glossário violado | nome próprio traduzido manda o jogador procurar o que não existe |
+| palavra clicável sem volta | jogador clica em `{dicas}`, o NPC não entende, a conversa trava |
+| chave desatualizada | o upstream editou a frase e a tradução se soltou |
+| órfã com par parecido | provavelmente é a mesma frase editada |
+
+Os três portões já pegaram erros meus: `Global Bank` e `Ice Islands`
+traduzidos, e `{templo}`/`{aventureiro}` sem caminho de volta.
+
 ## Traduzir mais
 
 ```bash

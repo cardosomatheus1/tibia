@@ -12,6 +12,7 @@ Idioma.registrar("pt", {
 	-- o jogador digita ou clica.
 	palavras = {
 		["academy"] = "academia",
+		["adventurer"] = "aventureiro",
 		["antidote"] = "antídoto",
 		["armor"] = "armadura",
 		["armors"] = "armaduras",
@@ -108,6 +109,7 @@ Idioma.registrar("pt", {
 		["spiders"] = "aranhas",
 		["student"] = "aluno",
 		["support"] = "suporte",
+		["temple"] = "templo",
 		["time"] = "hora",
 		["torch"] = "tocha",
 		["trade"] = "negociar",
