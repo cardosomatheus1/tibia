@@ -365,7 +365,7 @@
    ]
   },
   "You aren't looking that bad. Sorry, I can't help you. But if you are looking for additional protection you should go on the {pilgrimage} of ashes or get the protection of the {twist of fate} here.": {
-   "pt": "",
+   "pt": "Você não está tão mal assim. Desculpe, não posso ajudar. Mas se procura proteção adicional, faça a {peregrinação} das cinzas ou receba a proteção da {reviravolta do destino} aqui.",
    "n": 26,
    "npc": [
     "alia",
@@ -378,7 +378,7 @@
    ]
   },
   "The spark of the phoenix is given by the dwarven priests of earth and fire in Kazordoon.": {
-   "pt": "",
+   "pt": "A centelha da fênix é dada pelos sacerdotes anões da terra e do fogo em Kazordoon.",
    "n": 26,
    "npc": [
     "alia",
@@ -391,7 +391,7 @@
    ]
   },
   "Talk to the hermit Eremo on the isle of Cormaya about this blessing.": {
-   "pt": "",
+   "pt": "Fale com o eremita Eremo na ilha de Cormaya sobre esta bênção.",
    "n": 26,
    "npc": [
     "alia",
@@ -417,7 +417,7 @@
    ]
   },
   "You can ask for the blessing of spiritual shielding in the whiteflower temple south of Thais.": {
-   "pt": "",
+   "pt": "Você pode pedir a bênção do escudo espiritual no templo da flor branca ao sul de Thais.",
    "n": 25,
    "npc": [
     "alia",
@@ -430,7 +430,7 @@
    ]
   },
   "The druids north of Carlin will provide you with the embrace of Tibia.": {
-   "pt": "",
+   "pt": "Os druidas ao norte de Carlin lhe darão o abraço de Tibia.",
    "n": 25,
    "npc": [
     "alia",
@@ -443,7 +443,7 @@
    ]
   },
   "You can ask for the blessing of the two suns in the suntower near Ab'Dendriel.": {
-   "pt": "",
+   "pt": "Você pode pedir a bênção dos dois sóis na torre do sol perto de Ab'Dendriel.",
    "n": 25,
    "npc": [
     "alia",
@@ -482,7 +482,7 @@
    ]
   },
   "Whenever you receive a lethal wound, your vital force is damaged and there is a chance that you lose some of your equipment. With every single of the five {blessings} you have, this damage and chance of loss will be reduced.": {
-   "pt": "",
+   "pt": "Sempre que você sofre um ferimento fatal, sua força vital é danificada e há chance de perder parte do equipamento. Cada uma das cinco {bênçãos} que você tiver reduz esse dano e essa chance de perda.",
    "n": 23,
    "npc": [
     "alia",
@@ -495,7 +495,7 @@
    ]
   },
   "There are five blessings available in five sacred places: the {spiritual} shielding, the spark of the {phoenix}, the {embrace} of Tibia, the fire of the {suns} and the wisdom of {solitude}. Additionally, you can receive the {twist of fate} here.": {
-   "pt": "",
+   "pt": "Há cinco bênçãos em cinco lugares sagrados: o escudo {spiritual}, a centelha da {phoenix}, o {embrace} de Tibia, o fogo dos {suns} e a sabedoria da {solitude}. Além disso, você pode receber a {twist of fate} aqui.",
    "n": 23,
    "npc": [
     "alia",
@@ -508,7 +508,7 @@
    ]
   },
   "I see you received the spiritual shielding in the whiteflower temple south of Thais.": {
-   "pt": "",
+   "pt": "Vejo que você recebeu o escudo espiritual no templo da flor branca ao sul de Thais.",
    "n": 23,
    "npc": [
     "alia",
@@ -521,7 +521,7 @@
    ]
   },
   "I can sense that the druids north of Carlin have provided you with the Embrace of Tibia.": {
-   "pt": "",
+   "pt": "Sinto que os druidas ao norte de Carlin já lhe deram o Abraço de Tibia.",
    "n": 23,
    "npc": [
     "alia",
@@ -534,7 +534,7 @@
    ]
   },
   "I can see you received the blessing of the two suns in the suntower near Ab'Dendriel.": {
-   "pt": "",
+   "pt": "Vejo que você recebeu a bênção dos dois sóis na torre do sol perto de Ab'Dendriel.",
    "n": 23,
    "npc": [
     "alia",
@@ -547,7 +547,7 @@
    ]
   },
   "I can sense that the spark of the phoenix already was given to you by the dwarven priests of earth and fire in Kazordoon.": {
-   "pt": "",
+   "pt": "Sinto que a centelha da fênix já lhe foi dada pelos sacerdotes anões da terra e do fogo em Kazordoon.",
    "n": 23,
    "npc": [
     "alia",
@@ -560,7 +560,7 @@
    ]
   },
   "I can sense you already talked to the hermit Eremo on the isle of Cormaya and received this blessing.": {
-   "pt": "",
+   "pt": "Sinto que você já falou com o eremita Eremo na ilha de Cormaya e recebeu esta bênção.",
    "n": 23,
    "npc": [
     "alia",
@@ -1484,7 +1484,7 @@
    ]
   },
   "See you my friend.": {
-   "pt": "",
+   "pt": "Até logo, meu amigo.",
    "n": 14,
    "npc": [
     "bolfona",
@@ -1497,7 +1497,7 @@
    ]
   },
   "I'm sorry but I don't sail there.": {
-   "pt": "",
+   "pt": "Desculpe, mas eu não navego para lá.",
    "n": 14,
    "npc": [
     "captain_bluebear",
@@ -1510,7 +1510,7 @@
    ]
   },
   "The Royal Tibia Line connects all seaside towns of Tibia.": {
-   "pt": "",
+   "pt": "A Royal Tibia Line liga todas as cidades costeiras de Tibia.",
    "n": 14,
    "npc": [
     "captain_bluebear",
@@ -1519,7 +1519,7 @@
    ]
   },
   "Here you go.": {
-   "pt": "",
+   "pt": "Aqui está.",
    "n": 14,
    "npc": [
     "guide_alexena",
@@ -1532,7 +1532,7 @@
    ]
   },
   "Make sure that you have all the ingredients with you.": {
-   "pt": "",
+   "pt": "Confira se está com todos os ingredientes.",
    "n": 14,
    "npc": [
     "jean_pierre"
@@ -1637,7 +1637,7 @@
    ]
   },
   "I'm sorry, but we don't serve the routes to the Ice Islands.": {
-   "pt": "",
+   "pt": "Desculpe, mas não fazemos as rotas para as Ilhas de Gelo.",
    "n": 13,
    "npc": [
     "captain_bluebear",
@@ -1647,7 +1647,7 @@
    ]
   },
   "Oh well.": {
-   "pt": "",
+   "pt": "Ah, tudo bem.",
    "n": 13,
    "npc": [
     "captain_waverider",
@@ -1725,7 +1725,7 @@
    ]
   },
   "Would you like to learn {Intense Healing Rune} spell for 600 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Intense Healing Rune} por 600 de ouro?",
    "n": 12,
    "npc": [
     "azalea",
@@ -1738,7 +1738,7 @@
    ]
   },
   "Would you like to learn {Cure Poison Rune} spell for 600 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Cure Poison Rune} por 600 de ouro?",
    "n": 12,
    "npc": [
     "azalea",
@@ -1959,7 +1959,7 @@
    ]
   },
   "Goodbye, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Até mais, |PLAYERNAME|.",
    "n": 12,
    "npc": [
     "eliza",
@@ -1972,7 +1972,7 @@
    ]
   },
   "You have not started that mission.": {
-   "pt": "",
+   "pt": "Você não começou essa missão.",
    "n": 12,
    "npc": [
     "gnomargery",
@@ -1981,7 +1981,7 @@
    ]
   },
   "You have done well. Here, take your reward.": {
-   "pt": "",
+   "pt": "Você se saiu bem. Tome, aqui está sua recompensa.",
    "n": 12,
    "npc": [
     "gnomargery",
@@ -1990,7 +1990,7 @@
    ]
   },
   "Sorry, you have to wait": {
-   "pt": "",
+   "pt": "Desculpe, você tem que esperar",
    "n": 12,
    "npc": [
     "gnomargery",
@@ -1999,7 +1999,7 @@
    ]
   },
   "You have already started that mission.": {
-   "pt": "",
+   "pt": "Você já começou essa missão.",
    "n": 12,
    "npc": [
     "gnomargery",
@@ -2008,7 +2008,7 @@
    ]
   },
   "Would you like me to repeat the task requirements then?": {
-   "pt": "",
+   "pt": "Quer que eu repita o que a tarefa exige?",
    "n": 12,
    "npc": [
     "gregor",
@@ -2017,7 +2017,7 @@
    ]
   },
   "So you would like me to change": {
-   "pt": "",
+   "pt": "Então você quer que eu troque",
    "n": 12,
    "npc": [
     "paulie",
@@ -2026,7 +2026,7 @@
    ]
   },
   "Please come back from time to time.": {
-   "pt": "",
+   "pt": "Apareça de vez em quando.",
    "n": 11,
    "npc": [
     "archery",
@@ -2090,7 +2090,7 @@
    ]
   },
   "Would you like to learn {Ultimate Healing Rune} spell for 1500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Ultimate Healing Rune} por 1500 de ouro?",
    "n": 11,
    "npc": [
     "azalea",
@@ -2129,7 +2129,7 @@
    ]
   },
   "Would you like me to mark locations like - for example - the depot, bank and shops on your map?": {
-   "pt": "",
+   "pt": "Quer que eu marque lugares no seu mapa, como o depot, o banco e as lojas?",
    "n": 11,
    "npc": [
     "guide_alexena",
@@ -2142,7 +2142,7 @@
    ]
   },
   "Well, nothing wrong about exploring the town on your own. Let me know if you need something!": {
-   "pt": "",
+   "pt": "Bom, não há nada de errado em explorar a cidade por conta própria. Me chame se precisar!",
    "n": 11,
    "npc": [
     "guide_alexena",
@@ -2272,7 +2272,7 @@
    ]
   },
   "Then no.": {
-   "pt": "",
+   "pt": "Então não.",
    "n": 10,
    "npc": [
     "budrik",
@@ -2285,7 +2285,7 @@
    ]
   },
   "It was a pleasure to help you, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Foi um prazer te ajudar, |PLAYERNAME|.",
    "n": 10,
    "npc": [
     "chemar",
@@ -2311,7 +2311,7 @@
    ]
   },
   "Free escort to the depot for newcomers!": {
-   "pt": "",
+   "pt": "Escolta gratuita até o depot para recém-chegados!",
    "n": 10,
    "npc": [
     "guide_alexena",
@@ -2324,7 +2324,7 @@
    ]
   },
   "Set the sails!": {
-   "pt": "",
+   "pt": "Içar velas!",
    "n": 10,
    "npc": [
     "jack_fate_goroma",
@@ -2341,7 +2341,7 @@
    ]
   },
   "Good bye and don't forget me!": {
-   "pt": "",
+   "pt": "Até mais, e não se esqueça de mim!",
    "n": 9,
    "npc": [
     "a_dead_bureaucrat1",
@@ -2352,7 +2352,7 @@
    ]
   },
   "As you wish.": {
-   "pt": "",
+   "pt": "Como quiser.",
    "n": 9,
    "npc": [
     "albinius",
@@ -2391,7 +2391,7 @@
    ]
   },
   "I see.": {
-   "pt": "",
+   "pt": "Entendo.",
    "n": 9,
    "npc": [
     "ariella",
@@ -2456,7 +2456,7 @@
    ]
   },
   "Welcome on board, |PLAYERNAME|. Where can I {sail} you today?": {
-   "pt": "",
+   "pt": "Bem-vindo a bordo, |PLAYERNAME|. Para onde posso te {sail} hoje?",
    "n": 9,
    "npc": [
     "captain_bluebear",
@@ -2482,7 +2482,7 @@
    ]
   },
   "Never heard about a place like this.": {
-   "pt": "",
+   "pt": "Nunca ouvi falar de um lugar assim.",
    "n": 9,
    "npc": [
     "chemar",
@@ -2508,7 +2508,7 @@
    ]
   },
   "You do not have enough money to donate that amount.": {
-   "pt": "",
+   "pt": "Você não tem dinheiro suficiente para doar essa quantia.",
    "n": 9,
    "npc": [
     "emperor_kruzak",
@@ -2517,7 +2517,7 @@
    ]
   },
   "I can teach you {attack} spells, {healing} spells and {support} spells. What kind of spell do you wish to learn? I can also tell you which spells are available at your {level}.": {
-   "pt": "",
+   "pt": "Posso te ensinar magias de {ataque}, de {cura} e de {suporte}. Que tipo de magia você quer aprender? Também posso dizer quais estão disponíveis no seu {nível}.",
    "n": 9,
    "npc": [
     "enpa_rudra",
@@ -2530,7 +2530,7 @@
    ]
   },
   "Done.": {
-   "pt": "",
+   "pt": "Pronto.",
    "n": 9,
    "npc": [
     "gnomus",
@@ -2574,7 +2574,7 @@
    ]
   },
   "I will wait for you.": {
-   "pt": "",
+   "pt": "Vou esperar por você.",
    "n": 9,
    "npc": [
     "iptar-sin",
@@ -2587,7 +2587,7 @@
    ]
   },
   "Farewell.": {
-   "pt": "",
+   "pt": "Adeus.",
    "n": 9,
    "npc": [
     "muriel",
@@ -2598,14 +2598,14 @@
    ]
   },
   "No, no. That's not enough, I fear.": {
-   "pt": "",
+   "pt": "Não, não. Receio que não seja suficiente.",
    "n": 9,
    "npc": [
     "myra"
    ]
   },
   "Would you really like to deposit": {
-   "pt": "",
+   "pt": "Você realmente quer depositar",
    "n": 9,
    "npc": [
     "paulie",
@@ -2614,7 +2614,7 @@
    ]
   },
   "Bye, bye.": {
-   "pt": "",
+   "pt": "Tchau, tchau.",
    "n": 8,
    "npc": [
     "al_dee",
@@ -2651,7 +2651,7 @@
    ]
   },
   "Sorry, you aren't a druid either a sorcerer.": {
-   "pt": "",
+   "pt": "Desculpe, você não é druida nem feiticeiro.",
    "n": 8,
    "npc": [
     "alexander",
@@ -2664,7 +2664,7 @@
    ]
   },
   "Here you are young adept, take care yourself.": {
-   "pt": "",
+   "pt": "Aqui está, jovem adepto. Cuide-se.",
    "n": 8,
    "npc": [
     "alexander",
@@ -2677,7 +2677,7 @@
    ]
   },
   "May your path always be even.": {
-   "pt": "",
+   "pt": "Que seu caminho seja sempre plano.",
    "n": 8,
    "npc": [
     "alkestios",
@@ -2687,7 +2687,7 @@
    ]
   },
   "Bye, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Tchau, |PLAYERNAME|.",
    "n": 8,
    "npc": [
     "altar",
@@ -3285,7 +3285,7 @@
    ]
   },
   "I am the captain of this sailing-ship.": {
-   "pt": "",
+   "pt": "Sou o capitão deste veleiro.",
    "n": 8,
    "npc": [
     "captain_bluebear",
@@ -3329,7 +3329,7 @@
    ]
   },
   "Sorry, you will have to wait before you can undertake this mission again.": {
-   "pt": "",
+   "pt": "Desculpe, você vai ter que esperar para refazer esta missão.",
    "n": 8,
    "npc": [
     "commander_stone",
