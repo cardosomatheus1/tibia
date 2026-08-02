@@ -6226,7 +6226,7 @@
    ]
   },
   "Harmony. Enlightenment. Power.": {
-   "pt": "",
+   "pt": "Harmonia. Iluminação. Poder.",
    "n": 3,
    "npc": [
     "ambassador_manop",
@@ -9715,7 +9715,7 @@
    ]
   },
   "You are a monk of the Merudri, enlightened and beyond the Three-Fold Path. You have visited all of our ancestral shrines and embraced eternity. The Enpa will see you now.": {
-   "pt": "",
+   "pt": "Você é um monk dos Merudri, iluminado e além do Three-Fold Path. Você visitou todos os nossos santuários ancestrais e abraçou a eternidade. A Enpa vai recebê-lo agora.",
    "n": 2,
    "npc": [
     "enpa-deia_pema",
@@ -25201,7 +25201,7 @@
    ]
   },
   "Would you like to learn Summon {Monk Familiar} magic spell for 50000 gold?": {
-   "pt": "",
+   "pt": "Gostaria de aprender a magia Summon {Monk Familiar} por 50000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
@@ -25264,28 +25264,28 @@
    ]
   },
   "My attack spells are: {Chained Penance}, {Devastating Knockout}, {Double Jab}, {Flurry of Blows}, {Greater Flurry of Blows}, {Greater Tiger Clash}, {Sweeping Takedown}, {Swift Jab} and {Tiger Clash}.": {
-   "pt": "",
+   "pt": "Minhas magias de ataque são: {Chained Penance}, {Devastating Knockout}, {Double Jab}, {Flurry of Blows}, {Greater Flurry of Blows}, {Greater Tiger Clash}, {Sweeping Takedown}, {Swift Jab} e {Tiger Clash}.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "My healing spells are: {Cure Poison}, {Intense Healing}, {Light Healing}, {Magic Patch}, {Mass Spirit Mend}, {Restore Balance}, and {Spirit Mend}.": {
-   "pt": "",
+   "pt": "Minhas magias de cura são: {Cure Poison}, {Intense Healing}, {Light Healing}, {Magic Patch}, {Mass Spirit Mend}, {Restore Balance} e {Spirit Mend}.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "My support spells are: {Balanced Brawl}, {Enlighten Party}, {Find Fiend}, {Find Person}, {Focus Serenity}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope}, {Mentor Other}, {Strong Haste} and Summon {Monk Familiar}, {Virtue of Harmony}, {Virtue of Justice} and {Virtue of Sustain}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Balanced Brawl}, {Enlighten Party}, {Find Fiend}, {Find Person}, {Focus Serenity}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope}, {Mentor Other}, {Strong Haste} e Summon {Monk Familiar}, {Virtue of Harmony}, {Virtue of Justice} e {Virtue of Sustain}.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "I have spells for level {1}, {8}, {9}, {10}, {12}, {13}, {14}, {18}, {20}, {25}, {32}, {35}, {60}, {70}, {80}, {90}, {125}, {150}, {175} and {200}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {9}, {10}, {12}, {13}, {14}, {18}, {20}, {25}, {32}, {35}, {60}, {70}, {80}, {90}, {125}, {150}, {175} e {200}.",
    "n": 1,
    "npc": [
     "enpa_rudra"
@@ -25390,49 +25390,49 @@
    ]
   },
   "Monks are no subjects and there is no king without subjects. Our community is bound by tradition and harmony. Our {hierarchies} are shaped by our legacy.": {
-   "pt": "",
+   "pt": "Monks não são súditos, e não há rei sem súditos. Nossa comunidade é unida pela tradição e pela harmonia. Nossas {hierarquias} são moldadas pelo nosso legado.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "The Yng, our nemesis, scourge of our ancestors and defining our legacy. Entering our realm through the depths of the reality rift, they terrorised the Merudri for centuries.": {
-   "pt": "",
+   "pt": "Os Yng, nossos inimigos mortais, flagelo dos nossos ancestrais e definidores do nosso legado. Entrando em nosso reino pelas profundezas da fenda da realidade, eles aterrorizaram os Merudri por séculos.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "I am the current Enpa of our community in this sacred valley.": {
-   "pt": "",
+   "pt": "Sou a atual Enpa da nossa comunidade neste vale sagrado.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "I am Enpa Rudra, welcome to the {valley}.": {
-   "pt": "",
+   "pt": "Sou Enpa Rudra, bem-vindo ao {vale}.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "BLUE VALLEY": {
-   "pt": "",
+   "pt": "BLUE VALLEY",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "I welcome you, monk. Now that you have been brought here, tell me what you seek in this most sacred place. I can also teach you {spells} or {promote} you.": {
-   "pt": "",
+   "pt": "Eu o recebo, monk. Agora que você foi trazido até aqui, diga-me o que busca neste lugar sagradíssimo. Também posso lhe ensinar {magias} ou {promovê-lo}.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Focus on truth and balance and you will stay on the path.": {
-   "pt": "",
+   "pt": "Concentre-se na verdade e no equilíbrio, e você permanecerá no caminho.",
    "n": 1,
    "npc": [
     "enpa_rudra"
@@ -57920,11 +57920,11 @@
    "n": 3
   },
   "hierarchies": {
-   "pt": "",
+   "pt": "hierarquias",
    "n": 3
   },
   "valley": {
-   "pt": "",
+   "pt": "vale",
    "n": 3
   },
   "crossbow": {
@@ -60112,7 +60112,7 @@
    "n": 1
   },
   "promote": {
-   "pt": "",
+   "pt": "promover",
    "n": 1
   },
   "solace": {
@@ -62343,6 +62343,10 @@
   },
   "guardian": {
    "pt": "guardiã",
+   "n": 0
+  },
+  "promote": {
+   "pt": "promovê-lo",
    "n": 0
   }
  }
