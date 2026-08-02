@@ -4309,7 +4309,7 @@
    ]
   },
   "I can fly you to {Darashia}, to {Svargrond}, to {Kazordoon}, to {Zao}, to the {Femor Hills}, to {Edron} or to {Issavi} if you like. Where do you want to go?": {
-   "pt": "",
+   "pt": "Posso levá-lo voando até {Darashia}, até {Svargrond}, até {Kazordoon}, até {Zao}, até {Femor Hills}, até {Edron} ou até {Issavi}, se quiser. Para onde você quer ir?",
    "n": 7,
    "npc": [
     "ziyad"
@@ -27574,21 +27574,21 @@
    ]
   },
   "Nothing beats the feeling of flying with a carpet!": {
-   "pt": "",
+   "pt": "Nada supera a sensação de voar num tapete!",
    "n": 1,
    "npc": [
     "gewen"
    ]
   },
   "I can fly you to {Darashia}, {Svargrond}, {Edron}, {Issavi}, {Zao}, {Femor Hills} or to {Marapur} if you like. Where do you want to go?": {
-   "pt": "",
+   "pt": "Posso levá-lo voando até {Darashia}, {Svargrond}, {Edron}, {Issavi}, {Zao}, {Femor Hills} ou {Marapur}, se quiser. Para onde você quer ir?",
    "n": 1,
    "npc": [
     "gewen"
    ]
   },
   "Greetings, traveller |PLAYERNAME|. Where do you want me to {fly} you? Or do you need a weekly ticket for the Kazordoon public lorry transport?": {
-   "pt": "",
+   "pt": "Saudações, viajante |PLAYERNAME|. Para onde você quer {voar}? Ou precisa de um bilhete semanal para o transporte público de vagões de Kazordoon?",
    "n": 1,
    "npc": [
     "gewen"
@@ -31508,7 +31508,7 @@
    ]
   },
   "Ye' want a passage back to cormaya? {Yes} or {no}.": {
-   "pt": "",
+   "pt": "Cê quer uma passagem de volta pra Cormaya? {Sim} ou {não}.",
    "n": 1,
    "npc": [
     "hawkhurst_ingol"
