@@ -5453,7 +5453,7 @@
    ]
   },
   "Sorry, I didn't understand.": {
-   "pt": "",
+   "pt": "Desculpe, não entendi.",
    "n": 4,
    "npc": [
     "andrew_lyze",
@@ -5897,7 +5897,7 @@
    ]
   },
   "MIND YOUR MANNERS COMMONER! To address the king greet with his title!": {
-   "pt": "",
+   "pt": "CUIDE DOS SEUS MODOS, PLEBEU! Para se dirigir ao rei, saúde-o pelo título!",
    "n": 4,
    "npc": [
     "harsky",
@@ -6566,7 +6566,7 @@
    ]
   },
   "Come back when you have enough money.": {
-   "pt": "",
+   "pt": "Volte quando tiver dinheiro suficiente.",
    "n": 3,
    "npc": [
     "elathriel",
@@ -7157,7 +7157,7 @@
    ]
   },
   "You mean that's a JAIL? They told me it's the finest hotel in town! THAT explains the lousy roomservice!": {
-   "pt": "",
+   "pt": "Quer dizer que isto é uma CADEIA? Me disseram que era o melhor hotel da cidade! ISSO explica o serviço de quarto porcaria!",
    "n": 3,
    "npc": [
     "partos"
@@ -8625,7 +8625,7 @@
    ]
   },
   "Of course, just browse through my offers.": {
-   "pt": "",
+   "pt": "Claro, dê uma olhada nas minhas ofertas.",
    "n": 2,
    "npc": [
     "bashira",
@@ -10330,7 +10330,7 @@
    ]
   },
   "LONG LIVE THE KING! You may leave now!": {
-   "pt": "",
+   "pt": "VIDA LONGA AO REI! Você já pode ir!",
    "n": 2,
    "npc": [
     "harsky",
@@ -11111,7 +11111,7 @@
    ]
   },
   "Good bye, visit me again. I will be here, promised.": {
-   "pt": "",
+   "pt": "Até logo, visite-me de novo. Vou estar aqui, prometo.",
    "n": 2,
    "npc": [
     "partos"
@@ -11937,7 +11937,7 @@
    ]
   },
   "Good bye, |PLAYERNAME|. Do come again!.": {
-   "pt": "",
+   "pt": "Até logo, |PLAYERNAME|. Volte sempre!.",
    "n": 2,
    "npc": [
     "turvy"
@@ -15181,7 +15181,7 @@
    ]
   },
   "J-T B^C J^BXT°": {
-   "pt": "",
+   "pt": "J-T B^C J^BXT°",
    "n": 1,
    "npc": [
     "an_idol"
@@ -17064,14 +17064,14 @@
    ]
   },
   "Hi there, |PLAYERNAME|! You look like you are eager to {trade}!": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|! Você parece ansioso para {negociar}!",
    "n": 1,
    "npc": [
     "black_bert"
    ]
   },
   "Bye, |PLAYERNAME|": {
-   "pt": "",
+   "pt": "Tchau, |PLAYERNAME|",
    "n": 1,
    "npc": [
     "black_bert"
@@ -27018,14 +27018,14 @@
    ]
   },
   "Bows, crossbows and ammunition on special sale today.": {
-   "pt": "",
+   "pt": "Bows, crossbows e munição em promoção especial hoje.",
    "n": 1,
    "npc": [
     "galuna"
    ]
   },
   "Oh, please come in, |PLAYERNAME|. What do you need? Distance weapons? I sell lots of them.": {
-   "pt": "",
+   "pt": "Ah, por favor, entre, |PLAYERNAME|. Do que precisa? Armas à distância? Vendo um monte delas.",
    "n": 1,
    "npc": [
     "galuna"
@@ -29678,14 +29678,14 @@
    ]
   },
   "I think it'll rain soon and I left some laundry out for drying.": {
-   "pt": "",
+   "pt": "Acho que vai chover logo e deixei roupa lavada secando lá fora.",
    "n": 1,
    "npc": [
     "grof_the_guard"
    ]
   },
   "Yes I'm pretty sure they have failed to send the laundry police to take care of it, you fool.": {
-   "pt": "",
+   "pt": "Sim, tenho certeza de que esqueceram de mandar a polícia da lavanderia para cuidar disso, seu tolo.",
    "n": 1,
    "npc": [
     "grof_the_guard"
@@ -31463,7 +31463,7 @@
    ]
   },
   "Okay, here we go, listen closely! I need a few things... a basic hat of course, maybe a legion helmet would do. Then about 100 chicken feathers... and 50 honeycombs as glue. That's it, come back to me once you gathered it!": {
-   "pt": "",
+   "pt": "Certo, lá vamos nós, preste bem atenção! Preciso de algumas coisas... um chapéu básico, claro, talvez um legion helmet sirva. Depois uns 100 chicken feathers... e 50 honeycombs de cola. É isso, volte quando tiver juntado tudo!",
    "n": 1,
    "npc": [
     "hanna"
@@ -32149,14 +32149,14 @@
    ]
   },
   "Oh, this misery...": {
-   "pt": "",
+   "pt": "Ah, esta miséria...",
    "n": 1,
    "npc": [
     "hoggle"
    ]
   },
   "Welcome to my humble home!": {
-   "pt": "",
+   "pt": "Bem-vindo à minha humilde casa!",
    "n": 1,
    "npc": [
     "hoggle"
@@ -35789,14 +35789,14 @@
    ]
   },
   "Awesome! Please pay a visit to www.otserv.com.br!": {
-   "pt": "",
+   "pt": "Incrível! Por favor, visite www.otserv.com.br!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Baah is awesome dude that rewrote my outfit script.": {
-   "pt": "",
+   "pt": "Baah é o cara incrível que reescreveu meu script de outfit.",
    "n": 1,
    "npc": [
     "king_tibianus"
@@ -36307,14 +36307,14 @@
    ]
   },
   "You adventurers become more and more of a pest.": {
-   "pt": "",
+   "pt": "Vocês, aventureiros, viram uma praga cada vez maior.",
    "n": 1,
    "npc": [
     "kulag_the_guard"
    ]
   },
   "They should throw you all into jail instead of giving you all those quests and rewards an honest watchman can only dream about.": {
-   "pt": "",
+   "pt": "Deviam era jogar todos vocês na cadeia, em vez de dar todas essas quests e recompensas com que um vigia honesto só pode sonhar.",
    "n": 1,
    "npc": [
     "kulag_the_guard"
@@ -37448,21 +37448,21 @@
    ]
   },
   "You want me to eat this cookie?": {
-   "pt": "",
+   "pt": "Quer que eu coma esse biscoito?",
    "n": 1,
    "npc": [
     "lorbas"
    ]
   },
   "Well, you don't mind if I play around with this antidote rune a bit ... UHHH, YOU LOU ... uhm that was so ... funny, haha ... ha. Mhm, you better leave now.": {
-   "pt": "",
+   "pt": "Bem, você não se importa se eu brincar um pouco com essa antidote rune ... UHHH, VOCÊ LOU ... uhm isso foi tão ... engraçado, haha ... ha. Mhm, é melhor você ir embora agora.",
    "n": 1,
    "npc": [
     "lorbas"
    ]
   },
   "Be greeted, dear traveller.": {
-   "pt": "",
+   "pt": "Seja bem-vindo, caro viajante.",
    "n": 1,
    "npc": [
     "lorbas"
@@ -38428,14 +38428,14 @@
    ]
   },
   "You are already married to {": {
-   "pt": "",
+   "pt": "Você já é casado com {",
    "n": 1,
    "npc": [
     "lynda"
    ]
   },
   "You already made a wedding proposal to {": {
-   "pt": "",
+   "pt": "Você já fez uma proposta de casamento a {",
    "n": 1,
    "npc": [
     "lynda"
@@ -40619,14 +40619,14 @@
    ]
   },
   "It's a wise idea to store your money in your bank account.": {
-   "pt": "",
+   "pt": "É uma boa ideia guardar seu dinheiro na sua conta bancária.",
    "n": 1,
    "npc": [
     "naji"
    ]
   },
   "Welcome to the Tibian bank, |PLAYERNAME| What can I do for you?": {
-   "pt": "",
+   "pt": "Bem-vindo ao banco de Tibia, |PLAYERNAME|. O que posso fazer por você?",
    "n": 1,
    "npc": [
     "naji"
@@ -40990,28 +40990,28 @@
    ]
   },
   "I was stationed in this cave to... guard something. Right now I am not even sure what that was.": {
-   "pt": "",
+   "pt": "Fui destacado para esta caverna para... guardar alguma coisa. Agora nem tenho certeza do que era.",
    "n": 1,
    "npc": [
     "noozer"
    ]
   },
   "Then don't waste my time. I'm doing some important... business... here. Actually... where am I? If I find out, I will be even more angry than I am now. Out of my sight.": {
-   "pt": "",
+   "pt": "Então não perca meu tempo. Estou cuidando de um assunto... importante... aqui. Aliás... onde estou? Se eu descobrir, vou ficar ainda mais bravo do que já estou. Suma da minha vista.",
    "n": 1,
    "npc": [
     "noozer"
    ]
   },
   "I was on a mission, too - I guess. It was all quite blurry back then. Maybe I'll leave this place after I recovered completely. I have to find out what happened to me.": {
-   "pt": "",
+   "pt": "Eu também estava numa missão - acho. Tudo estava bem confuso na época. Talvez eu saia daqui depois de me recuperar por completo. Preciso descobrir o que aconteceu comigo.",
    "n": 1,
    "npc": [
     "noozer"
    ]
   },
   "Hm? Oh! Oh, yes a... visitor! Intruder? Benefactor...? Wha- what are you? If you want to pass through this cave, I may have to disappoint you. Or maybe not. It... depends. So, just passing through?": {
-   "pt": "",
+   "pt": "Hm? Ah! Ah, sim, um... visitante! Intruso? Benfeitor...? O qu- o que você é? Se quer atravessar esta caverna, talvez eu tenha que desapontá-lo. Ou talvez não. Depende... Então, só de passagem?",
    "n": 1,
    "npc": [
     "noozer"
@@ -43314,14 +43314,14 @@
    ]
   },
   "I won't talk about that.": {
-   "pt": "",
+   "pt": "Não vou falar sobre isso.",
    "n": 1,
    "npc": [
     "partos"
    ]
   },
   "Welcome to my little kingdom, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Bem-vindo ao meu pequeno reino, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "partos"
@@ -43895,21 +43895,21 @@
    ]
   },
   "Do you want to try to release me with a kiss?": {
-   "pt": "",
+   "pt": "Quer tentar me libertar com um beijo?",
    "n": 1,
    "npc": [
     "pig"
    ]
   },
   "Mhm Uhhh. Not bad, not bad at all! But you can still improve your skill a LOT.": {
-   "pt": "",
+   "pt": "Mhm Uhhh. Nada mal, nada mal mesmo! Mas você ainda pode melhorar MUITO sua técnica.",
    "n": 1,
    "npc": [
     "pig"
    ]
   },
   "Oink.": {
-   "pt": "",
+   "pt": "Oinc.",
    "n": 1,
    "npc": [
     "pig"
@@ -48158,28 +48158,28 @@
    ]
   },
   "Isn't this a beautiful day? Perfect for farming.": {
-   "pt": "",
+   "pt": "Não é um dia lindo? Perfeito para a lavoura.",
    "n": 1,
    "npc": [
     "sherry_mcronald"
    ]
   },
   "Hello |PLAYERNAME|! Welcome to our humble farm.": {
-   "pt": "",
+   "pt": "Olá |PLAYERNAME|! Bem-vindo à nossa humilde fazenda.",
    "n": 1,
    "npc": [
     "sherry_mcronald"
    ]
   },
   "Grace our home with another visit soon, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Honre nossa casa com outra visita em breve, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "sherry_mcronald"
    ]
   },
   "What a strange person.": {
-   "pt": "",
+   "pt": "Que pessoa estranha.",
    "n": 1,
    "npc": [
     "sherry_mcronald"
@@ -48956,14 +48956,14 @@
    ]
   },
   "So you're the delivery boy? Go ahead, but I warn you, it's quite heavy. You can take it from the box over there.": {
-   "pt": "",
+   "pt": "Então você é o entregador? Pode ir, mas aviso, é bem pesado. Pode pegar naquela caixa ali.",
    "n": 1,
    "npc": [
     "snake_eye"
    ]
   },
   "Funny thing that everyone thinks we have forgers for fake documents here. But no, we don't. The best forger is old Ahmet in Ankrahmun.": {
-   "pt": "",
+   "pt": "Engraçado como todo mundo acha que temos falsificadores de documentos aqui. Mas não, não temos. O melhor falsificador é o velho Ahmet, em Ankrahmun.",
    "n": 1,
    "npc": [
     "snake_eye"
@@ -49397,28 +49397,28 @@
    ]
   },
   "Excellent... I hope they will haaaaaaunt my house no longer. What was your... naaaaaame again, tell me?": {
-   "pt": "",
+   "pt": "Excelente... espero que parem de assombrar minha casa. Qual era mesmo o seu... noooome, me diga?",
    "n": 1,
    "npc": [
     "stricken_soul"
    ]
   },
   "Yeeeees... you need to help meeeeeee. I want those ghosts gone... this is my home and I need it to teach my students. Will you take care of the... ghosts?": {
-   "pt": "",
+   "pt": "Siiiim... você precisa me ajudaaaar. Quero esses fantasmas fora... esta é minha casa e preciso dela para ensinar meus alunos. Você vai cuidar dos... fantasmas?",
    "n": 1,
    "npc": [
     "stricken_soul"
    ]
   },
   "This place is... haunted... heed my warning... there are... ghooooooosts here...! Why are you giving me that... look? I am certain, there aaaaaaare ghosts here - I've seen them! Do you believe me?": {
-   "pt": "",
+   "pt": "Este lugar é... assombrado... escute meu aviso... há... faaaaantasmas aqui...! Por que está me olhando... assim? Tenho certeza, hááááá fantasmas aqui - eu os vi! Você acredita em mim?",
    "n": 1,
    "npc": [
     "stricken_soul"
    ]
   },
   "Gree... tings.": {
-   "pt": "",
+   "pt": "Sau... dações.",
    "n": 1,
    "npc": [
     "stricken_soul"
@@ -51210,21 +51210,21 @@
    ]
   },
   "Ah, well. Just this morning my new toothbrush fell into the toilet.": {
-   "pt": "",
+   "pt": "Ah, bem. Foi só hoje de manhã que minha escova de dentes nova caiu na privada.",
    "n": 1,
    "npc": [
     "tim_the_guard"
    ]
   },
   "What do you mean? Of course they will immediately send someone with extra long and thin arms to retrieve it!": {
-   "pt": "",
+   "pt": "Como assim? Claro que vão mandar imediatamente alguém com braços extra longos e finos para pegar de volta!",
    "n": 1,
    "npc": [
     "tim_the_guard"
    ]
   },
   "Your humour might let end you up beaten in some dark alley, you know? No, I don't think someone could have prevented that accident!": {
-   "pt": "",
+   "pt": "Esse seu senso de humor pode acabar lhe rendendo uma surra num beco escuro qualquer, sabia? Não, não acho que alguém pudesse ter evitado esse acidente!",
    "n": 1,
    "npc": [
     "tim_the_guard"
@@ -52008,14 +52008,14 @@
    ]
   },
   "Courageous adventurers, come buy your weapons and armors here!": {
-   "pt": "",
+   "pt": "Aventureiros corajosos, venham comprar suas weapons e armors aqui!",
    "n": 1,
    "npc": [
     "turvy"
    ]
   },
   "Hello, dear |PLAYERNAME|. Can I be of any assistance? Just tell me if you'd like to {trade} weapons or armor.": {
-   "pt": "",
+   "pt": "Olá, querido |PLAYERNAME|. Posso ser útil em algo? É só me dizer se quer {negociar} weapons ou armor.",
    "n": 1,
    "npc": [
     "turvy"
@@ -52568,21 +52568,21 @@
    ]
   },
   "Love is beautiful, we are loved.": {
-   "pt": "",
+   "pt": "O amor é lindo, nós somos amados.",
    "n": 1,
    "npc": [
     "valentina"
    ]
   },
   "I am known as the saleswoman of love, as a cupid.": {
-   "pt": "",
+   "pt": "Sou conhecida como a vendedora do amor, um cupido.",
    "n": 1,
    "npc": [
     "valentina"
    ]
   },
   "Welcome to Valentine's Store. Let's {trade} something?": {
-   "pt": "",
+   "pt": "Bem-vindo à Valentine's Store. Vamos {negociar} alguma coisa?",
    "n": 1,
    "npc": [
     "valentina"
@@ -53268,28 +53268,28 @@
    ]
   },
   "I think there is a pickpocket in town.": {
-   "pt": "",
+   "pt": "Acho que tem um batedor de carteira na cidade.",
    "n": 1,
    "npc": [
     "walter_the_guard"
    ]
   },
   "Well, sooner or later we will get hold of that delinquent. That's for sure.": {
-   "pt": "",
+   "pt": "Bem, cedo ou tarde vamos pegar esse delinquente. Disso eu tenho certeza.",
    "n": 1,
    "npc": [
     "walter_the_guard"
    ]
   },
   "You can't tell by a person's appearance who is a pickpocket and who isn't. You simply can't close the city gates for everyone.": {
-   "pt": "",
+   "pt": "Não dá para saber pela aparência quem é batedor de carteira e quem não é. Simplesmente não dá para fechar os portões da cidade para todo mundo.",
    "n": 1,
    "npc": [
     "walter_the_guard"
    ]
   },
   "If the gods had created the world a paradise, no one had to steal at all.": {
-   "pt": "",
+   "pt": "Se os deuses tivessem criado o mundo como um paraíso, ninguém precisaria roubar.",
    "n": 1,
    "npc": [
     "walter_the_guard"
@@ -53968,7 +53968,7 @@
    ]
   },
   "Oh, please come in, |PLAYERNAME| \\z\n\tIf you need magical equipment such as {runes} or {wands}, just ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Ah, por favor, entre, |PLAYERNAME|. Se precisar de equipamento mágico como {runes} ou {wands}, é só me pedir para {negociar}.",
    "n": 1,
    "npc": [
     "xodet"
