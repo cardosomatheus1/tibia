@@ -3979,7 +3979,7 @@
    ]
   },
   "You would like to book a passage for {Thais} or {Krailos}?": {
-   "pt": "",
+   "pt": "Gostaria de reservar uma passagem para {Thais} ou {Krailos}?",
    "n": 7,
    "npc": [
     "captain_gulliver"
@@ -8884,7 +8884,7 @@
    ]
   },
   "I am the captain of the 'Sea Goddess', the splendid and beautiful ship you see over there.": {
-   "pt": "",
+   "pt": "Sou o capitão do 'Sea Goddess', o navio esplêndido e belo que você vê ali.",
    "n": 2,
    "npc": [
     "captain_gulliver"
@@ -8950,7 +8950,7 @@
    ]
   },
   "Where do you want to go? To {Krailos}, {Thais}, {Carlin}, {Ab'Dendriel}, {Venore}, {Port Hope}, {Ankrahmun}, {Liberty Bay}, {Gray Island} or the isle {Cormaya}?": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Krailos}, {Thais}, {Carlin}, {Ab'Dendriel}, {Venore}, {Port Hope}, {Ankrahmun}, {Liberty Bay}, {Gray Island} ou a ilha {Cormaya}?",
    "n": 2,
    "npc": [
     "captain_seahorse"
@@ -11107,7 +11107,7 @@
    ]
   },
   "I'm a fisherman and I take along people to Edron. You can also buy some fresh fish.": {
-   "pt": "",
+   "pt": "Sou pescador e levo pessoas até Edron. Você também pode comprar peixe fresco.",
    "n": 2,
    "npc": [
     "pemaret"
@@ -12165,7 +12165,7 @@
    ]
   },
   "Hm, you are right, we are at the forefront of knowledge and innovation. Our dwarven friends could learn much from one of our representatives.": {
-   "pt": "",
+   "pt": "Hm, você tem razão, estamos na vanguarda do conhecimento e da inovação. Nossos amigos anões poderiam aprender muito com um dos nossos representantes.",
    "n": 2,
    "npc": [
     "wyrdin"
@@ -16283,70 +16283,70 @@
    ]
   },
   "Do you really think you could bribe a hero like me with a meagre cookie?": {
-   "pt": "",
+   "pt": "Você realmente acha que poderia subornar um herói como eu com um cookie miserável?",
    "n": 1,
    "npc": [
     "avar_tar"
    ]
   },
   "So you want to have the demon outfit, hah! Let's have a look first if you really deserve it. Tell me: {base}, {shield} or {helmet}?": {
-   "pt": "",
+   "pt": "Então você quer o demon outfit, hã! Vamos ver primeiro se você realmente merece. Me diga: {base}, {escudo} ou {elmo}?",
    "n": 1,
    "npc": [
     "avar_tar"
    ]
   },
   "Well, you won't! Though it looks tasty ...What the ... WHAT DO YOU THINK YOU ARE? THIS IS THE ULTIMATE INSULT! GET LOST!": {
-   "pt": "",
+   "pt": "Bem, não vai ganhar! Embora pareça saboroso ...Mas que ... O QUE VOCÊ PENSA QUE É? ISSO É O INSULTO DEFINITIVO! SUMA DAQUI!",
    "n": 1,
    "npc": [
     "avar_tar"
    ]
   },
   "Receive the base outfit, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Receba o base outfit, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "avar_tar"
    ]
   },
   "You need to complete annihilator quest first, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Você precisa completar a annihilator quest primeiro, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "avar_tar"
    ]
   },
   "Receive the shield, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Receba o escudo, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "avar_tar"
    ]
   },
   "The shield will only be granted to those adventurers who have finished the demon helmet quest, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "O escudo só será concedido aos aventureiros que tiverem terminado a demon helmet quest, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "avar_tar"
    ]
   },
   "Receive the helmet, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Receba o elmo, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "avar_tar"
    ]
   },
   "The helmet is for those who have hunted down all 6666 demons and finished the demon oak as well, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "O elmo é para aqueles que caçaram todos os 6666 demons e também terminaram o demon oak, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "avar_tar"
    ]
   },
   "Greetings, traveller |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Saudações, viajante |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "avar_tar"
@@ -19209,49 +19209,49 @@
    ]
   },
   "Passages to Thais and Krailos! Visit the strange lands!": {
-   "pt": "",
+   "pt": "Passagens para Thais e Krailos! Visite as terras estranhas!",
    "n": 1,
    "npc": [
     "captain_gulliver"
    ]
   },
   "Ah, you may not have heard of me. I am Captain Gulliver, the first Oramondian for a hundred years to have sailed through the mist to your strange lands.": {
-   "pt": "",
+   "pt": "Ah, talvez você não tenha ouvido falar de mim. Sou o Captain Gulliver, o primeiro Oramondian em cem anos a navegar pela névoa até suas terras estranhas.",
    "n": 1,
    "npc": [
     "captain_gulliver"
    ]
   },
   "The 'Sea Goddess' is the most beautiful in Oramond, a whole new model of ship, elegant, sure and swift. There's no weather she can't take!": {
-   "pt": "",
+   "pt": "O 'Sea Goddess' é o mais belo de Oramond, um modelo de navio totalmente novo, elegante, seguro e veloz. Não existe clima que ele não aguente!",
    "n": 1,
    "npc": [
     "captain_gulliver"
    ]
   },
   "Ah, your lands are quite a sight! I have only visited Thais so far, but I think of navigating to more cities, when the time - and public demand - comes.": {
-   "pt": "",
+   "pt": "Ah, suas terras são um verdadeiro espetáculo! Até agora só visitei Thais, mas penso em navegar até mais cidades quando chegar a hora - e a demanda do público.",
    "n": 1,
    "npc": [
     "captain_gulliver"
    ]
   },
   "I will gladly take on board everything you wish to transport. No pets, though.": {
-   "pt": "",
+   "pt": "Terei o maior prazer em levar a bordo tudo que você queira transportar. Só não animais de estimação.",
    "n": 1,
    "npc": [
     "captain_gulliver"
    ]
   },
   "<bows> I would be delighted to have you on board.": {
-   "pt": "",
+   "pt": "<curva-se> Seria um prazer tê-lo a bordo.",
    "n": 1,
    "npc": [
     "captain_gulliver"
    ]
   },
   "This is the only safe landing place on Oramond. The cliffs surrounding the isle are too dangerous, you see.": {
-   "pt": "",
+   "pt": "Este é o único lugar seguro para desembarque em Oramond. Os penhascos ao redor da ilha são perigosos demais, veja bem.",
    "n": 1,
    "npc": [
     "captain_gulliver"
@@ -19727,35 +19727,35 @@
    ]
   },
   "Do you seek a seek a passage to": {
-   "pt": "",
+   "pt": "Você busca uma passagem para",
    "n": 1,
    "npc": [
     "captain_seahorse"
    ]
   },
   "My name is Captain Seahorse from the Royal Tibia Line.": {
-   "pt": "",
+   "pt": "Meu nome é Captain Seahorse, da Royal Tibia Line.",
    "n": 1,
    "npc": [
     "captain_seahorse"
    ]
   },
   "This is Edron. Where do you want to go?": {
-   "pt": "",
+   "pt": "Isto é Edron. Para onde você quer ir?",
    "n": 1,
    "npc": [
     "captain_seahorse"
    ]
   },
   "I'm sorry, but we don't serve this route. However, I heard that Wyrdin here in Edron is looking for adventurers to go on a trip to Yalahar for him.": {
-   "pt": "",
+   "pt": "Sinto muito, mas não atendemos essa rota. Porém, ouvi dizer que Wyrdin, aqui em Edron, está procurando aventureiros para fazer uma viagem a Yalahar para ele.",
    "n": 1,
    "npc": [
     "captain_seahorse"
    ]
   },
   "Welcome on board, |PLAYERNAME|. Where may I {sail} you today?": {
-   "pt": "",
+   "pt": "Bem-vindo a bordo, |PLAYERNAME|. Para onde posso {levar} você hoje?",
    "n": 1,
    "npc": [
     "captain_seahorse"
@@ -43275,49 +43275,49 @@
    ]
   },
   "My fish is of the finest quality you could find. Ask me for a trade to check for yourself.": {
-   "pt": "",
+   "pt": "Meu peixe é da melhor qualidade que você poderia encontrar. Me peça para negociar e confira você mesmo.",
    "n": 1,
    "npc": [
     "pemaret"
    ]
   },
   "It's a lovely and peaceful isle. Did you already visit the nice sandy beach?": {
-   "pt": "",
+   "pt": "É uma ilha adorável e tranquila. Você já visitou a bela praia de areia?",
    "n": 1,
    "npc": [
     "pemaret"
    ]
   },
   "My name is Pemaret, the fisherman.": {
-   "pt": "",
+   "pt": "Meu nome é Pemaret, o pescador.",
    "n": 1,
    "npc": [
     "pemaret"
    ]
   },
   "WOW! You have a marlin!! I could make a nice decoration for your wall from it. May I have it?": {
-   "pt": "",
+   "pt": "UAU! Você tem um marlin!! Eu poderia fazer uma bela decoração de parede com ele. Posso ficar com ele?",
    "n": 1,
    "npc": [
     "pemaret"
    ]
   },
   "Yeah! Now let's see... <fumble fumble> There you go, I hope you like it!": {
-   "pt": "",
+   "pt": "Isso! Agora vamos ver... <remexe remexe> Aqui está, espero que goste!",
    "n": 1,
    "npc": [
     "pemaret"
    ]
   },
   "You don't have the fish.": {
-   "pt": "",
+   "pt": "Você não tem o peixe.",
    "n": 1,
    "npc": [
     "pemaret"
    ]
   },
   "Greetings, young man. Looking for a passage or some fish, |PLAYERNAME|?": {
-   "pt": "",
+   "pt": "Saudações, jovem. Procurando uma passagem ou um peixe, |PLAYERNAME|?",
    "n": 1,
    "npc": [
     "pemaret"
@@ -47062,70 +47062,70 @@
    ]
   },
   "Heed. Your. Will. We. Will.": {
-   "pt": "",
+   "pt": "Atenderemos. Sua. Vontade. Nós. Atenderemos.",
    "n": 1,
    "npc": [
     "servant_sentry"
    ]
   },
   "Intruder. Intrude. Must. Explain.": {
-   "pt": "",
+   "pt": "Intruso. Invadir. Deve. Explicar.",
    "n": 1,
    "npc": [
     "servant_sentry"
    ]
   },
   "Ssssttttoooopppp.": {
-   "pt": "",
+   "pt": "Paaaarrrreee.",
    "n": 1,
    "npc": [
     "servant_sentry"
    ]
   },
   "Our. Master. Is. Gone. You. Can. Not. Visit. Him! We. Stand. {Sentry}!": {
-   "pt": "",
+   "pt": "Nosso. Mestre. Se. Foi. Você. Não. Pode. Visitá-lo! Nós. Ficamos. De. {Sentinela}!",
    "n": 1,
    "npc": [
     "servant_sentry"
    ]
   },
   "{Master}. Conducted. Experiments. Great. Problems. You. Must. Go!": {
-   "pt": "",
+   "pt": "{Mestre}. Conduziu. Experimentos. Grandes. Problemas. Você. Deve. Ir!",
    "n": 1,
    "npc": [
     "servant_sentry"
    ]
   },
   "{Slime}. Dangerous. We. Have. It. Under. Control. ... We. Will. Stand. {Sentry}.": {
-   "pt": "",
+   "pt": "{Slime}. Perigoso. Nós. Temos. Sob. Controle. ... Nós. Ficaremos. De. {Sentinela}.",
    "n": 1,
    "npc": [
     "servant_sentry"
    ]
   },
   "The. {Slime}. Has. Entered. Our. {Master}. Has. Left! We. Must. {Help}.": {
-   "pt": "",
+   "pt": "O. {Slime}. Entrou. Nosso. {Mestre}. Partiu! Nós. Precisamos. De. {Ajuda}.",
    "n": 1,
    "npc": [
     "servant_sentry"
    ]
   },
   "Defeat. {Slime}. We. Will. Why. Did. You. Kill. Us? Do. You. Want. To. Rectify. And. Help?": {
-   "pt": "",
+   "pt": "Derrotar. {Slime}. Nós. Faremos. Por. Que. Você. Nos. Matou? Você. Quer. Corrigir. E. Ajudar?",
    "n": 1,
    "npc": [
     "servant_sentry"
    ]
   },
   "Then. Take. This. Gobbler. Always. Hungry. Eats. Slime. Fungus. Go.": {
-   "pt": "",
+   "pt": "Então. Pegue. Este. Gobbler. Sempre. Faminto. Come. Fungo. De. Slime. Vá.",
    "n": 1,
    "npc": [
     "servant_sentry"
    ]
   },
   "The. Slime. Has. Entered. Our. Master. Has. Left! We. Must. Help.": {
-   "pt": "",
+   "pt": "O. Slime. Entrou. Nosso. Mestre. Partiu! Nós. Precisamos. Ajudar.",
    "n": 1,
    "npc": [
     "servant_sentry"
@@ -53789,77 +53789,77 @@
    ]
   },
   "<mumbles> So where was I again?": {
-   "pt": "",
+   "pt": "<resmunga> Então, onde eu estava mesmo?",
    "n": 1,
    "npc": [
     "wyrdin"
    ]
   },
   "<mumbles> Typical - you can never find a hero when you need one!": {
-   "pt": "",
+   "pt": "<resmunga> Típico - nunca se acha um herói quando se precisa de um!",
    "n": 1,
    "npc": [
     "wyrdin"
    ]
   },
   "<mumbles> Could the bonelord language be the invention of some madman?": {
-   "pt": "",
+   "pt": "<resmunga> Será que a língua dos bonelords é invenção de algum louco?",
    "n": 1,
    "npc": [
     "wyrdin"
    ]
   },
   "<mumbles> The curse algorithm of triplex shadowing has to be two times higher than an overcharged nanoquorx on the peripheral...": {
-   "pt": "",
+   "pt": "<resmunga> O algoritmo amaldiçoado do sombreamento tríplice tem que ser duas vezes maior que um nanoquorx sobrecarregado no periférico...",
    "n": 1,
    "npc": [
     "wyrdin"
    ]
   },
   "Do you have the papers I asked you for with you?": {
-   "pt": "",
+   "pt": "Você tem com você os papéis que pedi?",
    "n": 1,
    "npc": [
     "wyrdin"
    ]
   },
   "Oh marvellous, please excuse me. I need to read this text immediately. Here, take this small reward of 500 gold pieces for your efforts.": {
-   "pt": "",
+   "pt": "Ah, maravilhoso, com licença. Preciso ler esse texto imediatamente. Aqui, aceite essa pequena recompensa de 500 moedas de ouro pelos seus esforços.",
    "n": 1,
    "npc": [
     "wyrdin"
    ]
   },
   "I've heard some odd rumours about this new dwarven outpost. But tell me, what has the Edron academy to do with Farmine?": {
-   "pt": "",
+   "pt": "Ouvi alguns rumores estranhos sobre esse novo posto avançado anão. Mas me diga, o que a academia de Edron tem a ver com Farmine?",
    "n": 1,
    "npc": [
     "wyrdin"
    ]
   },
   "I'm not sure if I'm in the mood to talk about that matter again. Or do you have anything that might change my mind?": {
-   "pt": "",
+   "pt": "Não tenho certeza se estou com vontade de falar sobre esse assunto de novo. Ou você tem algo que possa mudar minha opinião?",
    "n": 1,
    "npc": [
     "wyrdin"
    ]
   },
   "<sighs> Okay, sending some trader there won't hurt. I hope it will be worth the effort, though.": {
-   "pt": "",
+   "pt": "<suspira> Ok, mandar algum comerciante para lá não vai fazer mal. Espero que valha o esforço, porém.",
    "n": 1,
    "npc": [
     "wyrdin"
    ]
   },
   "What do you mean the druids of Carlin could provide the service as well? They are incompetent imposters! I will not allow them to ruin our reputation! I'll send some trader with supplies right away!": {
-   "pt": "",
+   "pt": "Como assim os druids de Carlin também poderiam prestar o serviço? Eles são impostores incompetentes! Não vou permitir que eles arruínem nossa reputação! Vou mandar algum comerciante com suprimentos imediatamente!",
    "n": 1,
    "npc": [
     "wyrdin"
    ]
   },
   "Good luck for your travels, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Boa sorte nas suas viagens, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "wyrdin"
@@ -57608,7 +57608,7 @@
    "n": 4
   },
   "master": {
-   "pt": "",
+   "pt": "mestre",
    "n": 4
   },
   "corpses": {
@@ -58120,7 +58120,7 @@
    "n": 3
   },
   "sentry": {
-   "pt": "",
+   "pt": "sentinela",
    "n": 3
   },
   "lessons": {
@@ -58324,7 +58324,7 @@
    "n": 2
   },
   "base": {
-   "pt": "",
+   "pt": "base",
    "n": 2
   },
   "shop options": {
