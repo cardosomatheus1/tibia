@@ -9008,14 +9008,14 @@
    ]
   },
   "... Selling spells.": {
-   "pt": "",
+   "pt": "... Vendendo magias.",
    "n": 2,
    "npc": [
     "chatterbone"
    ]
   },
   "... Good... Bye": {
-   "pt": "",
+   "pt": "... Adeuuuus",
    "n": 2,
    "npc": [
     "chatterbone"
@@ -15646,7 +15646,7 @@
    ]
   },
   "We can bring you to Thais with one of our coaches for 125 gold. Are you interested?": {
-   "pt": "",
+   "pt": "Podemos lhe levar a Thais numa das nossas carruagens por 125 gold. Tem interesse?",
    "n": 1,
    "npc": [
     "appaloosa"
@@ -20413,49 +20413,49 @@
    ]
   },
   "... Only sorcerers...": {
-   "pt": "",
+   "pt": "... Só sorcerers...",
    "n": 1,
    "npc": [
     "chatterbone"
    ]
   },
   "... Chatterbone": {
-   "pt": "",
+   "pt": "... Chatterbone",
    "n": 1,
    "npc": [
     "chatterbone"
    ]
   },
   "... we hid it... so long ago... so long...": {
-   "pt": "",
+   "pt": "... nós o escondemos... há tanto tempo... tanto tempo...",
    "n": 1,
    "npc": [
     "chatterbone"
    ]
   },
   "... we conquered them... held them so long... long ago...": {
-   "pt": "",
+   "pt": "... nós os conquistamos... os prendemos por tanto tempo... há tanto tempo...",
    "n": 1,
    "npc": [
     "chatterbone"
    ]
   },
   "... Time?... Not important... anymore.": {
-   "pt": "",
+   "pt": "... Tempo?... Não importa... mais.",
    "n": 1,
    "npc": [
     "chatterbone"
    ]
   },
   "... Maaaaassssterrrrr": {
-   "pt": "",
+   "pt": "... Meeeeestreeeee",
    "n": 1,
    "npc": [
     "chatterbone"
    ]
   },
   "Spelllsssssss": {
-   "pt": "",
+   "pt": "Maaaagiaaaassss",
    "n": 1,
    "npc": [
     "chatterbone"
@@ -54118,14 +54118,14 @@
    ]
   },
   "So receive my prayer: 'Protection will be granted - from dangers at hand'. Now, bring your stake to Isimov in the dwarven settlement for the next line of the prayer. I will inform him what to do.": {
-   "pt": "",
+   "pt": "Então receba minha oração: 'Proteção será concedida - dos perigos próximos'. Agora, leve sua estaca até Isimov, no assentamento dos anões, para o próximo verso da oração. Vou avisá-lo do que fazer.",
    "n": 1,
    "npc": [
     "yberius"
    ]
   },
   "You should visit Isimov in the dwarven settlement now.": {
-   "pt": "",
+   "pt": "Você deve visitar Isimov no assentamento dos anões agora.",
    "n": 1,
    "npc": [
     "yberius"
