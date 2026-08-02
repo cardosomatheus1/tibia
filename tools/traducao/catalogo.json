@@ -5462,7 +5462,7 @@
    ]
   },
   "Ashari |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Ashari, |PLAYERNAME|.",
    "n": 4,
    "npc": [
     "anerui",
@@ -6405,7 +6405,7 @@
    ]
   },
   "May Crunor bless and guide you, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Que Crunor o abençoe e o guie, |PLAYERNAME|.",
    "n": 3,
    "npc": [
     "ceiron",
@@ -7304,7 +7304,7 @@
    ]
   },
   "Stage acting was a waste of my immense talent. Not only am I a born leader, my talent is more profitable when it is used for conning people.": {
-   "pt": "",
+   "pt": "Atuar no palco era um desperdício do meu imenso talento. Não só sou um líder nato, meu talento é mais lucrativo quando usado para enganar pessoas.",
    "n": 2,
    "npc": [
     "a_bearded_woman"
@@ -7692,7 +7692,7 @@
    ]
   },
   "Life and death are significant parts of the balance.": {
-   "pt": "",
+   "pt": "Vida e morte são partes significativas do equilíbrio.",
    "n": 2,
    "npc": [
     "anerui"
@@ -8986,7 +8986,7 @@
    ]
   },
   "I'm very impressed, |PLAYERNAME|. With this task you have proven that you are on the right side and are powerful as well. If you are ready to help me again, just ask me for a {task}.": {
-   "pt": "",
+   "pt": "Estou muito impressionada, |PLAYERNAME|. Com esta tarefa você provou que está do lado certo e também é poderoso. Se estiver pronto para me ajudar de novo, é só me pedir uma {tarefa}.",
    "n": 2,
    "npc": [
     "ceiron"
@@ -9686,7 +9686,7 @@
    ]
   },
   "Everything is a song. Life, death, history ... everything. To listen to the song of something is the first step to understand it.": {
-   "pt": "",
+   "pt": "Tudo é uma canção. Vida, morte, história ... tudo. Escutar a canção de algo é o primeiro passo para entendê-lo.",
    "n": 2,
    "npc": [
     "elvith"
@@ -12230,98 +12230,98 @@
    ]
   },
   "I am a MAN! Get me out you drunken fools!": {
-   "pt": "",
+   "pt": "Sou um HOMEM! Me tirem daqui, seus tolos bêbados!",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "GET ME OUT OF HERE!": {
-   "pt": "",
+   "pt": "ME TIREM DAQUI!",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "Get me out! It was all part of the plan, you fools!": {
-   "pt": "",
+   "pt": "Me tirem daqui! Isso tudo fazia parte do plano, seus tolos!",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "If I ever get out of here, I'll kill you all! All of you!": {
-   "pt": "",
+   "pt": "Se eu algum dia sair daqui, vou matar todos vocês! Todos vocês!",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "I am NOT Princess Lumelia, you fools!": {
-   "pt": "",
+   "pt": "Eu NÃO sou a Princess Lumelia, seus tolos!",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "Get a locksmith and free me or you will regret it, you foolish pirates!": {
-   "pt": "",
+   "pt": "Arranjem um chaveiro e me libertem, ou vão se arrepender, seus piratas tolos!",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "I am not a princess, I am an actor!": {
-   "pt": "",
+   "pt": "Não sou uma princesa, sou ator!",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "I am a great and famous actor! Not a princess, at all. I was only PRETENDING to be a princess. But try explaining that to those stupid pirates.": {
-   "pt": "",
+   "pt": "Sou um ator grande e famoso! Não sou princesa, de jeito nenhum. Eu só estava FINGINDO ser uma princesa. Mas tente explicar isso a esses piratas estúpidos.",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "He was always a fool with a heart too soft to become a feared pirate.": {
-   "pt": "",
+   "pt": "Ele sempre foi um tolo com o coração mole demais para virar um pirata temido.",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "Me playing a princess was just part of a cunning plan we had.": {
-   "pt": "",
+   "pt": "Eu interpretando uma princesa era só parte de um plano astuto que tínhamos.",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "If you find some way to release me I might even let you live as reward! So you'd better do your best or I'll kill you!": {
-   "pt": "",
+   "pt": "Se você achar algum jeito de me libertar, talvez eu até deixe você viver como recompensa! Então é melhor fazer o seu melhor, ou eu o mato!",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "How dare you? I left to rot in this dirty cell and you have nothing better to do than chit chat?": {
-   "pt": "",
+   "pt": "Como você ousa? Estou apodrecendo nesta cela suja e você não tem nada melhor para fazer do que bater papo?",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "YOU .. YOU .. You are as good as dead! I will get you! Do you hear me? I will have your head! On a platter!": {
-   "pt": "",
+   "pt": "VOCÊ .. VOCÊ .. Você já era! Eu vou pegar você! Está me ouvindo? Vou ter sua cabeça! Numa bandeja!",
    "n": 1,
    "npc": [
     "a_bearded_woman"
    ]
   },
   "GET ME OUT OF HERE! NOW!": {
-   "pt": "",
+   "pt": "ME TIREM DAQUI! AGORA!",
    "n": 1,
    "npc": [
     "a_bearded_woman"
@@ -15310,105 +15310,105 @@
    ]
   },
   "I am the mistress of the hunt. At this place you may buy the food our hunts provide.": {
-   "pt": "",
+   "pt": "Sou a mestra da caça. Neste lugar você pode comprar a comida que nossas caçadas oferecem.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "Hunting is an art, practiced too often by diletantes. Every fool with a bow or a spear considers himself a hunter.": {
-   "pt": "",
+   "pt": "Caçar é uma arte, praticada com frequência demais por diletantes. Todo tolo com um arco ou uma lança se considera caçador.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "Bow, arrow, and spear are the hunters' best friends. In the northeast of the town one of us may sell such tools.": {
-   "pt": "",
+   "pt": "Arco, flecha e lança são os melhores amigos do caçador. No nordeste da cidade, uma de nós talvez venda essas ferramentas.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "Hunters live a life of freedom and closeness to nature, unlike a simple farmer or bugherder.": {
-   "pt": "",
+   "pt": "Caçadores vivem uma vida de liberdade e proximidade com a natureza, diferente de um simples fazendeiro ou pastor de insetos.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "Nature is not a friend but an unforgiving teacher, and the lessons we have to learn are endless.": {
-   "pt": "",
+   "pt": "A natureza não é amiga, é uma professora implacável, e as lições que temos que aprender são infinitas.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "Watch the sky, it will tell you.": {
-   "pt": "",
+   "pt": "Observe o céu, ele vai lhe dizer.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "I guess it's a human god for the human sight of nature. I have not much knowledge of this entity.": {
-   "pt": "",
+   "pt": "Imagino que seja um deus humano para a visão humana da natureza. Não tenho muito conhecimento sobre essa entidade.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "If they ever existed they are gone now.": {
-   "pt": "",
+   "pt": "Se algum dia existiram, agora já se foram.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "The Kuridai are too agressive not only to people but also to the enviroment. They lack any understanding of the balance that we know as nature.": {
-   "pt": "",
+   "pt": "Os Kuridai são agressivos demais, não só com as pessoas mas também com o ambiente. Falta a eles qualquer compreensão do equilíbrio que conhecemos como natureza.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "The balance of nature, of course. It's everywhere, so don't ask but observe and learn.": {
-   "pt": "",
+   "pt": "O equilíbrio da natureza, claro. Está em toda parte, então não pergunte, observe e aprenda.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "We try to live in harmony with the forces of nature, may they be living or unliving.": {
-   "pt": "",
+   "pt": "Tentamos viver em harmonia com as forças da natureza, sejam vivas ou não.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "The humans are a loud and ugly race. They lack any grace and are more kin to the orcs then to us.": {
-   "pt": "",
+   "pt": "Os humanos são uma raça barulhenta e feia. Falta a eles qualquer graça, e são mais parentes dos orcs do que de nós.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "I despise their presence in our town, but it may be a necessary evil.": {
-   "pt": "",
+   "pt": "Desprezo a presença deles na nossa cidade, mas talvez seja um mal necessário.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "That is the race to which I belong.": {
-   "pt": "",
+   "pt": "Essa é a raça à qual pertenço.",
    "n": 1,
    "npc": [
     "anerui"
    ]
   },
   "The magic they wield is all that matters to them.": {
-   "pt": "",
+   "pt": "A magia que empunham é tudo o que importa para eles.",
    "n": 1,
    "npc": [
     "anerui"
@@ -20133,112 +20133,112 @@
    ]
   },
   "What are you thinking! I would never allow you to slay my beloved friends for the sake of your narcism. Only {Faolan} can grant you a fur like this one.": {
-   "pt": "",
+   "pt": "O que você está pensando! Eu nunca permitiria que você abatesse meus amados amigos pelo bem do seu narcisismo. Só {Faolan} pode lhe conceder uma pele como esta.",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "I know where the great wolf mother lives, but I will not tell that to just anyone. You have to earn my respect first. Are you willing to help me?": {
-   "pt": "",
+   "pt": "Sei onde vive a grande mãe loba, mas não vou contar isso para qualquer um. Você tem que ganhar meu respeito primeiro. Está disposto a me ajudar?",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Right, I will keep my promise. Faolan roams Tibia freely, but her favourite sleeping cave is on Cormaya. I will now enchant you so you will be able to speak the wolf language.": {
-   "pt": "",
+   "pt": "Certo, vou cumprir minha promessa. Faolan vagueia livremente por Tibia, mas a caverna de dormir favorita dela fica em Cormaya. Agora vou encantá-lo para você conseguir falar a língua dos lobos.",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Were you able to obtain a sample of the Griffinclaw?": {
-   "pt": "",
+   "pt": "Você conseguiu obter uma amostra da Griffinclaw?",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Did you bring me a sample of water from the hydra cave?": {
-   "pt": "",
+   "pt": "Você me trouxe uma amostra de água da caverna das hydra?",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Were you really able to collect 100 ounces of demon dust?": {
-   "pt": "",
+   "pt": "Você realmente conseguiu coletar 100 onças de demon dust?",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Have you really found my wolf tooth chain??": {
-   "pt": "",
+   "pt": "Você realmente achou meu wolf tooth chain??",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Have you lost my waterskin?": {
-   "pt": "",
+   "pt": "Você perdeu meu waterskin?",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Alright then. Take this botanist's container and return to me once you were able to retrieve a sample. Don't lose patience!": {
-   "pt": "",
+   "pt": "Muito bem, então. Pegue este botanist's container e volte a mim quando conseguir recolher uma amostra. Não perca a paciência!",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Crunor be praised! The Griffinclaw really exists! Now, I will make sure that it will not become extinct. If you are ready to help me again, just ask me for a {task}.": {
-   "pt": "",
+   "pt": "Louvado seja Crunor! A Griffinclaw realmente existe! Agora vou garantir que ela não seja extinta. Se estiver pronto para me ajudar de novo, é só me pedir uma {tarefa}.",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Great! Here, take my waterskin and try to fill it with water from this special trickle. Don't lose my waterskin, I will not accept some random dirty waterskin.": {
-   "pt": "",
+   "pt": "Ótimo! Tome, pegue meu waterskin e tente enchê-lo com água deste riacho especial. Não perca meu waterskin, não vou aceitar um waterskin sujo qualquer.",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Good work, |PLAYERNAME|! This water looks indeed extremely clear. I will examine it right away. If you are ready to help me again, just ask me for a {task}.": {
-   "pt": "",
+   "pt": "Bom trabalho, |PLAYERNAME|! Esta água realmente parece extremamente limpa. Vou examiná-la agora mesmo. Se estiver pronto para me ajudar de novo, é só me pedir uma {tarefa}.",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Thank you so much. I can't wait to wear it around my neck again, it was a special present from Faolan.": {
-   "pt": "",
+   "pt": "Muito obrigada. Mal posso esperar para usá-lo no pescoço de novo, foi um presente especial de Faolan.",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Crunor be praised! You found my beloved chain! |PLAYERNAME|, you really earned my respect and I consider you as a friend from now on. Remind me to tell you about {Faolan} sometime.": {
-   "pt": "",
+   "pt": "Louvado seja Crunor! Você encontrou minha amada corrente! |PLAYERNAME|, você realmente ganhou meu respeito, e a partir de agora o considero um amigo. Me lembre de lhe contar sobre {Faolan} algum dia.",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "I can give you a new one, but I fear that I have to take a small fee for it. Would you like to buy a waterskin for 1000 gold?": {
-   "pt": "",
+   "pt": "Posso lhe dar um novo, mas receio ter que cobrar uma pequena taxa por ele. Gostaria de comprar um waterskin por 1000 gold?",
    "n": 1,
    "npc": [
     "ceiron"
    ]
   },
   "Always nice to meet a fellow druid, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Sempre bom conhecer um colega druid, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "ceiron"
@@ -24515,56 +24515,56 @@
    ]
   },
   "The elves of this city are the casts of the Cenath, the Kuridai, and the Deraisim.": {
-   "pt": "",
+   "pt": "Os elfos desta cidade são as castas dos Cenath, dos Kuridai e dos Deraisim.",
    "n": 1,
    "npc": [
     "elf_guard"
    ]
   },
   "I am a guardian of this town. I have no time to chat!": {
-   "pt": "",
+   "pt": "Sou um guardião desta cidade. Não tenho tempo para bater papo!",
    "n": 1,
    "npc": [
     "elf_guard"
    ]
   },
   "The Cenath are magic users. Look for them on the upper levels of the town.": {
-   "pt": "",
+   "pt": "Os Cenath usam magia. Procure-os nos níveis mais altos da cidade.",
    "n": 1,
    "npc": [
     "elf_guard"
    ]
   },
   "The Deraisim are scouts and hunters. You may find them on the groundlevel of the city.": {
-   "pt": "",
+   "pt": "Os Deraisim são batedores e caçadores. Você pode encontrá-los no nível térreo da cidade.",
    "n": 1,
    "npc": [
     "elf_guard"
    ]
   },
   "There are no Teshial.": {
-   "pt": "",
+   "pt": "Não há Teshial nenhum.",
    "n": 1,
    "npc": [
     "elf_guard"
    ]
   },
   "If you are looking for that kind of equipment you should ask a Kuridai.": {
-   "pt": "",
+   "pt": "Se está procurando esse tipo de equipamento, deve perguntar a um Kuridai.",
    "n": 1,
    "npc": [
     "elf_guard"
    ]
   },
   "Ask around in Ab'Dendriel. Many elves can teach you something about magic. The Cenath love magic most of all.": {
-   "pt": "",
+   "pt": "Pergunte por aí em Ab'Dendriel. Muitos elfos podem lhe ensinar algo sobre magia. Os Cenath são os que mais amam magia.",
    "n": 1,
    "npc": [
     "elf_guard"
    ]
   },
   "The city of the humans lies somewhere far to the south beyond the mountains of the dwarfs.": {
-   "pt": "",
+   "pt": "A cidade dos humanos fica em algum lugar bem ao sul, além das montanhas dos anões.",
    "n": 1,
    "npc": [
     "elf_guard"
@@ -24655,105 +24655,105 @@
    ]
   },
   "I sell musical instruments of many kinds.": {
-   "pt": "",
+   "pt": "Vendo instrumentos musicais de muitos tipos.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "I sell lyres, lutes, drums, and simple fanfares.": {
-   "pt": "",
+   "pt": "Vendo lyres, lutes, drums e simple fanfares.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "Music is an attempt to condensate emotions in harmonies and save them for the times to come.": {
-   "pt": "",
+   "pt": "Música é uma tentativa de condensar emoções em harmonias e guardá-las para os tempos que virão.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "Time has its own song. Close your eyes and listen to the symphony of the seasons.": {
-   "pt": "",
+   "pt": "O tempo tem a própria canção. Feche os olhos e escute a sinfonia das estações.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "We are the most graceful of all races. We feel the music of the universe in our hearts and souls.": {
-   "pt": "",
+   "pt": "Somos a mais graciosa de todas as raças. Sentimos a música do universo em nossos corações e almas.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "They could dig some halls for a big musical event, but they won't listen to me about that matter.": {
-   "pt": "",
+   "pt": "Eles poderiam escavar salões para um grande evento musical, mas não me escutam sobre esse assunto.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "I bet they were great musicians.": {
-   "pt": "",
+   "pt": "Aposto que eram grandes músicos.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "That is some god the humans worship. Our pople are not interested in this gods anymore.": {
-   "pt": "",
+   "pt": "É algum deus que os humanos veneram. Nosso povo não tem mais interesse nesses deuses.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "They are too loud and don't even understand the concept of a melody.": {
-   "pt": "",
+   "pt": "Eles são barulhentos demais e nem entendem o conceito de melodia.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "The other deraisim are too much concerned with mastering the nature so they don't listen to its music anymore.": {
-   "pt": "",
+   "pt": "Os outros deraisim estão preocupados demais em dominar a natureza, então não escutam mais a música dela.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "The Cenath think they know the 'art' but the only true art is the music.": {
-   "pt": "",
+   "pt": "Os Cenath acham que conhecem a 'arte', mas a única arte verdadeira é a música.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "I went down to the mines and tried to lighten up their spirit, the foolish creatures did not listen to my songs, though.": {
-   "pt": "",
+   "pt": "Desci até as minas e tentei animar o espírito deles, mas essas criaturas tolas não escutaram minhas canções.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "Sorry, I don't feel like teaching magic today.": {
-   "pt": "",
+   "pt": "Desculpe, não estou com vontade de ensinar magia hoje.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "For the worst of crimes, criminals are cast into hellgate. It is said no one can return from there. Since it is not actually forbidden to enter hellgate, you might convince Elathriel to grant you entrance.": {
-   "pt": "",
+   "pt": "Pelos piores crimes, os criminosos são jogados no hellgate. Dizem que ninguém consegue voltar de lá. Já que não é de fato proibido entrar no hellgate, talvez você consiga convencer Elathriel a lhe conceder entrada.",
    "n": 1,
    "npc": [
     "elvith"
    ]
   },
   "Do you want to buy a poem scroll for 200 gold?": {
-   "pt": "",
+   "pt": "Quer comprar um poem scroll por 200 gold?",
    "n": 1,
    "npc": [
     "elvith"
@@ -27868,98 +27868,98 @@
    ]
   },
   "Your renown amongst us gnomes is currently {": {
-   "pt": "",
+   "pt": "Sua fama entre nós, gnomos, é atualmente {",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "You are not even a recruit of the Bigfoots. Sorry I can't help you.": {
-   "pt": "",
+   "pt": "Você nem é recruta dos Bigfoots. Desculpe, não posso ajudá-lo.",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "Do you really want to trade": {
-   "pt": "",
+   "pt": "Você realmente quer negociar",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "Do you need to buy any mission items?": {
-   "pt": "",
+   "pt": "Precisa comprar algum item de missão?",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "Sorry, you don't have enough": {
-   "pt": "",
+   "pt": "Desculpe, você não tem o suficiente de",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "First make sure you have enough capacity to hold it.": {
-   "pt": "",
+   "pt": "Primeiro certifique-se de ter capacidade suficiente para carregar.",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "First make sure you have enough space in your inventory.": {
-   "pt": "",
+   "pt": "Primeiro certifique-se de ter espaço suficiente no inventário.",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "Here have one of our": {
-   "pt": "",
+   "pt": "Aqui, pegue um dos nossos",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "How many tokens do you want to trade?": {
-   "pt": "",
+   "pt": "Quantos tokens você quer negociar?",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "As you wish! Your new renown is {": {
-   "pt": "",
+   "pt": "Como quiser! Sua nova fama é {",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "You don't have these many tokens.": {
-   "pt": "",
+   "pt": "Você não tem tantos tokens assim.",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "Let us see if I have what you need.": {
-   "pt": "",
+   "pt": "Vamos ver se tenho o que você precisa.",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "As you like.": {
-   "pt": "",
+   "pt": "Como quiser.",
    "n": 1,
    "npc": [
     "gnomally"
    ]
   },
   "Oh, hello! I'm the gnome-human relations assistant. I am here for you to trade your tokens for {equipment}, resupply you with mission {items} and talk to you about your {relations} to us gnomes! ...": {
-   "pt": "",
+   "pt": "Ah, olá! Sou o assistente de relações gnomo-humano. Estou aqui para você trocar seus tokens por {equipamento}, se reabastecer de {itens} de missão e conversar sobre suas {relações} conosco, os gnomos! ...",
    "n": 1,
    "npc": [
     "gnomally"
@@ -60348,11 +60348,11 @@
    "n": 1
   },
   "items": {
-   "pt": "",
+   "pt": "itens",
    "n": 1
   },
   "relations": {
-   "pt": "",
+   "pt": "relações",
    "n": 1
   },
   "deliver": {
