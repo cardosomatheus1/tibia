@@ -7269,7 +7269,7 @@
    ]
   },
   "Of course. Then don't waste my time and shove off.": {
-   "pt": "",
+   "pt": "Claro. Então não perca meu tempo e suma.",
    "n": 3,
    "npc": [
     "ubaid"
@@ -8599,7 +8599,7 @@
    ]
   },
   "Hmmm... I don't think so. Return to Thais and continue your search!": {
-   "pt": "",
+   "pt": "Hmmm... acho que não. Volte a Thais e continue sua busca!",
    "n": 2,
    "npc": [
     "baa_leal"
@@ -9852,7 +9852,7 @@
    ]
   },
   "You haven't finished your final mission yet. Shall I explain it again to you?": {
-   "pt": "",
+   "pt": "Você ainda não terminou sua missão final. Devo explicá-la de novo?",
    "n": 2,
    "npc": [
     "gabel",
@@ -9860,7 +9860,7 @@
    ]
   },
   "Have you found Fa'hradin's lamp and placed it in Malor's personal chambers?": {
-   "pt": "",
+   "pt": "Você encontrou a lamp de Fa'hradin e a colocou nos aposentos pessoais de Malor?",
    "n": 2,
    "npc": [
     "gabel",
@@ -9868,7 +9868,7 @@
    ]
   },
   "Farewell, stranger. May Uman open your minds and your hearts to Daraman's wisdom!": {
-   "pt": "",
+   "pt": "Adeus, estranho. Que Uman abra sua mente e seu coração para a sabedoria de Daraman!",
    "n": 2,
    "npc": [
     "gabel"
@@ -11940,7 +11940,7 @@
    ]
   },
   "Farewell human!": {
-   "pt": "",
+   "pt": "Adeus, humano!",
    "n": 2,
    "npc": [
     "ubaid"
@@ -16276,7 +16276,7 @@
    ]
   },
   "Greetings, traveller!": {
-   "pt": "",
+   "pt": "Saudações, viajante!",
    "n": 1,
    "npc": [
     "aurita"
@@ -16367,56 +16367,56 @@
    ]
   },
   "You know the code human! Very well then... What do you want, |PLAYERNAME|?": {
-   "pt": "",
+   "pt": "Você conhece o código, humano! Muito bem, então... O que você quer, |PLAYERNAME|?",
    "n": 1,
    "npc": [
     "baa_leal"
    ]
   },
   "You are still alive, |PLAYERNAME|? Well, what do you want?": {
-   "pt": "",
+   "pt": "Você ainda está vivo, |PLAYERNAME|? Bem, o que você quer?",
    "n": 1,
    "npc": [
     "baa_leal"
    ]
   },
   "Did you find the thief of our supplies?": {
-   "pt": "",
+   "pt": "Você achou o ladrão dos nossos suprimentos?",
    "n": 1,
    "npc": [
     "baa_leal"
    ]
   },
   "Did you already talk to Alesar? He has another mission for you!": {
-   "pt": "",
+   "pt": "Você já falou com Alesar? Ele tem outra missão para você!",
    "n": 1,
    "npc": [
     "baa_leal"
    ]
   },
   "After all, you're just a human.": {
-   "pt": "",
+   "pt": "Afinal, você é só um humano.",
    "n": 1,
    "npc": [
     "baa_leal"
    ]
   },
   "Finally! What is his name then?": {
-   "pt": "",
+   "pt": "Finalmente! Então qual é o nome dele?",
    "n": 1,
    "npc": [
     "baa_leal"
    ]
   },
   "Then go to Carlin and search for him! Look for something that might give you a clue!": {
-   "pt": "",
+   "pt": "Então vá até Carlin e procure por ele! Procure algo que possa lhe dar uma pista!",
    "n": 1,
    "npc": [
     "baa_leal"
    ]
   },
   "Stand down, soldier!": {
-   "pt": "",
+   "pt": "Descanse, soldado!",
    "n": 1,
    "npc": [
     "baa_leal"
@@ -22604,7 +22604,7 @@
    ]
   },
   "Nature's blessing!": {
-   "pt": "",
+   "pt": "A bênção da natureza!",
    "n": 1,
    "npc": [
     "dancing_fairy"
@@ -26937,35 +26937,35 @@
    ]
   },
   "Welcome, human |PLAYERNAME|, to our humble abode.": {
-   "pt": "",
+   "pt": "Bem-vindo, humano |PLAYERNAME|, à nossa humilde morada.",
    "n": 1,
    "npc": [
     "gabel"
    ]
   },
   "There's no mission left for you, friend of the Marid. However, I have a task for you.": {
-   "pt": "",
+   "pt": "Não resta missão nenhuma para você, amigo dos Marid. Mas tenho uma tarefa para você.",
    "n": 1,
    "npc": [
     "gabel"
    ]
   },
   "Don't give up! May Daraman watch over you!": {
-   "pt": "",
+   "pt": "Não desista! Que Daraman zele por você!",
    "n": 1,
    "npc": [
     "gabel"
    ]
   },
   "Come back when you kill 500 green djinns or Efreet.": {
-   "pt": "",
+   "pt": "Volte quando matar 500 green djinns ou Efreet.",
    "n": 1,
    "npc": [
     "gabel"
    ]
   },
   "All right. May Daraman bless your hunt, human.": {
-   "pt": "",
+   "pt": "Muito bem. Que Daraman abençoe sua caçada, humano.",
    "n": 1,
    "npc": [
     "gabel"
@@ -30584,49 +30584,49 @@
    ]
   },
   "I sell the finest weapons in town. If you'd like to see my offers, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Vendo as melhores armas da cidade. Se quiser ver minhas ofertas, me peça para {negociar}.",
    "n": 1,
    "npc": [
     "habdel"
    ]
   },
   "My scimitar? Yes, that is a true masterpiece. Of course I could make one for you, but I have a small request. Would you fulfil a task for me?": {
-   "pt": "",
+   "pt": "Meu scimitar? Sim, essa é uma verdadeira obra-prima. Claro que eu poderia fazer um para você, mas tenho um pequeno pedido. Você cumpriria uma tarefa para mim?",
    "n": 1,
    "npc": [
     "habdel"
    ]
   },
   "Have you brought a mermaid's comb for Ishina?": {
-   "pt": "",
+   "pt": "Você trouxe um mermaid's comb para Ishina?",
    "n": 1,
    "npc": [
     "habdel"
    ]
   },
   "Brilliant! I will wait for you to return with a mermaid's comb then.": {
-   "pt": "",
+   "pt": "Brilhante! Então vou esperar você voltar com um mermaid's comb.",
    "n": 1,
    "npc": [
     "habdel"
    ]
   },
   "Yeah! That's it! I can't wait to give it to her! Oh - but first, I'll fulfil my promise: Here is your scimitar! Thanks again!": {
-   "pt": "",
+   "pt": "Isso! É isso mesmo! Mal posso esperar para dar a ela! Ah - mas primeiro, vou cumprir minha promessa: aqui está seu scimitar! Obrigado de novo!",
    "n": 1,
    "npc": [
     "habdel"
    ]
   },
   "Ah well. Doesn't matter.": {
-   "pt": "",
+   "pt": "Ah, bem. Não importa.",
    "n": 1,
    "npc": [
     "habdel"
    ]
   },
   "Welcome |PLAYERNAME|! See the fine {weapons} I sell.": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Veja as belas {armas} que vendo.",
    "n": 1,
    "npc": [
     "habdel"
@@ -50135,14 +50135,14 @@
    ]
   },
   "Let me mourn in peace.": {
-   "pt": "",
+   "pt": "Deixe-me pranteando em paz.",
    "n": 1,
    "npc": [
     "the_crone"
    ]
   },
   "Be greeted, |PLAYERNAME|... mortal.": {
-   "pt": "",
+   "pt": "Seja bem-vindo, |PLAYERNAME|... mortal.",
    "n": 1,
    "npc": [
     "the_crone"
@@ -51990,35 +51990,35 @@
    ]
   },
   "What? You know the word, |PLAYERNAME|? All right then - I won't kill you. At least, not now.  What brings you {here}?": {
-   "pt": "",
+   "pt": "O quê? Você conhece a palavra, |PLAYERNAME|? Muito bem, então - não vou matá-lo. Pelo menos, não agora. O que lhe traz {aqui}?",
    "n": 1,
    "npc": [
     "ubaid"
    ]
   },
   "Still alive, |PLAYERNAME|? What brings you {here}?": {
-   "pt": "",
+   "pt": "Ainda vivo, |PLAYERNAME|? O que lhe traz {aqui}?",
    "n": 1,
    "npc": [
     "ubaid"
    ]
   },
   "You already pledged loyalty to king Malor!": {
-   "pt": "",
+   "pt": "Você já jurou lealdade ao king Malor!",
    "n": 1,
    "npc": [
     "ubaid"
    ]
   },
   "Who do you think you are? A Marid? Shove off you worm!": {
-   "pt": "",
+   "pt": "Quem você pensa que é? Um Marid? Suma, seu verme!",
    "n": 1,
    "npc": [
     "ubaid"
    ]
   },
   "So you pledge loyalty to king Malor and you are willing to never ever set foot on Marid's territory, unless you want to kill them? Yes?": {
-   "pt": "",
+   "pt": "Então você jura lealdade ao king Malor e está disposto a nunca mais pôr os pés no território dos Marid, a menos que queira matá-los? Sim?",
    "n": 1,
    "npc": [
     "ubaid"
