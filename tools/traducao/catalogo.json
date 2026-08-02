@@ -4287,7 +4287,7 @@
    ]
   },
   "You don't have my scroll.": {
-   "pt": "",
+   "pt": "Você não tem meu scroll.",
    "n": 7,
    "npc": [
     "omrabas"
@@ -7139,7 +7139,7 @@
    ]
   },
   "Ah... <sighs> Very good. Just say the word when you are ready for the next {mission}.": {
-   "pt": "",
+   "pt": "Ah... <suspira> Muito bem. É só dar a palavra quando estiver pronto para a próxima {missão}.",
    "n": 3,
    "npc": [
     "omrabas"
@@ -8759,7 +8759,7 @@
    ]
   },
   "Take care!": {
-   "pt": "",
+   "pt": "Se cuide!",
    "n": 2,
    "npc": [
     "bron",
@@ -10895,7 +10895,7 @@
    ]
   },
   "Are you looking for food? I have bread, cheese, ham, and meat. If you'd like to see my offers, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Está procurando comida? Tenho bread, cheese, ham e meat. Se quiser ver minhas ofertas, me peça para {negociar}.",
    "n": 2,
    "npc": [
     "mirabell",
@@ -11057,21 +11057,21 @@
    ]
   },
   "Yes? Do you have the {scroll} piece?": {
-   "pt": "",
+   "pt": "Sim? Você tem o pedaço do {scroll}?",
    "n": 2,
    "npc": [
     "omrabas"
    ]
   },
   "Hello, young apprentice. Do you have that {scroll} piece from the priestess?": {
-   "pt": "",
+   "pt": "Olá, jovem aprendiz. Você tem aquele pedaço do {scroll} da sacerdotisa?",
    "n": 2,
    "npc": [
     "omrabas"
    ]
   },
   "You don't have my heart.": {
-   "pt": "",
+   "pt": "Você não tem meu coração.",
    "n": 2,
    "npc": [
     "omrabas"
@@ -11822,14 +11822,14 @@
    ]
   },
   "Me is who in dreams speak to holy banana. Me divine the will of banana.": {
-   "pt": "",
+   "pt": "Profeta cego ser quem em sonhos falar com banana sagrada. Profeta cego adivinhar vontade da banana.",
    "n": 2,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "Me guard the forbidden land behind the great palisade. If any want to enter, he must ask me for transport.": {
-   "pt": "",
+   "pt": "Profeta cego guardar terra proibida atrás da grande paliçada. Se alguém querer entrar, precisar pedir transporte a profeta cego.",
    "n": 2,
    "npc": [
     "the_blind_prophet"
@@ -29758,70 +29758,70 @@
    ]
   },
   "Hello, is this your first visit to Darashia? I can show you around a little.": {
-   "pt": "",
+   "pt": "Olá, esta é sua primeira visita a Darashia? Posso lhe mostrar um pouco os arredores.",
    "n": 1,
    "npc": [
     "guide_behil"
    ]
   },
   "I'm well informed about the status of the world despite all the recent changes.": {
-   "pt": "",
+   "pt": "Estou bem informada sobre o estado do mundo, apesar de todas as mudanças recentes.",
    "n": 1,
    "npc": [
     "guide_behil"
    ]
   },
   "Need some help finding your way through Darashia? Let me assist you.": {
-   "pt": "",
+   "pt": "Precisa de ajuda para se localizar em Darashia? Deixe-me ajudar.",
    "n": 1,
    "npc": [
     "guide_behil"
    ]
   },
   "The temple is a few floors over the depot. Just walk up the numerous stairs there.": {
-   "pt": "",
+   "pt": "O templo fica alguns andares acima do depot. É só subir as várias escadas ali.",
    "n": 1,
    "npc": [
     "guide_behil"
    ]
   },
   "Muzir takes care of our bank business. His office is in the north-western part of the caliph's palace.": {
-   "pt": "",
+   "pt": "Muzir cuida dos nossos assuntos bancários. O escritório dele fica na parte noroeste do palácio do califa.",
    "n": 1,
    "npc": [
     "guide_behil"
    ]
   },
   "I'll show you around Darashia if you like. I can mark important locations on your map and give you some information about the town and the world status.": {
-   "pt": "",
+   "pt": "Posso lhe mostrar Darashia, se quiser. Posso marcar locais importantes no seu mapa e lhe dar informação sobre a cidade e o estado do mundo.",
    "n": 1,
    "npc": [
     "guide_behil"
    ]
   },
   "Darashia is an oriental settlement ruled by Caliph Kazzan Ibn Gadral. We have a lot of shops, carpet travel and a rotworm plague, that sums it about up.": {
-   "pt": "",
+   "pt": "Darashia é um povoado oriental governado pelo Caliph Kazzan Ibn Gadral. Temos muitas lojas, viagem de tapete e uma praga de rotworm, é basicamente isso.",
    "n": 1,
    "npc": [
     "guide_behil"
    ]
   },
   "My name is Behil. Glad to be your guide.": {
-   "pt": "",
+   "pt": "Meu nome é Behil. Feliz em ser sua guia.",
    "n": 1,
    "npc": [
     "guide_behil"
    ]
   },
   "Daraman's blessings, Black Sabbatth, welcome to Darashia! Would you like some information and a map guide?": {
-   "pt": "",
+   "pt": "As bênçãos de Daraman, Black Sabbatth, bem-vindo a Darashia! Gostaria de informação e um guia de mapa?",
    "n": 1,
    "npc": [
     "guide_behil"
    ]
   },
   "Daraman's blessings, enjoy your stay in Darashia, |PLAYERNAME|": {
-   "pt": "",
+   "pt": "As bênçãos de Daraman, aproveite sua estadia em Darashia, |PLAYERNAME|",
    "n": 1,
    "npc": [
     "guide_behil"
@@ -39537,49 +39537,49 @@
    ]
   },
   "I can offer you lemonade, camel milk, and water. If you'd like to see my offers, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Posso lhe oferecer lemonade, camel milk e água. Se quiser ver minhas ofertas, me peça para {negociar}.",
    "n": 1,
    "npc": [
     "miraia"
    ]
   },
   "Hehe, would you like to wear a pretty veil like I do? Well... I could help you, but you would have to complete a task first.": {
-   "pt": "",
+   "pt": "Hehe, gostaria de usar um véu bonito como o meu? Bem... eu poderia ajudar, mas você teria que cumprir uma tarefa primeiro.",
    "n": 1,
    "npc": [
     "miraia"
    ]
   },
   "You mean, you would like to prove that you deserve to wear such a veil?": {
-   "pt": "",
+   "pt": "Quer dizer que você gostaria de provar que merece usar um véu desses?",
    "n": 1,
    "npc": [
     "miraia"
    ]
   },
   "Let me cover my nose before I get this for you... Would you REALLY like to buy scarab cheese for 100 gold?": {
-   "pt": "",
+   "pt": "Deixe-me cobrir o nariz antes de pegar isso para você... Você REALMENTE gostaria de comprar scarab cheese por 100 gold?",
    "n": 1,
    "npc": [
     "miraia"
    ]
   },
   "Oh the last cheese molded? Would you like to buy another one for 100 gold?": {
-   "pt": "",
+   "pt": "Ah, o último cheese mofou? Gostaria de comprar outro por 100 gold?",
    "n": 1,
    "npc": [
     "miraia"
    ]
   },
   "Daraman's blessings, |PLAYERNAME|. Welcome to the Enlightened Oasis. Sit down, have a {drink} or some {food}!": {
-   "pt": "",
+   "pt": "As bênçãos de Daraman, |PLAYERNAME|. Bem-vindo ao Enlightened Oasis. Sente-se, tome uma {bebida} ou coma um pouco de {comida}!",
    "n": 1,
    "npc": [
     "miraia"
    ]
   },
   "Daraman's blessings. Come back soon.": {
-   "pt": "",
+   "pt": "As bênçãos de Daraman. Volte logo.",
    "n": 1,
    "npc": [
     "miraia"
@@ -42099,203 +42099,203 @@
    ]
   },
   "Typical. Easy come, easy go.": {
-   "pt": "",
+   "pt": "Típico. Fácil de ganhar, fácil de perder.",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "He will PAY for this... They will ALL pay!": {
-   "pt": "",
+   "pt": "Ele vai PAGAR por isso... Todos eles vão pagar!",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "<groan>": {
-   "pt": "",
+   "pt": "<geme>",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "If I ever lay hands on him again...": {
-   "pt": "",
+   "pt": "Se eu algum dia puser as mãos nele de novo...",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Hmm. You could be of assistance, I presume. I need several body parts. I will reward you adequately. Interested?": {
-   "pt": "",
+   "pt": "Hmm. Presumo que você possa ser útil. Preciso de várias partes do corpo. Vou recompensá-lo adequadamente. Tem interesse?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Ah hello, young friend! Did you bring me two ghoul snacks as requested?": {
-   "pt": "",
+   "pt": "Ah, olá, jovem amigo! Você me trouxe dois ghoul snacks, como pedido?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Ah, young friend, I found a solution! Find me two {demonic skeletal hands}. That should do it. Now run along! Ask me for {mission} when you're done.": {
-   "pt": "",
+   "pt": "Ah, jovem amigo, achei uma solução! Me arranje duas {demonic skeletal hands}. Isso deve resolver. Agora vá! Me peça a {missão} quando terminar.",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Ah hello again! You look as if you could, er, lend me a hand or two? Yes?": {
-   "pt": "",
+   "pt": "Ah, olá de novo! Você parece que poderia, ahn, me emprestar uma mão ou duas? Sim?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Yes, yes, hello. Tell me if you lost something. If not, do you have that stimulated brain with you?": {
-   "pt": "",
+   "pt": "Sim, sim, olá. Me diga se você perdeu alguma coisa. Se não, você está com aquele cérebro estimulado?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Hello, hello. Let's come to the point - did you find me some intestines?": {
-   "pt": "",
+   "pt": "Olá, olá. Vamos direto ao ponto - você achou uns intestinos para mim?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Ah hello! Well done there, I felt the old powers settling down. Now, {ready} to hallow the next altar?": {
-   "pt": "",
+   "pt": "Ah, olá! Muito bem, senti os antigos poderes se assentarem. Agora, {pronto} para consagrar o próximo altar?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Ah, hello! I take it you have the next scroll piece for me, {yes}?": {
-   "pt": "",
+   "pt": "Ah, olá! Presumo que você tenha o próximo pedaço do scroll para mim, {sim}?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Hello - what? You have the {scroll} piece, you say?": {
-   "pt": "",
+   "pt": "Olá - o quê? Você diz que tem o pedaço do {scroll}?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Don't keep me waiting. The last scroll piece - were you able to {restore} it?": {
-   "pt": "",
+   "pt": "Não me deixe esperando. O último pedaço do scroll - você conseguiu {restaurá}-lo?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Splendid! What? They're half gnawed! There are no hands! Hrmmm. Let me think of a solution. Ask me for a new {mission}.": {
-   "pt": "",
+   "pt": "Esplêndido! O quê? Estão meio roídas! Não tem mão nenhuma! Hrmmm. Deixe-me pensar numa solução. Me peça uma nova {missão}.",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "You don't have two ghoul snacks.": {
-   "pt": "",
+   "pt": "Você não tem dois ghoul snacks.",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Yes. Those will be adequate. Talk to me again if you want to continue with your next {mission}.": {
-   "pt": "",
+   "pt": "Sim. Essas vão servir. Fale comigo de novo se quiser continuar com sua próxima {missão}.",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "You don't have two demonic skeletal hands.": {
-   "pt": "",
+   "pt": "Você não tem duas demonic skeletal hands.",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "You don't have the brain.": {
-   "pt": "",
+   "pt": "Você não tem o cérebro.",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "You don't have my intestine.": {
-   "pt": "",
+   "pt": "Você não tem meu intestino.",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "This is it! This is it! Well done, well done! And now, on to the {next} scroll piece, {yes}?": {
-   "pt": "",
+   "pt": "É isso! É isso! Muito bem, muito bem! E agora, ao {próximo} pedaço do scroll, {sim}?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Indeed it is! The second scroll piece! Splendid! Here you go - for your trouble. And now, on to the {next} scroll piece, {yes}?": {
-   "pt": "",
+   "pt": "É mesmo! O segundo pedaço do scroll! Esplêndido! Aqui está - pelo seu esforço. E agora, ao {próximo} pedaço do scroll, {sim}?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "What? Hack some off from a demon skeleton, of course! Now get moving.": {
-   "pt": "",
+   "pt": "O quê? Corte um pedaço de um demon skeleton, claro! Agora vá se mexendo.",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "What? No bones around you say? Hrmmm. Wait. Check the skull heap here - that's right - hah! There! Now get to work!": {
-   "pt": "",
+   "pt": "O quê? Você diz que não tem osso nenhum por perto? Hrmmm. Espere. Verifique aquela pilha de crânios ali - isso mesmo - hah! Aí está! Agora vá trabalhar!",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Ah, hello! I take it you have the next {scroll} piece for me, {yes}?": {
-   "pt": "",
+   "pt": "Ah, olá! Presumo que você tenha o próximo pedaço do {scroll} para mim, {sim}?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Hello, young apprentice. Do you have that scroll piece from the priestess?": {
-   "pt": "",
+   "pt": "Olá, jovem aprendiz. Você tem aquele pedaço do scroll da sacerdotisa?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Welcome, welcome! Finally! The last {scroll} piece.... you do have it, haven't you?": {
-   "pt": "",
+   "pt": "Bem-vindo, bem-vindo! Finalmente! O último pedaço do {scroll}.... você tem ele, não tem?",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "Chzzzz. wtf??@! leave.": {
-   "pt": "",
+   "pt": "Chzzzz. q isso??@! saia.",
    "n": 1,
    "npc": [
     "omrabas"
    ]
   },
   "At last, a visitor! Welcome to my... humble abode. {Scroll} or {mission}?": {
-   "pt": "",
+   "pt": "Finalmente, um visitante! Bem-vindo à minha... humilde morada. {Scroll} ou {missão}?",
    "n": 1,
    "npc": [
     "omrabas"
@@ -49995,84 +49995,84 @@
    ]
   },
   "Me put name away name long ago. Now only blind prophet of ape people are.": {
-   "pt": "",
+   "pt": "Profeta cego guardar nome longe há muito tempo. Agora só profeta cego do povo macaco ser.",
    "n": 1,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "Me {prophet} and {guardian} is.": {
-   "pt": "",
+   "pt": "Profeta cego {profeta} e {guardião} ser.",
    "n": 1,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "Good ape he is. Has to work hard to make other apes listen but you helped a lot.": {
-   "pt": "",
+   "pt": "Bom macaco ele ser. Ele ter que trabalhar duro para fazer outros macacos escutarem mas você ajudou muito.",
    "n": 1,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "Our holy ancestor he is. Big as mountain. Lizards say they built palisade to keep him but we not believe ... We think Bong palisade built to have peace from pesky lizards. We respect peace of Bong, keep people away from forbidden land.": {
-   "pt": "",
+   "pt": "Nosso ancestral sagrado ele ser. Grande como montanha. Lagartos dizerem que construíram paliçada para prendê-lo mas nós não acreditar ... Nós achar que Bong construiu paliçada para ter paz dos lagartos incômodos. Nós respeitar paz de Bong, manter povo longe da terra proibida.",
    "n": 1,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "The lizards evil and vengeful are. Ape people on guard must be.": {
-   "pt": "",
+   "pt": "Lagartos serem maus e vingativos. Povo macaco precisar ficar em guarda.",
    "n": 1,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "Our people a lot to learn have. One day we might live in peace with you hairless apes, who knows.": {
-   "pt": "",
+   "pt": "Nosso povo ter muito para aprender. Um dia talvez viver em paz com vocês, macacos sem pelo, quem sabe.",
    "n": 1,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "Me not know. Me seldom have visions of not banana related objects.": {
-   "pt": "",
+   "pt": "Profeta cego não saber. Profeta cego raramente ter visões de objetos não relacionados a banana.",
    "n": 1,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "Hairless apes strange people are.": {
-   "pt": "",
+   "pt": "Macacos sem pelo ser povo estranho.",
    "n": 1,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "You want me to transport you to forbidden land?": {
-   "pt": "",
+   "pt": "Você querer que profeta cego lhe transporte à terra proibida?",
    "n": 1,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "You are not worthy to be transported there yet.": {
-   "pt": "",
+   "pt": "Você ainda não ser digno de ser transportado até lá.",
    "n": 1,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "Wise decision maybe.": {
-   "pt": "",
+   "pt": "Decisão sábia, talvez.",
    "n": 1,
    "npc": [
     "the_blind_prophet"
    ]
   },
   "Be greeted, friend of the apes.": {
-   "pt": "",
+   "pt": "Seja bem-vindo, amigo dos macacos.",
    "n": 1,
    "npc": [
     "the_blind_prophet"
@@ -56752,7 +56752,7 @@
    "n": 9
   },
   "scroll": {
-   "pt": "",
+   "pt": "scroll",
    "n": 9
   },
   "150": {
@@ -57260,7 +57260,7 @@
    "n": 5
   },
   "guardian": {
-   "pt": "",
+   "pt": "guardião",
    "n": 5
   },
   "want": {
@@ -57368,7 +57368,7 @@
    "n": 4
   },
   "next": {
-   "pt": "",
+   "pt": "próxima",
    "n": 4
   },
   "type": {
@@ -59260,7 +59260,7 @@
    "n": 2
   },
   "prophet": {
-   "pt": "",
+   "pt": "profeta",
    "n": 2
   },
   "hyaena": {
@@ -61192,7 +61192,7 @@
    "n": 1
   },
   "restore": {
-   "pt": "",
+   "pt": "restaurar",
    "n": 1
   },
   "cursed": {
@@ -62291,6 +62291,14 @@
   },
   "tactical": {
    "pt": "táticos",
+   "n": 0
+  },
+  "restore": {
+   "pt": "restaurá",
+   "n": 0
+  },
+  "next": {
+   "pt": "próximo",
    "n": 0
   }
  }
