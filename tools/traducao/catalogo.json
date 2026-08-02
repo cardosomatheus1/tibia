@@ -5004,14 +5004,14 @@
    ]
   },
   "Would ye' like to give me vampire tokens?": {
-   "pt": "",
+   "pt": "Cê quer me dar vampire tokens?",
    "n": 6,
    "npc": [
     "storkus"
    ]
   },
   "Ye' don't have enought tokens.": {
-   "pt": "",
+   "pt": "Cê não tem tokens suficientes.",
    "n": 6,
    "npc": [
     "storkus"
@@ -12057,7 +12057,7 @@
    ]
   },
   "Guut bye. Coming back soon.": {
-   "pt": "",
+   "pt": "Guut bye. Voltando logo.",
    "n": 2,
    "npc": [
     "uzgod"
@@ -49246,84 +49246,84 @@
    ]
   },
   "So they've sent another one? I just hope ye' better than the last one. Are ye' ready for a mission?": {
-   "pt": "",
+   "pt": "Então mandaram mais um? Só espero que cê seja melhor que o último. Cê tá pronto pra uma missão?",
    "n": 1,
    "npc": [
     "storkus"
    ]
   },
   "So far ye've brought me": {
-   "pt": "",
+   "pt": "Até agora cê me trouxe",
    "n": 1,
    "npc": [
     "storkus"
    ]
   },
   "Fine, you're done! Ye' should talk to me about your {mission} again now.": {
-   "pt": "",
+   "pt": "Beleza, terminou! Cê devia falar comigo sobre sua {missão} de novo agora.",
    "n": 1,
    "npc": [
     "storkus"
    ]
   },
   "Have ye' killed the vampire lord? Because ye' have no his ring.": {
-   "pt": "",
+   "pt": "Cê matou o vampire lord? Porque cê não tem o anel dele.",
    "n": 1,
    "npc": [
     "storkus"
    ]
   },
   "Ye've brought me": {
-   "pt": "",
+   "pt": "Cê me trouxe",
    "n": 1,
    "npc": [
     "storkus"
    ]
   },
   "Ye' brought the token needed to advance to the first vampire hunter rank. I consider that a fluke, but still, congrats! Let me share some of my experience with ye'.": {
-   "pt": "",
+   "pt": "Cê trouxe o token necessário pra avançar pro primeiro rank de vampire hunter. Considero isso sorte, mas mesmo assim, parabéns! Deixa eu compartilhar um pouco da minha experiência com cê.",
    "n": 1,
    "npc": [
     "storkus"
    ]
   },
   "Ye' brought the four tokens needed to advance to the second vampire hunter rank. Pretty lucky ye' are! Let me share some of my experience with ye'.": {
-   "pt": "",
+   "pt": "Cê trouxe os quatro tokens necessários pra avançar pro segundo rank de vampire hunter. Cê é bem sortudo! Deixa eu compartilhar um pouco da minha experiência com cê.",
    "n": 1,
    "npc": [
     "storkus"
    ]
   },
   "Ye' brought the five tokens needed to advance to the third vampire hunter rank. Wow, you're pretty determined! Let me share some of my experience with ye'.": {
-   "pt": "",
+   "pt": "Cê trouxe os cinco tokens necessários pra avançar pro terceiro rank de vampire hunter. Uau, cê é bem determinado! Deixa eu compartilhar um pouco da minha experiência com cê.",
    "n": 1,
    "npc": [
     "storkus"
    ]
   },
   "Ye' brought the ten tokens needed to advance to the fourth vampire hunter rank. You're absolutely painstaking! Let me share some of my experience with ye'.": {
-   "pt": "",
+   "pt": "Cê trouxe os dez tokens necessários pra avançar pro quarto rank de vampire hunter. Cê é absolutamente meticuloso! Deixa eu compartilhar um pouco da minha experiência com cê.",
    "n": 1,
    "npc": [
     "storkus"
    ]
   },
   "Ye' brought the thirty tokens needed to advance to the fifth vampire hunter rank. You're completely obliterative, kid! Let me share some of my experience with ye'.": {
-   "pt": "",
+   "pt": "Cê trouxe os trinta tokens necessários pra avançar pro quinto rank de vampire hunter. Cê é completamente arrasador, garoto! Deixa eu compartilhar um pouco da minha experiência com cê.",
    "n": 1,
    "npc": [
     "storkus"
    ]
   },
   "Ye' brought the fifty tokens needed to advance to the last vampire hunter rank. Now that's something. You're razing-amazing! Let me share some of my experience and a little something with ye'!": {
-   "pt": "",
+   "pt": "Cê trouxe os cinquenta tokens necessários pra avançar pro último rank de vampire hunter. Agora sim. Cê é sensacional de arrasar! Deixa eu compartilhar um pouco da minha experiência e uma coisinha a mais com cê!",
    "n": 1,
    "npc": [
     "storkus"
    ]
   },
   "As they might have told ye', I'm a vampire hunter. If ye' want to be of any help, ye' can assist me with some of my tasks and bring me 20 ounces of vampire dust. This gives me some time to concentrate on a bigger project.": {
-   "pt": "",
+   "pt": "Como devem ter dito a cê, eu sou um vampire hunter. Se cê quiser ajudar, cê pode me auxiliar com algumas das minhas tarefas e me trazer 20 ounces de vampire dust. Isso me dá um tempo pra me concentrar num projeto maior.",
    "n": 1,
    "npc": [
     "storkus"
@@ -52305,119 +52305,119 @@
    ]
   },
   "You bringing me draconian steel and obsidian lance in exchange for obsidian knife?": {
-   "pt": "",
+   "pt": "Você trazendo pra mim draconian steel e obsidian lance em troca de obsidian knife?",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "You don't have these items.": {
-   "pt": "",
+   "pt": "Você não tem esses itens.",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "True dwarven pickaxes having to be maded by true weaponsmith! You wanting to get pickaxe for explorer society?": {
-   "pt": "",
+   "pt": "Picaretas anãs de verdade tendo que ser fazida por verdadeiro armeiro! Você querendo pegar picareta para explorer society?",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "Me don't sell crimson sword.": {
-   "pt": "",
+   "pt": "Mim não vender crimson sword.",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "You telling me to forge one?! Especially for you? You making fun of me?": {
-   "pt": "",
+   "pt": "Você dizendo pra mim forjar uma?! Especialmente pra você? Você tirando sarro de mim?",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "You got me brooch?": {
-   "pt": "",
+   "pt": "Você tem brooch pra mim?",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "Me order book quite full is. But telling you what: You getting me something me lost and Uzgod seeing that your pickaxe comes first. Jawoll! You interested?": {
-   "pt": "",
+   "pt": "Meu livro de pedidos bem cheio está. Mas dizendo pra você o quê: Você conseguindo pra mim algo que mim perdeu e Uzgod vendo que sua picareta vem primeiro. Jawoll! Você interessado?",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "Good good. You listening: Me was stolen valuable heirloom. Brooch from my family. Good thing is criminal was caught. Bad thing is, criminal now in dwarven prison of dwacatra is and must have taken brooch with him ...": {
-   "pt": "",
+   "pt": "Bom, bom. Você escutando: Mim foi roubado herança valiosa. Brooch da minha família. Coisa boa é que criminoso foi pego. Coisa ruim é, criminoso agora na prisão anã de dwacatra está e deve ter levado brooch com ele...",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "To get into dwacatra you having to get several keys. Each key opening way to other key until you get key to dwarven prison ...": {
-   "pt": "",
+   "pt": "Para entrar em dwacatra você tendo que conseguir várias chaves. Cada chave abrindo caminho para outra chave até você conseguir chave para prisão anã...",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "Last key should be in the generals quarter near armory. Only General might have key to enter there too. But me not knowing how to enter Generals private room at barracks. You looking on your own ...": {
-   "pt": "",
+   "pt": "Última chave deveria estar no quartel do general perto do armory. Só General pode ter chave para entrar lá também. Mas mim não sabendo como entrar na sala privada do General no barracks. Você procurando sozinho...",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "When got key, then you going down to dwarven prison and getting me that brooch. Tell me that you got brooch when having it.": {
-   "pt": "",
+   "pt": "Quando conseguir chave, então você descendo para prisão anã e pegando pra mim aquele brooch. Diz pra mim que você tem brooch quando tiver ele.",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "Thanking you for brooch. Me guessing you now want your pickaxe?": {
-   "pt": "",
+   "pt": "Agradecendo você pelo brooch. Mim imaginando que você agora quer sua picareta?",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "Ah, that's how me like me customers. Ok, me do this... <pling pling> ... another fine swing of the hammer here and there... <ploing>... here you have it!": {
-   "pt": "",
+   "pt": "Ah, é assim que mim gosta dos meus clientes. Ok, mim faz isso... <pling pling> ... mais uma bela martelada aqui e ali... <ploing>... aqui está!",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "Well. Thinking about it, me a smith, so why not. 1000 gold for your personal crimson sword. Ok?": {
-   "pt": "",
+   "pt": "Bem. Pensando bem, mim ser ferreiro, então por que não. 1000 gold pela sua crimson sword pessoal. Ok?",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "Too expensive?! You think me work is cheap? Well, if you want cheap, I can make cheap. Hrmpf. I make cheap sword for 300 gold. Ok?": {
-   "pt": "",
+   "pt": "Caro demais?! Você acha que trabalho de mim é barato? Bem, se você quer barato, mim pode fazer barato. Hrmpf. Mim faz espada barata por 300 gold. Ok?",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "Cheap but good quality? Impossible. Unless... you bring material. Three iron ores, 250 gold. Okay?": {
-   "pt": "",
+   "pt": "Barato mas de boa qualidade? Impossível. A menos que... você traga material. Três iron ores, 250 gold. Ok?",
    "n": 1,
    "npc": [
     "uzgod"
    ]
   },
   "Hiho |PLAYERNAME|! Wanna weapon, eh?": {
-   "pt": "",
+   "pt": "Hiho, |PLAYERNAME|! Quer uma arma, hein?",
    "n": 1,
    "npc": [
     "uzgod"
