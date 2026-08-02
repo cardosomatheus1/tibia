@@ -214,7 +214,7 @@ function Player.getQuestDataByMissionId(self, missionId)
 				for i = 1, #quest.missions do
 					local mission = quest.missions[i]
 					if mission and mission.missionId == missionId then
-						return quest.name, questId, i
+						return self:getQuestName(questId), questId, i
 					end
 				end
 			end
@@ -795,7 +795,7 @@ buildMissionTrackerData = function(player, questId, missionIndex)
 	return {
 		questId = questId,
 		missionId = mission.missionId,
-		questName = quest.name,
+		questName = player:getQuestName(questId),
 		missionName = player:getMissionName(questId, missionIndex),
 		missionDesc = player:getMissionDescription(questId, missionIndex),
 	}
@@ -1119,6 +1119,11 @@ function Player.missionIsCompleted(self, questId, missionId)
 	return false
 end
 
+function Player.getQuestName(self, questId)
+	local quest = Game.getQuest(questId)
+	return (quest and quest.name) or ""
+end
+
 function Player.getMissionName(self, questId, missionId)
 	local mission = Game.getMission(questId, missionId)
 	if mission then
@@ -1169,7 +1174,7 @@ function Player.sendQuestLog(self)
 	msg:addU16(questCount)
 	for _, questId in ipairs(questIds) do
 		msg:addU16(questId)
-		msg:addString(Quests[questId].name, "Player.sendQuestLog")
+		msg:addString(self:getQuestName(questId), "Player.sendQuestLog")
 		msg:addByte(self:questIsCompleted(questId) and 0x01 or 0x00)
 	end
 	msg:sendToPlayer(self)

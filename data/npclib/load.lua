@@ -2,6 +2,10 @@ dofile(CORE_DIRECTORY .. "/npclib/npc.lua")
 -- a camada de idioma engancha em Npc:say, entao vem logo depois do npc.lua
 dofile(CORE_DIRECTORY .. "/npclib/npc_system/idioma.lua")
 dofile(CORE_DIRECTORY .. "/npclib/npc_system/idiomas/pt_br.lua")
+-- quest log/quest tracker: mesma camada de idioma, engancha em
+-- Player.getQuestName/getMissionName/getMissionDescription (definidas em
+-- core.lua, que carrega antes do npclib)
+dofile(CORE_DIRECTORY .. "/npclib/npc_system/idioma_quests.lua")
 dofile(CORE_DIRECTORY .. "/modules/scripts/npc/npc_dialog.lua")
 dofile(CORE_DIRECTORY .. "/npclib/npc_system/npc_handler.lua")
 dofile(CORE_DIRECTORY .. "/npclib/npc_system/keyword_handler.lua")
