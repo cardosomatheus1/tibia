@@ -3303,7 +3303,7 @@
    ]
   },
   "My healing spells are: {Cure Poison}, {Intense Healing}, {Light Healing}, {Magic Patch} and {Ultimate Healing}.": {
-   "pt": "",
+   "pt": "Minhas magias de cura são: {Cure Poison}, {Intense Healing}, {Light Healing}, {Magic Patch} e {Ultimate Healing}.",
    "n": 8,
    "npc": [
     "chatterbone",
@@ -5266,7 +5266,7 @@
    ]
   },
   "Good bye and come again.": {
-   "pt": "",
+   "pt": "Até logo, e volte sempre.",
    "n": 5,
    "npc": [
     "gnomegica",
@@ -5600,7 +5600,7 @@
    ]
   },
   "My attack spells are: {Apprentice's Strike}, {Buzz}, {Creature Illusion}, {Energy Beam}, {Energy Wave}, {Explosion}, {Fire Wave}, {Great Energy Beam}, {Invisibility}, {Scorch} and {Summon Creature}.": {
-   "pt": "",
+   "pt": "Minhas magias de ataque são: {Apprentice's Strike}, {Buzz}, {Creature Illusion}, {Energy Beam}, {Energy Wave}, {Explosion}, {Fire Wave}, {Great Energy Beam}, {Invisibility}, {Scorch} e {Summon Creature}.",
    "n": 4,
    "npc": [
     "chatterbone",
@@ -5610,7 +5610,7 @@
    ]
   },
   "My support spells are: {Find Fiend}, {Find Person}, {Great Light}, {Light}, {Magic Shield}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Find Fiend}, {Find Person}, {Great Light}, {Light}, {Magic Shield}.",
    "n": 4,
    "npc": [
     "chatterbone",
@@ -5620,7 +5620,7 @@
    ]
   },
   "My rune spells are: {Destroy Field} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Great Fireball} Rune, {Heavy Magic Missile} Rune, {Light Magic Missile} Rune, {Poison Field} Rune, {Poison Wall} Rune, {Stalagmite} Rune and {Sudden Death} Rune.": {
-   "pt": "",
+   "pt": "Minhas magias de rune são: {Destroy Field} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Great Fireball} Rune, {Heavy Magic Missile} Rune, {Light Magic Missile} Rune, {Poison Field} Rune, {Poison Wall} Rune, {Stalagmite} Rune e {Sudden Death} Rune.",
    "n": 4,
    "npc": [
     "chatterbone",
@@ -5630,7 +5630,7 @@
    ]
   },
   "I have spells for level {1}, {8}, {10}, {13}, {14}, {15}, {17}, {18}, {20}, {23}, {24}, {25}, {27}, {29}, {30}, {31}, {33}, {35}, {38}, {41} and {45}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {10}, {13}, {14}, {15}, {17}, {18}, {20}, {23}, {24}, {25}, {27}, {29}, {30}, {31}, {33}, {35}, {38}, {41} e {45}.",
    "n": 4,
    "npc": [
     "chatterbone",
@@ -10987,7 +10987,7 @@
    ]
   },
   "I provide two addons. For the first one I need you to bring me three porcelain masks. For the second addon you need fifty colourful ostrich feathers. Do you want one of these addons?": {
-   "pt": "",
+   "pt": "Eu forneço dois addons. Para o primeiro, preciso que me traga três porcelain masks. Para o segundo addon, você precisa de cinquenta colourful ostrich feathers. Quer um desses addons?",
    "n": 2,
    "npc": [
     "muriel"
@@ -40304,91 +40304,91 @@
    ]
   },
   "Indeed there is something to be done, but I need someone more experienced. Come back later if you want to.": {
-   "pt": "",
+   "pt": "De fato há algo a fazer, mas preciso de alguém mais experiente. Volte mais tarde, se quiser.",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "Excellent! Now I can try to put my theoretical thoughts into practice and find a cure for the symptoms of undead. Here, take this for your efforts.": {
-   "pt": "",
+   "pt": "Excelente! Agora posso tentar colocar minhas ideias teóricas em prática e achar uma cura para os sintomas de undead. Tome, fique com isto pelo esforço.",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "I am very glad you helped me, but I am very busy at the moment.": {
-   "pt": "",
+   "pt": "Fico muito feliz que você tenha me ajudado, mas estou muito ocupada no momento.",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "I see you have the porcelain masks. Are you ready to exchange them for the first addon?": {
-   "pt": "",
+   "pt": "Vejo que você tem as porcelain masks. Está pronto para trocá-las pelo primeiro addon?",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "I see you have the colourful feathers. Are you ready to exchange them for the second addon?": {
-   "pt": "",
+   "pt": "Vejo que você tem as colourful feathers. Está pronto para trocá-las pelo segundo addon?",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "You need the outfit and 3 porcelain masks or 50 colored feathers to get the festive costume accessories.": {
-   "pt": "",
+   "pt": "Você precisa do outfit e de 3 porcelain masks ou 50 colored feathers para conseguir os acessórios da festive costume.",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "Very good! You gained the first addon to the festive outfit.": {
-   "pt": "",
+   "pt": "Muito bem! Você ganhou o primeiro addon do festive outfit.",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "Oh, sorry but you don't have enough porcelain masks!": {
-   "pt": "",
+   "pt": "Ah, desculpe, mas você não tem porcelain masks suficientes!",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "Very good! You gained the second addon to the festive outfit.": {
-   "pt": "",
+   "pt": "Muito bem! Você ganhou o segundo addon do festive outfit.",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "Oh, sorry but you don't have enough colourful feathers!": {
-   "pt": "",
+   "pt": "Ah, desculpe, mas você não tem colourful feathers suficientes!",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "What do you have for me: the porcelain masks or the colourful feathers?": {
-   "pt": "",
+   "pt": "O que você tem para mim: as porcelain masks ou as colourful feathers?",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "Ohh, then I need to find another adventurer who wants to earn a great reward. Bye!": {
-   "pt": "",
+   "pt": "Ohh, então preciso achar outro aventureiro que queira ganhar uma bela recompensa. Tchau!",
    "n": 1,
    "npc": [
     "muriel"
    ]
   },
   "Greetings, |PLAYERNAME|! Looking for wisdom and power, eh?": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|! Em busca de sabedoria e poder, é?",
    "n": 1,
    "npc": [
     "muriel"
@@ -46324,126 +46324,126 @@
    ]
   },
   "Hello there, adventurer! Need a deal in weapons or armor? I'm your man!": {
-   "pt": "",
+   "pt": "Olá, aventureiro! Precisa de um bom negócio em armas ou armadura? Eu sou seu homem!",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "I am the blacksmith. If you need weapons or armor - just ask me.": {
-   "pt": "",
+   "pt": "Sou o ferreiro. Se precisar de arma ou armadura - é só me perguntar.",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "Oh, Gregor sent you? I see. It will be my pleasure to adorn your helmet. Please give me some time to finish it.": {
-   "pt": "",
+   "pt": "Ah, foi Gregor que lhe mandou? Entendo. Será um prazer decorar seu elmo. Me dê um tempo para terminar.",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "Just in time, |PLAYERNAME|. Your helmet is finished, I hope you like it.": {
-   "pt": "",
+   "pt": "Bem na hora, |PLAYERNAME|. Seu elmo está pronto, espero que goste.",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "Please have some patience, |PLAYERNAME|. Forging is hard work!": {
-   "pt": "",
+   "pt": "Por favor, tenha paciência, |PLAYERNAME|. Forjar é trabalho duro!",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "I think it's one of my masterpieces.": {
-   "pt": "",
+   "pt": "Acho que é uma das minhas obras-primas.",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "Sorry, but without the permission of Gregor I cannot help you with this matter.": {
-   "pt": "",
+   "pt": "Desculpe, mas sem a permissão do Gregor não posso lhe ajudar com isso.",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "What? Are you telling me you found my old adventurer's backpack that I lost years ago??": {
-   "pt": "",
+   "pt": "O quê? Está me dizendo que achou minha velha adventurer's backpack que perdi há anos??",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "My offers are weapons, armors, helmets, legs, and shields. If you'd like to see my offers, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Minhas ofertas são weapons, armors, helmets, legs e shields. Se quiser ver minhas ofertas, me peça para {negociar}.",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "What? You want to buy 2000 steel shields??": {
-   "pt": "",
+   "pt": "O quê? Você quer comprar 2000 steel shields??",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "Have you signed the contract?": {
-   "pt": "",
+   "pt": "Você assinou o contrato?",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "I can't believe it. Finally I will be rich! I could move to Edron and enjoy my retirement! But ... wait a minute! I will not start working without a contract! Are you willing to sign one?": {
-   "pt": "",
+   "pt": "Não acredito. Finalmente vou ficar rico! Poderia me mudar para Edron e curtir a aposentadoria! Mas ... espera aí! Não vou começar a trabalhar sem contrato! Você está disposto a assinar um?",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "Fine! Here is the contract. Please sign it. Talk to me about it again when you're done.": {
-   "pt": "",
+   "pt": "Certo! Aqui está o contrato. Por favor, assine. Fale comigo de novo sobre isso quando terminar.",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "You don't have a signed contract.": {
-   "pt": "",
+   "pt": "Você não tem um contrato assinado.",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "Excellent! I will start working right away! Now that I am going to be rich, I will take the opportunity to tell some people what I REALLY think about them!": {
-   "pt": "",
+   "pt": "Excelente! Vou começar a trabalhar agora mesmo! Agora que vou ficar rico, vou aproveitar para dizer a algumas pessoas o que REALMENTE penso delas!",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "This deal sounded too good to be true anyway.": {
-   "pt": "",
+   "pt": "Esse negócio parecia bom demais para ser verdade mesmo.",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "Welcome to my shop, adventurer |PLAYERNAME|! I {trade} with weapons and armor.": {
-   "pt": "",
+   "pt": "Bem-vindo à minha loja, aventureiro |PLAYERNAME|! Eu {negocio} weapons e armor.",
    "n": 1,
    "npc": [
     "sam"
    ]
   },
   "Good bye and come again, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Até logo, e volte sempre, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "sam"
@@ -62309,6 +62309,10 @@
   },
   "level": {
    "pt": "nível",
+   "n": 0
+  },
+  "trade": {
+   "pt": "negocio",
    "n": 0
   }
  }
