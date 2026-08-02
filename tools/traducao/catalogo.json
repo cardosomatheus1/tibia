@@ -4955,7 +4955,7 @@
    ]
   },
   "Hm. You don't look so sure about that one. You should not report suspects that you did not confirm yourself! Any others?": {
-   "pt": "",
+   "pt": "Hm. Você não parece muito seguro quanto a esse. Você não deve relatar suspeitos que não confirmou você mesmo! Mais algum?",
    "n": 6,
    "npc": [
     "julius"
@@ -5299,7 +5299,7 @@
    ]
   },
   "You already reported that name. Any new ones?": {
-   "pt": "",
+   "pt": "Você já relatou esse nome. Algum novo?",
    "n": 5,
    "npc": [
     "julius"
@@ -5835,7 +5835,7 @@
    ]
   },
   "Don't waste my time.": {
-   "pt": "",
+   "pt": "Não perca meu tempo.",
    "n": 4,
    "npc": [
     "gnomus",
@@ -6966,7 +6966,7 @@
    ]
   },
   "Hello! Tell me what's on your mind. Time is money.": {
-   "pt": "",
+   "pt": "Olá! Me diga o que você tem em mente. Tempo é dinheiro.",
    "n": 3,
    "npc": [
     "karith"
@@ -7100,7 +7100,7 @@
    ]
   },
   "What a pity.": {
-   "pt": "",
+   "pt": "Que pena.",
    "n": 3,
    "npc": [
     "miraia",
@@ -10547,7 +10547,7 @@
    ]
   },
   "I fear that will not do. Sorry.": {
-   "pt": "",
+   "pt": "Temo que isso não vai servir. Desculpe.",
    "n": 2,
    "npc": [
     "julius"
@@ -11078,7 +11078,7 @@
    ]
   },
   "Though the city has seen better days, the quality of life is still much better than in most other cities.": {
-   "pt": "",
+   "pt": "Embora a cidade já tenha visto dias melhores, a qualidade de vida ainda é muito melhor que na maioria das outras cidades.",
    "n": 2,
    "npc": [
     "ortheus"
@@ -34742,245 +34742,245 @@
    ]
   },
   "I come from a family of {vampire} hunters, but to be honest, I'm more into the theoretic part and strategic planning.": {
-   "pt": "",
+   "pt": "Venho de uma família de caçadores de {vampiro}, mas para ser sincero, eu curto mais a parte teórica e o planejamento estratégico.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "A better name would be Gomorrah, if you ask me.": {
-   "pt": "",
+   "pt": "Um nome melhor seria Gomorra, se você me perguntar.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "My name is Julius.": {
-   "pt": "",
+   "pt": "Meu nome é Julius.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Storkus? Oh yes, I know him. A long time ago we used to hunt together... sometimes.": {
-   "pt": "",
+   "pt": "Storkus? Ah sim, eu o conheço. Há muito tempo costumávamos caçar juntos... às vezes.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "It's about time you showed the vampires that they should never bother the citizens again.": {
-   "pt": "",
+   "pt": "Já está na hora de você mostrar aos vampiros que eles nunca mais devem incomodar os cidadãos.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Another vampire raid last night. But then again, that's nothing new.": {
-   "pt": "",
+   "pt": "Mais um ataque de vampiro ontem à noite. Mas então de novo, isso não é novidade.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Well, I should be the one to thank you I guess.": {
-   "pt": "",
+   "pt": "Bem, imagino que seja eu quem deva agradecer a você.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Our nightly blood-sucking visitors put the inhabitants of Yalahar in constant danger. The worst thing is that anyone in this city could be a vampire. Maybe an outsider like you could help us. Would you try?": {
-   "pt": "",
+   "pt": "Nossos visitantes noturnos sugadores de sangue põem os habitantes de Yalahar em perigo constante. O pior é que qualquer um nesta cidade pode ser um vampiro. Talvez um forasteiro como você possa nos ajudar. Você tentaria?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Hmm, I see, I see. That necklace is only a small indication though... I think I need another proof, just to make sure. Say... have you ever baked {garlic bread}?": {
-   "pt": "",
+   "pt": "Hmm, entendo, entendo. Mas esse colar é só um pequeno indício... Acho que preciso de outra prova, só para ter certeza. Diga... você já assou {garlic bread}?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Let me check - yes indeed, there's garlic in it. Now eat one, in front of my eyes. Right now! Say '{aaah}' when you've chewed it all down so that I can see you're not hiding it!": {
-   "pt": "",
+   "pt": "Deixe-me verificar - sim, de fato, tem alho aí dentro. Agora coma um, diante dos meus olhos. Agora mesmo! Diga '{aaah}' quando tiver mastigado tudo, para eu ver que você não está escondendo nada!",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "So, are you ready for your first real task?": {
-   "pt": "",
+   "pt": "Então, está pronto para sua primeira tarefa de verdade?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Are you back with confirmed names of possible vampires?": {
-   "pt": "",
+   "pt": "Você voltou com nomes confirmados de possíveis vampiros?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Oh! You look horrible - I mean, rather weary. What happened? Who is the master vampire?": {
-   "pt": "",
+   "pt": "Ah! Você está com uma cara horrível - quero dizer, bem cansada. O que aconteceu? Quem é o vampiro mestre?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Well, there's one problem. How would I know I can trust you? You might be one of them... hm. Can you think of something really unlikely for a vampire? If you know a way to prove it to me, ask me about your {mission}.": {
-   "pt": "",
+   "pt": "Bem, há um problema. Como eu saberia que posso confiar em você? Você pode ser um deles... hm. Consegue pensar em algo bem improvável para um vampiro? Se souber um jeito de provar isso para mim, me pergunte sobre sua {missão}.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Fine then. Talk to me again about your mission once you have the garlic bread. You can get holy water from a member of the inquisition.": {
-   "pt": "",
+   "pt": "Muito bem, então. Fale comigo de novo sobre sua missão quando tiver o garlic bread. Você consegue holy water com um membro da inquisição.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Fine. Good luck! Talk to me again about your mission once you have confirmed the names of five suspects.": {
-   "pt": "",
+   "pt": "Certo. Boa sorte! Fale comigo de novo sobre sua missão quando tiver confirmado os nomes de cinco suspeitos.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Alright, wait a moment. Tell me one name at a time so I can note them down carefully. Who is a suspect?": {
-   "pt": "",
+   "pt": "Muito bem, espere um momento. Me diga um nome de cada vez para eu anotar com cuidado. Quem é suspeito?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Well, you need to mix flour with holy water and use that dough on garlic to create a special dough. Bake it like normal bread, but I guarantee that no vampire can eat that. Are you following me?": {
-   "pt": "",
+   "pt": "Bem, você precisa misturar farinha com holy water e usar essa massa em alho para criar uma massa especial. Asse como pão normal, mas garanto que nenhum vampiro consegue comer isso. Está me acompanhando?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "I guess Armenius, Lisander, Maris, Ortheus and Serafin are all the names we can get for now. Let me think for a moment what we are going to do, talk to me about your mission again later.": {
-   "pt": "",
+   "pt": "Acho que Armenius, Lisander, Maris, Ortheus e Serafin são todos os nomes que conseguimos por ora. Deixe-me pensar um momento no que vamos fazer, fale comigo sobre sua missão de novo mais tarde.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "No, no, I was asking for one of the names.": {
-   "pt": "",
+   "pt": "Não, não, eu estava pedindo um dos nomes.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Very well. I think I can trust you now. Sorry that I had to put you through this embarassing procedure, but I'm sure you understand. So, are you ready for your first real task?": {
-   "pt": "",
+   "pt": "Muito bem. Acho que posso confiar em você agora. Desculpe ter que fazê-lo passar por esse procedimento constrangedor, mas tenho certeza de que você entende. Então, está pronto para sua primeira tarefa de verdade?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "No, no, you didn't eat it! Vampire Brood! Say '{aaah}' once you have eaten the bread or get out of her instantly!": {
-   "pt": "",
+   "pt": "Não, não, você não comeu! Vampire Brood! Diga '{aaah}' assim que tiver comido o pão, ou saia daqui agora mesmo!",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "He really doesn't look like the man of the sea he pretends to be, does he? Noted down! Any other name?": {
-   "pt": "",
+   "pt": "Ele realmente não parece o homem do mar que finge ser, não é? Anotado! Mais algum nome?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "I always thought that there is not really a poor beggar hidden under those ragged clothes. Noted down! Any other name?": {
-   "pt": "",
+   "pt": "Sempre achei que não havia mesmo um pobre mendigo escondido sob aquelas roupas esfarrapadas. Anotado! Mais algum nome?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Nice angelic name for a vampire. But he didn't escape your attention, well done. Noted down! Any other name?": {
-   "pt": "",
+   "pt": "Belo nome angelical para um vampiro. Mas ele não escapou da sua atenção, muito bem. Anotado! Mais algum nome?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Yes, that pale skin and those black eyes speak volumes. Noted down! Any other name?": {
-   "pt": "",
+   "pt": "Sim, essa pele pálida e esses olhos negros dizem muito. Anotado! Mais algum nome?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Ahh, I always thought something was suspicious about him. Noted down! Any other name?": {
-   "pt": "",
+   "pt": "Ahh, sempre achei que tinha algo suspeito nele. Anotado! Mais algum nome?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Then try harder.": {
-   "pt": "",
+   "pt": "Então se esforce mais.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Good. Don't play around with the spell, only use it when standing in front of those vampires. Come back and report to me about your progress later.": {
-   "pt": "",
+   "pt": "Bom. Não brinque com a magia, use só quando estiver diante daqueles vampiros. Volte e me relate seu progresso mais tarde.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "I see... so Armenius is the master, and the spell didn't even cause a scratch on him... Well, that went worse than expected. Let me think for a moment and then ask me about a mission again.": {
-   "pt": "",
+   "pt": "Entendo... então Armenius é o mestre, e a magia nem arranhou ele... Bem, isso foi pior do que eu esperava. Deixe-me pensar um momento e depois me pergunte sobre uma missão de novo.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Getting cold feet, eh?": {
-   "pt": "",
+   "pt": "Ficando com medo, é?",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Be greeted, adventurer |PLAYERNAME|. I assume you have read the {note} about the {vampire} threat in this city.": {
-   "pt": "",
+   "pt": "Seja bem-vindo, aventureiro |PLAYERNAME|. Imagino que tenha lido a {nota} sobre a ameaça {vampiro} nesta cidade.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Be greeted, adventurer |PLAYERNAME|. Please excuse me if I appear {distracted}!": {
-   "pt": "",
+   "pt": "Seja bem-vindo, aventureiro |PLAYERNAME|. Por favor, me desculpe se eu parecer {distraído}!",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "Good bye, |PLAYERNAME|. Never trust anyone.": {
-   "pt": "",
+   "pt": "Até logo, |PLAYERNAME|. Nunca confie em ninguém.",
    "n": 1,
    "npc": [
     "julius"
    ]
   },
   "I'll reward you for every pair of vampire teeth you bring me.": {
-   "pt": "",
+   "pt": "Vou recompensá-lo por cada par de vampire teeth que trouxer.",
    "n": 1,
    "npc": [
     "julius"
@@ -35057,77 +35057,77 @@
    ]
   },
   "This weather is killing me. If I only had enough money to retire.": {
-   "pt": "",
+   "pt": "Esse clima está me matando. Se ao menos eu tivesse dinheiro suficiente para me aposentar.",
    "n": 1,
    "npc": [
     "karith"
    ]
   },
   "I'm Karith. I don't belong to a caste any longer, and only serve the Yalahari.": {
-   "pt": "",
+   "pt": "Sou Karith. Não pertenço mais a nenhuma casta, e só sirvo aos Yalahari.",
    "n": 1,
    "npc": [
     "karith"
    ]
   },
   "The city was a marvel to behold. It is certain that it have been the many foreigners that ruined it.": {
-   "pt": "",
+   "pt": "A cidade era uma maravilha de se ver. É certo que foram os muitos estrangeiros que a arruinaram.",
    "n": 1,
    "npc": [
     "karith"
    ]
   },
   "What's that? Bug milk? Hm, perhaps I can find some customers for that!": {
-   "pt": "",
+   "pt": "O que é isso? Bug milk? Hm, talvez eu consiga achar clientes para isso!",
    "n": 1,
    "npc": [
     "karith"
    ]
   },
   "Sand wasp honey? Hm, interesting at least!": {
-   "pt": "",
+   "pt": "Sand wasp honey? Hm, ao menos é interessante!",
    "n": 1,
    "npc": [
     "karith"
    ]
   },
   "Some special spice might be of value indeed.": {
-   "pt": "",
+   "pt": "Alguma especiaria especial pode valer algo, de fato.",
    "n": 1,
    "npc": [
     "karith"
    ]
   },
   "I can hardly imagine that someone is interested in embalming fluid, but I'll give it a try.": {
-   "pt": "",
+   "pt": "Mal consigo imaginar alguém interessado em embalming fluid, mas vou tentar.",
    "n": 1,
    "npc": [
     "karith"
    ]
   },
   "Of course! Ivory! Its value is quite obvious.": {
-   "pt": "",
+   "pt": "Claro! Marfim! O valor dele é bem óbvio.",
    "n": 1,
    "npc": [
     "karith"
    ]
   },
   "This royal satin is indeed of acceptable quality.": {
-   "pt": "",
+   "pt": "Este royal satin é de fato de qualidade aceitável.",
    "n": 1,
    "npc": [
     "karith"
    ]
   },
   "I doubt that the esteemed Yalahari will indulge into something profane as rum. But who knows, I'll give it a try.": {
-   "pt": "",
+   "pt": "Duvido que os estimados Yalahari se rendam a algo profano como rum. Mas quem sabe, vou tentar.",
    "n": 1,
    "npc": [
     "karith"
    ]
   },
   "I doubt that these flowers will stay fresh and healthy forever. But if they do, they could be indeed valuable.": {
-   "pt": "",
+   "pt": "Duvido que essas flores fiquem frescas e saudáveis para sempre. Mas se ficarem, podem valer bastante, de fato.",
    "n": 1,
    "npc": [
     "karith"
@@ -42624,147 +42624,147 @@
    ]
   },
   "I can't imagine a better place to live.": {
-   "pt": "",
+   "pt": "Não consigo imaginar lugar melhor para viver.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "Hm, good question. Maybe old, wise man?": {
-   "pt": "",
+   "pt": "Hm, boa pergunta. Talvez velho, homem sábio?",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "I'm used to being called old man. Simple as that.": {
-   "pt": "",
+   "pt": "Estou acostumado a ser chamado de velho. Simples assim.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "I don't know what you're talking about.": {
-   "pt": "",
+   "pt": "Não sei do que você está falando.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "Yes, it's a bit messy down there. Sorry.": {
-   "pt": "",
+   "pt": "Sim, está um pouco bagunçado lá embaixo. Desculpe.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "Doesn't ring a bell.": {
-   "pt": "",
+   "pt": "Não me lembra nada.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "He rarely comes here.": {
-   "pt": "",
+   "pt": "Ele quase nunca vem aqui.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "A man of the seas.": {
-   "pt": "",
+   "pt": "Um homem dos mares.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "He used to visit me for a chat, but ever since that new tavern opened I haven't seen him much anymore.": {
-   "pt": "",
+   "pt": "Ele costumava me visitar para conversar, mas desde que aquela taverna nova abriu, quase não o vejo mais.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "He sometimes delivers fruit and vegetables to this quarter.": {
-   "pt": "",
+   "pt": "Ele às vezes entrega frutas e verduras neste bairro.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "I can't imagine a better place to live": {
-   "pt": "",
+   "pt": "Não consigo imaginar lugar melhor para viver",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "Whatever that's supposed to mean.": {
-   "pt": "",
+   "pt": "Seja lá o que isso deva significar.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "I don't have anything that I could give you as a reward. Guess you aren't so selfless after all, huh?": {
-   "pt": "",
+   "pt": "Não tenho nada que eu possa lhe dar como recompensa. Acho que você não é tão altruísta assim, afinal, hã?",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "They try to protect the city and do a decent job. Well - no, a poor job, I mean a poor job.": {
-   "pt": "",
+   "pt": "Eles tentam proteger a cidade e fazem um trabalho decente. Bem - não, um trabalho ruim, quero dizer um trabalho ruim.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "You can bring me a mug of tea if you want to.": {
-   "pt": "",
+   "pt": "Você pode me trazer uma caneca de chá, se quiser.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "A cookie? Well... I have to admit I haven't had one for ages. Can I have it?": {
-   "pt": "",
+   "pt": "Um biscoito? Bem... tenho que admitir que não como um há séculos. Posso ficar com ele?",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "Well thanks, it looks tasty, I'll just take a bi - COUGH! Are you trying to poison me?? Get out of here before I forget myself!": {
-   "pt": "",
+   "pt": "Bem, obrigado, parece gostoso, vou só dar uma mordi- TOSSE! Está tentando me envenenar?? Saia daqui antes que eu me esqueça de mim mesmo!",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "Wow. These polite young adventurers nowadays. Thank you.": {
-   "pt": "",
+   "pt": "Uau. Esses aventureiros jovens hoje em dia, tão educados. Obrigado.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "Hmmm, you don't have tea with you.": {
-   "pt": "",
+   "pt": "Hmmm, você não está com chá.",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "Have you actually brought me a mug of tea??": {
-   "pt": "",
+   "pt": "Você realmente me trouxe uma caneca de chá??",
    "n": 1,
    "npc": [
     "ortheus"
    ]
   },
   "What's your business here with the {magicians}, |PLAYERNAME|?": {
-   "pt": "",
+   "pt": "Qual é o seu assunto aqui com os {magos}, |PLAYERNAME|?",
    "n": 1,
    "npc": [
     "ortheus"
@@ -43156,91 +43156,91 @@
    ]
   },
   "I'm an Augur of the city of Yalahar. My special duty consists of coordinating the efforts to keep the city and its services running.": {
-   "pt": "",
+   "pt": "Sou um Augur da cidade de Yalahar. Meu dever especial consiste em coordenar os esforços para manter a cidade e seus serviços funcionando.",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "Did you bring me the vampiric crest?": {
-   "pt": "",
+   "pt": "Você me trouxe o vampiric crest?",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "So are you done with your work?": {
-   "pt": "",
+   "pt": "Então você terminou seu trabalho?",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "Did you get all the reports my superiors asked for?": {
-   "pt": "",
+   "pt": "Você conseguiu todos os relatórios que meus superiores pediram?",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "These are great news indeed. The people of Yalahar will be grateful. The Yalahari probably not, so take care of yourself.": {
-   "pt": "",
+   "pt": "Essa é realmente uma ótima notícia. O povo de Yalahar vai ficar grato. Os Yalahari provavelmente não, então se cuide.",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "Rumours travel fast in Yalahar. So the Yalahari will soon have some new toys at their disposal. I strongly doubt this has any positive effect.": {
-   "pt": "",
+   "pt": "Boato viaja rápido em Yalahar. Então os Yalahari logo terão novos brinquedos à disposição. Duvido muito que isso tenha algum efeito positivo.",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "Oh no! So that's the reason for the quara attacks! I will do my best to close these sewage pipes. We will have to use other drains.": {
-   "pt": "",
+   "pt": "Ah não! Então é essa a razão dos ataques quara! Vou fazer o possível para fechar esses canos de esgoto. Vamos ter que usar outros drenos.",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "You can be proud of your decision, my friend.": {
-   "pt": "",
+   "pt": "Você pode se orgulhar da sua decisão, meu amigo.",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "So do you want to side with me?": {
-   "pt": "",
+   "pt": "Então você quer ficar do meu lado?",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "Thank you very much. You have no idea how hard it was to find someone volunteering for that job. If you feel ready for further {missions}, just tell me.": {
-   "pt": "",
+   "pt": "Muito obrigado. Você não faz ideia de como foi difícil achar alguém disposto a esse trabalho. Se se sentir pronto para mais {missões}, é só me dizer.",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "Excellent! My superiors will be pleased to get these reports. I will for sure emphasise your efforts in this mission. Please come back soon to see if there are any more {missions} available for you.": {
-   "pt": "",
+   "pt": "Excelente! Meus superiores vão ficar satisfeitos em receber esses relatórios. Com certeza vou destacar seu esforço nesta missão. Por favor, volte logo para ver se há mais {missões} disponíveis para você.",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "You have no idea how much I hoped to hear that, my friend! But I have an urgent mission for you!": {
-   "pt": "",
+   "pt": "Você não faz ideia do quanto eu esperava ouvir isso, meu amigo! Mas tenho uma missão urgente para você!",
    "n": 1,
    "npc": [
     "palimuth"
    ]
   },
   "Great! Here, take this yalaharian addon in a return.": {
-   "pt": "",
+   "pt": "Ótimo! Tome, fique com este addon yalaharian em troca.",
    "n": 1,
    "npc": [
     "palimuth"
@@ -43513,140 +43513,140 @@
    ]
   },
   "There it's even more smelly than in the factory quarter. Smells a bit like rotten eggs.": {
-   "pt": "",
+   "pt": "Lá é ainda mais fedorento que no bairro da fábrica. Cheira um pouco a ovo podre.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "You don't look as if you would last one second there.": {
-   "pt": "",
+   "pt": "Você não parece que aguentaria nem um segundo lá.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "One day I will walk into the office of my superior and announce my resignment. Probably not long from now.": {
-   "pt": "",
+   "pt": "Um dia vou entrar na sala do meu superior e anunciar minha demissão. Provavelmente não vai demorar.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "Good idea. Go for a walk there. Preferably six feet down.": {
-   "pt": "",
+   "pt": "Boa ideia. Vá dar uma volta lá. De preferência dois metros abaixo do chão.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "It's too noisy and smelly.": {
-   "pt": "",
+   "pt": "É barulhento e fedorento demais.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "Go there if you wanna get beaten up.": {
-   "pt": "",
+   "pt": "Vá lá se quiser apanhar.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "Sergeant first class of the Yalaharian Guard Force. But I don't care about ranks and titles.": {
-   "pt": "",
+   "pt": "Sargento de primeira classe da Yalaharian Guard Force. Mas não ligo para patente nem título.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "I can't stand those arrogant fools.": {
-   "pt": "",
+   "pt": "Não suporto esses tolos arrogantes.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "Leave me alone with your 'mission' unless you have precise orders from my superiors.": {
-   "pt": "",
+   "pt": "Não me venha com sua 'missão', a menos que tenha ordens precisas dos meus superiores.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "Peter.": {
-   "pt": "",
+   "pt": "Peter.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "That quara brood should be extinguished.": {
-   "pt": "",
+   "pt": "Aquela ninhada de quara devia ser extinta.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "The leader of their pack is the biggest criminal among them all.": {
-   "pt": "",
+   "pt": "O líder do bando deles é o maior criminoso de todos.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "Count them yourself.": {
-   "pt": "",
+   "pt": "Conte você mesmo.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "You're here. So what?": {
-   "pt": "",
+   "pt": "Você está aqui. E daí?",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "A report? What do they think is happening here? <gives an angry and bitter report>.": {
-   "pt": "",
+   "pt": "Um relatório? O que eles acham que está acontecendo aqui? <dá um relato bravo e amargo>.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "Pass the gate? If it must be. Are you headed for the {factory} or the former {trade quarter}?": {
-   "pt": "",
+   "pt": "Passar o portão? Se for preciso. Você está indo para a {fábrica} ou o antigo {trade quarter}?",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "Listen, I don't get paid enough to chat with citizens. Move on.": {
-   "pt": "",
+   "pt": "Escute, não me pagam o suficiente para conversar com cidadãos. Siga em frente.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "Be on your guard. Some people are nice, some... aren't.": {
-   "pt": "",
+   "pt": "Fique em guarda. Algumas pessoas são simpáticas, outras... não.",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "Goodbye citizen!": {
-   "pt": "",
+   "pt": "Até logo, cidadão!",
    "n": 1,
    "npc": [
     "peter"
    ]
   },
   "Hello. Unless you have official business here or want to pass the gate, please move on.": {
-   "pt": "",
+   "pt": "Olá. A menos que tenha assunto oficial aqui ou queira passar o portão, por favor siga em frente.",
    "n": 1,
    "npc": [
     "peter"
@@ -57904,7 +57904,7 @@
    "n": 3
   },
   "magicians": {
-   "pt": "",
+   "pt": "magos",
    "n": 3
   },
   "eclesius": {
@@ -58068,7 +58068,7 @@
    "n": 3
   },
   "vampire": {
-   "pt": "",
+   "pt": "vampiro",
    "n": 3
   },
   "justice": {
@@ -58900,11 +58900,11 @@
    "n": 2
   },
   "aaah": {
-   "pt": "",
+   "pt": "aaah",
    "n": 2
   },
   "distracted": {
-   "pt": "",
+   "pt": "distraído",
    "n": 2
   },
   "robsons isle": {
@@ -59104,11 +59104,11 @@
    "n": 2
   },
   "factory": {
-   "pt": "",
+   "pt": "fábrica",
    "n": 2
   },
   "trade quarter": {
-   "pt": "",
+   "pt": "trade quarter",
    "n": 2
   },
   "rebellion": {
@@ -60728,11 +60728,11 @@
    "n": 1
   },
   "garlic bread": {
-   "pt": "",
+   "pt": "garlic bread",
    "n": 1
   },
   "note": {
-   "pt": "",
+   "pt": "nota",
    "n": 1
   },
   "thank": {
