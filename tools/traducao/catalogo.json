@@ -7347,7 +7347,7 @@
    ]
   },
   "YOOOOUHHOOOUU!": {
-   "pt": "",
+   "pt": "UOOOOUHHOOOUU!",
    "n": 2,
    "npc": [
     "a_majestic_warwolf"
@@ -9059,7 +9059,7 @@
    ]
   },
   "Who is next?": {
-   "pt": "",
+   "pt": "Quem é o próximo?",
    "n": 2,
    "npc": [
     "chrystal"
@@ -9515,7 +9515,7 @@
    ]
   },
   "Well, as you can see, I sell furniture. Ask me for a {trade} if you're interested to see my wares.": {
-   "pt": "",
+   "pt": "Bem, como você pode ver, vendo móveis. Me peça para {negociar} se tiver interesse em ver minhas mercadorias.",
    "n": 2,
    "npc": [
     "edvard",
@@ -10657,7 +10657,7 @@
    ]
   },
   "See ya, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Até mais, |PLAYERNAME|.",
    "n": 2,
    "npc": [
     "lailene"
@@ -10768,7 +10768,7 @@
    ]
   },
   "Goodbye, traveller.": {
-   "pt": "",
+   "pt": "Adeus, viajante.",
    "n": 2,
    "npc": [
     "luna"
@@ -11572,7 +11572,7 @@
    ]
   },
   "Oh, good bye.": {
-   "pt": "",
+   "pt": "Ah, adeus.",
    "n": 2,
    "npc": [
     "rudolph"
@@ -11801,7 +11801,7 @@
    ]
   },
   "Good .. bye.": {
-   "pt": "",
+   "pt": "Até .. logo.",
    "n": 2,
    "npc": [
     "telas_golem"
@@ -12615,21 +12615,21 @@
    ]
   },
   "GRRRRRRRRRRRRR": {
-   "pt": "",
+   "pt": "GRRRRRRRRRRRRR",
    "n": 1,
    "npc": [
     "a_majestic_warwolf"
    ]
   },
   "I can see in your eyes that you are a honest and friendly person, |PLAYERNAME|. You were patient enough to learn our language and I will grant you a special gift. Will you accept it?": {
-   "pt": "",
+   "pt": "Consigo ver nos seus olhos que você é uma pessoa honesta e amigável, |PLAYERNAME|. Você teve paciência o bastante para aprender nossa língua, e vou lhe conceder um presente especial. Você aceita?",
    "n": 1,
    "npc": [
     "a_majestic_warwolf"
    ]
   },
   "Interesting. A human who can speak the language of wolves.": {
-   "pt": "",
+   "pt": "Interessante. Um humano que consegue falar a língua dos lobos.",
    "n": 1,
    "npc": [
     "a_majestic_warwolf"
@@ -13056,14 +13056,14 @@
    ]
   },
   "You need to deliver me like 5 feathers.": {
-   "pt": "",
+   "pt": "Você precisa me entregar umas 5 penas.",
    "n": 1,
    "npc": [
     "a_swan"
    ]
   },
   "I salute you, mortal being.": {
-   "pt": "",
+   "pt": "Eu o saúdo, ser mortal.",
    "n": 1,
    "npc": [
     "a_swan"
@@ -21211,14 +21211,14 @@
    ]
   },
   "If its necessary ... <tells you her measurements>": {
-   "pt": "",
+   "pt": "Se for necessário ... <conta suas medidas>",
    "n": 1,
    "npc": [
     "chrystal"
    ]
   },
   "At your service |PLAYERNAME| and welcome to the post office.": {
-   "pt": "",
+   "pt": "Ao seu dispor, |PLAYERNAME|, e bem-vindo aos correios.",
    "n": 1,
    "npc": [
     "chrystal"
@@ -24011,14 +24011,14 @@
    ]
   },
   "Move on!": {
-   "pt": "",
+   "pt": "Circulando!",
    "n": 1,
    "npc": [
     "edron_guardsman"
    ]
   },
   "Welcome to Edron Furniture Store, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Bem-vindo à Edron Furniture Store, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "edvard"
@@ -32705,14 +32705,14 @@
    ]
   },
   "The wolf's ghost has found peace. Thank you, human being. However, there is someone else who needs help: A sister of mine who's bereft of something very precious. You'll find her in the guise of a swan at a small river south-east of here.": {
-   "pt": "",
+   "pt": "O fantasma do lobo encontrou paz. Obrigado, ser humano. Porém, há mais alguém que precisa de ajuda: uma irmã minha que foi privada de algo muito precioso. Você vai encontrá-la sob a forma de um cisne, num pequeno rio a sudeste daqui.",
    "n": 1,
    "npc": [
     "ikassis"
    ]
   },
   "Nature's blessing, traveler!": {
-   "pt": "",
+   "pt": "A bênção da natureza, viajante!",
    "n": 1,
    "npc": [
     "ikassis"
@@ -33622,21 +33622,21 @@
    ]
   },
   "Gems of all kinds! Precious jewellery!": {
-   "pt": "",
+   "pt": "Gemas de todo tipo! Joias preciosas!",
    "n": 1,
    "npc": [
     "iwan"
    ]
   },
   "Feel welcome to my gem store, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Sinta-se bem-vindo à minha loja de gemas, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "iwan"
    ]
   },
   "Here, take a look.": {
-   "pt": "",
+   "pt": "Aqui, dê uma olhada.",
    "n": 1,
    "npc": [
     "iwan"
@@ -36261,21 +36261,21 @@
    ]
   },
   "... what?! Uh - no, no. Of course I wouldn't have anything to do with... them.": {
-   "pt": "",
+   "pt": "... o quê?! Uh - não, não. Claro que eu não teria nada a ver com... eles.",
    "n": 1,
    "npc": [
     "lailene"
    ]
   },
   "What do you want in my magical robe store? I doubt I have anything that's of interest to you.": {
-   "pt": "",
+   "pt": "O que você quer na minha loja de vestes mágicas? Duvido que eu tenha algo do seu interesse.",
    "n": 1,
    "npc": [
     "lailene"
    ]
   },
   "Here.": {
-   "pt": "",
+   "pt": "Aqui.",
    "n": 1,
    "npc": [
     "lailene"
@@ -38151,21 +38151,21 @@
    ]
   },
   "Selling herbs, mushrooms and flowers, all picked under the light of the full moon!": {
-   "pt": "",
+   "pt": "Vendendo ervas, cogumelos e flores, todos colhidos sob a luz da lua cheia!",
    "n": 1,
    "npc": [
     "luna"
    ]
   },
   "I'm selling various herbs, mushrooms, and flowers. If you'd like to see my offers, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Estou vendendo várias ervas, cogumelos e flores. Se quiser ver minhas ofertas, me peça para {negociar}.",
    "n": 1,
    "npc": [
     "luna"
    ]
   },
   "Greetings, traveller. Maybe you'd like to take a look at my {offers}...": {
-   "pt": "",
+   "pt": "Saudações, viajante. Talvez você queira dar uma olhada nas minhas {ofertas}...",
    "n": 1,
    "npc": [
     "luna"
@@ -46173,7 +46173,7 @@
    ]
   },
   "Oh, a customer. Hello |PLAYERNAME|. If you'd like to see my wonderful self-tailored clothes, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Ah, um cliente. Olá, |PLAYERNAME|. Se quiser ver minhas maravilhosas roupas feitas por mim mesmo, me peça para {negociar}.",
    "n": 1,
    "npc": [
     "rudolph"
@@ -49771,21 +49771,21 @@
    ]
   },
   "What .. happened?": {
-   "pt": "",
+   "pt": "O que .. aconteceu?",
    "n": 1,
    "npc": [
     "telas_golem"
    ]
   },
   "Where .. am I?": {
-   "pt": "",
+   "pt": "Onde .. estou?",
    "n": 1,
    "npc": [
     "telas_golem"
    ]
   },
   "Greetings, friend. Good you are showing up.": {
-   "pt": "",
+   "pt": "Saudações, amigo. Ainda bem que você apareceu.",
    "n": 1,
    "npc": [
     "tereban"
@@ -53250,28 +53250,28 @@
    ]
   },
   "Selling weapons, ammunition and armor. Special offers only available here, have a look!": {
-   "pt": "",
+   "pt": "Vendendo armas, munições e armaduras. Ofertas especiais disponíveis só aqui, dê uma olhada!",
    "n": 1,
    "npc": [
     "willard"
    ]
   },
   "Thank you, I appreciate it. Don't forget to mention the package to Snake.": {
-   "pt": "",
+   "pt": "Obrigado, agradeço muito. Não esqueça de mencionar o pacote para Snake.",
    "n": 1,
    "npc": [
     "willard"
    ]
   },
   "Greetings and Banor be with you, |PLAYERNAME|! May I interest you in a {trade} for weapons, ammunition or armor?": {
-   "pt": "",
+   "pt": "Saudações, e que Banor esteja com você, |PLAYERNAME|! Posso interessá-lo num {negocio} de armas, munições ou armaduras?",
    "n": 1,
    "npc": [
     "willard"
    ]
   },
   "Of course, just browse through my wares. If you're only interested in {distance} equipment, let me know.": {
-   "pt": "",
+   "pt": "Claro, é só dar uma olhada nas minhas mercadorias. Se estiver interessado só em equipamento de {distância}, me avise.",
    "n": 1,
    "npc": [
     "willard"
