@@ -7561,7 +7561,7 @@
    ]
   },
   "A blessed stake? That's a strange request. Maybe Quentin knows more, he is one of the oldest monks after all.": {
-   "pt": "",
+   "pt": "Uma stake abençoada? Isso é um pedido estranho. Talvez Quentin saiba mais, ele é um dos monges mais antigos, afinal.",
    "n": 2,
    "npc": [
     "amanda",
@@ -9708,7 +9708,7 @@
    ]
   },
   "Hiho, may fire and earth bless you, my child. Are you looking for a promotion?": {
-   "pt": "",
+   "pt": "Hiho, que o fogo e a terra o abençoem, minha criança. Está buscando uma promoção?",
    "n": 2,
    "npc": [
     "emperor_kruzak"
@@ -25040,7 +25040,7 @@
    ]
   },
   "Farewell, |PLAYERNAME|, my child!": {
-   "pt": "",
+   "pt": "Adeus, |PLAYERNAME|, minha criança!",
    "n": 1,
    "npc": [
     "emperor_kruzak"
@@ -28078,35 +28078,35 @@
    ]
   },
   "Shoot at the villain targets that will pop up. DON'T shoot innocent civilians since this will reset your score and you have to start all over. {Report} to me afterwards.": {
-   "pt": "",
+   "pt": "Atire nos alvos vilões que vão aparecer. NÃO atire em civis inocentes, pois isso vai zerar sua pontuação e você terá que recomeçar tudo. {Relatar} para mim depois.",
    "n": 1,
    "npc": [
     "gnomaticus"
    ]
   },
   "You are showing some promise! Now continue with the recruitment and talk to Gnomewart to the south for your endurance test!": {
-   "pt": "",
+   "pt": "Você está mostrando potencial! Agora continue o recrutamento e fale com Gnomewart ao sul para o seu teste de resistência!",
    "n": 1,
    "npc": [
     "gnomaticus"
    ]
   },
   "Sorry you are not done yet.": {
-   "pt": "",
+   "pt": "Desculpe, você ainda não terminou.",
    "n": 1,
    "npc": [
     "gnomaticus"
    ]
   },
   "You have nothing to report at all.": {
-   "pt": "",
+   "pt": "Você não tem nada para relatar.",
    "n": 1,
    "npc": [
     "gnomaticus"
    ]
   },
   "Hi there! Are you here for the {shooting} test or to {report} your success?": {
-   "pt": "",
+   "pt": "Olá! Você veio para o teste de {tiro} ou para {relatar} seu sucesso?",
    "n": 1,
    "npc": [
     "gnomaticus"
@@ -28218,56 +28218,56 @@
    ]
   },
   "Oh my, such a mess! I really should clean up things more often.": {
-   "pt": "",
+   "pt": "Ai meu Deus, que bagunça! Eu realmente deveria arrumar as coisas com mais frequência.",
    "n": 1,
    "npc": [
     "gnomegica"
    ]
   },
   "Laaa Laaa LaLa Laa Laaa!": {
-   "pt": "",
+   "pt": "Laaa Laaa LaLa Laa Laaa!",
    "n": 1,
    "npc": [
     "gnomegica"
    ]
   },
   "Greetings! You came to the right gnome to buy {potions}, {runes} or {wands}. So let's talk about a {trade}.": {
-   "pt": "",
+   "pt": "Saudações! Você veio ao gnomo certo para comprar {potions}, {runas} ou {wands}. Então me peça para {negociar}.",
    "n": 1,
    "npc": [
     "gnomegica"
    ]
   },
   "I'm the gnomish {musical} supervisor!": {
-   "pt": "",
+   "pt": "Sou o supervisor {musical} dos gnomos!",
    "n": 1,
    "npc": [
     "gnomelvis"
    ]
   },
   "What you have to do is to find your soul melody. Use the harmonic crystals to deduce your soul melody. Every soul melody consists of seven sound sequences. ...": {
-   "pt": "",
+   "pt": "O que você precisa fazer é encontrar sua melodia da alma. Use os harmonic crystals para deduzir sua melodia da alma. Toda melodia da alma consiste em sete sequências sonoras. ...",
    "n": 1,
    "npc": [
     "gnomelvis"
    ]
   },
   "You will have to figure out your correct soul melody by trial and error.": {
-   "pt": "",
+   "pt": "Você vai ter que descobrir sua melodia da alma correta por tentativa e erro.",
    "n": 1,
    "npc": [
     "gnomelvis"
    ]
   },
   "Congratulations on finding your soul melody.": {
-   "pt": "",
+   "pt": "Parabéns por encontrar sua melodia da alma.",
    "n": 1,
    "npc": [
     "gnomelvis"
    ]
   },
   "Hello. Is it me you're {looking} for?": {
-   "pt": "",
+   "pt": "Olá. Sou eu que você está {procurando}?",
    "n": 1,
    "npc": [
     "gnomelvis"
@@ -28512,35 +28512,35 @@
    ]
   },
   "Just take the teleporter over there to the south and follow the hallway. At the end of the hallway you'll find a teleporter. Step on it and you are done!": {
-   "pt": "",
+   "pt": "Basta pegar o teleporter ali ao sul e seguir o corredor. No final do corredor você vai encontrar um teleporter. Pise nele e pronto!",
    "n": 1,
    "npc": [
     "gnomewart"
    ]
   },
   "You have passed the test and are ready to create your soul melody. Talk to Gnomelvis in the east about it.": {
-   "pt": "",
+   "pt": "Você passou no teste e está pronto para criar sua melodia da alma. Fale com Gnomelvis, a leste, sobre isso.",
    "n": 1,
    "npc": [
     "gnomewart"
    ]
   },
   "Your endurance will be tested here when the time comes. For the moment please continue with the other phases of your recruitment.": {
-   "pt": "",
+   "pt": "Sua resistência será testada aqui quando chegar a hora. Por enquanto, continue com as outras fases do seu recrutamento.",
    "n": 1,
    "npc": [
     "gnomewart"
    ]
   },
   "You have passed the test. If you consider what huge feet you have to move it's quite impressive.": {
-   "pt": "",
+   "pt": "Você passou no teste. Considerando os pés enormes que você tem que mover, é bem impressionante.",
    "n": 1,
    "npc": [
     "gnomewart"
    ]
   },
   "Oh! Hi there! I guess you are here for the {endurance} test!": {
-   "pt": "",
+   "pt": "Ah! Olá! Imagino que você veio para o teste de {resistência}!",
    "n": 1,
    "npc": [
     "gnomewart"
@@ -33307,21 +33307,21 @@
    ]
   },
   "I think you have forgotten to bring your stake, kid.": {
-   "pt": "",
+   "pt": "Acho que você esqueceu de trazer sua stake, garoto.",
    "n": 1,
    "npc": [
     "isimov"
    ]
   },
   "So receive my prayer: 'Unclean spirits shall be repelled'. Now, bring your stake to Amanda in Edron for the next line of the prayer. I will inform her what to do.": {
-   "pt": "",
+   "pt": "Então receba minha prece: 'Espíritos impuros serão repelidos'. Agora, leve sua stake até Amanda, em Edron, para a próxima linha da prece. Vou avisá-la do que fazer.",
    "n": 1,
    "npc": [
     "isimov"
    ]
   },
   "You should visit Amanda in Edron now, kid.": {
-   "pt": "",
+   "pt": "Você deveria visitar Amanda, em Edron, agora, garoto.",
    "n": 1,
    "npc": [
     "isimov"
@@ -33643,21 +33643,21 @@
    ]
   },
   "Nice. You like your picture, haa? Give me 10,000 gold and I will deliver it to the museum. Do you {pay}?": {
-   "pt": "",
+   "pt": "Legal. Você gosta do seu quadro, hã? Me dê 10.000 gold e vou entregá-lo ao museu. Vai {pagar}?",
    "n": 1,
    "npc": [
     "iwar"
    ]
   },
   "Well done. The picture will be delivered to the museum as last as possible.": {
-   "pt": "",
+   "pt": "Muito bem. O quadro será entregue ao museu o mais rápido possível.",
    "n": 1,
    "npc": [
     "iwar"
    ]
   },
   "Hiho Storm Killer! Welcome to Kazordoon furniture store.": {
-   "pt": "",
+   "pt": "Hiho, Storm Killer! Bem-vindo à loja de móveis de Kazordoon.",
    "n": 1,
    "npc": [
     "iwar"
@@ -34987,21 +34987,21 @@
    ]
   },
   "Where do you want me to take you? To {Kazordoon}, {Thais} or to {Robsons Isle}?": {
-   "pt": "",
+   "pt": "Para onde você quer que eu o leve? Para {Kazordoon}, {Thais} ou para {Robsons Isle}?",
    "n": 1,
    "npc": [
     "junkar_mines"
    ]
   },
   "Full speed ahead!": {
-   "pt": "",
+   "pt": "Velocidade máxima à frente!",
    "n": 1,
    "npc": [
     "junkar_robsons"
    ]
   },
   "Where do you want me to take you? To {Kazordoon} or to {Thais}? Occasionally we can even reach the {mines} if they are cleared.": {
-   "pt": "",
+   "pt": "Para onde você quer que eu o leve? Para {Kazordoon} ou para {Thais}? Ocasionalmente também conseguimos chegar às {minas}, se estiverem livres.",
    "n": 1,
    "npc": [
     "junkar_robsons"
@@ -36233,14 +36233,14 @@
    ]
   },
   "Hm, well I guess its ok to tell you ... <tells you about Lokurs measurements>": {
-   "pt": "",
+   "pt": "Hm, bem, acho que tudo bem em lhe contar ... <conta sobre as medidas de Lokur>",
    "n": 1,
    "npc": [
     "kroox"
    ]
   },
   "Welcome to Kroox Quality Armor, |PLAYERNAME|! Wanna take a look, ask me for a trade.": {
-   "pt": "",
+   "pt": "Bem-vindo à Kroox Quality Armor, |PLAYERNAME|! Quer dar uma olhada? Me peça para negociar.",
    "n": 1,
    "npc": [
     "kroox"
@@ -44983,28 +44983,28 @@
    ]
   },
   "Now that we have arrived you should waste no time and fight your way to the lair of evil and destroy its master before its too late!": {
-   "pt": "",
+   "pt": "Agora que chegamos, você não deve perder tempo e deve lutar seu caminho até o covil do mal e destruir seu mestre antes que seja tarde demais!",
    "n": 1,
    "npc": [
     "rapanaio"
    ]
   },
   "Me humble name is Rapanaio. Good old goblin name meaning honest, generous and nice person, I swear!": {
-   "pt": "",
+   "pt": "Meu nome humilde ser Rapanaio. Nome goblin bom e antigo que significar pessoa honesta, generosa e gente boa, eu jura!",
    "n": 1,
    "npc": [
     "rapanaio"
    ]
   },
   "Passage to {Evil Isle}.": {
-   "pt": "",
+   "pt": "Passagem para {Evil Isle}.",
    "n": 1,
    "npc": [
     "rapanaio_boat"
    ]
   },
   "Welcome on board, |PLAYERNAME|. I can travel you to {evil isle}.": {
-   "pt": "",
+   "pt": "Bem-vindo a bordo, |PLAYERNAME|. Posso levá-lo até {evil isle}.",
    "n": 1,
    "npc": [
     "rapanaio_boat"
@@ -48476,14 +48476,14 @@
    ]
   },
   "Hiho adventurers, get your runes, potions, wands and rods here!": {
-   "pt": "",
+   "pt": "Hiho, aventureiros, peguem suas runas, potions, wands e rods aqui!",
    "n": 1,
    "npc": [
     "sigurd"
    ]
   },
   "Welcome to the magic store, |PLAYERNAME|! Ask me for a trade if you need something.": {
-   "pt": "",
+   "pt": "Bem-vindo à loja de magia, |PLAYERNAME|! Me peça para negociar se precisar de algo.",
    "n": 1,
    "npc": [
     "sigurd"
@@ -49512,35 +49512,35 @@
    ]
   },
   "DRESS FLATTEN? WHO WANTS ME TO FLATTEN A DRESS?": {
-   "pt": "",
+   "pt": "DOBRAR VESTIDO? QUEM QUER QUE EU DOBRE UM VESTIDO?",
    "n": 1,
    "npc": [
     "talphion"
    ]
   },
   "A PRESS LANTERN? NEVER HEARD ABOUT IT!": {
-   "pt": "",
+   "pt": "PÃO DE OUVIDO? NUNCA OUVI FALAR NISSO!",
    "n": 1,
    "npc": [
     "talphion"
    ]
   },
   "CHESS? I DONT PLAY CHESS!": {
-   "pt": "",
+   "pt": "XADREZ? EU NÃO JOGO XADREZ!",
    "n": 1,
    "npc": [
     "talphion"
    ]
   },
   "A PATTERN IN THIS MESS?? HEY DON'T INSULT MY MACHINE HALL!": {
-   "pt": "",
+   "pt": "UM PADRÃO NESSA BAGUNÇA?? EI, NÃO INSULTE MINHA SALA DE MÁQUINAS!",
    "n": 1,
    "npc": [
     "talphion"
    ]
   },
   "AH YES! I WORKED ON THE DRESS PATTERN FOR THOSE UNIFORMS. STAINLESS TROUSERES, STEAM DRIVEN BOOTS! ANOTHERMARVEL TO BEHOLD! I'LL SENT A COPY TO KEVIN IMEDIATELY!": {
-   "pt": "",
+   "pt": "AH SIM! EU TRABALHEI NO PADRÃO DO VESTIDO PARA AQUELES UNIFORMES. CALÇAS INOXIDÁVEIS, BOTAS MOVIDAS A VAPOR! OUTRA MARAVILHA DE SE VER! VOU MANDAR UMA CÓPIA PARA O KEVIN IMEDIATAMENTE!",
    "n": 1,
    "npc": [
     "talphion"
@@ -53866,35 +53866,35 @@
    ]
   },
   "Right now I am sort of {recruiting} people.": {
-   "pt": "",
+   "pt": "No momento estou meio que {recrutando} pessoas.",
    "n": 1,
    "npc": [
     "xelvar"
    ]
   },
   "You already talked with me.": {
-   "pt": "",
+   "pt": "Você já falou comigo.",
    "n": 1,
    "npc": [
     "xelvar"
    ]
   },
   "Ok, so listen. Your help is needed. That is if you're the hero type. Our ... {partners} need some help in urgent matters.": {
-   "pt": "",
+   "pt": "Ok, escute. Sua ajuda é necessária. Isto é, se você for do tipo herói. Nossos... {parceiros} precisam de ajuda em assuntos urgentes.",
    "n": 1,
    "npc": [
     "xelvar"
    ]
   },
   "I guess the time of secrecy is over now. Well, we have an old alliance with another underground dwelling race, the {gnomes}.": {
-   "pt": "",
+   "pt": "Acho que a época do segredo já passou. Bem, temos uma velha aliança com outra raça que vive no subterrâneo, os {gnomos}.",
    "n": 1,
    "npc": [
     "xelvar"
    ]
   },
   "Greetings. Are you interested in adventures?": {
-   "pt": "",
+   "pt": "Saudações. Você está interessado em aventuras?",
    "n": 1,
    "npc": [
     "xelvar"
@@ -56760,7 +56760,7 @@
    "n": 9
   },
   "wands": {
-   "pt": "",
+   "pt": "wands",
    "n": 9
   },
   "reward": {
@@ -57516,7 +57516,7 @@
    "n": 4
   },
   "gnomes": {
-   "pt": "",
+   "pt": "gnomos",
    "n": 4
   },
   "dwarves": {
@@ -57876,7 +57876,7 @@
    "n": 3
   },
   "looking": {
-   "pt": "",
+   "pt": "procurando",
    "n": 3
   },
   "rumors": {
@@ -59140,7 +59140,7 @@
    "n": 2
   },
   "evil isle": {
-   "pt": "",
+   "pt": "evil isle",
    "n": 2
   },
   "'scarab cheese'": {
@@ -60364,7 +60364,7 @@
    "n": 1
   },
   "shooting": {
-   "pt": "",
+   "pt": "tiro",
    "n": 1
   },
   "fertilise": {
@@ -60376,7 +60376,7 @@
    "n": 1
   },
   "musical": {
-   "pt": "",
+   "pt": "musical",
    "n": 1
   },
   "recruit": {
@@ -60384,7 +60384,7 @@
    "n": 1
   },
   "endurance": {
-   "pt": "",
+   "pt": "resistência",
    "n": 1
   },
   "track": {
@@ -61828,11 +61828,11 @@
    "n": 1
   },
   "recruiting": {
-   "pt": "",
+   "pt": "recrutando",
    "n": 1
   },
   "partners": {
-   "pt": "",
+   "pt": "parceiros",
    "n": 1
   },
   "ariki": {
