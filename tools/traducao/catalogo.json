@@ -5284,7 +5284,7 @@
    ]
   },
   "Me sad. Me expected better from you!": {
-   "pt": "",
+   "pt": "Hairycles triste. Hairycles esperar melhor de você!",
    "n": 5,
    "npc": [
     "hairycles"
@@ -5472,7 +5472,7 @@
    ]
   },
   "A little bit battered but it will do. Thank you! If you think you are ready, ask for another butterfly hunt.": {
-   "pt": "",
+   "pt": "Um pouco amassada, mas vai servir. Obrigado! Se achar que está pronto, peça outra butterfly hunt.",
    "n": 4,
    "npc": [
     "angus",
@@ -5480,7 +5480,7 @@
    ]
   },
   "Come back when you find any information.": {
-   "pt": "",
+   "pt": "Volte quando achar alguma informação.",
    "n": 4,
    "npc": [
     "angus",
@@ -6837,7 +6837,7 @@
    ]
   },
   "Me sad. Please reconsider.": {
-   "pt": "",
+   "pt": "Hairycles triste. Por favor, reconsidere.",
    "n": 3,
    "npc": [
     "hairycles"
@@ -7713,7 +7713,7 @@
    ]
   },
   "Do you want to join the explorer society?": {
-   "pt": "",
+   "pt": "Quer se juntar à explorer society?",
    "n": 2,
    "npc": [
     "angus",
@@ -7721,7 +7721,7 @@
    ]
   },
   "Oh yes, an interesting topic. We had vivid discussions about this discovery. But what is it that you want?": {
-   "pt": "",
+   "pt": "Ah sim, um tópico interessante. Tivemos discussões acaloradas sobre essa descoberta. Mas o que é que você quer?",
    "n": 2,
    "npc": [
     "angus",
@@ -7729,7 +7729,7 @@
    ]
   },
   "The missions available for your rank are the {butterfly hunt}, {plant collection} and {ice delivery}.": {
-   "pt": "",
+   "pt": "As missões disponíveis para sua patente são {butterfly hunt}, {plant collection} e {ice delivery}.",
    "n": 2,
    "npc": [
     "angus",
@@ -7737,7 +7737,7 @@
    ]
   },
   "The missions available for your rank are {lizard urn}, {bonelord secrets} and {orc powder}.": {
-   "pt": "",
+   "pt": "As missões disponíveis para sua patente são {lizard urn}, {bonelord secrets} e {orc powder}.",
    "n": 2,
    "npc": [
     "angus",
@@ -7745,7 +7745,7 @@
    ]
   },
   "The missions available for your rank are {elven poetry}, {memory stone} and {rune writings}.": {
-   "pt": "",
+   "pt": "As missões disponíveis para sua patente são {elven poetry}, {memory stone} e {rune writings}.",
    "n": 2,
    "npc": [
     "angus",
@@ -7753,7 +7753,7 @@
    ]
   },
   "The explorer society needs a great deal of help in the research of astral travel. Are you willing to help?": {
-   "pt": "",
+   "pt": "A explorer society precisa de muita ajuda na pesquisa de viagem astral. Está disposto a ajudar?",
    "n": 2,
    "npc": [
     "angus",
@@ -7761,7 +7761,7 @@
    ]
   },
   "Do you have some collected ectoplasm with you?": {
-   "pt": "",
+   "pt": "Você tem um pouco de ectoplasm coletado?",
    "n": 2,
    "npc": [
     "angus",
@@ -7769,7 +7769,7 @@
    ]
   },
   "Oh, yes! Tell our fellow explorer that the papers are in the mail already.": {
-   "pt": "",
+   "pt": "Ah, sim! Diga ao nosso colega explorador que os documentos já estão a caminho pelo correio.",
    "n": 2,
    "npc": [
     "angus",
@@ -7777,7 +7777,7 @@
    ]
   },
   "Did you get the requested pickaxe from Uzgod in Kazordoon?": {
-   "pt": "",
+   "pt": "Você conseguiu o pickaxe pedido com Uzgod, em Kazordoon?",
    "n": 2,
    "npc": [
     "angus",
@@ -7785,7 +7785,7 @@
    ]
   },
   "Did you get the ice we are looking for?": {
-   "pt": "",
+   "pt": "Você conseguiu o gelo que estamos procurando?",
    "n": 2,
    "npc": [
     "angus",
@@ -7793,7 +7793,7 @@
    ]
   },
   "The mission asks you to collect some species of butterflies, are you interested?": {
-   "pt": "",
+   "pt": "A missão pede que você colete algumas espécies de borboletas, tem interesse?",
    "n": 2,
    "npc": [
     "angus",
@@ -7801,7 +7801,7 @@
    ]
   },
   "Did you acquire the purple butterfly we are looking for?": {
-   "pt": "",
+   "pt": "Você conseguiu a purple butterfly que estamos procurando?",
    "n": 2,
    "npc": [
     "angus",
@@ -7809,7 +7809,7 @@
    ]
   },
   "Did you acquire the blue butterfly we are looking for?": {
-   "pt": "",
+   "pt": "Você conseguiu a blue butterfly que estamos procurando?",
    "n": 2,
    "npc": [
     "angus",
@@ -7817,7 +7817,7 @@
    ]
   },
   "Did you acquire the red butterfly we are looking for?": {
-   "pt": "",
+   "pt": "Você conseguiu a red butterfly que estamos procurando?",
    "n": 2,
    "npc": [
     "angus",
@@ -7825,7 +7825,7 @@
    ]
   },
   "In this mission we require you to get us some plant samples from Tiquandan plants. Would you like to fulfil this mission?": {
-   "pt": "",
+   "pt": "Nesta missão precisamos que você nos consiga amostras de plantas de Tiquanda. Gostaria de cumprir esta missão?",
    "n": 2,
    "npc": [
     "angus",
@@ -7833,7 +7833,7 @@
    ]
   },
   "Did you acquire the sample of the jungle bells plant we are looking for?": {
-   "pt": "",
+   "pt": "Você conseguiu a amostra da planta jungle bells que estamos procurando?",
    "n": 2,
    "npc": [
     "angus",
@@ -7841,7 +7841,7 @@
    ]
   },
   "Use this botanist's container on a witches cauldron to collect a sample for us. Bring it here and report about your plant collection.": {
-   "pt": "",
+   "pt": "Use este botanist's container num witches cauldron para coletar uma amostra para nós. Traga aqui e relate sobre sua coleta de plantas.",
    "n": 2,
    "npc": [
     "angus",
@@ -7849,7 +7849,7 @@
    ]
   },
   "Did you acquire the sample of the witches cauldron we are looking for?": {
-   "pt": "",
+   "pt": "Você conseguiu a amostra do witches cauldron que estamos procurando?",
    "n": 2,
    "npc": [
     "angus",
@@ -7857,7 +7857,7 @@
    ]
   },
   "Use this botanist's container on a giant jungle rose to obtain a sample for us. Bring it here and report about your plant collection.": {
-   "pt": "",
+   "pt": "Use este botanist's container numa giant jungle rose para obter uma amostra para nós. Traga aqui e relate sobre sua coleta de plantas.",
    "n": 2,
    "npc": [
     "angus",
@@ -7865,7 +7865,7 @@
    ]
   },
   "Did you acquire the sample of the giant jungle rose we are looking for?": {
-   "pt": "",
+   "pt": "Você conseguiu a amostra da giant jungle rose que estamos procurando?",
    "n": 2,
    "npc": [
     "angus",
@@ -7873,7 +7873,7 @@
    ]
   },
   "The explorer society would like to acquire an ancient urn which is some sort of relic to the lizard people of Tiquanda. Would you like to accept this mission?": {
-   "pt": "",
+   "pt": "A explorer society gostaria de adquirir uma urna antiga, uma espécie de relíquia para o povo lagarto de Tiquanda. Gostaria de aceitar esta missão?",
    "n": 2,
    "npc": [
     "angus",
@@ -7881,7 +7881,7 @@
    ]
   },
   "Did you manage to get the ancient urn?": {
-   "pt": "",
+   "pt": "Você conseguiu pegar a urna antiga?",
    "n": 2,
    "npc": [
     "angus",
@@ -7889,7 +7889,7 @@
    ]
   },
   "Have you found any proof that the pyramid was built by bonelords?": {
-   "pt": "",
+   "pt": "Você achou alguma prova de que a pirâmide foi construída por bonelords?",
    "n": 2,
    "npc": [
     "angus",
@@ -7897,7 +7897,7 @@
    ]
   },
   "Did you acquire some of the orcish powder?": {
-   "pt": "",
+   "pt": "Você conseguiu um pouco do pó órquico?",
    "n": 2,
    "npc": [
     "angus",
@@ -7905,7 +7905,7 @@
    ]
   },
   "Did you acquire a copy of 'Songs of the Forest' for us?": {
-   "pt": "",
+   "pt": "Você conseguiu uma cópia de 'Songs of the Forest' para nós?",
    "n": 2,
    "npc": [
     "angus",
@@ -7913,7 +7913,7 @@
    ]
   },
   "Were you able to acquire a memory stone for our society?": {
-   "pt": "",
+   "pt": "Você conseguiu uma memory stone para a nossa sociedade?",
    "n": 2,
    "npc": [
     "angus",
@@ -7921,7 +7921,7 @@
    ]
   },
   "Did you create a copy of the ancient runes as requested?": {
-   "pt": "",
+   "pt": "Você fez uma cópia das runas antigas, como pedido?",
    "n": 2,
    "npc": [
     "angus",
@@ -7929,7 +7929,7 @@
    ]
   },
   "We will see if you can handle this simple task. Get the pickaxe from Uzgod in Kazordoon and bring it to one of our bases. Report there about the pickaxe.": {
-   "pt": "",
+   "pt": "Vamos ver se você dá conta desta tarefa simples. Pegue o pickaxe com Uzgod, em Kazordoon, e traga a uma das nossas bases. Relate lá sobre o pickaxe.",
    "n": 2,
    "npc": [
     "angus",
@@ -7937,7 +7937,7 @@
    ]
   },
   "Just in time. Sadly not much ice is left over but it will do. Thank you again.": {
-   "pt": "",
+   "pt": "Bem na hora. Infelizmente não sobra muito gelo, mas vai servir. Obrigado de novo.",
    "n": 2,
    "npc": [
     "angus",
@@ -7945,7 +7945,7 @@
    ]
   },
   "*Sigh* I think the time is right to grant you another chance to get that ice. Hurry up this time.": {
-   "pt": "",
+   "pt": "*Suspira* Acho que é hora de lhe dar outra chance de conseguir aquele gelo. Se apresse desta vez.",
    "n": 2,
    "npc": [
     "angus",
@@ -7953,7 +7953,7 @@
    ]
   },
   "That is an extraordinary species you have brought. Thank you! That was the last butterfly we needed.": {
-   "pt": "",
+   "pt": "Essa é uma espécie extraordinária que você trouxe. Obrigado! Essa era a última borboleta de que precisávamos.",
    "n": 2,
    "npc": [
     "angus",
@@ -7961,7 +7961,7 @@
    ]
   },
   "Fine! Here take this botanist's container. Use it on a jungle bells plant to collect a sample for us. Report about your plant collection when you have been successful.": {
-   "pt": "",
+   "pt": "Certo! Tome, pegue este botanist's container. Use numa planta jungle bells para coletar uma amostra para nós. Relate sobre sua coleta de plantas quando tiver sucesso.",
    "n": 2,
    "npc": [
     "angus",
@@ -7969,7 +7969,7 @@
    ]
   },
   "I see. It seems you've got some quite useful sample by sheer luck. Thank you! Just tell me when you are ready to continue with the plant collection.": {
-   "pt": "",
+   "pt": "Entendo. Parece que você conseguiu uma amostra bem útil por pura sorte. Obrigado! É só me dizer quando estiver pronto para continuar a coleta de plantas.",
    "n": 2,
    "npc": [
     "angus",
@@ -7977,7 +7977,7 @@
    ]
   },
   "Ah, finally. I started to wonder what took you so long. But thank you! Another fine sample, indeed. Just tell me when you are ready to continue with the plant collection.": {
-   "pt": "",
+   "pt": "Ah, finalmente. Já estava começando a me perguntar o que estava demorando tanto. Mas obrigado! Outra bela amostra, de fato. É só me dizer quando estiver pronto para continuar a coleta de plantas.",
    "n": 2,
    "npc": [
     "angus",
@@ -7985,7 +7985,7 @@
    ]
   },
   "What a lovely sample! With that you have finished your plant collection missions.": {
-   "pt": "",
+   "pt": "Que amostra encantadora! Com isso você concluiu suas missões de coleta de plantas.",
    "n": 2,
    "npc": [
     "angus",
@@ -7993,7 +7993,7 @@
    ]
   },
   "Yes, that is the prized relic we have been looking for so long. You did a great job, thank you.": {
-   "pt": "",
+   "pt": "Sim, essa é a preciosa relíquia que buscamos por tanto tempo. Você fez um ótimo trabalho, obrigado.",
    "n": 2,
    "npc": [
     "angus",
@@ -8001,7 +8001,7 @@
    ]
   },
   "You did it! Excellent! The scientific world will be shaken by this discovery!": {
-   "pt": "",
+   "pt": "Você conseguiu! Excelente! O mundo científico vai ser abalado por essa descoberta!",
    "n": 2,
    "npc": [
     "angus",
@@ -8009,7 +8009,7 @@
    ]
   },
   "You really got it? Amazing! Thank you for your efforts.": {
-   "pt": "",
+   "pt": "Você conseguiu mesmo? Incrível! Obrigado pelo esforço.",
    "n": 2,
    "npc": [
     "angus",
@@ -8017,7 +8017,7 @@
    ]
   },
   "Excellent. This mission is easy but nonetheless vital. Travel to Ab'Dendriel and get the book.": {
-   "pt": "",
+   "pt": "Excelente. Esta missão é fácil, mas ainda assim vital. Viaje até Ab'Dendriel e pegue o livro.",
    "n": 2,
    "npc": [
     "angus",
@@ -8025,7 +8025,7 @@
    ]
   },
   "Let me have a look! Yes, that's what we wanted. A copy of 'Songs of the Forest'. I won't ask any questions about those bloodstains.": {
-   "pt": "",
+   "pt": "Deixe-me dar uma olhada! Sim, é isso que queríamos. Uma cópia de 'Songs of the Forest'. Não vou fazer perguntas sobre essas manchas de sangue.",
    "n": 2,
    "npc": [
     "angus",
@@ -8033,7 +8033,7 @@
    ]
   },
   "In the ruins of north-western Edron you should be able to find a memory stone. Good luck.": {
-   "pt": "",
+   "pt": "Nas ruínas a noroeste de Edron você deve conseguir achar uma memory stone. Boa sorte.",
    "n": 2,
    "npc": [
     "angus",
@@ -8041,7 +8041,7 @@
    ]
   },
   "A flawless memory stone! Incredible! It will take years even to figure out how it works but what an opportunity for science, thank you!": {
-   "pt": "",
+   "pt": "Uma memory stone perfeita! Incrível! Vai levar anos só para descobrir como funciona, mas que oportunidade para a ciência, obrigado!",
    "n": 2,
    "npc": [
     "angus",
@@ -8049,7 +8049,7 @@
    ]
   },
   "Excellent! Here, take this tracing paper and use it on the object you will find there to create a copy of the ancient runes.": {
-   "pt": "",
+   "pt": "Excelente! Tome, pegue este tracing paper e use no objeto que você vai achar lá para criar uma cópia das runas antigas.",
    "n": 2,
    "npc": [
     "angus",
@@ -8057,7 +8057,7 @@
    ]
   },
   "It's a bit wrinkled but it will do. Thanks again.": {
-   "pt": "",
+   "pt": "Está um pouco amassado, mas vai servir. Obrigado de novo.",
    "n": 2,
    "npc": [
     "angus",
@@ -8065,7 +8065,7 @@
    ]
   },
   "Good! Take this container and use it on a ghost that was recently slain. Return with the collected ectoplasm and hand me that container ...": {
-   "pt": "",
+   "pt": "Ótimo! Pegue este recipiente e use num fantasma recém-abatido. Volte com o ectoplasm coletado e me entregue o recipiente ...",
    "n": 2,
    "npc": [
     "angus",
@@ -8073,7 +8073,7 @@
    ]
   },
   "Don't lose the container. They are expensive!": {
-   "pt": "",
+   "pt": "Não perca o recipiente. Eles são caros!",
    "n": 2,
    "npc": [
     "angus",
@@ -8081,7 +8081,7 @@
    ]
   },
   "Phew, I had no idea that ectoplasm would smell that ... oh, it's you, well, sorry. Thank you for the ectoplasm.": {
-   "pt": "",
+   "pt": "Ufa, eu não fazia ideia de que ectoplasm cheiraria tanto assim ... ah, é você, bem, desculpe. Obrigado pelo ectoplasm.",
    "n": 2,
    "npc": [
     "angus",
@@ -8089,7 +8089,7 @@
    ]
   },
   "Poor Ratha. Thank you for returning this skull to the society. We will see to a honourable burial of Ratha.": {
-   "pt": "",
+   "pt": "Pobre Ratha. Obrigado por devolver este crânio à sociedade. Vamos cuidar de um enterro honroso para Ratha.",
    "n": 2,
    "npc": [
     "angus",
@@ -8097,7 +8097,7 @@
    ]
   },
   "Marvellous! You brought a giant smith hammer for the explorer society!": {
-   "pt": "",
+   "pt": "Maravilhoso! Você trouxe um giant smith hammer para a explorer society!",
    "n": 2,
    "npc": [
     "angus",
@@ -8105,7 +8105,7 @@
    ]
   },
   "No you don't.": {
-   "pt": "",
+   "pt": "Não, você não tem.",
    "n": 2,
    "npc": [
     "angus",
@@ -8113,7 +8113,7 @@
    ]
   },
   "It's always a sad day when we learn about the death of a member. But at least we learnt about his fate. Thank you, here is your reward.": {
-   "pt": "",
+   "pt": "É sempre um dia triste quando ficamos sabendo da morte de um membro. Mas pelo menos soubemos do destino dele. Obrigado, aqui está sua recompensa.",
    "n": 2,
    "npc": [
     "angus",
@@ -8121,7 +8121,7 @@
    ]
   },
   "Did it melt away?": {
-   "pt": "",
+   "pt": "Derreteu?",
    "n": 2,
    "npc": [
     "angus",
@@ -8129,7 +8129,7 @@
    ]
   },
   "Come back when you find one.": {
-   "pt": "",
+   "pt": "Volte quando achar um.",
    "n": 2,
    "npc": [
     "angus",
@@ -8137,7 +8137,7 @@
    ]
   },
   "The explorer society is looking for a genuine giant smith hammer for our collection. It is rumoured the cyclopses of the Plains of Havoc might be using one. Did you by chance obtain such a hammer?": {
-   "pt": "",
+   "pt": "A explorer society está procurando um giant smith hammer genuíno para nossa coleção. Dizem que os cyclopses das Plains of Havoc talvez usem um. Por acaso você conseguiu um martelo desses?",
    "n": 2,
    "npc": [
     "angus",
@@ -10150,28 +10150,28 @@
    ]
   },
   "We see many things and learning quick. Merlkin magic learn quick, quick. We just watch and learn. Sometimes we try and learn.": {
-   "pt": "",
+   "pt": "Nós ver muitas coisas e aprender rápido. Merlkin magia aprender rápido, rápido. Nós só observar e aprender. Às vezes nós tentar e aprender.",
    "n": 2,
    "npc": [
     "hairycles"
    ]
   },
   "You look for food and rest.": {
-   "pt": "",
+   "pt": "Você parece precisar de comida e descanso.",
    "n": 2,
    "npc": [
     "hairycles"
    ]
   },
   "That's bad news. If you lost it, only way to get other is to kill holy serpents. But you can't go there so you must ask adventurers who can.": {
-   "pt": "",
+   "pt": "Notícia ruim essa é. Se você perdeu, único jeito de conseguir outro é matar holy serpents. Mas você não pode ir lá, então você precisar pedir a aventureiros que podem.",
    "n": 2,
    "npc": [
     "hairycles"
    ]
   },
   "You no have hair. You lost it? Go and look again.": {
-   "pt": "",
+   "pt": "Você não ter o cabelo. Você perdeu? Vá e procure de novo.",
    "n": 2,
    "npc": [
     "hairycles"
@@ -15590,56 +15590,56 @@
    ]
   },
   "You bring up this topic again? I don't think our talks make any sense unless you prove that you are a supporter of science. Do you have some proof for your dedication to science?": {
-   "pt": "",
+   "pt": "Você traz esse assunto de novo? Acho que nossas conversas não fazem sentido a menos que você prove que apoia a ciência. Tem alguma prova da sua dedicação à ciência?",
    "n": 1,
    "npc": [
     "angus"
    ]
   },
   "A whole new land is indeed very tempting. I can hardly imagine all the wonders that await us there. I doubt I could stop our explorers from going there even if I tried to.": {
-   "pt": "",
+   "pt": "Uma terra inteiramente nova é bem tentadora, de fato. Mal consigo imaginar todas as maravilhas que nos esperam lá. Duvido que conseguisse impedir nossos exploradores de irem para lá mesmo que tentasse.",
    "n": 1,
    "npc": [
     "angus"
    ]
   },
   "Have you acquired the spectral dress we need?": {
-   "pt": "",
+   "pt": "Você conseguiu o spectral dress de que precisamos?",
    "n": 1,
    "npc": [
     "angus"
    ]
   },
   "The reports from Northport have already arrived here and our progress is astonishing. We think it is possible to create an astral bridge between our bases. Are you interested to assist us with this?": {
-   "pt": "",
+   "pt": "Os relatórios de Northport já chegaram aqui, e nosso progresso é espantoso. Achamos que é possível criar uma ponte astral entre nossas bases. Tem interesse em nos ajudar com isso?",
    "n": 1,
    "npc": [
     "angus"
    ]
   },
   "Just in time! With this spectral article we can start the final phase of our research.": {
-   "pt": "",
+   "pt": "Bem na hora! Com este spectral article podemos começar a fase final da nossa pesquisa.",
    "n": 1,
    "npc": [
     "angus"
    ]
   },
   "Good, just take this spectral essence and use it on the strange carving in this building as well as on the corresponding tile in our base at Northport ...": {
-   "pt": "",
+   "pt": "Ótimo, é só pegar esta spectral essence e usar na gravura estranha deste prédio, além do tile correspondente na nossa base em Northport ...",
    "n": 1,
    "npc": [
     "angus"
    ]
   },
   "What a strange map. I wonder if any of our explorers recognises this coastal lines. However, you earned yourself another chance to convince me. Why do you think that Farmine would be interesting for us?": {
-   "pt": "",
+   "pt": "Que mapa estranho. Fico pensando se algum dos nossos exploradores reconhece essas linhas costeiras. De todo modo, você ganhou outra chance de me convencer. Por que você acha que Farmine seria interessante para nós?",
    "n": 1,
    "npc": [
     "angus"
    ]
   },
   "Greetings, what can I do for you?": {
-   "pt": "",
+   "pt": "Saudações, o que posso fazer por você?",
    "n": 1,
    "npc": [
     "angus"
@@ -30633,413 +30633,413 @@
    ]
   },
   "Me great {wizard}. Me great doctor of {ape people}. Me know many plants. Me old and me have seen many things.": {
-   "pt": "",
+   "pt": "Hairycles grande {mago}. Hairycles grande médico do {povo macaco}. Hairycles conhecer muitas plantas. Hairycles velho e Hairycles ter visto muitas coisas.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Things not good now. Need helper to do {mission} for me people.": {
-   "pt": "",
+   "pt": "Coisas não boas agora. Precisar de ajudante para fazer {missão} para o povo de Hairycles.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "We be {kongra}, {sibang} and {merlkin}. Strange hairless ape people live in city called Port Hope.": {
-   "pt": "",
+   "pt": "Nós ser {kongra}, {sibang} e {merlkin}. Estranho povo macaco sem pelo viver em cidade chamada Port Hope.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Kongra verry strong. Kongra verry angry verry fast. Take care when kongra comes. Better climb on highest tree.": {
-   "pt": "",
+   "pt": "Kongra muito forte. Kongra ficar bravo muito rápido. Cuidado quando kongra vier. Melhor subir na árvore mais alta.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Sibang verry fast and funny. Sibang good gather food. Sibang know {jungle} well.": {
-   "pt": "",
+   "pt": "Sibang muito rápido e engraçado. Sibang bom em juntar comida. Sibang conhecer bem a {selva}.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Merlkin we are. Merlkin verry wise, merlkin learn many things quick. Teach other apes things a lot. Making {heal} and making {magic}.": {
-   "pt": "",
+   "pt": "Merlkin nós ser. Merlkin muito sábio, merlkin aprender muitas coisas rápido. Ensinar muito para outros macacos. Fazer {curar} e fazer {magia}.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Jungle is dangerous. Jungle also provides us food. Take care when in jungle and safe you be.": {
-   "pt": "",
+   "pt": "Selva perigosa é. Selva também dar comida para nós. Cuidado quando na selva estiver, e seguro você será.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "These are dire times for our people. Problems plenty are in this times. But me people not grant trust easy. Are you willing to prove you friend of ape people?": {
-   "pt": "",
+   "pt": "Tempos difíceis são estes para nosso povo. Muitos problemas nestes tempos há. Mas meu povo não confiar fácil. Você disposto a provar que amigo do povo macaco é?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Oh, you brought me whisper moss? Good hairless ape you are! Can me take it?": {
-   "pt": "",
+   "pt": "Oh, você trouxe whisper moss para Hairycles? Bom macaco sem pelo você é! Hairycles pode pegar?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Please hurry. Bring me whisper moss from dworc lair. Make sure it is from dworc lair! Take it yourself only! If you need to hear background of all again, ask Hairycles for {background}.": {
-   "pt": "",
+   "pt": "Por favor, corra. Traga whisper moss do covil dworc para Hairycles. Certifique que é do covil dworc! Só você mesmo pegar! Se precisar ouvir {histórico} de tudo de novo, pergunte a Hairycles.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You brought me that cough syrup from human healer me asked for?": {
-   "pt": "",
+   "pt": "Você trouxe aquele cough syrup do curandeiro humano que Hairycles pediu?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Little ape should be healthy soon. Me so happy is. Thank you again! But me suspect we in more trouble than we thought. Will you help us again?": {
-   "pt": "",
+   "pt": "Macaquinho logo saudável deve ficar. Hairycles tão feliz está. Obrigado de novo! Mas Hairycles suspeitar nós em mais problema do que pensamos estar. Você ajudar de novo?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You got scroll from lizard village in south east?": {
-   "pt": "",
+   "pt": "Você pegou scroll da vila lagarto no sudeste?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Ah yes, you read the signs in tomb? Good! May me look into your mind to see what you saw?": {
-   "pt": "",
+   "pt": "Ah sim, você leu os sinais no túmulo? Bom! Hairycles pode olhar sua mente para ver o que você viu?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You still don't know signs on stone, go and look for it in tomb east in desert.": {
-   "pt": "",
+   "pt": "Você ainda não conhecer sinais na pedra, vá procurar no túmulo a leste no deserto.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You bring Hairycles egg of hydra?": {
-   "pt": "",
+   "pt": "Você traz para Hairycles ovo de hydra?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You brought Hairycles witches' cap from Fibula?": {
-   "pt": "",
+   "pt": "Você trouxe para Hairycles witches' cap de Fibula?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You do please Hairycles again, friend. Me hope madness will not spread further now. Perhaps you are ready for other mission.": {
-   "pt": "",
+   "pt": "Você agradar Hairycles de novo, amigo. Hairycles esperar loucura não se espalhar mais agora. Talvez você pronto para outra missão está.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Please destroy three casks in the complex beneath Banuta, so my people will come to senses again.": {
-   "pt": "",
+   "pt": "Por favor, destrua três barris no complexo debaixo de Banuta, para meu povo recuperar o juízo de novo.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You brought hair of holy ape?": {
-   "pt": "",
+   "pt": "Você trouxe cabelo de macaco sagrado?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Get a hair of holy ape from forbidden land in east. Speak with blind prophet in cave.": {
-   "pt": "",
+   "pt": "Pegue cabelo de macaco sagrado da terra proibida no leste. Fale com profeta cego na caverna.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Me know its much me asked for but go into the deepest catacombs under Banuta and destroy the monument of the serpent god.": {
-   "pt": "",
+   "pt": "Hairycles saber que muito Hairycles pediu, mas vá nas catacumbas mais profundas debaixo de Banuta e destrua o monumento do deus serpente.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "No more missions await you right now, friend. Perhaps you want to check me offers for special friends... or shamanic powers.": {
-   "pt": "",
+   "pt": "Nenhuma missão espera você agora, amigo. Talvez você queira ver ofertas de Hairycles para amigos especiais... ou poderes xamânicos.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Oh you bring cookie for old Hairycles?": {
-   "pt": "",
+   "pt": "Oh, você traz biscoito para o velho Hairycles?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Me truly proud of you, friend. You learn many about plants, charms and ape people. Me want grant you shamanic power now. You ready?": {
-   "pt": "",
+   "pt": "Hairycles muito orgulhoso de você, amigo. Você aprender muito sobre plantas, encantos e povo macaco. Hairycles querer lhe dar poder xamânico agora. Você pronto?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You already are shaman and doctor. Me proud of you.": {
-   "pt": "",
+   "pt": "Você já ser xamã e médico. Hairycles orgulhoso de você.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You not have finished journey for wisdom yet, young human.": {
-   "pt": "",
+   "pt": "Você ainda não terminar jornada da sabedoria, jovem humano.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "To become friend of ape people a long and difficult way is. We do not trust easy but help is needed. Will you listen to story of Hairycles?": {
-   "pt": "",
+   "pt": "Virar amigo do povo macaco um caminho longo e difícil é. Nós não confiar fácil, mas ajuda ser necessária. Você vai ouvir a história de Hairycles?",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Hairycles sad is now. But perhaps you will change mind one day.": {
-   "pt": "",
+   "pt": "Hairycles triste agora está. Mas talvez você mude de ideia um dia.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Hairycles thought better of you.": {
-   "pt": "",
+   "pt": "Hairycles pensar melhor de você.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Stupid, you no have the moss me need. Go get it. It's somewhere in dworc lair. If you lost it, they might restocked it meanwhile. If you need to hear background of all again, ask Hairycles for {background}.": {
-   "pt": "",
+   "pt": "Bobo, você não ter o musgo que Hairycles precisar. Vá buscar. Está em algum lugar do covil dworc. Se você perdeu, talvez eles tenham reposto enquanto isso. Se precisar ouvir {histórico} de tudo de novo, pergunte a Hairycles.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Ah yes! That's it. Thank you for bringing mighty whisper moss to Hairycles. It will help but still much is to be done. Just ask for other mission if you ready.": {
-   "pt": "",
+   "pt": "Ah sim! É isso. Obrigado por trazer poderoso whisper moss para Hairycles. Vai ajudar, mas ainda muito há para fazer. É só pedir outra missão se você pronto estiver.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Strange being you are! Our people need help!": {
-   "pt": "",
+   "pt": "Ser estranho você é! Nosso povo precisar de ajuda!",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "No no, not right syrup you have. Go get other, get right health syrup.": {
-   "pt": "",
+   "pt": "Não, não, xarope errado você tem. Vá buscar outro, o xarope certo de saúde.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You so good! Brought syrup to me! Thank you, will prepare cure now. Just ask for {mission} if you want help again.": {
-   "pt": "",
+   "pt": "Você tão bom! Trouxe xarope para Hairycles! Obrigado, vou preparar cura agora. É só pedir {missão} se você quiser ajudar de novo.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Please hurry, urgent it is!": {
-   "pt": "",
+   "pt": "Por favor, corra, urgente isso é!",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Good thing that is! Report about your mission when have scroll.": {
-   "pt": "",
+   "pt": "Coisa boa isso é! Relate sobre sua missão quando tiver o scroll.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "No! That not scroll me looking for. Silly hairless ape you are. Go to village of lizards and get it there on your own!": {
-   "pt": "",
+   "pt": "Não! Esse não é o scroll que Hairycles procurar. Macaco sem pelo bobo você é. Vá à vila dos lagartos e pegue lá você mesmo!",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You brought scroll with lizard text? Good! I will see what text tells me! Come back when ready for other mission.": {
-   "pt": "",
+   "pt": "Você trouxe scroll com texto de lagarto? Bom! Hairycles vai ver o que o texto diz! Volte quando pronto para outra missão.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Good thing that is! Report about mission when you have read those signs.": {
-   "pt": "",
+   "pt": "Coisa boa isso é! Relate sobre a missão quando tiver lido aqueles sinais.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Oh, so clear is all now! Easy it will be to read the signs now! Soon we will know what to do! Thank you again! Ask for mission if you feel ready.": {
-   "pt": "",
+   "pt": "Oh, tão claro tudo agora está! Fácil será ler os sinais agora! Logo saberemos o que fazer! Obrigado de novo! Peça missão se você se sentir pronto.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Me need to see it in your mind, other there is no way to proceed.": {
-   "pt": "",
+   "pt": "Hairycles precisar ver isso na sua mente, outro jeito de prosseguir não há.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You brave hairless ape! Get me hydra egg. If you lose egg, you probably have to fight many, many hydras to get another.": {
-   "pt": "",
+   "pt": "Você macaco sem pelo corajoso! Pegue ovo de hydra para Hairycles. Se você perder o ovo, provavelmente terá que lutar contra muitas, muitas hydras para conseguir outro.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "You not have egg of hydra. Please get one!": {
-   "pt": "",
+   "pt": "Você não ter ovo de hydra. Por favor, consiga um!",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Ah, the egg! Mighty warrior you be! Thank you. Hairycles will put it at safe place immediately.": {
-   "pt": "",
+   "pt": "Ah, o ovo! Guerreiro poderoso você ser! Obrigado. Hairycles vai colocar em lugar seguro imediatamente.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Please hurry. Hairycles not knows when evil lizards strike again.": {
-   "pt": "",
+   "pt": "Por favor, corra. Hairycles não saber quando lagartos malignos atacar de novo.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Long journey it will take, good luck to you.": {
-   "pt": "",
+   "pt": "Longa jornada isso vai levar, boa sorte para você.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Not right mushroom you have. Find me a witches' cap on Fibula!": {
-   "pt": "",
+   "pt": "Cogumelo errado você tem. Encontre um witches' cap para Hairycles em Fibula!",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Incredible, you brought a witches' cap! Now me can prepare mighty charm of life. Yet still other {missions} will await you, friend.": {
-   "pt": "",
+   "pt": "Incrível, você trouxe um witches' cap! Agora Hairycles pode preparar poderoso encanto de vida. Ainda assim, outras {missões} vão esperar por você, amigo.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Please try to find me a witches' cap on Fibula.": {
-   "pt": "",
+   "pt": "Por favor, tente encontrar um witches' cap para Hairycles em Fibula.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Hairycles sure you will make it. Good luck, friend.": {
-   "pt": "",
+   "pt": "Hairycles ter certeza que você vai conseguir. Boa sorte, amigo.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Hairycles proud of you. Go and find holy hair. Good luck, friend.": {
-   "pt": "",
+   "pt": "Hairycles orgulhoso de você. Vá e encontre o cabelo sagrado. Boa sorte, amigo.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Incredible! You got a hair of holy Bong! This will raise the spirit of my people. You are truly a friend. But one last mission awaits you.": {
-   "pt": "",
+   "pt": "Incrível! Você conseguiu um cabelo do sagrado Bong! Isso vai erguer o espírito do meu povo. Você é um amigo de verdade. Mas uma última missão espera por você.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Hairycles sure you will make it. Just use hammer on all that looks like snake or lizard. Tell Hairycles if you succeed with mission.": {
-   "pt": "",
+   "pt": "Hairycles ter certeza que você vai conseguir. É só usar o martelo em tudo que parecer cobra ou lagarto. Diga a Hairycles se você tiver sucesso na missão.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Friend of the ape people! Take my gift and become me apprentice! Here is shaman clothing for you!": {
-   "pt": "",
+   "pt": "Amigo do povo macaco! Pegue o presente de Hairycles e vire aprendiz! Aqui está roupa de xamã para você!",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Come back if change mind.": {
-   "pt": "",
+   "pt": "Volte se mudar de ideia.",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Thank you, you are ... YOU SON OF LIZARD!": {
-   "pt": "",
+   "pt": "Obrigado, você é ... VOCÊ FILHO DE LAGARTO!",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Oh! Hello! Hello! Did not notice!": {
-   "pt": "",
+   "pt": "Oh! Olá! Olá! Hairycles não notar!",
    "n": 1,
    "npc": [
     "hairycles"
    ]
   },
   "Be greeted, friend of the ape people. If you want to {trade}, just ask for my offers. If you are injured, ask for healing.": {
-   "pt": "",
+   "pt": "Seja bem-vindo, amigo do {povo macaco}. Se quiser {negociar}, é só pedir minhas ofertas. Se estiver ferido, peça cura.",
    "n": 1,
    "npc": [
     "hairycles"
@@ -56948,7 +56948,7 @@
    "n": 7
   },
   "missions": {
-   "pt": "",
+   "pt": "missões",
    "n": 7
   },
   "a": {
@@ -57364,7 +57364,7 @@
    "n": 4
   },
   "background": {
-   "pt": "",
+   "pt": "histórico",
    "n": 4
   },
   "next": {
@@ -58776,11 +58776,11 @@
    "n": 2
   },
   "wizard": {
-   "pt": "",
+   "pt": "mago",
    "n": 2
   },
   "ape people": {
-   "pt": "",
+   "pt": "povo macaco",
    "n": 2
   },
   "kongra": {
@@ -58796,7 +58796,7 @@
    "n": 2
   },
   "jungle": {
-   "pt": "",
+   "pt": "selva",
    "n": 2
   },
   "difficulties": {
