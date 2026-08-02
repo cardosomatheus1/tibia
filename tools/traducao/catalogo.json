@@ -313,7 +313,7 @@
    ]
   },
   "I can teach you {attack} spells, {healing} spells, {support} spells and spells for {runes}. What kind of spell do you wish to learn? I can also tell you which spells are available at your {level}.": {
-   "pt": "Posso te ensinar magias de {ataque}, de {cura}, de {suporte} e magias para {runas}. Que tipo de magia você quer aprender? Também posso dizer quais estão disponíveis no seu {nível}.",
+   "pt": "Posso te ensinar magias de {ataque}, de {cura}, de {suporte} e magias para {runas}. Que tipo de magia você quer aprender? Também posso dizer quais estão disponíveis no seu {level}.",
    "n": 28,
    "npc": [
     "azalea",
@@ -2517,7 +2517,7 @@
    ]
   },
   "I can teach you {attack} spells, {healing} spells and {support} spells. What kind of spell do you wish to learn? I can also tell you which spells are available at your {level}.": {
-   "pt": "Posso te ensinar magias de {ataque}, de {cura} e de {suporte}. Que tipo de magia você quer aprender? Também posso dizer quais estão disponíveis no seu {nível}.",
+   "pt": "Posso te ensinar magias de {ataque}, de {cura} e de {suporte}. Que tipo de magia você quer aprender? Também posso dizer quais estão disponíveis no seu {level}.",
    "n": 9,
    "npc": [
     "enpa_rudra",
@@ -5275,7 +5275,7 @@
    ]
   },
   "Be careful on your journeys.": {
-   "pt": "",
+   "pt": "Tenha cuidado nas suas jornadas.",
    "n": 5,
    "npc": [
     "gregor",
@@ -5856,14 +5856,14 @@
    ]
   },
   "Lying is not exactly honourable, |PLAYERNAME|. Shame on you.": {
-   "pt": "",
+   "pt": "Mentir não é exatamente honroso, |PLAYERNAME|. Que vergonha.",
    "n": 4,
    "npc": [
     "gregor"
    ]
   },
   "There is no need to rush anyway.": {
-   "pt": "",
+   "pt": "De qualquer forma, não há por que ter pressa.",
    "n": 4,
    "npc": [
     "gregor"
@@ -8235,7 +8235,7 @@
    ]
   },
   "I would never have guessed that.": {
-   "pt": "",
+   "pt": "Eu jamais teria adivinhado isso.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8243,7 +8243,7 @@
    ]
   },
   "Oh, sorry, I was distracted, what did you say?": {
-   "pt": "",
+   "pt": "Ah, desculpe, eu estava distraída, o que você disse?",
    "n": 2,
    "npc": [
     "aruda",
@@ -8251,7 +8251,7 @@
    ]
   },
   "Oh, I just remember I have some work to do, sorry. Bye!": {
-   "pt": "",
+   "pt": "Ah, acabei de lembrar que tenho trabalho a fazer, desculpe. Tchau!",
    "n": 2,
    "npc": [
     "aruda",
@@ -8259,7 +8259,7 @@
    ]
   },
   "Take some time to talk to me!": {
-   "pt": "",
+   "pt": "Arranje um tempo para falar comigo!",
    "n": 2,
    "npc": [
     "aruda",
@@ -8267,7 +8267,7 @@
    ]
   },
   "Well ... I have met him for a little while .. but this was nothing serious.": {
-   "pt": "",
+   "pt": "Bem ... eu saí com ele por um tempinho .. mas não foi nada sério.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8275,7 +8275,7 @@
    ]
   },
   "I remember that grapes were his favourites. He was almost addicted to them.": {
-   "pt": "",
+   "pt": "Lembro que uvas eram as favoritas dele. Era quase um vício.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8283,7 +8283,7 @@
    ]
   },
   "Thank you very much. How kind of you to care about me. I am fine, thank you.": {
-   "pt": "",
+   "pt": "Muito obrigada. Que gentileza sua se preocupar comigo. Estou bem, obrigada.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8291,7 +8291,7 @@
    ]
   },
   "I am Aruda.": {
-   "pt": "",
+   "pt": "Sou Aruda.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8299,7 +8299,7 @@
    ]
   },
   "I am a little sad, that you seem to have forgotten me, handsome. I am Aruda.": {
-   "pt": "",
+   "pt": "Fico um pouco triste que você pareça ter me esquecido, bonitão. Sou Aruda.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8307,7 +8307,7 @@
    ]
   },
   "Yes, that's me!": {
-   "pt": "",
+   "pt": "Sim, sou eu!",
    "n": 2,
    "npc": [
     "aruda",
@@ -8315,7 +8315,7 @@
    ]
   },
   "Oh, I like it, how you say my name.": {
-   "pt": "",
+   "pt": "Ah, eu gosto do jeito como você diz meu nome.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8323,7 +8323,7 @@
    ]
   },
   "Please don't be so rude to look for the time if you are talking to me.": {
-   "pt": "",
+   "pt": "Por favor, não seja grosso de olhar as horas enquanto fala comigo.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8331,7 +8331,7 @@
    ]
   },
   "I am deeply sorry, I can't help you.": {
-   "pt": "",
+   "pt": "Sinto muitíssimo, não posso lhe ajudar.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8339,7 +8339,7 @@
    ]
   },
   "UH! What a terrifying topic. Please let us speak about something more pleasant, I am a weak and small woman after all.": {
-   "pt": "",
+   "pt": "UH! Que assunto aterrorizante. Por favor, vamos falar de algo mais agradável, afinal sou uma mulher pequena e frágil.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8347,7 +8347,7 @@
    ]
   },
   "What gives you the impression, I am the kind of women, you find in sewers?": {
-   "pt": "",
+   "pt": "O que lhe dá a impressão de que sou o tipo de mulher que se encontra em esgoto?",
    "n": 2,
    "npc": [
     "aruda",
@@ -8355,7 +8355,7 @@
    ]
   },
   "You should ask about that in one of the temples.": {
-   "pt": "",
+   "pt": "Você devia perguntar isso em um dos templos.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8363,7 +8363,7 @@
    ]
   },
   "The king, that lives in this fascinating castle? I think he does look kind of cute in his luxurious robes, doesn't he?": {
-   "pt": "",
+   "pt": "O rei, que mora neste castelo fascinante? Acho que ele fica até bonitinho naquelas vestes luxuosas, não fica?",
    "n": 2,
    "npc": [
     "aruda",
@@ -8371,7 +8371,7 @@
    ]
   },
   "He is soooo strong! What muscles! What a body! Did you ask him for a date?": {
-   "pt": "",
+   "pt": "Ele é tãããão forte! Que músculos! Que corpo! Você já o chamou para sair?",
    "n": 2,
    "npc": [
     "aruda",
@@ -8379,7 +8379,7 @@
    ]
   },
   "He is soooo strong! What muscles! What a body! On the other hand, compared to you he looks quite puny.": {
-   "pt": "",
+   "pt": "Ele é tãããão forte! Que músculos! Que corpo! Por outro lado, comparado a você ele parece bem franzino.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8387,7 +8387,7 @@
    ]
   },
   "He is a little simple minded but always nice and well dressed.": {
-   "pt": "",
+   "pt": "Ele é um pouco simplório, mas sempre simpático e bem-vestido.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8395,7 +8395,7 @@
    ]
   },
   "He should really sell some stylish gowns or something like that. We Tibians never get some clothing of the latest fashion. It's a shame.": {
-   "pt": "",
+   "pt": "Ele bem que devia vender uns vestidos elegantes ou coisa parecida. Nós, de Tibia, nunca temos roupa da última moda. É uma pena.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8403,7 +8403,7 @@
    ]
   },
   "I don't understand this lonely monks. I love company too much to become one. Hehehe!": {
-   "pt": "",
+   "pt": "Não entendo esses monges solitários. Gosto demais de companhia para virar um. Hehehe!",
    "n": 2,
    "npc": [
     "aruda",
@@ -8411,7 +8411,7 @@
    ]
   },
   "Oh, isn't he funny? I could listen to him the whole day.": {
-   "pt": "",
+   "pt": "Ah, ele não é engraçado? Eu ficaria o dia todo ouvindo ele.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8419,7 +8419,7 @@
    ]
   },
   "As far as I know, he is working in the castle.": {
-   "pt": "",
+   "pt": "Até onde sei, ele trabalha no castelo.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8427,7 +8427,7 @@
    ]
   },
   "I am a little shy and so don't hear many rumors.": {
-   "pt": "",
+   "pt": "Sou um pouco tímida, então não fico sabendo de muito boato.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8435,7 +8435,7 @@
    ]
   },
   "Oh, you little devil, stop talking like that! <blush>": {
-   "pt": "",
+   "pt": "Ah, seu diabinho, pare de falar assim! <cora>",
    "n": 2,
    "npc": [
     "aruda",
@@ -8443,7 +8443,7 @@
    ]
   },
   "I know only little about weapons. Can you tell me something about them, please?": {
-   "pt": "",
+   "pt": "Sei muito pouco sobre armas. Você pode me contar alguma coisa sobre elas, por favor?",
    "n": 2,
    "npc": [
     "aruda",
@@ -8451,7 +8451,7 @@
    ]
   },
   "I believe that love is stronger than magic, don't you agree?": {
-   "pt": "",
+   "pt": "Acredito que o amor é mais forte que a magia, não concorda?",
    "n": 2,
    "npc": [
     "aruda",
@@ -8459,7 +8459,7 @@
    ]
   },
   "Oh, sorry, I have to hurry, bye!": {
-   "pt": "",
+   "pt": "Ah, desculpe, tenho que correr, tchau!",
    "n": 2,
    "npc": [
     "aruda",
@@ -8467,7 +8467,7 @@
    ]
   },
   "I would like to visit the beach more often, but I guess it's too dangerous.": {
-   "pt": "",
+   "pt": "Eu gostaria de ir à praia com mais frequência, mas acho que é perigoso demais.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8475,7 +8475,7 @@
    ]
   },
   "I love this castle! It's so beautiful.": {
-   "pt": "",
+   "pt": "Adoro este castelo! É lindo demais.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8483,7 +8483,7 @@
    ]
   },
   "Powerful sorcerers frighten me a little.": {
-   "pt": "",
+   "pt": "Sorcerers poderosos me assustam um pouco.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8491,7 +8491,7 @@
    ]
   },
   "I personally think it's inappropriate for a woman to become a warrior, what do you think about that?": {
-   "pt": "",
+   "pt": "Pessoalmente acho impróprio uma mulher virar guerreira, o que você acha disso?",
    "n": 2,
    "npc": [
     "aruda",
@@ -8499,7 +8499,7 @@
    ]
   },
   "Druids seldom visit a town, what do you know about druids?": {
-   "pt": "",
+   "pt": "Druids raramente visitam uma cidade, o que você sabe sobre druids?",
    "n": 2,
    "npc": [
     "aruda",
@@ -8507,7 +8507,7 @@
    ]
   },
   "I like brave fighters like him.": {
-   "pt": "",
+   "pt": "Gosto de lutadores corajosos como ele.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8515,7 +8515,7 @@
    ]
   },
   "Oh, he is sooooo cute!": {
-   "pt": "",
+   "pt": "Ah, ele é taaaão fofo!",
    "n": 2,
    "npc": [
     "aruda",
@@ -8523,7 +8523,7 @@
    ]
   },
   "I like dogs, the little ones at least. Do you like dogs, too?": {
-   "pt": "",
+   "pt": "Gosto de cachorro, pelo menos dos pequenos. Você também gosta de cachorro?",
    "n": 2,
    "npc": [
     "aruda",
@@ -8531,7 +8531,7 @@
    ]
   },
   "Oh, I am just a girl and know nothing about magic swords and such things.": {
-   "pt": "",
+   "pt": "Ah, sou só uma garota e não sei nada de espadas mágicas e coisas assim.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8539,7 +8539,7 @@
    ]
   },
   "I ... don't know someone named like that.": {
-   "pt": "",
+   "pt": "Eu ... não conheço ninguém com esse nome.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8547,7 +8547,7 @@
    ]
   },
   "Yenny? I know no Yenny, nor have I ever used that name! You have mistook me with someone else.": {
-   "pt": "",
+   "pt": "Yenny? Não conheço Yenny nenhuma, nem nunca usei esse nome! Você me confundiu com outra pessoa.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8555,7 +8555,7 @@
    ]
   },
   "I hope to see you soon.": {
-   "pt": "",
+   "pt": "Espero lhe ver em breve.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8563,7 +8563,7 @@
    ]
   },
   "Good bye, |PLAYERNAME|. I really hope we'll talk again soon.": {
-   "pt": "",
+   "pt": "Até logo, |PLAYERNAME|. Espero de verdade que a gente converse de novo em breve.",
    "n": 2,
    "npc": [
     "aruda",
@@ -8762,7 +8762,7 @@
    ]
   },
   "Were you able to get hold of a flask with pure warrior's sweat?": {
-   "pt": "",
+   "pt": "Conseguiu pôr as mãos num frasco de warrior's sweat puro?",
    "n": 2,
    "npc": [
     "bron",
@@ -9998,7 +9998,7 @@
    ]
   },
   "I can teach you {healing} spells and {support} spells. What kind of spell do you wish to learn? I can also tell you which spells are available at your {level}.": {
-   "pt": "",
+   "pt": "Posso lhe ensinar magias de {cura} e magias de {suporte}. Que tipo de magia deseja aprender? Também posso lhe dizer quais magias estão disponíveis no seu {level}.",
    "n": 2,
    "npc": [
     "gregor",
@@ -10006,7 +10006,7 @@
    ]
   },
   "My healing spells are: {Bruise Bane}, {Cure Poison} and {Wound Cleansing}.": {
-   "pt": "",
+   "pt": "Minhas magias de cura são: {Bruise Bane}, {Cure Poison} e {Wound Cleansing}.",
    "n": 2,
    "npc": [
     "gregor",
@@ -10014,7 +10014,7 @@
    ]
   },
   "My support spells are: {Find Fiend}, {Find Person}, {Great Light}, {Lesser Front Sweep} and {Light}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Find Fiend}, {Find Person}, {Great Light}, {Lesser Front Sweep} e {Light}.",
    "n": 2,
    "npc": [
     "gregor",
@@ -10022,7 +10022,7 @@
    ]
   },
   "I have spells for level {1}, {8}, {10}, {13} and {25}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {10}, {13} e {25}.",
    "n": 2,
    "npc": [
     "gregor",
@@ -10030,7 +10030,7 @@
    ]
   },
   "Hail to our King!": {
-   "pt": "",
+   "pt": "Salve o nosso Rei!",
    "n": 2,
    "npc": [
     "gregor"
@@ -10370,35 +10370,35 @@
    ]
   },
   "The dwarfs are allied with Thais but follow their own obscure religion. Although dwarfs keep mostly to themselves, we have to observe this alliance closely.": {
-   "pt": "",
+   "pt": "Os anões são aliados de Thais, mas seguem a própria religião obscura. Embora os anões vivam quase sempre isolados, temos que observar essa aliança de perto.",
    "n": 2,
    "npc": [
     "henricus"
    ]
   },
   "Those elves are hardly any more civilised than orcs. They can become a threat to mankind at any time.": {
-   "pt": "",
+   "pt": "Aqueles elfos mal são mais civilizados que os orcs. Podem se tornar uma ameaça à humanidade a qualquer momento.",
    "n": 2,
    "npc": [
     "henricus"
    ]
   },
   "The churches of the gods entrusted me with the enormous and responsible task to lead the inquisition. I leave the field work to inquisitors who I recruit from fitting people that cross my way.": {
-   "pt": "",
+   "pt": "As igrejas dos deuses me confiaram a enorme e responsável tarefa de liderar a inquisição. Deixo o trabalho de campo aos inquisidores, que recruto entre as pessoas adequadas que cruzam meu caminho.",
    "n": 2,
    "npc": [
     "henricus"
    ]
   },
   "Do you want to join the inquisition?": {
-   "pt": "",
+   "pt": "Deseja se juntar à inquisição?",
    "n": 2,
    "npc": [
     "henricus"
    ]
   },
   "You haven't done your mission with {Storkus} yet.": {
-   "pt": "",
+   "pt": "Você ainda não cumpriu sua missão com {Storkus}.",
    "n": 2,
    "npc": [
     "henricus"
@@ -15979,35 +15979,35 @@
    ]
   },
   "Hey there, up for a chat?": {
-   "pt": "",
+   "pt": "E aí, topa um bate-papo?",
    "n": 1,
    "npc": [
     "aruda"
    ]
   },
   "Sorry, I have nothing to sell.": {
-   "pt": "",
+   "pt": "Desculpe, não tenho nada para vender.",
    "n": 1,
    "npc": [
     "aruda"
    ]
   },
   "I do some work now and then. Nothing unusual, though. So I have plenty time to chat. If you are interested in any topic just ask me.": {
-   "pt": "",
+   "pt": "Faço um trabalhinho ou outro de vez em quando. Nada fora do comum. Então tenho tempo de sobra para conversar. Se tiver interesse em qualquer assunto, é só perguntar.",
    "n": 1,
    "npc": [
     "aruda"
    ]
   },
   "Oh, hello |PLAYERNAME|, your hair looks great! Who did it for you?": {
-   "pt": "",
+   "pt": "Ah, olá |PLAYERNAME|, seu cabelo está ótimo! Quem fez para você?",
    "n": 1,
    "npc": [
     "aruda"
    ]
   },
   "Oh, hello, handsome! It's a pleasure to meet you, |PLAYERNAME|. Gladly I have the time to {chat} a bit.": {
-   "pt": "",
+   "pt": "Ah, olá, bonitão! É um prazer conhecê-lo, |PLAYERNAME|. Por sorte tenho tempo de {conversar} um pouco.",
    "n": 1,
    "npc": [
     "aruda"
@@ -29132,308 +29132,308 @@
    ]
   },
   "Gather around me, young knights! I'm going to teach you some spells!": {
-   "pt": "",
+   "pt": "Reúnam-se ao meu redor, jovens knights! Vou lhes ensinar algumas magias!",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "I am the first knight. I trained some of the greatest heroes of Tibia.": {
-   "pt": "",
+   "pt": "Sou o primeiro knight. Treinei alguns dos maiores heróis de Tibia.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Of course, you heard of them. Knights are the best fighters in Tibia.": {
-   "pt": "",
+   "pt": "Claro que você já ouviu falar deles. Knights são os melhores lutadores de Tibia.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "You are joking, eh? Of course, you know me. I am Gregor, the first knight.": {
-   "pt": "",
+   "pt": "Está brincando, é? Claro que você me conhece. Sou Gregor, o primeiro knight.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "A great name, isn't it?": {
-   "pt": "",
+   "pt": "Um belo nome, não é?",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Beautiful Tibia. And with our help everyone is save.": {
-   "pt": "",
+   "pt": "A bela Tibia. E com a nossa ajuda todos estão seguros.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "It is time to join the Knights!": {
-   "pt": "",
+   "pt": "É hora de entrar para os Knights!",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Knights are the warriors of Tibia. Without us, no one would be safe. Every brave and strong man or woman can join us.": {
-   "pt": "",
+   "pt": "Knights são os guerreiros de Tibia. Sem nós, ninguém estaria seguro. Todo homem ou mulher corajoso e forte pode se juntar a nós.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Some day someone will make something happen to him...": {
-   "pt": "",
+   "pt": "Um dia alguém vai fazer alguma coisa acontecer com ele...",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "A bow might be a fine weapon for someone not strong enough to wield a REAL weapon.": {
-   "pt": "",
+   "pt": "Um arco pode ser uma bela arma para quem não tem força para empunhar uma arma DE VERDADE.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "I and my students often share a cask of beer or wine at Frodo's hut.": {
-   "pt": "",
+   "pt": "Eu e meus alunos costumamos dividir um barril de cerveja ou vinho no Frodo's hut.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Always concerned with his profit. What a loss! He was adventuring with baxter in the old days.": {
-   "pt": "",
+   "pt": "Sempre preocupado com o próprio lucro. Que desperdício! Antigamente ele saía em aventuras com o baxter.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "He was an adventurer once.": {
-   "pt": "",
+   "pt": "Ele já foi aventureiro um dia.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Before she became a priest she won the Miss Tibia contest three times in a row.": {
-   "pt": "",
+   "pt": "Antes de virar sacerdotisa, ela ganhou o concurso de Miss Tibia três vezes seguidas.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Peaceful farmers.": {
-   "pt": "",
+   "pt": "Fazendeiros pacíficos.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "A fine game to hunt. But be careful, he cheats!": {
-   "pt": "",
+   "pt": "Uma bela caça. Mas cuidado, ele trapaceia!",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Bah, go away with these sorcerer tricks. Only cowards use tricks.": {
-   "pt": "",
+   "pt": "Bah, saia daqui com esses truques de sorcerer. Só covardes usam truque.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "What an idiot.": {
-   "pt": "",
+   "pt": "Que idiota.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "I will never understand this peaceful monks and priests.": {
-   "pt": "",
+   "pt": "Nunca vou entender esses monges e sacerdotes pacíficos.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "He has the muscles, but lacks the guts.": {
-   "pt": "",
+   "pt": "Ele tem os músculos, mas falta coragem.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Only the bravest warriors may wear adorned helmets. They are traditionally awarded after having completed a difficult task for our guild.": {
-   "pt": "",
+   "pt": "Só os guerreiros mais bravos podem usar adorned helmets. Tradicionalmente eles são concedidos após a conclusão de uma tarefa difícil para a nossa guilda.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Sorry but I don't have anything for you at the moment.": {
-   "pt": "",
+   "pt": "Desculpe, mas não tenho nada para você no momento.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Sorry, but our tasks are only for premium warriors.": {
-   "pt": "",
+   "pt": "Desculpe, mas nossas tarefas são só para guerreiros premium.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "You mean you would like to prove that you deserve to wear such a helmet?": {
-   "pt": "",
+   "pt": "Quer dizer que gostaria de provar que merece usar um elmo desses?",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Your current task is to bring me 100 perfect behemoth fangs, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Sua tarefa atual é me trazer 100 perfect behemoth fangs, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Your current task is to retrieve the helmet of Ramsay the Reckless from Banuta, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Sua tarefa atual é recuperar o elmo de Ramsay the Reckless em Banuta, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Your current task is to obtain a flask of warrior's sweat, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Sua tarefa atual é obter um frasco de warrior's sweat, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Your current task is to bring me royal steel, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Sua tarefa atual é me trazer royal steel, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Please talk to Sam and tell him I sent you. I'm sure he will be glad to refine your helmet, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Fale com Sam e diga que fui eu que lhe mandei. Tenho certeza de que ele vai ter prazer em refinar seu elmo, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "You've already completed the task and can consider yourself a mighty warrior, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Você já concluiu a tarefa e pode se considerar um guerreiro poderoso, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Have you really managed to fulfil the task and brought me 100 perfect behemoth fangs?": {
-   "pt": "",
+   "pt": "Você realmente conseguiu cumprir a tarefa e me trouxe 100 perfect behemoth fangs?",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "You're not serious asking that, are you? They come from behemoths, of course. Unless there are behemoth rabbits. Duh.": {
-   "pt": "",
+   "pt": "Não está perguntando isso a sério, está? Vêm de behemoths, claro. A não ser que existam coelhos behemoth. Ora.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Did you recover the helmet of Ramsay the Reckless?": {
-   "pt": "",
+   "pt": "Você recuperou o elmo de Ramsay the Reckless?",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "These pesky apes steal everything they can get their dirty hands on.": {
-   "pt": "",
+   "pt": "Esses macacos irritantes roubam tudo em que conseguem pôr as mãos sujas.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Warrior's sweat can be magically extracted from headgear worn by a true warrior, but only in small amounts. Djinns are said to be good at magical extractions.": {
-   "pt": "",
+   "pt": "O warrior's sweat pode ser extraído magicamente do capacete usado por um verdadeiro guerreiro, mas só em pequenas quantidades. Dizem que os djinns são bons em extrações mágicas.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Ah, have you brought the royal steel?": {
-   "pt": "",
+   "pt": "Ah, você trouxe o royal steel?",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Royal steel can only be refined by very skilled smiths.": {
-   "pt": "",
+   "pt": "O royal steel só pode ser refinado por ferreiros muito habilidosos.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Bah. Then you will have to wait for the day these helmets are sold in shops, but that will not happen before hell freezes over.": {
-   "pt": "",
+   "pt": "Bah. Então você vai ter que esperar o dia em que esses elmos sejam vendidos em loja, mas isso não acontece nem que o inferno congele.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Alright then. Come back to me once you have collected 100 perfect behemoth fangs.": {
-   "pt": "",
+   "pt": "Muito bem, então. Volte quando tiver juntado 100 perfect behemoth fangs.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "I'm deeply impressed, brave Knight |PLAYERNAME|. I expected nothing less from you. Now, please retrieve Ramsay's helmet.": {
-   "pt": "",
+   "pt": "Estou profundamente impressionado, bravo Knight |PLAYERNAME|. Não esperava menos de você. Agora, por favor, recupere o elmo de Ramsay.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Good work, brave Knight |PLAYERNAME|! Even though it is damaged, it has a lot of sentimental value. Now, please bring me warrior's sweat.": {
-   "pt": "",
+   "pt": "Bom trabalho, bravo Knight |PLAYERNAME|! Mesmo danificado, tem muito valor sentimental. Agora, por favor, me traga warrior's sweat.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Now that is a pleasant surprise, brave Knight |PLAYERNAME|! There is only one task left now: Obtain royal steel to have your helmet refined.": {
-   "pt": "",
+   "pt": "Isso sim é uma surpresa agradável, bravo Knight |PLAYERNAME|! Resta apenas uma tarefa: obter royal steel para ter seu elmo refinado.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "You truly deserve to wear an adorned helmet, brave Knight |PLAYERNAME|. Please talk to Sam and tell him I sent you. I'm sure he will be glad to refine your helmet.": {
-   "pt": "",
+   "pt": "Você realmente merece usar um adorned helmet, bravo Knight |PLAYERNAME|. Fale com Sam e diga que fui eu que lhe mandei. Tenho certeza de que ele vai ter prazer em refinar seu elmo.",
    "n": 1,
    "npc": [
     "gregor"
    ]
   },
   "Greetings, |PLAYERNAME|. What do you want?": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. O que você quer?",
    "n": 1,
    "npc": [
     "gregor"
@@ -31575,308 +31575,308 @@
    ]
   },
   "It's a shame that only a few paladins still use their abilities to further the cause of the gods of good. Too many paladins have become selfish and greedy.": {
-   "pt": "",
+   "pt": "É uma pena que só uns poucos paladins ainda usem suas habilidades para servir à causa dos deuses do bem. Paladins demais se tornaram egoístas e gananciosos.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Nowadays, most knights seem to have forgotten the noble cause to which all knights were bound in the past. Only a few have remained pious, serve the gods and follow their teachings.": {
-   "pt": "",
+   "pt": "Hoje em dia, a maioria dos knights parece ter esquecido a nobre causa à qual todos os knights se ligavam no passado. Só uns poucos permaneceram piedosos, servem aos deuses e seguem seus ensinamentos.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Those who wield great power have to resist great temptations. We have the burden to eliminate all those who give in to the temptations.": {
-   "pt": "",
+   "pt": "Quem detém grande poder tem que resistir a grandes tentações. Cabe a nós o fardo de eliminar todos os que cedem a elas.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "The druids here still follow the old rules. Sadly, the druids of Carlin have left the right path in the last years.": {
-   "pt": "",
+   "pt": "Os druids daqui ainda seguem as regras antigas. Infelizmente, os druids de Carlin se desviaram do caminho certo nos últimos anos.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Venore is somewhat difficult to handle. The merchants have a close eye on our activities in their city and our authority is limited there. However, we will use all of our influence to prevent a second Carlin.": {
-   "pt": "",
+   "pt": "Venore é um tanto difícil de lidar. Os mercadores vigiam de perto nossas atividades na cidade deles e nossa autoridade lá é limitada. Ainda assim, usaremos toda a nossa influência para impedir uma segunda Carlin.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Drefia used to be a city of sin and heresy, just like Carlin nowadays. One day, the gods decided to destroy this town and to erase all evil there.": {
-   "pt": "",
+   "pt": "Drefia foi uma cidade de pecado e heresia, assim como Carlin hoje. Um dia, os deuses decidiram destruir aquela cidade e apagar todo o mal que havia ali.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Darashia is a godless town full of mislead fools. One day, it will surely share the fate of its sister town Drefia.": {
-   "pt": "",
+   "pt": "Darashia é uma cidade sem deus, cheia de tolos desencaminhados. Um dia certamente terá o mesmo destino da cidade irmã, Drefia.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Demons exist in many different shapes and levels of power. In general, they are servants of the dark gods and command great powers of destruction.": {
-   "pt": "",
+   "pt": "Demônios existem em muitas formas e níveis de poder diferentes. Em geral são servos dos deuses sombrios e comandam grandes poderes de destruição.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Carlin is a city of sin and heresy. After the reunion of Carlin with the kingdom, the inquisition will have much work to purify the city and its inhabitants.": {
-   "pt": "",
+   "pt": "Carlin é uma cidade de pecado e heresia. Após a reunificação de Carlin com o reino, a inquisição terá muito trabalho para purificar a cidade e seus habitantes.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "We can see his evil influence almost everywhere. Keep your eyes open or the dark one will lead you on the wrong way and destroy you.": {
-   "pt": "",
+   "pt": "Vemos a influência maligna dele em quase toda parte. Mantenha os olhos abertos ou o sombrio lhe levará pelo caminho errado e o destruirá.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "The church of Crunor works closely together with the druid guild. This makes a cooperation sometimes difficult.": {
-   "pt": "",
+   "pt": "A igreja de Crunor trabalha em estreita colaboração com a guilda dos druids. Isso às vezes dificulta a cooperação.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "We owe to the gods of good our creation and continuing existence. If it weren't for them, we would surely fall prey to the minions of the vile and dark gods.": {
-   "pt": "",
+   "pt": "Devemos aos deuses do bem nossa criação e nossa existência contínua. Se não fosse por eles, certamente cairíamos presa dos lacaios dos deuses vis e sombrios.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "The churches of the gods united to fight heresy and dark magic. They are the shield of the true believers, while the inquisition is the sword that fights all enemies of virtuousness.": {
-   "pt": "",
+   "pt": "As igrejas dos deuses se uniram para combater a heresia e a magia negra. Elas são o escudo dos verdadeiros crentes, enquanto a inquisição é a espada que enfrenta todos os inimigos da virtude.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Belive on the gods and they will show you the path.": {
-   "pt": "",
+   "pt": "Creia nos deuses e eles lhe mostrarão o caminho.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "By edict of the churches I'm the Lord Inquisitor.": {
-   "pt": "",
+   "pt": "Por édito das igrejas, sou o Lord Inquisitor.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "I'm Henricus, the Lord Inquisitor.": {
-   "pt": "",
+   "pt": "Sou Henricus, o Lord Inquisitor.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Do you want to receive the blessing of the inquisition - which means": {
-   "pt": "",
+   "pt": "Deseja receber a bênção da inquisição - o que significa",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "You cannot get this blessing unless you have completed The Inquisition Quest.": {
-   "pt": "",
+   "pt": "Você não pode receber esta bênção sem ter concluído The Inquisition Quest.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Do you want to buy the special flask of holy water for": {
-   "pt": "",
+   "pt": "Deseja comprar o frasco especial de holy water por",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "You do not need this flask right now.": {
-   "pt": "",
+   "pt": "Você não precisa deste frasco no momento.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Your current mission is to investigate the reliability of certain guards. Are you done with that mission?": {
-   "pt": "",
+   "pt": "Sua missão atual é investigar a confiabilidade de certos guardas. Já concluiu essa missão?",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Your current mission is to destroy this coven. Are you done with that mission?": {
-   "pt": "",
+   "pt": "Sua missão atual é destruir este coven. Já concluiu essa missão?",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Your current mission is to help the vampire hunter Storkus. Are you done with that mission?": {
-   "pt": "",
+   "pt": "Sua missão atual é ajudar o caçador de vampiros Storkus. Já concluiu essa missão?",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Your current mission is to exorcise an evil being from a house in Liberty Bay. Are you done with that mission?": {
-   "pt": "",
+   "pt": "Sua missão atual é exorcizar um ser maligno de uma casa em Liberty Bay. Já concluiu essa missão?",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "You need 20 of them.": {
-   "pt": "",
+   "pt": "Você precisa de 20 deles.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Destroy the shadow nexus using this vial of holy water and kill all demon lords.": {
-   "pt": "",
+   "pt": "Destrua o shadow nexus usando este vial de holy water e mate todos os demon lords.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Your current mission is to destroy the shadow nexus in the Demon Forge. Are you done with that mission?": {
-   "pt": "",
+   "pt": "Sua missão atual é destruir o shadow nexus na Demon Forge. Já concluiu essa missão?",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "So be it. Now you are a member of the inquisition. You might ask me for a {mission} to raise in my esteem.": {
-   "pt": "",
+   "pt": "Que assim seja. Agora você é membro da inquisição. Pode me pedir uma {missão} para subir no meu conceito.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "You haven't done your mission yet.": {
-   "pt": "",
+   "pt": "Você ainda não cumpriu sua missão.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Good, you've returned. Your skill in practical matters seems to be useful. If you're ready for a further mission, just ask.": {
-   "pt": "",
+   "pt": "Bom, você voltou. Sua habilidade em assuntos práticos parece ser útil. Se estiver pronto para mais uma missão, é só pedir.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Well, this was an easy task, but your next mission will be much more challenging.": {
-   "pt": "",
+   "pt": "Bem, esta foi uma tarefa fácil, mas sua próxima missão será bem mais desafiadora.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Come back when you have destroyed the shadow nexus.": {
-   "pt": "",
+   "pt": "Volte quando tiver destruído o shadow nexus.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "You already have been blessed!": {
-   "pt": "",
+   "pt": "Você já foi abençoado!",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "You have been blessed by all of five gods!, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Você foi abençoado por todos os cinco deuses!, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Here is your new flask!, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Aqui está seu novo frasco!, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Fine, fine. You have proven that you can work efficiently. Still, only further missions will show if you are truly capable. Ask me for another mission if you're ready.": {
-   "pt": "",
+   "pt": "Bem, bem. Você provou que sabe trabalhar com eficiência. Ainda assim, só as próximas missões vão mostrar se é de fato capaz. Me peça outra missão quando estiver pronto.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "You need bring me the witches' grimoire.": {
-   "pt": "",
+   "pt": "Você precisa me trazer o witches' grimoire.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Here is your demon hunter outfit. You deserve it. Unlock more addons by completing more missions.": {
-   "pt": "",
+   "pt": "Aqui está seu demon hunter outfit. Você merece. Desbloqueie mais addons cumprindo mais missões.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Here is your demon hunter outfit. You deserve it. Unlock more addons by completing more missions.!": {
-   "pt": "",
+   "pt": "Aqui está seu demon hunter outfit. Você merece. Desbloqueie mais addons cumprindo mais missões.!",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Here is the final addon for your demon hunter outfit. Congratulations!": {
-   "pt": "",
+   "pt": "Aqui está o addon final do seu demon hunter outfit. Parabéns!",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "The priests of Fardos are often mystics who have secluded themselves from worldly matters. Others provide guidance and healing to people in need in the temples.": {
-   "pt": "",
+   "pt": "Os sacerdotes de Fardos costumam ser místicos que se apartaram dos assuntos mundanos. Outros oferecem orientação e cura a quem precisa, nos templos.",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Greetings, fellow {believer} |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Saudações, {crente} irmão |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "Always be on guard, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Esteja sempre em guarda, |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "henricus"
    ]
   },
   "This ungraceful haste is most suspicious!": {
-   "pt": "",
+   "pt": "Essa pressa deselegante é muito suspeita!",
    "n": 1,
    "npc": [
     "henricus"
@@ -47661,7 +47661,7 @@
    ]
   },
   "You have to fight {monsters} to train your {skills} and {level}. If you lose {health}, eat {food} to regain it or use a {potion}.": {
-   "pt": "Você precisa combater {monstros} para treinar suas {skills} e seu {nível}. Se perder {vida}, coma {comida} para recuperar ou use uma {potion}.",
+   "pt": "Você precisa combater {monstros} para treinar suas {skills} e seu {level}. Se perder {vida}, coma {comida} para recuperar ou use uma {potion}.",
    "n": 1,
    "npc": [
     "seymour"
@@ -55606,7 +55606,7 @@
    "n": 100
   },
   "level": {
-   "pt": "nível",
+   "pt": "level",
    "n": 100
   },
   "support": {
@@ -58882,7 +58882,7 @@
    "n": 2
   },
   "believer": {
-   "pt": "",
+   "pt": "crente",
    "n": 2
   },
   "melee": {
@@ -59718,7 +59718,7 @@
    "n": 1
   },
   "chat": {
-   "pt": "",
+   "pt": "conversar",
    "n": 1
   },
   "gladiators": {
@@ -62305,6 +62305,10 @@
   },
   "healer": {
    "pt": "curandeira",
+   "n": 0
+  },
+  "level": {
+   "pt": "nível",
    "n": 0
   }
  }
