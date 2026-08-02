@@ -3832,7 +3832,7 @@
    ]
   },
   "Talk to me if you need directions.": {
-   "pt": "",
+   "pt": "Fale comigo se precisar de indicações.",
    "n": 8,
    "npc": [
     "guide_alexena",
@@ -10089,7 +10089,7 @@
    ]
   },
   "Hello, is this your first visit to Thais? I can show you around a little.": {
-   "pt": "",
+   "pt": "Olá, esta é sua primeira visita a Thais? Posso lhe mostrar um pouco os arredores.",
    "n": 2,
    "npc": [
     "guide_jonathan",
@@ -10097,7 +10097,7 @@
    ]
   },
   "Need some help finding your way through Thais? Let me assist you.": {
-   "pt": "",
+   "pt": "Precisa de ajuda para se localizar em Thais? Deixe-me ajudar.",
    "n": 2,
    "npc": [
     "guide_jonathan",
@@ -30203,70 +30203,70 @@
    ]
   },
   "I can tell you all about the {town}, its {temple}, the {bank}, {shops}, {spell trainers} and the {depot}, as well as about the {world status}.": {
-   "pt": "",
+   "pt": "Posso lhe contar tudo sobre a {cidade}, seu {templo}, o {banco}, as {lojas}, os {instrutores de magia} e o {depot}, além do {estado do mundo}.",
    "n": 1,
    "npc": [
     "guide_luke"
    ]
   },
   "The temple is in the centre of Thais. Walk east from the harbour and pass by the {depot} until you reach the infamous crossroads, then turn south.": {
-   "pt": "",
+   "pt": "O templo fica no centro de Thais. Ande para leste a partir do porto e passe pelo {depot} até chegar ao famigerado cruzamento, depois vire para o sul.",
    "n": 1,
    "npc": [
     "guide_luke"
    ]
   },
   "We have two bankers, Suzy and Naji. Naji is right in the depot. For Suzi, exit the {depot} to the west and walk south-west. Don't forget that I can {mark} important locations on your map.": {
-   "pt": "",
+   "pt": "Temos dois caixas de banco, Suzy e Naji. Naji fica bem no depot. Para achar Suzi, saia do {depot} para o oeste e siga a sudoeste. Não esqueça que eu posso {marcar} locais importantes no seu mapa.",
    "n": 1,
    "npc": [
     "guide_luke"
    ]
   },
   "You can buy {weapons}, {armor}, {tools}, {gems}, {magical} equipment, {furniture} and {food} here.": {
-   "pt": "",
+   "pt": "Você pode comprar {armas}, {armadura}, {ferramentas}, {gemas}, equipamento {mágico}, {móveis} e {comida} aqui.",
    "n": 1,
    "npc": [
     "guide_luke"
    ]
   },
   "The depot is a place where you can safely store your belongings. You are also protected against attacks there. I {escort} newcomers there.": {
-   "pt": "",
+   "pt": "O depot é um lugar onde você pode guardar seus pertences com segurança. Você também fica protegido contra ataques lá. Eu {escolto} recém-chegados até lá.",
    "n": 1,
    "npc": [
     "guide_luke"
    ]
   },
   "I'm a guide, overworked and underpaid. I can mark important locations on your map and give you some information about the town and the world status.": {
-   "pt": "",
+   "pt": "Sou um guia, sobrecarregado e mal pago. Posso marcar locais importantes no seu mapa e lhe dar informação sobre a cidade e o estado do mundo.",
    "n": 1,
    "npc": [
     "guide_luke"
    ]
   },
   "Thais is the oldest settlement in Tibia. You can hear its history whisper when walking through the streets. Beware of criminals, but else it's a fine city.": {
-   "pt": "",
+   "pt": "Thais é o assentamento mais antigo de Tibia. Dá para ouvir a história sussurrar enquanto se caminha pelas ruas. Cuidado com os criminosos, mas fora isso é uma bela cidade.",
    "n": 1,
    "npc": [
     "guide_luke"
    ]
   },
   "I'm Luke. No jokes, please, I heard them all!": {
-   "pt": "",
+   "pt": "Sou Luke. Sem piadinha, por favor, já ouvi todas!",
    "n": 1,
    "npc": [
     "guide_luke"
    ]
   },
   "Hello there, |PLAYERNAME| and welcome to Thais! Would you like some {information} and a {map} guide?": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|, e bem-vindo a Thais! Gostaria de {informação} e um guia de {mapa}?",
    "n": 1,
    "npc": [
     "guide_luke"
    ]
   },
   "Good bye and enjoy your stay in Thais, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Até logo, e aproveite sua estadia em Thais, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "guide_luke"
@@ -37987,224 +37987,224 @@
    ]
   },
   "Stop by and rest a while, tired adventurer! Have a look at my wares!": {
-   "pt": "",
+   "pt": "Pare um pouco e descanse, aventureiro cansado! Dê uma olhada nas minhas mercadorias!",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "I am selling equipment for adventurers. If you need anything, let me know.": {
-   "pt": "",
+   "pt": "Estou vendendo equipamento para aventureiros. Se precisar de algo, me avise.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "This is Ruffy my dog, please don't do him any harm.": {
-   "pt": "",
+   "pt": "Este é Ruffy, meu cachorro, por favor não faça mal a ele.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "I sell torches, fishing rods, worms, ropes, water hoses, backpacks, apples, and maps.": {
-   "pt": "",
+   "pt": "Vendo torches, fishing rods, worms, ropes, water hoses, backpacks, apples e maps.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "I am Lubo, the owner of this shop.": {
-   "pt": "",
+   "pt": "Sou Lubo, o dono desta loja.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "Oh! I'm sorry, I sold the last one just five minutes ago.": {
-   "pt": "",
+   "pt": "Ah! Sinto muito, vendi o último há cinco minutos.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "My hat? Hanna made this one for me.": {
-   "pt": "",
+   "pt": "Meu chapéu? A Hanna fez este para mim.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "Oh, you sure mean this old story about the mage Dago, who lost two fingers when he conjured a dragon.": {
-   "pt": "",
+   "pt": "Ah, você com certeza está falando dessa história antiga do mago Dago, que perdeu dois dedos quando conjurou um dragão.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "There are some strange stories about a magicians pet names. Ask Hoggle about it.": {
-   "pt": "",
+   "pt": "Há umas histórias estranhas sobre os nomes dos bichos de estimação dos magos. Pergunte ao Hoggle sobre isso.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "Sorry, the backpack I wear is not for sale. It's handmade from rare minotaur leather.": {
-   "pt": "",
+   "pt": "Desculpe, a backpack que eu uso não está à venda. É feita à mão com minotaur leather raro.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "Ah yes, I remember my grandfather talking about that name. This house used to be an inn a long time ago. My family bought it from some of these flower guys.": {
-   "pt": "",
+   "pt": "Ah sim, lembro do meu avô falando desse nome. Esta casa já foi uma estalagem, há muito tempo. Minha família comprou dos tais caras das flores.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "Oh, I mean druids of course. They sold the cottage to my family after some of them died in an accident or something like that.": {
-   "pt": "",
+   "pt": "Ah, quero dizer druids, claro. Eles venderam a cabana para minha família depois que alguns deles morreram num acidente ou coisa parecida.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "As far as I can remember the story, a pet escaped its stable behind the inn. It got somehow involved with powerful magic at a ritual and was transformed in some way.": {
-   "pt": "",
+   "pt": "Pelo que lembro da história, um bicho de estimação escapou do estábulo atrás da estalagem. De alguma forma se envolveu com magia poderosa num ritual e foi transformado de algum jeito.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "My grandpa told me, in the old days there were some behind this cottage. Nothing big though, just small ones, for chicken or rabbits.": {
-   "pt": "",
+   "pt": "Meu avô me contou que, antigamente, havia uns atrás desta cabana. Nada grande, só uns pequenos, para chicken ou rabbits.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "Welcome to my adventurer shop, |PLAYERNAME|! What do you need? Ask me for a {trade} to look at my wares.": {
-   "pt": "",
+   "pt": "Bem-vindo à minha loja de aventureiro, |PLAYERNAME|! Do que precisa? Me peça para {negociar} e veja minhas mercadorias.",
    "n": 1,
    "npc": [
     "lubo"
    ]
   },
   "This skull shows that you are a true follower of Zathroth and the glorious gods of darkness. Are you willing to prove your loyalty?": {
-   "pt": "",
+   "pt": "Este crânio mostra que você é um verdadeiro seguidor de Zathroth e dos gloriosos deuses das trevas. Está disposto a provar sua lealdade?",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Is it your true wish to sacrifice a medusa shield to Zathroth?": {
-   "pt": "",
+   "pt": "É seu verdadeiro desejo sacrificar um medusa shield a Zathroth?",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Is it your true wish to sacrifice a dragon scale mail to Zathroth?": {
-   "pt": "",
+   "pt": "É seu verdadeiro desejo sacrificar um dragon scale mail a Zathroth?",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Is it your true wish to sacrifice crown legs to Zathroth?": {
-   "pt": "",
+   "pt": "É seu verdadeiro desejo sacrificar um crown legs a Zathroth?",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Is it your true wish to sacrifice a ring of the sky to Zathroth?": {
-   "pt": "",
+   "pt": "É seu verdadeiro desejo sacrificar um ring of the sky a Zathroth?",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Come back when you have slain 4000 necromancers and priestesses!": {
-   "pt": "",
+   "pt": "Volte quando tiver abatido 4000 necromancers e priestesses!",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Good job!": {
-   "pt": "",
+   "pt": "Bom trabalho!",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Come back when you have slain 1000 necromancers and priestesses!": {
-   "pt": "",
+   "pt": "Volte quando tiver abatido 1000 necromancers e priestesses!",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "You can't live without serving, can you? Although you are quite annoying, you're still somewhat useful. Continue killing Necromancers and Priestesses for me. 1000 are enough this time. What do you say?": {
-   "pt": "",
+   "pt": "Você não vive sem servir, não é mesmo? Embora seja bem irritante, ainda é meio útil. Continue matando Necromancers e Priestesses para mim. 1000 bastam desta vez. O que me diz?",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "It will be a hard task which requires many sacrifices. Do you still want to proceed?": {
-   "pt": "",
+   "pt": "Será uma tarefa difícil, que exige muitos sacrifícios. Ainda quer prosseguir?",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Good decision, |PLAYERNAME|. Your first sacrifice will be a medusa shield. Bring it to me and do give it happily.": {
-   "pt": "",
+   "pt": "Boa decisão, |PLAYERNAME|. Seu primeiro sacrifício será um medusa shield. Traga-o a mim e o entregue com alegria.",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Good. I accept your sacrifice. The second sacrifice I require from you is a dragon scale mail. Bring it to me and do give it happily.": {
-   "pt": "",
+   "pt": "Bom. Aceito seu sacrifício. O segundo sacrifício que exijo de você é um dragon scale mail. Traga-o a mim e o entregue com alegria.",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Good. I accept your sacrifice. The third sacrifice I require from you are crown legs. Bring them to me and do give them happily.": {
-   "pt": "",
+   "pt": "Bom. Aceito seu sacrifício. O terceiro sacrifício que exijo de você é um crown legs. Traga-o a mim e o entregue com alegria.",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Good. I accept your sacrifice. The last sacrifice I require from you is a ring of the sky. Bring it to me and do give it happily.": {
-   "pt": "",
+   "pt": "Bom. Aceito seu sacrifício. O último sacrifício que exijo de você é um ring of the sky. Traga-o a mim e o entregue com alegria.",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Good. I accept your sacrifice. You have proven that you are a true follower of Zathroth and do not hesitate to sacrifice worldly goods. Thus, I will reward you with this headgear.": {
-   "pt": "",
+   "pt": "Bom. Aceito seu sacrifício. Você provou que é um verdadeiro seguidor de Zathroth e não hesita em sacrificar bens materiais. Por isso, vou recompensá-lo com este headgear.",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "Good. Then go.": {
-   "pt": "",
+   "pt": "Bom. Então vá.",
    "n": 1,
    "npc": [
     "lugri"
    ]
   },
   "What is it that you {want}, |PLAYERNAME|?": {
-   "pt": "",
+   "pt": "O que é que você {quer}, |PLAYERNAME|?",
    "n": 1,
    "npc": [
     "lugri"
@@ -56518,7 +56518,7 @@
    "n": 19
   },
   "town": {
-   "pt": "",
+   "pt": "cidade",
    "n": 19
   },
   "god": {
@@ -57278,7 +57278,7 @@
    "n": 5
   },
   "furniture": {
-   "pt": "",
+   "pt": "móveis",
    "n": 5
   },
   "lugri": {
@@ -57338,7 +57338,7 @@
    "n": 5
   },
   "want": {
-   "pt": "",
+   "pt": "quer",
    "n": 4
   },
   "uth": {
@@ -58066,7 +58066,7 @@
    "n": 3
   },
   "map": {
-   "pt": "",
+   "pt": "mapa",
    "n": 3
   },
   "busy": {
@@ -60566,27 +60566,27 @@
    "n": 1
   },
   "spell trainers": {
-   "pt": "",
+   "pt": "instrutores de magia",
    "n": 1
   },
   "world status": {
-   "pt": "",
+   "pt": "estado do mundo",
    "n": 1
   },
   "mark": {
-   "pt": "",
+   "pt": "marcar",
    "n": 1
   },
   "gems": {
-   "pt": "",
+   "pt": "gemas",
    "n": 1
   },
   "magical": {
-   "pt": "",
+   "pt": "mágico",
    "n": 1
   },
   "escort": {
-   "pt": "",
+   "pt": "escoltar",
    "n": 1
   },
   "things": {
@@ -62317,6 +62317,10 @@
   },
   "buy": {
    "pt": "compro",
+   "n": 0
+  },
+  "escort": {
+   "pt": "escolto",
    "n": 0
   }
  }
