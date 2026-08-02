@@ -3959,7 +3959,7 @@
    ]
   },
   "No then.": {
-   "pt": "",
+   "pt": "Então não.",
    "n": 7,
    "npc": [
     "brodrosch",
@@ -5340,7 +5340,7 @@
    ]
   },
   "I can offer you the holy tible for a small fee.": {
-   "pt": "",
+   "pt": "Posso lhe oferecer o holy tible por uma pequena taxa.",
    "n": 5,
    "npc": [
     "oldrak"
@@ -11042,14 +11042,14 @@
    ]
   },
   "Beware the foul undead!": {
-   "pt": "",
+   "pt": "Cuidado com os undead nojentos!",
    "n": 2,
    "npc": [
     "oldrak"
    ]
   },
   "Now, it is |TIME|.": {
-   "pt": "",
+   "pt": "Agora são |TIME|.",
    "n": 2,
    "npc": [
     "oldrak",
@@ -16010,196 +16010,196 @@
    ]
   },
   "I'm the overseer of the pits and a paladin trainer, but I also know some knight spells.": {
-   "pt": "",
+   "pt": "Sou o supervisor dos fossos e instrutor de paladin, mas também conheço algumas magias de knight.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Those wannabe fighters are weak and most of them are unable to comprehend a higher concept like the Mooh'Tah.": {
-   "pt": "",
+   "pt": "Esses lutadores de araque são fracos, e a maioria deles é incapaz de compreender um conceito mais elevado como o Mooh'Tah.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "I teach worthy warriors the way of the knight.": {
-   "pt": "",
+   "pt": "Ensino aos guerreiros dignos o caminho do knight.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "I'm known as Asrak the Ironhoof.": {
-   "pt": "",
+   "pt": "Sou conhecido como Asrak the Ironhoof.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "I pledge no allegiance to any king, be it human or minotaurean.": {
-   "pt": "",
+   "pt": "Não juro lealdade a rei nenhum, seja humano ou minotauro.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Your human army might be big but without skills. They are nothing than sheep to be slaughtered.": {
-   "pt": "",
+   "pt": "Seu exército humano pode até ser grande, mas sem habilidade. Não passam de ovelhas para o abate.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "The human generals are like their warriors. They lack the focus to be true warriors.": {
-   "pt": "",
+   "pt": "Os generais humanos são como os guerreiros deles. Falta-lhes o foco para serem verdadeiros guerreiros.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "The dungeons of your desires and fears are not only the solely ones you have to fear but also the only ones you have to conquer.": {
-   "pt": "",
+   "pt": "As masmorras dos seus desejos e medos não são apenas as únicas que você deve temer, mas também as únicas que você deve conquistar.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "They implanted the rage in us that almost cost our existence. They used us as pawns in wars that were not ours.": {
-   "pt": "",
+   "pt": "Eles implantaram em nós a fúria que quase custou nossa existência. Nos usaram como peões em guerras que não eram nossas.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Inferior creatures of rage, driven by their primitive urges. They are only useful to test one's skills.": {
-   "pt": "",
+   "pt": "Criaturas inferiores de fúria, movidas por impulsos primitivos. Só servem para testar as próprias habilidades.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "To rely on magic is like cheating fate. All cheaters will get their just punishment one day, and so will he.": {
-   "pt": "",
+   "pt": "Confiar na magia é como trapacear o destino. Todo trapaceiro recebe seu justo castigo um dia, e ele também vai receber.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "If it's truly a weapon to slay gods, it might be worth searching for it.": {
-   "pt": "",
+   "pt": "Se é de fato uma arma capaz de abater deuses, talvez valha a pena procurá-la.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "The city pays me well and those undisciplined gladiators need my skills and guidance badly.": {
-   "pt": "",
+   "pt": "A cidade me paga bem, e aqueles gladiadores indisciplinados precisam muito da minha habilidade e orientação.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "The city is only a shadow of what we could have accomplished without that curse of rage that the gods bestowed upon us.": {
-   "pt": "",
+   "pt": "A cidade não passa de uma sombra do que poderíamos ter alcançado sem essa maldição de fúria que os deuses nos impuseram.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "In the ancient wars we lost many things due to our rage. The only good thing is that we lost our trust in the gods, too.": {
-   "pt": "",
+   "pt": "Nas guerras antigas perdemos muitas coisas por causa da nossa fúria. A única coisa boa é que também perdemos a confiança nos deuses.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "The Mooh'Tah teaches control. It provides you with weapon, armor, and shield. It teaches you harmony and focus.": {
-   "pt": "",
+   "pt": "O Mooh'Tah ensina controle. Ele lhe dá arma, armadura e escudo. Ensina harmonia e foco.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Rage is the legacy of Blog, the beast. It is our primary goal to overcome this rage. The Mooh'Tah is our only hope of salvation and perfection.": {
-   "pt": "",
+   "pt": "A fúria é o legado de Blog, a fera. Nosso objetivo primordial é superar essa fúria. O Mooh'Tah é nossa única esperança de salvação e perfeição.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "There is harmony in everything that is done correctly. If you feel the harmony of an action, you can sing its song.": {
-   "pt": "",
+   "pt": "Há harmonia em tudo que é feito corretamente. Se você sente a harmonia de uma ação, pode cantar a canção dela.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Each harmonic action has it own song. If you can sing it, you are in harmony with that action. This is where the minotaurean battle songs come from.": {
-   "pt": "",
+   "pt": "Cada ação harmônica tem a própria canção. Se você consegue cantá-la, está em harmonia com aquela ação. É daí que vêm as canções de batalha dos minotauros.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Each Mooh'Tah master focuses his skills on the harmony of battle. He is one with the song that he's singing with his voice or at least his heart.": {
-   "pt": "",
+   "pt": "Cada mestre do Mooh'Tah concentra as habilidades na harmonia da batalha. Ele é um só com a canção que entoa, seja com a voz, seja pelo menos com o coração.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Make your will your weapon, and your enemies will perish.": {
-   "pt": "",
+   "pt": "Faça da sua vontade sua arma, e seus inimigos perecerão.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Courage is the only armor that shields you against rage and fear, the greatest dangers you are facing.": {
-   "pt": "",
+   "pt": "Coragem é a única armadura que o protege da fúria e do medo, os maiores perigos que você enfrenta.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Your confidence shall be your shield. Nothing can penetrate that defence.": {
-   "pt": "",
+   "pt": "Sua confiança será seu escudo. Nada pode penetrar essa defesa.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "I can teach you {healing}, {support}, {conjure} and {runes} spells. I can also tell you which spells are available at your {level}.": {
-   "pt": "",
+   "pt": "Posso lhe ensinar magias de {cura}, {suporte}, {conjuração} e {runas}. Também posso lhe dizer quais magias estão disponíveis no seu {level}.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Healing spells: {Bruise Bane}, {Cure Poison}, {Divine Healing}, {Intense Healing}, {Light Healing}, {Magic Patch}, {Wound Cleansing}.": {
-   "pt": "",
+   "pt": "Magias de cura: {Bruise Bane}, {Cure Poison}, {Divine Healing}, {Intense Healing}, {Light Healing}, {Magic Patch}, {Wound Cleansing}.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Support spells: {Arrow Call}, {Find Fiend}, {Find Person}, {Great Light}, {Lesser Ethereal Spear}, {Lesser Front Sweep}, {Light}.": {
-   "pt": "",
+   "pt": "Magias de suporte: {Arrow Call}, {Find Fiend}, {Find Person}, {Great Light}, {Lesser Ethereal Spear}, {Lesser Front Sweep}, {Light}.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Conjure spells: {Conjure Arrow}, {Conjure Explosive Arrow}.": {
-   "pt": "",
+   "pt": "Magias de conjuração: {Conjure Arrow}, {Conjure Explosive Arrow}.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "Rune spells: {Destroy Field} Rune.": {
-   "pt": "",
+   "pt": "Magias de rune: {Destroy Field} Rune.",
    "n": 1,
    "npc": [
     "asrak"
@@ -16213,14 +16213,14 @@
    ]
   },
   "I welcome you, |PLAYERNAME|! If you need paladin or knight spells, you've come to the right place.": {
-   "pt": "",
+   "pt": "Eu o recebo, |PLAYERNAME|! Se precisa de magias de paladin ou knight, veio ao lugar certo.",
    "n": 1,
    "npc": [
     "asrak"
    ]
   },
   "May your path be as straight as an arrow.": {
-   "pt": "",
+   "pt": "Que seu caminho seja tão reto quanto uma flecha.",
    "n": 1,
    "npc": [
     "asrak"
@@ -41819,259 +41819,259 @@
    ]
   },
   "I guard this humble temple as a monument for the order of the {nightmare knights}.": {
-   "pt": "",
+   "pt": "Eu guardo este humilde templo como um monumento à ordem dos {nightmare knights}.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "My name is Oldrak.": {
-   "pt": "",
+   "pt": "Meu nome é Oldrak.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "These plains are not safe for ordinary travellers. It will take heroes to survive here.": {
-   "pt": "",
+   "pt": "Estas planícies não são seguras para viajantes comuns. É preciso ser herói para sobreviver aqui.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "I can't help you, sorry!": {
-   "pt": "",
+   "pt": "Não posso ajudá-lo, desculpe!",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "The greatest necromant who ever cursed our land with the steps of his feet. He was defeated by the nightmare knights.": {
-   "pt": "",
+   "pt": "O maior necromante que já amaldiçoou nossa terra com os próprios passos. Foi derrotado pelos nightmare knights.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "This ancient order was created by a circle of wise humans who were called 'The {Dreamers}'. The order became {extinct} a long time ago.": {
-   "pt": "",
+   "pt": "Esta antiga ordem foi criada por um círculo de humanos sábios chamados 'The {Dreamers}'. A ordem se tornou {extinta} há muito tempo.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Many perished in their battles against evil, some went mad, not able to stand their nightmares any longer. Others were seduced by the darkness.": {
-   "pt": "",
+   "pt": "Muitos pereceram nas batalhas contra o mal, alguns enlouqueceram, incapazes de suportar os próprios pesadelos por mais tempo. Outros foram seduzidos pela escuridão.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "They learned the ancient art of {dreamwalking} from some elves they befriended.": {
-   "pt": "",
+   "pt": "Eles aprenderam a antiga arte do {dreamwalking} com alguns elfos com quem fizeram amizade.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "While the dreamwalkers of the elves experienenced the brightest dreams of pleasure, the humans strangely had dreams of {dark omen}.": {
-   "pt": "",
+   "pt": "Enquanto os dreamwalkers dos elfos vivenciavam os sonhos mais brilhantes de prazer, os humanos, estranhamente, tinham sonhos de {dark omen}.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "They dreamed of doom, destruction, talked to dead, tormented souls, and gained unwanted insight into the {schemes of darkness}.": {
-   "pt": "",
+   "pt": "Sonhavam com perdição, destruição, falavam com mortos, almas atormentadas, e ganhavam uma compreensão indesejada dos {schemes of darkness}.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "They figured out how to interpret their dark dreams and so could foresee the plans of the dark gods and their minions.": {
-   "pt": "",
+   "pt": "Descobriram como interpretar os sonhos sombrios e assim conseguiam prever os planos dos deuses sombrios e dos lacaios deles.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Using this knowledge they formed an order to thwart these plans, and because they battled their nightmares as brave as knights, they named their order accordingly.": {
-   "pt": "",
+   "pt": "Usando esse conhecimento, formaram uma ordem para frustrar esses planos, e como enfrentavam os próprios pesadelos com a bravura de knights, batizaram a ordem de acordo.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "It is rumoured to open the entrance to the pits of inferno, also called the nightmare pits. Even if I knew about this secret I wouldn't tell you.": {
-   "pt": "",
+   "pt": "Dizem que abre a entrada dos fossos do inferno, também chamados de nightmare pits. Mesmo que eu soubesse desse segredo, não lhe contaria.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Before the battles raged across them, they were called the fair plains.": {
-   "pt": "",
+   "pt": "Antes de as batalhas assolarem por ali, eram chamadas de planícies belas.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "That's where we are. The world of Tibia.": {
-   "pt": "",
+   "pt": "É onde estamos. O mundo de Tibia.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "They created Tibia and all life on it ... and unlife, too.": {
-   "pt": "",
+   "pt": "Eles criaram Tibia e toda a vida nela ... e a não-vida, também.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "A weapon of myth and legend. It was lost in ancient times ... perhaps lost forever.": {
-   "pt": "",
+   "pt": "Uma arma de mito e lenda. Perdida em tempos antigos ... talvez perdida para sempre.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Yenny, known as the Gentle, was one of most powerfull magicwielders in ancient times and known throughout the world for her mercy and kindness.": {
-   "pt": "",
+   "pt": "Yenny, conhecida como a Gentil, foi uma das mais poderosas usuárias de magia dos tempos antigos, conhecida pelo mundo todo por sua misericórdia e bondade.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "How do you know? Did you go into the infested area?": {
-   "pt": "",
+   "pt": "Como você sabe? Você entrou na área infestada?",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "You better don't return here until you've defeated the Demon Oak.": {
-   "pt": "",
+   "pt": "É melhor você não voltar aqui até derrotar o Demon Oak.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "A demon oak?!? <mumbles some blessings> May the gods be on our side. You'll need a {hallowed axe} to harm that tree. Bring me a simple {axe} and I'll prepare it for you.": {
-   "pt": "",
+   "pt": "Um demon oak?!? <resmunga algumas bênçãos> Que os deuses estejam do nosso lado. Você vai precisar de um {hallowed axe} para ferir aquela árvore. Me traga um {machado} simples e eu o preparo para você.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "I don't believe a word of it! How rude to lie to a monk!": {
-   "pt": "",
+   "pt": "Não acredito em uma palavra disso! Que grosseria mentir para um monge!",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Ahh, you've got an axe. Very good. I can make a hallowed axe out of it. It will cost you... er... a donation of 1,000 gold. Alright?": {
-   "pt": "",
+   "pt": "Ahh, você tem um machado. Muito bem. Posso transformá-lo num hallowed axe. Vai lhe custar... ahn... uma doação de 1.000 gold. Certo?",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "You have to first talk about {demon oak} or the {mission} before we continue.": {
-   "pt": "",
+   "pt": "Você precisa falar primeiro sobre {demon oak} ou a {missão} antes de continuarmos.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Let's see....<mumbles a prayer>....here we go. The blessing on this axe will be absorbed by all the demonic energy around here. I presume it will not last very long, so better hurry. Actually, I can refresh the blessing as often as you like.": {
-   "pt": "",
+   "pt": "Vamos ver....<resmunga uma oração>....pronto. A bênção neste machado vai ser absorvida por toda a energia demoníaca por aqui. Presumo que não vá durar muito, então é melhor se apressar. Na verdade, posso renovar a bênção quantas vezes você quiser.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "There is no axe with you.": {
-   "pt": "",
+   "pt": "Você não está com nenhum machado.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "There is not enough of money with you.": {
-   "pt": "",
+   "pt": "Você não está com dinheiro suficiente.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "What a pity! Let me know when you managed to get in there. Maybe I can help you when we know what we are dealing with.": {
-   "pt": "",
+   "pt": "Que pena! Me avise quando conseguir entrar lá. Talvez eu possa ajudar quando soubermos com o que estamos lidando.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Ah, the curse of the Plains of Havoc, the hidden beast, the unbeatable foe. I've been living here for years and I'm sure this is only a myth.": {
-   "pt": "",
+   "pt": "Ah, a maldição das Plains of Havoc, a fera escondida, o inimigo invencível. Moro aqui há anos e tenho certeza de que isso é só um mito.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "There are many tales about the fearsome Hugo. It's said it's an abnormality, accidentally created by Yenny the Gentle. It's half demon, half something else and people say it's still alive after all these years.": {
-   "pt": "",
+   "pt": "Há muitos contos sobre o temível Hugo. Dizem que é uma anomalia, criada por acidente por Yenny, a Gentil. É metade demônio, metade outra coisa, e dizem que ainda está vivo depois de todos esses anos.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Yenny, known as the Gentle, was one of the most powerful wielders of magic in ancient times. She was known throughout the world for her mercy and kindness.": {
-   "pt": "",
+   "pt": "Yenny, conhecida como a Gentil, foi uma das mais poderosas usuárias de magia dos tempos antigos. Era conhecida pelo mundo todo por sua misericórdia e bondade.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Would you like to buy a The Holy Tible for 1000 gold?": {
-   "pt": "",
+   "pt": "Gostaria de comprar um The Holy Tible por 1000 gold?",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "You need to complete the quest for the book first before you can buy The Holy Tible.": {
-   "pt": "",
+   "pt": "Você precisa concluir a quest do livro antes de poder comprar The Holy Tible.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Here is your The Holy Tible.": {
-   "pt": "",
+   "pt": "Aqui está seu The Holy Tible.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Welcome |PLAYERNAME|! Only rarely I can welcome {visitors} these days.": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Raramente consigo receber {visitantes} hoje em dia.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Take care, it's dangerous out there.": {
-   "pt": "",
+   "pt": "Cuide-se, é perigoso lá fora.",
    "n": 1,
    "npc": [
     "oldrak"
    ]
   },
   "Good Bye, |PLAYERNAME|": {
-   "pt": "",
+   "pt": "Até logo, |PLAYERNAME|",
    "n": 1,
    "npc": [
     "oldrak"
@@ -56876,7 +56876,7 @@
    "n": 8
   },
   "axe": {
-   "pt": "",
+   "pt": "machado",
    "n": 8
   },
   "main": {
@@ -57156,7 +57156,7 @@
    "n": 5
   },
   "conjure": {
-   "pt": "",
+   "pt": "conjuração",
    "n": 5
   },
   "tibianus": {
@@ -59060,19 +59060,19 @@
    "n": 2
   },
   "dreamers": {
-   "pt": "",
+   "pt": "Dreamers",
    "n": 2
   },
   "extinct": {
-   "pt": "",
+   "pt": "extinta",
    "n": 2
   },
   "dreamwalking": {
-   "pt": "",
+   "pt": "dreamwalking",
    "n": 2
   },
   "schemes of darkness": {
-   "pt": "",
+   "pt": "schemes of darkness",
    "n": 2
   },
   "goshnar": {
@@ -61148,23 +61148,23 @@
    "n": 1
   },
   "nightmare knights": {
-   "pt": "",
+   "pt": "nightmare knights",
    "n": 1
   },
   "dark omen": {
-   "pt": "",
+   "pt": "dark omen",
    "n": 1
   },
   "hallowed axe": {
-   "pt": "",
+   "pt": "hallowed axe",
    "n": 1
   },
   "demon oak": {
-   "pt": "",
+   "pt": "demon oak",
    "n": 1
   },
   "visitors": {
-   "pt": "",
+   "pt": "visitantes",
    "n": 1
   },
   "nightmare": {
