@@ -2365,7 +2365,7 @@
    ]
   },
   "Yes, I was informed what to do. Are you prepared to receive my line of the prayer?": {
-   "pt": "",
+   "pt": "Sim, fui informada do que fazer. Você está preparado para receber o meu verso da oração?",
    "n": 9,
    "npc": [
     "amanda",
@@ -2895,7 +2895,7 @@
    ]
   },
   "My healing spells are: {Cure Bleeding}, {Cure Burning}, {Cure Electrification}, {Cure Poison}, {Heal Friend}, {Intense Healing}, {Light Healing}, {Magic Patch}, {Mass Healing}, {Nature's Embrace}, {Restoration} and {Ultimate Healing}.": {
-   "pt": "",
+   "pt": "Minhas magias de cura são: {Cure Bleeding}, {Cure Burning}, {Cure Electrification}, {Cure Poison}, {Heal Friend}, {Intense Healing}, {Light Healing}, {Magic Patch}, {Mass Healing}, {Nature's Embrace}, {Restoration} e {Ultimate Healing}.",
    "n": 8,
    "npc": [
     "azalea",
@@ -3520,7 +3520,7 @@
    ]
   },
   "My rune spells are: {Destroy Field} Rune, {Disintegrate} Rune and {Holy Missile} Rune.": {
-   "pt": "",
+   "pt": "Minhas magias de rune são: {Destroy Field} Rune, {Disintegrate} Rune e {Holy Missile} Rune.",
    "n": 8,
    "npc": [
     "dario",
@@ -4021,7 +4021,7 @@
    ]
   },
   "My healing spells are: {Cure Curse}, {Cure Poison}, {Divine Healing}, {Intense Healing}, {Intense Recovery}, {Light Healing}, {Magic Patch}, {Recovery} and {Salvation}.": {
-   "pt": "",
+   "pt": "Minhas magias de cura são: {Cure Curse}, {Cure Poison}, {Divine Healing}, {Intense Healing}, {Intense Recovery}, {Light Healing}, {Magic Patch}, {Recovery} e {Salvation}.",
    "n": 7,
    "npc": [
     "dario",
@@ -4112,7 +4112,7 @@
    ]
   },
   "Asha Thrazi, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Asha Thrazi, |PLAYERNAME|.",
    "n": 7,
    "npc": [
     "dario",
@@ -4152,7 +4152,7 @@
    ]
   },
   "I have spells for level {1}, {8}, {9}, {10}, {12}, {13}, {14}, {16}, {25}, {28}, {33}, {35}, {40}, {45}, {50}, {70}, {80}, {90}, {100}, {110}, {150}, {200} and {300}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {9}, {10}, {12}, {13}, {14}, {16}, {25}, {28}, {33}, {35}, {40}, {45}, {50}, {70}, {80}, {90}, {100}, {110}, {150}, {200} e {300}.",
    "n": 7,
    "npc": [
     "graham",
@@ -4354,7 +4354,7 @@
    ]
   },
   "My attack spells are: {Apprentice's Strike}, {Chill Out}, {Creature Illusion}, {Energy Strike}, {Envenom}, {Flame Strike}, {Ice Strike}, {Ice Wave}, {Mud Attack}, {Physical Strike}, {Strong Ice Strike}, {Strong Ice Wave}, {Strong Terra Strike}, {Terra Strike} and {Terra Wave}.": {
-   "pt": "",
+   "pt": "Minhas magias de ataque são: {Apprentice's Strike}, {Chill Out}, {Creature Illusion}, {Energy Strike}, {Envenom}, {Flame Strike}, {Ice Strike}, {Ice Wave}, {Mud Attack}, {Physical Strike}, {Strong Ice Strike}, {Strong Ice Wave}, {Strong Terra Strike}, {Terra Strike} e {Terra Wave}.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4366,7 +4366,7 @@
    ]
   },
   "My support spells are: {Animate Dead}, {Cancel Magic Shield}, {Convince Creature}, {Find Fiend}, {Find Person}, {Food}, {Great Light}, {Haste}, {Invisible}, {Levitate}, {Light}, {Magic Rope}, {Magic Shield}, {Strong Haste}, {Summon Creature}, {Summon Druid Familiar} and {Ultimate Light}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Animate Dead}, {Cancel Magic Shield}, {Convince Creature}, {Find Fiend}, {Find Person}, {Food}, {Great Light}, {Haste}, {Invisible}, {Levitate}, {Light}, {Magic Rope}, {Magic Shield}, {Strong Haste}, {Summon Creature}, {Summon Druid Familiar} e {Ultimate Light}.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4378,7 +4378,7 @@
    ]
   },
   "My rune spells are: {Avalanche} Rune, {Chameleon} Rune, {Cure Poison Rune}, {Destroy Field} Rune, {Disintegrate} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Explosion} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Heavy Magic Missile} Rune, {Icicle} Rune, {Intense Healing Rune}, {Light Magic Missile} Rune, {Paralyse} Rune, {Poison Bomb} Rune, {Poison Field} Rune, {Poison Wall} Rune, {Soulfire} Rune, {Stalagmite} Rune, {Stone Shower} Rune and {Ultimate Healing Rune}.": {
-   "pt": "",
+   "pt": "Minhas magias de rune são: {Avalanche} Rune, {Chameleon} Rune, {Cure Poison Rune}, {Destroy Field} Rune, {Disintegrate} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Explosion} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Heavy Magic Missile} Rune, {Icicle} Rune, {Intense Healing Rune}, {Light Magic Missile} Rune, {Paralyse} Rune, {Poison Bomb} Rune, {Poison Field} Rune, {Poison Wall} Rune, {Soulfire} Rune, {Stalagmite} Rune, {Stone Shower} Rune e {Ultimate Healing Rune}.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4390,7 +4390,7 @@
    ]
   },
   "I have spells for level {1}, {8}, {9}, {10}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {20}, {21}, {22}, {23}, {24}, {25}, {26}, {27}, {28}, {29}, {30}, {31}, {33}, {35}, {36}, {38}, {40}, {41}, {45}, {50}, {54}, {70}, {80}, {200} and {300}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {9}, {10}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {20}, {21}, {22}, {23}, {24}, {25}, {26}, {27}, {28}, {29}, {30}, {31}, {33}, {35}, {36}, {38}, {40}, {41}, {45}, {50}, {54}, {70}, {80}, {200} e {300}.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4510,7 +4510,7 @@
    ]
   },
   "My attack spells are: {Apprentice's Strike}, {Buzz}, {Creature Illusion}, {Curse}, {Death Strike}, {Electrify}, {Energy Beam}, {Energy Strike}, {Energy Wave}, {Fire Wave}, {Flame Strike}, {Great Energy Beam}, {Great Fire Wave}, {Ice Strike}, {Ignite}, {Invisible}, {Lightning}, {Scorch}, {Strong Energy Strike}, {Strong Flame Strike} and {Terra Strike}.": {
-   "pt": "",
+   "pt": "Minhas magias de ataque são: {Apprentice's Strike}, {Buzz}, {Creature Illusion}, {Curse}, {Death Strike}, {Electrify}, {Energy Beam}, {Energy Strike}, {Energy Wave}, {Fire Wave}, {Flame Strike}, {Great Energy Beam}, {Great Fire Wave}, {Ice Strike}, {Ignite}, {Invisible}, {Lightning}, {Scorch}, {Strong Energy Strike}, {Strong Flame Strike} e {Terra Strike}.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4522,7 +4522,7 @@
    ]
   },
   "My healing spells are: {Cure Poison}, {Intense Healing}, {Light Healing}, {Magic Patch}, {Restoration} and {Ultimate Healing}.": {
-   "pt": "",
+   "pt": "Minhas magias de cura são: {Cure Poison}, {Intense Healing}, {Light Healing}, {Magic Patch}, {Restoration} e {Ultimate Healing}.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4534,7 +4534,7 @@
    ]
   },
   "My support spells are: {Animate Dead}, {Cancel Magic Shield}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope}, {Magic Shield}, {Strong Haste}, {Summon Creature}, {Summon Sorcerer Familiar} and {Ultimate Light}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Animate Dead}, {Cancel Magic Shield}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope}, {Magic Shield}, {Strong Haste}, {Summon Creature}, {Summon Sorcerer Familiar} e {Ultimate Light}.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4546,7 +4546,7 @@
    ]
   },
   "My rune spells are: {Destroy Field} Rune, {Disintegrate} Rune, {Energy Bomb} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Explosion} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Fireball} Rune, {Great Fireball} Rune, {Heavy Magic Missile} Rune, {Light Magic Missile} Rune, {Poison Field} Rune, {Poison Wall} Rune, {Soulfire} Rune, {Stalagmite} Rune, {Sudden Death} Rune and {Thunderstorm} Rune.": {
-   "pt": "",
+   "pt": "Minhas magias de rune são: {Destroy Field} Rune, {Disintegrate} Rune, {Energy Bomb} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Explosion} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Fireball} Rune, {Great Fireball} Rune, {Heavy Magic Missile} Rune, {Light Magic Missile} Rune, {Poison Field} Rune, {Poison Wall} Rune, {Soulfire} Rune, {Stalagmite} Rune, {Sudden Death} Rune e {Thunderstorm} Rune.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4558,7 +4558,7 @@
    ]
   },
   "I have spells for level {1}, {8}, {9}, {10}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {20}, {21}, {23}, {24}, {25}, {26}, {27}, {28}, {29}, {30}, {31}, {32}, {33}, {34}, {35}, {37}, {38}, {41}, {45}, {55}, {70}, {75}, {80}, {175}, {200}, {275} and {300}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {9}, {10}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {20}, {21}, {23}, {24}, {25}, {26}, {27}, {28}, {29}, {30}, {31}, {32}, {33}, {34}, {35}, {37}, {38}, {41}, {45}, {55}, {70}, {75}, {80}, {175}, {200}, {275} e {300}.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4786,7 +4786,7 @@
    ]
   },
   "I have spells for level {1}, {8}, {9}, {10}, {12}, {13}, {14}, {17}, {20}, {21}, {23}, {25}, {26}, {27}, {35}, {40}, {45}, {50}, {55}, {60}, {70}, {80}, {90}, {100} and {200}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {9}, {10}, {12}, {13}, {14}, {17}, {20}, {21}, {23}, {25}, {26}, {27}, {35}, {40}, {45}, {50}, {55}, {60}, {70}, {80}, {90}, {100} e {200}.",
    "n": 6,
    "npc": [
     "dario",
@@ -4908,7 +4908,7 @@
    ]
   },
   "My attack spells are: {Annihilation}, {Berserk}, {Brutal Strike}, {Chivalrous Challenge}, {Fierce Berserk}, {Front Sweep}, {Groundshaker}, {Inflict Wound}, {Lesser Front Sweep} and {Whirlwind Throw}.": {
-   "pt": "",
+   "pt": "Minhas magias de ataque são: {Annihilation}, {Berserk}, {Brutal Strike}, {Chivalrous Challenge}, {Fierce Berserk}, {Front Sweep}, {Groundshaker}, {Inflict Wound}, {Lesser Front Sweep} e {Whirlwind Throw}.",
    "n": 6,
    "npc": [
     "graham",
@@ -4920,7 +4920,7 @@
    ]
   },
   "My healing spells are: {Bruise Bane}, {Cure Bleeding}, {Cure Poison}, {Fair Wound Cleansing}, {Intense Recovery}, {Intense Wound Cleansing}, {Recovery} and {Wound Cleansing}.": {
-   "pt": "",
+   "pt": "Minhas magias de cura são: {Bruise Bane}, {Cure Bleeding}, {Cure Poison}, {Fair Wound Cleansing}, {Intense Recovery}, {Intense Wound Cleansing}, {Recovery} e {Wound Cleansing}.",
    "n": 6,
    "npc": [
     "graham",
@@ -4932,7 +4932,7 @@
    ]
   },
   "My support spells are: {Charge}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope} and {Summon Knight Familiar}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Charge}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope} e {Summon Knight Familiar}.",
    "n": 6,
    "npc": [
     "graham",
@@ -5706,7 +5706,7 @@
    ]
   },
   "My attack spells are: {Arrow Call}, {Divine Caldera}, {Divine Missile}, {Ethereal Spear}, {Holy Flash}, {Strong Ethereal Spear} and {Summon Paladin Familiar}.": {
-   "pt": "",
+   "pt": "Minhas magias de ataque são: {Arrow Call}, {Divine Caldera}, {Divine Missile}, {Ethereal Spear}, {Holy Flash}, {Strong Ethereal Spear} e {Summon Paladin Familiar}.",
    "n": 4,
    "npc": [
     "dario",
@@ -5716,7 +5716,7 @@
    ]
   },
   "My support spells are: {Cancel Invisibility}, {Conjure Arrow}, {Conjure Explosive Arrow}, {Enchant Spear}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope} and {Swift Foot}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Cancel Invisibility}, {Conjure Arrow}, {Conjure Explosive Arrow}, {Enchant Spear}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope} e {Swift Foot}.",
    "n": 4,
    "npc": [
     "dario",
@@ -5960,7 +5960,7 @@
    ]
   },
   "A blessed stake? That is a strange request. Maybe Quentin knows more, he is one of the oldest monks after all.": {
-   "pt": "",
+   "pt": "Uma blessed stake? É um pedido estranho. Talvez Quentin saiba mais, ele é um dos monges mais antigos, afinal.",
    "n": 4,
    "npc": [
     "kasmir",
@@ -6366,7 +6366,7 @@
    ]
   },
   "I think you have forgotten to bring your stake, pilgrim.": {
-   "pt": "",
+   "pt": "Acho que você esqueceu de trazer sua estaca, peregrino.",
    "n": 3,
    "npc": [
     "brewster",
@@ -8617,7 +8617,7 @@
    ]
   },
   "Ahhhhhhhh!": {
-   "pt": "",
+   "pt": "Ahhhhhhhh!",
    "n": 2,
    "npc": [
     "barnabas_dee",
@@ -9438,7 +9438,7 @@
    ]
   },
   "Ashari, |PLAYERNAME|. If you're a distance fighter, you might want to have a look at my wares and spells.": {
-   "pt": "",
+   "pt": "Ashari, |PLAYERNAME|. Se você é um lutador à distância, talvez queira dar uma olhada nas minhas mercadorias e magias.",
    "n": 2,
    "npc": [
     "dario"
@@ -10066,7 +10066,7 @@
    ]
   },
   "Suon's and Bastesh's blessings! Welcome to {Issavi}, traveller.": {
-   "pt": "",
+   "pt": "As bênçãos de Suon e Bastesh! Bem-vindo a {Issavi}, viajante.",
    "n": 2,
    "npc": [
     "guard_saros"
@@ -16455,70 +16455,70 @@
    ]
   },
   "Do you already have 15 units of blue pollen with you?": {
-   "pt": "",
+   "pt": "Já está com 15 unidades de blue pollen?",
    "n": 1,
    "npc": [
     "barnabas_dee"
    ]
   },
   "Ah! Did you bring me the peppermoon bell pollen I asked for?": {
-   "pt": "",
+   "pt": "Ah! Você me trouxe o peppermoon bell pollen que eu pedi?",
    "n": 1,
    "npc": [
     "barnabas_dee"
    ]
   },
   "Ah! Well done! Now we shall proceed with the seance, yes?": {
-   "pt": "",
+   "pt": "Ah! Muito bem! Agora vamos prosseguir com a sessão, sim?",
    "n": 1,
    "npc": [
     "barnabas_dee"
    ]
   },
   "Ah! Well done! These 15 doses will suffice for now. Here, take this vote for your effort.": {
-   "pt": "",
+   "pt": "Ah! Muito bem! Estas 15 doses bastam por agora. Tome, fique com este voto pelo esforço.",
    "n": 1,
    "npc": [
     "barnabas_dee"
    ]
   },
   "No no no, I need 15 doses of freshly harvested pollen! Please, harvest those 15 doses yourself, to make absolutely sure you have first-rate quality. I am afraid nothing less will do.": {
-   "pt": "",
+   "pt": "Não, não, não, eu preciso de 15 doses de pólen colhido na hora! Por favor, colha essas 15 doses você mesmo, para ter certeza absoluta de que a qualidade é de primeira. Receio que nada menos vá servir.",
    "n": 1,
    "npc": [
     "barnabas_dee"
    ]
   },
   "Splendid. Let me make the final preparations... There. Are you ready, too?": {
-   "pt": "",
+   "pt": "Esplêndido. Deixe-me fazer os preparativos finais... Pronto. Você também está pronto?",
    "n": 1,
    "npc": [
     "barnabas_dee"
    ]
   },
   "Yes, take care, the gate is opening! Can you see a bright light?": {
-   "pt": "",
+   "pt": "Sim, cuidado, o portal está se abrindo! Você consegue ver uma luz brilhante?",
    "n": 1,
    "npc": [
     "barnabas_dee"
    ]
   },
   "Welcome to my humble abode. If you come for new sorcerer {spells}, you have come to the right place.": {
-   "pt": "",
+   "pt": "Bem-vindo à minha humilde morada. Se veio por novas {magias} de sorcerer, veio ao lugar certo.",
    "n": 1,
    "npc": [
     "barnabas_dee"
    ]
   },
   "Take care, child": {
-   "pt": "",
+   "pt": "Cuide-se, criança",
    "n": 1,
    "npc": [
     "barnabas_dee"
    ]
   },
   "'The impetuosity of youth', as my friend Mordecai would say.": {
-   "pt": "",
+   "pt": "'A impetuosidade da juventude', como diria meu amigo Mordecai.",
    "n": 1,
    "npc": [
     "barnabas_dee"
@@ -22818,14 +22818,14 @@
    ]
   },
   "Increase your knowledge of spells here, young paladin.": {
-   "pt": "",
+   "pt": "Aumente seu conhecimento de magias aqui, jovem paladin.",
    "n": 1,
    "npc": [
     "dario"
    ]
   },
   "Need ammunition, bows or crossbows? Have a look at my wares.": {
-   "pt": "",
+   "pt": "Precisa de munição, bows ou crossbows? Dê uma olhada nas minhas mercadorias.",
    "n": 1,
    "npc": [
     "dario"
@@ -29734,21 +29734,21 @@
    ]
   },
   "Praised be Suon, the Benevolent King!": {
-   "pt": "",
+   "pt": "Louvado seja Suon, o Rei Benevolente!",
    "n": 1,
    "npc": [
     "guard_saros"
    ]
   },
   "This is the continent you are currently visiting. You will find vast, dry steppes here as well as high mountains, the river Nykri and the big city {Issavi}.": {
-   "pt": "",
+   "pt": "Este é o continente que você está visitando agora. Aqui você encontra vastas estepes secas, além de montanhas altas, o rio Nykri e a grande cidade de {Issavi}.",
    "n": 1,
    "npc": [
     "guard_saros"
    ]
   },
   "Issavi is the capital of {Kilmaresh}, also called the Golden City. This city has a motto: An open gate for those of peace. This means, anyone is welcome here as long as they respect our laws, be it humans, elves, minotaurs or even a medusa.": {
-   "pt": "",
+   "pt": "Issavi é a capital de {Kilmaresh}, também chamada de Cidade Dourada. Esta cidade tem um lema: Um portão aberto para os que vêm em paz. Ou seja, qualquer um é bem-vindo aqui, desde que respeite nossas leis, seja humano, elfo, minotaur ou até mesmo uma medusa.",
    "n": 1,
    "npc": [
     "guard_saros"
@@ -45022,21 +45022,21 @@
    ]
   },
   "Please, not so loud, not so loud. Some of us are trying to rest in peace here.": {
-   "pt": "",
+   "pt": "Por favor, não tão alto, não tão alto. Alguns de nós estão tentando descansar em paz aqui.",
    "n": 1,
    "npc": [
     "rahkem"
    ]
   },
   "So receive my prayer: 'Let there be power and compassion'. Now, bring your stake to Brewster in Port Hope for the next line of the prayer. I will inform him what to do.": {
-   "pt": "",
+   "pt": "Então receba minha oração: 'Que haja poder e compaixão'. Agora, leve sua estaca até Brewster, em Port Hope, para o próximo verso da oração. Vou avisá-lo do que fazer.",
    "n": 1,
    "npc": [
     "rahkem"
    ]
   },
   "You should visit Brewster in Port Hope now.": {
-   "pt": "",
+   "pt": "Você deve visitar Brewster em Port Hope agora.",
    "n": 1,
    "npc": [
     "rahkem"
