@@ -4690,7 +4690,7 @@
    ]
   },
   "Whoa! A human! This is no place for you, |PLAYERNAME|. Go and play somewhere else.": {
-   "pt": "",
+   "pt": "Uau! Um humano! Este não é lugar para você, |PLAYERNAME|. Vá brincar em outro lugar.",
    "n": 6,
    "npc": [
     "bo_ques",
@@ -6421,7 +6421,7 @@
    ]
   },
   "Daraman's blessings, traveller |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "As bênçãos de Daraman, viajante |PLAYERNAME|.",
    "n": 3,
    "npc": [
     "chemar",
@@ -10311,7 +10311,7 @@
    ]
   },
   "I'm sorry, human. But you need Gabel's permission to trade with me.": {
-   "pt": "",
+   "pt": "Sinto muito, humano. Mas você precisa da permissão de Gabel para negociar comigo.",
    "n": 2,
    "npc": [
     "haroun",
@@ -10562,7 +10562,7 @@
    ]
   },
   "Fare you well... |PLAYERNAME|": {
-   "pt": "",
+   "pt": "Vá bem... |PLAYERNAME|",
    "n": 2,
    "npc": [
     "kais"
@@ -20511,14 +20511,14 @@
    ]
   },
   "Ask me if you need letters or parcels. I'll deliver them via airmail, of course!": {
-   "pt": "",
+   "pt": "Pergunte-me se precisar de cartas ou pacotes. Eu os entrego por via aérea, claro!",
    "n": 1,
    "npc": [
     "chemar"
    ]
   },
   "I can fly you to {Edron}, {Issavi}, {Svargrond}, {Kazordoon}, {Zao}, {Femor Hills} or to {Marapur} if you like. Where do you want to go?": {
-   "pt": "",
+   "pt": "Posso lhe levar voando até {Edron}, {Issavi}, {Svargrond}, {Kazordoon}, {Zao}, {Femor Hills} ou {Marapur}, se quiser. Para onde você quer ir?",
    "n": 1,
    "npc": [
     "chemar"
@@ -31494,7 +31494,7 @@
    ]
   },
   "Farewell! May the serene light of the enlightened one rest shine on your travels.": {
-   "pt": "",
+   "pt": "Adeus! Que a luz serena do iluminado brilhe sobre suas viagens.",
    "n": 1,
    "npc": [
     "haroun"
@@ -35015,42 +35015,42 @@
    ]
   },
   "I have the power to grant you the blood of the mountain's blessing. But I must ask of you to sacrifice |BLESSCOST| gold. Are you prepared for that?": {
-   "pt": "",
+   "pt": "Tenho o poder de lhe conceder a bênção do sangue da montanha. Mas preciso lhe pedir o sacrifício de |BLESSCOST| gold. Está preparado para isso?",
    "n": 1,
    "npc": [
     "kais"
    ]
   },
   "So receive the blood of the mountain, master.": {
-   "pt": "",
+   "pt": "Então receba o sangue da montanha, mestre.",
    "n": 1,
    "npc": [
     "kais"
    ]
   },
   "I am Kais, Kais the Bound. Eternally {fixed} to the wretched place, unless... unless I prove my worth in aiding all those who seek my {help}.": {
-   "pt": "",
+   "pt": "Sou Kais, Kais o Acorrentado. Eternamente {preso} a este lugar miserável, a menos... a menos que eu prove meu valor ajudando todos que buscam minha {ajuda}.",
    "n": 1,
    "npc": [
     "kais"
    ]
   },
   "Well, as I am quite in a fix currently, my only hope to escape this situation may be to grant you {healing} or an {enhanced} blessing if you wish. You must desire SOMETHING, right? Sure you do.": {
-   "pt": "",
+   "pt": "Bem, já que estou num aperto no momento, minha única esperança de escapar dessa situação pode ser lhe conceder {cura} ou uma bênção {aprimorada}, se você quiser. Você deve desejar ALGUMA coisa, não? Claro que deseja.",
    "n": 1,
    "npc": [
     "kais"
    ]
   },
   "I know everyone and everything. It is certain that there is another enhanced blessing, the 'heart of the mountain'. Talk to a nomad far to the west of Svargrond, hiding slightly above ground.": {
-   "pt": "",
+   "pt": "Conheço todo mundo e tudo. É certo que existe outra bênção aprimorada, o 'coração da montanha'. Fale com um nômade bem a oeste de Svargrond, escondido um pouco acima do solo.",
    "n": 1,
    "npc": [
     "kais"
    ]
   },
   "Hmm... surely you are in need of {help} - will you let me? I am {Kais} the Bound and I can lend you a hand in {healing} your body and soul or even grant an {enhanced} blessing!": {
-   "pt": "",
+   "pt": "Hmm... com certeza você precisa de {ajuda} - vai me deixar ajudar? Sou {Kais}, o Acorrentado, e posso lhe dar uma mão na {cura} do seu corpo e alma, ou até lhe conceder uma bênção {aprimorada}!",
    "n": 1,
    "npc": [
     "kais"
@@ -40538,21 +40538,21 @@
    ]
   },
   "<Sighs> Another {customer}! I've only just sat down! What is it, |PLAYERNAME|?": {
-   "pt": "",
+   "pt": "<Suspira> Mais um {cliente}! Acabei de sentar! O que é, |PLAYERNAME|?",
    "n": 1,
    "npc": [
     "nah_bob"
    ]
   },
   "Bye now, Neutrala |PLAYERNAME|. Visit old Bob again one day!": {
-   "pt": "",
+   "pt": "Tchau, Neutrala |PLAYERNAME|. Visite o velho Bob de novo algum dia!",
    "n": 1,
    "npc": [
     "nah_bob"
    ]
   },
   "Bye then.": {
-   "pt": "",
+   "pt": "Tchau, então.",
    "n": 1,
    "npc": [
     "nah_bob"
@@ -43653,28 +43653,28 @@
    ]
   },
   "My boat is ready to bring you to {Venore}, {Port Hope}, {Liberty Bay}, {Yalahar}, {Gray Island}, {Ankrahmun}, {Krailos} or {Issavi}. Or to {Travora} - a place between the worlds.": {
-   "pt": "",
+   "pt": "Meu barco está pronto para lhe levar a {Venore}, {Port Hope}, {Liberty Bay}, {Yalahar}, {Gray Island}, {Ankrahmun}, {Krailos} ou {Issavi}. Ou a {Travora} - um lugar entre os mundos.",
    "n": 1,
    "npc": [
     "petros"
    ]
   },
   "Where do you want to go - {Krailos}, {Venore}, {Port Hope}, {Liberty Bay}, {Ankrahmun}, {Yalahar} or {Gray Island}?": {
-   "pt": "",
+   "pt": "Para onde você quer ir - {Krailos}, {Venore}, {Port Hope}, {Liberty Bay}, {Ankrahmun}, {Yalahar} ou {Gray Island}?",
    "n": 1,
    "npc": [
     "petros"
    ]
   },
   "It's Petros.": {
-   "pt": "",
+   "pt": "É Petros.",
    "n": 1,
    "npc": [
     "petros"
    ]
   },
   "Bye": {
-   "pt": "",
+   "pt": "Tchau",
    "n": 1,
    "npc": [
     "petros"
@@ -58916,7 +58916,7 @@
    "n": 2
   },
   "kais": {
-   "pt": "",
+   "pt": "Kais",
    "n": 2
   },
   "spark of the phoenix": {
@@ -60740,7 +60740,7 @@
    "n": 1
   },
   "fixed": {
-   "pt": "",
+   "pt": "preso",
    "n": 1
   },
   "geomancer": {
@@ -61096,7 +61096,7 @@
    "n": 1
   },
   "customer": {
-   "pt": "",
+   "pt": "cliente",
    "n": 1
   },
   "sulphur": {
