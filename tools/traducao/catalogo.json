@@ -2539,7 +2539,7 @@
    ]
   },
   "You don't have enough suspicious devices.": {
-   "pt": "",
+   "pt": "Você não tem suspicious devices suficientes.",
    "n": 9,
    "npc": [
     "gnomus",
@@ -4143,7 +4143,7 @@
    ]
   },
   "I don't need your help for now. Come back later.": {
-   "pt": "",
+   "pt": "Não preciso da sua ajuda por enquanto. Volte mais tarde.",
    "n": 7,
    "npc": [
     "gnomus",
@@ -4899,7 +4899,7 @@
    ]
   },
   "Come back when you have finished your job.": {
-   "pt": "",
+   "pt": "Volte quando tiver terminado seu trabalho.",
    "n": 6,
    "npc": [
     "gnomus",
@@ -6105,7 +6105,7 @@
    ]
   },
   "You do not have enough items.": {
-   "pt": "",
+   "pt": "Você não tem itens suficientes.",
    "n": 4,
    "npc": [
     "undal",
@@ -6689,7 +6689,7 @@
    ]
   },
   "So be it! Here is my part of the sceptre. Combine it with the other parts on the altar of the Great Snake in the depths of this temple.": {
-   "pt": "",
+   "pt": "Que assim seja! Aqui está minha parte do cetro. Combine-a com as outras partes no altar da Great Snake nas profundezas deste templo.",
    "n": 3,
    "npc": [
     "ghost_of_a_priest"
@@ -6776,7 +6776,7 @@
    ]
   },
   "If you bring me any suspicious devices on creatures you slay down here, I'll make it worth your while by telling the others of your generosity. How many do you want to offer?": {
-   "pt": "",
+   "pt": "Se você me trouxer algum suspicious device das criaturas que abater aqui embaixo, vou fazer valer a pena contando aos outros sobre sua generosidade. Quantos você quer oferecer?",
    "n": 3,
    "npc": [
     "gnomus",
@@ -6785,7 +6785,7 @@
    ]
   },
   "You want to offer": {
-   "pt": "",
+   "pt": "Você quer oferecer",
    "n": 3,
    "npc": [
     "gnomus",
@@ -6794,7 +6794,7 @@
    ]
   },
   "So you want to know what we all think about your deeds? What leader's opinion are you interested in, the {gnomes} (Gnomus), the {dwarves} (Klom Stonecutter) or the {scouts} (Lardoc Bashsmite)?": {
-   "pt": "",
+   "pt": "Então quer saber o que todos nós achamos dos seus feitos? Na opinião de qual líder você está interessado, a dos {gnomes} (Gnomus), a dos {dwarves} (Klom Stonecutter) ou a dos {scouts} (Lardoc Bashsmite)?",
    "n": 3,
    "npc": [
     "gnomus",
@@ -6803,7 +6803,7 @@
    ]
   },
   "The gnomes are still in need of your help, member of Bigfoot's Brigade. Prove your worth by answering their calls! (": {
-   "pt": "",
+   "pt": "Os gnomes ainda precisam da sua ajuda, membro da Bigfoot's Brigade. Prove seu valor atendendo aos chamados deles! (",
    "n": 3,
    "npc": [
     "gnomus",
@@ -6812,7 +6812,7 @@
    ]
   },
   "The dwarves are still in need of your help, member of Bigfoot's Brigade. Prove your worth by answering their calls! (": {
-   "pt": "",
+   "pt": "Os dwarves ainda precisam da sua ajuda, membro da Bigfoot's Brigade. Prove seu valor atendendo aos chamados deles! (",
    "n": 3,
    "npc": [
     "gnomus",
@@ -6821,7 +6821,7 @@
    ]
   },
   "The scouts are still in need of your help, member of Bigfoot's Brigade. Prove your worth by answering their calls! (": {
-   "pt": "",
+   "pt": "Os scouts ainda precisam da sua ajuda, membro da Bigfoot's Brigade. Prove seu valor atendendo aos chamados deles! (",
    "n": 3,
    "npc": [
     "gnomus",
@@ -11961,7 +11961,7 @@
    ]
   },
   "So do you want to learn the {story} behind of this or rather talk about the {task} at hand?": {
-   "pt": "",
+   "pt": "Então, quer aprender a {história} por trás disso, ou prefere falar sobre a {tarefa} em questão?",
    "n": 2,
    "npc": [
     "undal",
@@ -11969,7 +11969,7 @@
    ]
   },
   "Do you prefer the {long} version or the {short} version?": {
-   "pt": "",
+   "pt": "Prefere a versão {longa} ou a versão {curta}?",
    "n": 2,
    "npc": [
     "undal",
@@ -11977,7 +11977,7 @@
    ]
   },
   "The Nightmare Beast is slain. You have done well. The Courts of Summer and Winter will be forever grateful. For your efforts I want to reward you with our traditional dream warrior outfit. May it suit you well!": {
-   "pt": "",
+   "pt": "A Nightmare Beast está morta. Você se saiu bem. As Courts of Summer and Winter serão eternamente gratas. Pelos seus esforços, quero recompensá-lo com nosso tradicional dream warrior outfit. Que lhe sirva bem!",
    "n": 2,
    "npc": [
     "undal",
@@ -11985,7 +11985,7 @@
    ]
   },
   "I already gave your task.": {
-   "pt": "",
+   "pt": "Já lhe dei sua tarefa.",
    "n": 2,
    "npc": [
     "undal",
@@ -11993,7 +11993,7 @@
    ]
   },
   "They are not literally keys but rather puzzles you have to solve or a secret mechanism you have to discover in order to open the Dream Doors. A parchment in the chest here can tell you more about it.": {
-   "pt": "",
+   "pt": "Não são literalmente chaves, mas sim enigmas que você precisa resolver ou um mecanismo secreto que precisa descobrir para abrir as Dream Doors. Um pergaminho no baú aqui pode lhe contar mais sobre isso.",
    "n": 2,
    "npc": [
     "undal",
@@ -12001,7 +12001,7 @@
    ]
   },
   "Are you interested in one or two addons to your dream warrior outfit?": {
-   "pt": "",
+   "pt": "Está interessado em um ou dois addons para o seu dream warrior outfit?",
    "n": 2,
    "npc": [
     "undal",
@@ -12009,7 +12009,7 @@
    ]
   },
   "You don't even have the outfit.": {
-   "pt": "",
+   "pt": "Você nem tem o outfit.",
    "n": 2,
    "npc": [
     "undal",
@@ -12017,7 +12017,7 @@
    ]
   },
   "I provide two addons. For the first one I need you to bring me five pomegranates. For the second addon you need an ice shield. Do you want one of these addons?": {
-   "pt": "",
+   "pt": "Eu forneço dois addons. Para o primeiro, preciso que me traga cinco romãs. Para o segundo addon, você precisa de um ice shield. Quer um desses addons?",
    "n": 2,
    "npc": [
     "undal",
@@ -12025,7 +12025,7 @@
    ]
   },
   "What do you have for me: the {pomegranates} or the {ice shield}?": {
-   "pt": "",
+   "pt": "O que você tem para mim: as {romãs} ou o {ice shield}?",
    "n": 2,
    "npc": [
     "undal",
@@ -12033,7 +12033,7 @@
    ]
   },
   "Very good! You gained the second addon to the dream warrior outfit.": {
-   "pt": "",
+   "pt": "Muito bem! Você ganhou o segundo addon do dream warrior outfit.",
    "n": 2,
    "npc": [
     "undal",
@@ -12041,7 +12041,7 @@
    ]
   },
   "Very good! You gained the first addon to the dream warrior outfit.": {
-   "pt": "",
+   "pt": "Muito bem! Você ganhou o primeiro addon do dream warrior outfit.",
    "n": 2,
    "npc": [
     "undal",
@@ -12049,7 +12049,7 @@
    ]
   },
   "Greetings hero. I guess you came to {talk}.": {
-   "pt": "",
+   "pt": "Saudações, herói. Imagino que veio para {conversar}.",
    "n": 2,
    "npc": [
     "undal",
@@ -14561,105 +14561,105 @@
    ]
   },
   "Let me know if you are still looking for answers, {seeker}.": {
-   "pt": "",
+   "pt": "Me avise se ainda estiver procurando respostas, {seeker}.",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "The pilgrimage is the sacred {Three-Fold Path} every monk must go. Are you familiar with the {Merudri} ways of the {monks}?": {
-   "pt": "",
+   "pt": "A peregrinação é o sagrado {Three-Fold Path} que todo monk deve percorrer. Você está familiarizado com os costumes {Merudri} dos {monks}?",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "The Blue Valley is our ancestral home and heart of the {Merudri} culture, or what is left of it. Our ancestors from the Valley have long been separated from the true home of the Merudri.": {
-   "pt": "",
+   "pt": "O Blue Valley é nosso lar ancestral e o coração da cultura {Merudri}, ou o que restou dela. Nossos ancestrais do Valley há muito foram separados do verdadeiro lar dos Merudri.",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "Harmony, enlightenment and power are the keys and control is the door to true serenity.": {
-   "pt": "",
+   "pt": "Harmonia, iluminação e poder são as chaves, e o controle é a porta para a verdadeira serenidade.",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "We are Merudri, warrior monks. Honing {serenity}, preserving our legacy, defending the {Blue Valley} and beyond.": {
-   "pt": "",
+   "pt": "Somos Merudri, monks guerreiros. Aprimorando a {serenidade}, preservando nosso legado, defendendo o {Blue Valley} e além.",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "Your path has led you to an ambassador of the {Merudri}. I am Manop and will do my best to explain to you our {purpose}, legacy and your role in it. Shall I continue?": {
-   "pt": "",
+   "pt": "Seu caminho o trouxe até um embaixador dos {Merudri}. Sou Manop, e farei o meu melhor para lhe explicar nosso {propósito}, legado e seu papel nele. Devo continuar?",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "I am glad to make your acquaintance, {seeker}. You must have a lot of questions for which I would gladly provide answers. If you are interested in joining us as a true warrior {monk}, just ask.": {
-   "pt": "",
+   "pt": "Tenho o prazer de conhecê-lo, {seeker}. Você deve ter muitas perguntas, para as quais eu ficaria feliz em dar respostas. Se estiver interessado em se juntar a nós como um verdadeiro {monk} guerreiro, é só perguntar.",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "You are now a pilgrim on the Three-Fold Path. Welcome to the Blue Valley, seeker. ...": {
-   "pt": "",
+   "pt": "Agora você é um peregrino no Three-Fold Path. Bem-vindo ao Blue Valley, seeker. ...",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "Congratulations, you are one step closer to becoming a true warrior monk. Once you have reached level 8, talk to me again and we will see if you are ready to join us on our pilgrimage.": {
-   "pt": "",
+   "pt": "Parabéns, você está um passo mais perto de se tornar um verdadeiro monk guerreiro. Assim que atingir o level 8, fale comigo de novo, e veremos se está pronto para se juntar a nós na nossa peregrinação.",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "If you want to join our pilgrimage and take on the Three-Fold Path, you should visit at least one of our shrines here in the area. When you are experienced enough, return to me.": {
-   "pt": "",
+   "pt": "Se quiser se juntar à nossa peregrinação e seguir o Three-Fold Path, deveria visitar pelo menos um dos nossos santuários por aqui. Quando tiver experiência suficiente, volte para mim.",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "Like an orphan, fate has put your soul gently on the doorstep of a new world. You will view this reality with different eyes...": {
-   "pt": "",
+   "pt": "Como um órfão, o destino colocou sua alma gentilmente na soleira de um novo mundo. Você vai ver esta realidade com outros olhos...",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "You will change your ways and adapt as you follow the Three-Fold Path. It has guided the most powerful warriors across countless planes of existence to a higher state of consciousness. ...": {
-   "pt": "",
+   "pt": "Você vai mudar seus costumes e se adaptar ao seguir o Three-Fold Path. Ele guiou os guerreiros mais poderosos através de incontáveis planos de existência a um estado mais elevado de consciência. ...",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "If you accept, I will send you our temple in the Blue Valley as a MONK. Once you walk this arduous path, there will be NO TURNING BACK. Will you accept this gift and burden like generations of Merudri before you?": {
-   "pt": "",
+   "pt": "Se aceitar, vou lhe mandar ao nosso templo no Blue Valley como um MONK. Uma vez que trilhe este caminho árduo, NÃO HAVERÁ VOLTA. Você aceita este presente e fardo, como gerações de Merudri antes de você?",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "I welcome you, traveller of fate's unsearchable roads. On behalf of the Merudri, let this be an {invitation} from a humble guide along the way of enlightenment.": {
-   "pt": "",
+   "pt": "Eu o recebo, viajante das estradas insondáveis do destino. Em nome dos Merudri, que este seja um {convite} de um humilde guia pelo caminho da iluminação.",
    "n": 1,
    "npc": [
     "ambassador_manop"
    ]
   },
   "Safe passage, traveller.": {
-   "pt": "",
+   "pt": "Boa passagem, viajante.",
    "n": 1,
    "npc": [
     "ambassador_manop"
@@ -27623,147 +27623,147 @@
    ]
   },
   "We are the {guardians}. We are all what is left from the glory of the past.": {
-   "pt": "",
+   "pt": "Somos os {guardiões}. Somos tudo que restou da glória do passado.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "We are the keepers of this old temple and the guardians of its sacred {secrets}.": {
-   "pt": "",
+   "pt": "Somos os guardiões deste antigo templo e os protetores dos seus {segredos} sagrados.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "We are keepers of the {lore} of the Great {Snake} and we guard some of its {relics}.": {
-   "pt": "",
+   "pt": "Somos guardiões do {conhecimento} da Great {Snake} e protegemos algumas de suas {relíquias}.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "The lore of the Great {Snake} is contorted like a snake. Although we feel you are touched by the snake's essence, you are not ready yet to receive the blessing of the deeper wisdom.": {
-   "pt": "",
+   "pt": "O conhecimento da Great {Snake} é retorcido como uma serpente. Embora sintamos que você foi tocado pela essência da serpente, ainda não está pronto para receber a bênção da sabedoria mais profunda.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "Once the powerful relics of the Great {Snake} were abundant. Most got lost to the ravages of time and our enemies. What is {left} is all the more precious.": {
-   "pt": "",
+   "pt": "Antigamente as poderosas relíquias da Great {Snake} eram abundantes. A maioria se perdeu com os estragos do tempo e dos nossos inimigos. O que {resta} é ainda mais precioso.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "We are the guardians. We are all what is left from the glory of the past.": {
-   "pt": "",
+   "pt": "Somos os guardiões. Somos tudo que restou da glória do passado.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "What you call Banuta was once a centre of our civilisation and culture. We gave those {apes} so much, but they wanted more. In the end, the Great {Snake} used them as a tool to teach our people a painful but necessary lesson.": {
-   "pt": "",
+   "pt": "O que vocês chamam de Banuta foi um dia o centro da nossa civilização e cultura. Demos tanto àqueles {macacos}, mas eles queriam mais. No fim, a Great {Snake} os usou como uma ferramenta para ensinar ao nosso povo uma lição dolorosa, mas necessária.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "In their vanity our descendants thought they could use those false-born as servants. They paid a terrible price. Their downfall might only be temporary though if we can {redeem} our race in the eyes of the snake god.": {
-   "pt": "",
+   "pt": "Em sua vaidade, nossos descendentes acharam que poderiam usar aqueles false-born como servos. Pagaram um preço terrível. Sua queda pode ser só temporária, porém, se conseguirmos {redimir} nossa raça aos olhos do deus serpente.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "Dragons are one of the greatest creations of the Great {Snake}. Yet, they are still distanced from the Great {Snake} and susceptible for {corruption} and the lies of the egg stealers.": {
-   "pt": "",
+   "pt": "Dragões são uma das maiores criações da Great {Snake}. Ainda assim, permanecem distantes da Great {Snake} e suscetíveis à {corrupção} e às mentiras dos egg stealers.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "There are many forms of corruption in this world. All of it is the work of the egg stealers who spread their taint. The creation hatched by the Great {Snake} was perfect without even the option of corruption.": {
-   "pt": "",
+   "pt": "Há muitas formas de corrupção neste mundo. Toda ela é obra dos egg stealers, que espalham sua mácula. A criação chocada pela Great {Snake} era perfeita, sem sequer a opção da corrupção.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "Creatures from beyond. Greedy and traitorous, they stole parts of the world and of life for themselves. They corrupted the world by their deceptions and stole our {birthright}.": {
-   "pt": "",
+   "pt": "Criaturas de além. Gananciosas e traiçoeiras, roubaram partes do mundo e da vida para si mesmas. Corromperam o mundo com seus enganos e roubaram nosso {direito de nascença}.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "We were overthrown by those of who we vainly thought we could use for our advantage, even though we knew about the foulness of the false-born.": {
-   "pt": "",
+   "pt": "Fomos derrubados por aqueles que vaidosamente achávamos poder usar em nosso proveito, mesmo sabendo da vileza dos false-born.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "Everything that lacks scales is no true litter of the Great Snake. They are the corrupted kin of the egg stealers.": {
-   "pt": "",
+   "pt": "Tudo que não tem escamas não é verdadeira ninhada da Great Snake. São a prole corrompida dos egg stealers.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "Such concepts are of little consequence for the dead.": {
-   "pt": "",
+   "pt": "Tais conceitos têm pouca importância para os mortos.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "They are a manifestation of the snake god's power. They are its avatars in some way.": {
-   "pt": "",
+   "pt": "Eles são uma manifestação do poder do deus serpente. São seus avatares, de certa forma.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "We are the true-born. We are the children of the snake. But as children we have yet much to learn. One day we might take our rightful place in creation, but only if we prove {worthy}.": {
-   "pt": "",
+   "pt": "Somos os true-born. Somos os filhos da serpente. Mas, como filhos, ainda temos muito a aprender. Um dia poderemos assumir nosso lugar de direito na criação, mas só se provarmos ser {dignos}.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "They are the false-born. They hatched from foul eggs - poisoned by the egg stealers. They are numerous and like a plague for the world.": {
-   "pt": "",
+   "pt": "Eles são os false-born. Eclodiram de ovos nojentos - envenenados pelos egg stealers. São numerosos e como uma praga para o mundo.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "This was once the centre of power of our religion. From here we ruled Tiquanda in the name of the snake god.": {
-   "pt": "",
+   "pt": "Este foi um dia o centro de poder da nossa religião. Daqui governávamos Tiquanda em nome do deus serpente.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "We were not aware of another civilisation that was left. Only recently the awareness of the Great Snake touched us in our slumber and we learnt through visions of its other children.": {
-   "pt": "",
+   "pt": "Não sabíamos de outra civilização que tivesse restado. Só recentemente a consciência da Great Snake nos tocou em nosso sono, e aprendemos através de visões sobre seus outros filhos.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "No deal then.": {
-   "pt": "",
+   "pt": "Sem acordo, então.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
    ]
   },
   "Greetings {mortal}.": {
-   "pt": "",
+   "pt": "Saudações, {mortal}.",
    "n": 1,
    "npc": [
     "ghost_of_a_priest"
@@ -28841,42 +28841,42 @@
    ]
   },
   "If you're willing to help us, we could need an escort for arriving {ordnance}, help with {charting} the cave system and someone needs to get some heat {measurements} fast.": {
-   "pt": "",
+   "pt": "Se estiver disposto a nos ajudar, poderíamos precisar de uma escolta para o {armamento} que está chegando, ajuda para {mapear} o sistema de cavernas, e alguém precisa fazer algumas {medições} de calor rapidamente.",
    "n": 1,
    "npc": [
     "gnomus"
    ]
   },
   "My name is Gnomus.": {
-   "pt": "",
+   "pt": "Meu nome é Gnomus.",
    "n": 1,
    "npc": [
     "gnomus"
    ]
   },
   "I'm the main gnomish contact for this base. I coordinate our efforts with those of the dwarves to ensure everything is running smoothly.": {
-   "pt": "",
+   "pt": "Sou o principal contato gnomo desta base. Coordeno nossos esforços com os dos anões para garantir que tudo funcione bem.",
    "n": 1,
    "npc": [
     "gnomus"
    ]
   },
   "The other are already telling stories about you. Please return to me later if you want to help out some more!": {
-   "pt": "",
+   "pt": "Os outros já estão contando histórias sobre você. Por favor, volte mais tarde se quiser ajudar mais um pouco!",
    "n": 1,
    "npc": [
     "gnomus"
    ]
   },
   "Thank you very much! With those structures mapped out we will be able to complete the puzzle in no time!": {
-   "pt": "",
+   "pt": "Muito obrigado! Com essas estruturas mapeadas, vamos conseguir completar o quebra-cabeça rapidinho!",
    "n": 1,
    "npc": [
     "gnomus"
    ]
   },
   "Greetings, member of the Bigfoot Brigade. We could really use some {help} from you right now. You should prove {worthy} to our alliance.": {
-   "pt": "",
+   "pt": "Saudações, membro da Bigfoot Brigade. Poderíamos realmente usar alguma {ajuda} sua agora. Você deveria provar ser {digno} da nossa aliança.",
    "n": 1,
    "npc": [
     "gnomus"
@@ -36149,84 +36149,84 @@
    ]
   },
   "Ah.": {
-   "pt": "",
+   "pt": "Ah.",
    "n": 1,
    "npc": [
     "klom_stonecutter"
    ]
   },
   "We need more volunteers!": {
-   "pt": "",
+   "pt": "Precisamos de mais voluntários!",
    "n": 1,
    "npc": [
     "klom_stonecutter"
    ]
   },
   "And they call this \"deep\"...": {
-   "pt": "",
+   "pt": "E chamam isso de \"fundo\"...",
    "n": 1,
    "npc": [
     "klom_stonecutter"
    ]
   },
   "Preparation is paramount.": {
-   "pt": "",
+   "pt": "Preparação é fundamental.",
    "n": 1,
    "npc": [
     "klom_stonecutter"
    ]
   },
   "Well, the biggest problem we need to address are the ever charging {subterraneans} around here. And on top of that, there's the threat of the Lost, who quite made themselves at {home} in these parts.": {
-   "pt": "",
+   "pt": "Bem, o maior problema que precisamos resolver são os {subterrâneos} sempre atacando por aqui. E além disso, tem a ameaça dos Lost, que se sentem bem em {casa} nessas partes.",
    "n": 1,
    "npc": [
     "klom_stonecutter"
    ]
   },
   "Maintainin' this whole operation, the dwarven involvement 'course. Don't know about them gnomes but if I ain't gettin' those dwarves in line, there'll be chaos down here. I also oversee the {defences} and {counterattacks}.": {
-   "pt": "",
+   "pt": "Mantendo essa operação toda, o envolvimento dos anões, é claro. Não sei sobre os gnomos, mas se eu não colocar esses anões na linha, vai ter caos aqui embaixo. Também superviso as {defesas} e os {contra-ataques}.",
    "n": 1,
    "npc": [
     "klom_stonecutter"
    ]
   },
   "Klom Stonecutter's the name.": {
-   "pt": "",
+   "pt": "Klom Stonecutter é o nome.",
    "n": 1,
    "npc": [
     "klom_stonecutter"
    ]
   },
   "I'l say I'm blown away but a Klom Stonecutter is not that easily impressed. Still, your got your hands dirt for us and I appreciate that.": {
-   "pt": "",
+   "pt": "Vou dizer que estou impressionado, mas um Klom Stonecutter não se impressiona tão fácil assim. Ainda assim, você sujou as mãos por nós, e eu aprecio isso.",
    "n": 1,
    "npc": [
     "klom_stonecutter"
    ]
   },
   "Alright, good. Those things are strolling about and I ain't gonna have that. If it moves more than two legs, destroy it. If it moves legs and tentacles, destroy it again.": {
-   "pt": "",
+   "pt": "Muito bem, ótimo. Essas coisas ficam vagando por aí, e eu não vou aceitar isso. Se tiver mais de duas pernas se mexendo, destrua. Se tiver pernas e tentáculos se mexendo, destrua de novo.",
    "n": 1,
    "npc": [
     "klom_stonecutter"
    ]
   },
   "So you did it. Well, that won't be the last of 'em but this sure helps our situation down here. Return to me later if you want to help me again!": {
-   "pt": "",
+   "pt": "Então você conseguiu. Bem, esses não vão ser os últimos deles, mas isso com certeza ajuda nossa situação aqui embaixo. Volte mais tarde se quiser me ajudar de novo!",
    "n": 1,
    "npc": [
     "klom_stonecutter"
    ]
   },
   "So you did it. And you even made prisoners, the bonus is yours! Well, that won't be the last of 'em but this sure helps our situation down here. Return to me later if you want to help me again!": {
-   "pt": "",
+   "pt": "Então você conseguiu. E ainda fez prisioneiros, o bônus é seu! Bem, esses não vão ser os últimos deles, mas isso com certeza ajuda nossa situação aqui embaixo. Volte mais tarde se quiser me ajudar de novo!",
    "n": 1,
    "npc": [
     "klom_stonecutter"
    ]
   },
   "Very well, now try to find some of their makeshift homes and tear'em down. There's bound to be some stragglers you can 'persuade' to surrender, eliminate any resistance. Get back here when you're done.": {
-   "pt": "",
+   "pt": "Muito bem, agora tente encontrar alguns dos abrigos improvisados deles e derrubá-los. Deve haver alguns retardatários que você pode 'convencer' a se render, elimine qualquer resistência. Volte aqui quando terminar.",
    "n": 1,
    "npc": [
     "klom_stonecutter"
@@ -36282,49 +36282,49 @@
    ]
   },
   "Here's the situation: a tide of hazardous bugs, the gnomes named them {diremaws}, threatens our base. Then there is some kind of {growth} which seems connected to them somehow. We need to get rid of both.": {
-   "pt": "",
+   "pt": "Aqui está a situação: uma maré de insetos perigosos, que os gnomos chamaram de {diremaws}, ameaça nossa base. Além disso, há algum tipo de {crescimento} que parece estar conectado a eles de alguma forma. Precisamos nos livrar dos dois.",
    "n": 1,
    "npc": [
     "lardoc_bashsmite"
    ]
   },
   "Bashsmite. That's all you need to know.": {
-   "pt": "",
+   "pt": "Bashsmite. É tudo que você precisa saber.",
    "n": 1,
    "npc": [
     "lardoc_bashsmite"
    ]
   },
   "You got rid of a lot of corpses, very good. Now we have a realistic chance of pushing them back! Return to me later for more work if you want.": {
-   "pt": "",
+   "pt": "Você se livrou de muitos cadáveres, muito bem. Agora temos uma chance real de empurrá-los para trás! Volte mais tarde para mais trabalho, se quiser.",
    "n": 1,
    "npc": [
     "lardoc_bashsmite"
    ]
   },
   "Noted. Get one of the gnomish devices from the container next to me and 'use' it on any diremaw corpses to effectively neutralise them. At least the gnomes told me this will work - good luck!": {
-   "pt": "",
+   "pt": "Anotado. Pegue um dos dispositivos gnomos no container ao meu lado e 'use' em qualquer cadáver de diremaw para neutralizá-los de fato. Pelo menos foi o que os gnomos me disseram que vai funcionar - boa sorte!",
    "n": 1,
    "npc": [
     "lardoc_bashsmite"
    ]
   },
   "You did a great job out there, the stuff will continue to grow, however. Return to me later for more work.": {
-   "pt": "",
+   "pt": "Você fez um ótimo trabalho lá fora, mas aquilo vai continuar crescendo. Volte mais tarde para mais trabalho.",
    "n": 1,
    "npc": [
     "lardoc_bashsmite"
    ]
   },
   "Noted. Now, get down there and rain some fire on them.": {
-   "pt": "",
+   "pt": "Anotado. Agora, desça até lá e chova fogo sobre eles.",
    "n": 1,
    "npc": [
     "lardoc_bashsmite"
    ]
   },
   "Since you are obviously not one of my relatives who pays me a long overdue visit, we should get {work} right away. We'll see if you can prove your {worth} to our alliance.": {
-   "pt": "",
+   "pt": "Já que obviamente você não é um dos meus parentes me fazendo uma visita há muito atrasada, deveríamos ir direto ao {trabalho}. Vamos ver se você consegue provar seu {valor} para nossa aliança.",
    "n": 1,
    "npc": [
     "lardoc_bashsmite"
@@ -56572,7 +56572,7 @@
    "n": 13
   },
   "blue valley": {
-   "pt": "",
+   "pt": "Blue Valley",
    "n": 13
   },
   "here": {
@@ -56652,7 +56652,7 @@
    "n": 11
   },
   "snake": {
-   "pt": "",
+   "pt": "snake",
    "n": 11
   },
   "deposit": {
@@ -56780,7 +56780,7 @@
    "n": 8
   },
   "merudri": {
-   "pt": "",
+   "pt": "Merudri",
    "n": 8
   },
   "vega": {
@@ -57276,7 +57276,7 @@
    "n": 4
   },
   "three-fold path": {
-   "pt": "",
+   "pt": "Three-Fold Path",
    "n": 4
   },
   "adventures": {
@@ -57968,11 +57968,11 @@
    "n": 3
   },
   "left": {
-   "pt": "",
+   "pt": "resta",
    "n": 3
   },
   "apes": {
-   "pt": "",
+   "pt": "macacos",
    "n": 3
   },
   "tactical": {
@@ -58224,15 +58224,15 @@
    "n": 2
   },
   "seeker": {
-   "pt": "",
+   "pt": "seeker",
    "n": 2
   },
   "monks": {
-   "pt": "",
+   "pt": "monks",
    "n": 2
   },
   "serenity": {
-   "pt": "",
+   "pt": "serenidade",
    "n": 2
   },
   "explorer": {
@@ -58684,31 +58684,31 @@
    "n": 2
   },
   "guardians": {
-   "pt": "",
+   "pt": "guardiões",
    "n": 2
   },
   "secrets": {
-   "pt": "",
+   "pt": "segredos",
    "n": 2
   },
   "lore": {
-   "pt": "",
+   "pt": "conhecimento",
    "n": 2
   },
   "relics": {
-   "pt": "",
+   "pt": "relíquias",
    "n": 2
   },
   "redeem": {
-   "pt": "",
+   "pt": "redimir",
    "n": 2
   },
   "birthright": {
-   "pt": "",
+   "pt": "direito de nascença",
    "n": 2
   },
   "mortal": {
-   "pt": "",
+   "pt": "mortal",
    "n": 2
   },
   "zalamon": {
@@ -58972,15 +58972,15 @@
    "n": 2
   },
   "defences": {
-   "pt": "",
+   "pt": "defesas",
    "n": 2
   },
   "counterattacks": {
-   "pt": "",
+   "pt": "contra-ataques",
    "n": 2
   },
   "worth": {
-   "pt": "",
+   "pt": "valor",
    "n": 2
   },
   "peace": {
@@ -59364,11 +59364,11 @@
    "n": 2
   },
   "pomegranates": {
-   "pt": "",
+   "pt": "romãs",
    "n": 2
   },
   "ice shield": {
-   "pt": "",
+   "pt": "ice shield",
    "n": 2
   },
   "new": {
@@ -59580,11 +59580,11 @@
    "n": 1
   },
   "purpose": {
-   "pt": "",
+   "pt": "propósito",
    "n": 1
   },
   "invitation": {
-   "pt": "",
+   "pt": "convite",
    "n": 1
   },
   "cyclopses": {
@@ -60400,15 +60400,15 @@
    "n": 1
   },
   "ordnance": {
-   "pt": "",
+   "pt": "armamento",
    "n": 1
   },
   "charting": {
-   "pt": "",
+   "pt": "mapear",
    "n": 1
   },
   "measurements": {
-   "pt": "",
+   "pt": "medições",
    "n": 1
   },
   "efforts": {
@@ -60780,11 +60780,11 @@
    "n": 1
   },
   "subterraneans": {
-   "pt": "",
+   "pt": "subterrâneos",
    "n": 1
   },
   "home": {
-   "pt": "",
+   "pt": "casa",
    "n": 1
   },
   "brotherhood of bones": {
@@ -60792,11 +60792,11 @@
    "n": 1
   },
   "diremaws": {
-   "pt": "",
+   "pt": "diremaws",
    "n": 1
   },
   "growth": {
-   "pt": "",
+   "pt": "crescimento",
    "n": 1
   },
   "little men": {
@@ -62347,6 +62347,10 @@
   },
   "promote": {
    "pt": "promovê-lo",
+   "n": 0
+  },
+  "worthy": {
+   "pt": "dignos",
    "n": 0
   }
  }
