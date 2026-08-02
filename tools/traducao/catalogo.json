@@ -5324,7 +5324,7 @@
    ]
   },
   "I am Maris, Captain of this ship.": {
-   "pt": "",
+   "pt": "Sou Maris, capitã deste navio.",
    "n": 5,
    "npc": [
     "maris",
@@ -7010,7 +7010,7 @@
    ]
   },
   "Alright then!": {
-   "pt": "",
+   "pt": "Muito bem, então!",
    "n": 3,
    "npc": [
     "maris",
@@ -7019,7 +7019,7 @@
    ]
   },
   "Yeah, bye or whatever.": {
-   "pt": "",
+   "pt": "É, tchau ou lá o que for.",
    "n": 3,
    "npc": [
     "maris",
@@ -10805,7 +10805,7 @@
    ]
   },
   "Do you want go to": {
-   "pt": "",
+   "pt": "Você quer ir para",
    "n": 2,
    "npc": [
     "maris_fenrock",
@@ -10813,14 +10813,14 @@
    ]
   },
   "I can take you to {Yalahar} or {Mistrock}!": {
-   "pt": "",
+   "pt": "Posso lhe levar até {Yalahar} ou {Mistrock}!",
    "n": 2,
    "npc": [
     "maris_fenrock"
    ]
   },
   "Oh, you're still alive. Hello, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Ah, você ainda está vivo. Olá, |PLAYERNAME|.",
    "n": 2,
    "npc": [
     "maris_fenrock",
@@ -12186,7 +12186,7 @@
    ]
   },
   "You need permission to travel to.": {
-   "pt": "",
+   "pt": "Você precizza de permizzão para viajar até.",
    "n": 2,
    "npc": [
     "zurak",
@@ -12194,7 +12194,7 @@
    ]
   },
   "Zzoftzzkinzz zzo full of fear.": {
-   "pt": "",
+   "pt": "Zzoftzzkinzz tão cheiozz de medo.",
    "n": 2,
    "npc": [
     "zurak",
@@ -37353,28 +37353,28 @@
    ]
   },
   "Hold your tongue.": {
-   "pt": "",
+   "pt": "Segure a língua.",
    "n": 1,
    "npc": [
     "lisander"
    ]
   },
   "A cookie? Sure, is it for free?": {
-   "pt": "",
+   "pt": "Um biscoito? Claro, é de graça?",
    "n": 1,
    "npc": [
     "lisander"
    ]
   },
   "Whatever you have there, I think I don't want it.": {
-   "pt": "",
+   "pt": "Seja lá o que você tem aí, acho que não quero.",
    "n": 1,
    "npc": [
     "lisander"
    ]
   },
   "I'd rather be left in {peace}. Keep it short.": {
-   "pt": "",
+   "pt": "Prefiro ser deixado em {paz}. Seja breve.",
    "n": 1,
    "npc": [
     "lisander"
@@ -47034,28 +47034,28 @@
    ]
   },
   "There's something about these words which makes me feel awkward. Or maybe it's you who causes that feeling. You better get lost.": {
-   "pt": "",
+   "pt": "Tem algo nessas palavras que me deixa sem jeito. Ou talvez seja você que causa essa sensação. É melhor você sumir.",
    "n": 1,
    "npc": [
     "serafin"
    ]
   },
   "Oh, no I don't sell cookies. Or, do you mean you'd like to give me one?": {
-   "pt": "",
+   "pt": "Ah, não, não vendo biscoitos. Ou você quer dizer que gostaria de me dar um?",
    "n": 1,
    "npc": [
     "serafin"
    ]
   },
   "COUGH?! What kind of a mean trick is that? Get out of my shop!": {
-   "pt": "",
+   "pt": "TOSSE?! Que tipo de brincadeira mesquinha é essa? Saia da minha loja!",
    "n": 1,
    "npc": [
     "serafin"
    ]
   },
   "Welcome to my fruit and vegetable store, |PLAYERNAME|! Ask me for a {trade} if you'd like to see my wares.": {
-   "pt": "",
+   "pt": "Bem-vindo à minha loja de frutas e verduras, |PLAYERNAME|! Me peça para {negociar} se quiser ver minhas mercadorias.",
    "n": 1,
    "npc": [
     "serafin"
@@ -55126,21 +55126,21 @@
    ]
   },
   "You want trip to Izzle of Zztrife?": {
-   "pt": "",
+   "pt": "Você quer viagem para a Izzla de Zztrife?",
    "n": 1,
    "npc": [
     "zurak"
    ]
   },
   "It'zz your doom you travel to.": {
-   "pt": "",
+   "pt": "É a zzua perdição que você vai vizzitar.",
    "n": 1,
    "npc": [
     "zurak"
    ]
   },
   "Me zzimple ferryman. I arrange {trip} to Izzle of Zztrife.": {
-   "pt": "",
+   "pt": "Eu zzou zzimplez barqueiro. Eu arranjo {viagem} para a Izzla de Zztrife.",
    "n": 1,
    "npc": [
     "zurak"
@@ -56620,7 +56620,7 @@
    "n": 12
   },
   "trip": {
-   "pt": "",
+   "pt": "viagem",
    "n": 12
   },
   "gray island": {
@@ -58984,7 +58984,7 @@
    "n": 2
   },
   "peace": {
-   "pt": "",
+   "pt": "paz",
    "n": 2
   },
   "torches": {
