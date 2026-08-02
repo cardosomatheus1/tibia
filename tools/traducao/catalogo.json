@@ -4846,7 +4846,7 @@
    ]
   },
   "Asha Thrazi, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Asha Thrazi, |PLAYERNAME|!",
    "n": 6,
    "npc": [
     "edala",
@@ -5093,7 +5093,7 @@
    ]
   },
   "Ashari, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Ashari, |PLAYERNAME|.",
    "n": 5,
    "npc": [
     "anerui",
@@ -5199,7 +5199,7 @@
    ]
   },
   "Where do you want to go? To {Thais}, {Carlin}, {Venore}, {Yalahar}, {Edron} or {Gray Island}?": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Thais}, {Carlin}, {Venore}, {Yalahar}, {Edron} ou {Gray Island}?",
    "n": 5,
    "npc": [
     "captain_seagull"
@@ -5554,7 +5554,7 @@
    ]
   },
   "I'm not sailing there. This route is afflicted by a ghost ship! However I've heard that Captain Fearless from Venore sails there.": {
-   "pt": "",
+   "pt": "Não navego para lá. Essa rota é assombrada por um ghost ship! Mas ouvi dizer que o Captain Fearless de Venore navega até lá.",
    "n": 4,
    "npc": [
     "captain_greyhound",
@@ -6398,7 +6398,7 @@
    ]
   },
   "I'm sorry, but we don't serve this route.": {
-   "pt": "",
+   "pt": "Sinto muito, mas não atendemos essa rota.",
    "n": 3,
    "npc": [
     "captain_seagull"
@@ -6514,7 +6514,7 @@
    ]
   },
   "Would you like to receive that protection for a sacrifice of |BLESSCOST| gold, child?": {
-   "pt": "",
+   "pt": "Gostaria de receber essa proteção pelo sacrifício de |BLESSCOST| gold, criança?",
    "n": 3,
    "npc": [
     "edala",
@@ -16521,28 +16521,28 @@
    ]
   },
   "Welcome to Ab'Dendriel's store for general goods.": {
-   "pt": "",
+   "pt": "Bem-vindo à loja de produtos gerais de Ab'Dendriel.",
    "n": 1,
    "npc": [
     "bashira"
    ]
   },
   "Welcome, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "bashira"
    ]
   },
   "Good Bye, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Até logo, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "bashira"
    ]
   },
   "May God show you the path, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Que Deus lhe mostre o caminho, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "bashira"
@@ -19706,21 +19706,21 @@
    ]
   },
   "My name is Captain Seagull from the Royal Tibia Line.": {
-   "pt": "",
+   "pt": "Meu nome é Captain Seagull, da Royal Tibia Line.",
    "n": 1,
    "npc": [
     "captain_seagull"
    ]
   },
   "WWhere do you want to go? To {Thais}, {Carlin}, {Venore}, {Yalahar}, {Edron} or {Gray Island}?": {
-   "pt": "",
+   "pt": "PPara onde você quer ir? Para {Thais}, {Carlin}, {Venore}, {Yalahar}, {Edron} ou {Gray Island}?",
    "n": 1,
    "npc": [
     "captain_seagull"
    ]
   },
   "This is Ab'Dendriel. Where do you want to go?": {
-   "pt": "",
+   "pt": "Isto é Ab'Dendriel. Para onde você quer ir?",
    "n": 1,
    "npc": [
     "captain_seagull"
@@ -23808,7 +23808,7 @@
    ]
   },
   "So receive the fire of the suns, pilgrim.": {
-   "pt": "",
+   "pt": "Então receba o fogo dos sóis, peregrino.",
    "n": 1,
    "npc": [
     "edala"
@@ -26174,56 +26174,56 @@
    ]
   },
   "Dark places can be treacherous without proper light.": {
-   "pt": "",
+   "pt": "Lugares escuros podem ser traiçoeiros sem luz adequada.",
    "n": 1,
    "npc": [
     "faluae"
    ]
   },
   "Demons and other fiends are best hunted with this spell.": {
-   "pt": "",
+   "pt": "Demônios e outros seres malignos se caçam melhor com esta magia.",
    "n": 1,
    "npc": [
     "faluae"
    ]
   },
   "Finding friends or enemies can be useful.": {
-   "pt": "",
+   "pt": "Encontrar amigos ou inimigos pode ser útil.",
    "n": 1,
    "npc": [
     "faluae"
    ]
   },
   "Create nourishment from nature.": {
-   "pt": "",
+   "pt": "Crie alimento a partir da natureza.",
    "n": 1,
    "npc": [
     "faluae"
    ]
   },
   "You will need light to explore dark places.": {
-   "pt": "",
+   "pt": "Você vai precisar de luz para explorar lugares escuros.",
    "n": 1,
    "npc": [
     "faluae"
    ]
   },
   "I can teach you {support} spells. What kind of spell do you wish to learn? I can also tell you which spells are available at your {level}.": {
-   "pt": "",
+   "pt": "Posso lhe ensinar magias de {suporte}. Que tipo de magia deseja aprender? Também posso lhe dizer quais magias estão disponíveis no seu {level}.",
    "n": 1,
    "npc": [
     "faluae"
    ]
   },
   "My support spells are: {Find Fiend}, {Find Person}, {Food}, {Great Light} and {Light}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Find Fiend}, {Find Person}, {Food}, {Great Light} e {Light}.",
    "n": 1,
    "npc": [
     "faluae"
    ]
   },
   "I have spells for level {8}, {13}, {14} and {25}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {8}, {13}, {14} e {25}.",
    "n": 1,
    "npc": [
     "faluae"
@@ -30290,56 +30290,56 @@
    ]
   },
   "Hello, is this your first visit to Ab'Dendriel? I can show you around a little.": {
-   "pt": "",
+   "pt": "Olá, esta é sua primeira visita a Ab'Dendriel? Posso lhe mostrar um pouco os arredores.",
    "n": 1,
    "npc": [
     "guide_thelandil"
    ]
   },
   "If you want to know something about the status of this world, talk to me.": {
-   "pt": "",
+   "pt": "Se quiser saber algo sobre o estado deste mundo, fale comigo.",
    "n": 1,
    "npc": [
     "guide_thelandil"
    ]
   },
   "The temple is built around the elves' holy tree. You can find it north of this harbour.": {
-   "pt": "",
+   "pt": "O templo é construído ao redor da árvore sagrada dos elfos. Você o encontra ao norte deste porto.",
    "n": 1,
    "npc": [
     "guide_thelandil"
    ]
   },
   "Finarfin is in charge of the bank. You can find him on the lowest floor of the depot.": {
-   "pt": "",
+   "pt": "Finarfin cuida do banco. Você o encontra no andar mais baixo do depot.",
    "n": 1,
    "npc": [
     "guide_thelandil"
    ]
   },
   "You can buy weapons, armor, tools, gems, magical equipment, instruments, furniture, spells and food here.": {
-   "pt": "",
+   "pt": "Você pode comprar armas, armadura, ferramentas, gemas, equipamento mágico, instrumentos, móveis, magias e comida aqui.",
    "n": 1,
    "npc": [
     "guide_thelandil"
    ]
   },
   "The elves have constructed Ab'Dendriel mainly in and on trees. There is also a large underground cave system with shops, a prison and troll caves.": {
-   "pt": "",
+   "pt": "Os elfos construíram Ab'Dendriel principalmente dentro e em cima de árvores. Também há um grande sistema de cavernas subterrâneas com lojas, uma prisão e cavernas de trolls.",
    "n": 1,
    "npc": [
     "guide_thelandil"
    ]
   },
   "Hello there, |PLAYERNAME| and welcome to Ab'Dendriel! Would you like some information and a map guide?": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|, e bem-vindo a Ab'Dendriel! Gostaria de informação e um guia de mapa?",
    "n": 1,
    "npc": [
     "guide_thelandil"
    ]
   },
   "Good bye and enjoy your stay in Ab'Dendriel, |PLAYERNAME|": {
-   "pt": "",
+   "pt": "Até logo, e aproveite sua estadia em Ab'Dendriel, |PLAYERNAME|",
    "n": 1,
    "npc": [
     "guide_thelandil"
@@ -33132,28 +33132,28 @@
    ]
   },
   "My attack spell is: {Lesser Ethereal Spear}.": {
-   "pt": "",
+   "pt": "Minha magia de ataque é: {Lesser Ethereal Spear}.",
    "n": 1,
    "npc": [
     "irea"
    ]
   },
   "My healing spells are: {Divine Healing}.": {
-   "pt": "",
+   "pt": "Minhas magias de cura são: {Divine Healing}.",
    "n": 1,
    "npc": [
     "irea"
    ]
   },
   "My support spells are: {Arrow Call}, {Conjure Arrow} and {Conjure Explosive Arrow}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Arrow Call}, {Conjure Arrow} e {Conjure Explosive Arrow}.",
    "n": 1,
    "npc": [
     "irea"
    ]
   },
   "I have spells for level {1}, {13}, {25} and {35}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {13}, {25} e {35}.",
    "n": 1,
    "npc": [
     "irea"
