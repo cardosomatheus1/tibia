@@ -6991,7 +6991,7 @@
    ]
   },
   "Where do you want to go? To {Nostalgia}, {Horror Village}": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Nostalgia}, {Horror Village}",
    "n": 3,
    "npc": [
     "kendra_thais"
@@ -8156,7 +8156,7 @@
    ]
   },
   "Do you want to rent a horse for one day at a price of 500 gold?": {
-   "pt": "",
+   "pt": "Quer alugar um cavalo por um dia, pelo preço de 500 gold?",
    "n": 2,
    "npc": [
     "appaloosa",
@@ -8164,7 +8164,7 @@
    ]
   },
   "First get rid of those blood stains!": {
-   "pt": "",
+   "pt": "Primeiro se livre dessas manchas de sangue!",
    "n": 2,
    "npc": [
     "appaloosa",
@@ -8172,7 +8172,7 @@
    ]
   },
   "You already have a horse.": {
-   "pt": "",
+   "pt": "Você já tem um cavalo.",
    "n": 2,
    "npc": [
     "appaloosa",
@@ -8180,7 +8180,7 @@
    ]
   },
   "You do not have enough money to rent a horse!": {
-   "pt": "",
+   "pt": "Você não tem dinheiro suficiente para alugar um cavalo!",
    "n": 2,
    "npc": [
     "appaloosa",
@@ -8188,7 +8188,7 @@
    ]
   },
   "I'll give you one of our experienced ones. Take care! Look out for low hanging branches.": {
-   "pt": "",
+   "pt": "Vou lhe dar um dos nossos mais experientes. Cuidado! Fique de olho em galho baixo.",
    "n": 2,
    "npc": [
     "appaloosa",
@@ -8196,7 +8196,7 @@
    ]
   },
   "Salutations, |PLAYERNAME| I guess you are here for the {horses}.": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|. Imagino que esteja aqui pelos {cavalos}.",
    "n": 2,
    "npc": [
     "appaloosa",
@@ -9834,7 +9834,7 @@
    ]
   },
   "Have a look. Most furniture comes in handy kits. Just use them in your house to assemble the furniture. Do you want to see only a certain type of furniture?": {
-   "pt": "",
+   "pt": "Dê uma olhada. A maioria dos móveis vem em kits práticos. É só usá-los na sua casa para montar o móvel. Quer ver só um tipo específico de móvel?",
    "n": 2,
    "npc": [
     "feizuhl",
@@ -11103,7 +11103,7 @@
    ]
   },
   "Here you are": {
-   "pt": "",
+   "pt": "Aqui está",
    "n": 2,
    "npc": [
     "ottokar",
@@ -27074,49 +27074,49 @@
    ]
   },
   "Any time's a good time to buy some furniture!": {
-   "pt": "",
+   "pt": "Qualquer hora é boa hora para comprar móveis!",
    "n": 1,
    "npc": [
     "gamon"
    ]
   },
   "Making a stake from a chair? Are you insane??! I won't waste my chairs on you for free! You will have to pay for it, but since I consider your plan a blasphemy, it will cost 5000 gold pieces. Okay?": {
-   "pt": "",
+   "pt": "Fazer uma estaca com uma cadeira? Você é louco??! Não vou desperdiçar minhas cadeiras com você de graça! Vai ter que pagar por isso, mas como considero seu plano uma blasfêmia, vai custar 5000 moedas de ouro. Certo?",
    "n": 1,
    "npc": [
     "gamon"
    ]
   },
   "Argh... my heart aches! Alright... a promise is a promise. Here - take this wooden stake, and now get lost.": {
-   "pt": "",
+   "pt": "Argh... meu coração dói! Tudo bem... promessa é promessa. Tome - fique com esta wooden stake, e agora suma.",
    "n": 1,
    "npc": [
     "gamon"
    ]
   },
   "You can't even pay for that.": {
-   "pt": "",
+   "pt": "Você nem consegue pagar por isso.",
    "n": 1,
    "npc": [
     "gamon"
    ]
   },
   "Phew. No chair-killing.": {
-   "pt": "",
+   "pt": "Ufa. Nada de matar cadeira.",
    "n": 1,
    "npc": [
     "gamon"
    ]
   },
   "Nice to meet you, Mister |PLAYERNAME|! Looking for furniture? You've come to the right place!": {
-   "pt": "",
+   "pt": "Prazer em conhecê-lo, Mister |PLAYERNAME|! Procurando móveis? Você veio ao lugar certo!",
    "n": 1,
    "npc": [
     "gamon"
    ]
   },
   "You'll come back. They all do.": {
-   "pt": "",
+   "pt": "Você vai voltar. Todos voltam.",
    "n": 1,
    "npc": [
     "gamon"
@@ -35481,21 +35481,21 @@
    ]
   },
   "Passages to Nostalgia": {
-   "pt": "",
+   "pt": "Passagens para Nostalgia",
    "n": 1,
    "npc": [
     "kendra_thais"
    ]
   },
   "This is Nostalgia. Where do you want to go?": {
-   "pt": "",
+   "pt": "Isto é Nostalgia. Para onde você quer ir?",
    "n": 1,
    "npc": [
     "kendra_thais"
    ]
   },
   "This is Horror Village. Where do you want to go?": {
-   "pt": "",
+   "pt": "Isto é Horror Village. Para onde você quer ir?",
    "n": 1,
    "npc": [
     "kendra_thais"
@@ -39058,63 +39058,63 @@
    ]
   },
   "No! The hornless have reached my city! BODYGUARDS TO ME!": {
-   "pt": "",
+   "pt": "Não! Os sem-chifre chegaram à minha cidade! GUARDA-COSTAS, A MIM!",
    "n": 1,
    "npc": [
     "markwin"
    ]
   },
   "A letter from my Moohmy?? Do you have a letter from my Moohmy to me?": {
-   "pt": "",
+   "pt": "Uma carta da minha Moohmy?? Você tem uma carta da minha Moohmy para mim?",
    "n": 1,
    "npc": [
     "markwin"
    ]
   },
   "You bring me ... a cookie???": {
-   "pt": "",
+   "pt": "Você me traz ... um biscoito???",
    "n": 1,
    "npc": [
     "markwin"
    ]
   },
   "Uhm, well thank you, hornless being.": {
-   "pt": "",
+   "pt": "Uhm, bem, obrigado, ser sem-chifre.",
    "n": 1,
    "npc": [
     "markwin"
    ]
   },
   "I understand this as a peace-offering, human ... UNGH ... THIS IS AN OUTRAGE! THIS MEANS WAR!!!": {
-   "pt": "",
+   "pt": "Entendo isso como uma oferta de paz, humano ... UNGH ... ISTO É UM ULTRAJE! ISTO SIGNIFICA GUERRA!!!",
    "n": 1,
    "npc": [
     "markwin"
    ]
   },
   "Hm ... good bye.": {
-   "pt": "",
+   "pt": "Hm ... até logo.",
    "n": 1,
    "npc": [
     "markwin"
    ]
   },
   "Intruder! Guards, take him down!": {
-   "pt": "",
+   "pt": "Intruso! Guardas, derrubem ele!",
    "n": 1,
    "npc": [
     "markwin"
    ]
   },
   "Well ... you defeated my guards! Now everything is over! I guess I will have to answer your questions now.": {
-   "pt": "",
+   "pt": "Bem ... você derrotou meus guardas! Agora está tudo acabado! Acho que vou ter que responder suas perguntas agora.",
    "n": 1,
    "npc": [
     "markwin"
    ]
   },
   "Oh its you again. What du you want, hornless messenger?": {
-   "pt": "",
+   "pt": "Ah, é você de novo. O que você quer, mensageiro sem-chifre?",
    "n": 1,
    "npc": [
     "markwin"
@@ -43307,7 +43307,7 @@
    ]
   },
   "We can bring you to Venore with one of our coaches for 125 gold. Are you interested?": {
-   "pt": "",
+   "pt": "Podemos lhe levar a Venore numa das nossas carruagens por 125 gold. Tem interesse?",
    "n": 1,
    "npc": [
     "palomino"
@@ -48900,56 +48900,56 @@
    ]
   },
   "I will give the key to the crypt only to the closest followers of my master. Would you like me to test you?": {
-   "pt": "",
+   "pt": "Só vou dar a chave da cripta aos seguidores mais próximos do meu mestre. Gostaria que eu o testasse?",
    "n": 1,
    "npc": [
     "skjaar"
    ]
   },
   "Before we start I must ask you for a small donation of 1000 gold coins. Are you willing to pay 1000 gold coins for the test?": {
-   "pt": "",
+   "pt": "Antes de começarmos, preciso lhe pedir uma pequena doação de 1000 gold coins. Está disposto a pagar 1000 gold coins pelo teste?",
    "n": 1,
    "npc": [
     "skjaar"
    ]
   },
   "All right then. Here comes the first question. What was the name of Dago's favourite pet?": {
-   "pt": "",
+   "pt": "Muito bem, então. Lá vai a primeira pergunta. Qual era o nome do bicho de estimação favorito de Dago?",
    "n": 1,
    "npc": [
     "skjaar"
    ]
   },
   "Perhaps you knew him after all. Tell me - how many fingers did he have when he died?": {
-   "pt": "",
+   "pt": "Talvez você o tenha conhecido, afinal. Me diga - quantos dedos ele tinha quando morreu?",
    "n": 1,
    "npc": [
     "skjaar"
    ]
   },
   "Also true. But can you also tell me the colour of the deamons in which master specialized?": {
-   "pt": "",
+   "pt": "Também verdade. Mas você também pode me dizer a cor dos demônios em que o mestre se especializou?",
    "n": 1,
    "npc": [
     "skjaar"
    ]
   },
   "It seems you are worthy after all. Do you want the key to the crypt?": {
-   "pt": "",
+   "pt": "Parece que você é digno, afinal. Quer a chave da cripta?",
    "n": 1,
    "npc": [
     "skjaar"
    ]
   },
   "Another creature who believes thinks physical strength is more important than wisdom! Why are you disturbing me?": {
-   "pt": "",
+   "pt": "Mais uma criatura que acha que força física é mais importante que sabedoria! Por que está me incomodando?",
    "n": 1,
    "npc": [
     "skjaar"
    ]
   },
   "Run away, unworthy |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Fuja, indigno |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "skjaar"
@@ -58386,7 +58386,7 @@
    "n": 2
   },
   "horses": {
-   "pt": "",
+   "pt": "cavalos",
    "n": 2
   },
   "pits of inferno": {
