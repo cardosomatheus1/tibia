@@ -7039,7 +7039,7 @@
    ]
   },
   "My attack spells are: {Apprentice's Strike}, {Chill Out}, {Creature Illusion}, {Ice Wave}, {Invisibility}, {Mud Attack} and {Terra Wave}.": {
-   "pt": "",
+   "pt": "Minhas magias de ataque são: {Apprentice's Strike}, {Chill Out}, {Creature Illusion}, {Ice Wave}, {Invisibility}, {Mud Attack} e {Terra Wave}.",
    "n": 3,
    "npc": [
     "marvik",
@@ -7048,7 +7048,7 @@
    ]
   },
   "My support spells are: {Convince Creature}, {Find Fiend}, {Find Person}, {Food}, {Great Light}, {Light}, {Magic Shield} and {Summon Creature}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Convince Creature}, {Find Fiend}, {Find Person}, {Food}, {Great Light}, {Light}, {Magic Shield} e {Summon Creature}.",
    "n": 3,
    "npc": [
     "marvik",
@@ -7057,7 +7057,7 @@
    ]
   },
   "My rune spells are: {Avalanche} Rune, {Chameleon} Rune, {Cure Poison Rune}, {Destroy Field} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Explosion} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Heavy Magic Missile} Rune, {Intense Healing Rune}, {Light Magic Missile} Rune, {Poison Field} Rune, {Poison Wall} Rune, {Stalagmite} Rune and {Ultimate Healing Rune}.": {
-   "pt": "",
+   "pt": "Minhas magias de rune são: {Avalanche} Rune, {Chameleon} Rune, {Cure Poison Rune}, {Destroy Field} Rune, {Energy Field} Rune, {Energy Wall} Rune, {Explosion} Rune, {Fire Bomb} Rune, {Fire Field} Rune, {Fire Wall} Rune, {Heavy Magic Missile} Rune, {Intense Healing Rune}, {Light Magic Missile} Rune, {Poison Field} Rune, {Poison Wall} Rune, {Stalagmite} Rune e {Ultimate Healing Rune}.",
    "n": 3,
    "npc": [
     "marvik",
@@ -7066,7 +7066,7 @@
    ]
   },
   "I have spells for level {1}, {8}, {10}, {13}, {14}, {15}, {16}, {17}, {18}, {20}, {23}, {24}, {25}, {27}, {29}, {30}, {31}, {33}, {35}, {38} and {41}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {10}, {13}, {14}, {15}, {16}, {17}, {18}, {20}, {23}, {24}, {25}, {27}, {29}, {30}, {31}, {33}, {35}, {38} e {41}.",
    "n": 3,
    "npc": [
     "marvik",
@@ -10522,14 +10522,14 @@
    ]
   },
   "Besides my various {duties} in the temple, I also take care of visitors. Well, I would but right now I can't get my mind of how my {father}'s doing. I am sorry.": {
-   "pt": "",
+   "pt": "Além dos meus vários {deveres} no templo, também cuido dos visitantes. Bem, cuidaria, mas agora não consigo tirar da cabeça como meu {pai} está. Sinto muito.",
    "n": 2,
    "npc": [
     "ivalisse"
    ]
   },
   "I help linking the portals of this temple to other ancient sites of the {Astral Shapers}.": {
-   "pt": "",
+   "pt": "Eu ajudo a ligar os portais deste templo a outros sítios antigos dos {Astral Shapers}.",
    "n": 2,
    "npc": [
     "ivalisse"
@@ -33619,63 +33619,63 @@
    ]
   },
   "My {father}, can you tell me if he's alright?": {
-   "pt": "",
+   "pt": "Meu {pai}, você pode me dizer se ele está bem?",
    "n": 1,
    "npc": [
     "ivalisse"
    ]
   },
   "Alright then, you are very welcome to explore the temple!": {
-   "pt": "",
+   "pt": "Muito bem, então, você é muito bem-vindo para explorar o templo!",
    "n": 1,
    "npc": [
     "ivalisse"
    ]
   },
   "My name is Ivalisse.": {
-   "pt": "",
+   "pt": "Meu nome é Ivalisse.",
    "n": 1,
    "npc": [
     "ivalisse"
    ]
   },
   "There is always time to make a change.": {
-   "pt": "",
+   "pt": "Sempre há tempo para fazer uma mudança.",
    "n": 1,
    "npc": [
     "ivalisse"
    ]
   },
   "Well, I hope you like it here. We tried to rebuild in the {Shaper}'s will. I am a bit preoccupied at the moment because of the absence of my {father}. I may not be the best of help currently, sorry.": {
-   "pt": "",
+   "pt": "Bem, espero que goste daqui. Tentamos reconstruir segundo a vontade do {Shaper}. Estou um pouco preocupada no momento por causa da ausência do meu {pai}. Talvez eu não seja de muita ajuda agora, desculpe.",
    "n": 1,
    "npc": [
     "ivalisse"
    ]
   },
   "Well, I hope you like it here. We tried to rebuild in the Shaper's will. I am a bit preoccupied at the moment because of the absence of my father. I may not be the best of help currently, sorry.": {
-   "pt": "",
+   "pt": "Bem, espero que goste daqui. Tentamos reconstruir segundo a vontade do Shaper. Estou um pouco preocupada no momento por causa da ausência do meu pai. Talvez eu não seja de muita ajuda agora, desculpe.",
    "n": 1,
    "npc": [
     "ivalisse"
    ]
   },
   "You would? That's great! Thank you! If you can find my father, tell him I understand and that I really miss him!": {
-   "pt": "",
+   "pt": "Você faria isso? Que ótimo! Obrigada! Se conseguir achar meu pai, diga que eu entendo e que sinto muita falta dele!",
    "n": 1,
    "npc": [
     "ivalisse"
    ]
   },
   "Oh nevermind, I am sorry I asked you for this.": {
-   "pt": "",
+   "pt": "Ah, deixa para lá, desculpe ter lhe pedido isso.",
    "n": 1,
    "npc": [
     "ivalisse"
    ]
   },
   "Hello, worshiper of the Astral Shapers! Welcome to the temple! While you are here to pay tribute, you can also learn something about the ancient art of imbuing.": {
-   "pt": "",
+   "pt": "Olá, devoto dos Astral Shapers! Bem-vindo ao templo! Já que está aqui para prestar tributo, também pode aprender algo sobre a antiga arte do imbuing.",
    "n": 1,
    "npc": [
     "ivalisse"
@@ -41032,21 +41032,21 @@
    ]
   },
   "Here in the whiteflower temple you may receive the blessing of spiritual shielding. But we must ask of you to sacrifice |BLESSCOST| gold. Are you still interested?": {
-   "pt": "",
+   "pt": "Aqui no whiteflower temple você pode receber a bênção do escudo espiritual. Mas precisamos lhe pedir o sacrifício de |BLESSCOST| gold. Ainda tem interesse?",
    "n": 1,
    "npc": [
     "norf"
    ]
   },
   "So receive the shielding of your spirit, pilgrim.": {
-   "pt": "",
+   "pt": "Então receba o escudo do seu espírito, peregrino.",
    "n": 1,
    "npc": [
     "norf"
    ]
   },
   "Welcome, pilgrim. How may I {help} you? Are you in need of {healing}?": {
-   "pt": "",
+   "pt": "Bem-vindo, peregrino. Como posso lhe {ajudar}? Precisa de {cura}?",
    "n": 1,
    "npc": [
     "norf"
@@ -57618,11 +57618,11 @@
    "n": 4
   },
   "father": {
-   "pt": "",
+   "pt": "pai",
    "n": 4
   },
   "duties": {
-   "pt": "",
+   "pt": "deveres",
    "n": 4
   },
   "nomad": {
@@ -62325,6 +62325,10 @@
   },
   "capture": {
    "pt": "capturaram",
+   "n": 0
+  },
+  "help": {
+   "pt": "ajudar",
    "n": 0
   }
  }
