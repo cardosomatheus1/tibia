@@ -5333,7 +5333,7 @@
    ]
   },
   "I can fly you to {Darashia} on {Darama}, to {Kazordoon}, to {Svargrond} on Hrodmir, to {Edron}, to the {Femor Hills}, to {Issavi} or to {Marapur} if you like. Where do you want to go?": {
-   "pt": "",
+   "pt": "Posso levá-lo voando até {Darashia}, em {Darama}, até {Kazordoon}, até {Svargrond}, em Hrodmir, até {Edron}, até {Femor Hills}, até {Issavi} ou até {Marapur}, se quiser. Para onde você quer ir?",
    "n": 5,
    "npc": [
     "melian"
@@ -8737,14 +8737,14 @@
    ]
   },
   "If. You. Bring. Slime. Fungus. Samples. Fro-Fro-Fro-Frrrr*chhhhchrk*From. Other. Tower. You. Must. Be. The. Master. Are. You. There. Master?": {
-   "pt": "",
+   "pt": "Se. Você. Trouxer. Amostras. De. Fungo. Slime. Da-Da-Da-Daaaa*chhhhchrk*Da. Outra. Torre. Você. Deve. Ser. O. Mestre. Está. Aí. Mestre?",
    "n": 2,
    "npc": [
     "broken_servant_sentry"
    ]
   },
   "I. Greet. You. Ma-Ma-Ma-ster! Did. You. Bring. Mo-Mo-Mo-M*chhhhrrrk*ore. Samples. For. Me. To-To-To. Analyse-lyse-lyse?": {
-   "pt": "",
+   "pt": "Eu. Saúdo. Você. Me-Me-Me-stre! Você. Trouxe. Ma-Ma-Ma-M*chhhhrrrk*ais. Amostras. Para. Mim. Pa-Pa-Pa-ra. Analisar-sar-sar?",
    "n": 2,
    "npc": [
     "broken_servant_sentry"
@@ -8774,35 +8774,35 @@
    ]
   },
   "Oh! That sounds fascinating. Have you found a new Tome of Knowledge for me to read?": {
-   "pt": "",
+   "pt": "Ah! Isso parece fascinante. Você encontrou um novo Tome of Knowledge para eu ler?",
    "n": 2,
    "npc": [
     "cael"
    ]
   },
   "I'm sorry I'm busy. Speak with Ongulf to get some missions!": {
-   "pt": "",
+   "pt": "Sinto muito, estou ocupado. Fale com Ongulf para conseguir algumas missões!",
    "n": 2,
    "npc": [
     "cael"
    ]
   },
   "Thank you! I look forward to reading this interesting discovery of yours and learn a few things about {Zao}.": {
-   "pt": "",
+   "pt": "Obrigado! Estou ansioso para ler essa sua descoberta interessante e aprender algumas coisas sobre {Zao}.",
    "n": 2,
    "npc": [
     "cael"
    ]
   },
   "Thank you! Let me reward you with something I stumbled across recently and which might fit your warmaster outfit perfectly.": {
-   "pt": "",
+   "pt": "Obrigado! Deixe-me recompensá-lo com algo que encontrei recentemente por acaso e que pode combinar perfeitamente com seu warmaster outfit.",
    "n": 2,
    "npc": [
     "cael"
    ]
   },
   "You don't have a crest or already have this Outfitaddon.": {
-   "pt": "",
+   "pt": "Você não tem um crest ou já tem esse Outfitaddon.",
    "n": 2,
    "npc": [
     "cael"
@@ -10664,7 +10664,7 @@
    ]
   },
   "We make big ritual soon and learn much about world outside. Me thank you many times for teaching us world. Very wise and adventurous you are!": {
-   "pt": "",
+   "pt": "Nós fazer grande ritual logo e aprender muito sobre mundo de fora. Mim agradecer você muitas vezes por ensinar nós sobre mundo. Muito sábio e aventureiro você é!",
    "n": 2,
    "npc": [
     "lazaran"
@@ -10866,28 +10866,28 @@
    ]
   },
   "What a strange and bizarre continent. I'm glad my landing place is far away from all the mess I've seen from above.": {
-   "pt": "",
+   "pt": "Que continente estranho e bizarro. Fico feliz que meu local de pouso fique longe de toda essa bagunça que vi lá de cima.",
    "n": 2,
    "npc": [
     "melian"
    ]
   },
   "I'm a carpet pilot. I can fly you to the {Femor Hills}, to {Kazordoon}, {Svargrond}, {Edron}, {Darashia}, {Issavi} or {Marapur}.": {
-   "pt": "",
+   "pt": "Sou pilota de tapete voador. Posso levá-lo voando até {Femor Hills}, {Kazordoon}, {Svargrond}, {Edron}, {Darashia}, {Issavi} ou {Marapur}.",
    "n": 2,
    "npc": [
     "melian"
    ]
   },
   "Well, dwarves and their steamboat technology are well and good, but nothing beats flying on a carpet.": {
-   "pt": "",
+   "pt": "Bem, os anões e a tecnologia deles de barco a vapor até que são boas, mas nada supera voar num tapete.",
    "n": 2,
    "npc": [
     "melian"
    ]
   },
   "Greetings, traveller |PLAYERNAME|. Where do you want me to {fly} you?": {
-   "pt": "",
+   "pt": "Saudações, viajante |PLAYERNAME|. Para onde você quer {voar}?",
    "n": 2,
    "npc": [
     "melian",
@@ -11850,7 +11850,7 @@
    ]
   },
   "The orcs are the bearers of Blogs rage. This makes us the ultimate fighters and the most powerful of all races.": {
-   "pt": "",
+   "pt": "Os orcs são os portadores da fúria de Blog. Isso nos torna os lutadores supremos e os mais poderosos de todas as raças.",
    "n": 2,
    "npc": [
     "the_orc_king"
@@ -18054,14 +18054,14 @@
    ]
   },
   "Thank. I. Will. Start. Analysing. No-No-No-No*chhrrrk*Now.": {
-   "pt": "",
+   "pt": "Obrigado. Eu. Vou. Começar. A. Analisar. Ag-Ag-Ag-Ag*chhrrrk*ora.",
    "n": 1,
    "npc": [
     "broken_servant_sentry"
    ]
   },
   "The Master is-is-is-is de-ad. Plea*chrrrrchk*se. Be. In. Mourning.": {
-   "pt": "",
+   "pt": "O Mestre está-tá-tá-tá mo-morto. Por. Fa*chrrrrchk*vor. Fique. De. Luto.",
    "n": 1,
    "npc": [
     "broken_servant_sentry"
@@ -18551,217 +18551,217 @@
    ]
   },
   "I wish I could learn more about this strange world.": {
-   "pt": "",
+   "pt": "Eu gostaria de aprender mais sobre este mundo estranho.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Those different cultures are amazing.": {
-   "pt": "",
+   "pt": "Essas culturas diferentes são incríveis.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "What an interesting continent.": {
-   "pt": "",
+   "pt": "Que continente interessante.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Oh! That sounds fascinating. Have you found a Tome of Knowledge for me to read?": {
-   "pt": "",
+   "pt": "Ah! Isso parece fascinante. Você encontrou um Tome of Knowledge para eu ler?",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Oh! That sounds fascinating. Have you found a Tome of Knowledge for me to read? I have the feeling though that I can only share some of my experience with you now. Is that alright with you?": {
-   "pt": "",
+   "pt": "Ah! Isso parece fascinante. Você encontrou um Tome of Knowledge para eu ler? Tenho a impressão, porém, de que só posso compartilhar um pouco da minha experiência com você agora. Tudo bem assim?",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Thank you! I look forward to reading this interesting discovery of yours and learn a few things about {Zao}. Let me share some experience with you.": {
-   "pt": "",
+   "pt": "Obrigado! Estou ansioso para ler essa sua descoberta interessante e aprender algumas coisas sobre {Zao}. Deixe-me compartilhar um pouco de experiência com você.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "You dont have one!": {
-   "pt": "",
+   "pt": "Você não tem um!",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "I've learnt more about the {lizard} culture. It's really fascinating.": {
-   "pt": "",
+   "pt": "Aprendi mais sobre a cultura dos {lagartos}. É realmente fascinante.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "I've learnt more about the {minotaur} culture. It's really fascinating.": {
-   "pt": "",
+   "pt": "Aprendi mais sobre a cultura dos {minotauros}. É realmente fascinante.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "I've learnt more about the {Draken} culture by now. It's really fascinating.": {
-   "pt": "",
+   "pt": "Já aprendi mais sobre a cultura {Draken}. É realmente fascinante.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "I've learnt something interesting about a certain {food} that the lizardmen apparently prepare.": {
-   "pt": "",
+   "pt": "Aprendi algo interessante sobre uma certa {comida} que os lizardmen aparentemente preparam.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "I've learnt something interesting about a city called {Zzaion}.": {
-   "pt": "",
+   "pt": "Aprendi algo interessante sobre uma cidade chamada {Zzaion}.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "I've learnt a few things about the primitive {human} culture on this continent.": {
-   "pt": "",
+   "pt": "Aprendi algumas coisas sobre a cultura {humana} primitiva deste continente.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "I've learnt something interesting about the Zao {steppe}.": {
-   "pt": "",
+   "pt": "Aprendi algo interessante sobre a {estepe} de Zao.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "I've learnt a few things about an illness, or how I prefer to call it, {corruption} of this land.": {
-   "pt": "",
+   "pt": "Aprendi algumas coisas sobre uma doença, ou como prefiro chamar, a {corrupção} desta terra.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "I've learnt something interesting about the Draken {origin}.": {
-   "pt": "",
+   "pt": "Aprendi algo interessante sobre a {origem} dos Draken.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "This book actually IS about Zao. Not about the continent, but about the mythical {founder} of the lizard dynasty.": {
-   "pt": "",
+   "pt": "Este livro na verdade É sobre Zao. Não sobre o continente, mas sobre o mítico {fundador} da dinastia dos lagartos.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "I've learnt something interesting about {dragons} and their symbolism.": {
-   "pt": "",
+   "pt": "Aprendi algo interessante sobre {dragões} e seu simbolismo.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "The last tome contained a lot of information about status symbols and insignia - such as {thrones} - and reveals some of the power structures in Zao.": {
-   "pt": "",
+   "pt": "O último tomo continha muitas informações sobre símbolos de status e insígnias - como {tronos} - e revela algumas das estruturas de poder em Zao.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "I've learnt many things from your books. Still, I guess that's just a fragment of what I could still discover about this interesting continent.": {
-   "pt": "",
+   "pt": "Aprendi muitas coisas com seus livros. Ainda assim, imagino que isso seja só um fragmento do que eu ainda poderia descobrir sobre este continente interessante.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Have you brought me a red lantern for a dragon statue?": {
-   "pt": "",
+   "pt": "Você me trouxe uma red lantern para uma estátua de dragão?",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Let's put this little lantern here.. there you go. I wrap it up for you, just unwrap it in your house again!": {
-   "pt": "",
+   "pt": "Vamos colocar essa lanternazinha aqui.. pronto. Vou embrulhar para você, é só desembrulhar de novo na sua casa!",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "You don't have a red lantern.": {
-   "pt": "",
+   "pt": "Você não tem uma red lantern.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Have you brought me a piece of red cloth? I can make that throne for you if you want. But remember, I won't do that all the time - so try and don't destroy it, okay?": {
-   "pt": "",
+   "pt": "Você me trouxe um pedaço de red cloth? Posso fazer aquele trono para você, se quiser. Mas lembre-se, não vou fazer isso o tempo todo - então tente não destruí-lo, ok?",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Let's put this cloth over the seat.. there you go. I wrap it up for you, just unwrap it in your house again!": {
-   "pt": "",
+   "pt": "Vamos colocar esse tecido sobre o assento.. pronto. Vou embrulhar para você, é só desembrulhar de novo na sua casa!",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "You don't have a red cloth.": {
-   "pt": "",
+   "pt": "Você não tem um red cloth.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Oh, wow! Now THAT is an interesting relic! Can I have that serpent crest?": {
-   "pt": "",
+   "pt": "Ah, uau! Agora ISSO sim é uma relíquia interessante! Posso ficar com esse serpent crest?",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Oh, wow! Now THAT is an interesting relic! Can I have that tribal crest?": {
-   "pt": "",
+   "pt": "Ah, uau! Agora ISSO sim é uma relíquia interessante! Posso ficar com esse tribal crest?",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "You don't have a Warmaster Outfit or the crest to get the Addons.": {
-   "pt": "",
+   "pt": "Você não tem um Warmaster Outfit ou o crest para conseguir os Addons.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Sorry, I don't have items to trade now.": {
-   "pt": "",
+   "pt": "Desculpe, não tenho itens para negociar agora.",
    "n": 1,
    "npc": [
     "cael"
    ]
   },
   "Greetings, |PLAYERNAME|! You must have come around quite a bit. I'm always interested in learning new things about Zao.": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|! Você deve ter viajado bastante. Estou sempre interessado em aprender coisas novas sobre Zao.",
    "n": 1,
    "npc": [
     "cael"
@@ -25971,7 +25971,7 @@
    ]
   },
   "Hello, |PLAYERNAME| and welcome to my little forge.": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|, e bem-vindo à minha pequena forja.",
    "n": 1,
    "npc": [
     "esrik"
@@ -36331,126 +36331,126 @@
    ]
   },
   "Me people wanting {peace}. No war with others. No war with {little men}. We few. We weak. Need {help}. We not wanting make {war}. No hurt.": {
-   "pt": "",
+   "pt": "Meu povo querendo {paz}. Sem guerra com outros. Sem guerra com {homenzinhos}. Nós poucos. Nós fracos. Precisar {ajuda}. Nós não querendo fazer {guerra}. Sem machucar.",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "Oh! You found holy skull? In bone pile you found?! Thank Pandor you brought! Me can have it back?": {
-   "pt": "",
+   "pt": "Oh! Você achou caveira sagrada? Em pilha de ossos você achou?! Agradeço Pandor que trouxe! Mim pode ter de volta?",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "You say you was to where sun is hot and burning? And where trees grow as high as mountain? And where Fasuon cries white tears? Me can't wait to see!! Can have holy skull back?": {
-   "pt": "",
+   "pt": "Você diz que esteve onde sol é quente e queimando? E onde árvores crescem alto como montanha? E onde Fasuon chora lágrimas brancas? Mim não aguenta esperar para ver!! Pode ter caveira sagrada de volta?",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "We been weak for too long! We prepare for great hunt. But still need many doings! You can help us?": {
-   "pt": "",
+   "pt": "Nós estar fracos por tempo demais! Nós preparar para grande caçada. Mas ainda precisar muitos afazeres! Você pode ajudar nós?",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "You bring us big pot of strange water from little men?": {
-   "pt": "",
+   "pt": "Você trazer nós grande pote de água estranha dos homenzinhos?",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "Me people wanting peace. No war with others. No war with little men.": {
-   "pt": "",
+   "pt": "Meu povo querendo paz. Sem guerra com outros. Sem guerra com homenzinhos.",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "You mean you want help us?": {
-   "pt": "",
+   "pt": "Você quer dizer que quer ajudar nós?",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "You hero of our tribe if bring back holy skull!": {
-   "pt": "",
+   "pt": "Você herói de nossa tribo se trazer de volta caveira sagrada!",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "Me thank you much! All wisdom safe again now.": {
-   "pt": "",
+   "pt": "Mim agradecer muito você! Toda sabedoria segura de novo agora.",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "You do not have it!": {
-   "pt": "",
+   "pt": "Você não tem!",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "Here take holy skull. You bring where you think is good. See as much as possible! See where other people live!": {
-   "pt": "",
+   "pt": "Aqui, pega caveira sagrada. Você leva onde você achar que é bom. Vê o máximo que puder! Vê onde outro povo vive!",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "The skull have not seen all yet!": {
-   "pt": "",
+   "pt": "Caveira não ter visto tudo ainda!",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "We need to calm and make happy gods. Best go to Ulala. She is priest of us and can tell what needs doing.": {
-   "pt": "",
+   "pt": "Nós precisar acalmar e fazer deuses felizes. Melhor ir até Ulala. Ela ser sacerdotisa nossa e pode dizer o que precisar fazer.",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "You do not have the brown strange water!": {
-   "pt": "",
+   "pt": "Você não tem água estranha marrom!",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "Me have many small task, but also big {mission}. You say what want.": {
-   "pt": "",
+   "pt": "Mim ter muita tarefa pequena, mas também grande {missão}. Você diz o que quer.",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "Many mighty monster rule land. We fight. We lose. We flee to mountain to hide.": {
-   "pt": "",
+   "pt": "Muito monstro poderoso governar terra. Nós lutar. Nós perder. Nós fugir para montanha para esconder.",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "We come and see little men. They like us, only very little. They having good weapon and armor, like the greens.": {
-   "pt": "",
+   "pt": "Nós vir e ver homenzinhos. Eles gostar de nós, só muito pouco. Eles tendo boa arma e armadura, como os verdes.",
    "n": 1,
    "npc": [
     "lazaran"
    ]
   },
   "Me greet. You no enemy of tribe.": {
-   "pt": "",
+   "pt": "Mim saudar. Você não inimigo da tribo.",
    "n": 1,
    "npc": [
     "lazaran"
@@ -39327,70 +39327,70 @@
    ]
   },
   "There are many of them to the north and south of this continent. I had thought they only existed on Tiquanda, but I was mistaken.": {
-   "pt": "",
+   "pt": "Há muitos deles ao norte e ao sul deste continente. Eu achava que só existiam em Tiquanda, mas estava enganada.",
    "n": 1,
    "npc": [
     "melian"
    ]
   },
   "I can fly you to {Darashia}, {Edron}, {Issavi}, {Svargrond}, {Kazordoon}, {Femor Hills} or to {Marapur} if you like. Where do you want to go?": {
-   "pt": "",
+   "pt": "Posso levá-lo voando até {Darashia}, {Edron}, {Issavi}, {Svargrond}, {Kazordoon}, {Femor Hills} ou {Marapur}, se quiser. Para onde você quer ir?",
    "n": 1,
    "npc": [
     "melian"
    ]
   },
   "Melian at your service.": {
-   "pt": "",
+   "pt": "Melian, ao seu dispor.",
    "n": 1,
    "npc": [
     "melian"
    ]
   },
   "These mountains don't look friendly. I prefer not staying long inbetween my carpet trips.": {
-   "pt": "",
+   "pt": "Essas montanhas não parecem amigáveis. Prefiro não ficar muito tempo entre minhas viagens de tapete.",
    "n": 1,
    "npc": [
     "melian"
    ]
   },
   "Only licensed carpet pilots are allowed to fly those.": {
-   "pt": "",
+   "pt": "Só pilotos de tapete licenciados têm permissão para voar com eles.",
    "n": 1,
    "npc": [
     "melian"
    ]
   },
   "There's so much green stuff down there that I'm not sure whether there are any, but yes, might be, might be.": {
-   "pt": "",
+   "pt": "Tem tanta coisa verde lá embaixo que não tenho certeza se tem algum, mas sim, pode ser, pode ser.",
    "n": 1,
    "npc": [
     "melian"
    ]
   },
   "That's the name of that dwarven base as far as I know. Got a bit of a pessimistic ring to it if you ask me. Sounds to me like they're starving.": {
-   "pt": "",
+   "pt": "Esse é o nome daquela base anã, pelo que sei. Tem um tom meio pessimista, se quer minha opinião. Para mim, soa como se estivessem passando fome.",
    "n": 1,
    "npc": [
     "melian"
    ]
   },
   "The only humans I've seen on this continent are those that come up to my carpet.": {
-   "pt": "",
+   "pt": "Os únicos humanos que vi neste continente são os que sobem no meu tapete.",
    "n": 1,
    "npc": [
     "melian"
    ]
   },
   "You are probably talking about the {FEMOR hills}.": {
-   "pt": "",
+   "pt": "Você provavelmente está falando das {FEMOR hills}.",
    "n": 1,
    "npc": [
     "melian"
    ]
   },
   "It's 2:55 pm right now. I think I'm five minutes late in my schedule.": {
-   "pt": "",
+   "pt": "Agora são 2:55 pm. Acho que estou cinco minutos atrasada na minha programação.",
    "n": 1,
    "npc": [
     "melian"
@@ -42372,49 +42372,49 @@
    ]
   },
   "Great, another supply ship is due. How is a dwarf supposed to work under these conditions?": {
-   "pt": "",
+   "pt": "Ótimo, mais um navio de suprimentos está para chegar. Como um anão deve trabalhar sob essas condições?",
    "n": 1,
    "npc": [
     "ongulf"
    ]
   },
   "Ah, there's nothing like the sound of hammers in the morning.": {
-   "pt": "",
+   "pt": "Ah, não há nada como o som de martelos pela manhã.",
    "n": 1,
    "npc": [
     "ongulf"
    ]
   },
   "Excellent. Although we have no idea what awaits us in this foreign land, it is always good to know something more about our surroundings.": {
-   "pt": "",
+   "pt": "Excelente. Embora não façamos ideia do que nos espera nesta terra estrangeira, é sempre bom saber um pouco mais sobre os nossos arredores.",
    "n": 1,
    "npc": [
     "ongulf"
    ]
   },
   "That's good news for sure. It will give our operation a new impulse. However, only if there is not some unexpected trouble ahead. Well, we'll talk about that when we discuss your next {mission}.": {
-   "pt": "",
+   "pt": "Isso é uma boa notícia, com certeza. Vai dar um novo impulso à nossa operação. Porém, só se não houver algum problema inesperado pela frente. Bem, falamos sobre isso quando discutirmos sua próxima {missão}.",
    "n": 1,
    "npc": [
     "ongulf"
    ]
   },
   "Shortly after you killed that creature, the others crumbled to dust and stone. I hope this incident does not foreshadow similar problems in our mines. However, for now I have other things to take care of and you have other {missions} to accomplish.": {
-   "pt": "",
+   "pt": "Pouco depois de você matar aquela criatura, as outras desmoronaram em pó e pedra. Espero que este incidente não seja um prenúncio de problemas parecidos nas nossas minas. Porém, por enquanto tenho outras coisas para cuidar e você tem outras {missões} para cumprir.",
    "n": 1,
    "npc": [
     "ongulf"
    ]
   },
   "You did an excellent job! With all this help Farmine will grow and prosper. While we put all available resources into building this base, I have another urgent {mission} for you.": {
-   "pt": "",
+   "pt": "Você fez um excelente trabalho! Com toda essa ajuda, Farmine vai crescer e prosperar. Enquanto colocamos todos os recursos disponíveis na construção desta base, tenho outra {missão} urgente para você.",
    "n": 1,
    "npc": [
     "ongulf"
    ]
   },
   "Hello, |PLAYERNAME|. You've come at a good time for our {project}.": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|. Você chegou num bom momento para o nosso {projeto}.",
    "n": 1,
    "npc": [
     "ongulf"
@@ -44815,35 +44815,35 @@
    ]
   },
   "Well fantastic work, you gathered both samples! Now I can continue my work on the almanach, thank you very much for your help indeed. Can I take a look at my book please?": {
-   "pt": "",
+   "pt": "Bem, trabalho fantástico, você reuniu as duas amostras! Agora posso continuar meu trabalho no almanach, muito obrigado mesmo pela sua ajuda. Posso dar uma olhada no meu livro, por favor?",
    "n": 1,
    "npc": [
     "rabaz"
    ]
   },
   "Yes? Yes! That's the enthusiasm I need! Remember to bring a sharp knife to gather the samples, plants - even mutated deformed plants - are very sensitive you know. Off you go and be careful out there, Zao is no place for the feint hearted mind you.": {
-   "pt": "",
+   "pt": "Sim? Sim! Esse é o entusiasmo que eu preciso! Lembre-se de trazer uma faca afiada para coletar as amostras, plantas - até plantas mutantes deformadas - são bem sensíveis, sabe. Vá andando e tenha cuidado lá fora, Zao não é lugar para os fracos de coração, viu?",
    "n": 1,
    "npc": [
     "rabaz"
    ]
   },
   "Oh, you don't have my book.": {
-   "pt": "",
+   "pt": "Ah, você não tem meu livro.",
    "n": 1,
    "npc": [
     "rabaz"
    ]
   },
   "Ah, a customer! Please feel free to browse my wares, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Ah, um cliente! Fique à vontade para dar uma olhada nas minhas mercadorias, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "rabaz"
    ]
   },
   "Have a look. But perhaps you just want to see my": {
-   "pt": "",
+   "pt": "Dê uma olhada. Mas talvez você só queira ver minha",
    "n": 1,
    "npc": [
     "rabaz"
@@ -49421,35 +49421,35 @@
    ]
   },
   "Well, you see me standing behind a bar. Selling drinks. Food. And stuff. Now try figuring out what I could be making a living of down here.": {
-   "pt": "",
+   "pt": "Bem, você me vê parado atrás de um bar. Vendendo bebidas. Comida. E coisas. Agora tente descobrir do que eu poderia estar vivendo aqui embaixo.",
    "n": 1,
    "npc": [
     "swolt"
    ]
   },
   "I can offer you bread, cheese, ham, or meat. And as drinks we serve beer and water. If you'd like to see what we have to offer, just ask me for a trade.": {
-   "pt": "",
+   "pt": "Posso lhe oferecer pão, queijo, presunto ou carne. E como bebida servimos cerveja e água. Se quiser ver o que temos para oferecer, é só me pedir para negociar.",
    "n": 1,
    "npc": [
     "swolt"
    ]
   },
   "Aaargh! Cael and his strange thoughts! He bugged me so long about the lizard culture that I eventually agreed to prepare that rice for you if you need it. I need one ripe rice plant to prepare ten rice balls. OK?": {
-   "pt": "",
+   "pt": "Aaargh! Cael e seus pensamentos estranhos! Ele me encheu tanto o saco sobre a cultura dos lagartos que acabei concordando em preparar aquele arroz para você, se precisar. Preciso de uma planta de arroz madura para preparar dez bolinhos de arroz. OK?",
    "n": 1,
    "npc": [
     "swolt"
    ]
   },
   "You don't have a ripe rice plant. Thank fire and earth I was spared.": {
-   "pt": "",
+   "pt": "Você não tem uma planta de arroz madura. Graças ao fogo e à terra, fui poupado.",
    "n": 1,
    "npc": [
     "swolt"
    ]
   },
   "Take a look, but not a sip before you've paid. And I hope it stays like this and you don't get any strange ideas about {rice}.": {
-   "pt": "",
+   "pt": "Dê uma olhada, mas nenhum gole antes de pagar. E espero que continue assim e você não tenha ideias estranhas sobre {arroz}.",
    "n": 1,
    "npc": [
     "swolt"
@@ -50394,161 +50394,161 @@
    ]
   },
   "I am Charkahn the Slayer! The immortal father of the {orcs} and master of this {hive}.": {
-   "pt": "",
+   "pt": "Sou Charkahn, o Slayer! O pai imortal dos {orcs} e mestre desta {hive}.",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "I can sense the presence and the feelings of my underlings and {minions}. I embrace the rage of the horde.": {
-   "pt": "",
+   "pt": "Consigo sentir a presença e os sentimentos dos meus subordinados e {lacaios}. Eu abraço a fúria da horda.",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "The orcish horde of this hive is under my control. I sense their emotions and their needs and provide them with the leadership they need to focus their hate and rage": {
-   "pt": "",
+   "pt": "A horda orc desta hive está sob meu controle. Sinto as emoções e as necessidades deles e forneço a liderança de que precisam para focar seu ódio e sua fúria",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "Hate and rage are the true blessings of Blog, since they are powerful weapons. They give the hive strength. I provide them with direction and focus.": {
-   "pt": "",
+   "pt": "Ódio e fúria são as verdadeiras bênçãos de Blog, já que são armas poderosas. Elas dão força à hive. Eu forneço a eles direção e foco.",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "The Raging One blessed us with his burning hate. We are truly his children and therefore {divine}.": {
-   "pt": "",
+   "pt": "O Raging One nos abençoou com seu ódio ardente. Somos verdadeiramente seus filhos e, portanto, {divinos}.",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "To conquer, to destroy and to dominate. Orcs are born to rule the {world}.": {
-   "pt": "",
+   "pt": "Conquistar, destruir e dominar. Orcs nascem para governar o {mundo}.",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "One day I will rule the world, even when turned into a {slime}.": {
-   "pt": "",
+   "pt": "Um dia eu vou governar o mundo, mesmo transformado num {slime}.",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "Pah! Don't mock me, mortal! This shape is a curse which the evil {djinn} bestowed upon me!": {
-   "pt": "",
+   "pt": "Pah! Não zombe de mim, mortal! Esta forma é uma maldição que o {djinn} maligno me impôs!",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "This cursed djinn king! I set him free from an enchanted {lamp}, and he {cheated} me!": {
-   "pt": "",
+   "pt": "Este maldito rei djinn! Eu o libertei de uma {lamp} encantada, e ele me {enganou}!",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "Because I freed him he granted me three wishes. He was true to his word in the first two {wishes}.": {
-   "pt": "",
+   "pt": "Porque eu o libertei, ele me concedeu três desejos. Ele cumpriu a palavra nos dois primeiros {desejos}.",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "He built this fortress over Uldrek's grave within a single night. Also, he granted me my second wish and gave me immortality. Test it and try to kill me if you want. Har Har!": {
-   "pt": "",
+   "pt": "Ele construiu esta fortaleza sobre o túmulo de Uldrek numa única noite. Além disso, ele concedeu meu segundo desejo e me deu imortalidade. Teste e tente me matar, se quiser. Har Har!",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "I wished to father more healthy and fertile children as any orc has ever done. But the djinn cheated me and made me a slime! Then he laughed at me and left for his abandoned fortress in the {Deathwish} Mountains.": {
-   "pt": "",
+   "pt": "Eu desejei gerar mais filhos saudáveis e férteis do que qualquer orc jamais fez. Mas o djinn me enganou e me transformou num slime! Depois riu de mim e partiu para sua fortaleza abandonada nas montanhas {Deathwish}.",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "His ancient fortress on Darama was deserted as the evil Djinn fled this world after his imprisonment. Now the time has come for the evil Djinns to return to their master although this will certainly awaken the {good Djinn} too.": {
-   "pt": "",
+   "pt": "Sua antiga fortaleza em Darama ficou deserta quando o Djinn maligno fugiu deste mundo após seu aprisionamento. Agora chegou a hora dos Djinns malignos retornarem ao seu mestre, embora isso certamente também desperte o {good Djinn}.",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "I will not share anything more about that topic with you {paleskins}.": {
-   "pt": "",
+   "pt": "Não vou compartilhar mais nada sobre esse assunto com vocês, {peles-pálidas}.",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "You are as ugly as maggots, although not quite as as tasty.": {
-   "pt": "",
+   "pt": "Vocês são tão feios quanto larvas, embora não tão saborosos.",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "This cursed djinn king! I set him free from an enchanted lamp, and he cheated me!": {
-   "pt": "",
+   "pt": "Este maldito rei djinn! Eu o libertei de uma lamp encantada, e ele me enganou!",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "Arrrrgh! A dirty paleskin! To me my children! Kill them my guards!": {
-   "pt": "",
+   "pt": "Arrrrgh! Um pele-pálida sujo! A mim, meus filhos! Matem-nos, meus guardas!",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "For eons he was trapped in an enchanted lamp by some ancient race. Now he's free to roam the world again. Although he cheated me I appreciate what he and his brethren will do to this world, now it's the time of the Djinn again!": {
-   "pt": "",
+   "pt": "Por eras ele ficou preso numa lamp encantada por alguma raça antiga. Agora ele está livre para vagar pelo mundo de novo. Embora ele tenha me enganado, aprecio o que ele e seus irmãos farão com este mundo, agora é a hora dos Djinn de novo!",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "You bring me a stinking cookie???": {
-   "pt": "",
+   "pt": "Você me traz um cookie fedorento???",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "I was waiting for this day! Take the lamp and let Malor feel my wrath!": {
-   "pt": "",
+   "pt": "Eu esperava por este dia! Pegue a lamp e deixe Malor sentir minha ira!",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "I don't know your enemy, paleskin! Begone!": {
-   "pt": "",
+   "pt": "Não conheço seu inimigo, pele-pálida! Suma!",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "Well, I hope it stinks a lot. I like stinking cookies best ... BY MY THOUSAND SONS! YOU ARE SO DEAD HUMAN! DEAD!": {
-   "pt": "",
+   "pt": "Bem, espero que fedam muito. Gosto mais de cookies fedorentos ... PELOS MEUS MIL FILHOS! VOCÊ ESTÁ TÃO MORTO, HUMANO! MORTO!",
    "n": 1,
    "npc": [
     "the_orc_king"
    ]
   },
   "Harrrrk! You think you are strong now? You shall never escape my wrath! I am immortal!": {
-   "pt": "",
+   "pt": "Harrrrk! Acha que é forte agora? Você jamais escapará da minha ira! Sou imortal!",
    "n": 1,
    "npc": [
     "the_orc_king"
@@ -50835,28 +50835,28 @@
    ]
   },
   "Ask me for a passage...": {
-   "pt": "",
+   "pt": "Peça-me por uma passagem...",
    "n": 1,
    "npc": [
     "thorgrin"
    ]
   },
   "Then not": {
-   "pt": "",
+   "pt": "Então não",
    "n": 1,
    "npc": [
     "thorgrin"
    ]
   },
   "Do you want me take you to {Cormaya}, {Kazordoon} or {Gnomprona}?": {
-   "pt": "",
+   "pt": "Quer que eu o leve para {Cormaya}, {Kazordoon} ou {Gnomprona}?",
    "n": 1,
    "npc": [
     "thorgrin"
    ]
   },
   "Welcome, |PLAYERNAME|! May earth protect you on the rocky grounds. If you need a {passage} back, I can help you.": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Que a terra o proteja nesses terrenos rochosos. Se precisar de uma {passagem} de volta, posso ajudá-lo.",
    "n": 1,
    "npc": [
     "thorgrin"
@@ -52025,56 +52025,56 @@
    ]
   },
   "Come back if you finished the dance.": {
-   "pt": "",
+   "pt": "Volte quando terminar a dança.",
    "n": 1,
    "npc": [
     "ulala"
    ]
   },
   "Please help tribe make Pandor happy! Did you bring us what I asked?": {
-   "pt": "",
+   "pt": "Por favor, ajude tribo a deixar Pandor feliz! Você trouxe o que pedi?",
    "n": 1,
    "npc": [
     "ulala"
    ]
   },
   "Please find great crystal of Fasuon and pray there for his support!": {
-   "pt": "",
+   "pt": "Por favor, encontre o grande cristal de Fasuon e reze lá pelo apoio dele!",
    "n": 1,
    "npc": [
     "ulala"
    ]
   },
   "You prayed to Fasuon! Me saw ray of lights on mountain top! Beautiful it was. Me thank you for your help. Great hunt almost can't go wrong now!": {
-   "pt": "",
+   "pt": "Você rezou para Fasuon! Mim viu raio de luzes no topo da montanha! Bonito foi. Mim agradece sua ajuda. Grande caçada quase não pode dar errado agora!",
    "n": 1,
    "npc": [
     "ulala"
    ]
   },
   "Krunus is God for plants and birth. He hidden in all that grows.": {
-   "pt": "",
+   "pt": "Krunus é Deus das plantas e do nascimento. Ele escondido em tudo que cresce.",
    "n": 1,
    "npc": [
     "ulala"
    ]
   },
   "Me thank you! Me will bring sacrifice for Pandor. He surely be pleased with our work. Well your work, but me won't tell him. Teehee.": {
-   "pt": "",
+   "pt": "Mim agradece você! Mim vai trazer sacrifício para Pandor. Ele com certeza ficar satisfeito com nosso trabalho. Bem, seu trabalho, mas mim não conta para ele. Teehee.",
    "n": 1,
    "npc": [
     "ulala"
    ]
   },
   "You do not have these things!": {
-   "pt": "",
+   "pt": "Você não tem essas coisas!",
    "n": 1,
    "npc": [
     "ulala"
    ]
   },
   "Spirits welcome you.": {
-   "pt": "",
+   "pt": "Espíritos lhe dão as boas-vindas.",
    "n": 1,
    "npc": [
     "ulala"
@@ -54944,14 +54944,14 @@
    ]
   },
   "You are ztill a captive and your life is forfeit. Zere might be a way for you to ezcape if you agree to {work} for my mazter.": {
-   "pt": "",
+   "pt": "Você ainda é um cativo e zua vida eztá perdida. Pode haver um jeito de você ezcapar ze concordar em {trabalhar} para meu meztre.",
    "n": 1,
    "npc": [
     "ztiss"
    ]
   },
   "Be greeted my .. {guezt}.": {
-   "pt": "",
+   "pt": "Zeja bem-vindo, meu .. {convidado}.",
    "n": 1,
    "npc": [
     "ztiss"
@@ -55652,11 +55652,11 @@
    "n": 71
   },
   "edron": {
-   "pt": "",
+   "pt": "Edron",
    "n": 71
   },
   "darashia": {
-   "pt": "",
+   "pt": "Darashia",
    "n": 69
   },
   "apprentice's strike": {
@@ -55720,7 +55720,7 @@
    "n": 59
   },
   "svargrond": {
-   "pt": "",
+   "pt": "Svargrond",
    "n": 57
   },
   "restoration": {
@@ -55772,7 +55772,7 @@
    "n": 50
   },
   "kazordoon": {
-   "pt": "",
+   "pt": "Kazordoon",
    "n": 50
   },
   "blessings": {
@@ -56072,11 +56072,11 @@
    "n": 32
   },
   "issavi": {
-   "pt": "",
+   "pt": "Issavi",
    "n": 32
   },
   "femor hills": {
-   "pt": "",
+   "pt": "Femor Hills",
    "n": 32
   },
   "summon paladin familiar": {
@@ -56280,7 +56280,7 @@
    "n": 25
   },
   "zao": {
-   "pt": "",
+   "pt": "Zao",
    "n": 25
   },
   "quest": {
@@ -56360,7 +56360,7 @@
    "n": 22
   },
   "marapur": {
-   "pt": "",
+   "pt": "Marapur",
    "n": 22
   },
   "lily": {
@@ -56728,7 +56728,7 @@
    "n": 9
   },
   "cormaya": {
-   "pt": "",
+   "pt": "Cormaya",
    "n": 9
   },
   "travora": {
@@ -56788,7 +56788,7 @@
    "n": 8
   },
   "human": {
-   "pt": "",
+   "pt": "humano",
    "n": 8
   },
   "gods": {
@@ -56796,7 +56796,7 @@
    "n": 8
   },
   "minotaur": {
-   "pt": "",
+   "pt": "minotauro",
    "n": 8
   },
   "22": {
@@ -56852,7 +56852,7 @@
    "n": 8
   },
   "darama": {
-   "pt": "",
+   "pt": "Darama",
    "n": 8
   },
   "edron?": {
@@ -57092,7 +57092,7 @@
    "n": 6
   },
   "slime": {
-   "pt": "",
+   "pt": "slime",
    "n": 6
   },
   "talk": {
@@ -57324,7 +57324,7 @@
    "n": 4
   },
   "lizard": {
-   "pt": "",
+   "pt": "lagarto",
    "n": 4
   },
   "line": {
@@ -57596,7 +57596,7 @@
    "n": 4
   },
   "djinn": {
-   "pt": "",
+   "pt": "djinn",
    "n": 4
   },
   "change": {
@@ -57792,7 +57792,7 @@
    "n": 3
   },
   "gnomprona": {
-   "pt": "",
+   "pt": "Gnomprona",
    "n": 3
   },
   "alchemist quarter": {
@@ -57812,7 +57812,7 @@
    "n": 3
   },
   "corruption": {
-   "pt": "",
+   "pt": "corrupção",
    "n": 3
   },
   "ice": {
@@ -58080,7 +58080,7 @@
    "n": 3
   },
   "work": {
-   "pt": "",
+   "pt": "trabalhar",
    "n": 3
   },
   "fighting": {
@@ -59292,39 +59292,39 @@
    "n": 2
   },
   "hive": {
-   "pt": "",
+   "pt": "hive",
    "n": 2
   },
   "minions": {
-   "pt": "",
+   "pt": "lacaios",
    "n": 2
   },
   "divine": {
-   "pt": "",
+   "pt": "divino",
    "n": 2
   },
   "world": {
-   "pt": "",
+   "pt": "mundo",
    "n": 2
   },
   "cheated": {
-   "pt": "",
+   "pt": "enganar",
    "n": 2
   },
   "wishes": {
-   "pt": "",
+   "pt": "desejos",
    "n": 2
   },
   "deathwish": {
-   "pt": "",
+   "pt": "Deathwish",
    "n": 2
   },
   "good djinn": {
-   "pt": "",
+   "pt": "good djinn",
    "n": 2
   },
   "paleskins": {
-   "pt": "",
+   "pt": "peles-pálidas",
    "n": 2
   },
   "race": {
@@ -59796,27 +59796,27 @@
    "n": 1
   },
   "draken": {
-   "pt": "",
+   "pt": "Draken",
    "n": 1
   },
   "zzaion": {
-   "pt": "",
+   "pt": "Zzaion",
    "n": 1
   },
   "steppe": {
-   "pt": "",
+   "pt": "estepe",
    "n": 1
   },
   "origin": {
-   "pt": "",
+   "pt": "origem",
    "n": 1
   },
   "founder": {
-   "pt": "",
+   "pt": "fundador",
    "n": 1
   },
   "thrones": {
-   "pt": "",
+   "pt": "tronos",
    "n": 1
   },
   "https://discordapp.com/invite/3nxynyv": {
@@ -60800,11 +60800,11 @@
    "n": 1
   },
   "little men": {
-   "pt": "",
+   "pt": "homenzinhos",
    "n": 1
   },
   "war": {
-   "pt": "",
+   "pt": "guerra",
    "n": 1
   },
   "power": {
@@ -61584,7 +61584,7 @@
    "n": 1
   },
   "rice": {
-   "pt": "",
+   "pt": "arroz",
    "n": 1
   },
   "warbeasts": {
@@ -61656,7 +61656,7 @@
    "n": 1
   },
   "lamp": {
-   "pt": "",
+   "pt": "lamp",
    "n": 1
   },
   "immortal": {
@@ -62311,6 +62311,22 @@
   },
   "collect": {
    "pt": "coleto",
+   "n": 0
+  },
+  "cheated": {
+   "pt": "enganou",
+   "n": 0
+  },
+  "lizard": {
+   "pt": "lagartos",
+   "n": 0
+  },
+  "human": {
+   "pt": "humana",
+   "n": 0
+  },
+  "divine": {
+   "pt": "divinos",
    "n": 0
   }
  }
