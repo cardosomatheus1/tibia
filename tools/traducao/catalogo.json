@@ -6450,7 +6450,7 @@
    ]
   },
   "You are poisoned. I will help you.": {
-   "pt": "",
+   "pt": "Você está envenenado. Vou te ajudar.",
    "n": 3,
    "npc": [
     "cipfried",
@@ -6459,7 +6459,7 @@
    ]
   },
   "Farewell, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Adeus, |PLAYERNAME|!",
    "n": 3,
    "npc": [
     "cipfried",
@@ -9077,7 +9077,7 @@
    ]
   },
   "Come to me if you need healing!": {
-   "pt": "",
+   "pt": "Venha até mim se precisar de cura!",
    "n": 2,
    "npc": [
     "cipfried",
@@ -9085,7 +9085,7 @@
    ]
   },
   "Sorcerers are elemental magicians. They have mastered fire, energy and death magic.": {
-   "pt": "",
+   "pt": "Sorcerers são magos elementais. Dominam magia de fogo, de energia e de morte.",
    "n": 2,
    "npc": [
     "cipfried",
@@ -9093,14 +9093,14 @@
    ]
   },
   "You can buy and sell goods from merchants. To do so, simply talk to them and ask them for a {trade}. They will gladly show you their offers and also the things they buy from you.": {
-   "pt": "",
+   "pt": "Você pode comprar e vender com os comerciantes. Basta falar com eles e pedir para {negociar}. Eles mostram com prazer as ofertas e também o que compram de você.",
    "n": 2,
    "npc": [
     "cipfried"
    ]
   },
   "You can find the oracle on the top floor of the {academy}, just above {Seymour}. Go there when you are level 8 to find your {destiny}.": {
-   "pt": "",
+   "pt": "O oráculo fica no último andar da {academia}, logo acima do {Seymour}. Vá até lá ao chegar ao nível 8 para descobrir seu {destino}.",
    "n": 2,
    "npc": [
     "cipfried",
@@ -9108,7 +9108,7 @@
    ]
   },
   "Seymour is a loyal follower of the {king} and a teacher in the {academy}.": {
-   "pt": "",
+   "pt": "Seymour é um seguidor leal do {rei} e professor na {academia}.",
    "n": 2,
    "npc": [
     "cipfried",
@@ -21257,427 +21257,427 @@
    ]
   },
   "Feeling lost, my child? Ask me for hints or help!": {
-   "pt": "",
+   "pt": "Perdido, meu filho? Me peça dicas ou ajuda!",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Welcome to the temple of Rookgaard!": {
-   "pt": "",
+   "pt": "Bem-vindo ao templo de Rookgaard!",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Don't despair! Help is near!": {
-   "pt": "",
+   "pt": "Não se desespere! A ajuda está perto!",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "My name is Cipfried.": {
-   "pt": "",
+   "pt": "Meu nome é Cipfried.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Me? Oh, I'm just a humble {monk}. Ask me if you need {help} or {healing}.": {
-   "pt": "",
+   "pt": "Eu? Ah, sou apenas um humilde {monge}. Me procure se precisar de {ajuda} ou {cura}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Now it is |TIME|, my child.": {
-   "pt": "",
+   "pt": "Agora são |TIME|, meu filho.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "I have sacrificed my life to serve the good gods of {Tibia} and to help newcomers in this world.": {
-   "pt": "",
+   "pt": "Dediquei minha vida a servir os bons deuses de {Tibia} e a ajudar os recém-chegados a este mundo.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "You can deposit your money at the bank. That way you won't lose it if you get {killed}. The bank is just under the academy and to the right.": {
-   "pt": "",
+   "pt": "Você pode depositar seu dinheiro no banco. Assim não o perde se {morrer}. O banco fica logo abaixo da academia, à direita.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Your near destiny will be to choose a {vocation} once you are level 8. Whether you will become a {knight}, {sorcerer}, {paladin} or {druid} is a big decision!": {
-   "pt": "",
+   "pt": "Seu destino próximo é escolher uma {vocação} ao chegar ao nível 8. Se você será {knight}, {sorcerer}, {paladin} ou {druid} é uma grande decisão!",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "That's where we are - the world of Tibia, in a village called {Rookgaard}, to be precise, with many {monsters}, {quests} and {citizens} around.": {
-   "pt": "",
+   "pt": "É onde estamos: o mundo de Tibia, mais precisamente num vilarejo chamado {Rookgaard}, cheio de {monstros}, {quests} e {moradores}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "How can I help you? I can tell you about specific {citizens} if you tell me their name. I can also give you general {hints} about {Tibia}.": {
-   "pt": "",
+   "pt": "Como posso ajudar? Posso falar de {moradores} específicos se você me disser o nome. Também posso dar {dicas} gerais sobre {Tibia}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Only a few people live in our village, most of them are {merchants}. You can either ask them for a {trade} or about various other topics, like the names of other citizens, their {job} or Tibia in general.": {
-   "pt": "",
+   "pt": "Pouca gente mora no nosso vilarejo, e a maioria são {comerciantes}. Você pode pedir para {negociar} com eles ou perguntar sobre outros assuntos, como o nome de outros moradores, a {profissão} deles ou Tibia em geral.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "I don't have any goods for trade, but if you ask one of the {merchants}, he or she will gladly show you what you can buy or sell.": {
-   "pt": "",
+   "pt": "Não tenho mercadoria para negociar, mas se você procurar um dos {comerciantes}, ele ou ela mostrará com prazer o que dá para comprar ou vender.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "A single rat doesn't pose a grave danger to you, but be careful not to get cornered by many of them. They could still {kill} you.": {
-   "pt": "",
+   "pt": "Um rato sozinho não é grande perigo, mas cuidado para não ser encurralado por vários. Juntos eles ainda podem te {matar}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "If you face spiders, beware of the {poisonous} ones. If you are poisoned, you will constantly lose health. Come to me and I'll heal you from poison.": {
-   "pt": "",
+   "pt": "Se enfrentar aranhas, cuidado com as {venenosas}. Envenenado, você perde vida sem parar. Venha até mim que eu curo o veneno.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "If you get killed, you will revive in this temple. However, you will lose experience and also equipment, which can be quite painful. Take good care of yourself!": {
-   "pt": "",
+   "pt": "Se você morrer, renasce neste templo. Mas perde experiência e também equipamento, o que costuma doer bastante. Cuide-se bem!",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Poison is very dangerous! Don't ever drink green liquids, they are poisonous and will make you lose health!": {
-   "pt": "",
+   "pt": "Veneno é muito perigoso! Nunca beba líquidos verdes: são venenosos e vão te fazer perder vida!",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "There are four vocations in Tibia: {knight}, {sorcerer}, {paladin} or {druid}. Each vocation has its unique special abilities.": {
-   "pt": "",
+   "pt": "Há quatro vocações em Tibia: {knight}, {sorcerer}, {paladin} e {druid}. Cada vocação tem habilidades próprias.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Knights are close combat fighters. They usually wield melee weapons such as swords, axes or clubs.": {
-   "pt": "",
+   "pt": "Knights lutam corpo a corpo. Costumam empunhar espadas, machados ou clavas.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Druids are nature magicians. Their speciality is casting ice and earth magic, as well as providing healing for others.": {
-   "pt": "",
+   "pt": "Druids são magos da natureza. A especialidade deles é magia de gelo e de terra, além de curar os outros.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Paladins are well-trained distance fighters and can cast holy magic. You will usually see them wearing bows or crossbows.": {
-   "pt": "",
+   "pt": "Paladins são exímios lutadores à distância e conjuram magia sagrada. Em geral você os vê com arcos ou bestas.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "You can buy equipment from the {merchants} in this village once you earned some {gold}. Some {monsters} also carry equipment pieces with them.": {
-   "pt": "",
+   "pt": "Você pode comprar equipamento com os {comerciantes} do vilarejo assim que juntar algum {ouro}. Alguns {monstros} também carregam peças de equipamento.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Shovels are very useful. There may be a hidden entrance under a loose pile of stone and without a shovel, how would you know?": {
-   "pt": "",
+   "pt": "Pás são muito úteis. Pode haver uma entrada escondida sob um monte de pedras soltas — e sem uma pá, como você saberia?",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Never go adventuring without a rope! If you don't have one when you fall through a hole in the ground, you won't be able to leave without a rope.": {
-   "pt": "",
+   "pt": "Nunca saia em aventura sem uma corda! Se cair num buraco no chão sem ela, não vai conseguir subir.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "To defend yourself against enemies, you will need a weapon. You can purchase weapons at {Obi}'s shop.": {
-   "pt": "",
+   "pt": "Para se defender dos inimigos, você vai precisar de uma arma. Dá para comprar armas na loja do {Obi}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Food is very important for your health. If you are hurt in a fight with a {monster}, select 'Use' on food such as cheese, ham or meat to eat it. This will slowly refill your health.": {
-   "pt": "",
+   "pt": "Comida é muito importante para a sua vida. Se você se machucar lutando com um {monstro}, use queijo, presunto ou carne para comer. Isso recupera sua vida aos poucos.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "As a premium adventurer, you are an official tax payer and thus privileged in many ways. For example, you can travel by {ship} and get better deals from {merchants}.": {
-   "pt": "",
+   "pt": "Como aventureiro premium, você é contribuinte oficial e por isso tem privilégios. Por exemplo, pode viajar de {navio} e conseguir preços melhores com os {comerciantes}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Potions will come in handy once you are in a fight deep in a dungeon. If you aren't in immediate danger, you can simply eat {food} to regain health, though.": {
-   "pt": "",
+   "pt": "Potions são úteis quando você está lutando no fundo de uma masmorra. Mas se não estiver em perigo imediato, basta comer {comida} para recuperar vida.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "The academy is just north of here. You can learn helpful things there from {Seymour}, if you wish to!": {
-   "pt": "",
+   "pt": "A academia fica logo ao norte daqui. Lá você aprende coisas úteis com o {Seymour}, se quiser!",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Well, King Tibianus of course. The island of {Rookgaard} belongs to his kingdom.": {
-   "pt": "",
+   "pt": "Ora, o Rei Tibianus, é claro. A ilha de {Rookgaard} pertence ao reino dele.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "The {gods} have chosen this isle as the point of arrival for newborn souls. The {citizens} will help you if you ask them.": {
-   "pt": "",
+   "pt": "Os {deuses} escolheram esta ilha como ponto de chegada das almas recém-nascidas. Os {moradores} vão te ajudar se você pedir.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "They created {Tibia} and all life on it. Visit our {academy} and learn about them.": {
-   "pt": "",
+   "pt": "Eles criaram {Tibia} e toda a vida nela. Visite nossa {academia} e aprenda sobre eles.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Monsters are a constant threat to this village. You would tremendously help us by fighting them, starting with {rats} in the {sewers}, then turning to {spiders} or {wolves}.": {
-   "pt": "",
+   "pt": "Os monstros são uma ameaça constante ao vilarejo. Você nos ajudaria muito combatendo-os: comece pelos {ratos} nos {esgotos} e depois passe para as {aranhas} ou os {lobos}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "The sewers are right below this village. North of this temple, you find a sewer grate which leads down, but there are also many small huts in the village which are connected to the sewers.": {
-   "pt": "",
+   "pt": "Os esgotos ficam logo abaixo do vilarejo. Ao norte deste templo há uma grade que dá acesso, mas várias cabanas do vilarejo também ligam aos esgotos.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "I'm sorry, but I'm not interested in worldly goods. If you want to buy or sell something, you should ask a local merchant for a trade.": {
-   "pt": "",
+   "pt": "Desculpe, não me interesso por bens materiais. Se quer comprar ou vender algo, procure um comerciante local.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "To defend yourself against enemies, you will need armor and shields. You can purchase both at {Dixi}'s shop.": {
-   "pt": "",
+   "pt": "Para se defender dos inimigos, você vai precisar de armadura e escudo. Compra-se os dois na loja da {Dixi}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "You can earn a fair amount of gold by fighting {monsters} and picking up the things they carry. Many {citizens} are buying some of that loot, simply ask around.": {
-   "pt": "",
+   "pt": "Dá para juntar bastante ouro combatendo {monstros} e recolhendo o que eles carregam. Muitos {moradores} compram esse loot; é só perguntar por aí.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Oh, I can handle my tasks myself, thank you. If you are looking for something to do, you should listen to the local {citizens} and ask them for {quests}. You could also help us fight {monsters}.": {
-   "pt": "",
+   "pt": "Ah, dou conta das minhas tarefas sozinho, obrigado. Se procura o que fazer, escute os {moradores} e pergunte a eles sobre {quests}. Também pode nos ajudar a combater {monstros}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Wolves can only be found outside of the village. If you want to know where their dens are, best talk to {Dallheim} or {Zerbrus} at the bridges.": {
-   "pt": "",
+   "pt": "Lobos só aparecem fora do vilarejo. Se quer saber onde ficam as tocas, fale com {Dallheim} ou {Zerbrus} nas pontes.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "I can see a bright future for you... you will soon embark on a very big adventure and explore the world of {Tibia} - maybe even influence history!": {
-   "pt": "",
+   "pt": "Vejo um futuro brilhante para você... logo embarcará numa grande aventura e explorará o mundo de {Tibia} — talvez até mude a história!",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Let me heal your wounds.": {
-   "pt": "",
+   "pt": "Deixe-me curar suas feridas.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "You aren't looking really bad, |PLAYERNAME|. I can only help in cases of real emergencies. Raise your health simply by eating {food}.": {
-   "pt": "",
+   "pt": "Você não está tão mal assim, |PLAYERNAME|. Só posso ajudar em emergências de verdade. Recupere sua vida comendo {comida}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Obi's {shop} is to the north-east of this humble temple. He sells {weapons}, and his granddaughter {Dixi} sells {armor} and {shields} upstairs.": {
-   "pt": "",
+   "pt": "A {loja} do Obi fica a nordeste deste humilde templo. Ele vende {armas}, e a neta dele, {Dixi}, vende {armadura} e {escudos} no andar de cima.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "She recently opened a little bar north of this village.": {
-   "pt": "",
+   "pt": "Ela abriu há pouco um pequeno bar ao norte do vilarejo.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "That's a sad story. He used to help me guard this temple, but for some reason he went out of his mind.": {
-   "pt": "",
+   "pt": "É uma história triste. Ele me ajudava a guardar este templo, mas por algum motivo perdeu o juízo.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "I absolutely appreciate what he's doing. He has helped me a lot since he took up the job of welcoming newcomers to this island.": {
-   "pt": "",
+   "pt": "Admiro muito o que ele faz. Tem me ajudado bastante desde que assumiu a tarefa de receber os recém-chegados a esta ilha.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "That old lady hasn't had an easy life. Her son {Tom} completely abandoned her, but I have no idea why.": {
-   "pt": "",
+   "pt": "Aquela senhora não teve uma vida fácil. O filho dela, {Tom}, a abandonou por completo, e não faço ideia do porquê.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "In Al Dee's shop you'll find important general equipment such as {ropes}, {shovels} and torches.": {
-   "pt": "",
+   "pt": "Na loja do Al Dee você encontra equipamento geral importante, como {cordas}, {pás} e tochas.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Amber is such a lovely girl, and also a very experienced {explorer} and {adventurer}. It's always interesting to chat with her.": {
-   "pt": "",
+   "pt": "Amber é uma moça adorável, e também uma {exploradora} e {aventureiro} muito experiente. É sempre interessante conversar com ela.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "He's a farmer, just like his cousin {Willie}. He doesn't talk to everybody, though.": {
-   "pt": "",
+   "pt": "Ele é fazendeiro, como o primo {Willie}. Mas não fala com qualquer um.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Willie is a farmer, just like his cousin {Billy}. His farm is located left of the temple. You can buy and sell {food} there.": {
-   "pt": "",
+   "pt": "Willie é fazendeiro, como o primo {Billy}. A fazenda dele fica à esquerda do templo. Lá você compra e vende {comida}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Yes? How can I {help} you?": {
-   "pt": "",
+   "pt": "Sim? Como posso te {ajuda}?",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "That's {Obi's} granddaughter. Her counter is just upstairs from Obi's shop. She helps him by selling {armor} and {shields}.": {
-   "pt": "",
+   "pt": "É a neta do {Obi's}. O balcão dela fica no andar de cima da loja do Obi. Ela ajuda vendendo {armadura} e {escudos}.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Hyacinth is a close friend of mine. He left the village many years ago to live in solitude. I think all this bustle here simply was too much for him.": {
-   "pt": "",
+   "pt": "Hyacinth é um amigo próximo. Deixou o vilarejo há muitos anos para viver em solidão. Acho que toda essa agitação daqui era demais para ele.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Lee'Delle's shop is on the {premium} side of the village. You should visit her!": {
-   "pt": "",
+   "pt": "A loja da Lee'Delle fica no lado {premium} do vilarejo. Vale a visita!",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "You must have passed the house of Lily on your way here. She sells {potions}. If you pick blueberries or find cookies, she'll buy them from you.": {
-   "pt": "",
+   "pt": "Você deve ter passado pela casa da Lily no caminho até aqui. Ela vende {potions}. Se colher amoras ou achar biscoitos, ela compra de você.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "He is the {bank} clerk, making sure your {money} remains safe.": {
-   "pt": "",
+   "pt": "Ele é o funcionário do {banco}, que cuida para o seu {dinheiro} ficar seguro.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Tom is the main provider for leather armor in this village. You can sell fresh corpses or even minotaur leather to him.": {
-   "pt": "",
+   "pt": "Tom é o principal fornecedor de armadura de couro do vilarejo. Você pode vender carcaças frescas e até couro de minotauro para ele.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "May the gods bless our loyal guardsmen! Day and night they stand watch on our bridges, ensuring that it is not passed by dangerous {monsters}!": {
-   "pt": "",
+   "pt": "Que os deuses abençoem nossos leais guardas! Dia e noite vigiam nossas pontes, impedindo a passagem de {monstros} perigosos!",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Hello, |PLAYERNAME|! You are looking really bad. Let me heal your wounds. It's my job after all.": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|! Você está com péssima aparência. Deixe-me curar suas feridas. Afinal, é o meu ofício.",
    "n": 1,
    "npc": [
     "cipfried"
    ]
   },
   "Hello, |PLAYERNAME|! I'll {heal} you if you are injured or poisoned. Feel free to ask me for {help} or general {hints}.": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|! Eu te {curar} se estiver ferido ou envenenado. Fique à vontade para me pedir {ajuda} ou {dicas} em geral.",
    "n": 1,
    "npc": [
     "cipfried"
@@ -55978,15 +55978,15 @@
    "n": 41
   },
   "king": {
-   "pt": "",
+   "pt": "rei",
    "n": 41
   },
   "bank": {
-   "pt": "",
+   "pt": "banco",
    "n": 40
   },
   "sail": {
-   "pt": "",
+   "pt": "levar",
    "n": 40
   },
   "no": {
@@ -56250,7 +56250,7 @@
    "n": 32
   },
   "armor": {
-   "pt": "",
+   "pt": "armadura",
    "n": 31
   },
   "ignite": {
@@ -56490,7 +56490,7 @@
    "n": 19
   },
   "destiny": {
-   "pt": "",
+   "pt": "destino",
    "n": 19
   },
   "zirella": {
@@ -56534,7 +56534,7 @@
    "n": 17
   },
   "potions": {
-   "pt": "",
+   "pt": "potions",
    "n": 17
   },
   "paulie": {
@@ -56550,11 +56550,11 @@
    "n": 17
   },
   "weapons": {
-   "pt": "",
+   "pt": "armas",
    "n": 16
   },
   "merchants": {
-   "pt": "",
+   "pt": "comerciantes",
    "n": 16
   },
   "sell": {
@@ -56598,7 +56598,7 @@
    "n": 16
   },
   "hints": {
-   "pt": "",
+   "pt": "dicas",
    "n": 15
   },
   "hint": {
@@ -56618,7 +56618,7 @@
    "n": 15
   },
   "ship": {
-   "pt": "",
+   "pt": "navio",
    "n": 14
   },
   "lee": {
@@ -56658,7 +56658,7 @@
    "n": 13
   },
   "vocation": {
-   "pt": "",
+   "pt": "vocação",
    "n": 13
   },
   "shops": {
@@ -56706,7 +56706,7 @@
    "n": 11
   },
   "sewers": {
-   "pt": "",
+   "pt": "esgotos",
    "n": 11
   },
   "citizen": {
@@ -56718,7 +56718,7 @@
    "n": 11
   },
   "citizens": {
-   "pt": "",
+   "pt": "moradores",
    "n": 11
   },
   "dawnport": {
@@ -56778,7 +56778,7 @@
    "n": 9
   },
   "shields": {
-   "pt": "",
+   "pt": "escudos",
    "n": 9
   },
   "blueberries": {
@@ -56798,7 +56798,7 @@
    "n": 9
   },
   "shop": {
-   "pt": "",
+   "pt": "loja",
    "n": 9
   },
   "cormaya": {
@@ -56814,7 +56814,7 @@
    "n": 9
   },
   "kill": {
-   "pt": "",
+   "pt": "matar",
    "n": 9
   },
   "garamond": {
@@ -56866,7 +56866,7 @@
    "n": 8
   },
   "gods": {
-   "pt": "",
+   "pt": "deuses",
    "n": 8
   },
   "minotaur": {
@@ -56982,7 +56982,7 @@
    "n": 7
   },
   "monk": {
-   "pt": "",
+   "pt": "monge",
    "n": 7
   },
   "bozo": {
@@ -57058,7 +57058,7 @@
    "n": 6
   },
   "rats": {
-   "pt": "",
+   "pt": "ratos",
    "n": 6
   },
   "profession": {
@@ -57246,7 +57246,7 @@
    "n": 5
   },
   "ropes": {
-   "pt": "",
+   "pt": "cordas",
    "n": 5
   },
   "oswald": {
@@ -57834,7 +57834,7 @@
    "n": 3
   },
   "shovels": {
-   "pt": "",
+   "pt": "pás",
    "n": 3
   },
   "recipe": {
@@ -57926,11 +57926,11 @@
    "n": 3
   },
   "spiders": {
-   "pt": "",
+   "pt": "aranhas",
    "n": 3
   },
   "wolves": {
-   "pt": "",
+   "pt": "lobos",
    "n": 3
   },
   "wolf": {
@@ -58310,7 +58310,7 @@
    "n": 2
   },
   "explorer": {
-   "pt": "",
+   "pt": "exploradora",
    "n": 2
   },
   "dragons": {
@@ -58514,7 +58514,7 @@
    "n": 2
   },
   "quests": {
-   "pt": "",
+   "pt": "quests",
    "n": 2
   },
   "adventurer": {
@@ -60010,11 +60010,11 @@
    "n": 1
   },
   "killed": {
-   "pt": "",
+   "pt": "morrer",
    "n": 1
   },
   "poisonous": {
-   "pt": "",
+   "pt": "venenosas",
    "n": 1
   },
   "poison": {
