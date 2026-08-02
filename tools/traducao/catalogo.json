@@ -5124,7 +5124,7 @@
    ]
   },
   "HAIL TO THE QUEEN!": {
-   "pt": "",
+   "pt": "SALVE A RAINHA!",
    "n": 5,
    "npc": [
     "barbara",
@@ -5498,7 +5498,7 @@
    ]
   },
   "MIND YOUR MANNERS COMMONER! To address the queen greet with her title!": {
-   "pt": "",
+   "pt": "CUIDE DOS SEUS MODOS, PLEBEU! PARA SE DIRIGIR À RAINHA, CUMPRIMENTE-A PELO TÍTULO!",
    "n": 4,
    "npc": [
     "barbara",
@@ -6294,7 +6294,7 @@
    ]
   },
   "LONG LIVE THE QUEEN! You may leave now!": {
-   "pt": "",
+   "pt": "VIDA LONGA À RAINHA! Você já pode ir!",
    "n": 3,
    "npc": [
     "barbara",
@@ -7318,7 +7318,7 @@
    ]
   },
   "Chh...": {
-   "pt": "",
+   "pt": "Chh...",
    "n": 2,
    "npc": [
     "a_fluffy_squirrel"
@@ -10569,7 +10569,7 @@
    ]
   },
   "Please come back, but don't tell others.": {
-   "pt": "",
+   "pt": "Por favor, volte, mas não conte para os outros.",
    "n": 2,
    "npc": [
     "karl"
@@ -11815,7 +11815,7 @@
    ]
   },
   "Take good care of yourself traveller. Would be a shame to lose such a courageous wanderer to those green monsters.": {
-   "pt": "",
+   "pt": "Cuide-se bem, viajante. Seria uma pena perder um andarilho tão corajoso para aqueles monstros verdes.",
    "n": 2,
    "npc": [
     "thanita"
@@ -12482,28 +12482,28 @@
    ]
   },
   "Chchch": {
-   "pt": "",
+   "pt": "Chchch",
    "n": 1,
    "npc": [
     "a_fluffy_squirrel"
    ]
   },
   "Chh? Chhh?? <though you don't understand squirrelish, that one seems really excited>": {
-   "pt": "",
+   "pt": "Chh? Chhh?? <embora você não entenda esquilês, esse aí parece bem animado>",
    "n": 1,
    "npc": [
     "a_fluffy_squirrel"
    ]
   },
   "Chhchh?": {
-   "pt": "",
+   "pt": "Chhchh?",
    "n": 1,
    "npc": [
     "a_fluffy_squirrel"
    ]
   },
   "Chchch. Chh! <you're not sure, but it seems that squirrel wants to trade your valuable acorns for useless stones that it found and considered uneatable>": {
-   "pt": "",
+   "pt": "Chchch. Chh! <você não tem certeza, mas parece que aquele esquilo quer trocar suas valiosas bolotas por pedras inúteis que ele achou e considerou não-comestíveis>",
    "n": 1,
    "npc": [
     "a_fluffy_squirrel"
@@ -20245,21 +20245,21 @@
    ]
   },
   "I'm merely a humble druid like so many others here. I may not be the most talented of healers, but I am gifted with a special atunement to the elements.": {
-   "pt": "",
+   "pt": "Sou apenas um humilde druid como tantos outros aqui. Posso não ser o mais talentoso dos curandeiros, mas sou dotado de uma sintonia especial com os elementos.",
    "n": 1,
    "npc": [
     "cerdras"
    ]
   },
   "For me, nature is the harmony of the elements. This harmony can be disturbed by certain events, but nature always finds its way back to harmony in the end.": {
-   "pt": "",
+   "pt": "Para mim, a natureza é a harmonia dos elementos. Essa harmonia pode ser perturbada por certos eventos, mas a natureza sempre encontra o caminho de volta à harmonia no final.",
    "n": 1,
    "npc": [
     "cerdras"
    ]
   },
   "Greetings my friend!": {
-   "pt": "",
+   "pt": "Saudações, meu amigo!",
    "n": 1,
    "npc": [
     "cerdras"
@@ -21981,49 +21981,49 @@
    ]
   },
   "Quality armors for sale!": {
-   "pt": "",
+   "pt": "Armaduras de qualidade à venda!",
    "n": 1,
    "npc": [
     "cornelia"
    ]
   },
   "I run this armoury. If you want to protect your life, you better buy my wares.": {
-   "pt": "",
+   "pt": "Administro este armoury. Se quiser proteger sua vida, é melhor comprar minhas mercadorias.",
    "n": 1,
    "npc": [
     "cornelia"
    ]
   },
   "Ah, you must be the hero Trisha talked about. I'll prepare the shoulder spikes for you. Please give me some time to finish.": {
-   "pt": "",
+   "pt": "Ah, você deve ser o herói de quem Trisha falou. Vou preparar os shoulder spikes para você. Por favor, me dê um tempo para terminar.",
    "n": 1,
    "npc": [
     "cornelia"
    ]
   },
   "I'm not done yet. Please be as patient as you are courageous.": {
-   "pt": "",
+   "pt": "Ainda não terminei. Por favor, seja tão paciente quanto corajoso.",
    "n": 1,
    "npc": [
     "cornelia"
    ]
   },
   "Finished! Since you are a man, I thought you probably wanted two. Men always want that little extra status symbol. <giggles>": {
-   "pt": "",
+   "pt": "Terminei! Já que você é homem, imaginei que provavelmente quisesse dois. Homens sempre querem aquele statuszinho extra. <ri>",
    "n": 1,
    "npc": [
     "cornelia"
    ]
   },
   "I'm selling leather armor, chain armor, and brass armor. Ask me for a {trade} if you like to take a look.": {
-   "pt": "",
+   "pt": "Estou vendendo leather armor, chain armor e brass armor. Me peça para {negociar} se quiser dar uma olhada.",
    "n": 1,
    "npc": [
     "cornelia"
    ]
   },
   "Welcome to the finest {armor} shop in the land, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Bem-vindo à melhor loja de {armadura} da terra, |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "cornelia"
@@ -32719,21 +32719,21 @@
    ]
   },
   "I offer quite a lot of food. Ask me for a {trade} if you're hungry": {
-   "pt": "",
+   "pt": "Ofereço bastante comida. Me peça para {negociar} se estiver com fome",
    "n": 1,
    "npc": [
     "imalas"
    ]
   },
   "Hello |PLAYERNAME|! What do you need? If it's {food}, you've come to the right place.": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|! Do que você precisa? Se for {comida}, você veio ao lugar certo.",
    "n": 1,
    "npc": [
     "imalas"
    ]
   },
   "Yep, take a good look.": {
-   "pt": "",
+   "pt": "Isso aí, dê uma boa olhada.",
    "n": 1,
    "npc": [
     "imalas"
@@ -35134,42 +35134,42 @@
    ]
   },
   "Do you bring me a barrel of beer??": {
-   "pt": "",
+   "pt": "Você me trouxe um barril de cerveja??",
    "n": 1,
    "npc": [
     "karl"
    ]
   },
   "Do you want to buy a bottle of our finest whisper beer for 80 gold?": {
-   "pt": "",
+   "pt": "Quer comprar uma garrafa da nossa melhor whisper beer por 80 gold?",
    "n": 1,
    "npc": [
     "karl"
    ]
   },
   "Three cheers for the noble |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Três vivas para o nobre |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "karl"
    ]
   },
   "You don't have any barrel of beer!": {
-   "pt": "",
+   "pt": "Você não tem nenhum barril de cerveja!",
    "n": 1,
    "npc": [
     "karl"
    ]
   },
   "Here. Don't take it into the city though.": {
-   "pt": "",
+   "pt": "Aqui. Mas não leve isso para dentro da cidade.",
    "n": 1,
    "npc": [
     "karl"
    ]
   },
   "Pshhhht! Not that loud ... but welcome.": {
-   "pt": "",
+   "pt": "Pshhhht! Não tão alto assim ... mas bem-vindo.",
    "n": 1,
    "npc": [
     "karl"
@@ -36492,28 +36492,28 @@
    ]
   },
   "I can offer you ham or meat. If you'd like to check the quality of my wares, ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Posso lhe oferecer presunto ou carne. Se quiser conferir a qualidade das minhas mercadorias, me peça para {negociar}.",
    "n": 1,
    "npc": [
     "lector"
    ]
   },
   "Welcome to my humble {meat} shop, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Bem-vindo à minha humilde loja de {carne}, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "lector"
    ]
   },
   "Please come and buy again, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Por favor, volte e compre de novo, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "lector"
    ]
   },
   "Of course, take a good look at my meat.": {
-   "pt": "",
+   "pt": "Claro, dê uma boa olhada na minha carne.",
    "n": 1,
    "npc": [
     "lector"
@@ -41343,21 +41343,21 @@
    ]
   },
   "My name is Nydala. I run this store.": {
-   "pt": "",
+   "pt": "Meu nome é Nydala. Administro esta loja.",
    "n": 1,
    "npc": [
     "nydala"
    ]
   },
   "It is |TIME|. Do you need a clock for your house?": {
-   "pt": "",
+   "pt": "Agora é |TIME|. Precisa de um relógio para sua casa?",
    "n": 1,
    "npc": [
     "nydala"
    ]
   },
   "Welcome to Carlin Furniture Store, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Bem-vindo à Carlin Furniture Store, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "nydala"
@@ -49946,14 +49946,14 @@
    ]
   },
   "Impressive!! I could need someone like you here at the watchtower! Okay, the password you need to tell Bunny is ' password* '. Come back and visit me if you like to!": {
-   "pt": "",
+   "pt": "Impressionante!! Eu bem que precisava de alguém como você aqui na torre de vigia! Ok, a senha que você precisa dizer a Bunny é ' password* '. Volte para me visitar se quiser!",
    "n": 1,
    "npc": [
     "thanita"
    ]
   },
   "How could you sneak up on me like this? I thought you were one of THEM! Well, since you are not, what brings you to this wilderness?": {
-   "pt": "",
+   "pt": "Como você conseguiu se aproximar de mim sem eu perceber? Achei que fosse um DELES! Bem, já que não é, o que lhe traz a esta terra selvagem?",
    "n": 1,
    "npc": [
     "thanita"
