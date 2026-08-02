@@ -5317,7 +5317,7 @@
    ]
   },
   "Don't forget to deposit your money here in the Tibian Bank before you head out for adventure.": {
-   "pt": "",
+   "pt": "Não esqueça de depositar seu dinheiro aqui no Tibian Bank antes de sair para a aventura.",
    "n": 5,
    "npc": [
     "kaya",
@@ -5741,7 +5741,7 @@
    ]
   },
   "Have a look. Most furniture comes in handy kits. Just use them in your house to assemble the furniture. Do you want to see only a certain {type} of furniture?": {
-   "pt": "",
+   "pt": "Dê uma olhada. Quase todo móvel vem em kit prático. É só usá-lo dentro de casa para montar. Quer ver só um {tipo} de móvel?",
    "n": 4,
    "npc": [
     "eddy",
@@ -5759,7 +5759,7 @@
    ]
   },
   "Please make sure you have free slots in your store inbox.": {
-   "pt": "",
+   "pt": "Confira se há espaço livre na sua store inbox.",
    "n": 4,
    "npc": [
     "emael",
@@ -6270,7 +6270,7 @@
    ]
   },
   "How is your {mission} going?": {
-   "pt": "",
+   "pt": "Como vai sua {missão}?",
    "n": 3,
    "npc": [
     "angelo",
@@ -6468,7 +6468,7 @@
    ]
   },
   "Sorry, friend, but one good turn deserves another. Bring enough": {
-   "pt": "",
+   "pt": "Desculpe, amigo, mas uma mão lava a outra. Traga o bastante",
    "n": 3,
    "npc": [
     "cledwyn"
@@ -6534,7 +6534,7 @@
    ]
   },
   "Have you moved to a new home? I'm the specialist for equipping it.": {
-   "pt": "",
+   "pt": "Mudou de casa? Sou o especialista em mobiliá-la.",
    "n": 3,
    "npc": [
     "eddy",
@@ -9116,7 +9116,7 @@
    ]
   },
   "Should I enchant the item": {
-   "pt": "",
+   "pt": "Devo encantar o item",
    "n": 2,
    "npc": [
     "cledwyn"
@@ -9466,14 +9466,14 @@
    ]
   },
   "Oh, my god. In the dungeon of Fibula are a lot of monsters. That's why we have sealed it with a solid door.": {
-   "pt": "",
+   "pt": "Ah, meus deuses. A masmorra de Fibula está cheia de monstros. Por isso a selamos com uma porta reforçada.",
    "n": 2,
    "npc": [
     "dermot"
    ]
   },
   "See you again.": {
-   "pt": "",
+   "pt": "Até a próxima.",
    "n": 2,
    "npc": [
     "dermot"
@@ -9496,7 +9496,7 @@
    ]
   },
   "I have {beds}, {chairs}, {containers}, {decoration}, {flowers}, {instruments}, {pillows}, {pottery}, {statues}, {tapestries} and {tables}. Which of those would you like to see?": {
-   "pt": "",
+   "pt": "Tenho {camas}, {cadeiras}, {recipientes}, {decoração}, {flores}, {instrumentos}, {almofadas}, {cerâmica}, {estátuas}, {tapeçarias} e {mesas}. Qual deles quer ver?",
    "n": 2,
    "npc": [
     "eddy",
@@ -9504,7 +9504,7 @@
    ]
   },
   "Hello |PLAYERNAME|! Do you need some equipment for your house?": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|! Precisa de algo para a sua casa?",
    "n": 2,
    "npc": [
     "eddy",
@@ -9704,7 +9704,7 @@
    ]
   },
   "Good hunting!": {
-   "pt": "",
+   "pt": "Boa caçada!",
    "n": 2,
    "npc": [
     "emael",
@@ -11847,14 +11847,14 @@
    ]
   },
   "IN WHICH TOWN DO YOU WANT TO LIVE: {CARLIN}, {THAIS}, OR {VENORE}?": {
-   "pt": "",
+   "pt": "EM QUE CIDADE DESEJA VIVER: {CARLIN}, {THAIS} OU {VENORE}?",
    "n": 2,
    "npc": [
     "the_oracle"
    ]
   },
   "COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!": {
-   "pt": "",
+   "pt": "VOLTE QUANDO ESTIVER PREPARADO PARA ENCARAR SEU DESTINO!",
    "n": 2,
    "npc": [
     "the_oracle"
@@ -15209,7 +15209,7 @@
    ]
   },
   "Grrrr.": {
-   "pt": "",
+   "pt": "Grrrr.",
    "n": 1,
    "npc": [
     "an_orc_guard"
@@ -16245,42 +16245,42 @@
    ]
   },
   "Let me speak a few words to you.": {
-   "pt": "",
+   "pt": "Deixe-me lhe dizer algumas palavras.",
    "n": 1,
    "npc": [
     "asralius"
    ]
   },
   "Death comes to the best of us, but this time you had no chance.": {
-   "pt": "",
+   "pt": "A morte chega aos melhores de nós, mas desta vez você não teve chance.",
    "n": 1,
    "npc": [
     "asralius"
    ]
   },
   "You managed to deceive Erayo? Impressive. Well, I guess, since you have come that far, I might as well give you a task too, eh?": {
-   "pt": "",
+   "pt": "Você conseguiu enganar o Erayo? Impressionante. Bom, já que chegou até aqui, acho que também posso te dar uma tarefa, hein?",
    "n": 1,
    "npc": [
     "atrad"
    ]
   },
   "I see you brought my stuff. Good. I'll keep my promise: Here's katana in return.": {
-   "pt": "",
+   "pt": "Vejo que trouxe minhas coisas. Ótimo. Cumpro o prometido: aqui está a katana em troca.",
    "n": 1,
    "npc": [
     "atrad"
    ]
   },
   "Okay, listen up. I don't have a list of stupid objects, I just want two things. A behemoth claw and a nose ring. Got that?": {
-   "pt": "",
+   "pt": "Certo, presta atenção. Não tenho lista de bugigangas, quero só duas coisas: uma behemoth claw e um nose ring. Entendeu?",
    "n": 1,
    "npc": [
     "atrad"
    ]
   },
   "Good. Come back then you have BOTH. Should be clear where to get a behemoth claw from. There's a horned fox who wears a nose ring. Good luck.": {
-   "pt": "",
+   "pt": "Bom. Volte quando tiver os DOIS. Onde achar uma behemoth claw deve ser óbvio. E há uma raposa chifruda que usa um nose ring. Boa sorte.",
    "n": 1,
    "npc": [
     "atrad"
@@ -19955,28 +19955,28 @@
    ]
   },
   "Hmm, we should do something about your outfit.": {
-   "pt": "",
+   "pt": "Hmm, precisamos fazer algo pelo seu visual.",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Ah, another adventurer. Let's talk a little.": {
-   "pt": "",
+   "pt": "Ah, mais um aventureiro. Vamos conversar um pouco.",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Psst! Come over here for a little trade.": {
-   "pt": "",
+   "pt": "Psiu! Venha cá para uma negociação rápida.",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Hello, hello! Don't be shy, I don't bite.": {
-   "pt": "",
+   "pt": "Olá, olá! Não seja tímido, eu não mordo.",
    "n": 1,
    "npc": [
     "carlos"
@@ -19997,14 +19997,14 @@
    ]
   },
   "You see, I'm quite hungry from standing here all day. Could you get me some {food}?": {
-   "pt": "",
+   "pt": "Sabe, fico faminto de tanto ficar aqui o dia todo. Pode me arrumar alguma {comida}?",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Thank you! I would do it myself, but I don't have a weapon. Just kill a few rabbits or deer, loot food from them and bring me one piece of {meat} or ham, will you?": {
-   "pt": "",
+   "pt": "Obrigado! Eu mesmo faria, mas não tenho arma. Mate uns coelhos ou cervos, pegue a comida no loot e me traga um pedaço de {carne} ou presunto, pode ser?",
    "n": 1,
    "npc": [
     "carlos"
@@ -20025,28 +20025,28 @@
    ]
   },
   "Hmm. No, I don't think you have something with you that I'd like to eat. Please come back once you looted a piece of meat or a piece of ham from a rabbit or deer.": {
-   "pt": "",
+   "pt": "Hmm. Não, acho que você não tem nada que eu queira comer. Volte quando tirar um pedaço de carne ou presunto de um coelho ou cervo.",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Be greeted, |PLAYERNAME|! As a tailor and merchant I have to say - we need to do something about your {outfit}, shall we?": {
-   "pt": "",
+   "pt": "Saudações, |PLAYERNAME|! Como alfaiate e comerciante, preciso dizer: temos que fazer algo pelo seu {visual}, não é?",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Hey, I thought you were going to run away, but luckily you came back. I'll show you how to change your {outfit}, okay?": {
-   "pt": "",
+   "pt": "Ei, achei que você fosse fugir, mas ainda bem que voltou. Vou te mostrar como trocar o {visual}, certo?",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Welcome back! You know, after providing my little outfit service, I like to ask a little favour of you. Can you {help} me?": {
-   "pt": "",
+   "pt": "Bem-vindo de volta! Sabe, depois do meu serviço de visual, costumo pedir um favorzinho. Pode me {ajuda}?",
    "n": 1,
    "npc": [
     "carlos"
@@ -20109,14 +20109,14 @@
    ]
   },
   "Good bye |PLAYERNAME|!.": {
-   "pt": "",
+   "pt": "Até mais, |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "carlos"
    ]
   },
   "Good bye traveller and enjoy your stay on Rookgaard.": {
-   "pt": "",
+   "pt": "Até mais, viajante, e aproveite sua estadia em Rookgaard.",
    "n": 1,
    "npc": [
     "carlos"
@@ -20368,28 +20368,28 @@
    ]
   },
   "Sorry, you have traveled a lot.": {
-   "pt": "",
+   "pt": "Desculpe, você já viajou demais.",
    "n": 1,
    "npc": [
     "charos"
    ]
   },
   "Fine. You have": {
-   "pt": "",
+   "pt": "Certo. Você tem",
    "n": 1,
    "npc": [
     "charos"
    ]
   },
   "Goodbye traveler!": {
-   "pt": "",
+   "pt": "Até mais, viajante!",
    "n": 1,
    "npc": [
     "charos"
    ]
   },
   "Sorry, I don't know about this place.": {
-   "pt": "",
+   "pt": "Desculpe, não conheço esse lugar.",
    "n": 1,
    "npc": [
     "charos"
@@ -21684,28 +21684,28 @@
    ]
   },
   "Trading tokens! First-class bargains!": {
-   "pt": "",
+   "pt": "Troco tokens! Pechinchas de primeira!",
    "n": 1,
    "npc": [
     "cledwyn"
    ]
   },
   "Bespoke armor for all vocations! For the cost of some tokens only!": {
-   "pt": "",
+   "pt": "Armadura sob medida para todas as vocações! Só por alguns tokens!",
    "n": 1,
    "npc": [
     "cledwyn"
    ]
   },
   "Tokens! Bring your tokens!": {
-   "pt": "",
+   "pt": "Tokens! Traga seus tokens!",
    "n": 1,
    "npc": [
     "cledwyn"
    ]
   },
   "If you have any {silver} tokens with you, let's have a look! Maybe I can offer you something in exchange.": {
-   "pt": "",
+   "pt": "Se estiver com algum token de {prata}, vamos dar uma olhada! Talvez eu tenha algo a oferecer em troca.",
    "n": 1,
    "npc": [
     "cledwyn"
@@ -21719,28 +21719,28 @@
    ]
   },
   "Sorry, you don't have an unenchanted": {
-   "pt": "",
+   "pt": "Desculpe, você não tem um sem encantamento",
    "n": 1,
    "npc": [
     "cledwyn"
    ]
   },
   "Ah, excellent. Here is your": {
-   "pt": "",
+   "pt": "Ah, excelente. Aqui está seu",
    "n": 1,
    "npc": [
     "cledwyn"
    ]
   },
   "Alright, come back if you have changed your mind.": {
-   "pt": "",
+   "pt": "Certo, volte se mudar de ideia.",
    "n": 1,
    "npc": [
     "cledwyn"
    ]
   },
   "Ah, very good. Now choose your addon: {first} or {second}.": {
-   "pt": "",
+   "pt": "Ah, muito bem. Agora escolha seu addon: {primeiro} ou {segundo}.",
    "n": 1,
    "npc": [
     "cledwyn"
@@ -23000,63 +23000,63 @@
    ]
   },
   "I am the magistrate of this isle.": {
-   "pt": "",
+   "pt": "Sou o magistrado desta ilha.",
    "n": 1,
    "npc": [
     "dermot"
    ]
   },
   "Thats me.": {
-   "pt": "",
+   "pt": "Sou eu mesmo.",
    "n": 1,
    "npc": [
     "dermot"
    ]
   },
   "I am Dermot, the magistrate of this isle.": {
-   "pt": "",
+   "pt": "Sou Dermot, o magistrado desta ilha.",
    "n": 1,
    "npc": [
     "dermot"
    ]
   },
   "Time is not important on Fibula.": {
-   "pt": "",
+   "pt": "Tempo não tem importância em Fibula.",
    "n": 1,
    "npc": [
     "dermot"
    ]
   },
   "You are at Fibula. This isle is not very dangerous. Just the wolves bother outside the village.": {
-   "pt": "",
+   "pt": "Você está em Fibula. Esta ilha não é muito perigosa. Só os lobos incomodam fora do vilarejo.",
    "n": 1,
    "npc": [
     "dermot"
    ]
   },
   "You have a present for me?? Realy?": {
-   "pt": "",
+   "pt": "Tem um presente para mim?? Sério?",
    "n": 1,
    "npc": [
     "dermot"
    ]
   },
   "Do you want to buy the dungeon key for 2000 gold?": {
-   "pt": "",
+   "pt": "Quer comprar a chave da masmorra por 2000 de ouro?",
    "n": 1,
    "npc": [
     "dermot"
    ]
   },
   "Thank you very much!": {
-   "pt": "",
+   "pt": "Muito obrigado!",
    "n": 1,
    "npc": [
     "dermot"
    ]
   },
   "Hello, traveller |PLAYERNAME|. How can I help you?": {
-   "pt": "",
+   "pt": "Olá, viajante |PLAYERNAME|. Como posso ajudar?",
    "n": 1,
    "npc": [
     "dermot"
@@ -24841,21 +24841,21 @@
    ]
   },
   "Not enough space for all my trophies...": {
-   "pt": "",
+   "pt": "Não tenho espaço para todos os meus troféus...",
    "n": 1,
    "npc": [
     "emael"
    ]
   },
   "Do you want to appropriately show off your boss trophies and buy an additional podium of vigour for 1000000 Gold?": {
-   "pt": "",
+   "pt": "Quer exibir seus troféus de boss como merecem e comprar mais um podium of vigour por 1000000 de ouro?",
    "n": 1,
    "npc": [
     "emael"
    ]
   },
   "Ah, I see you killed a lot of dangerous creatures. Here's your podium of vigour!": {
-   "pt": "",
+   "pt": "Ah, vejo que você matou muitas criaturas perigosas. Aqui está seu podium of vigour!",
    "n": 1,
    "npc": [
     "emael"
@@ -24869,21 +24869,21 @@
    ]
   },
   "You have not aquired enough knowledge in hunting big scary creatures.": {
-   "pt": "",
+   "pt": "Você ainda não acumulou conhecimento suficiente caçando criaturas grandes e assustadoras.",
    "n": 1,
    "npc": [
     "emael"
    ]
   },
   "Blessings on your hunts!": {
-   "pt": "",
+   "pt": "Bênçãos sobre suas caçadas!",
    "n": 1,
    "npc": [
     "emael"
    ]
   },
   "I wish you a good hunt. Goodbye!": {
-   "pt": "",
+   "pt": "Desejo uma boa caçada. Até mais!",
    "n": 1,
    "npc": [
     "emael"
@@ -26304,7 +26304,7 @@
    ]
   },
   "You want me to transport you and your spouse to Honeymoon Island {Meluna}?": {
-   "pt": "",
+   "pt": "Quer que eu leve você e seu cônjuge à Honeymoon Island {meluna}?",
    "n": 1,
    "npc": [
     "ferryman_kamil"
@@ -34298,49 +34298,49 @@
    ]
   },
   "Don't enter this area if you are an inexperienced fighter! It would be your end!": {
-   "pt": "",
+   "pt": "Não entre nesta área se for um lutador inexperiente! Seria o seu fim!",
    "n": 1,
    "npc": [
     "jamesfrancis"
    ]
   },
   "The minotaurs I faced in the cave are much stronger than the normal ones. What I were able to see before I had to flee: all of them seem to belong to a cult worshipping their god. Could you do me a {favour}?": {
-   "pt": "",
+   "pt": "Os minotauros que enfrentei na caverna são muito mais fortes que os comuns. O que consegui ver antes de fugir: todos parecem pertencer a um culto que adora o deus deles. Você poderia me fazer um {favor}?",
    "n": 1,
    "npc": [
     "jamesfrancis"
    ]
   },
   "I'd like to work in this cave researching the minotaurs. But right now there are too many of hem and what is more, they are too powerful for me. Could you enter the cave and kill at least 50 of these creatures?": {
-   "pt": "",
+   "pt": "Eu gostaria de trabalhar nesta caverna pesquisando os minotauros. Mas agora há muitos deles e, pior, são fortes demais para mim. Você poderia entrar na caverna e matar pelo menos 50 dessas criaturas?",
    "n": 1,
    "npc": [
     "jamesfrancis"
    ]
   },
   "Great job! You have killed at least 50 of these monsters. I give this key to you to open the door to the inner area. Go there and find out what's going on.": {
-   "pt": "",
+   "pt": "Excelente trabalho! Você matou pelo menos 50 desses monstros. Te dou esta chave para abrir a porta da área interna. Vá até lá e descubra o que está acontecendo.",
    "n": 1,
    "npc": [
     "jamesfrancis"
    ]
   },
   "Come back when you have killed enough minotaurs.": {
-   "pt": "",
+   "pt": "Volte quando tiver matado minotauros suficientes.",
    "n": 1,
    "npc": [
     "jamesfrancis"
    ]
   },
   "Very nice. Return to me if you've finished your job.": {
-   "pt": "",
+   "pt": "Muito bem. Volte quando terminar o serviço.",
    "n": 1,
    "npc": [
     "jamesfrancis"
    ]
   },
   "Gerimor is right. As an expert for minotaurs I am researching these creatures for years. I thought I already knew a lot but the monsters in this cave are {different}. It's a big {mystery}.": {
-   "pt": "",
+   "pt": "Gerimor tem razão. Como especialista em minotauros, pesquiso estas criaturas há anos. Achava que já sabia muito, mas os monstros desta caverna são {diferentes}. É um grande {mistério}.",
    "n": 1,
    "npc": [
     "jamesfrancis"
@@ -34788,14 +34788,14 @@
    ]
   },
   "You just swapped 20 silver raid tokens for 1": {
-   "pt": "",
+   "pt": "Você acabou de trocar 20 silver raid tokens por 1",
    "n": 1,
    "npc": [
     "jorge"
    ]
   },
   "I'm sorry, I need at least 20 silver tokens for that. Please come back when you have them.": {
-   "pt": "",
+   "pt": "Desculpe, preciso de pelo menos 20 silver tokens para isso. Volte quando tiver.",
    "n": 1,
    "npc": [
     "jorge"
@@ -46149,7 +46149,7 @@
    ]
   },
   "<sigh> The world has grown complicated since my youth.": {
-   "pt": "",
+   "pt": "<suspira> O mundo ficou complicado desde a minha juventude.",
    "n": 1,
    "npc": [
     "rotem_valos"
@@ -50384,49 +50384,49 @@
    ]
   },
   "A SORCERER! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!": {
-   "pt": "",
+   "pt": "UM SORCERER! TEM CERTEZA? ESTA DECISÃO É IRREVERSÍVEL!",
    "n": 1,
    "npc": [
     "the_oracle"
    ]
   },
   "A DRUID! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!": {
-   "pt": "",
+   "pt": "UM DRUID! TEM CERTEZA? ESTA DECISÃO É IRREVERSÍVEL!",
    "n": 1,
    "npc": [
     "the_oracle"
    ]
   },
   "A PALADIN! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!": {
-   "pt": "",
+   "pt": "UM PALADIN! TEM CERTEZA? ESTA DECISÃO É IRREVERSÍVEL!",
    "n": 1,
    "npc": [
     "the_oracle"
    ]
   },
   "A KNIGHT! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!": {
-   "pt": "",
+   "pt": "UM KNIGHT! TEM CERTEZA? ESTA DECISÃO É IRREVERSÍVEL!",
    "n": 1,
    "npc": [
     "the_oracle"
    ]
   },
   "A MONK! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!": {
-   "pt": "",
+   "pt": "UM MONK! TEM CERTEZA? ESTA DECISÃO É IRREVERSÍVEL!",
    "n": 1,
    "npc": [
     "the_oracle"
    ]
   },
   "CHILD! COME BACK WHEN YOU HAVE GROWN UP!": {
-   "pt": "",
+   "pt": "CRIANÇA! VOLTE QUANDO TIVER CRESCIDO!",
    "n": 1,
    "npc": [
     "the_oracle"
    ]
   },
   "YOU ALREADY HAVE A VOCATION!": {
-   "pt": "",
+   "pt": "VOCÊ JÁ TEM UMA VOCAÇÃO!",
    "n": 1,
    "npc": [
     "the_oracle"
@@ -50440,21 +50440,21 @@
    ]
   },
   "{KNIGHT}, {PALADIN}, {SORCERER}, {DRUID}, OR {MONK}?": {
-   "pt": "",
+   "pt": "{KNIGHT}, {PALADIN}, {SORCERER}, {DRUID} OU {MONK}?",
    "n": 1,
    "npc": [
     "the_oracle"
    ]
   },
   "SO BE IT!": {
-   "pt": "",
+   "pt": "QUE ASSIM SEJA!",
    "n": 1,
    "npc": [
     "the_oracle"
    ]
   },
   "THEN WHAT? {KNIGHT}, {PALADIN}, {SORCERER}, {DRUID} OR {MONK}?": {
-   "pt": "",
+   "pt": "ENTÃO O QUÊ? {KNIGHT}, {PALADIN}, {SORCERER}, {DRUID} OU {MONK}?",
    "n": 1,
    "npc": [
     "the_oracle"
@@ -51245,21 +51245,21 @@
    ]
   },
   "Equipment and general goods!": {
-   "pt": "",
+   "pt": "Equipamento e mercadorias em geral!",
    "n": 1,
    "npc": [
     "timur"
    ]
   },
   "Selling ammunition and buying bows and crossbows!": {
-   "pt": "",
+   "pt": "Vendo munição e compro arcos e bestas!",
    "n": 1,
    "npc": [
     "timur"
    ]
   },
   "Welcome to my little shop, adventurer! First read my blackboards.": {
-   "pt": "",
+   "pt": "Bem-vindo à minha lojinha, aventureiro! Antes, leia meus quadros.",
    "n": 1,
    "npc": [
     "timur"
@@ -54066,7 +54066,7 @@
    ]
   },
   "Trading tokens! First-class equipment available!": {
-   "pt": "",
+   "pt": "Troco tokens! Equipamento de primeira disponível!",
    "n": 1,
    "npc": [
     "yana"
@@ -54129,28 +54129,28 @@
    ]
   },
   "There it is.": {
-   "pt": "",
+   "pt": "Aqui está.",
    "n": 1,
    "npc": [
     "yana"
    ]
   },
   "I'm sorry but it seems you don't have enough": {
-   "pt": "",
+   "pt": "Desculpe, mas parece que você não tem o bastante",
    "n": 1,
    "npc": [
     "yana"
    ]
   },
   "You don't have enough capacity. You must have": {
-   "pt": "",
+   "pt": "Você não tem capacidade. Precisa ter",
    "n": 1,
    "npc": [
     "yana"
    ]
   },
   "Your decision. Come back if you have changed your mind.": {
-   "pt": "",
+   "pt": "A decisão é sua. Volte se mudar de ideia.",
    "n": 1,
    "npc": [
     "yana"
@@ -54626,28 +54626,28 @@
    ]
   },
   "Come over here if you have to resupply!": {
-   "pt": "",
+   "pt": "Venha aqui se precisar se reabastecer!",
    "n": 1,
    "npc": [
     "zethra"
    ]
   },
   "I wish someone could spare a minute and help me...": {
-   "pt": "",
+   "pt": "Quem me dera alguém tivesse um minuto para me ajudar...",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "This is too hard for an old woman like me.": {
-   "pt": "",
+   "pt": "Isto é pesado demais para uma velha como eu.",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "Hello, young adventurer, you look strong enough to help me!": {
-   "pt": "",
+   "pt": "Olá, jovem aventureiro, você parece forte o bastante para me ajudar!",
    "n": 1,
    "npc": [
     "zirella"
@@ -54661,7 +54661,7 @@
    ]
   },
   "Thank you so much for your kindness. I'm an old woman and I desperately need firewood for my oven. Could you please help me?": {
-   "pt": "",
+   "pt": "Muito obrigada pela gentileza. Sou uma velha e preciso desesperadamente de lenha para o meu forno. Você poderia me ajudar?",
    "n": 1,
    "npc": [
     "zirella"
@@ -54710,7 +54710,7 @@
    ]
   },
   "Oh, heaven must have sent you! Could you please help me with a {quest}?": {
-   "pt": "",
+   "pt": "Ah, os céus devem tê-lo enviado! Você poderia me ajudar com uma {quest}?",
    "n": 1,
    "npc": [
     "zirella"
@@ -54752,7 +54752,7 @@
    ]
   },
   "Oh, sweetheart, is there a problem with the quest? Should I {explain} it again?": {
-   "pt": "",
+   "pt": "Ah, querido, algum problema com a quest? Quer que eu {explicar} de novo?",
    "n": 1,
    "npc": [
     "zirella"
@@ -54773,14 +54773,14 @@
    ]
   },
   "Good bye |PLAYERNAME|, may Uman bless you!.": {
-   "pt": "",
+   "pt": "Até mais, |PLAYERNAME|, que Uman te abençoe!",
    "n": 1,
    "npc": [
     "zirella"
    ]
   },
   "Good bye traveller, take care.": {
-   "pt": "",
+   "pt": "Até mais, viajante, cuide-se.",
    "n": 1,
    "npc": [
     "zirella"
@@ -56262,7 +56262,7 @@
    "n": 30
   },
   "information": {
-   "pt": "",
+   "pt": "informação",
    "n": 30
   },
   "monster": {
@@ -56810,7 +56810,7 @@
    "n": 9
   },
   "outfit": {
-   "pt": "",
+   "pt": "visual",
    "n": 9
   },
   "kill": {
@@ -57006,7 +57006,7 @@
    "n": 7
   },
   "token": {
-   "pt": "",
+   "pt": "token",
    "n": 7
   },
   "mr morris": {
@@ -57170,7 +57170,7 @@
    "n": 6
   },
   "talk": {
-   "pt": "",
+   "pt": "conversar",
    "n": 5
   },
   "story": {
@@ -57266,7 +57266,7 @@
    "n": 5
   },
   "meat": {
-   "pt": "",
+   "pt": "carne",
    "n": 5
   },
   "grimvale": {
@@ -57446,7 +57446,7 @@
    "n": 4
   },
   "type": {
-   "pt": "",
+   "pt": "tipo",
    "n": 4
   },
   "sniper gloves": {
@@ -57970,11 +57970,11 @@
    "n": 3
   },
   "containers": {
-   "pt": "",
+   "pt": "recipientes",
    "n": 3
   },
   "instruments": {
-   "pt": "",
+   "pt": "instrumentos",
    "n": 3
   },
   "magicians": {
@@ -58506,7 +58506,7 @@
    "n": 2
   },
   "ready": {
-   "pt": "",
+   "pt": "pronto",
    "n": 2
   },
   "faolan": {
@@ -58522,11 +58522,11 @@
    "n": 2
   },
   "first": {
-   "pt": "",
+   "pt": "primeiro",
    "n": 2
   },
   "second": {
-   "pt": "",
+   "pt": "segundo",
    "n": 2
   },
   "spark": {
@@ -58602,39 +58602,39 @@
    "n": 2
   },
   "beds": {
-   "pt": "",
+   "pt": "camas",
    "n": 2
   },
   "chairs": {
-   "pt": "",
+   "pt": "cadeiras",
    "n": 2
   },
   "decoration": {
-   "pt": "",
+   "pt": "decoração",
    "n": 2
   },
   "flowers": {
-   "pt": "",
+   "pt": "flores",
    "n": 2
   },
   "pillows": {
-   "pt": "",
+   "pt": "almofadas",
    "n": 2
   },
   "pottery": {
-   "pt": "",
+   "pt": "cerâmica",
    "n": 2
   },
   "statues": {
-   "pt": "",
+   "pt": "estátuas",
    "n": 2
   },
   "tapestries": {
-   "pt": "",
+   "pt": "tapeçarias",
    "n": 2
   },
   "tables": {
-   "pt": "",
+   "pt": "mesas",
    "n": 2
   },
   "paladins": {
@@ -58718,7 +58718,7 @@
    "n": 2
   },
   "meluna": {
-   "pt": "",
+   "pt": "meluna",
    "n": 2
   },
   "magical ingredients": {
@@ -59126,7 +59126,7 @@
    "n": 2
   },
   "explain": {
-   "pt": "",
+   "pt": "explicar",
    "n": 2
   },
   "training": {
@@ -59258,15 +59258,15 @@
    "n": 2
   },
   "okay": {
-   "pt": "",
+   "pt": "certo",
    "n": 2
   },
   "keywords": {
-   "pt": "",
+   "pt": "palavras-chave",
    "n": 2
   },
   "topic": {
-   "pt": "",
+   "pt": "assunto",
    "n": 2
   },
   "student": {
@@ -59462,11 +59462,11 @@
    "n": 2
   },
   "dead trees": {
-   "pt": "",
+   "pt": "árvores mortas",
    "n": 2
   },
   "alright": {
-   "pt": "",
+   "pt": "certo",
    "n": 2
   },
   "actor": {
@@ -60022,11 +60022,11 @@
    "n": 1
   },
   "silver": {
-   "pt": "",
+   "pt": "prata",
    "n": 1
   },
   "enchant": {
-   "pt": "",
+   "pt": "encantar",
    "n": 1
   },
   "extermination": {
@@ -60754,15 +60754,15 @@
    "n": 1
   },
   "favour": {
-   "pt": "",
+   "pt": "favor",
    "n": 1
   },
   "different": {
-   "pt": "",
+   "pt": "diferentes",
    "n": 1
   },
   "mystery": {
-   "pt": "",
+   "pt": "mistério",
    "n": 1
   },
   "rotworm stew, hydra tongue salad, roasted dragon wings, tropical fried terrorbird, banana chocolate shake, veggie casserole, filled jalapeno peppers, blessed steak, northern fishburger, carrot cake, coconut shrimp bake, blackjack, demonic candy balls, sweet mangonaise elixir": {
@@ -61918,15 +61918,15 @@
    "n": 1
   },
   "branches": {
-   "pt": "",
+   "pt": "galhos",
    "n": 1
   },
   "pushing": {
-   "pt": "",
+   "pt": "empurrar",
    "n": 1
   },
   "cart": {
-   "pt": "",
+   "pt": "carroça",
    "n": 1
   },
   "alliez": {
