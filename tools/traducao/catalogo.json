@@ -8646,7 +8646,7 @@
    ]
   },
   "OH! So you have safely returned from Calassa! Congratulations, were you able to retrieve the logbook?": {
-   "pt": "",
+   "pt": "OH! Então você voltou em segurança de Calassa! Parabéns, conseguiu recuperar o logbook?",
    "n": 2,
    "npc": [
     "berenice"
@@ -8978,7 +8978,7 @@
    ]
   },
   "Here you go kind sir.": {
-   "pt": "",
+   "pt": "Aqui está, gentil senhor.",
    "n": 2,
    "npc": [
     "carina",
@@ -9723,7 +9723,7 @@
    ]
   },
   "You don't have the required items.": {
-   "pt": "",
+   "pt": "Você não tem os itens necessários.",
    "n": 2,
    "npc": [
     "erayo",
@@ -16619,35 +16619,35 @@
    ]
   },
   "The most important mission we currently have is an expedition to {Calassa}.": {
-   "pt": "",
+   "pt": "A missão mais importante que temos no momento é uma expedição a {Calassa}.",
    "n": 1,
    "npc": [
     "berenice"
    ]
   },
   "Ah! So you have heard about our special mission to investigate the Quara race in their natural surrounding! Would you like to know more about it?": {
-   "pt": "",
+   "pt": "Ah! Então você ouviu falar da nossa missão especial de investigar a raça Quara no ambiente natural dela! Gostaria de saber mais?",
    "n": 1,
    "npc": [
     "berenice"
    ]
   },
   "Captain Max will bring you to Calassa whenever you are ready. Please try to retrieve the missing logbook which must be in one of the sunken shipwrecks.": {
-   "pt": "",
+   "pt": "Captain Max vai lhe levar a Calassa quando estiver pronto. Por favor, tente recuperar o logbook desaparecido, que deve estar em um dos navios naufragados.",
    "n": 1,
    "npc": [
     "berenice"
    ]
   },
   "Excellent! I will immediately inform Captain Max to bring you to {Calassa} whenever you are ready. Don't forget to make thorough preparations!": {
-   "pt": "",
+   "pt": "Excelente! Vou avisar imediatamente Captain Max para lhe levar a {Calassa} quando estiver pronto. Não esqueça de se preparar bem!",
    "n": 1,
    "npc": [
     "berenice"
    ]
   },
   "Yes! That's the logbook! However... it seems that the water has already destroyed many of the pages. This is not your fault though, you did your best. Thank you!": {
-   "pt": "",
+   "pt": "Sim! É o logbook! Mas... parece que a água já destruiu muitas páginas. Ainda assim, a culpa não é sua, você fez o melhor que pôde. Obrigada!",
    "n": 1,
    "npc": [
     "berenice"
@@ -16661,7 +16661,7 @@
    ]
   },
   "Oh my! You look so great in your uniform! \\z\n\t\t\t\tYou archpostwomen are not only daring but also beautiful. \\z\n\t\t\t\tHere take it, that's the key you wanted. Just promise to visit me now and then!": {
-   "pt": "",
+   "pt": "Ai, meu Deus! Você fica ótima de uniforme! Vocês, archpostwomen, não são só corajosas, são bonitas também. Tome, aqui está a chave que você queria. Só prometa me visitar de vez em quando!",
    "n": 1,
    "npc": [
     "bertram"
@@ -20266,21 +20266,21 @@
    ]
   },
   "Oh my! You look so great in your uniform! You archpostmen are not only daring but also handsome. Here take it, that's the key you wanted. Just promise to visit me now and then!": {
-   "pt": "",
+   "pt": "Ai, meu Deus! Você fica ótimo de uniforme! Vocês, archpostmen, não são só corajosos, são bonitos também. Tome, aqui está a chave que você queria. Só prometa me visitar de vez em quando!",
    "n": 1,
    "npc": [
     "chantalle"
    ]
   },
   "Oh my, such a lovely necklace! Here take it, that's the key you wanted. Now let me admire my precious necklace alone.": {
-   "pt": "",
+   "pt": "Ai, meu Deus, que colar mais lindo! Tome, aqui está a chave que você queria. Agora me deixe admirar meu precioso colar sozinha.",
    "n": 1,
    "npc": [
     "chantalle"
    ]
   },
   "I am sorry, I am not interested in your money. Maybe you should try your luck with Herbert, the postman instead.": {
-   "pt": "",
+   "pt": "Sinto muito, não tenho interesse no seu dinheiro. Talvez você deva tentar a sorte com Herbert, o carteiro.",
    "n": 1,
    "npc": [
     "chantalle"
@@ -20329,21 +20329,21 @@
    ]
   },
   "Oh, so you brought some gold from Eleonore to me?": {
-   "pt": "",
+   "pt": "Ah, então você trouxe um pouco de ouro da Eleonore para mim?",
    "n": 1,
    "npc": [
     "charlotta"
    ]
   },
   "Hmm, it seems that Eleonore does trust you. Perhaps she is even right. However. Since we need some help right now I guess we can't be too picky. Return to Eleonore and tell her the secret password: 'peg leg'. She will tell you more about her problem.": {
-   "pt": "",
+   "pt": "Hmm, parece que Eleonore confia em você. Talvez até tenha razão. Mas, já que precisamos de ajuda agora, acho que não podemos escolher muito. Volte a Eleonore e diga a ela a senha secreta: 'peg leg'. Ela vai lhe contar mais sobre o problema dela.",
    "n": 1,
    "npc": [
     "charlotta"
    ]
   },
   "Ah, welcome! Welcome |PLAYERNAME|! If you need druid spells, you've come to the right place. Otherwise it's just nice to have a visitor.": {
-   "pt": "",
+   "pt": "Ah, bem-vindo! Bem-vindo, |PLAYERNAME|! Se precisa de magias de druid, veio ao lugar certo. Senão, é sempre bom ter um visitante.",
    "n": 1,
    "npc": [
     "charlotta"
@@ -31823,14 +31823,14 @@
    ]
   },
   "You would like Chantalle's letter? only if you are willing to pay a price. {gold} maybe?": {
-   "pt": "",
+   "pt": "Você quer a carta da Chantalle? Só se estiver disposto a pagar um preço. {Ouro}, talvez?",
    "n": 1,
    "npc": [
     "herbert"
    ]
   },
   "Are you willing to pay 1000 gold for this letter?": {
-   "pt": "",
+   "pt": "Está disposto a pagar 1000 gold por esta carta?",
    "n": 1,
    "npc": [
     "herbert"
@@ -38865,91 +38865,91 @@
    ]
   },
   "<mumble>": {
-   "pt": "",
+   "pt": "<resmunga>",
    "n": 1,
    "npc": [
     "malunga"
    ]
   },
   "Greetings. I have only little time to {spare}, so the conversation will be short. I teach sorcerer {spells} and buy a few magical {ingredients}.": {
-   "pt": "",
+   "pt": "Saudações. Tenho pouco tempo de {sobra}, então a conversa vai ser curta. Ensino {magias} de sorcerer e compro alguns {ingredientes} mágicos.",
    "n": 1,
    "npc": [
     "malunga"
    ]
   },
   "Sorry, I don't have a spare comb. I lost my favourite one when diving around in Calassa.": {
-   "pt": "",
+   "pt": "Desculpe, não tenho um pente sobrando. Perdi o meu favorito mergulhando por Calassa.",
    "n": 1,
    "npc": [
     "marina"
    ]
   },
   "Um. You mean, you really want me to touch that gooey spider silk just because you need yarn? Well... do you think that I'm pretty?": {
-   "pt": "",
+   "pt": "Hum. Quer dizer que você quer mesmo que eu toque nessa spider silk pegajosa só porque você precisa de fio? Bem... você acha que eu sou bonita?",
    "n": 1,
    "npc": [
     "marina"
    ]
   },
   "Okay... a deal is a deal, would you like me to create a {spool of yarn} from {10 pieces of spider silk}?": {
-   "pt": "",
+   "pt": "Certo... trato é trato, quer que eu crie um {spool of yarn} a partir de {10 pieces of spider silk}?",
    "n": 1,
    "npc": [
     "marina"
    ]
   },
   "Did you bring me the 50 honeycombs I requested and do you absolutely admire my beauty?": {
-   "pt": "",
+   "pt": "Você me trouxe os 50 honeycombs que eu pedi, e você admira mesmo, mesmo minha beleza?",
    "n": 1,
    "npc": [
     "marina"
    ]
   },
   "<giggles> I think he has a crush on me. Well, silly man, it is only for his own good. This way he can get accustomed to TRUE beauty. And I won't give him up anymore now that he is mine.": {
-   "pt": "",
+   "pt": "<dá risadinha> Acho que ele tem uma quedinha por mim. Bem, homem bobo, é só para o próprio bem dele. Assim ele se acostuma com a beleza VERDADEIRA. E não vou mais desistir dele agora que ele é meu.",
    "n": 1,
    "npc": [
     "marina"
    ]
   },
   "Is that the best you can do? A true Djinn would have done something more poetic.": {
-   "pt": "",
+   "pt": "É o melhor que você consegue fazer? Um verdadeiro Djinn teria feito algo mais poético.",
    "n": 1,
    "npc": [
     "marina"
    ]
   },
   "Well, everyone would say that in your position. Do you think that I'm really, absolutely the most stunning being that you have ever seen?": {
-   "pt": "",
+   "pt": "Bem, qualquer um diria isso na sua posição. Você acha mesmo, mesmo que eu sou o ser mais deslumbrante que você já viu?",
    "n": 1,
    "npc": [
     "marina"
    ]
   },
   "Oh goodie! Thank you! Okay... I guess since my fingers are sticky now anyway, I will help you. From now on, if you bring me {10 pieces of spider silk}, I will create one {spool of yarn}.": {
-   "pt": "",
+   "pt": "Ah, que ótimo! Obrigada! Certo... já que meus dedos já estão grudentos mesmo, vou lhe ajudar. De agora em diante, se você me trouxer {10 pieces of spider silk}, eu crio um {spool of yarn}.",
    "n": 1,
    "npc": [
     "marina"
    ]
   },
   "You don't have enough honey.": {
-   "pt": "",
+   "pt": "Você não tem honey suficiente.",
    "n": 1,
    "npc": [
     "marina"
    ]
   },
   "Ew... gooey... there you go.": {
-   "pt": "",
+   "pt": "Eca... pegajoso... aqui está.",
    "n": 1,
    "npc": [
     "marina"
    ]
   },
   "Oh, hello |PLAYERNAME|. A visitor, how nice!": {
-   "pt": "",
+   "pt": "Ah, olá |PLAYERNAME|. Um visitante, que bom!",
    "n": 1,
    "npc": [
     "marina"
@@ -45284,203 +45284,203 @@
    ]
   },
   "Come visit my little pawnshop! General equipment and such. Don't miss it!": {
-   "pt": "",
+   "pt": "Venha visitar minha lojinha de penhores! Equipamento geral e tal. Não perca!",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Just between you and me hun, that woman is a witch. Love potions, poison, voodoo dolls to torture your neighbour. You name it, she got it.": {
-   "pt": "",
+   "pt": "Só entre nós, querido, aquela mulher é uma bruxa. Poção do amor, veneno, boneco de vodu para torturar o vizinho. É só falar que ela tem.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Uh! <whispers> There are ... rumours, you know? About bloody rituals and gruesome curses ... better don't talk aloud about such issues.": {
-   "pt": "",
+   "pt": "Uh! <sussurra> Há ... boatos, sabe? Sobre rituais sangrentos e maldições macabras ... melhor não falar disso alto.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Kshh!! No talks about ... the magic folk here ... This might draw their attention.": {
-   "pt": "",
+   "pt": "Kshh!! Nada de falar sobre ... o povo mágico aqui ... isso pode chamar a atenção deles.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Hard to imagine that this fat man has such a pretty daughter.": {
-   "pt": "",
+   "pt": "Difícil imaginar que esse homem gordo tem uma filha tão bonita.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Don't mention HIM in my house you fool. You call evil and mayhem upon us.": {
-   "pt": "",
+   "pt": "Não mencione ELE na minha casa, seu tolo. Você atrai o mal e o caos sobre nós.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "I am not dealing with food.": {
-   "pt": "",
+   "pt": "Não trabalho com comida.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "I won't say anything bad about such a high-born person. That's why I remain silent hun .": {
-   "pt": "",
+   "pt": "Não vou falar mal de uma pessoa de tão boa família. Por isso fico calada, querido.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "I run this little pawnshop, hun, but I think you knew that already.": {
-   "pt": "",
+   "pt": "Eu toco esta lojinha de penhores, querido, mas acho que você já sabia disso.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "What interest could a king have in this little settlement? If a king cares about us, there must be something important behind all this.": {
-   "pt": "",
+   "pt": "Que interesse um rei teria neste povoadozinho? Se um rei se importa conosco, deve haver algo importante por trás disso tudo.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Liberty comes, liberty goes, only the bay stays. Hehe.": {
-   "pt": "",
+   "pt": "Liberdade vem, liberdade vai, só a baía fica. Hehe.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "I sell torches, candelabra, and oil.": {
-   "pt": "",
+   "pt": "Eu vendo torches, candelabra e oil.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "That guy is a shrewd trader, sweetie. I bet even I could learn a thing or two from him.": {
-   "pt": "",
+   "pt": "Aquele sujeito é um comerciante astuto, querido. Aposto que até eu podia aprender uma coisa ou outra com ele.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "I have shovels, picks, scythes, bags, ropes, backpacks, plates, scrolls, watches, some lightsources, and other stuff. Just ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Tenho shovels, picks, scythes, bags, ropes, backpacks, plates, scrolls, watches, umas lightsources e outras coisas. É só me pedir para {negociar}.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Mostly, pirates are bad for business. But sometimes, they are good for business.": {
-   "pt": "",
+   "pt": "Na maior parte do tempo, pirata é ruim para o negócio. Mas às vezes é bom para o negócio.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Sadly the workers have hardly enough money to buy something to eat and to drink. That is bad also for my business.": {
-   "pt": "",
+   "pt": "Infelizmente os trabalhadores mal têm dinheiro para comprar algo para comer e beber. Isso também é ruim para o meu negócio.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Ah, there is little in the world that comes close to the taste of rum.": {
-   "pt": "",
+   "pt": "Ah, há poucas coisas no mundo que chegam perto do gosto do rum.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "I heard there is a fine bounty on his head. Would be a shame though to lose such a handsome man to the executioner <winks>.": {
-   "pt": "",
+   "pt": "Ouvi dizer que tem uma bela recompensa pela cabeça dele. Mas seria uma pena perder um homem tão bonito para o carrasco <pisca>.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Sugar lets the money flow. We depend heavily on it.": {
-   "pt": "",
+   "pt": "Açúcar faz o dinheiro fluir. Dependemos muito dele.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Thais might be a splendid town, but this is of no use to us here. The situation in our town gets worse with every ship full of foreigners that arrives here.": {
-   "pt": "",
+   "pt": "Thais pode ser uma cidade esplêndida, mas isso não nos serve de nada aqui. A situação na nossa cidade piora a cada navio cheio de estrangeiros que chega aqui.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "I heard Venore will soon acquire several trade monopolies that will grant them wealth for centuries.": {
-   "pt": "",
+   "pt": "Ouvi dizer que Venore vai logo conseguir vários monopólios comerciais que vão lhes garantir riqueza por séculos.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Well, <lowers the voice to a whisper> there are several people around who know this or that about voodoo and not all of them are up to something good. Just buy some lucky charms from that old hag Charlotta to be on the safe side.": {
-   "pt": "",
+   "pt": "Bem, <baixa a voz para um sussurro> há várias pessoas por aí que sabem uma coisa ou outra sobre vodu, e nem todas estão tramando algo bom. Compre uns amuletos da sorte com aquela velha bruxa Charlotta para ficar do lado seguro.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "A handsome man but a bit too stiff. I think no one has ever had a chance to see him smiling.": {
-   "pt": "",
+   "pt": "Um homem bonito, mas meio sisudo demais. Acho que ninguém nunca teve a chance de vê-lo sorrindo.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "I will pay you 5 gold for every empty vial. Ok?": {
-   "pt": "",
+   "pt": "Eu pago 5 gold por cada vial vazio. Certo?",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Hmm, but please keep Tibia litter free.": {
-   "pt": "",
+   "pt": "Hmm, mas por favor mantenha Tibia livre de lixo.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "You don't have any empty vials.": {
-   "pt": "",
+   "pt": "Você não tem nenhum vial vazio.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Hello sweetie. If you need general equipment, stuff like that, let me know.": {
-   "pt": "",
+   "pt": "Olá, querido. Se precisar de equipamento geral, esse tipo de coisa, me avise.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Good bye sweetie.": {
-   "pt": "",
+   "pt": "Até logo, querido.",
    "n": 1,
    "npc": [
     "red_lilly"
    ]
   },
   "Of course, just browse through my wares. Remember that if you buy vials of oil, there's a deposit of 5 gold on the empty one.": {
-   "pt": "",
+   "pt": "Claro, dê uma olhada nas minhas mercadorias. Lembre-se de que, se comprar vials de oil, há um depósito de 5 gold pelo vazio.",
    "n": 1,
    "npc": [
     "red_lilly"
@@ -50821,14 +50821,14 @@
    ]
   },
   "Oh my. Have you gotten an exquisite cigar for me, my young friend?": {
-   "pt": "",
+   "pt": "Nossa. Você conseguiu um charuto refinado para mim, meu jovem amigo?",
    "n": 1,
    "npc": [
     "theodore_loveless"
    ]
   },
   "Oh, then there must be a misunderstanding.": {
-   "pt": "",
+   "pt": "Ah, então deve haver algum mal-entendido.",
    "n": 1,
    "npc": [
     "theodore_loveless"
@@ -58612,7 +58612,7 @@
    "n": 2
   },
   "ingredients": {
-   "pt": "",
+   "pt": "ingredientes",
    "n": 2
   },
   "kilmaresh": {
@@ -61004,7 +61004,7 @@
    "n": 1
   },
   "spare": {
-   "pt": "",
+   "pt": "sobrar",
    "n": 1
   },
   "mermaid comb": {
@@ -62263,6 +62263,10 @@
   },
   "sail": {
    "pt": "içar",
+   "n": 0
+  },
+  "spare": {
+   "pt": "sobra",
    "n": 0
   }
  }
