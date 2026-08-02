@@ -4887,7 +4887,7 @@
    ]
   },
   "Hi!": {
-   "pt": "",
+   "pt": "Oi!",
    "n": 6,
    "npc": [
     "gnomargery",
@@ -8871,7 +8871,7 @@
    ]
   },
   "Do you seek a passage to Darashia for |TRAVELCOST|?": {
-   "pt": "",
+   "pt": "Procura uma passagem para Darashia por |TRAVELCOST|?",
    "n": 2,
    "npc": [
     "captain_fearless",
@@ -8879,7 +8879,7 @@
    ]
   },
   "I warn you! This route is haunted by a ghostship. Do you really want to go there?": {
-   "pt": "",
+   "pt": "Eu aviso! Esta rota é assombrada por um ghostship. Você realmente quer ir para lá?",
    "n": 2,
    "npc": [
     "captain_fearless",
@@ -8887,7 +8887,7 @@
    ]
   },
   "This is Venore. Where do you want to go?": {
-   "pt": "",
+   "pt": "Isto é Venore. Para onde você quer ir?",
    "n": 2,
    "npc": [
     "captain_fearless",
@@ -8954,7 +8954,7 @@
    ]
   },
   "Where do you want to go? To {Edron}, {Darashia}, {Oramond} or {Venore}?": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Edron}, {Darashia}, {Oramond} ou {Venore}?",
    "n": 2,
    "npc": [
     "captain_pelagia"
@@ -9657,7 +9657,7 @@
    ]
   },
   "I'm glad to see you back alive and healthy. Did you find anything interesting that you want to {report}?": {
-   "pt": "",
+   "pt": "Fico feliz em vê-lo de volta, vivo e são. Achou algo interessante que queira {relatar}?",
    "n": 2,
    "npc": [
     "elliott",
@@ -9665,7 +9665,7 @@
    ]
   },
   "The sewers need repair. You in?": {
-   "pt": "",
+   "pt": "Os esgotos precisam de reparo. Você topa?",
    "n": 2,
    "npc": [
     "elliott",
@@ -9673,7 +9673,7 @@
    ]
   },
   "Elliott's keeps calling it that. It's just another job! You fixed some broken pipes and stuff? Let me check, {ok}?": {
-   "pt": "",
+   "pt": "O Elliott vive chamando de outro nome. É só mais um trabalho! Você consertou uns canos quebrados e tal? Deixe-me verificar, {certo}?",
    "n": 2,
    "npc": [
     "elliott",
@@ -9681,7 +9681,7 @@
    ]
   },
   "Good. Broken pipe and generator pieces, there's smoke evading. That's how you recognise them. See how you can fix them using your hands. Need about, oh, twenty of them at least repaired. Report to me or Jacob": {
-   "pt": "",
+   "pt": "Ótimo. Canos quebrados e peças de gerador, dá para ver a fumaça escapando. É assim que você os reconhece. Veja se consegue consertá-los com as próprias mãos. Precisamos de uns vinte consertados, pelo menos. Relate a mim ou ao Jacob",
    "n": 2,
    "npc": [
     "elliott",
@@ -9689,7 +9689,7 @@
    ]
   },
   "You already reported this mission, go to the next.": {
-   "pt": "",
+   "pt": "Você já relatou esta missão, vá para a próxima.",
    "n": 2,
    "npc": [
     "elliott",
@@ -9742,7 +9742,7 @@
    ]
   },
   "Here you go!": {
-   "pt": "",
+   "pt": "Aqui está!",
    "n": 2,
    "npc": [
     "eremo",
@@ -9933,7 +9933,7 @@
    ]
   },
   "Take care of evil spirits.": {
-   "pt": "",
+   "pt": "Cuide-se dos espíritos malignos.",
    "n": 2,
    "npc": [
     "ghorza"
@@ -10944,7 +10944,7 @@
    ]
   },
   "Ah, the impetuosity of youth.": {
-   "pt": "",
+   "pt": "Ah, a impetuosidade da juventude.",
    "n": 2,
    "npc": [
     "mordecai",
@@ -12346,14 +12346,14 @@
    ]
   },
   "The guys from the magistrate sent you here, didn't they?": {
-   "pt": "",
+   "pt": "O pessoal do magistrado lhe mandou aqui, não foi?",
    "n": 1,
    "npc": [
     "a_beggar"
    ]
   },
   "Hi! What is it, what d'ye {want}?": {
-   "pt": "",
+   "pt": "Oi! O que é, o que você {quer}?",
    "n": 1,
    "npc": [
     "a_beggar"
@@ -16441,14 +16441,14 @@
    ]
   },
   "You need to kill the {The Ravager}, click on statue and then come here say {ritual}, {abandoned sewers}, {notebook} and after this find Roswitha and talk with she.": {
-   "pt": "",
+   "pt": "Você precisa matar {The Ravager}, clicar na estátua e depois vir aqui dizer {ritual}, {abandoned sewers}, {notebook}, e depois disso achar Roswitha e falar com ela.",
    "n": 1,
    "npc": [
     "barazbaz"
    ]
   },
   "Oh, hello there!": {
-   "pt": "",
+   "pt": "Ah, olá!",
    "n": 1,
    "npc": [
     "barazbaz"
@@ -19710,14 +19710,14 @@
    ]
   },
   "Passages to Edron, Darashia, Oramond, Thais and Venore.": {
-   "pt": "",
+   "pt": "Passagens para Edron, Darashia, Oramond, Thais e Venore.",
    "n": 1,
    "npc": [
     "captain_pelagia"
    ]
   },
   "My name is Captain Pelagia from the Royal Tibia Line.": {
-   "pt": "",
+   "pt": "Meu nome é Captain Pelagia, da Royal Tibia Line.",
    "n": 1,
    "npc": [
     "captain_pelagia"
@@ -20480,49 +20480,49 @@
    ]
   },
   "I am sorry, you didn't harvest enough roots. You need to harvest a bundle of at least five roots - and please try doing it yourself.": {
-   "pt": "",
+   "pt": "Sinto muito, você não colheu raízes suficientes. Precisa colher um feixe de pelo menos cinco raízes - e por favor tente fazer isso você mesmo.",
    "n": 1,
    "npc": [
     "chavis"
    ]
   },
   "Yes? You brought some juicy roots? How nice of you - that's one additional voice in the {magistrate} of {Rathleton} for you! ...": {
-   "pt": "",
+   "pt": "Sim? Você trouxe umas raízes suculentas? Que gentileza a sua - isso lhe dá mais uma voz no {magistrado} de {Rathleton}! ...",
    "n": 1,
    "npc": [
     "chavis"
    ]
   },
   "Spend it wisely, though, put in a word for the poor, will ye? Sure you will.": {
-   "pt": "",
+   "pt": "Mas gaste com sabedoria, dê uma palavrinha pelos pobres, vai? Claro que vai.",
    "n": 1,
    "npc": [
     "chavis"
    ]
   },
   "You don't have enough items.": {
-   "pt": "",
+   "pt": "Você não tem itens suficientes.",
    "n": 1,
    "npc": [
     "chavis"
    ]
   },
   "They are nutritious, cost nothing and are good for the body hair. If you can bring us bundles of five juicy roots each - we will make it worth your while for the {magistrate}.": {
-   "pt": "",
+   "pt": "Elas são nutritivas, não custam nada e fazem bem para os pelos do corpo. Se puder nos trazer feixes de cinco raízes suculentas cada - vamos fazer valer a pena para o {magistrado}.",
    "n": 1,
    "npc": [
     "chavis"
    ]
   },
   "They act so important but it is us common people who keep things going. There is a lot you can do in this city to earn a right to vote in the magistrate, though. So keep an eye out for everyone who needs help.": {
-   "pt": "",
+   "pt": "Eles se acham tão importantes, mas é a gente do povo que faz as coisas funcionarem. Ainda assim, há muito que você pode fazer nesta cidade para ganhar direito a voto no magistrado. Então fique de olho em quem precisa de ajuda.",
    "n": 1,
    "npc": [
     "chavis"
    ]
   },
   "Hey there! You don't happen to have some {food} on you, you're willing to share? Well, where are my manners, a warm welcome for now.": {
-   "pt": "",
+   "pt": "Olá! Por acaso você não está com {comida} que topa dividir? Bem, cadê minha educação, seja bem-vindo por enquanto.",
    "n": 1,
    "npc": [
     "chavis"
@@ -23483,70 +23483,70 @@
    ]
   },
   "Very nice, there you go! Just bring me the printout from the probe after deploying it! You can request a new probing {device} or a new {detector} if you lose it - but it takes some time for me to get a new one ready so be careful with that stuff.": {
-   "pt": "",
+   "pt": "Muito bem, aqui está! É só me trazer o relatório impresso da sonda depois de instalá-la! Você pode pedir um novo {aparelho} de sondagem ou um novo {detector} se perder o seu - mas leva um tempo até eu preparar outro, então cuidado com esse material.",
    "n": 1,
    "npc": [
     "doubleday"
    ]
   },
   "Hey, let's try to be reasonable here, alright? That's a bit too much for what you did, isn't it? It may seem that way but the number of votes I can offer isn't limitless.": {
-   "pt": "",
+   "pt": "Ei, vamos tentar ser razoáveis aqui, certo? Isso é um pouco demais para o que você fez, não acha? Pode até parecer, mas o número de votos que posso oferecer não é ilimitado.",
    "n": 1,
    "npc": [
     "doubleday"
    ]
   },
   "Good, you just gained 1 genuine votes in the magistrate!": {
-   "pt": "",
+   "pt": "Ótimo, você acabou de ganhar 1 voto genuíno no magistrado!",
    "n": 1,
    "npc": [
     "doubleday"
    ]
   },
   "Alright, there you go - please, try to be more careful with my equipment next time!": {
-   "pt": "",
+   "pt": "Muito bem, aqui está - por favor, tente ter mais cuidado com meu equipamento da próxima vez!",
    "n": 1,
    "npc": [
     "doubleday"
    ]
   },
   "Well, let's see, you helped me 1 times before exchanging any votes - how many votes do you want me to give you in exchange?": {
-   "pt": "",
+   "pt": "Bem, vejamos, você me ajudou 1 vez antes de trocar qualquer voto - quantos votos quer que eu lhe dê em troca?",
    "n": 1,
    "npc": [
     "doubleday"
    ]
   },
   "Well, let's see, you helped me 1 times before exchanging any votes - how many votes do you want me to give you in {exchange}?": {
-   "pt": "",
+   "pt": "Bem, vejamos, você me ajudou 1 vez antes de trocar qualquer voto - quantos votos quer que eu lhe dê em {troca}?",
    "n": 1,
    "npc": [
     "doubleday"
    ]
   },
   "Alright then, that's 2 vote(s) you want - I won't take them back, are you sure?": {
-   "pt": "",
+   "pt": "Muito bem, então são 2 voto(s) que você quer - não vou aceitar de volta, tem certeza?",
    "n": 1,
    "npc": [
     "doubleday"
    ]
   },
   "Alright then, that's 1 vote(s) you want - I won't take them back, are you sure?": {
-   "pt": "",
+   "pt": "Muito bem, então é 1 voto que você quer - não vou aceitar de volta, tem certeza?",
    "n": 1,
    "npc": [
     "doubleday"
    ]
   },
   "You must wait until the detector is ready again.": {
-   "pt": "",
+   "pt": "Você precisa esperar até o detector ficar pronto de novo.",
    "n": 1,
    "npc": [
     "doubleday"
    ]
   },
   "Hello there, hmm just... just wait right there, I'll be with you in a second. Just getting this {experiment} done...": {
-   "pt": "",
+   "pt": "Olá, hmm só... só espere aí, já estou com você. Só terminando este {experimento}...",
    "n": 1,
    "npc": [
     "doubleday"
@@ -24659,21 +24659,21 @@
    ]
   },
   "Good. Thanks, man. That's one vote you got for helping us with this. If you want to redo this task just say {abandoned sewers} to repeat it.": {
-   "pt": "",
+   "pt": "Ótimo. Obrigado, cara. Esse é um voto que você ganhou por nos ajudar com isso. Se quiser refazer esta tarefa, é só dizer {abandoned sewers} para repeti-la.",
    "n": 1,
    "npc": [
     "elliott"
    ]
   },
   "<nods>": {
-   "pt": "",
+   "pt": "<balança a cabeça>",
    "n": 1,
    "npc": [
     "elliott"
    ]
   },
   "<nods> Yeah.": {
-   "pt": "",
+   "pt": "<balança a cabeça> É.",
    "n": 1,
    "npc": [
     "elliott"
@@ -26038,63 +26038,63 @@
    ]
   },
   "Well, there is little where we need help beyond the normal tasks you can do for the city. However, there is one thing out of the ordinary where some {assistance} would be appreciated.": {
-   "pt": "",
+   "pt": "Bem, há pouca coisa em que precisamos de ajuda além das tarefas normais que você pode fazer pela cidade. No entanto, há uma coisa fora do comum em que alguma {assistência} seria bem-vinda.",
    "n": 1,
    "npc": [
     "ezebeth"
    ]
   },
   "You already asked for a mission, go to the next.": {
-   "pt": "",
+   "pt": "Você já pediu uma missão, vá para a próxima.",
    "n": 1,
    "npc": [
     "ezebeth"
    ]
   },
   "It's nothing really important, so no one has yet found the time to look it up. It concerns the town's beggars that have started to behave {strange} lately.": {
-   "pt": "",
+   "pt": "Não é nada realmente importante, então ninguém ainda arranjou tempo para investigar. Tem a ver com os mendigos da cidade, que começaram a se comportar de forma {estranha} ultimamente.",
    "n": 1,
    "npc": [
     "ezebeth"
    ]
   },
   "They usually know better than to show up in the streets and harass our citizens, but lately they've grown more bold or desperate or whatever. I ask you to investigate what they are up to. If necessary, you may scare them away a bit.": {
-   "pt": "",
+   "pt": "Eles costumam saber que não devem aparecer nas ruas e importunar nossos cidadãos, mas ultimamente andam mais ousados, ou desesperados, sei lá. Peço que investigue o que eles estão tramando. Se necessário, pode assustá-los um pouco.",
    "n": 1,
    "npc": [
     "ezebeth"
    ]
   },
   "Nice work, take your outfit.": {
-   "pt": "",
+   "pt": "Bom trabalho, fique com seu outfit.",
    "n": 1,
    "npc": [
     "ezebeth"
    ]
   },
   "You already have the outfit.": {
-   "pt": "",
+   "pt": "Você já tem o outfit.",
    "n": 1,
    "npc": [
     "ezebeth"
    ]
   },
   "Receive the second addon.": {
-   "pt": "",
+   "pt": "Receba o segundo addon.",
    "n": 1,
    "npc": [
     "ezebeth"
    ]
   },
   "Receive the first addon.": {
-   "pt": "",
+   "pt": "Receba o primeiro addon.",
    "n": 1,
    "npc": [
     "ezebeth"
    ]
   },
   "Hello! I guess you are here for a {mission}.": {
-   "pt": "",
+   "pt": "Olá! Imagino que esteja aqui por uma {missão}.",
    "n": 1,
    "npc": [
     "ezebeth"
@@ -26486,28 +26486,28 @@
    ]
   },
   "Do you really want to enter the Glooth Fairy's hideout. There is no chickening out and I also have to charge one voting right! {Yes} or {no}?": {
-   "pt": "",
+   "pt": "Você realmente quer entrar no esconderijo da Glooth Fairy. Não dá para voltar atrás depois, e eu também tenho que cobrar um direito de voto! {Sim} ou {não}?",
    "n": 1,
    "npc": [
     "flora"
    ]
   },
   "Okay...": {
-   "pt": "",
+   "pt": "Certo...",
    "n": 1,
    "npc": [
     "flora"
    ]
   },
   "Greetings,": {
-   "pt": "",
+   "pt": "Saudações,",
    "n": 1,
    "npc": [
     "flora"
    ]
   },
   "Come back soon.": {
-   "pt": "",
+   "pt": "Volte logo.",
    "n": 1,
    "npc": [
     "flora"
@@ -27634,28 +27634,28 @@
    ]
   },
   "Great Hunger is upset.": {
-   "pt": "",
+   "pt": "Great Hunger está zangado.",
    "n": 1,
    "npc": [
     "ghorza"
    ]
   },
   "Spirits are restless.": {
-   "pt": "",
+   "pt": "Espíritos estão inquietos.",
    "n": 1,
    "npc": [
     "ghorza"
    ]
   },
   "All water drying up and Vuzrog does nothing!": {
-   "pt": "",
+   "pt": "Toda a água secando e Vuzrog não faz nada!",
    "n": 1,
    "npc": [
     "ghorza"
    ]
   },
   "Hello, scraggy human.": {
-   "pt": "",
+   "pt": "Olá, humano esquelético.",
    "n": 1,
    "npc": [
     "ghorza"
@@ -34249,28 +34249,28 @@
    ]
   },
   "If you want to redo this task just say {abandoned sewers} to repeat it.": {
-   "pt": "",
+   "pt": "Se quiser refazer esta tarefa, é só dizer {abandoned sewers} para repeti-la.",
    "n": 1,
    "npc": [
     "jacob"
    ]
   },
   "Good. Thanks, man. That's one vote you got for helping us with this.": {
-   "pt": "",
+   "pt": "Ótimo. Obrigado, cara. Esse é um voto que você ganhou por nos ajudar com isso.",
    "n": 1,
    "npc": [
     "jacob"
    ]
   },
   "<nods> Hi.": {
-   "pt": "",
+   "pt": "<balança a cabeça> Oi.",
    "n": 1,
    "npc": [
     "jacob"
    ]
   },
   "<nods> See ya.": {
-   "pt": "",
+   "pt": "<balança a cabeça> Até mais.",
    "n": 1,
    "npc": [
     "jacob"
@@ -34774,14 +34774,14 @@
    ]
   },
   "You already got the Necrometer.": {
-   "pt": "",
+   "pt": "Você já tem o Necrometer.",
    "n": 1,
    "npc": [
     "jondrin"
    ]
   },
   "Indeed I heard you did a good job out there. <sigh> I guess that means I can hand you one of our necrometers. Handle it with care.": {
-   "pt": "",
+   "pt": "De fato, ouvi dizer que você fez um bom trabalho lá fora. <suspira> Acho que isso significa que posso lhe entregar um dos nossos necrometers. Manuseie com cuidado.",
    "n": 1,
    "npc": [
     "jondrin"
@@ -39170,35 +39170,35 @@
    ]
   },
   "You can't vote yet.": {
-   "pt": "",
+   "pt": "Você ainda não pode votar.",
    "n": 1,
    "npc": [
     "marvin"
    ]
   },
   "How many of your x votes do you want to cast?": {
-   "pt": "",
+   "pt": "Quantos dos seus x votos você quer usar?",
    "n": 1,
    "npc": [
     "marvin"
    ]
   },
   "Did I get that right: You want to cast 1 of your votes on funding the {archives}?": {
-   "pt": "",
+   "pt": "Deixe-me confirmar: você quer usar 1 dos seus votos para financiar os {arquivos}?",
    "n": 1,
    "npc": [
     "marvin"
    ]
   },
   "Thanks, you successfully cast your vote. Feel free to continue gathering votes by helping the city! Farewell.": {
-   "pt": "",
+   "pt": "Obrigado, seu voto foi registrado com sucesso. Fique à vontade para continuar juntando votos ajudando a cidade! Até mais.",
    "n": 1,
    "npc": [
     "marvin"
    ]
   },
   "Ah, you come just in time for the special voting about the most recent {funding} project. I guess you want to participate in it.": {
-   "pt": "",
+   "pt": "Ah, você chega bem na hora da votação especial sobre o projeto de {financiamento} mais recente. Imagino que queira participar.",
    "n": 1,
    "npc": [
     "marvin"
@@ -39730,63 +39730,63 @@
    ]
   },
   "Come in, young mages! Purchase the latest in runes and wands!": {
-   "pt": "",
+   "pt": "Entrem, jovens magos! Comprem o que há de mais novo em runes e wands!",
    "n": 1,
    "npc": [
     "mordecai"
    ]
   },
   "Perhaps I need to bake them hotter? Or was it longer?": {
-   "pt": "",
+   "pt": "Talvez eu precise assar mais quente? Ou era por mais tempo?",
    "n": 1,
    "npc": [
     "mordecai"
    ]
   },
   "Offering all sorts of magic equipment!": {
-   "pt": "",
+   "pt": "Oferecendo todo tipo de equipamento mágico!",
    "n": 1,
    "npc": [
     "mordecai"
    ]
   },
   "Now where did Alaistar put the wood for the new wands?": {
-   "pt": "",
+   "pt": "Agora, onde foi que Alaistar colocou a madeira para as wands novas?",
    "n": 1,
    "npc": [
     "mordecai"
    ]
   },
   "Hmmm.. Maybe those crushed gems caused the strange side effect?": {
-   "pt": "",
+   "pt": "Hmmm.. Será que aquelas gemas trituradas causaram o efeito colateral estranho?",
    "n": 1,
    "npc": [
     "mordecai"
    ]
   },
   "Wands and rods, the true magician's weapons of choice!": {
-   "pt": "",
+   "pt": "Wands e rods, a arma escolhida pelo verdadeiro mago!",
    "n": 1,
    "npc": [
     "mordecai"
    ]
   },
   "Welcome to the magic emporium, child. Ask me for a trade if you need {runes}, {wands}, or spellbooks.": {
-   "pt": "",
+   "pt": "Bem-vindo ao empório mágico, criança. Me peça para negociar se precisar de {runes}, {wands} ou spellbooks.",
    "n": 1,
    "npc": [
     "mordecai"
    ]
   },
   "Take care, child.": {
-   "pt": "",
+   "pt": "Cuide-se, criança.",
    "n": 1,
    "npc": [
     "mordecai"
    ]
   },
   "Choose wisely! Or maybe you want to look only at": {
-   "pt": "",
+   "pt": "Escolha com sabedoria! Ou talvez você queira ver só",
    "n": 1,
    "npc": [
     "mordecai"
@@ -46135,14 +46135,14 @@
    ]
   },
   "I'm sorry, but Harsin no longer lives here. He ordered a local named Quandon to transport all his stuff somewhere. I don't know where he moved, but Quandon should be able to help you with this information.": {
-   "pt": "",
+   "pt": "Sinto muito, mas Harsin não mora mais aqui. Ele mandou um local chamado Quandon transportar as coisas dele para algum lugar. Não sei para onde ele se mudou, mas Quandon deve poder lhe ajudar com essa informação.",
    "n": 1,
    "npc": [
     "roswitha"
    ]
   },
   "Hello, my lad. Sit down, have a drink, why don't you?": {
-   "pt": "",
+   "pt": "Olá, rapaz. Sente-se, tome uma bebida, por que não?",
    "n": 1,
    "npc": [
     "roswitha"
@@ -46282,7 +46282,7 @@
    ]
   },
   "Hello, my name is Saideh. Once this was the entry to the crypt of our heroes. One of the graves belongs to our beloved hero Dayyan. Nowadays it is not a good idea to visit this place.": {
-   "pt": "",
+   "pt": "Olá, meu nome é Saideh. Isto já foi a entrada da cripta dos nossos heróis. Um dos túmulos pertence ao nosso amado herói Dayyan. Hoje em dia não é boa ideia visitar este lugar.",
    "n": 1,
    "npc": [
     "saideh"
@@ -48396,7 +48396,7 @@
    ]
   },
   "Already clicked the body on the house Roswitha ?": {
-   "pt": "",
+   "pt": "Já clicou no corpo na casa da Roswitha?",
    "n": 1,
    "npc": [
     "sholley"
@@ -49887,21 +49887,21 @@
    ]
   },
   "I'm not allowed to let just anyone pass. If you have proven your willingness and effort to participate in the fighting, I'm allowed to let you pass.": {
-   "pt": "",
+   "pt": "Não posso deixar qualquer um passar. Se você já provou disposição e esforço para participar da luta, posso lhe deixar passar.",
    "n": 1,
    "npc": [
     "terrence"
    ]
   },
   "You fought hard enough against the minotaurs. Since you've shown so much effort in our war, I'll let you pass through the gate.": {
-   "pt": "",
+   "pt": "Você lutou bastante contra os minotaurs. Já que mostrou tanto empenho na nossa guerra, vou deixar você passar pelo portão.",
    "n": 1,
    "npc": [
     "terrence"
    ]
   },
   "Hey there, you are surely interested in helping the Rathleton city guard, right? Right - especially now since the dreaded minotaurs gain more ground every day.": {
-   "pt": "",
+   "pt": "Olá, com certeza você tem interesse em ajudar a guarda da cidade de Rathleton, certo? Certo - especialmente agora que os temidos minotaurs ganham mais terreno a cada dia.",
    "n": 1,
    "npc": [
     "terrence"
@@ -50027,35 +50027,35 @@
    ]
   },
   "So I guess you are the one that the magistrate is sending to look after us, eh?": {
-   "pt": "",
+   "pt": "Então imagino que seja você que o magistrado está mandando para cuidar de nós, é?",
    "n": 1,
    "npc": [
     "the_beggar_king"
    ]
   },
   "You need some quests then come and talk with me again.": {
-   "pt": "",
+   "pt": "Se precisar de quests, volte para falar comigo de novo.",
    "n": 1,
    "npc": [
     "the_beggar_king"
    ]
   },
   "Yeah. No one has seen it and lived to tell the tale. People are missing and sometimes there are {traces} of blood or someone heard a scream, but that's all. We have no idea if the killer is a man or a beast, but there is something out there": {
-   "pt": "",
+   "pt": "É. Ninguém viu e viveu para contar a história. Gente desaparece, e às vezes há {vestígios} de sangue ou alguém ouviu um grito, mas é só isso. Não fazemos ideia se o assassino é homem ou fera, mas tem alguma coisa lá fora",
    "n": 1,
    "npc": [
     "the_beggar_king"
    ]
   },
   "Some of the more daring of us tried to follow the tracks that were left, but they always lost the trail close to the {abandoned sewers}, in the east of the sewer system.": {
-   "pt": "",
+   "pt": "Alguns dos mais corajosos entre nós tentaram seguir os rastros deixados, mas sempre perdiam a trilha perto dos {abandoned sewers}, a leste do sistema de esgoto.",
    "n": 1,
    "npc": [
     "the_beggar_king"
    ]
   },
   "Hi! You look like someone on a {mission}.": {
-   "pt": "",
+   "pt": "Oi! Você parece alguém numa {missão}.",
    "n": 1,
    "npc": [
     "the_beggar_king"
@@ -57370,7 +57370,7 @@
    "n": 4
   },
   "abandoned sewers": {
-   "pt": "",
+   "pt": "abandoned sewers",
    "n": 4
   },
   "hi": {
@@ -57914,7 +57914,7 @@
    "n": 3
   },
   "magistrate": {
-   "pt": "",
+   "pt": "magistrado",
    "n": 3
   },
   "chief": {
@@ -58242,7 +58242,7 @@
    "n": 2
   },
   "assistance": {
-   "pt": "",
+   "pt": "assistência",
    "n": 2
   },
   "frog": {
@@ -58594,11 +58594,11 @@
    "n": 2
   },
   "device": {
-   "pt": "",
+   "pt": "aparelho",
    "n": 2
   },
   "exchange": {
-   "pt": "",
+   "pt": "troca",
    "n": 2
   },
   "beds": {
@@ -58658,7 +58658,7 @@
    "n": 2
   },
   "ok": {
-   "pt": "",
+   "pt": "certo",
    "n": 2
   },
   "seek": {
@@ -59754,7 +59754,7 @@
    "n": 1
   },
   "ritual": {
-   "pt": "",
+   "pt": "ritual",
    "n": 1
   },
   "ikem": {
@@ -60110,11 +60110,11 @@
    "n": 1
   },
   "detector": {
-   "pt": "",
+   "pt": "detector",
    "n": 1
   },
   "experiment": {
-   "pt": "",
+   "pt": "experimento",
    "n": 1
   },
   "destroy field rune": {
@@ -60214,7 +60214,7 @@
    "n": 1
   },
   "strange": {
-   "pt": "",
+   "pt": "estranho",
    "n": 1
   },
   "plane": {
@@ -61094,11 +61094,11 @@
    "n": 1
   },
   "archives": {
-   "pt": "",
+   "pt": "arquivos",
    "n": 1
   },
   "funding": {
-   "pt": "",
+   "pt": "financiamento",
    "n": 1
   },
   "problems": {
@@ -61686,7 +61686,7 @@
    "n": 1
   },
   "traces": {
-   "pt": "",
+   "pt": "vestígios",
    "n": 1
   },
   "blind prophet": {
@@ -62329,6 +62329,10 @@
   },
   "help": {
    "pt": "ajudar",
+   "n": 0
+  },
+  "strange": {
+   "pt": "estranha",
    "n": 0
   }
  }
