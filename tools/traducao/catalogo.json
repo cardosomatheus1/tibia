@@ -3296,7 +3296,7 @@
    ]
   },
   "Where do you want to go? To {Darashia}, {Venore}, {Liberty Bay}, {Port Hope}, {Yalahar} or {Edron}? Or to {Travora} - the island between the worlds?": {
-   "pt": "",
+   "pt": "Para onde você quer ir? Para {Darashia}, {Venore}, {Liberty Bay}, {Port Hope}, {Yalahar} ou {Edron}? Ou para {Travora} - a ilha entre os mundos?",
    "n": 8,
    "npc": [
     "captain_sinbeard"
@@ -3858,7 +3858,7 @@
    ]
   },
   "The depot is a place where you can safely store your belongings. You are also protected against attacks there. I escort newcomers there.": {
-   "pt": "",
+   "pt": "O depot é um lugar onde você pode guardar seus pertences com segurança. Você também fica protegido contra ataques lá. Eu escolto recém-chegados até lá.",
    "n": 8,
    "npc": [
     "guide_alexena",
@@ -4269,7 +4269,7 @@
    ]
   },
   "May enlightenment be your path, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Que o esclarecimento seja seu caminho, |PLAYERNAME|.",
    "n": 7,
    "npc": [
     "mehkesh",
@@ -5257,7 +5257,7 @@
    ]
   },
   "May enlightenment be your path.": {
-   "pt": "",
+   "pt": "Que o esclarecimento seja seu caminho.",
    "n": 5,
    "npc": [
     "fenech",
@@ -5284,7 +5284,7 @@
    ]
   },
   "You can buy weapons, armor, tools, gems, magical equipment, furniture, spells and food here.": {
-   "pt": "",
+   "pt": "Você pode comprar armas, armadura, ferramentas, gemas, equipamento mágico, móveis, magias e comida aqui.",
    "n": 5,
    "npc": [
     "guide_alexena",
@@ -5573,14 +5573,14 @@
    ]
   },
   "My ship is the fastest in the whole world.": {
-   "pt": "",
+   "pt": "Meu navio é o mais rápido do mundo inteiro.",
    "n": 4,
    "npc": [
     "captain_sinbeard"
    ]
   },
   "That's where we are.": {
-   "pt": "",
+   "pt": "É aqui que estamos.",
    "n": 4,
    "npc": [
     "captain_sinbeard",
@@ -5680,7 +5680,7 @@
    ]
   },
   "Here. Don't forget that you need to buy a label too if you want to send a parcel. Always write the name of the {receiver} in the first line.": {
-   "pt": "",
+   "pt": "Aqui está. Não esqueça que você também precisa comprar uma etiqueta se quiser enviar um pacote. Sempre escreva o nome do {destinatário} na primeira linha.",
    "n": 4,
    "npc": [
     "chrystal",
@@ -8212,7 +8212,7 @@
    ]
   },
   "Do visit us again.": {
-   "pt": "",
+   "pt": "Volte a nos visitar.",
    "n": 2,
    "npc": [
     "arito"
@@ -8902,7 +8902,7 @@
    ]
   },
   "Welcome on board, Sir |PLAYERNAME|. Where can I {sail} you today?": {
-   "pt": "",
+   "pt": "Bem-vindo a bordo, Sir |PLAYERNAME|. Para onde posso {levar} você hoje?",
    "n": 2,
    "npc": [
     "captain_gulliver",
@@ -8968,7 +8968,7 @@
    ]
   },
   "I'm the captain of this sailing ship": {
-   "pt": "",
+   "pt": "Sou o capitão deste navio à vela",
    "n": 2,
    "npc": [
     "captain_sinbeard"
@@ -10854,7 +10854,7 @@
    ]
   },
   "Farewell, stranger. May Uman the Wise guide your steps in this treacherous land.": {
-   "pt": "",
+   "pt": "Adeus, estranho. Que Uman, o Sábio, guie seus passos nesta terra traiçoeira.",
    "n": 2,
    "npc": [
     "melchior"
@@ -11914,7 +11914,7 @@
    ]
   },
   "You are not ready yet.": {
-   "pt": "",
+   "pt": "Você ainda não está pronto.",
    "n": 2,
    "npc": [
     "tonar",
@@ -11922,7 +11922,7 @@
    ]
   },
   "Alright, off we go!": {
-   "pt": "",
+   "pt": "Muito bem, lá vamos nós!",
    "n": 2,
    "npc": [
     "tonar",
@@ -13641,63 +13641,63 @@
    ]
   },
   "The slayer of my enemies is my friend! For a mere 1000 gold I will create the documents you need. Are you interested?": {
-   "pt": "",
+   "pt": "Quem mata meus inimigos é meu amigo! Por meros 1000 gold, eu crio os documentos de que você precisa. Tem interesse?",
    "n": 1,
    "npc": [
     "ahmet"
    ]
   },
   "Did you find my stuff?": {
-   "pt": "",
+   "pt": "Você achou minhas coisas?",
    "n": 1,
    "npc": [
     "ahmet"
    ]
   },
   "I see: You want me to add an additional story to this book. A legend about how it brings ill luck to kill a white deer. I could do that, yes. It costs 5000 gold, however. Are you still interested?": {
-   "pt": "",
+   "pt": "Entendo: você quer que eu acrescente mais uma história a este livro. Uma lenda sobre como traz azar matar um cervo branco. Posso fazer isso, sim. Mas custa 5000 gold. Ainda tem interesse?",
    "n": 1,
    "npc": [
     "ahmet"
    ]
   },
   "And here they are! Now forget where you got them from.": {
-   "pt": "",
+   "pt": "E aqui estão eles! Agora esqueça onde os conseguiu.",
    "n": 1,
    "npc": [
     "ahmet"
    ]
   },
   "GREAT! If you ever need a job as my personal security guard, let me know. Here is the reward I promised you.": {
-   "pt": "",
+   "pt": "ÓTIMO! Se algum dia precisar de trabalho como meu segurança pessoal, me avise. Aqui está a recompensa que prometi.",
    "n": 1,
    "npc": [
     "ahmet"
    ]
   },
   "Come back when you find my stuff.": {
-   "pt": "",
+   "pt": "Volte quando achar minhas coisas.",
    "n": 1,
    "npc": [
     "ahmet"
    ]
   },
   "You need 5000 gps and book with ancient legends.": {
-   "pt": "",
+   "pt": "Você precisa de 5000 gps e o book with ancient legends.",
    "n": 1,
    "npc": [
     "ahmet"
    ]
   },
   "You are not in this mission.": {
-   "pt": "",
+   "pt": "Você não está nesta missão.",
    "n": 1,
    "npc": [
     "ahmet"
    ]
   },
   "Be mourned pilgrim in flesh. I'm selling general goods. Just ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Seja pranteado, peregrino em carne. Estou vendendo produtos gerais. É só me pedir para {negociar}.",
    "n": 1,
    "npc": [
     "ahmet"
@@ -15783,42 +15783,42 @@
    ]
   },
   "Come in, have a drink and something to eat.": {
-   "pt": "",
+   "pt": "Entre, tome uma bebida e coma alguma coisa.",
    "n": 1,
    "npc": [
     "arito"
    ]
   },
   "And what did they say?? Do I have to give up everything here? Come on tell me!!": {
-   "pt": "",
+   "pt": "E o que eles disseram?? Eu tenho que abandonar tudo aqui? Vamos, me conte!!",
    "n": 1,
    "npc": [
     "arito"
    ]
   },
   "These are great news!! Thank you for your help! I don't have much, but without you I wouldn't have anything so please take this as a reward.": {
-   "pt": "",
+   "pt": "Que ótima notícia!! Obrigado pela ajuda! Não tenho muito, mas sem você eu não teria nada, então por favor fique com isto como recompensa.",
    "n": 1,
    "npc": [
     "arito"
    ]
   },
   "Thank god you are back!! Did you find....err...what we were talking about??": {
-   "pt": "",
+   "pt": "Graças a deus você voltou!! Você achou... ahn... aquilo de que estávamos falando??",
    "n": 1,
    "npc": [
     "arito"
    ]
   },
   "Be mourned, pilgrim in flesh. Be mourned in my tavern.": {
-   "pt": "",
+   "pt": "Seja pranteado, peregrino em carne. Seja pranteado na minha taverna.",
    "n": 1,
    "npc": [
     "arito"
    ]
   },
   "Sure, browse through my offers.": {
-   "pt": "",
+   "pt": "Claro, dê uma olhada nas minhas ofertas.",
    "n": 1,
    "npc": [
     "arito"
@@ -19780,7 +19780,7 @@
    ]
   },
   "I'm known all over the world as Captain Sinbeard": {
-   "pt": "",
+   "pt": "Sou conhecido pelo mundo todo como Captain Sinbeard",
    "n": 1,
    "npc": [
     "captain_sinbeard"
@@ -21789,7 +21789,7 @@
    ]
   },
   "Begone! Hissssss! You bear not the mark of the cobra!": {
-   "pt": "",
+   "pt": "Vá embora! Ssssss! Você não carrega a marca da cobra!",
    "n": 1,
    "npc": [
     "cobra"
@@ -26276,28 +26276,28 @@
    ]
   },
   "I sell furniture both to the mourned and the enlightened.": {
-   "pt": "",
+   "pt": "Vendo móveis tanto para os pranteados quanto para os esclarecidos.",
    "n": 1,
    "npc": [
     "feizuhl"
    ]
   },
   "Be mourned pilgrim in flesh and welcome to the furniture store.": {
-   "pt": "",
+   "pt": "Seja pranteado, peregrino em carne, e bem-vindo à loja de móveis.",
    "n": 1,
    "npc": [
     "feizuhl"
    ]
   },
   "Offering all sorts of magic equipment.": {
-   "pt": "",
+   "pt": "Oferecendo todo tipo de equipamento mágico.",
    "n": 1,
    "npc": [
     "fenech"
    ]
   },
   "Be mourned pilgrim in flesh and welcome to the magic store.": {
-   "pt": "",
+   "pt": "Seja pranteado, peregrino em carne, e bem-vindo à loja de magia.",
    "n": 1,
    "npc": [
     "fenech"
@@ -30273,77 +30273,77 @@
    ]
   },
   "Need some help finding your way through Ankrahmun? Let me assist you.": {
-   "pt": "",
+   "pt": "Precisa de ajuda para se localizar em Ankrahmun? Deixe-me ajudar.",
    "n": 1,
    "npc": [
     "guide_rahlkora"
    ]
   },
   "Need to know something about the status of this world? Let me answer your questions.": {
-   "pt": "",
+   "pt": "Precisa saber algo sobre o estado do mundo? Deixe-me responder suas perguntas.",
    "n": 1,
    "npc": [
     "guide_rahlkora"
    ]
   },
   "Hello, is this your first visit to Ankrahmun? I can show you around a little.": {
-   "pt": "",
+   "pt": "Olá, esta é sua primeira visita a Ankrahmun? Posso lhe mostrar um pouco os arredores.",
    "n": 1,
    "npc": [
     "guide_rahlkora"
    ]
   },
   "Currently, I can tell you all about the town, its temple, the bank, shops, spell trainers and the depot.": {
-   "pt": "",
+   "pt": "No momento posso lhe contar tudo sobre a cidade, seu templo, o banco, as lojas, os instrutores de magia e o depot.",
    "n": 1,
    "npc": [
     "guide_rahlkora"
    ]
   },
   "The temple is in the south-eastern part of town. If you exit the depot to the south and walk east - slightly south-east - you can't miss it.": {
-   "pt": "",
+   "pt": "O templo fica na parte sudeste da cidade. Se você sair do depot para o sul e for para o leste - ligeiramente sudeste - não tem como errar.",
    "n": 1,
    "npc": [
     "guide_rahlkora"
    ]
   },
   "Tesha is in charge of both the bank and the gem store. You can find her on the market pyramid. Just exit the depot on the north side and walk up the next pyramid.": {
-   "pt": "",
+   "pt": "Tesha cuida tanto do banco quanto da loja de gemas. Você a encontra na pirâmide do mercado. É só sair do depot pelo lado norte e subir a próxima pirâmide.",
    "n": 1,
    "npc": [
     "guide_rahlkora"
    ]
   },
   "I will help you to find your way around Ankrahmun. I can mark important locations on your map and give you some information about the town.": {
-   "pt": "",
+   "pt": "Vou lhe ajudar a se localizar em Ankrahmun. Posso marcar locais importantes no seu mapa e lhe dar informação sobre a cidade.",
    "n": 1,
    "npc": [
     "guide_rahlkora"
    ]
   },
   "Ankrahmun consists almost completely of pyramids. You can walk up and down those pyramids just like you'd climb up stairs. Most shops are on the upper floors.": {
-   "pt": "",
+   "pt": "Ankrahmun é formada quase inteiramente por pirâmides. Você sobe e desce essas pirâmides como se estivesse subindo escadas. A maioria das lojas fica nos andares de cima.",
    "n": 1,
    "npc": [
     "guide_rahlkora"
    ]
   },
   "My name is Rahlkora. I'm a guide.": {
-   "pt": "",
+   "pt": "Meu nome é Rahlkora. Sou guia.",
    "n": 1,
    "npc": [
     "guide_rahlkora"
    ]
   },
   "Welcome to Ankrahmun, |PLAYERNAME| This city can be a bit confusing at first. Would you like some information and a map guide?": {
-   "pt": "",
+   "pt": "Bem-vindo a Ankrahmun, |PLAYERNAME|. Esta cidade pode confundir um pouco no começo. Gostaria de informação e um guia de mapa?",
    "n": 1,
    "npc": [
     "guide_rahlkora"
    ]
   },
   "Good bye and enjoy your stay in Ankrahmun, |PLAYERNAME|": {
-   "pt": "",
+   "pt": "Até logo, e aproveite sua estadia em Ankrahmun, |PLAYERNAME|",
    "n": 1,
    "npc": [
     "guide_rahlkora"
@@ -33311,21 +33311,21 @@
    ]
   },
   "Do you want to be promoted in your vocation for 20000 gold?": {
-   "pt": "",
+   "pt": "Quer ser promovido na sua vocação por 20000 gold?",
    "n": 1,
    "npc": [
     "ishebad"
    ]
   },
   "Ok, whatever.": {
-   "pt": "",
+   "pt": "Certo, tanto faz.",
    "n": 1,
    "npc": [
     "ishebad"
    ]
   },
   "Be mourned, pilgrim in flesh. Are you looking for a promotion?": {
-   "pt": "",
+   "pt": "Seja pranteado, peregrino em carne. Está procurando uma promoção?",
    "n": 1,
    "npc": [
     "ishebad"
@@ -34277,21 +34277,21 @@
    ]
   },
   "Hello, mourned pilgrim. How may I help you |PLAYERNAME|?": {
-   "pt": "",
+   "pt": "Olá, peregrino pranteado. Como posso ajudá-lo, |PLAYERNAME|?",
    "n": 1,
    "npc": [
     "jakahr"
    ]
   },
   "It was an honour to serve you, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Foi uma honra servi-lo, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "jakahr"
    ]
   },
   "It was an honour to serve you.": {
-   "pt": "",
+   "pt": "Foi uma honra servi-lo.",
    "n": 1,
    "npc": [
     "jakahr"
@@ -34753,21 +34753,21 @@
    ]
   },
   "Food of various kinds, have a look.": {
-   "pt": "",
+   "pt": "Comida de vários tipos, dê uma olhada.",
    "n": 1,
    "npc": [
     "jezzara"
    ]
   },
   "Be mourned pilgrim in flesh. Talking of flesh, maybe you'd enjoy some {food}?": {
-   "pt": "",
+   "pt": "Seja pranteado, peregrino em carne. Falando em carne, quem sabe você goste de um pouco de {comida}?",
    "n": 1,
    "npc": [
     "jezzara"
    ]
   },
   "Sure, take a look at my offers.": {
-   "pt": "",
+   "pt": "Claro, dê uma olhada nas minhas ofertas.",
    "n": 1,
    "npc": [
     "jezzara"
@@ -39345,14 +39345,14 @@
    ]
   },
   "Potions brewed by the leading alchemists of the land!": {
-   "pt": "",
+   "pt": "Potions preparadas pelos maiores alquimistas da terra!",
    "n": 1,
    "npc": [
     "mehkesh"
    ]
   },
   "Be mourned, |PLAYERNAME|, pilgrim in flesh. If you are looking for potions, seek no further.": {
-   "pt": "",
+   "pt": "Seja pranteado, |PLAYERNAME|, peregrino em carne. Se está procurando potions, não precisa procurar mais.",
    "n": 1,
    "npc": [
     "mehkesh"
@@ -39457,14 +39457,14 @@
    ]
   },
   "Selling weapons and armors to protect mortal souls.": {
-   "pt": "",
+   "pt": "Vendendo weapons e armors para proteger almas mortais.",
    "n": 1,
    "npc": [
     "memech"
    ]
   },
   "Be mourned, |PLAYERNAME|, pilgrim in flesh. Have a look at my fine {weapons} and {armors}.": {
-   "pt": "",
+   "pt": "Seja pranteado, |PLAYERNAME|, peregrino em carne. Dê uma olhada nas minhas belas {armas} e {armaduras}.",
    "n": 1,
    "npc": [
     "memech"
@@ -49740,28 +49740,28 @@
    ]
   },
   "I hope you will find my brother.": {
-   "pt": "",
+   "pt": "Espero que você encontre meu irmão.",
    "n": 1,
    "npc": [
     "tarun"
    ]
   },
   "I thank you! This is more than I could hope!": {
-   "pt": "",
+   "pt": "Eu lhe agradeço! Isto é mais do que eu podia esperar!",
    "n": 1,
    "npc": [
     "tarun"
    ]
   },
   "Greetings!": {
-   "pt": "",
+   "pt": "Saudações!",
    "n": 1,
    "npc": [
     "tarun"
    ]
   },
   "Of course, just have a look.": {
-   "pt": "",
+   "pt": "Claro, dê uma olhada.",
    "n": 1,
    "npc": [
     "tarun"
@@ -51798,28 +51798,28 @@
    ]
   },
   "What a beautiful day for a little boat trip.": {
-   "pt": "",
+   "pt": "Que dia lindo para um passeio de barco.",
    "n": 1,
    "npc": [
     "tonar"
    ]
   },
   "Welcome, Sir.": {
-   "pt": "",
+   "pt": "Bem-vindo, senhor.",
    "n": 1,
    "npc": [
     "tonar"
    ]
   },
   "I don't feel safe here ... I hope we can return to Ankrahmun soon.": {
-   "pt": "",
+   "pt": "Não me sinto seguro aqui ... espero que possamos voltar a Ankrahmun logo.",
    "n": 1,
    "npc": [
     "tonar_oskayaat"
    ]
   },
   "Welcome back, Sir.": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, senhor.",
    "n": 1,
    "npc": [
     "tonar_oskayaat"
@@ -57410,7 +57410,7 @@
    "n": 4
   },
   "receiver": {
-   "pt": "",
+   "pt": "destinatário",
    "n": 4
   },
   "first addon": {
