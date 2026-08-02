@@ -155,6 +155,15 @@ python3 tools/sprites/novo_efeito.py efeito \
 
 ![Magia com sprites próprios rodando no 15.25](docs/images/sprites-em-jogo.png)
 
+Também converte uma folha de personagem (4 direções × N quadros) em outfit:
+
+```bash
+python3 tools/sprites/folha_para_outfit.py folha.png tools/sprites/arte/mago --altura 46
+python3 tools/sprites/novo_outfit.py tools/sprites/arte/mago --assets ... --id 1950
+```
+
+![Outfit próprio no 15.25](docs/images/outfit-mago-perto.png)
+
 Documentação do formato e do modelo de sprite do Tibia (efeito × missile ×
 outfit): [`tools/sprites/README.md`](tools/sprites/README.md).
 

@@ -376,7 +376,10 @@ function looktype.onSay(player, words, param)
 	-- Test if supplied parameter is actually a numerical value to ensure there is no nil value passed.
 	if param:match("%d") then
 		local lookType = tonumber(param)
-		if lookType >= 0 and lookType < 1469 and not table.contains(invalidTypes, lookType) then
+		-- o teto antigo era 1469, de quando o datapack era de uma versao mais
+		-- velha; o appearances.dat da 15.25 ja traz looktype ate 1949, e
+		-- outfit proprio (tools/sprites/) entra acima disso
+		if lookType >= 0 and lookType < 4096 and not table.contains(invalidTypes, lookType) then
 			local playerOutfit = player:getOutfit()
 			playerOutfit.lookType = lookType
 			player:setOutfit(playerOutfit)

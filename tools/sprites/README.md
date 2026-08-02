@@ -18,7 +18,7 @@ tira de animação que atravessa a tela **não existe** no Tibia. O que existe:
 |---|---|---|
 | **magic effect** | a explosão, o brilho, a fumaça | **1 tile**, N quadros animados, cada um com duração em ms |
 | **missile** (distance effect) | o projétil que vai de A até B | **1 sprite × 9 direções** (matriz 3×3), sem animação |
-| **outfit** | o personagem | 4 direções × quadros de caminhada. Jogador **não tem** pose de ataque; só monstro tem frame group extra |
+| **outfit** | o personagem | 4 direções × quadros de caminhada, em **2 camadas** (desenho + máscara de cor). Jogador **não tem** pose de ataque; só monstro tem frame group extra |
 | **object** | itens, e o ícone da magia na hotkey | 1 sprite (ou animado, se for tocha/fogueira) |
 
 Consequência prática: um jato de fogo que ocupa cinco tiles não é um sprite
@@ -92,6 +92,52 @@ atualiza o `catalog-content.json`, acrescenta a aparência nos dois
 `appearances.dat` (client e servidor) e renomeia o do client pelo hash novo.
 
 ![Os sprites gerados, em 6x](../../docs/images/sprites-previa.png)
+
+### Outfit (personagem)
+
+Outfit é o caso mais chato, porque tem regra própria. A partir de uma folha
+com **4 direções × N quadros** — nesta ordem de linhas: sul (de frente),
+leste, norte (de costas), oeste:
+
+```bash
+python3 tools/sprites/folha_para_outfit.py folha.png tools/sprites/arte/mago \
+    --altura 46 --cores 32
+
+python3 tools/sprites/novo_outfit.py tools/sprites/arte/mago \
+    --assets /caminho/do/client/assets \
+    --dat-servidor data/items/appearances.dat --id 1950
+```
+
+![Os 12 sprites convertidos](../../docs/images/outfit-mago-sprites.png)
+
+O `folha_para_outfit.py` acha a grade sozinho, apaga o fundo por
+preenchimento a partir das bordas (e não por limiar de cor — assim o
+contorno preto do desenho sobrevive), reduz para o tamanho do tile e reduz
+a paleta. Três detalhes que decidem se fica bom ou não:
+
+- **âncora comum**: todos os quadros usam o mesmo deslocamento. Se cada um
+  fosse centralizado pela própria caixa, o personagem pularia de quadro em
+  quadro durante a caminhada;
+- **redução ciente do alfa**: multiplicar a cor pelo alfa antes de reduzir.
+  Sem isso, o preto transparente de fora entra na média e come as partes
+  finas — o cabo do cajado vira tracejado;
+- **paleta única** para a folha inteira, senão a animação cintila.
+
+E o outfit no jogo:
+
+![Outfit próprio no 15.25](../../docs/images/outfit-mago-perto.png)
+
+> ⚠️ **Outfit tem duas camadas, sempre.** O desenho e a máscara que diz
+> quais pixels recebem a cor escolhida pelo jogador. Um outfit de camada
+> única *parece* válido no arquivo, mas o client desenha errado — sai tudo
+> lavado numa cor só. O `novo_outfit.py` manda uma máscara vazia: o outfit
+> sai com as cores que você pintou e simplesmente não responde ao seletor
+> de cores.
+
+O `/looktype` do datapack tinha um teto fixo de 1469, de quando o datapack
+era de uma versão mais velha. A 15.25 já traz looktype até 1949, então o
+teto foi para 4096 em `data/scripts/talkactions/gm/looktype.lua`. Para o
+outfit virar opção no jogo, registre em `data/XML/outfits.xml`.
 
 ### 3. Use no datapack
 

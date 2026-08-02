@@ -287,8 +287,9 @@ class Appearances:
 
     @staticmethod
     def _sprite_info(sprite_ids: list[int], largura: int, altura: int,
-                     animacao: bytes | None, quadrado: int | None) -> bytes:
-        b = _var(1, largura) + _var(2, altura) + _var(3, 1) + _var(4, 1)
+                     animacao: bytes | None, quadrado: int | None,
+                     camadas: int = 1) -> bytes:
+        b = _var(1, largura) + _var(2, altura) + _var(3, 1) + _var(4, camadas)
         for s in sprite_ids:
             b += _var(5, s)
         if animacao:
@@ -318,6 +319,37 @@ class Appearances:
         grupo = _var(1, 2) + _var(2, 2) + _bloco(3, info)
         ap = _var(1, ident) + _bloco(2, grupo) + _bloco(3, b"")
         self.novas += _bloco(3, ap)
+
+    def adicionar_outfit(self, ident: int, parado: list[int],
+                         andando: list[int], fases: int,
+                         quadrado: int = 46, camadas: int = 2) -> None:
+        """Cria um outfit novo com os dois frame groups.
+
+        Todo outfit do Tibia tem **duas camadas**: o desenho e a mascara que
+        diz quais pixels recebem a cor escolhida pelo jogador. O client de
+        fato conta com isso, entao um outfit de uma camada so nao desenha
+        direito — se voce nao quer outfit colorizavel, mande uma mascara
+        vazia, que as passadas de cor nao pintam nada.
+
+        Os ids vem intercalados: para cada (fase, direcao), primeiro o
+        desenho e depois a mascara.
+
+            indice = (fase * 4 + direcao) * camadas + camada
+        """
+        if len(parado) != 4 * camadas:
+            raise ValueError(f"o grupo parado precisa de {4 * camadas} sprites")
+        if len(andando) != 4 * fases * camadas:
+            raise ValueError(f"o grupo andando precisa de {4 * fases * camadas} sprites")
+
+        def grupo(fixo: int, ids: list[int]) -> bytes:
+            info = self._sprite_info(ids, 4, 1, None, quadrado, camadas)
+            return _var(1, fixo) + _var(2, fixo) + _bloco(3, info)
+
+        ap = (_var(1, ident)
+              + _bloco(2, grupo(0, parado))
+              + _bloco(2, grupo(1, andando))
+              + _bloco(3, b""))
+        self.novas += _bloco(2, ap)
 
     def adicionar_missile(self, ident: int, sprite_ids: list[int]) -> None:
         """Cria um distance effect novo: 9 sprites, um por direção (3x3)."""
