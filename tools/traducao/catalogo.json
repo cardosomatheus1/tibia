@@ -2,7 +2,7 @@
  "textos": {
   "Good bye.": {
    "pt": "Até mais.",
-   "n": 66,
+   "n": 67,
    "npc": [
     "a_ghostly_sage",
     "andrew_lyze",
@@ -10,7 +10,7 @@
     "brodrosch",
     "captain_cookie",
     "captain_max",
-    "+45"
+    "+46"
    ]
   },
   "Have a nice day.": {
@@ -78,6 +78,19 @@
     "+40"
    ]
   },
+  "You don't have enough money.": {
+   "pt": "Você não tem dinheiro suficiente.",
+   "n": 44,
+   "npc": [
+    "ahmet",
+    "andrew_lyze",
+    "appaloosa",
+    "beatrice",
+    "bertha",
+    "brodrosch",
+    "+29"
+   ]
+  },
   "Would you like to learn {find fiend} magic spell for 1000 gold?": {
    "pt": "",
    "n": 43,
@@ -89,19 +102,6 @@
     "chatterbone",
     "dario",
     "+37"
-   ]
-  },
-  "You don't have enough money.": {
-   "pt": "Você não tem dinheiro suficiente.",
-   "n": 42,
-   "npc": [
-    "ahmet",
-    "andrew_lyze",
-    "appaloosa",
-    "beatrice",
-    "bertha",
-    "brodrosch",
-    "+28"
    ]
   },
   "For level 10 I have {Cure Poison} for 150 gold.": {
@@ -221,6 +221,19 @@
     "+27"
    ]
   },
+  "Good bye, |PLAYERNAME|.": {
+   "pt": "Até mais, |PLAYERNAME|.",
+   "n": 32,
+   "npc": [
+    "amarie",
+    "bashira",
+    "bertha",
+    "boveas",
+    "briasol",
+    "corym_butler",
+    "+19"
+   ]
+  },
   "For level 17 I have {Destroy Field} Rune for 700 gold.": {
    "pt": "",
    "n": 32,
@@ -271,19 +284,6 @@
     "enpa_rudra",
     "ethan",
     "+26"
-   ]
-  },
-  "Good bye, |PLAYERNAME|.": {
-   "pt": "Até mais, |PLAYERNAME|.",
-   "n": 31,
-   "npc": [
-    "amarie",
-    "bashira",
-    "bertha",
-    "boveas",
-    "briasol",
-    "corym_butler",
-    "+18"
    ]
   },
   "For level 9 I have {Magic Rope} for 200 gold.": {
@@ -1177,6 +1177,19 @@
     "+9"
    ]
   },
+  "Greetings, |PLAYERNAME|.": {
+   "pt": "Saudações, |PLAYERNAME|.",
+   "n": 16,
+   "npc": [
+    "amarie",
+    "bashira",
+    "briasol",
+    "edala",
+    "eruaran",
+    "faluae",
+    "+9"
+   ]
+  },
   "Would you like to learn {cure bleeding} magic spell for 2500 gold?": {
    "pt": "",
    "n": 16,
@@ -1221,19 +1234,6 @@
     "paulie",
     "plunderpurse",
     "wentworth"
-   ]
-  },
-  "Greetings, |PLAYERNAME|.": {
-   "pt": "Saudações, |PLAYERNAME|.",
-   "n": 15,
-   "npc": [
-    "amarie",
-    "bashira",
-    "briasol",
-    "edala",
-    "eruaran",
-    "faluae",
-    "+8"
    ]
   },
   "Would you like to learn {strong haste} magic spell for 1300 gold?": {
@@ -1364,6 +1364,19 @@
     "helor",
     "isolde",
     "+9"
+   ]
+  },
+  "Then not.": {
+   "pt": "Então não.",
+   "n": 14,
+   "npc": [
+    "alesar",
+    "alesar_functions",
+    "alkestios",
+    "appaloosa",
+    "aurita",
+    "cillia",
+    "+8"
    ]
   },
   "Take this!": {
@@ -1530,19 +1543,6 @@
    "n": 14,
    "npc": [
     "jean_pierre"
-   ]
-  },
-  "Then not.": {
-   "pt": "Então não.",
-   "n": 13,
-   "npc": [
-    "alesar",
-    "alesar_functions",
-    "alkestios",
-    "appaloosa",
-    "aurita",
-    "cillia",
-    "+7"
    ]
   },
   "Would you like to learn {conjure arrow} magic spell for 450 gold?": {
@@ -3271,6 +3271,19 @@
     "+2"
    ]
   },
+  "Of course, just browse through my wares.": {
+   "pt": "Claro, é só olhar minhas mercadorias.",
+   "n": 8,
+   "npc": [
+    "beatrice",
+    "florentine",
+    "luna",
+    "npc_handler",
+    "obi",
+    "rowenna",
+    "+2"
+   ]
+  },
   "I am the captain of this sailing-ship.": {
    "pt": "",
    "n": 8,
@@ -3942,19 +3955,6 @@
     "romir",
     "shalmar",
     "tamoril",
-    "+1"
-   ]
-  },
-  "Of course, just browse through my wares.": {
-   "pt": "Claro, é só olhar minhas mercadorias.",
-   "n": 7,
-   "npc": [
-    "beatrice",
-    "florentine",
-    "luna",
-    "obi",
-    "rowenna",
-    "rudolph",
     "+1"
    ]
   },
@@ -55472,45 +55472,68 @@
     "npc_handler"
    ]
   },
+  "Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?": {
+   "pt": "Quer comprar |ITEMCOUNT| |ITEMNAME| por |TOTALCOST| moedas de ouro?",
+   "n": 1,
+   "npc": [
+    "npc_handler"
+   ]
+  },
   "You don't have so many.": {
    "pt": "Você não tem tantos assim.",
-   "n": 0,
-   "obsoleto": true
+   "n": 1,
+   "npc": [
+    "npc_handler"
+   ]
   },
   "You do not have this object.": {
    "pt": "Você não tem esse objeto.",
-   "n": 0,
-   "obsoleto": true
+   "n": 1,
+   "npc": [
+    "npc_handler"
+   ]
   },
   "There is not enought room.": {
    "pt": "Não há espaço suficiente.",
-   "n": 0,
-   "obsoleto": true
+   "n": 1,
+   "npc": [
+    "npc_handler"
+   ]
   },
   "You do not have enough capacity for all items.": {
    "pt": "Você não tem capacidade para todos os itens.",
-   "n": 0,
-   "obsoleto": true
+   "n": 1,
+   "npc": [
+    "npc_handler"
+   ]
   },
   "Sorry, I'm not offering anything.": {
    "pt": "Desculpe, não estou oferecendo nada.",
-   "n": 0,
-   "obsoleto": true
+   "n": 1,
+   "npc": [
+    "npc_handler"
+   ]
   },
   "Thank you, come back whenever you're in need of something else.": {
    "pt": "Obrigado, volte sempre que precisar de outra coisa.",
-   "n": 0,
-   "obsoleto": true
+   "n": 1,
+   "npc": [
+    "npc_handler"
+   ]
   },
   "|PLAYERNAME|, I am already talking to you.": {
    "pt": "|PLAYERNAME|, já estou falando com você.",
-   "n": 0,
-   "obsoleto": true
+   "n": 1,
+   "npc": [
+    "npc_handler"
+   ]
   },
-  "Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?": {
-   "pt": "Quer comprar |ITEMCOUNT| |ITEMNAME| por |TOTALCOST| moedas de ouro?",
-   "n": 0,
-   "obsoleto": true
+  "\",\n\t\t\t[MESSAGE_WALKAWAY_FEMALE] =": {
+   "pt": "",
+   "n": 1,
+   "npc": [
+    "npc_handler"
+   ]
   }
  },
  "palavras": {

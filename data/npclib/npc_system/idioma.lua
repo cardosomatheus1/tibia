@@ -101,6 +101,15 @@ local function traduzir_chaves(texto, palavras)
 	end))
 end
 
+-- Chave tolerante: minúscula, espaço colapsado, pontuação de borda fora.
+-- Serve para uma frase não perder a tradução porque o upstream mexeu numa
+-- vírgula ou num espaço duplo. Mudança de palavra continua não casando de
+-- propósito — para isso existe o `verificar.py`, que mostra o quase-igual e
+-- deixa a decisão com uma pessoa, em vez de arriscar mostrar a fala errada.
+function Idioma.chave_tolerante(texto)
+	return (texto:lower():gsub("%s+", " "):gsub("^[%p%s]+", ""):gsub("[%p%s]+$", ""))
+end
+
 function Idioma.saida(texto, player)
 	if type(texto) ~= "string" or texto == "" then
 		return texto
@@ -113,6 +122,12 @@ function Idioma.saida(texto, player)
 	local traduzido = d.textos[texto]
 	if traduzido then
 		return traduzido
+	end
+	if d.tolerantes then
+		traduzido = d.tolerantes[Idioma.chave_tolerante(texto)]
+		if traduzido then
+			return traduzido
+		end
 	end
 	-- sem tradução da frase inteira, ainda dá para traduzir o que é clicável
 	return traduzir_chaves(texto, d.palavras)

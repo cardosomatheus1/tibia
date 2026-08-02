@@ -161,4 +161,33 @@ Idioma.registrar("pt", {
 		["You don't have so many."] = "Você não tem tantos assim.",
 		["|PLAYERNAME|, I am already talking to you."] = "|PLAYERNAME|, já estou falando com você.",
 	},
+
+	-- Mesma traducao indexada por chave tolerante (minuscula, espaco
+	-- colapsado, pontuacao de borda fora). E o que impede a traducao de
+	-- se perder calada quando o upstream mexe numa virgula.
+	tolerantes = {
+		["do you want to buy |itemcount| |itemname| for |totalcost| gold coins"] = "Quer comprar |ITEMCOUNT| |ITEMNAME| por |TOTALCOST| moedas de ouro?",
+		["fine. you are free to decline my offer"] = "Tudo bem. Você pode recusar minha oferta.",
+		["good bye, |playername|"] = "Até mais, |PLAYERNAME|.",
+		["good bye"] = "Até mais.",
+		["greetings, |playername|"] = "Saudações, |PLAYERNAME|.",
+		["have a nice day"] = "Tenha um bom dia.",
+		["here you are. take care"] = "Aqui está. Se cuide.",
+		["i am the captain of this ship"] = "Sou o capitão deste navio.",
+		["i can teach you {attack} spells, {healing} spells, {support} spells and spells for {runes}. what kind of spell do you wish to learn? i can also tell you which spells are available at your {level}"] = "Posso te ensinar magias de {ataque}, de {cura}, de {suporte} e magias para {runas}. Que tipo de magia você quer aprender? Também posso dizer quais estão disponíveis no seu {nível}.",
+		["no problem"] = "Sem problema.",
+		["of course, just browse through my wares"] = "Claro, é só olhar minhas mercadorias.",
+		["sorry, i'm not offering anything"] = "Desculpe, não estou oferecendo nada.",
+		["thank you, come back whenever you're in need of something else"] = "Obrigado, volte sempre que precisar de outra coisa.",
+		["then not"] = "Então não.",
+		["there is not enought room"] = "Não há espaço suficiente.",
+		["we would like to serve you some time"] = "Gostaríamos de te atender outra hora.",
+		["well, bye then"] = "Bom, então tchau.",
+		["you are hurt, my child. i will heal your wounds"] = "Você está ferido, meu filho. Vou curar suas feridas.",
+		["you do not have enough capacity for all items"] = "Você não tem capacidade para todos os itens.",
+		["you do not have this object"] = "Você não tem esse objeto.",
+		["you don't have enough money"] = "Você não tem dinheiro suficiente.",
+		["you don't have so many"] = "Você não tem tantos assim.",
+		["|playername|, i am already talking to you"] = "|PLAYERNAME|, já estou falando com você.",
+	},
 })

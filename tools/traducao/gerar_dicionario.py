@@ -14,6 +14,15 @@ import json
 from pathlib import Path
 
 
+import re
+
+
+def tolerante(texto: str) -> str:
+    """Mesma normalizacao do Idioma.chave_tolerante, do lado do Lua."""
+    t = re.sub(r"\s+", " ", texto.lower())
+    return re.sub(r"[^\w{}|]+$", "", re.sub(r"^[^\w{}|]+", "", t))
+
+
 def escapar(s: str) -> str:
     return s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n")
 
@@ -29,12 +38,12 @@ def main() -> int:
     args = p.parse_args()
 
     cat = json.loads(Path(args.catalogo).read_text())
-    textos = {k: v["pt"] for k, v in cat.get("textos", {}).items()
-              if v.get("pt") and not v.get("obsoleto")}
-    palavras = {k: v["pt"] for k, v in cat.get("palavras", {}).items()
-                if v.get("pt") and not v.get("obsoleto")}
-    apelidos = {k: v["pt"] for k, v in cat.get("apelidos", {}).items()
-                if v.get("pt") and not v.get("obsoleto")}
+    # Traducao feita a mao nunca e descartada, nem a de frase que sumiu do
+    # datapack: guardar custa uma linha e, se a frase voltar, ja funciona.
+    # Descartar custa o trabalho de uma pessoa.
+    textos = {k: v["pt"] for k, v in cat.get("textos", {}).items() if v.get("pt")}
+    palavras = {k: v["pt"] for k, v in cat.get("palavras", {}).items() if v.get("pt")}
+    apelidos = {k: v["pt"] for k, v in cat.get("apelidos", {}).items() if v.get("pt")}
 
     linhas = [
         "-- GERADO POR tools/traducao/gerar_dicionario.py — nao edite a mao.",
@@ -66,6 +75,20 @@ def main() -> int:
     linhas += ["\t},", "", "\t-- falas dos NPCs", "\ttextos = {"]
     for k in sorted(textos):
         linhas.append('\t\t["%s"] = "%s",' % (escapar(k), escapar(textos[k])))
+    linhas += [
+        "\t},",
+        "",
+        "\t-- Mesma traducao indexada por chave tolerante (minuscula, espaco",
+        "\t-- colapsado, pontuacao de borda fora). E o que impede a traducao de",
+        "\t-- se perder calada quando o upstream mexe numa virgula.",
+        "\ttolerantes = {",
+    ]
+    vistas = {}
+    for k in sorted(textos):
+        chave = tolerante(k)
+        if chave and chave != k and chave not in vistas:
+            vistas[chave] = textos[k]
+            linhas.append('\t\t["%s"] = "%s",' % (escapar(chave), escapar(textos[k])))
     linhas += ["\t},", "})", ""]
 
     saida = Path(args.saida)

@@ -86,6 +86,45 @@ de atualizar o datapack só acrescenta as chaves novas, e marca como
 `obsoleto` o que sumiu, em vez de apagar. Ele também conta quantas vezes
 cada frase é dita, o que permite atacar por impacto.
 
+## Proteger o trabalho
+
+A tradução é a parte cara e a parte frágil. Quatro coisas garantem que ela
+não se perca:
+
+**Mora fora dos NPCs.** Tudo vive em `tools/traducao/catalogo.json`, um
+arquivo só, que não depende de nenhum dos 1036 scripts. Atualizar o
+datapack — ou trocá-lo inteiro — não encosta nele.
+
+**Nada feito à mão é descartado.** O `extrair.py` preserva os campos `pt`
+ao rodar de novo, e o gerador inclui **até** a tradução de frase que sumiu
+do datapack. Guardar custa uma linha; se a frase voltar, já funciona.
+Descartar custa o trabalho de uma pessoa.
+
+**Mudança pequena não quebra.** O dicionário também é indexado por chave
+tolerante (minúscula, espaço colapsado, pontuação de borda fora), então
+uma vírgula corrigida lá em cima não derruba a linha para o inglês.
+
+**Mudança grande fica visível.** É o `verificar.py`:
+
+```bash
+python3 tools/traducao/verificar.py
+```
+
+```
+chave desatualizada (a frase mudou de pontuacao/espaco):
+  - Good bye.
+  + Good bye!
+
+traducao orfa com frase parecida no lugar (1):
+  - There is not enought room.
+  + There is not enough room.
+```
+
+Ele sai com código 1 quando tem algo para decidir, então serve direto num
+hook de commit ou na CI. A troca automática **não** é feita de propósito:
+frase parecida pode ser outra frase, e mostrar a fala errada é pior do que
+mostrar em inglês. A ferramenta aponta; quem decide é uma pessoa.
+
 ## O tamanho real disso
 
 Vale saber antes de começar:

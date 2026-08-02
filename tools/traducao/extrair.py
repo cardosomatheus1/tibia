@@ -33,6 +33,9 @@ PADROES_TEXTO = [
     re.compile(r"""npcHandler:say\(\s*(['"])(.+?)\1""", re.S),
     re.compile(r"""setMessage\(\s*[A-Z_]+\s*,\s*(['"])(.+?)\1""", re.S),
     re.compile(r"""npc:talk\(\s*[^,]+,\s*(['"])(.+?)\1""", re.S),
+    # as respostas padrao de todo NPC, na tabela do npc_handler:
+    #   [MESSAGE_GREET] = "..."
+    re.compile(r"""\[MESSAGE_[A-Z_]+\]\s*=\s*(['"])(.+?)\1""", re.S),
 ]
 # palavras que o jogador digita
 PADRAO_CHAVE = re.compile(r"""addKeyword\(\s*\{([^}]*)\}""", re.S)
