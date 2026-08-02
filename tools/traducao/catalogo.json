@@ -5018,7 +5018,7 @@
    ]
   },
   "Come back when you gather all essences.": {
-   "pt": "",
+   "pt": "Volte quando reunir todas as essências.",
    "n": 6,
    "npc": [
     "the_bone_master",
@@ -14470,35 +14470,35 @@
    ]
   },
   "Prepare your offer and cling to the sanctitity of this place.": {
-   "pt": "",
+   "pt": "Prepare sua oferenda e apegue-se à santidade deste lugar.",
    "n": 1,
    "npc": [
     "altar"
    ]
   },
   "Five tainted hearts and five darklight hearts drowned in a worldly wealth of 50000000 gold pieces for the righteous. Are you prepared?": {
-   "pt": "",
+   "pt": "Cinco tainted hearts e cinco darklight hearts, afogados numa riqueza mundana de 50000000 moedas de ouro para os justos. Está preparado?",
    "n": 1,
    "npc": [
     "altar"
    ]
   },
   "Sorry, you don't have all items.": {
-   "pt": "",
+   "pt": "Desculpe, você não tem todos os itens.",
    "n": 1,
    "npc": [
     "altar"
    ]
   },
   "Your sacrifice has been accepted, mortal. Embrace your reward!": {
-   "pt": "",
+   "pt": "Seu sacrifício foi aceito, mortal. Abrace sua recompensa!",
    "n": 1,
    "npc": [
     "altar"
    ]
   },
   "Kneel before the all-devouring power of blooded decay.": {
-   "pt": "",
+   "pt": "Ajoelhe-se diante do poder que tudo devora da decadência ensanguentada.",
    "n": 1,
    "npc": [
     "altar"
@@ -19664,28 +19664,28 @@
    ]
   },
   "Do you want go back to Liberty Bay?": {
-   "pt": "",
+   "pt": "Quer voltar para Liberty Bay?",
    "n": 1,
    "npc": [
     "captain_max_calassa"
    ]
   },
   "Maybe another time, then.": {
-   "pt": "",
+   "pt": "Talvez outra hora, então.",
    "n": 1,
    "npc": [
     "captain_max_calassa"
    ]
   },
   "Do you want go back to {Liberty Bay}?": {
-   "pt": "",
+   "pt": "Quer voltar para {Liberty Bay}?",
    "n": 1,
    "npc": [
     "captain_max_calassa"
    ]
   },
   "Welcome on board, noble |PLAYERNAME|. I can bring you back to {Liberty Bay}. Do you want me to do it?": {
-   "pt": "",
+   "pt": "Bem-vindo a bordo, nobre |PLAYERNAME|. Posso levá-lo de volta para {Liberty Bay}. Quer que eu faça isso?",
    "n": 1,
    "npc": [
     "captain_max_calassa"
@@ -38809,56 +38809,56 @@
    ]
   },
   "Greetings, human |PLAYERNAME|. My patience with your kind is limited, so speak quickly and choose your words well.": {
-   "pt": "",
+   "pt": "Saudações, humano |PLAYERNAME|. Minha paciência com a sua espécie é limitada, então fale rápido e escolha bem suas palavras.",
    "n": 1,
    "npc": [
     "malor"
    ]
   },
   "There's no mission left for you, friend of the Efreet. However, I have a {task} for you.": {
-   "pt": "",
+   "pt": "Não resta missão nenhuma para você, amigo dos Efreet. Porém, tenho uma {tarefa} para você.",
    "n": 1,
    "npc": [
     "malor"
    ]
   },
   "Your choice.": {
-   "pt": "",
+   "pt": "A escolha é sua.",
    "n": 1,
    "npc": [
     "malor"
    ]
   },
   "Just do it!": {
-   "pt": "",
+   "pt": "Simplesmente faça!",
    "n": 1,
    "npc": [
     "malor"
    ]
   },
   "There are still blue djinns everywhere! We can't let a single one of them live. I guess a start would be for you to kill 500 blue djinns and Marid. Will you assist us?": {
-   "pt": "",
+   "pt": "Ainda há blue djinns por toda parte! Não podemos deixar um único deles vivo. Imagino que um começo seria você matar 500 blue djinns e Marid. Vai nos ajudar?",
    "n": 1,
    "npc": [
     "malor"
    ]
   },
   "Come back when you kill 500 blue djinns and Marid.": {
-   "pt": "",
+   "pt": "Volte quando matar 500 blue djinns e Marid.",
    "n": 1,
    "npc": [
     "malor"
    ]
   },
   "Good, then show those pathetic Marid what you're made of.": {
-   "pt": "",
+   "pt": "Ótimo, então mostre àqueles Marid patéticos do que você é feito.",
    "n": 1,
    "npc": [
     "malor"
    ]
   },
   "Farewell, human. When I have taken my rightful place I shall remember those who served me well. Even if they are only humans.": {
-   "pt": "",
+   "pt": "Adeus, humano. Quando eu tomar meu lugar de direito, vou me lembrar daqueles que me serviram bem. Mesmo que sejam apenas humanos.",
    "n": 1,
    "npc": [
     "malor"
@@ -49456,35 +49456,35 @@
    ]
   },
   "Id like to take a walk with Aurita.": {
-   "pt": "",
+   "pt": "Eu gostaria de dar um passeio com Aurita.",
    "n": 1,
    "npc": [
     "taegen"
    ]
   },
   "I miss Aurita golden hair.*sigh*": {
-   "pt": "",
+   "pt": "Sinto falta do cabelo dourado de Aurita. *suspira*",
    "n": 1,
    "npc": [
     "taegen"
    ]
   },
   "Pas in boldly tyll thow com to an hall the feyrist undir sky ... *sings*": {
-   "pt": "",
+   "pt": "Entra ousado até que chegues a um salão, o mais formoso sob o firmamento ... *canta*",
    "n": 1,
    "npc": [
     "taegen"
    ]
   },
   "Be greeted, mortal being!": {
-   "pt": "",
+   "pt": "Seja bem-vindo, ser mortal!",
    "n": 1,
    "npc": [
     "taegen"
    ]
   },
   "Im carving bolts and arrows and i also craft bows anda spears.If you'd like to buy some ammunition, take a look.": {
-   "pt": "",
+   "pt": "Estou entalhando bolts e arrows, e também fabrico bows e spears. Se quiser comprar munição, dê uma olhada.",
    "n": 1,
    "npc": [
     "taegen"
@@ -50079,56 +50079,56 @@
    ]
   },
   "So you want to advance to a {Hyaena} rank? Did you bring 500 demonic essences with you?": {
-   "pt": "",
+   "pt": "Então você quer avançar para o rank {Hyaena}? Trouxe 500 demonic essences com você?",
    "n": 1,
    "npc": [
     "the_bone_master"
    ]
   },
   "So you want to advance to a {Death Dealer} rank? Did you bring 1000 demonic essences with you?": {
-   "pt": "",
+   "pt": "Então você quer avançar para o rank {Death Dealer}? Trouxe 1000 demonic essences com você?",
    "n": 1,
    "npc": [
     "the_bone_master"
    ]
   },
   "So you want to advance to a {Dread Lord} rank? Did you bring 1500 demonic essences with you?": {
-   "pt": "",
+   "pt": "Então você quer avançar para o rank {Dread Lord}? Trouxe 1500 demonic essences com você?",
    "n": 1,
    "npc": [
     "the_bone_master"
    ]
   },
   "You advanced to {Hyaena} rank! You are now able to use teleports of second floor of Knightwatch Tower.": {
-   "pt": "",
+   "pt": "Você avançou para o rank {Hyaena}! Agora você pode usar os teleports do segundo andar da Knightwatch Tower.",
    "n": 1,
    "npc": [
     "the_bone_master"
    ]
   },
   "You advanced to {Death Dealer} rank!": {
-   "pt": "",
+   "pt": "Você avançou para o rank {Death Dealer}!",
    "n": 1,
    "npc": [
     "the_bone_master"
    ]
   },
   "You advanced to {Dread Lord} rank! You are now able to use teleports of fourth floor of Knightwatch Tower and to create addon scrolls.": {
-   "pt": "",
+   "pt": "Você avançou para o rank {Dread Lord}! Agora você pode usar os teleports do quarto andar da Knightwatch Tower e criar addon scrolls.",
    "n": 1,
    "npc": [
     "the_bone_master"
    ]
   },
   "Welcome to my little realm.": {
-   "pt": "",
+   "pt": "Bem-vindo ao meu pequeno reino.",
    "n": 1,
    "npc": [
     "the_bone_master"
    ]
   },
   "We will meet again.": {
-   "pt": "",
+   "pt": "Vamos nos encontrar de novo.",
    "n": 1,
    "npc": [
     "the_bone_master"
@@ -50149,119 +50149,119 @@
    ]
   },
   "So you want to advance to a {Initiate} rank? Did you bring 500 demonic essences with you?": {
-   "pt": "",
+   "pt": "Então você quer avançar para o rank {Initiate}? Trouxe 500 demonic essences com você?",
    "n": 1,
    "npc": [
     "the_dream_master"
    ]
   },
   "So you want to advance to a {Dreamer} rank? Did you bring 1000 demonic essences with you?": {
-   "pt": "",
+   "pt": "Então você quer avançar para o rank {Dreamer}? Trouxe 1000 demonic essences com você?",
    "n": 1,
    "npc": [
     "the_dream_master"
    ]
   },
   "So you want to advance to a {Lord Protector} rank? Did you bring 1500 demonic essences with you?": {
-   "pt": "",
+   "pt": "Então você quer avançar para o rank {Lord Protector}? Trouxe 1500 demonic essences com você?",
    "n": 1,
    "npc": [
     "the_dream_master"
    ]
   },
   "Please know that your decision is irrevocable. You will abandon the opportunity to join any order whose doctrine is incontrast to our own ...": {
-   "pt": "",
+   "pt": "Saiba que sua decisão é irrevogável. Você vai abandonar a oportunidade de se juntar a qualquer ordem cuja doutrina esteja em contraste com a nossa ...",
    "n": 1,
    "npc": [
     "the_dream_master"
    ]
   },
   "Do you still want to join our order?": {
-   "pt": "",
+   "pt": "Você ainda quer se juntar à nossa ordem?",
    "n": 1,
    "npc": [
     "the_dream_master"
    ]
   },
   "You advanced to {Initiate} rank! You are now able to use teleports of second floor of Knightwatch Tower.": {
-   "pt": "",
+   "pt": "Você avançou para o rank {Initiate}! Agora você pode usar os teleports do segundo andar da Knightwatch Tower.",
    "n": 1,
    "npc": [
     "the_dream_master"
    ]
   },
   "You advanced to {Dreamer} rank!": {
-   "pt": "",
+   "pt": "Você avançou para o rank {Dreamer}!",
    "n": 1,
    "npc": [
     "the_dream_master"
    ]
   },
   "You advanced to {Lord Protector} rank! You are now able to use teleports of fourth floor of Knightwatch Tower and to create addon scrolls.": {
-   "pt": "",
+   "pt": "Você avançou para o rank {Lord Protector}! Agora você pode usar os teleports do quarto andar da Knightwatch Tower e criar addon scrolls.",
    "n": 1,
    "npc": [
     "the_dream_master"
    ]
   },
   "Be greeted, visitor.": {
-   "pt": "",
+   "pt": "Seja bem-vindo, visitante.",
    "n": 1,
    "npc": [
     "the_dream_master"
    ]
   },
   "Good bye. May the gods watch over your path.": {
-   "pt": "",
+   "pt": "Adeus. Que os deuses vigiem seu caminho.",
    "n": 1,
    "npc": [
     "the_dream_master"
    ]
   },
   "Times have changed <sigh>. In the past dragons were feared and respected. Only the {demons} rivalled our notoriety.": {
-   "pt": "",
+   "pt": "Os tempos mudaram <suspira>. No passado, dragões eram temidos e respeitados. Só os {demônios} rivalizavam com a nossa notoriedade.",
    "n": 1,
    "npc": [
     "the_first_dragon"
    ]
   },
   "Those upstarts! I wonder why would anyone care about them. They lack our style. For them it is all about brute force and showing-off.": {
-   "pt": "",
+   "pt": "Aqueles arrivistas! Fico pensando por que alguém se importaria com eles. Falta-lhes o nosso estilo. Para eles, é tudo sobre força bruta e ostentação.",
    "n": 1,
    "npc": [
     "the_first_dragon"
    ]
   },
   "Breathing fire is an art! Instead of setting everything on fire, you exhale a cone of fire to give a worthy opponent a chance to avoid it.": {
-   "pt": "",
+   "pt": "Cuspir fogo é uma arte! Em vez de incendiar tudo, você exala um cone de fogo para dar a um oponente digno a chance de se esquivar.",
    "n": 1,
    "npc": [
     "the_first_dragon"
    ]
   },
   "Your lives are so short and meaningless and yet you are here! And as a race you even have your own history and remember things with the help of {books}, which amazes me.": {
-   "pt": "",
+   "pt": "Suas vidas são tão curtas e sem sentido, e ainda assim vocês estão aqui! E, como raça, vocês até têm sua própria história e se lembram das coisas com a ajuda de {livros}, o que me impressiona.",
    "n": 1,
    "npc": [
     "the_first_dragon"
    ]
   },
   "I like the idea of books so much that I acquired a human servant to record my memoirs. You find a copy somewhere in my lair.": {
-   "pt": "",
+   "pt": "Gosto tanto da ideia de livros que arranjei um servo humano para registrar minhas memórias. Você encontra uma cópia em algum lugar do meu covil.",
    "n": 1,
    "npc": [
     "the_first_dragon"
    ]
   },
   "Lava is only fun as long as it doesn't harden - then it turns into an annoyance.": {
-   "pt": "",
+   "pt": "Lava só é divertida enquanto não endurece - depois disso, vira um incômodo.",
    "n": 1,
    "npc": [
     "the_first_dragon"
    ]
   },
   "Hello, my sparring buddy. We should have another fight sometimes. I think you may have earned a little reward.": {
-   "pt": "",
+   "pt": "Olá, meu parceiro de treino. Deveríamos ter outra luta algum dia. Acho que você pode ter merecido uma pequena recompensa.",
    "n": 1,
    "npc": [
     "the_first_dragon"
@@ -59264,31 +59264,31 @@
    "n": 2
   },
   "hyaena": {
-   "pt": "",
+   "pt": "Hyaena",
    "n": 2
   },
   "death dealer": {
-   "pt": "",
+   "pt": "Death Dealer",
    "n": 2
   },
   "dread lord": {
-   "pt": "",
+   "pt": "Dread Lord",
    "n": 2
   },
   "initiate": {
-   "pt": "",
+   "pt": "Initiate",
    "n": 2
   },
   "dreamer": {
-   "pt": "",
+   "pt": "Dreamer",
    "n": 2
   },
   "lord protector": {
-   "pt": "",
+   "pt": "Lord Protector",
    "n": 2
   },
   "demons": {
-   "pt": "",
+   "pt": "demônios",
    "n": 2
   },
   "hive": {
