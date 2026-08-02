@@ -27,7 +27,7 @@
    ]
   },
   "Would you like to learn {cure poison} magic spell for 150 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {cure poison} por 150 de ouro?",
    "n": 46,
    "npc": [
     "asrak",
@@ -40,7 +40,7 @@
    ]
   },
   "Would you like to learn {find person} magic spell for 80 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {find person} por 80 de ouro?",
    "n": 46,
    "npc": [
     "asrak",
@@ -53,7 +53,7 @@
    ]
   },
   "Would you like to learn {great light} magic spell for 500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {great light} por 500 de ouro?",
    "n": 46,
    "npc": [
     "asrak",
@@ -66,7 +66,7 @@
    ]
   },
   "Would you like to learn {light} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {light} de graça?",
    "n": 46,
    "npc": [
     "asrak",
@@ -92,7 +92,7 @@
    ]
   },
   "Would you like to learn {find fiend} magic spell for 1000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {find fiend} por 1000 de ouro?",
    "n": 43,
    "npc": [
     "asrak",
@@ -105,7 +105,7 @@
    ]
   },
   "For level 10 I have {Cure Poison} for 150 gold.": {
-   "pt": "",
+   "pt": "No nível 10 eu tenho {Cure Poison} por 150 de ouro.",
    "n": 42,
    "npc": [
     "asrak",
@@ -170,7 +170,7 @@
    ]
   },
   "Would you like to learn {light healing} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {light healing} de graça?",
    "n": 36,
    "npc": [
     "asrak",
@@ -183,7 +183,7 @@
    ]
   },
   "Would you like to learn {intense healing} magic spell for 350 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {intense healing} por 350 de ouro?",
    "n": 34,
    "npc": [
     "asrak",
@@ -196,7 +196,7 @@
    ]
   },
   "Would you like to learn {magic patch} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {magic patch} de graça?",
    "n": 34,
    "npc": [
     "asrak",
@@ -209,7 +209,7 @@
    ]
   },
   "Would you like to learn {Destroy Field} Rune spell for 700 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Destroy Field} por 700 de ouro?",
    "n": 33,
    "npc": [
     "asrak",
@@ -235,7 +235,7 @@
    ]
   },
   "For level 17 I have {Destroy Field} Rune for 700 gold.": {
-   "pt": "",
+   "pt": "No nível 17 eu tenho a runa {Destroy Field} por 700 de ouro.",
    "n": 32,
    "npc": [
     "asrak",
@@ -248,7 +248,7 @@
    ]
   },
   "Would you like to learn {haste} magic spell for 600 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {haste} por 600 de ouro?",
    "n": 32,
    "npc": [
     "azalea",
@@ -261,7 +261,7 @@
    ]
   },
   "Would you like to learn {levitate} magic spell for 500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {levitate} por 500 de ouro?",
    "n": 32,
    "npc": [
     "azalea",
@@ -274,7 +274,7 @@
    ]
   },
   "Would you like to learn {magic rope} magic spell for 200 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {magic rope} por 200 de ouro?",
    "n": 32,
    "npc": [
     "azalea",
@@ -287,7 +287,7 @@
    ]
   },
   "For level 9 I have {Magic Rope} for 200 gold.": {
-   "pt": "",
+   "pt": "No nível 9 eu tenho {Magic Rope} por 200 de ouro.",
    "n": 30,
    "npc": [
     "azalea",
@@ -326,7 +326,7 @@
    ]
   },
   "Pssst! Keep it down! <gives you an elaborate report on monster activity>": {
-   "pt": "",
+   "pt": "Psiu! Fale baixo! <te passa um relatório detalhado da atividade dos monstros>",
    "n": 27,
    "npc": [
     "a_behemoth",
@@ -339,7 +339,7 @@
    ]
   },
   "Of course, just browse through my wares. You can also look at": {
-   "pt": "",
+   "pt": "Claro, é só olhar minhas mercadorias. Você também pode ver",
    "n": 27,
    "npc": [
     "alaistar",
@@ -456,7 +456,7 @@
    ]
   },
   "Yes? What may I do for you, |PLAYERNAME|? Bank business, perhaps?": {
-   "pt": "",
+   "pt": "Sim? O que posso fazer por você, |PLAYERNAME|? Assunto de banco, talvez?",
    "n": 25,
    "npc": [
     "atur",
@@ -469,7 +469,7 @@
    ]
   },
   "Ok then.": {
-   "pt": "",
+   "pt": "Certo, então.",
    "n": 23,
    "npc": [
     "aldo",
@@ -573,7 +573,7 @@
    ]
   },
   "Bye.": {
-   "pt": "",
+   "pt": "Tchau.",
    "n": 23,
    "npc": [
     "altar",
@@ -586,7 +586,7 @@
    ]
   },
   "Would you like to learn {apprentice's strike} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {apprentice's strike} de graça?",
    "n": 23,
    "npc": [
     "azalea",
@@ -599,7 +599,7 @@
    ]
   },
   "Good bye then.": {
-   "pt": "",
+   "pt": "Então até mais.",
    "n": 23,
    "npc": [
     "brodrosch",
@@ -612,7 +612,7 @@
    ]
   },
   "You shouldn't miss the experience.": {
-   "pt": "",
+   "pt": "Você não devia perder essa experiência.",
    "n": 22,
    "npc": [
     "anderson",
@@ -625,7 +625,7 @@
    ]
   },
   "Would you like to learn {ultimate healing} magic spell for 1000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {ultimate healing} por 1000 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -638,7 +638,7 @@
    ]
   },
   "Would you like to learn {Energy Wall} Rune spell for 2500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Energy Wall} por 2500 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -651,7 +651,7 @@
    ]
   },
   "Would you like to learn {Energy Field} Rune spell for 700 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Energy Field} por 700 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -664,7 +664,7 @@
    ]
   },
   "Would you like to learn {Fire Bomb} Rune spell for 1500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Fire Bomb} por 1500 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -677,7 +677,7 @@
    ]
   },
   "Would you like to learn {Fire Wall} Rune spell for 2000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Fire Wall} por 2000 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -690,7 +690,7 @@
    ]
   },
   "Would you like to learn {Fire Field} Rune spell for 500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Fire Field} por 500 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -703,7 +703,7 @@
    ]
   },
   "Would you like to learn {Poison Wall} Rune spell for 1600 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Poison Wall} por 1600 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -716,7 +716,7 @@
    ]
   },
   "Would you like to learn {Poison Field} Rune spell for 300 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Poison Field} por 300 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -729,7 +729,7 @@
    ]
   },
   "Would you like to learn {Disintegrate} Rune spell for 900 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Disintegrate} por 900 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -742,7 +742,7 @@
    ]
   },
   "Would you like to learn {creature illusion} magic spell for 1000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {creature illusion} por 1000 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -755,7 +755,7 @@
    ]
   },
   "Would you like to learn {summon creature} magic spell for 2000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {summon creature} por 2000 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -768,7 +768,7 @@
    ]
   },
   "Would you like to learn {magic shield} magic spell for 450 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {magic shield} por 450 de ouro?",
    "n": 22,
    "npc": [
     "azalea",
@@ -781,7 +781,7 @@
    ]
   },
   "For level 41 I have {Energy Wall} Rune for 2500 gold.": {
-   "pt": "",
+   "pt": "No nível 41 eu tenho a runa {Energy Wall} por 2500 de ouro.",
    "n": 22,
    "npc": [
     "azalea",
@@ -794,7 +794,7 @@
    ]
   },
   "For level 33 I have {Fire Wall} Rune for 2000 gold.": {
-   "pt": "",
+   "pt": "No nível 33 eu tenho a runa {Fire Wall} por 2000 de ouro.",
    "n": 22,
    "npc": [
     "azalea",
@@ -807,7 +807,7 @@
    ]
   },
   "Here you are.": {
-   "pt": "",
+   "pt": "Aqui está.",
    "n": 21,
    "npc": [
     "aldo",
@@ -820,7 +820,7 @@
    ]
   },
   "Sorry, you don't have enough money.": {
-   "pt": "",
+   "pt": "Desculpe, você não tem dinheiro suficiente.",
    "n": 21,
    "npc": [
     "alia",
@@ -833,7 +833,7 @@
    ]
   },
   "How could I help you?": {
-   "pt": "",
+   "pt": "Como posso te ajudar?",
    "n": 21,
    "npc": [
     "alyxo",
@@ -846,7 +846,7 @@
    ]
   },
   "Would you like to learn {Light Magic Missile} Rune spell for 500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Light Magic Missile} por 500 de ouro?",
    "n": 21,
    "npc": [
     "azalea",
@@ -859,7 +859,7 @@
    ]
   },
   "Would you like to learn {Heavy Magic Missile} Rune spell for 1500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Heavy Magic Missile} por 1500 de ouro?",
    "n": 21,
    "npc": [
     "azalea",
@@ -872,7 +872,7 @@
    ]
   },
   "Would you like to learn {Stalagmite} Rune spell for 1400 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Stalagmite} por 1400 de ouro?",
    "n": 21,
    "npc": [
     "azalea",
@@ -885,7 +885,7 @@
    ]
   },
   "Of course, just browse through my wares. Or do you want to look only at": {
-   "pt": "",
+   "pt": "Claro, é só olhar minhas mercadorias. Ou quer ver só",
    "n": 20,
    "npc": [
     "alexander",
@@ -898,7 +898,7 @@
    ]
   },
   "So receive the protection of the twist of fate, pilgrim.": {
-   "pt": "",
+   "pt": "Então receba a proteção da reviravolta do destino, peregrino.",
    "n": 20,
    "npc": [
     "alia",
@@ -911,7 +911,7 @@
    ]
   },
   "Keep your adventurer's stone well.": {
-   "pt": "",
+   "pt": "Guarde bem sua pedra do aventureiro.",
    "n": 20,
    "npc": [
     "alia",
@@ -924,7 +924,7 @@
    ]
   },
   "Ah, you want to replace your adventurer's stone for free?": {
-   "pt": "",
+   "pt": "Ah, você quer repor sua pedra do aventureiro de graça?",
    "n": 20,
    "npc": [
     "alia",
@@ -937,7 +937,7 @@
    ]
   },
   "Ah, you want to replace your adventurer's stone for 30 gold?": {
-   "pt": "",
+   "pt": "Ah, você quer repor sua pedra do aventureiro por 30 de ouro?",
    "n": 20,
    "npc": [
     "alia",
@@ -950,7 +950,7 @@
    ]
   },
   "For level 21 I have {Disintegrate} Rune for 900 gold.": {
-   "pt": "",
+   "pt": "No nível 21 eu tenho a runa {Disintegrate} por 900 de ouro.",
    "n": 20,
    "npc": [
     "azalea",
@@ -963,7 +963,7 @@
    ]
   },
   "For level 8 I have {Apprentice's Strike} for free, {Find Person} for 80 gold, {Light} for free and {Light Healing} for free.": {
-   "pt": "",
+   "pt": "No nível 8 eu tenho {Apprentice's Strike} de graça, {Find Person} por 80 de ouro, {Light} de graça e {Light Healing} de graça.",
    "n": 20,
    "npc": [
     "azalea",
@@ -976,7 +976,7 @@
    ]
   },
   "Do you seek a passage to": {
-   "pt": "",
+   "pt": "Você procura passagem para",
    "n": 20,
    "npc": [
     "captain_bluebear",
@@ -989,7 +989,7 @@
    ]
   },
   "Good bye!": {
-   "pt": "",
+   "pt": "Até mais!",
    "n": 20,
    "npc": [
     "eruaran",
@@ -1002,7 +1002,7 @@
    ]
   },
   "Well, can I help you with something else?": {
-   "pt": "",
+   "pt": "Bom, posso te ajudar com mais alguma coisa?",
    "n": 20,
    "npc": [
     "bank_system",
@@ -1012,7 +1012,7 @@
    ]
   },
   "May the gods bless you, |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Que os deuses te abençoem, |PLAYERNAME|!",
    "n": 19,
    "npc": [
     "alia",
@@ -1025,7 +1025,7 @@
    ]
   },
   "For level 20 I have {Intense Healing} for 350 gold.": {
-   "pt": "",
+   "pt": "No nível 20 eu tenho {Intense Healing} por 350 de ouro.",
    "n": 19,
    "npc": [
     "asrak",
@@ -1038,7 +1038,7 @@
    ]
   },
   "Don't forget to deposit your money here in the Global Bank before you head out for adventure.": {
-   "pt": "",
+   "pt": "Não esqueça de depositar seu dinheiro aqui no Banco Global antes de sair para a aventura.",
    "n": 19,
    "npc": [
     "atur",
@@ -1051,7 +1051,7 @@
    ]
   },
   "Good bye. Recommend us if you were satisfied with our service.": {
-   "pt": "",
+   "pt": "Até mais. Recomende-nos se ficou satisfeito com o atendimento.",
    "n": 19,
    "npc": [
     "captain_bluebear",
@@ -1064,7 +1064,7 @@
    ]
   },
   "For level 13 I have {Great Light} for 500 gold.": {
-   "pt": "",
+   "pt": "No nível 13 eu tenho {Great Light} por 500 de ouro.",
    "n": 19,
    "npc": [
     "chatterbone",
@@ -1077,7 +1077,7 @@
    ]
   },
   "Remember: If you are heavily wounded or poisoned, I can heal you for free.": {
-   "pt": "",
+   "pt": "Lembre-se: se estiver muito ferido ou envenenado, posso te curar de graça.",
    "n": 18,
    "npc": [
     "alia",
@@ -1090,7 +1090,7 @@
    ]
   },
   "You don't have it...": {
-   "pt": "",
+   "pt": "Você não tem isso...",
    "n": 18,
    "npc": [
     "atrad",
@@ -1103,7 +1103,7 @@
    ]
   },
   "LONG LIVE THE KING!": {
-   "pt": "",
+   "pt": "VIDA LONGA AO REI!",
    "n": 18,
    "npc": [
     "baxter",
@@ -1116,7 +1116,7 @@
    ]
   },
   "Would you like to learn {Explosion} Rune spell for 1800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Explosion} por 1800 de ouro?",
    "n": 17,
    "npc": [
     "azalea",
@@ -1129,7 +1129,7 @@
    ]
   },
   "For level 31 I have {Explosion} Rune for 1800 gold.": {
-   "pt": "",
+   "pt": "No nível 31 eu tenho a runa {Explosion} por 1800 de ouro.",
    "n": 17,
    "npc": [
     "azalea",
@@ -1142,7 +1142,7 @@
    ]
   },
   "Here it is.": {
-   "pt": "",
+   "pt": "Aqui está.",
    "n": 17,
    "npc": [
     "beatrice",
@@ -1155,7 +1155,7 @@
    ]
   },
   "You do not have enough gold.": {
-   "pt": "",
+   "pt": "Você não tem ouro suficiente.",
    "n": 17,
    "npc": [
     "bank_system",
@@ -1165,7 +1165,7 @@
    ]
   },
   "Welcome, young |PLAYERNAME|! If you are heavily wounded or poisoned, I can {heal} you for free.": {
-   "pt": "",
+   "pt": "Bem-vindo, jovem |PLAYERNAME|! Se estiver muito ferido ou envenenado, posso te {curar} de graça.",
    "n": 16,
    "npc": [
     "alia",
@@ -1191,7 +1191,7 @@
    ]
   },
   "Would you like to learn {cure bleeding} magic spell for 2500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {cure bleeding} por 2500 de ouro?",
    "n": 16,
    "npc": [
     "azalea",
@@ -1204,7 +1204,7 @@
    ]
   },
   "For level 12 I have {Levitate} for 500 gold.": {
-   "pt": "",
+   "pt": "No nível 12 eu tenho {Levitate} por 500 de ouro.",
    "n": 16,
    "npc": [
     "dario",
@@ -1217,7 +1217,7 @@
    ]
   },
   "There is not enough gold on your account.": {
-   "pt": "",
+   "pt": "Não há ouro suficiente na sua conta.",
    "n": 16,
    "npc": [
     "bank_system",
@@ -1227,7 +1227,7 @@
    ]
   },
   "Sorry, you do not have enough platinum coins.": {
-   "pt": "",
+   "pt": "Desculpe, você não tem moedas de platina suficientes.",
    "n": 16,
    "npc": [
     "bank_system",
@@ -1237,7 +1237,7 @@
    ]
   },
   "Would you like to learn {strong haste} magic spell for 1300 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {strong haste} por 1300 de ouro?",
    "n": 15,
    "npc": [
     "azalea",
@@ -1250,7 +1250,7 @@
    ]
   },
   "Would you like to learn {energy strike} magic spell for 800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {energy strike} por 800 de ouro?",
    "n": 15,
    "npc": [
     "azalea",
@@ -1263,7 +1263,7 @@
    ]
   },
   "Would you like to learn {flame strike} magic spell for 800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {flame strike} por 800 de ouro?",
    "n": 15,
    "npc": [
     "azalea",
@@ -1276,7 +1276,7 @@
    ]
   },
   "Would you like to learn {ice strike} magic spell for 800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {ice strike} por 800 de ouro?",
    "n": 15,
    "npc": [
     "azalea",
@@ -1289,7 +1289,7 @@
    ]
   },
   "Would you like to learn {terra strike} magic spell for 800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {terra strike} por 800 de ouro?",
    "n": 15,
    "npc": [
     "azalea",
@@ -1302,7 +1302,7 @@
    ]
   },
   "LONG LIVE THE QUEEN!": {
-   "pt": "",
+   "pt": "VIDA LONGA À RAINHA!",
    "n": 15,
    "npc": [
     "bambi_bonecrusher",
@@ -1315,7 +1315,7 @@
    ]
   },
   "Would you like to learn {intense recovery} magic spell for 10000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {intense recovery} por 10000 de ouro?",
    "n": 15,
    "npc": [
     "dario",
@@ -1328,7 +1328,7 @@
    ]
   },
   "Would you like to learn {recovery} magic spell for 4000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {recovery} por 4000 de ouro?",
    "n": 15,
    "npc": [
     "dario",
@@ -1341,7 +1341,7 @@
    ]
   },
   "For level 100 I have {Intense Recovery} for 10000 gold.": {
-   "pt": "",
+   "pt": "No nível 100 eu tenho {Intense Recovery} por 10000 de ouro.",
    "n": 15,
    "npc": [
     "dario",
@@ -1354,7 +1354,7 @@
    ]
   },
   "For level 14 I have {Haste} for 600 gold.": {
-   "pt": "",
+   "pt": "No nível 14 eu tenho {Haste} por 600 de ouro.",
    "n": 15,
    "npc": [
     "dario",
@@ -1380,7 +1380,7 @@
    ]
   },
   "Take this!": {
-   "pt": "",
+   "pt": "Pegue isto!",
    "n": 14,
    "npc": [
     "alwin",
@@ -1393,7 +1393,7 @@
    ]
   },
   "Would you like to learn {restoration} magic spell for 500000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {restoration} por 500000 de ouro?",
    "n": 14,
    "npc": [
     "azalea",
@@ -1406,7 +1406,7 @@
    ]
   },
   "Would you like to learn {ultimate light} magic spell for 1600 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {ultimate light} por 1600 de ouro?",
    "n": 14,
    "npc": [
     "azalea",
@@ -1419,7 +1419,7 @@
    ]
   },
   "Would you like to learn {cancel magic shield} magic spell for 450 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {cancel magic shield} por 450 de ouro?",
    "n": 14,
    "npc": [
     "azalea",
@@ -1432,7 +1432,7 @@
    ]
   },
   "Would you like to learn {Soulfire} Rune spell for 1800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Soulfire} por 1800 de ouro?",
    "n": 14,
    "npc": [
     "azalea",
@@ -1445,7 +1445,7 @@
    ]
   },
   "Would you like to learn {animate dead} magic spell for 1200 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {animate dead} por 1200 de ouro?",
    "n": 14,
    "npc": [
     "azalea",
@@ -1458,7 +1458,7 @@
    ]
   },
   "For level 20 I have {Intense Healing} for 350 gold and {Strong Haste} for 1300 gold.": {
-   "pt": "",
+   "pt": "No nível 20 eu tenho {Intense Healing} por 350 de ouro e {Strong Haste} por 1300 de ouro.",
    "n": 14,
    "npc": [
     "azalea",
@@ -1471,7 +1471,7 @@
    ]
   },
   "For level 13 I have {Great Light} for 500 gold and {Terra Strike} for 800 gold.": {
-   "pt": "",
+   "pt": "No nível 13 eu tenho {Great Light} por 500 de ouro e {Terra Strike} por 800 de ouro.",
    "n": 14,
    "npc": [
     "azalea",
@@ -1546,7 +1546,7 @@
    ]
   },
   "Would you like to learn {conjure arrow} magic spell for 450 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {conjure arrow} por 450 de ouro?",
    "n": 13,
    "npc": [
     "asrak",
@@ -1559,7 +1559,7 @@
    ]
   },
   "Would you like to learn {wound cleansing} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {wound cleansing} de graça?",
    "n": 13,
    "npc": [
     "asrak",
@@ -1572,7 +1572,7 @@
    ]
   },
   "Would you like to learn {invisible} magic spell for 2000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {invisible} por 2000 de ouro?",
    "n": 13,
    "npc": [
     "azalea",
@@ -1585,7 +1585,7 @@
    ]
   },
   "For level 45 I have {Cure Bleeding} for 2500 gold.": {
-   "pt": "",
+   "pt": "No nível 45 eu tenho {Cure Bleeding} por 2500 de ouro.",
    "n": 13,
    "npc": [
     "azalea",
@@ -1598,7 +1598,7 @@
    ]
   },
   "For level 35 I have {Invisible} for 2000 gold.": {
-   "pt": "",
+   "pt": "No nível 35 eu tenho {Invisible} por 2000 de ouro.",
    "n": 13,
    "npc": [
     "azalea",
@@ -1611,7 +1611,7 @@
    ]
   },
   "For level 12 I have {Energy Strike} for 800 gold and {Levitate} for 500 gold.": {
-   "pt": "",
+   "pt": "No nível 12 eu tenho {Energy Strike} por 800 de ouro e {Levitate} por 500 de ouro.",
    "n": 13,
    "npc": [
     "azalea",
@@ -1624,7 +1624,7 @@
    ]
   },
   "For level 25 I have {Find Fiend} for 1000 gold, {Heavy Magic Missile} Rune for 1500 gold and {Summon Creature} for 2000 gold.": {
-   "pt": "",
+   "pt": "No nível 25 eu tenho a runa {Find Fiend} por 1000 de ouro, {Heavy Magic Missile} por 1500 de ouro e {Summon Creature} por 2000 de ouro.",
    "n": 13,
    "npc": [
     "barnabas_dee",
@@ -1686,7 +1686,7 @@
    ]
   },
   "Would you like to learn {arrow call} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {arrow call} de graça?",
    "n": 12,
    "npc": [
     "asrak",
@@ -1699,7 +1699,7 @@
    ]
   },
   "Would you like to learn {conjure explosive arrow} magic spell for 1000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {conjure explosive arrow} por 1000 de ouro?",
    "n": 12,
    "npc": [
     "asrak",
@@ -1712,7 +1712,7 @@
    ]
   },
   "Would you like to learn {divine healing} magic spell for 3000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {divine healing} por 3000 de ouro?",
    "n": 12,
    "npc": [
     "asrak",
@@ -1751,7 +1751,7 @@
    ]
   },
   "Would you like to learn {Chameleon} Rune spell for 1300 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Chameleon} por 1300 de ouro?",
    "n": 12,
    "npc": [
     "azalea",
@@ -1764,7 +1764,7 @@
    ]
   },
   "Would you like to learn {convince creature} magic spell for 800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {convince creature} por 800 de ouro?",
    "n": 12,
    "npc": [
     "azalea",
@@ -1777,7 +1777,7 @@
    ]
   },
   "Would you like to learn {food} magic spell for 300 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {food} por 300 de ouro?",
    "n": 12,
    "npc": [
     "azalea",
@@ -1790,7 +1790,7 @@
    ]
   },
   "Would you like to learn {ice wave} magic spell for 850 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {ice wave} por 850 de ouro?",
    "n": 12,
    "npc": [
     "azalea",
@@ -1803,7 +1803,7 @@
    ]
   },
   "Would you like to learn {chill out} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {chill out} de graça?",
    "n": 12,
    "npc": [
     "azalea",
@@ -1816,7 +1816,7 @@
    ]
   },
   "Would you like to learn {mud attack} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {mud attack} de graça?",
    "n": 12,
    "npc": [
     "azalea",
@@ -1829,7 +1829,7 @@
    ]
   },
   "Would you like to learn {great energy beam} magic spell for 1800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {great energy beam} por 1800 de ouro?",
    "n": 12,
    "npc": [
     "barnabas_dee",
@@ -1842,7 +1842,7 @@
    ]
   },
   "Would you like to learn {Great Fireball} Rune spell for 1200 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Great Fireball} por 1200 de ouro?",
    "n": 12,
    "npc": [
     "barnabas_dee",
@@ -1855,7 +1855,7 @@
    ]
   },
   "Would you like to learn {energy wave} magic spell for 2500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {energy wave} por 2500 de ouro?",
    "n": 12,
    "npc": [
     "barnabas_dee",
@@ -1868,7 +1868,7 @@
    ]
   },
   "Would you like to learn {energy beam} magic spell for 1000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {energy beam} por 1000 de ouro?",
    "n": 12,
    "npc": [
     "barnabas_dee",
@@ -1881,7 +1881,7 @@
    ]
   },
   "Would you like to learn {fire wave} magic spell for 850 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {fire wave} por 850 de ouro?",
    "n": 12,
    "npc": [
     "barnabas_dee",
@@ -1894,7 +1894,7 @@
    ]
   },
   "Would you like to learn {Sudden Death} Rune spell for 3000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Sudden Death} por 3000 de ouro?",
    "n": 12,
    "npc": [
     "barnabas_dee",
@@ -1907,7 +1907,7 @@
    ]
   },
   "Would you like to learn {buzz} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {buzz} de graça?",
    "n": 12,
    "npc": [
     "barnabas_dee",
@@ -1920,7 +1920,7 @@
    ]
   },
   "Would you like to learn {scorch} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {scorch} de graça?",
    "n": 12,
    "npc": [
     "barnabas_dee",
@@ -1933,7 +1933,7 @@
    ]
   },
   "For level 29 I have {Great Energy Beam} for 1800 gold and {Poison Wall} Rune for 1600 gold.": {
-   "pt": "",
+   "pt": "No nível 29 eu tenho a runa {Great Energy Beam} por 1800 de ouro e {Poison Wall} por 1600 de ouro.",
    "n": 12,
    "npc": [
     "barnabas_dee",
@@ -1946,7 +1946,7 @@
    ]
   },
   "For level 23 I have {Creature Illusion} for 1000 gold and {Energy Beam} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 23 eu tenho {Creature Illusion} por 1000 de ouro e {Energy Beam} por 1000 de ouro.",
    "n": 12,
    "npc": [
     "barnabas_dee",
@@ -2051,7 +2051,7 @@
    ]
   },
   "Would you like to learn {bruise bane} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {bruise bane} de graça?",
    "n": 11,
    "npc": [
     "asrak",
@@ -2064,7 +2064,7 @@
    ]
   },
   "Would you like to learn {lesser front sweep} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {lesser front sweep} de graça?",
    "n": 11,
    "npc": [
     "asrak",
@@ -2077,7 +2077,7 @@
    ]
   },
   "For level 35 I have {Divine Healing} for 3000 gold.": {
-   "pt": "",
+   "pt": "No nível 35 eu tenho {Divine Healing} por 3000 de ouro.",
    "n": 11,
    "npc": [
     "asrak",
@@ -2103,7 +2103,7 @@
    ]
   },
   "Would you like to learn {Avalanche} Rune spell for 1200 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Avalanche} por 1200 de ouro?",
    "n": 11,
    "npc": [
     "azalea",
@@ -2116,7 +2116,7 @@
    ]
   },
   "Would you like to learn {terra wave} magic spell for 2500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {terra wave} por 2500 de ouro?",
    "n": 11,
    "npc": [
     "azalea",
@@ -2155,7 +2155,7 @@
    ]
   },
   "For level 13 I have {Conjure Arrow} for 450 gold and {Great Light} for 500 gold.": {
-   "pt": "",
+   "pt": "No nível 13 eu tenho {Conjure Arrow} por 450 de ouro e {Great Light} por 500 de ouro.",
    "n": 10,
    "npc": [
     "asrak",
@@ -2168,7 +2168,7 @@
    ]
   },
   "For level 29 I have {Poison Wall} Rune for 1600 gold.": {
-   "pt": "",
+   "pt": "No nível 29 eu tenho a runa {Poison Wall} por 1600 de ouro.",
    "n": 10,
    "npc": [
     "azalea",
@@ -2181,7 +2181,7 @@
    ]
   },
   "For level 24 I have {Stalagmite} Rune for 1400 gold and {Ultimate Healing Rune} for 1500 gold.": {
-   "pt": "",
+   "pt": "No nível 24 eu tenho a runa {Stalagmite} por 1400 de ouro e {Ultimate Healing Rune} por 1500 de ouro.",
    "n": 10,
    "npc": [
     "azalea",
@@ -2194,7 +2194,7 @@
    ]
   },
   "For level 23 I have {Creature Illusion} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 23 eu tenho {Creature Illusion} por 1000 de ouro.",
    "n": 10,
    "npc": [
     "azalea",
@@ -2207,7 +2207,7 @@
    ]
   },
   "For level 45 I have {Sudden Death} Rune for 3000 gold.": {
-   "pt": "",
+   "pt": "No nível 45 eu tenho a runa {Sudden Death} por 3000 de ouro.",
    "n": 10,
    "npc": [
     "barnabas_dee",
@@ -2220,7 +2220,7 @@
    ]
   },
   "For level 30 I have {Great Fireball} Rune for 1200 gold and {Ultimate Healing} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 30 eu tenho a runa {Great Fireball} por 1200 de ouro e {Ultimate Healing} por 1000 de ouro.",
    "n": 10,
    "npc": [
     "barnabas_dee",
@@ -2233,7 +2233,7 @@
    ]
   },
   "For level 24 I have {Stalagmite} Rune for 1400 gold.": {
-   "pt": "",
+   "pt": "No nível 24 eu tenho a runa {Stalagmite} por 1400 de ouro.",
    "n": 10,
    "npc": [
     "barnabas_dee",
@@ -2246,7 +2246,7 @@
    ]
   },
   "For level 18 I have {Energy Field} Rune for 700 gold and {Fire Wave} for 850 gold.": {
-   "pt": "",
+   "pt": "No nível 18 eu tenho a runa {Energy Field} por 700 de ouro e {Fire Wave} por 850 de ouro.",
    "n": 10,
    "npc": [
     "barnabas_dee",
@@ -2259,7 +2259,7 @@
    ]
   },
   "For level 1 I have {Buzz} for free, {Magic Patch} for free and {Scorch} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Buzz} de graça, {Magic Patch} de graça e {Scorch} de graça.",
    "n": 10,
    "npc": [
     "barnabas_dee",
@@ -2298,7 +2298,7 @@
    ]
   },
   "For level 8 I have {Find Person} for 80 gold, {Light} for free and {Wound Cleansing} for free.": {
-   "pt": "",
+   "pt": "No nível 8 eu tenho {Find Person} por 80 de ouro, {Light} de graça e {Wound Cleansing} de graça.",
    "n": 10,
    "npc": [
     "duria",
@@ -2404,7 +2404,7 @@
    ]
   },
   "For level 25 I have {Conjure Explosive Arrow} for 1000 gold and {Find Fiend} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 25 eu tenho {Conjure Explosive Arrow} por 1000 de ouro e {Find Fiend} por 1000 de ouro.",
    "n": 9,
    "npc": [
     "asrak",
@@ -2417,7 +2417,7 @@
    ]
   },
   "For level 38 I have {Terra Wave} for 2500 gold.": {
-   "pt": "",
+   "pt": "No nível 38 eu tenho {Terra Wave} por 2500 de ouro.",
    "n": 9,
    "npc": [
     "azalea",
@@ -2430,7 +2430,7 @@
    ]
   },
   "For level 1 I have {Chill Out} for free, {Magic Patch} for free and {Mud Attack} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Chill Out} de graça, {Magic Patch} de graça e {Mud Attack} de graça.",
    "n": 9,
    "npc": [
     "azalea",
@@ -2443,7 +2443,7 @@
    ]
   },
   "Would you like to learn {death strike} magic spell for 800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {death strike} por 800 de ouro?",
    "n": 9,
    "npc": [
     "barnabas_dee",
@@ -2469,7 +2469,7 @@
    ]
   },
   "Would you like to learn {invisibility} magic spell for 2000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {invisibility} por 2000 de ouro?",
    "n": 9,
    "npc": [
     "chatterbone",
@@ -2495,7 +2495,7 @@
    ]
   },
   "For level 8 I have {Find Person} for 80 gold, {Light} for free and {Light Healing} for free.": {
-   "pt": "",
+   "pt": "No nível 8 eu tenho {Find Person} por 80 de ouro, {Light} de graça e {Light Healing} de graça.",
    "n": 9,
    "npc": [
     "dario",
@@ -2548,7 +2548,7 @@
    ]
   },
   "Would you like to learn {brutal strike} magic spell for 1000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {brutal strike} por 1000 de ouro?",
    "n": 9,
    "npc": [
     "graham",
@@ -2561,7 +2561,7 @@
    ]
   },
   "For level 1 I have {Bruise Bane} for free and {Lesser Front Sweep} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Bruise Bane} de graça e {Lesser Front Sweep} de graça.",
    "n": 9,
    "npc": [
     "graham",
@@ -2700,7 +2700,7 @@
    ]
   },
   "Would you like to learn {summon druid familiar} magic spell for 50000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {summon druid familiar} por 50000 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2713,7 +2713,7 @@
    ]
   },
   "Would you like to learn {nature's embrace} magic spell for 500000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {nature's embrace} por 500000 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2726,7 +2726,7 @@
    ]
   },
   "Would you like to learn {strong ice strike} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {strong ice strike} por 6000 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2739,7 +2739,7 @@
    ]
   },
   "Would you like to learn {strong ice wave} magic spell for 7500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {strong ice wave} por 7500 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2752,7 +2752,7 @@
    ]
   },
   "Would you like to learn {strong terra strike} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {strong terra strike} por 6000 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2765,7 +2765,7 @@
    ]
   },
   "Would you like to learn {cure burning} magic spell for 2000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {cure burning} por 2000 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2778,7 +2778,7 @@
    ]
   },
   "Would you like to learn {cure electrification} magic spell for 1000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {cure electrification} por 1000 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2791,7 +2791,7 @@
    ]
   },
   "Would you like to learn {Poison Bomb} Rune spell for 1000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Poison Bomb} por 1000 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2804,7 +2804,7 @@
    ]
   },
   "Would you like to learn {Stone Shower} Rune spell for 1100 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Stone Shower} por 1100 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2817,7 +2817,7 @@
    ]
   },
   "Would you like to learn {Icicle} Rune spell for 1700 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Icicle} por 1700 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2830,7 +2830,7 @@
    ]
   },
   "Would you like to learn {Paralyse} Rune spell for 1900 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Paralyse} por 1900 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2843,7 +2843,7 @@
    ]
   },
   "Would you like to learn {envenom} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {envenom} por 6000 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2856,7 +2856,7 @@
    ]
   },
   "Would you like to learn {heal friend} magic spell for 800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {heal friend} por 800 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2869,7 +2869,7 @@
    ]
   },
   "Would you like to learn {mass healing} magic spell for 2200 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {mass healing} por 2200 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2882,7 +2882,7 @@
    ]
   },
   "Would you like to learn {physical strike} magic spell for 800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {physical strike} por 800 de ouro?",
    "n": 8,
    "npc": [
     "azalea",
@@ -2908,7 +2908,7 @@
    ]
   },
   "For level 300 I have {Nature's Embrace} for 500000 gold and {Restoration} for 500000 gold.": {
-   "pt": "",
+   "pt": "No nível 300 eu tenho {Nature's Embrace} por 500000 de ouro e {Restoration} por 500000 de ouro.",
    "n": 8,
    "npc": [
     "azalea",
@@ -2921,7 +2921,7 @@
    ]
   },
   "For level 54 I have {Paralyse} Rune for 1900 gold.": {
-   "pt": "",
+   "pt": "No nível 54 eu tenho a runa {Paralyse} por 1900 de ouro.",
    "n": 8,
    "npc": [
     "azalea",
@@ -2934,7 +2934,7 @@
    ]
   },
   "For level 36 I have {Mass Healing} for 2200 gold.": {
-   "pt": "",
+   "pt": "No nível 36 eu tenho {Mass Healing} por 2200 de ouro.",
    "n": 8,
    "npc": [
     "azalea",
@@ -2947,7 +2947,7 @@
    ]
   },
   "For level 25 I have {Find Fiend} for 1000 gold, {Heavy Magic Missile} Rune for 1500 gold, {Poison Bomb} Rune for 1000 gold and {Summon Creature} for 2000 gold.": {
-   "pt": "",
+   "pt": "No nível 25 eu tenho a runa {Find Fiend} por 1000 de ouro, {Heavy Magic Missile} por 1500 de ouro, a runa {Poison Bomb} por 1000 de ouro e {Summon Creature} por 2000 de ouro.",
    "n": 8,
    "npc": [
     "azalea",
@@ -2960,7 +2960,7 @@
    ]
   },
   "For level 22 I have {Cure Electrification} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 22 eu tenho {Cure Electrification} por 1000 de ouro.",
    "n": 8,
    "npc": [
     "azalea",
@@ -2973,7 +2973,7 @@
    ]
   },
   "For level 15 I have {Cure Poison Rune} for 600 gold, {Fire Field} Rune for 500 gold, {Ice Strike} for 800 gold, {Intense Healing Rune} for 600 gold and {Light Magic Missile} Rune for 500 gold.": {
-   "pt": "",
+   "pt": "No nível 15 eu tenho a runa {Cure Poison Rune} por 600 de ouro, {Fire Field} por 500 de ouro, a runa {Ice Strike} por 800 de ouro, {Intense Healing Rune} por 600 de ouro e {Light Magic Missile} por 500 de ouro.",
    "n": 8,
    "npc": [
     "azalea",
@@ -2986,7 +2986,7 @@
    ]
   },
   "Would you like to learn {summon sorcerer familiar} magic spell for 50000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {summon sorcerer familiar} por 50000 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -2999,7 +2999,7 @@
    ]
   },
   "Would you like to learn {expose weakness} magic spell for 400000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {expose weakness} por 400000 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3012,7 +3012,7 @@
    ]
   },
   "Would you like to learn {sap strength} magic spell for 200000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {sap strength} por 200000 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3025,7 +3025,7 @@
    ]
   },
   "Would you like to learn {strong energy strike} magic spell for 7500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {strong energy strike} por 7500 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3038,7 +3038,7 @@
    ]
   },
   "Would you like to learn {strong flame strike} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {strong flame strike} por 6000 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3051,7 +3051,7 @@
    ]
   },
   "Would you like to learn {great fire wave} magic spell for 25000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {great fire wave} por 25000 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3064,7 +3064,7 @@
    ]
   },
   "Would you like to learn {Magic Wall} Rune spell for 2100 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Magic Wall} por 2100 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3077,7 +3077,7 @@
    ]
   },
   "Would you like to learn {Energy Bomb} Rune spell for 2300 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Energy Bomb} por 2300 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3090,7 +3090,7 @@
    ]
   },
   "Would you like to learn {Fireball} Rune spell for 1600 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Fireball} por 1600 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3103,7 +3103,7 @@
    ]
   },
   "Would you like to learn {Thunderstorm} Rune spell for 1100 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Thunderstorm} por 1100 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3116,7 +3116,7 @@
    ]
   },
   "Would you like to learn {curse} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {curse} por 6000 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3129,7 +3129,7 @@
    ]
   },
   "Would you like to learn {electrify} magic spell for 2500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {electrify} por 2500 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3142,7 +3142,7 @@
    ]
   },
   "Would you like to learn {ignite} magic spell for 1500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {ignite} por 1500 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3155,7 +3155,7 @@
    ]
   },
   "Would you like to learn {lightning} magic spell for 5000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {lightning} por 5000 de ouro?",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3168,7 +3168,7 @@
    ]
   },
   "For level 275 I have {Expose Weakness} for 400000 gold.": {
-   "pt": "",
+   "pt": "No nível 275 eu tenho {Expose Weakness} por 400000 de ouro.",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3181,7 +3181,7 @@
    ]
   },
   "For level 175 I have {Sap Strength} for 200000 gold.": {
-   "pt": "",
+   "pt": "No nível 175 eu tenho {Sap Strength} por 200000 de ouro.",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3194,7 +3194,7 @@
    ]
   },
   "For level 75 I have {Curse} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 75 eu tenho {Curse} por 6000 de ouro.",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3207,7 +3207,7 @@
    ]
   },
   "For level 55 I have {Lightning} for 5000 gold.": {
-   "pt": "",
+   "pt": "No nível 55 eu tenho {Lightning} por 5000 de ouro.",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3220,7 +3220,7 @@
    ]
   },
   "For level 37 I have {Energy Bomb} Rune for 2300 gold.": {
-   "pt": "",
+   "pt": "No nível 37 eu tenho a runa {Energy Bomb} por 2300 de ouro.",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3233,7 +3233,7 @@
    ]
   },
   "For level 34 I have {Electrify} for 2500 gold.": {
-   "pt": "",
+   "pt": "No nível 34 eu tenho {Electrify} por 2500 de ouro.",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3246,7 +3246,7 @@
    ]
   },
   "For level 32 I have {Magic Wall} Rune for 2100 gold.": {
-   "pt": "",
+   "pt": "No nível 32 eu tenho a runa {Magic Wall} por 2100 de ouro.",
    "n": 8,
    "npc": [
     "barnabas_dee",
@@ -3316,7 +3316,7 @@
    ]
   },
   "For level 35 I have {Invisibility} for 2000 gold.": {
-   "pt": "",
+   "pt": "No nível 35 eu tenho {Invisibility} por 2000 de ouro.",
    "n": 8,
    "npc": [
     "chatterbone",
@@ -3364,7 +3364,7 @@
    ]
   },
   "Would you like to learn {summon paladin familiar} magic spell for 50000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {summon paladin familiar} por 50000 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3377,7 +3377,7 @@
    ]
   },
   "Would you like to learn {strong ethereal spear} magic spell for 10000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {strong ethereal spear} por 10000 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3390,7 +3390,7 @@
    ]
   },
   "Would you like to learn {divine caldera} magic spell for 3000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {divine caldera} por 3000 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3403,7 +3403,7 @@
    ]
   },
   "Would you like to learn {divine missile} magic spell for 1800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {divine missile} por 1800 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3416,7 +3416,7 @@
    ]
   },
   "Would you like to learn {ethereal spear} magic spell for 1100 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {ethereal spear} por 1100 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3429,7 +3429,7 @@
    ]
   },
   "Would you like to learn {holy flash} magic spell for 7500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {holy flash} por 7500 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3442,7 +3442,7 @@
    ]
   },
   "Would you like to learn {salvation} magic spell for 8000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {salvation} por 8000 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3455,7 +3455,7 @@
    ]
   },
   "Would you like to learn {swift foot} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {swift foot} por 6000 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3468,7 +3468,7 @@
    ]
   },
   "Would you like to learn {cancel invisibility} magic spell for 1600 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {cancel invisibility} por 1600 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3481,7 +3481,7 @@
    ]
   },
   "Would you like to learn {cure curse} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {cure curse} por 6000 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3494,7 +3494,7 @@
    ]
   },
   "Would you like to learn {enchant spear} magic spell for 2000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {enchant spear} por 2000 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3507,7 +3507,7 @@
    ]
   },
   "Would you like to learn {Holy Missile} Rune spell for 1600 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Holy Missile} por 1600 de ouro?",
    "n": 8,
    "npc": [
     "dario",
@@ -3533,7 +3533,7 @@
    ]
   },
   "For level 60 I have {Salvation} for 8000 gold.": {
-   "pt": "",
+   "pt": "No nível 60 eu tenho {Salvation} por 8000 de ouro.",
    "n": 8,
    "npc": [
     "dario",
@@ -3546,7 +3546,7 @@
    ]
   },
   "For level 26 I have {Cancel Invisibility} for 1600 gold.": {
-   "pt": "",
+   "pt": "No nível 26 eu tenho {Cancel Invisibility} por 1600 de ouro.",
    "n": 8,
    "npc": [
     "dario",
@@ -3559,7 +3559,7 @@
    ]
   },
   "For level 23 I have {Ethereal Spear} for 1100 gold.": {
-   "pt": "",
+   "pt": "No nível 23 eu tenho {Ethereal Spear} por 1100 de ouro.",
    "n": 8,
    "npc": [
     "dario",
@@ -3598,7 +3598,7 @@
    ]
   },
   "Would you like to learn {summon knight familiar} magic spell for 50000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {summon knight familiar} por 50000 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3611,7 +3611,7 @@
    ]
   },
   "Would you like to learn {chivalrous challenge} magic spell for 250000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {chivalrous challenge} por 250000 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3624,7 +3624,7 @@
    ]
   },
   "Would you like to learn {fair wound cleansing} magic spell for 500000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {fair wound cleansing} por 500000 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3637,7 +3637,7 @@
    ]
   },
   "Would you like to learn {fierce berserk} magic spell for 7500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {fierce berserk} por 7500 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3650,7 +3650,7 @@
    ]
   },
   "Would you like to learn {intense wound cleansing} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {intense wound cleansing} por 6000 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3663,7 +3663,7 @@
    ]
   },
   "Would you like to learn {front sweep} magic spell for 4000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {front sweep} por 4000 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3676,7 +3676,7 @@
    ]
   },
   "Would you like to learn {groundshaker} magic spell for 1500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {groundshaker} por 1500 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3689,7 +3689,7 @@
    ]
   },
   "Would you like to learn {inflict wound} magic spell for 2500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {inflict wound} por 2500 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3702,7 +3702,7 @@
    ]
   },
   "Would you like to learn {whirlwind throw} magic spell for 1500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {whirlwind throw} por 1500 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3715,7 +3715,7 @@
    ]
   },
   "Would you like to learn {annihilation} magic spell for 20000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {annihilation} por 20000 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3728,7 +3728,7 @@
    ]
   },
   "Would you like to learn {berserk} magic spell for 2500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {berserk} por 2500 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3741,7 +3741,7 @@
    ]
   },
   "Would you like to learn {charge} magic spell for 1300 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {charge} por 1300 de ouro?",
    "n": 8,
    "npc": [
     "graham",
@@ -3754,7 +3754,7 @@
    ]
   },
   "For level 300 I have {Fair Wound Cleansing} for 500000 gold.": {
-   "pt": "",
+   "pt": "No nível 300 eu tenho {Fair Wound Cleansing} por 500000 de ouro.",
    "n": 8,
    "npc": [
     "graham",
@@ -3767,7 +3767,7 @@
    ]
   },
   "For level 150 I have {Chivalrous Challenge} for 250000 gold.": {
-   "pt": "",
+   "pt": "No nível 150 eu tenho {Chivalrous Challenge} por 250000 de ouro.",
    "n": 8,
    "npc": [
     "graham",
@@ -3780,7 +3780,7 @@
    ]
   },
   "For level 110 I have {Annihilation} for 20000 gold.": {
-   "pt": "",
+   "pt": "No nível 110 eu tenho {Annihilation} por 20000 de ouro.",
    "n": 8,
    "npc": [
     "graham",
@@ -3793,7 +3793,7 @@
    ]
   },
   "For level 33 I have {Groundshaker} for 1500 gold.": {
-   "pt": "",
+   "pt": "No nível 33 eu tenho {Groundshaker} por 1500 de ouro.",
    "n": 8,
    "npc": [
     "graham",
@@ -3806,7 +3806,7 @@
    ]
   },
   "For level 28 I have {Whirlwind Throw} for 1500 gold.": {
-   "pt": "",
+   "pt": "No nível 28 eu tenho {Whirlwind Throw} por 1500 de ouro.",
    "n": 8,
    "npc": [
     "graham",
@@ -3819,7 +3819,7 @@
    ]
   },
   "For level 16 I have {Brutal Strike} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 16 eu tenho {Brutal Strike} por 1000 de ouro.",
    "n": 8,
    "npc": [
     "graham",
@@ -3907,7 +3907,7 @@
    ]
   },
   "For level 50 I have {Envenom} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 50 eu tenho {Envenom} por 6000 de ouro.",
    "n": 7,
    "npc": [
     "azalea",
@@ -3920,7 +3920,7 @@
    ]
   },
   "For level 40 I have {Strong Ice Wave} for 7500 gold.": {
-   "pt": "",
+   "pt": "No nível 40 eu tenho {Strong Ice Wave} por 7500 de ouro.",
    "n": 7,
    "npc": [
     "azalea",
@@ -3933,7 +3933,7 @@
    ]
   },
   "For level 14 I have {Cancel Magic Shield} for 450 gold, {Flame Strike} for 800 gold, {Food} for 300 gold, {Haste} for 600 gold, {Magic Shield} for 450 gold and {Poison Field} Rune for 300 gold.": {
-   "pt": "",
+   "pt": "No nível 14 eu tenho a runa {Cancel Magic Shield} por 450 de ouro, {Flame Strike} por 800 de ouro, {Food} por 300 de ouro, {Haste} por 600 de ouro, {Magic Shield} por 450 de ouro e {Poison Field} por 300 de ouro.",
    "n": 7,
    "npc": [
     "azalea",
@@ -3946,7 +3946,7 @@
    ]
   },
   "For level 26 I have {Ignite} for 1500 gold and {Ultimate Light} for 1600 gold.": {
-   "pt": "",
+   "pt": "No nível 26 eu tenho {Ignite} por 1500 de ouro e {Ultimate Light} por 1600 de ouro.",
    "n": 7,
    "npc": [
     "barnabas_dee",
@@ -4034,7 +4034,7 @@
    ]
   },
   "For level 200 I have {Summon Paladin Familiar} for 50000 gold.": {
-   "pt": "",
+   "pt": "No nível 200 eu tenho {Summon Paladin Familiar} por 50000 de ouro.",
    "n": 7,
    "npc": [
     "dario",
@@ -4047,7 +4047,7 @@
    ]
   },
   "For level 80 I have {Cure Curse} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 80 eu tenho {Cure Curse} por 6000 de ouro.",
    "n": 7,
    "npc": [
     "dario",
@@ -4060,7 +4060,7 @@
    ]
   },
   "For level 55 I have {Swift Foot} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 55 eu tenho {Swift Foot} por 6000 de ouro.",
    "n": 7,
    "npc": [
     "dario",
@@ -4073,7 +4073,7 @@
    ]
   },
   "For level 50 I have {Divine Caldera} for 3000 gold and {Recovery} for 4000 gold.": {
-   "pt": "",
+   "pt": "No nível 50 eu tenho {Divine Caldera} por 3000 de ouro e {Recovery} por 4000 de ouro.",
    "n": 7,
    "npc": [
     "dario",
@@ -4086,7 +4086,7 @@
    ]
   },
   "For level 45 I have {Enchant Spear} for 2000 gold.": {
-   "pt": "",
+   "pt": "No nível 45 eu tenho {Enchant Spear} por 2000 de ouro.",
    "n": 7,
    "npc": [
     "dario",
@@ -4099,7 +4099,7 @@
    ]
   },
   "For level 27 I have {Holy Missile} Rune for 1600 gold.": {
-   "pt": "",
+   "pt": "No nível 27 eu tenho a runa {Holy Missile} por 1600 de ouro.",
    "n": 7,
    "npc": [
     "dario",
@@ -4165,7 +4165,7 @@
    ]
   },
   "For level 200 I have {Summon Knight Familiar} for 50000 gold.": {
-   "pt": "",
+   "pt": "No nível 200 eu tenho {Summon Knight Familiar} por 50000 de ouro.",
    "n": 7,
    "npc": [
     "graham",
@@ -4178,7 +4178,7 @@
    ]
   },
   "For level 90 I have {Fierce Berserk} for 7500 gold.": {
-   "pt": "",
+   "pt": "No nível 90 eu tenho {Fierce Berserk} por 7500 de ouro.",
    "n": 7,
    "npc": [
     "graham",
@@ -4191,7 +4191,7 @@
    ]
   },
   "For level 80 I have {Intense Wound Cleansing} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 80 eu tenho {Intense Wound Cleansing} por 6000 de ouro.",
    "n": 7,
    "npc": [
     "graham",
@@ -4204,7 +4204,7 @@
    ]
   },
   "For level 70 I have {Front Sweep} for 4000 gold.": {
-   "pt": "",
+   "pt": "No nível 70 eu tenho {Front Sweep} por 4000 de ouro.",
    "n": 7,
    "npc": [
     "graham",
@@ -4217,7 +4217,7 @@
    ]
   },
   "For level 50 I have {Recovery} for 4000 gold.": {
-   "pt": "",
+   "pt": "No nível 50 eu tenho {Recovery} por 4000 de ouro.",
    "n": 7,
    "npc": [
     "graham",
@@ -4230,7 +4230,7 @@
    ]
   },
   "For level 40 I have {Inflict Wound} for 2500 gold.": {
-   "pt": "",
+   "pt": "No nível 40 eu tenho {Inflict Wound} por 2500 de ouro.",
    "n": 7,
    "npc": [
     "graham",
@@ -4243,7 +4243,7 @@
    ]
   },
   "For level 35 I have {Berserk} for 2500 gold.": {
-   "pt": "",
+   "pt": "No nível 35 eu tenho {Berserk} por 2500 de ouro.",
    "n": 7,
    "npc": [
     "graham",
@@ -4256,7 +4256,7 @@
    ]
   },
   "For level 25 I have {Charge} for 1300 gold and {Find Fiend} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 25 eu tenho {Charge} por 1300 de ouro e {Find Fiend} por 1000 de ouro.",
    "n": 7,
    "npc": [
     "graham",
@@ -4402,7 +4402,7 @@
    ]
   },
   "For level 200 I have {Summon Druid Familiar} for 50000 gold.": {
-   "pt": "",
+   "pt": "No nível 200 eu tenho {Summon Druid Familiar} por 50000 de ouro.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4414,7 +4414,7 @@
    ]
   },
   "For level 80 I have {Strong Ice Strike} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 80 eu tenho {Strong Ice Strike} por 6000 de ouro.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4426,7 +4426,7 @@
    ]
   },
   "For level 70 I have {Strong Terra Strike} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 70 eu tenho {Strong Terra Strike} por 6000 de ouro.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4438,7 +4438,7 @@
    ]
   },
   "For level 30 I have {Avalanche} Rune for 1200 gold, {Cure Burning} for 2000 gold and {Ultimate Healing} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 30 eu tenho a runa {Avalanche} por 1200 de ouro, {Cure Burning} por 2000 de ouro e {Ultimate Healing} por 1000 de ouro.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4450,7 +4450,7 @@
    ]
   },
   "For level 28 I have {Icicle} Rune for 1700 gold and {Stone Shower} Rune for 1100 gold.": {
-   "pt": "",
+   "pt": "No nível 28 eu tenho a runa {Icicle} por 1700 de ouro e a runa {Stone Shower} por 1100 de ouro.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4462,7 +4462,7 @@
    ]
   },
   "For level 27 I have {Animate Dead} for 1200 gold, {Chameleon} Rune for 1300 gold, {Fire Bomb} Rune for 1500 gold and {Soulfire} Rune for 1800 gold.": {
-   "pt": "",
+   "pt": "No nível 27 eu tenho a runa {Animate Dead} por 1200 de ouro, {Chameleon} por 1300 de ouro, a runa {Fire Bomb} por 1500 de ouro e a runa {Soulfire} por 1800 de ouro.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4474,7 +4474,7 @@
    ]
   },
   "For level 26 I have {Ultimate Light} for 1600 gold.": {
-   "pt": "",
+   "pt": "No nível 26 eu tenho {Ultimate Light} por 1600 de ouro.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4486,7 +4486,7 @@
    ]
   },
   "For level 18 I have {Energy Field} Rune for 700 gold, {Heal Friend} for 800 gold and {Ice Wave} for 850 gold.": {
-   "pt": "",
+   "pt": "No nível 18 eu tenho a runa {Energy Field} por 700 de ouro, {Heal Friend} por 800 de ouro e {Ice Wave} por 850 de ouro.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4498,7 +4498,7 @@
    ]
   },
   "For level 16 I have {Convince Creature} for 800 gold and {Physical Strike} for 800 gold.": {
-   "pt": "",
+   "pt": "No nível 16 eu tenho {Convince Creature} por 800 de ouro e {Physical Strike} por 800 de ouro.",
    "n": 6,
    "npc": [
     "azalea",
@@ -4570,7 +4570,7 @@
    ]
   },
   "For level 300 I have {Restoration} for 500000 gold.": {
-   "pt": "",
+   "pt": "No nível 300 eu tenho {Restoration} por 500000 de ouro.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4582,7 +4582,7 @@
    ]
   },
   "For level 200 I have {Summon Sorcerer Familiar} for 50000 gold.": {
-   "pt": "",
+   "pt": "No nível 200 eu tenho {Summon Sorcerer Familiar} por 50000 de ouro.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4594,7 +4594,7 @@
    ]
   },
   "For level 80 I have {Strong Energy Strike} for 7500 gold.": {
-   "pt": "",
+   "pt": "No nível 80 eu tenho {Strong Energy Strike} por 7500 de ouro.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4606,7 +4606,7 @@
    ]
   },
   "For level 70 I have {Strong Flame Strike} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 70 eu tenho {Strong Flame Strike} por 6000 de ouro.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4618,7 +4618,7 @@
    ]
   },
   "For level 38 I have {Energy Wave} for 2500 gold and {Great Fire Wave} for 25000 gold.": {
-   "pt": "",
+   "pt": "No nível 38 eu tenho {Energy Wave} por 2500 de ouro e {Great Fire Wave} por 25000 de ouro.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4630,7 +4630,7 @@
    ]
   },
   "For level 28 I have {Thunderstorm} Rune for 1100 gold.": {
-   "pt": "",
+   "pt": "No nível 28 eu tenho a runa {Thunderstorm} por 1100 de ouro.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4642,7 +4642,7 @@
    ]
   },
   "For level 27 I have {Animate Dead} for 1200 gold, {Fire Bomb} Rune for 1500 gold, {Fireball} Rune for 1600 gold and {Soulfire} Rune for 1800 gold.": {
-   "pt": "",
+   "pt": "No nível 27 eu tenho a runa {Animate Dead} por 1200 de ouro, {Fire Bomb} por 1500 de ouro, a runa {Fireball} por 1600 de ouro e a runa {Soulfire} por 1800 de ouro.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4654,7 +4654,7 @@
    ]
   },
   "For level 16 I have {Death Strike} for 800 gold.": {
-   "pt": "",
+   "pt": "No nível 16 eu tenho {Death Strike} por 800 de ouro.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4666,7 +4666,7 @@
    ]
   },
   "For level 15 I have {Fire Field} Rune for 500 gold, {Ice Strike} for 800 gold and {Light Magic Missile} Rune for 500 gold.": {
-   "pt": "",
+   "pt": "No nível 15 eu tenho a runa {Fire Field} por 500 de ouro, a runa {Ice Strike} por 800 de ouro e {Light Magic Missile} por 500 de ouro.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4678,7 +4678,7 @@
    ]
   },
   "For level 14 I have {Cancel Magic Shield} for 450 gold, {Flame Strike} for 800 gold, {Haste} for 600 gold, {Magic Shield} for 450 gold and {Poison Field} Rune for 300 gold.": {
-   "pt": "",
+   "pt": "No nível 14 eu tenho a runa {Cancel Magic Shield} por 450 de ouro, {Flame Strike} por 800 de ouro, {Haste} por 600 de ouro, {Magic Shield} por 450 de ouro e {Poison Field} por 300 de ouro.",
    "n": 6,
    "npc": [
     "barnabas_dee",
@@ -4798,7 +4798,7 @@
    ]
   },
   "For level 90 I have {Strong Ethereal Spear} for 10000 gold.": {
-   "pt": "",
+   "pt": "No nível 90 eu tenho {Strong Ethereal Spear} por 10000 de ouro.",
    "n": 6,
    "npc": [
     "dario",
@@ -4810,7 +4810,7 @@
    ]
   },
   "For level 70 I have {Holy Flash} for 7500 gold.": {
-   "pt": "",
+   "pt": "No nível 70 eu tenho {Holy Flash} por 7500 de ouro.",
    "n": 6,
    "npc": [
     "dario",
@@ -4822,7 +4822,7 @@
    ]
   },
   "For level 40 I have {Divine Missile} for 1800 gold.": {
-   "pt": "",
+   "pt": "No nível 40 eu tenho {Divine Missile} por 1800 de ouro.",
    "n": 6,
    "npc": [
     "dario",
@@ -4834,7 +4834,7 @@
    ]
   },
   "For level 1 I have {Arrow Call} for free and {Magic Patch} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Arrow Call} de graça e {Magic Patch} de graça.",
    "n": 6,
    "npc": [
     "dario",
@@ -5113,7 +5113,7 @@
    ]
   },
   "Would you like to learn {lesser ethereal spear} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {lesser ethereal spear} de graça?",
    "n": 5,
    "npc": [
     "asrak",
@@ -5217,7 +5217,7 @@
    ]
   },
   "For level 14 I have {Magic Shield} for 450 gold and {Poison Field} Rune for 300 gold.": {
-   "pt": "",
+   "pt": "No nível 14 eu tenho a runa {Magic Shield} por 450 de ouro e {Poison Field} por 300 de ouro.",
    "n": 5,
    "npc": [
     "chatterbone",
@@ -5590,7 +5590,7 @@
    ]
   },
   "Would you like to learn {explosion} magic spell for 1800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {explosion} por 1800 de ouro?",
    "n": 4,
    "npc": [
     "chatterbone",
@@ -5640,7 +5640,7 @@
    ]
   },
   "For level 38 I have {Energy Wave} for 2500 gold.": {
-   "pt": "",
+   "pt": "No nível 38 eu tenho {Energy Wave} por 2500 de ouro.",
    "n": 4,
    "npc": [
     "chatterbone",
@@ -5650,7 +5650,7 @@
    ]
   },
   "For level 31 I have {Explosion} for 1800 gold.": {
-   "pt": "",
+   "pt": "No nível 31 eu tenho {Explosion} por 1800 de ouro.",
    "n": 4,
    "npc": [
     "chatterbone",
@@ -5660,7 +5660,7 @@
    ]
   },
   "For level 27 I have {Fire Bomb} Rune for 1500 gold.": {
-   "pt": "",
+   "pt": "No nível 27 eu tenho a runa {Fire Bomb} por 1500 de ouro.",
    "n": 4,
    "npc": [
     "chatterbone",
@@ -5670,7 +5670,7 @@
    ]
   },
   "For level 15 I have {Fire Field} Rune for 500 gold and {Light Magic Missile} Rune for 500 gold.": {
-   "pt": "",
+   "pt": "No nível 15 eu tenho a runa {Fire Field} por 500 de ouro e a runa {Light Magic Missile} por 500 de ouro.",
    "n": 4,
    "npc": [
     "chatterbone",
@@ -5779,7 +5779,7 @@
    ]
   },
   "For level 25 I have {Find Fiend} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 25 eu tenho {Find Fiend} por 1000 de ouro.",
    "n": 4,
    "npc": [
     "enpa_rudra",
@@ -5789,7 +5789,7 @@
    ]
   },
   "For level 27 I have {Chameleon} Rune for 1300 gold and {Fire Bomb} Rune for 1500 gold.": {
-   "pt": "",
+   "pt": "No nível 27 eu tenho a runa {Chameleon} por 1300 de ouro e a runa {Fire Bomb} por 1500 de ouro.",
    "n": 4,
    "npc": [
     "eroth",
@@ -5799,7 +5799,7 @@
    ]
   },
   "For level 16 I have {Convince Creature} for 800 gold.": {
-   "pt": "",
+   "pt": "No nível 16 eu tenho {Convince Creature} por 800 de ouro.",
    "n": 4,
    "npc": [
     "eroth",
@@ -6543,7 +6543,7 @@
    ]
   },
   "For level 1 I have {Arrow Call} for free, {Lesser Ethereal Spear} for free and {Magic Patch} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Arrow Call} de graça, {Lesser Ethereal Spear} de graça e {Magic Patch} de graça.",
    "n": 3,
    "npc": [
     "elane",
@@ -7075,7 +7075,7 @@
    ]
   },
   "For level 30 I have {Avalanche} Rune for 1200 gold and {Ultimate Healing} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 30 eu tenho a runa {Avalanche} por 1200 de ouro e {Ultimate Healing} por 1000 de ouro.",
    "n": 3,
    "npc": [
     "marvik",
@@ -7084,7 +7084,7 @@
    ]
   },
   "For level 18 I have {Energy Field} Rune for 700 gold and {Ice Wave} for 850 gold.": {
-   "pt": "",
+   "pt": "No nível 18 eu tenho a runa {Energy Field} por 700 de ouro e {Ice Wave} por 850 de ouro.",
    "n": 3,
    "npc": [
     "marvik",
@@ -7093,7 +7093,7 @@
    ]
   },
   "For level 15 I have {Cure Poison Rune} for 600 gold, {Fire Field} Rune for 500 gold, {Intense Healing Rune} for 600 gold and {Light Magic Missile} Rune for 500 gold.": {
-   "pt": "",
+   "pt": "No nível 15 eu tenho a runa {Cure Poison Rune} por 600 de ouro, {Fire Field} por 500 de ouro, a runa {Intense Healing Rune} por 600 de ouro e {Light Magic Missile} por 500 de ouro.",
    "n": 3,
    "npc": [
     "marvik",
@@ -7102,7 +7102,7 @@
    ]
   },
   "For level 14 I have {Food} for 300 gold, {Magic Shield} for 450 gold and {Poison Field} Rune for 300 gold.": {
-   "pt": "",
+   "pt": "No nível 14 eu tenho a runa {Food} por 300 de ouro, {Magic Shield} por 450 de ouro e {Poison Field} por 300 de ouro.",
    "n": 3,
    "npc": [
     "marvik",
@@ -8578,7 +8578,7 @@
    ]
   },
   "For level 8 I have {Find Person} for 80 gold, {Light} for free, {Light Healing} for free and {Wound Cleansing} for free.": {
-   "pt": "",
+   "pt": "No nível 8 eu tenho {Find Person} por 80 de ouro, {Light} de graça, {Light Healing} de graça e {Wound Cleansing} de graça.",
    "n": 2,
    "npc": [
     "asrak",
@@ -10105,7 +10105,7 @@
    ]
   },
   "For level 45 I have {Cure Bleeding} for 2500 gold and {Sudden Death} Rune for 3000 gold.": {
-   "pt": "",
+   "pt": "No nível 45 eu tenho a runa {Cure Bleeding} por 2500 de ouro e {Sudden Death} por 3000 de ouro.",
    "n": 2,
    "npc": [
     "gundralph",
@@ -10113,7 +10113,7 @@
    ]
   },
   "For level 38 I have {Energy Wave} for 2500 gold, {Great Fire Wave} for 25000 gold and {Terra Wave} for 2500 gold.": {
-   "pt": "",
+   "pt": "No nível 38 eu tenho {Energy Wave} por 2500 de ouro, {Great Fire Wave} por 25000 de ouro e {Terra Wave} por 2500 de ouro.",
    "n": 2,
    "npc": [
     "gundralph",
@@ -10121,7 +10121,7 @@
    ]
   },
   "For level 27 I have {Animate Dead} for 1200 gold, {Chameleon} Rune for 1300 gold, {Fire Bomb} Rune for 1500 gold, {Fireball} Rune for 1600 gold and {Soulfire} Rune for 1800 gold.": {
-   "pt": "",
+   "pt": "No nível 27 eu tenho a runa {Animate Dead} por 1200 de ouro, {Chameleon} por 1300 de ouro, a runa {Fire Bomb} por 1500 de ouro, a runa {Fireball} por 1600 de ouro e a runa {Soulfire} por 1800 de ouro.",
    "n": 2,
    "npc": [
     "gundralph",
@@ -10137,7 +10137,7 @@
    ]
   },
   "For level 1 I have {Buzz} for free, {Chill Out} for free, {Magic Patch} for free, {Mud Attack} for free and {Scorch} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Buzz} de graça, {Chill Out} de graça, {Magic Patch} de graça, {Mud Attack} de graça e {Scorch} de graça.",
    "n": 2,
    "npc": [
     "gundralph",
@@ -16224,7 +16224,7 @@
    ]
   },
   "For level 1 I have {Arrow Call} for free, {Bruise Bane} for free, {Lesser Ethereal Spear} for free, {Lesser Front Sweep} for free and {Magic Patch} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Arrow Call} de graça, {Bruise Bane} de graça, {Lesser Ethereal Spear} de graça, {Lesser Front Sweep} de graça e {Magic Patch} de graça.",
    "n": 1,
    "npc": [
     "asrak"
@@ -24596,28 +24596,28 @@
    ]
   },
   "Would you like to learn {enchant party} magic spell for 4000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {enchant party} por 4000 de ouro?",
    "n": 1,
    "npc": [
     "eliza"
    ]
   },
   "Would you like to learn {heal party} magic spell for 4000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {heal party} por 4000 de ouro?",
    "n": 1,
    "npc": [
     "eliza"
    ]
   },
   "Would you like to learn {protect party} magic spell for 4000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {protect party} por 4000 de ouro?",
    "n": 1,
    "npc": [
     "eliza"
    ]
   },
   "Would you like to learn {train party} magic spell for 4000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {train party} por 4000 de ouro?",
    "n": 1,
    "npc": [
     "eliza"
@@ -24645,7 +24645,7 @@
    ]
   },
   "For level 32 I have {Enchant Party} for 4000 gold, {Heal Party} for 4000 gold, {Protect Party} for 4000 gold and {Train Party} for 4000 gold.": {
-   "pt": "",
+   "pt": "No nível 32 eu tenho {Enchant Party} por 4000 de ouro, {Heal Party} por 4000 de ouro, {Protect Party} por 4000 de ouro e {Train Party} por 4000 de ouro.",
    "n": 1,
    "npc": [
     "eliza"
@@ -25156,77 +25156,77 @@
    ]
   },
   "Would you like to learn {greater tiger clash} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {greater tiger clash} por 6000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {greater flurry of blows} magic spell for 11000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {greater flurry of blows} por 11000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {sweeping takedown} magic spell for 8000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {sweeping takedown} por 8000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {chained penance} magic spell for 8000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {chained penance} por 8000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {mass spirit mend} magic spell for 20000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {mass spirit mend} por 20000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {flurry of blows} magic spell for 1500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {flurry of blows} por 1500 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {devastating knockout} magic spell for 20000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {devastating knockout} por 20000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {spirit mend} magic spell for 9000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {spirit mend} por 9000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {focus serenity} magic spell for 125000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {focus serenity} por 125000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {mentor other} magic spell for 175000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {mentor other} por 175000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {balanced brawl} magic spell for 250000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {balanced brawl} por 250000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
@@ -25240,56 +25240,56 @@
    ]
   },
   "Would you like to learn {restore balance} magic spell for 800 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {restore balance} por 800 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {enlighten party} magic spell for 4000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {enlighten party} por 4000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {double jab} magic spell for 1000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {double jab} por 1000 de ouro?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {tiger clash} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {tiger clash} de graça?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {swift jab} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {swift jab} de graça?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {virtue of harmony} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {virtue of harmony} de graça?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {virtue of justice} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {virtue of justice} de graça?",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "Would you like to learn {virtue of sustain} magic spell for free?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {virtue of sustain} de graça?",
    "n": 1,
    "npc": [
     "enpa_rudra"
@@ -25324,98 +25324,98 @@
    ]
   },
   "For level 200 I have Summon {Monk Familiar} for 50000 gold.": {
-   "pt": "",
+   "pt": "No nível 200 eu tenho Summon {Monk Familiar} por 50000 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 175 I have {Balanced Brawl} for 250000 gold.": {
-   "pt": "",
+   "pt": "No nível 175 eu tenho {Balanced Brawl} por 250000 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 150 I have {Focus Serenity} for 125000 gold, {Mass Spirit Mend} for 20000 gold and {Mentor Other} for 175000 gold.": {
-   "pt": "",
+   "pt": "No nível 150 eu tenho {Focus Serenity} por 125000 de ouro, {Mass Spirit Mend} por 20000 de ouro e {Mentor Other} por 175000 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 125 I have {Devastating Knockout} for 20000 gold.": {
-   "pt": "",
+   "pt": "No nível 125 eu tenho {Devastating Knockout} por 20000 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 90 I have {Greater Flurry of Blows} for 11000 gold.": {
-   "pt": "",
+   "pt": "No nível 90 eu tenho {Greater Flurry of Blows} por 11000 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 80 I have {Spirit Mend} for 9000 gold.": {
-   "pt": "",
+   "pt": "No nível 80 eu tenho {Spirit Mend} por 9000 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 70 I have {Chained Penance} for 8000 gold.": {
-   "pt": "",
+   "pt": "No nível 70 eu tenho {Chained Penance} por 8000 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 60 I have {Sweeping Takedown} for 8000 gold.": {
-   "pt": "",
+   "pt": "No nível 60 eu tenho {Sweeping Takedown} por 8000 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 35 I have {Flurry of Blows} for 1500 gold.": {
-   "pt": "",
+   "pt": "No nível 35 eu tenho {Flurry of Blows} por 1500 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 32 I have {Enlighten Party} for 4000 gold.": {
-   "pt": "",
+   "pt": "No nível 32 eu tenho {Enlighten Party} por 4000 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 20 I have {Intense Healing} for 350 gold, {Strong Haste} for 1300 gold, {Virtue of Harmony} for free, {Virtue of Justice} for free and {Virtue of Sustain} for free.": {
-   "pt": "",
+   "pt": "No nível 20 eu tenho {Intense Healing} por 350 de ouro, {Strong Haste} por 1300 de ouro, {Virtue of Harmony} de graça, {Virtue of Justice} de graça e {Virtue of Sustain} de graça.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 18 I have {Greater Tiger Clash} for 6000 gold and {Restore Balance} for 800 gold.": {
-   "pt": "",
+   "pt": "No nível 18 eu tenho {Greater Tiger Clash} por 6000 de ouro e {Restore Balance} por 800 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 14 I have {Double Jab} for 1000 gold and {Haste} for 600 gold.": {
-   "pt": "",
+   "pt": "No nível 14 eu tenho {Double Jab} por 1000 de ouro e {Haste} por 600 de ouro.",
    "n": 1,
    "npc": [
     "enpa_rudra"
    ]
   },
   "For level 1 I have {Magic Patch} for free, {Swift Jab} for free and {Tiger Clash} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Magic Patch} de graça, {Swift Jab} de graça e {Tiger Clash} de graça.",
    "n": 1,
    "npc": [
     "enpa_rudra"
@@ -25597,35 +25597,35 @@
    ]
   },
   "For level 25 I have {Summon Creature} for 2000 gold.": {
-   "pt": "",
+   "pt": "No nível 25 eu tenho {Summon Creature} por 2000 de ouro.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "For level 18 I have {Energy Field} Rune for 700 gold.": {
-   "pt": "",
+   "pt": "No nível 18 eu tenho a runa {Energy Field} por 700 de ouro.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "For level 15 I have {Fire Field} Rune for 500 gold.": {
-   "pt": "",
+   "pt": "No nível 15 eu tenho a runa {Fire Field} por 500 de ouro.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "For level 8 I have {Apprentice's Strike} for free.": {
-   "pt": "",
+   "pt": "No nível 8 eu tenho {Apprentice's Strike} de graça.",
    "n": 1,
    "npc": [
     "eroth"
    ]
   },
   "For level 1 I have {Chill Out} for free and {Mud Attack} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Chill Out} de graça e {Mud Attack} de graça.",
    "n": 1,
    "npc": [
     "eroth"
@@ -26262,14 +26262,14 @@
    ]
   },
   "For level 14 I have {Food} for 300 gold.": {
-   "pt": "",
+   "pt": "No nível 14 eu tenho {Food} por 300 de ouro.",
    "n": 1,
    "npc": [
     "faluae"
    ]
   },
   "For level 8 I have {Find Person} for 80 gold and {Light} for free.": {
-   "pt": "",
+   "pt": "No nível 8 eu tenho {Find Person} por 80 de ouro e {Light} de graça.",
    "n": 1,
    "npc": [
     "faluae"
@@ -27123,7 +27123,7 @@
    ]
   },
   "Would you like to learn {light magic missile} magic spell for 500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {light magic missile} por 500 de ouro?",
    "n": 1,
    "npc": [
     "garamond"
@@ -27137,21 +27137,21 @@
    ]
   },
   "Would you like to learn {poison field} magic spell for 300 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {poison field} por 300 de ouro?",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Would you like to learn {fire field} magic spell for 500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {fire field} por 500 de ouro?",
    "n": 1,
    "npc": [
     "garamond"
    ]
   },
   "Would you like to learn {energy field} magic spell for 700 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {energy field} por 700 de ouro?",
    "n": 1,
    "npc": [
     "garamond"
@@ -33220,21 +33220,21 @@
    ]
   },
   "For level 25 I have {Conjure Explosive Arrow} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 25 eu tenho {Conjure Explosive Arrow} por 1000 de ouro.",
    "n": 1,
    "npc": [
     "irea"
    ]
   },
   "For level 13 I have {Conjure Arrow} for 450 gold.": {
-   "pt": "",
+   "pt": "No nível 13 eu tenho {Conjure Arrow} por 450 de ouro.",
    "n": 1,
    "npc": [
     "irea"
    ]
   },
   "For level 1 I have {Arrow Call} for free and {Lesser Ethereal Spear} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Arrow Call} de graça e {Lesser Ethereal Spear} de graça.",
    "n": 1,
    "npc": [
     "irea"
@@ -38526,7 +38526,7 @@
    ]
   },
   "Would you like to learn {Ultimate Healing Rune} Rune spell for 1500 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a runa {Ultimate Healing Rune} por 1500 de ouro?",
    "n": 1,
    "npc": [
     "maealil"
@@ -38554,35 +38554,35 @@
    ]
   },
   "For level 30 I have {Ultimate Healing} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 30 eu tenho {Ultimate Healing} por 1000 de ouro.",
    "n": 1,
    "npc": [
     "maealil"
    ]
   },
   "For level 24 I have {Ultimate Healing Rune} for 1500 gold.": {
-   "pt": "",
+   "pt": "No nível 24 eu tenho {Ultimate Healing Rune} por 1500 de ouro.",
    "n": 1,
    "npc": [
     "maealil"
    ]
   },
   "For level 15 I have {Cure Poison Rune} for 600 gold and {Intense Healing Rune} for 600 gold.": {
-   "pt": "",
+   "pt": "No nível 15 eu tenho {Cure Poison Rune} por 600 de ouro e {Intense Healing Rune} por 600 de ouro.",
    "n": 1,
    "npc": [
     "maealil"
    ]
   },
   "For level 8 I have {Light Healing} for free.": {
-   "pt": "",
+   "pt": "No nível 8 eu tenho {Light Healing} de graça.",
    "n": 1,
    "npc": [
     "maealil"
    ]
   },
   "For level 1 I have {Magic Patch} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Magic Patch} de graça.",
    "n": 1,
    "npc": [
     "maealil"
@@ -45253,63 +45253,63 @@
    ]
   },
   "For level 200 I have {Summon Knight Familiar} for 50000 gold and {Summon Paladin Familiar} for 50000 gold.": {
-   "pt": "",
+   "pt": "No nível 200 eu tenho {Summon Knight Familiar} por 50000 de ouro e {Summon Paladin Familiar} por 50000 de ouro.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "For level 90 I have {Fierce Berserk} for 7500 gold and {Strong Ethereal Spear} for 10000 gold.": {
-   "pt": "",
+   "pt": "No nível 90 eu tenho {Fierce Berserk} por 7500 de ouro e {Strong Ethereal Spear} por 10000 de ouro.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "For level 80 I have {Cure Curse} for 6000 gold and {Intense Wound Cleansing} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 80 eu tenho {Cure Curse} por 6000 de ouro e {Intense Wound Cleansing} por 6000 de ouro.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "For level 70 I have {Front Sweep} for 4000 gold and {Holy Flash} for 7500 gold.": {
-   "pt": "",
+   "pt": "No nível 70 eu tenho {Front Sweep} por 4000 de ouro e {Holy Flash} por 7500 de ouro.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "For level 45 I have {Cure Bleeding} for 2500 gold and {Enchant Spear} for 2000 gold.": {
-   "pt": "",
+   "pt": "No nível 45 eu tenho {Cure Bleeding} por 2500 de ouro e {Enchant Spear} por 2000 de ouro.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "For level 40 I have {Divine Missile} for 1800 gold and {Inflict Wound} for 2500 gold.": {
-   "pt": "",
+   "pt": "No nível 40 eu tenho {Divine Missile} por 1800 de ouro e {Inflict Wound} por 2500 de ouro.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "For level 35 I have {Berserk} for 2500 gold and {Divine Healing} for 3000 gold.": {
-   "pt": "",
+   "pt": "No nível 35 eu tenho {Berserk} por 2500 de ouro e {Divine Healing} por 3000 de ouro.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "For level 25 I have {Charge} for 1300 gold, {Conjure Explosive Arrow} for 1000 gold and {Find Fiend} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 25 eu tenho {Charge} por 1300 de ouro, {Conjure Explosive Arrow} por 1000 de ouro e {Find Fiend} por 1000 de ouro.",
    "n": 1,
    "npc": [
     "razan"
    ]
   },
   "For level 1 I have {Arrow Call} for free, {Bruise Bane} for free, {Lesser Front Sweep} for free and {Magic Patch} for free.": {
-   "pt": "",
+   "pt": "No nível 1 eu tenho {Arrow Call} de graça, {Bruise Bane} de graça, {Lesser Front Sweep} de graça e {Magic Patch} de graça.",
    "n": 1,
    "npc": [
     "razan"
@@ -47941,49 +47941,49 @@
    ]
   },
   "For level 200 I have {Summon Druid Familiar} for 50000 gold and {Summon Sorcerer Familiar} for 50000 gold.": {
-   "pt": "",
+   "pt": "No nível 200 eu tenho {Summon Druid Familiar} por 50000 de ouro e {Summon Sorcerer Familiar} por 50000 de ouro.",
    "n": 1,
    "npc": [
     "shalmar"
    ]
   },
   "For level 80 I have {Strong Energy Strike} for 7500 gold and {Strong Ice Strike} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 80 eu tenho {Strong Energy Strike} por 7500 de ouro e {Strong Ice Strike} por 6000 de ouro.",
    "n": 1,
    "npc": [
     "shalmar"
    ]
   },
   "For level 70 I have {Strong Flame Strike} for 6000 gold and {Strong Terra Strike} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 70 eu tenho {Strong Flame Strike} por 6000 de ouro e {Strong Terra Strike} por 6000 de ouro.",
    "n": 1,
    "npc": [
     "shalmar"
    ]
   },
   "For level 30 I have {Avalanche} Rune for 1200 gold, {Cure Burning} for 2000 gold, {Great Fireball} Rune for 1200 gold and {Ultimate Healing} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 30 eu tenho a runa {Avalanche} por 1200 de ouro, a runa {Cure Burning} por 2000 de ouro, {Great Fireball} por 1200 de ouro e {Ultimate Healing} por 1000 de ouro.",
    "n": 1,
    "npc": [
     "shalmar"
    ]
   },
   "For level 28 I have {Icicle} Rune for 1700 gold, {Stone Shower} Rune for 1100 gold and {Thunderstorm} Rune for 1100 gold.": {
-   "pt": "",
+   "pt": "No nível 28 eu tenho a runa {Icicle} por 1700 de ouro, a runa {Stone Shower} por 1100 de ouro e a runa {Thunderstorm} por 1100 de ouro.",
    "n": 1,
    "npc": [
     "shalmar"
    ]
   },
   "For level 18 I have {Energy Field} Rune for 700 gold, {Fire Wave} for 850 gold, {Heal Friend} for 800 gold and {Ice Wave} for 850 gold.": {
-   "pt": "",
+   "pt": "No nível 18 eu tenho a runa {Energy Field} por 700 de ouro, {Fire Wave} por 850 de ouro, {Heal Friend} por 800 de ouro e {Ice Wave} por 850 de ouro.",
    "n": 1,
    "npc": [
     "shalmar"
    ]
   },
   "For level 16 I have {Convince Creature} for 800 gold, {Death Strike} for 800 gold and {Physical Strike} for 800 gold.": {
-   "pt": "",
+   "pt": "No nível 16 eu tenho {Convince Creature} por 800 de ouro, {Death Strike} por 800 de ouro e {Physical Strike} por 800 de ouro.",
    "n": 1,
    "npc": [
     "shalmar"
@@ -54808,77 +54808,77 @@
    ]
   },
   "Would you like to learn {blood rage} magic spell for 8000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {blood rage} por 8000 de ouro?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Would you like to learn {eternal winter} magic spell for 8000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {eternal winter} por 8000 de ouro?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Would you like to learn {hell's core} magic spell for 8000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {hell's core} por 8000 de ouro?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Would you like to learn {protector} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {protector} por 6000 de ouro?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Would you like to learn {rage of the skies} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {rage of the skies} por 6000 de ouro?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Would you like to learn {sharpshooter} magic spell for 8000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {sharpshooter} por 8000 de ouro?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Would you like to learn {ultimate energy strike} magic spell for 15000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {ultimate energy strike} por 15000 de ouro?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Would you like to learn {ultimate flame strike} magic spell for 15000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {ultimate flame strike} por 15000 de ouro?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Would you like to learn {ultimate ice strike} magic spell for 15000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {ultimate ice strike} por 15000 de ouro?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Would you like to learn {ultimate terra strike} magic spell for 15000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {ultimate terra strike} por 15000 de ouro?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Would you like to learn {wrath of nature} magic spell for 6000 gold?": {
-   "pt": "",
+   "pt": "Quer aprender a magia {wrath of nature} por 6000 de ouro?",
    "n": 1,
    "npc": [
     "zoltan"
@@ -54913,28 +54913,28 @@
    ]
   },
   "For level 100 I have {Ultimate Energy Strike} for 15000 gold and {Ultimate Ice Strike} for 15000 gold.": {
-   "pt": "",
+   "pt": "No nível 100 eu tenho {Ultimate Energy Strike} por 15000 de ouro e {Ultimate Ice Strike} por 15000 de ouro.",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "For level 90 I have {Ultimate Flame Strike} for 15000 gold and {Ultimate Terra Strike} for 15000 gold.": {
-   "pt": "",
+   "pt": "No nível 90 eu tenho {Ultimate Flame Strike} por 15000 de ouro e {Ultimate Terra Strike} por 15000 de ouro.",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "For level 60 I have {Blood Rage} for 8000 gold, {Eternal Winter} for 8000 gold, {Hell's Core} for 8000 gold and {Sharpshooter} for 8000 gold.": {
-   "pt": "",
+   "pt": "No nível 60 eu tenho {Blood Rage} por 8000 de ouro, {Eternal Winter} por 8000 de ouro, {Hell's Core} por 8000 de ouro e {Sharpshooter} por 8000 de ouro.",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "For level 55 I have {Protector} for 6000 gold, {Rage of the Skies} for 6000 gold, {Swift Foot} for 6000 gold and {Wrath of Nature} for 6000 gold.": {
-   "pt": "",
+   "pt": "No nível 55 eu tenho {Protector} por 6000 de ouro, {Rage of the Skies} por 6000 de ouro, {Swift Foot} por 6000 de ouro e {Wrath of Nature} por 6000 de ouro.",
    "n": 1,
    "npc": [
     "zoltan"
