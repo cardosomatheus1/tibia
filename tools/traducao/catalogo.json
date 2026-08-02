@@ -4990,14 +4990,14 @@
    ]
   },
   "Ok, ok. You've got this one right! Ready for the next one?": {
-   "pt": "",
+   "pt": "Ok, ok. Você acertou essa! Pronto para a próxima?",
    "n": 6,
    "npc": [
     "percybald"
    ]
   },
   "No no no! That is not correct!": {
-   "pt": "",
+   "pt": "Não, não, não! Isso não está correto!",
    "n": 6,
    "npc": [
     "percybald"
@@ -7241,7 +7241,7 @@
    ]
   },
   "You do not have enough tokens to donate that amount.": {
-   "pt": "",
+   "pt": "Você não tem tokens suficientes para doar essa quantia.",
    "n": 3,
    "npc": [
     "percybald"
@@ -7276,7 +7276,7 @@
    ]
   },
   "I can fly you to {Darashia} on Darama, {Kazordoon}, {Svargrond} or {Edron} if you like. Where do you want to go?": {
-   "pt": "",
+   "pt": "Posso levá-lo voando até {Darashia}, em Darama, {Kazordoon}, {Svargrond} ou {Edron}, se quiser. Para onde você quer ir?",
    "n": 3,
    "npc": [
     "uzon"
@@ -8767,7 +8767,7 @@
    ]
   },
   "Our family has been serving the Carlin army since countless generations!": {
-   "pt": "",
+   "pt": "Nossa família serve ao exército de Carlin há incontáveis gerações!",
    "n": 2,
    "npc": [
     "bunny_bonecrusher"
@@ -9127,21 +9127,21 @@
    ]
   },
   "When Carlin tried to colonize the region now known as the ghostlands, \\z\n\t\t\t\tmy ancestors put their fortune in that {project}.": {
-   "pt": "",
+   "pt": "Quando Carlin tentou colonizar a região hoje conhecida como ghostlands, meus ancestrais colocaram sua fortuna nesse {projeto}.",
    "n": 2,
    "npc": [
     "dalbrect"
    ]
   },
   "Our family fortune was lost when the colonization of those cursed lands failed. \\z\n\t\t\t\tNow nothing is left of our fame or our fortune. \\z\n\t\t\t\tIf I only had something as a reminder of those better times. <sigh>": {
-   "pt": "",
+   "pt": "A fortuna da nossa família se perdeu quando a colonização daquelas terras amaldiçoadas fracassou. Agora não resta nada da nossa fama ou da nossa fortuna. Se ao menos eu tivesse algo como lembrança daqueles tempos melhores. <suspira>",
    "n": 2,
    "npc": [
     "dalbrect"
    ]
   },
   "I should have known better than to ask for an act of kindness in this cruel, selfish, world!": {
-   "pt": "",
+   "pt": "Eu deveria saber que não adiantava pedir um ato de bondade neste mundo cruel e egoísta!",
    "n": 2,
    "npc": [
     "dalbrect"
@@ -12072,7 +12072,7 @@
    ]
   },
   "The caliph welcomes travellers to his land.": {
-   "pt": "",
+   "pt": "O califa dá as boas-vindas aos viajantes em suas terras.",
    "n": 2,
    "npc": [
     "uzon"
@@ -18418,126 +18418,126 @@
    ]
   },
   "Salutations, commoner |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Saudações, plebeu |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "We are in constant training and in perfect health.": {
-   "pt": "",
+   "pt": "Estamos em treinamento constante e em perfeita saúde.",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "I am the general of the queen's army. I don't have time to explain this concept to you.": {
-   "pt": "",
+   "pt": "Sou a general do exército da rainha. Não tenho tempo para lhe explicar esse conceito.",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "She is one of my beloved sisters and serves Carlin as a town guard.": {
-   "pt": "",
+   "pt": "Ela é uma das minhas queridas irmãs e serve Carlin como guarda da cidade.",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "HAIL TO QUEEN ELOISE, OUR NOBLE {LEADER}!": {
-   "pt": "",
+   "pt": "SALVE A QUEEN ELOISE, NOSSA NOBRE {LEADER}!",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "Queen Eloise is a fine leader for our fair town, indeed!": {
-   "pt": "",
+   "pt": "A Queen Eloise realmente é uma ótima líder para nossa bela cidade!",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "The army protects the defenceless males of our {city}. Our elite forces are the {Green Ferrets}.": {
-   "pt": "",
+   "pt": "O exército protege os homens indefesos da nossa {cidade}. Nossas forças de elite são as {Green Ferrets}.",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "Our city blends in with the nature surrounding it. Our {druids} take care of that.": {
-   "pt": "",
+   "pt": "Nossa cidade se funde com a natureza ao redor. Nossos {druids} cuidam disso.",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "They are our main magic support and play a major role in our battle {tactics}.": {
-   "pt": "",
+   "pt": "Eles são nosso principal suporte mágico e têm um papel importante nas nossas {táticas} de batalha.",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "Our tactic is to kiss.": {
-   "pt": "",
+   "pt": "Nossa tática é o kiss.",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "K.I.S.S.! Keep It Simple, Stupid! Complicated tactics are too easy to be crushed by a twist of fate.": {
-   "pt": "",
+   "pt": "K.I.S.S.! Keep It Simple, Stupid! Táticas complicadas são fáceis demais de serem destruídas por um revés do destino.",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "Our elite forces are trained by rangers and druids. In the woods they come a close second to elves.": {
-   "pt": "",
+   "pt": "Nossas forças de elite são treinadas por rangers e druids. Nas florestas, ficam em segundo lugar, logo atrás dos elfos.",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "Join what?": {
-   "pt": "",
+   "pt": "Se juntar a quê?",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "Sorry, we don't recruit foreigners. Maybe you can join if you prove yourself in a mission for the queen.": {
-   "pt": "",
+   "pt": "Desculpe, não recrutamos estrangeiros. Talvez você possa se juntar a nós se provar seu valor numa missão para a rainha.",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "Alright, you delivered the parcel. So what is the password Thanita told you?": {
-   "pt": "",
+   "pt": "Muito bem, você entregou o pacote. Então qual é a senha que Thanita lhe disse?",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "I am not sure if I should be glad now or not but anyway ... you will get a password so I will know if you just threw it away or actually delivered it. Here is the parcel. See you ....or not.": {
-   "pt": "",
+   "pt": "Não sei se devo ficar feliz agora ou não, mas de qualquer forma ... você vai receber uma senha para eu saber se você só jogou fora ou realmente entregou. Aqui está o pacote. Até mais... ou não.",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "That's right. Here is your reward some elementary arrows. You did pretty well on your mission!": {
-   "pt": "",
+   "pt": "Isso mesmo. Aqui está sua recompensa, algumas elementary arrows. Você se saiu muito bem na sua missão!",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
    ]
   },
   "Address me properly |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Dirija-se a mim adequadamente, |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "bunny_bonecrusher"
@@ -22317,112 +22317,112 @@
    ]
   },
   "I have only sailed to the isle of the kings once or twice. \\z\n\t\t\t\tI dare not anger the monks by bringing travelers there without their permission.": {
-   "pt": "",
+   "pt": "Só naveguei até a isle of the kings uma ou duas vezes. Não ouso irritar os monges levando viajantes para lá sem a permissão deles.",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "Do you seek a passage to the isle of the kings for 10 gold coins?": {
-   "pt": "",
+   "pt": "Você busca uma passagem para a isle of the kings por 10 moedas de ouro?",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "Well, I'll be here if you change your mind.": {
-   "pt": "",
+   "pt": "Bem, estarei aqui se você mudar de ideia.",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "My name is Dalbrect Windtrouser, of the once proud Windtrouser family.": {
-   "pt": "",
+   "pt": "Meu nome é Dalbrect Windtrouser, da outrora orgulhosa família Windtrouser.",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "I am merely a humble fisher now that nothing is left of my noble {legacy}.": {
-   "pt": "",
+   "pt": "Agora sou apenas um humilde pescador, já que nada restou do meu nobre {legado}.",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "Once my family was once noble and wealthy, but {fate} turned against us and threw us into poverty.": {
-   "pt": "",
+   "pt": "Um dia minha família foi nobre e rica, mas o {destino} se voltou contra nós e nos jogou na pobreza.",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "To think my family used to belong to the local nobility! And now those arrogant women are in charge!": {
-   "pt": "",
+   "pt": "Pensar que minha família pertencia à nobreza local! E agora são aquelas mulheres arrogantes que mandam!",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "There is little I can offer you but a trip with my boat. \\z\n\t\t\t\tAre you looking for a {passage} to the isle of kings perhaps?": {
-   "pt": "",
+   "pt": "Há pouco que eu possa lhe oferecer além de uma viagem no meu barco. Está procurando talvez uma {passagem} para a isle of kings?",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "My ship is my only pride and joy.": {
-   "pt": "",
+   "pt": "Meu navio é meu único orgulho e alegria.",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "You have recovered my brooch! I shall forever be in your debt, my friend!": {
-   "pt": "",
+   "pt": "Você recuperou meu brooch! Estarei em dívida com você para sempre, meu amigo!",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "What? You want me to examine a brooch?": {
-   "pt": "",
+   "pt": "O quê? Você quer que eu examine um brooch?",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "What are you talking about? I am too poor to be interested in jewelry.": {
-   "pt": "",
+   "pt": "Do que você está falando? Sou pobre demais para me interessar por joias.",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "Can it be? I recognise my family's arms! You have found a treasure indeed! \\z\n\t\t\t\t\tI am poor and all I can offer you is my friendship, but ... please ... give that brooch to me?": {
-   "pt": "",
+   "pt": "Pode ser? Reconheço o brasão da minha família! Você realmente encontrou um tesouro! Sou pobre e tudo que posso lhe oferecer é minha amizade, mas ... por favor ... me dê esse brooch?",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "Thank you! I shall consider you my friend from now on! \\z\n\t\t\t\t\tJust let me know if you {need} something!": {
-   "pt": "",
+   "pt": "Obrigado! Vou considerá-lo meu amigo a partir de agora! É só me avisar se você {precisa} de algo!",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "Then stop being a fool. I am poor and I have to work the whole day through!": {
-   "pt": "",
+   "pt": "Então pare de ser tolo. Sou pobre e tenho que trabalhar o dia inteiro!",
    "n": 1,
    "npc": [
     "dalbrect"
    ]
   },
   "Be greeted, traveller |PLAYERNAME|. Welcome to my {hut}.": {
-   "pt": "",
+   "pt": "Seja bem-vindo, viajante |PLAYERNAME|. Bem-vindo à minha {cabana}.",
    "n": 1,
    "npc": [
     "dalbrect"
@@ -43380,126 +43380,126 @@
    ]
   },
   "I hope you learnt your role! I'll tell you a line from the script and you'll have to answer with the corresponding line! Ready?": {
-   "pt": "",
+   "pt": "Espero que você tenha aprendido seu papel! Vou lhe dizer uma fala do roteiro e você vai ter que responder com a fala correspondente! Pronto?",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "How dare you? Are you mad? I hold the princess hostage and you drop your weapons. You're all lost!": {
-   "pt": "",
+   "pt": "Como ousa? Está louco? Eu mantenho a princesa refém e você larga suas armas. Vocês estão todos perdidos!",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "Too late puny knight. You can't stop my master plan anymore!": {
-   "pt": "",
+   "pt": "Tarde demais, knight insignificante. Você não pode mais impedir meu plano mestre!",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "What's this? Behind the doctor?": {
-   "pt": "",
+   "pt": "O que é isso? Atrás do médico?",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "Haha! You may not fear for your own life, but how about hers!?": {
-   "pt": "",
+   "pt": "Haha! Você pode não temer pela própria vida, mas e pela dela!?",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "Grrr!": {
-   "pt": "",
+   "pt": "Grrr!",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "You're such a monster!": {
-   "pt": "",
+   "pt": "Você é um monstro!",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "Ah well, I think you passed the test! Here is your disguise kit! Now get lost, fate awaits me!": {
-   "pt": "",
+   "pt": "Ah, bem, acho que você passou no teste! Aqui está seu disguise kit! Agora suma, o destino me aguarda!",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "In exchange for a generous donation of gold and silver tokens, I can offer you a special outfit. Would you like to donate?": {
-   "pt": "",
+   "pt": "Em troca de uma generosa doação de gold tokens e silver tokens, posso lhe oferecer um outfit especial. Gostaria de doar?",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "If you haven't made up your mind, please come back when you are ready.": {
-   "pt": "",
+   "pt": "Se ainda não se decidiu, por favor volte quando estiver pronto.",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "Take this shield as a token of great gratitude. Let us forever remember this day, my friend.": {
-   "pt": "",
+   "pt": "Aceite este escudo como um símbolo de grande gratidão. Que nos lembremos deste dia para sempre, meu amigo.",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "You need to donate the {armor} outfit first.": {
-   "pt": "",
+   "pt": "Você precisa doar o outfit de {armadura} primeiro.",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "Take this crown as a token of great gratitude. Let us forever remember this day, my friend.": {
-   "pt": "",
+   "pt": "Aceite esta coroa como um símbolo de grande gratidão. Que nos lembremos deste dia para sempre, meu amigo.",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "You need to donate the {shield} addon first.": {
-   "pt": "",
+   "pt": "Você precisa doar o addon de {escudo} primeiro.",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "Would you like to donate 15,000 silver tokens and 12,500 gold tokens for a unique red armor?": {
-   "pt": "",
+   "pt": "Gostaria de doar 15.000 silver tokens e 12.500 gold tokens por uma red armor exclusiva?",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "Would you like to donate 7,500 silver tokens and 6,250 gold tokens for a unique shield?": {
-   "pt": "",
+   "pt": "Gostaria de doar 7.500 silver tokens e 6.250 gold tokens por um escudo exclusivo?",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "Would you like to donate 7,500 silver tokens and 6,250 gold tokens for a unique crown?": {
-   "pt": "",
+   "pt": "Gostaria de doar 7.500 silver tokens e 6.250 gold tokens por uma coroa exclusiva?",
    "n": 1,
    "npc": [
     "percybald"
    ]
   },
   "Be greeted |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Seja bem-vindo, |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "percybald"
@@ -52424,77 +52424,77 @@
    ]
   },
   "I am a licensed Darashian carpet pilot. I can bring you to {Darashia}, {Kazordoon}, {Svargrond} or {Edron}.": {
-   "pt": "",
+   "pt": "Sou um piloto de tapete voador licenciado de Darashia. Posso levá-lo a {Darashia}, {Kazordoon}, {Svargrond} ou {Edron}.",
    "n": 1,
    "npc": [
     "uzon"
    ]
   },
   "Oh, there is so much to tell about Daraman. You better travel to Darama to learn about his teachings.": {
-   "pt": "",
+   "pt": "Ah, há tanto para contar sobre Daraman. É melhor você viajar até Darama para aprender sobre seus ensinamentos.",
    "n": 1,
    "npc": [
     "uzon"
    ]
   },
   "I would never transport this one.": {
-   "pt": "",
+   "pt": "Eu nunca transportaria esse aqui.",
    "n": 1,
    "npc": [
     "uzon"
    ]
   },
   "So you heard about haunted Drefia? Many adventures travel there to test their skills against the undead: vampires, mummies, and ghosts.": {
-   "pt": "",
+   "pt": "Então você ouviu falar da assombrada Drefia? Muitos aventureiros viajam até lá para testar suas habilidades contra os mortos-vivos: vampiros, múmias e fantasmas.",
    "n": 1,
    "npc": [
     "uzon"
    ]
   },
   "Some people claim it is hidden somewhere under the endless sands of the devourer desert in Darama.": {
-   "pt": "",
+   "pt": "Algumas pessoas afirmam que está escondida em algum lugar sob as areias intermináveis do devourer desert, em Darama.",
    "n": 1,
    "npc": [
     "uzon"
    ]
   },
   "Thais is noisy and overcrowded. That's why I like Darashia more.": {
-   "pt": "",
+   "pt": "Thais é barulhenta e superlotada. É por isso que gosto mais de Darashia.",
    "n": 1,
    "npc": [
     "uzon"
    ]
   },
   "I have seen almost every place on the continent.": {
-   "pt": "",
+   "pt": "Já vi quase todos os lugares do continente.",
    "n": 1,
    "npc": [
     "uzon"
    ]
   },
   "I could retell the tales of my travels for hours. Sadly another flight is scheduled soon.": {
-   "pt": "",
+   "pt": "Eu poderia recontar as histórias das minhas viagens por horas. Infelizmente outro voo está programado para breve.",
    "n": 1,
    "npc": [
     "uzon"
    ]
   },
   "Just another Thais but with women to lead them.": {
-   "pt": "",
+   "pt": "Só mais uma Thais, mas com mulheres para liderá-los.",
    "n": 1,
    "npc": [
     "uzon"
    ]
   },
   "You can buy flying carpets only in Darashia.": {
-   "pt": "",
+   "pt": "Você só pode comprar tapetes voadores em Darashia.",
    "n": 1,
    "npc": [
     "uzon"
    ]
   },
   "I can fly you to {Darashia} on Darama, {Kazordoon}, {Svargrond}, {Issavi}, {Farmine} or {Edron} if you like. Where do you want to go?": {
-   "pt": "",
+   "pt": "Posso levá-lo voando até {Darashia}, em Darama, {Kazordoon}, {Svargrond}, {Issavi}, {Farmine} ou {Edron}, se quiser. Para onde você quer ir?",
    "n": 1,
    "npc": [
     "uzon"
@@ -57184,7 +57184,7 @@
    "n": 5
   },
   "leader": {
-   "pt": "",
+   "pt": "líder",
    "n": 5
   },
   "passenger": {
@@ -57352,7 +57352,7 @@
    "n": 4
   },
   "legacy": {
-   "pt": "",
+   "pt": "legado",
    "n": 4
   },
   "village": {
@@ -57868,7 +57868,7 @@
    "n": 3
   },
   "hut": {
-   "pt": "",
+   "pt": "cabana",
    "n": 3
   },
   "goblins": {
@@ -58384,7 +58384,7 @@
    "n": 2
   },
   "tactics": {
-   "pt": "",
+   "pt": "táticas",
    "n": 2
   },
   "bonecrusher": {
@@ -58464,7 +58464,7 @@
    "n": 2
   },
   "fate": {
-   "pt": "",
+   "pt": "destino",
    "n": 2
   },
   "ghostlands": {
