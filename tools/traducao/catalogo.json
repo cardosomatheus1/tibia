@@ -6851,7 +6851,7 @@
    ]
   },
   "My attack spells are: {Divine Caldera}, {Divine Missile}, {Ethereal Spear}, {Holy Flash}, {Strong Ethereal Spear} and {Summon Paladin Familiar}.": {
-   "pt": "",
+   "pt": "Minhas magias de ataque são: {Divine Caldera}, {Divine Missile}, {Ethereal Spear}, {Holy Flash}, {Strong Ethereal Spear} e {Summon Paladin Familiar}.",
    "n": 3,
    "npc": [
     "hawkyr",
@@ -10351,7 +10351,7 @@
    ]
   },
   "My support spells are: {Arrow Call}, {Cancel Invisibility}, {Conjure Arrow}, {Conjure Explosive Arrow}, {Enchant Spear}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope} and {Swift Foot}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Arrow Call}, {Cancel Invisibility}, {Conjure Arrow}, {Conjure Explosive Arrow}, {Enchant Spear}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope} e {Swift Foot}.",
    "n": 2,
    "npc": [
     "hawkyr",
@@ -10443,7 +10443,7 @@
    ]
   },
   "Do you seek a passage to the": {
-   "pt": "",
+   "pt": "Procura uma passagem para o",
    "n": 2,
    "npc": [
     "imbul",
@@ -25439,21 +25439,21 @@
    ]
   },
   "Vescu gave you an assassin outfit? Haha. Noticed it lacks the head piece? You look a bit silly. Want my old head piece?": {
-   "pt": "",
+   "pt": "Vescu lhe deu um assassin outfit? Haha. Reparou que falta a peça de cabeça? Você fica um pouco bobo assim. Quer minha peça de cabeça velha?",
    "n": 1,
    "npc": [
     "erayo"
    ]
   },
   "Good. Start with the blue cloth. I'll wait.": {
-   "pt": "",
+   "pt": "Bom. Comece com o blue cloth. Eu espero.",
    "n": 1,
    "npc": [
     "erayo"
    ]
   },
   "What the... I mean, of course I sensed you.": {
-   "pt": "",
+   "pt": "Que dia... quero dizer, claro que eu senti sua presença.",
    "n": 1,
    "npc": [
     "erayo"
@@ -26972,7 +26972,7 @@
    ]
   },
   "I always feared that I lost her. And yet, all those years, I still had a gleam of hope. I'm devastated to learn about her fate - but at least I have certainty now. Thank you for telling me.": {
-   "pt": "",
+   "pt": "Sempre temi tê-la perdido. E ainda assim, todos esses anos, eu ainda tinha um lampejo de esperança. Estou arrasado ao saber do destino dela - mas pelo menos agora tenho certeza. Obrigado por me contar.",
    "n": 1,
    "npc": [
     "gail"
@@ -32936,7 +32936,7 @@
    ]
   },
   "I can bring you either to the {east} end of Port Hope or to the {centre} of the town, where would you like to go?": {
-   "pt": "",
+   "pt": "Posso lhe levar tanto para o extremo {leste} de Port Hope quanto para o {centro} da cidade, para onde você quer ir?",
    "n": 1,
    "npc": [
     "imbul"
@@ -37409,14 +37409,14 @@
    ]
   },
   "I heard he is some scary magician or so.": {
-   "pt": "",
+   "pt": "Ouvi dizer que ele é uma espécie de mago assustador ou algo assim.",
    "n": 1,
    "npc": [
     "lorek"
    ]
   },
   "I can travel you to west, centre, darama, chor or banuta.": {
-   "pt": "",
+   "pt": "Posso lhe levar até west, centre, darama, chor ou banuta.",
    "n": 1,
    "npc": [
     "lorek"
@@ -41812,7 +41812,7 @@
    ]
   },
   "I can bring you either to the east end of Port Hope or to the west end of the town, where would you like to go?": {
-   "pt": "",
+   "pt": "Posso lhe levar tanto para o extremo leste de Port Hope quanto para o extremo oeste da cidade, para onde você quer ir?",
    "n": 1,
    "npc": [
     "old_adall"
@@ -43506,7 +43506,7 @@
    ]
   },
   "Stop by before embarking on your great adventure! Distance weapons and general equipment on sale today!": {
-   "pt": "",
+   "pt": "Passe por aqui antes de embarcar na sua grande aventura! Armas à distância e equipamento geral em promoção hoje!",
    "n": 1,
    "npc": [
     "perod"
@@ -49638,7 +49638,7 @@
    ]
   },
   "Potions, wands and runes for aspiring magicians.": {
-   "pt": "",
+   "pt": "Potions, wands e runes para magos aspirantes.",
    "n": 1,
    "npc": [
     "tandros"
@@ -52298,7 +52298,7 @@
    ]
   },
   "Crunor's blessing, traveller.": {
-   "pt": "",
+   "pt": "A bênção de Crunor, viajante.",
    "n": 1,
    "npc": [
     "ustan"
@@ -60584,11 +60584,11 @@
    "n": 1
   },
   "east": {
-   "pt": "",
+   "pt": "leste",
    "n": 1
   },
   "centre": {
-   "pt": "",
+   "pt": "centro",
    "n": 1
   },
   "dying": {
