@@ -33,6 +33,8 @@ def main() -> int:
               if v.get("pt") and not v.get("obsoleto")}
     palavras = {k: v["pt"] for k, v in cat.get("palavras", {}).items()
                 if v.get("pt") and not v.get("obsoleto")}
+    apelidos = {k: v["pt"] for k, v in cat.get("apelidos", {}).items()
+                if v.get("pt") and not v.get("obsoleto")}
 
     linhas = [
         "-- GERADO POR tools/traducao/gerar_dicionario.py — nao edite a mao.",
@@ -51,6 +53,16 @@ def main() -> int:
     ]
     for k in sorted(palavras):
         linhas.append('\t\t["%s"] = "%s",' % (escapar(k), escapar(palavras[k])))
+    linhas += [
+        "\t},",
+        "",
+        "\t-- nome de magia, cidade e bencao: valem so na entrada. O jogador",
+        "\t-- pode dizer o nome em portugues, mas o NPC continua dizendo o",
+        "\t-- original, que e como aparece na spellbook, na hotkey e no mapa.",
+        "\tapelidos = {",
+    ]
+    for k in sorted(apelidos):
+        linhas.append('\t\t["%s"] = "%s",' % (escapar(k), escapar(apelidos[k])))
     linhas += ["\t},", "", "\t-- falas dos NPCs", "\ttextos = {"]
     for k in sorted(textos):
         linhas.append('\t\t["%s"] = "%s",' % (escapar(k), escapar(textos[k])))
@@ -63,7 +75,8 @@ def main() -> int:
     total = sum(v["n"] for v in cat.get("textos", {}).values() if not v.get("obsoleto"))
     feito = sum(v["n"] for v in cat.get("textos", {}).values()
                 if v.get("pt") and not v.get("obsoleto"))
-    print(f"{saida}: {len(palavras)} palavras, {len(textos)} textos")
+    print(f"{saida}: {len(palavras)} palavras, {len(apelidos)} apelidos, "
+          f"{len(textos)} textos")
     if total:
         print(f"  cobertura das falas ditas: {feito / total * 100:.1f}%")
     return 0

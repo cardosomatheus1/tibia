@@ -53,6 +53,21 @@ client nenhum.
 O [`client-modules/idioma/`](../../client-modules/idioma/) é só uma
 bandeirinha que manda esse mesmo comando (Ctrl+Shift+I).
 
+## Nome próprio não se traduz
+
+O dicionário tem duas listas, e a diferença importa:
+
+| Lista | Vale em | Para quê |
+|---|---|---|
+| `palavras` | entrada **e** saída | palavra funcional: `hi`, `trade`, `deposit all`, `yes` |
+| `apelidos` | **só** entrada | nome de magia, cidade e bênção |
+
+Nome de magia fica no original na saída de propósito. Se o NPC dissesse
+`{cura suprema}` mas a spellbook, a hotkey e a encantação seguem
+`Ultimate Healing` / `exura vita`, o jogador ficaria procurando um nome que
+não existe em nenhum outro lugar do jogo. Como apelido, ele **pode** dizer
+"cura suprema" e o NPC entende — só não inventa nome novo na resposta.
+
 ## Traduzir mais
 
 ```bash
@@ -60,6 +75,11 @@ python3 tools/traducao/extrair.py            # recolhe o que falta
 # preencher os campos "pt" em tools/traducao/catalogo.json
 python3 tools/traducao/gerar_dicionario.py   # gera o dicionário Lua
 ```
+
+Cada frase no catálogo traz **quem a diz** (campo `npc`) e quantas vezes
+aparece. O falante é o que permite traduzir com contexto: a mesma frase
+muda de tom conforme quem fala, e sem saber quem é fica fácil escolher a
+palavra errada.
 
 O `extrair.py` **preserva o que já foi traduzido** — rodar de novo depois
 de atualizar o datapack só acrescenta as chaves novas, e marca como
@@ -85,8 +105,13 @@ E a cauda é longa — não é um caso onde traduzir 20% resolve:
 | 80% | 4735 frases (64%) |
 | 100% | 7503 frases (100%) |
 
-**Estado atual: 117 palavras-chave e 23 frases**, o que cobre 3,6% das falas
-ditas — mas as palavras-chave cobrem a interação inteira (saudação, banco,
-cura, viagem, magias), que é onde o jogador de fato digita. O resto do
-catálogo é diálogo de ambientação, e é trabalho de volume, não de
-engenharia: a infraestrutura já roteia 100% das falas.
+**Estado atual: 38 palavras funcionais, 78 apelidos e 23 frases** — 3,6% das
+falas ditas. Parece pouco, e é, mas cobre a interação inteira: saudação,
+despedida, sim/não, banco, cura, compra e venda, nomes de magia. É onde o
+jogador digita.
+
+O resto do catálogo é diálogo de ambientação. Isso é trabalho de volume e
+**deve ser feito à mão, frase a frase** — tradução automática de diálogo de
+NPC erra tom e contexto com frequência, e o campo `npc` de cada frase está
+lá justamente para permitir traduzir sabendo quem fala. A infraestrutura já
+roteia 100% das falas; o que falta é o texto.

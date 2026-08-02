@@ -43,6 +43,14 @@ function Idioma.registrar(codigo, dados)
 		-- o caminho de volta: o que o jogador digita vira o termo em inglês
 		Idioma.entrada[traduzido:lower()] = original:lower()
 	end
+	-- Apelidos valem **só na entrada**. É o caso de nome de magia e nome de
+	-- cidade: o jogador pode dizer "cura suprema", mas o NPC continua
+	-- dizendo {ultimate healing}, porque é assim que o nome aparece na
+	-- spellbook, na hotkey e na encantação. Traduzir a saída aí inventaria
+	-- um nome que não existe em nenhum outro lugar do jogo.
+	for original, apelido in pairs(dados.apelidos or {}) do
+		Idioma.entrada[apelido:lower()] = original:lower()
+	end
 end
 
 function Idioma.existe(codigo)

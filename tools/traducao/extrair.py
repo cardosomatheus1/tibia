@@ -42,8 +42,14 @@ PADRAO_ASPAS = re.compile(r"""['"]([^'"]+)['"]""")
 PADRAO_CHAVES_NO_TEXTO = re.compile(r"\{([^}|]+)\}")
 
 
-def varrer(pastas) -> tuple[Counter, Counter]:
-    textos, palavras = Counter(), Counter()
+def varrer(pastas) -> tuple[Counter, Counter, dict]:
+    """Devolve (textos, palavras, quem_fala).
+
+    `quem_fala` guarda de quais NPCs cada frase veio. Sem isso a traducao
+    fica as cegas: a mesma frase muda de tom conforme quem diz, e sem saber
+    o falante da pra escolher a palavra errada com facilidade.
+    """
+    textos, palavras, falantes = Counter(), Counter(), {}
     for pasta in pastas:
         p = Path(pasta)
         if not p.exists():
@@ -55,21 +61,26 @@ def varrer(pastas) -> tuple[Counter, Counter]:
                     texto = texto.strip()
                     if len(texto) > 1:
                         textos[texto] += 1
+                        falantes.setdefault(texto, set()).add(arquivo.stem)
                         for dentro in PADRAO_CHAVES_NO_TEXTO.findall(texto):
                             palavras[dentro.strip().lower()] += 1
             for grupo in PADRAO_CHAVE.findall(conteudo):
                 for palavra in PADRAO_ASPAS.findall(grupo):
                     palavras[palavra.strip().lower()] += 1
-    return textos, palavras
+    return textos, palavras, falantes
 
 
-def juntar(antigo: dict, achados: Counter) -> tuple[dict, int, int]:
+def juntar(antigo: dict, achados: Counter, falantes: dict | None = None) -> tuple[dict, int, int]:
     novo, entram, somem = {}, 0, 0
     for chave, n in achados.most_common():
         anterior = antigo.get(chave, {})
         if not anterior:
             entram += 1
-        novo[chave] = {"pt": anterior.get("pt", ""), "n": n}
+        item = {"pt": anterior.get("pt", ""), "n": n}
+        if falantes and chave in falantes:
+            quem = sorted(falantes[chave])
+            item["npc"] = quem if len(quem) <= 6 else quem[:6] + [f"+{len(quem) - 6}"]
+        novo[chave] = item
     for chave, dado in antigo.items():
         if chave not in novo and dado.get("pt"):
             novo[chave] = {**dado, "obsoleto": True}
@@ -88,12 +99,13 @@ def main() -> int:
     saida = Path(args.saida)
     antigo = json.loads(saida.read_text()) if saida.exists() else {}
 
-    textos, palavras = varrer(args.pastas)
-    cat_textos, novos_t, velhos_t = juntar(antigo.get("textos", {}), textos)
+    textos, palavras, falantes = varrer(args.pastas)
+    cat_textos, novos_t, velhos_t = juntar(antigo.get("textos", {}), textos, falantes)
     cat_palavras, novos_p, velhos_p = juntar(antigo.get("palavras", {}), palavras)
 
     saida.parent.mkdir(parents=True, exist_ok=True)
-    saida.write_text(json.dumps({"textos": cat_textos, "palavras": cat_palavras},
+    saida.write_text(json.dumps({"textos": cat_textos, "palavras": cat_palavras,
+                                 "apelidos": antigo.get("apelidos", {})},
                                 indent=1, ensure_ascii=False) + "\n")
 
     feitos_t = sum(1 for v in cat_textos.values() if v.get("pt"))
