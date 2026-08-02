@@ -5354,7 +5354,7 @@
    ]
   },
   "Here you are, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Aqui está, |PLAYERNAME|.",
    "n": 5,
    "npc": [
     "test_server"
@@ -27805,56 +27805,56 @@
    ]
   },
   "I'll have to write that idea down.": {
-   "pt": "",
+   "pt": "Vou ter que anotar essa ideia.",
    "n": 1,
    "npc": [
     "gnomadness"
    ]
   },
   "So many ideas, so little time": {
-   "pt": "",
+   "pt": "Tantas ideias, tão pouco tempo",
    "n": 1,
    "npc": [
     "gnomadness"
    ]
   },
   "Hello and welcome in the Gnomprona Gardens. If you want to change your {hazard} level, I 'm who you're looking for.": {
-   "pt": "",
+   "pt": "Olá e bem-vindo aos Gnomprona Gardens. Se quiser mudar seu nível de {hazard}, sou eu que você está procurando.",
    "n": 1,
    "npc": [
     "gnomadness"
    ]
   },
   "I can change your hazard level to spice up your hunt in the gardens. Your current level is set to": {
-   "pt": "",
+   "pt": "Posso mudar seu nível de hazard para apimentar sua caçada nos jardins. Seu nível atual está definido em",
    "n": 1,
    "npc": [
     "gnomadness"
    ]
   },
   "I'm sorry, I don't understand. What hazard level would you like to set?": {
-   "pt": "",
+   "pt": "Sinto muito, não entendi. Qual nível de hazard você gostaria de definir?",
    "n": 1,
    "npc": [
     "gnomadness"
    ]
   },
   "Your hazard level has been set to": {
-   "pt": "",
+   "pt": "Seu nível de hazard foi definido em",
    "n": 1,
    "npc": [
     "gnomadness"
    ]
   },
   "You've achieved the necessary hazard level. As a reward, you've received the Noxious Ripptor mount and a primal bag.": {
-   "pt": "",
+   "pt": "Você atingiu o nível de hazard necessário. Como recompensa, você recebeu o mount Noxious Ripptor e uma primal bag.",
    "n": 1,
    "npc": [
     "gnomadness"
    ]
   },
   "You can't set your hazard level higher than your maximum unlocked level.": {
-   "pt": "",
+   "pt": "Você não pode definir seu nível de hazard mais alto que seu nível máximo desbloqueado.",
    "n": 1,
    "npc": [
     "gnomadness"
@@ -30087,56 +30087,56 @@
    ]
   },
   "Hello, is this your first visit to Rathleton? I can show you around a little.": {
-   "pt": "",
+   "pt": "Olá, essa é sua primeira visita a Rathleton? Posso lhe mostrar um pouco a cidade.",
    "n": 1,
    "npc": [
     "guide_kunibert"
    ]
   },
   "The First Oramond Bank is an important part of Rathleton, and is situated in the centre of the upper city. I can mark it on your map if you want.": {
-   "pt": "",
+   "pt": "O First Oramond Bank é uma parte importante de Rathleton, e fica no centro da cidade alta. Posso marcá-lo no seu mapa, se quiser.",
    "n": 1,
    "npc": [
     "guide_kunibert"
    ]
   },
   "You can buy almost everything here! Visit one of our shops for weapons, armors, magical equipment, spells, gems, tools, furnitureand everything else you can imagine.": {
-   "pt": "",
+   "pt": "Você pode comprar quase tudo aqui! Visite uma das nossas lojas de armas, armaduras, equipamento mágico, magias, gemas, ferramentas, móveis e tudo mais que você possa imaginar.",
    "n": 1,
    "npc": [
     "guide_kunibert"
    ]
   },
   "I will help you find your way in the marvellous city of Rathleton. I can mark important locations on your map and give you someinformation about the town and the world status.": {
-   "pt": "",
+   "pt": "Vou ajudá-lo a se localizar na maravilhosa cidade de Rathleton. Posso marcar locais importantes no seu mapa e lhe dar algumas informações sobre a cidade e a situação do mundo.",
    "n": 1,
    "npc": [
     "guide_kunibert"
    ]
   },
   "This city is a modern marvel of progress. The city's wealth and industry is based on the famous glooth. The magistrate runs the city according to the wishes of its inhabitants.": {
-   "pt": "",
+   "pt": "Esta cidade é uma maravilha moderna do progresso. A riqueza e a indústria da cidade se baseiam na famosa glooth. O magistrado administra a cidade de acordo com os desejos dos seus habitantes.",
    "n": 1,
    "npc": [
     "guide_kunibert"
    ]
   },
   "I'm Kunibert, of course.": {
-   "pt": "",
+   "pt": "Sou Kunibert, é claro.",
    "n": 1,
    "npc": [
     "guide_kunibert"
    ]
   },
   "Welcome to Rathleton, |PLAYERNAME|! Looking for a transport to the main isle of Oramond or would you like some information and a mapguide?": {
-   "pt": "",
+   "pt": "Bem-vindo a Rathleton, |PLAYERNAME|! Procurando um transporte para a ilha principal de Oramond, ou gostaria de informações e um guia de mapa?",
    "n": 1,
    "npc": [
     "guide_kunibert"
    ]
   },
   "Good bye and enjoy your stay in Rathleton, |PLAYERNAME|": {
-   "pt": "",
+   "pt": "Adeus, e aproveite sua estadia em Rathleton, |PLAYERNAME|",
    "n": 1,
    "npc": [
     "guide_kunibert"
@@ -49841,77 +49841,77 @@
    ]
   },
   "Your vocation has no promotion.": {
-   "pt": "",
+   "pt": "Sua vocação não tem promoção.",
    "n": 1,
    "npc": [
     "test_server"
    ]
   },
   "You are already promoted.": {
-   "pt": "",
+   "pt": "Você já foi promovido.",
    "n": 1,
    "npc": [
     "test_server"
    ]
   },
   "You do not have Tibia Coins to remove.": {
-   "pt": "",
+   "pt": "Você não tem Tibia Coins para remover.",
    "n": 1,
    "npc": [
     "test_server"
    ]
   },
   "Done, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Feito, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "test_server"
    ]
   },
   "Choose a valid experience value.": {
-   "pt": "",
+   "pt": "Escolha um valor de experiência válido.",
    "n": 1,
    "npc": [
     "test_server"
    ]
   },
   "I could not load outfits right now.": {
-   "pt": "",
+   "pt": "Não consegui carregar outfits agora.",
    "n": 1,
    "npc": [
     "test_server"
    ]
   },
   "I could not load mounts right now.": {
-   "pt": "",
+   "pt": "Não consegui carregar mounts agora.",
    "n": 1,
    "npc": [
     "test_server"
    ]
   },
   "I cannot bless you during battle.": {
-   "pt": "",
+   "pt": "Não posso abençoá-lo durante uma batalha.",
    "n": 1,
    "npc": [
     "test_server"
    ]
   },
   "You have been blessed, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Você foi abençoado, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "test_server"
    ]
   },
   "Welcome to Test Server. I can give {outfit}, {mount}, {bless}, {promotion}, {money}, {tibia coins}, {remove tibia coins}, {skill}, {reset}, and {exp}. Use {level X} from 1 to 3000 (example: {level 500}).": {
-   "pt": "",
+   "pt": "Bem-vindo ao Test Server. Posso dar {visual}, {mount}, {bless}, {promotion}, {money}, {tibia coins}, {remove tibia coins}, {skill}, {reset} e {exp}. Use {level X} de 1 a 3000 (exemplo: {level 500}).",
    "n": 1,
    "npc": [
     "test_server"
    ]
   },
   "Trade is open. You can also ask for {outfit}, {mount}, {bless}, {promotion}, {money}, {tibia coins}, {remove tibia coins}, {skill}, {reset}, and {exp}. Use {level X} from 1 to 3000.": {
-   "pt": "",
+   "pt": "O comércio está aberto. Você também pode pedir {visual}, {mount}, {bless}, {promotion}, {money}, {tibia coins}, {remove tibia coins}, {skill}, {reset} e {exp}. Use {level X} de 1 a 3000.",
    "n": 1,
    "npc": [
     "test_server"
@@ -58140,7 +58140,7 @@
    "n": 3
   },
   "skill": {
-   "pt": "",
+   "pt": "skill",
    "n": 3
   },
   "magic device": {
@@ -59232,31 +59232,31 @@
    "n": 2
   },
   "mount": {
-   "pt": "",
+   "pt": "mount",
    "n": 2
   },
   "bless": {
-   "pt": "",
+   "pt": "bless",
    "n": 2
   },
   "tibia coins": {
-   "pt": "",
+   "pt": "tibia coins",
    "n": 2
   },
   "remove tibia coins": {
-   "pt": "",
+   "pt": "remove tibia coins",
    "n": 2
   },
   "reset": {
-   "pt": "",
+   "pt": "reset",
    "n": 2
   },
   "exp": {
-   "pt": "",
+   "pt": "exp",
    "n": 2
   },
   "level x": {
-   "pt": "",
+   "pt": "level x",
    "n": 2
   },
   "prophet": {
@@ -60344,7 +60344,7 @@
    "n": 1
   },
   "hazard": {
-   "pt": "",
+   "pt": "hazard",
    "n": 1
   },
   "items": {
