@@ -3899,7 +3899,7 @@
    ]
   },
   "Here you have it.": {
-   "pt": "",
+   "pt": "Aqui está.",
    "n": 8,
    "npc": [
     "uzgod",
@@ -6140,14 +6140,14 @@
    ]
   },
   "I offer you the": {
-   "pt": "",
+   "pt": "Ofereço a você o",
    "n": 4,
    "npc": [
     "walter_jaeger"
    ]
   },
   "Sorry, but you don't have enough hunting task points.": {
-   "pt": "",
+   "pt": "Desculpe, mas você não tem hunting task points suficientes.",
    "n": 4,
    "npc": [
     "walter_jaeger"
@@ -8586,7 +8586,7 @@
    ]
   },
   "Gems and jewellery! Best prices in town!": {
-   "pt": "",
+   "pt": "Gemas e joias! Os melhores preços da cidade!",
    "n": 2,
    "npc": [
     "augustin",
@@ -8594,7 +8594,7 @@
    ]
   },
   "I am a jeweler. Maybe you want to have a look at my wonderful offers.": {
-   "pt": "",
+   "pt": "Sou joalheira. Talvez você queira dar uma olhada nas minhas ofertas maravilhosas.",
    "n": 2,
    "npc": [
     "augustin",
@@ -8602,7 +8602,7 @@
    ]
   },
   "Oh, please come in, |PLAYERNAME|. What do you need? Have a look at my wonderful {offers} in gems and jewellery.": {
-   "pt": "",
+   "pt": "Ah, por favor, entre, |PLAYERNAME|. Do que precisa? Dê uma olhada nas minhas maravilhosas {ofertas} em gemas e joias.",
    "n": 2,
    "npc": [
     "augustin",
@@ -11875,7 +11875,7 @@
    ]
   },
   "I am... a traveler. Just leave me alone if you have nothing {interesting} to talk about.": {
-   "pt": "",
+   "pt": "Eu sou... um viajante. Só me deixe em paz se não tiver nada {interessante} para falar.",
    "n": 2,
    "npc": [
     "todd"
@@ -12120,28 +12120,28 @@
    ]
   },
   "Sorry, but you don't have enough slots on your inbox or capacity.": {
-   "pt": "",
+   "pt": "Desculpe, mas você não tem slots suficientes na inbox ou capacidade.",
    "n": 2,
    "npc": [
     "walter_jaeger"
    ]
   },
   "First you need to buy the base addon to unlock this addon.": {
-   "pt": "",
+   "pt": "Primeiro você precisa comprar o addon base para desbloquear este addon.",
    "n": 2,
    "npc": [
     "walter_jaeger"
    ]
   },
   "You already have this addon.": {
-   "pt": "",
+   "pt": "Você já tem este addon.",
    "n": 2,
    "npc": [
     "walter_jaeger"
    ]
   },
   "Keep on hunting!": {
-   "pt": "",
+   "pt": "Continue caçando!",
    "n": 2,
    "npc": [
     "walter_jaeger"
@@ -12647,119 +12647,119 @@
    ]
   },
   "Great riddle, isn't it? If you can tell me the correct answer, \\z\n\t\t\t\tI will give you something. Hehehe!": {
-   "pt": "",
+   "pt": "Ótimo enigma, não é? Se você me disser a resposta certa, eu lhe dou uma coisa. Hehehe!",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "Hurray! For that I will give you my key for - hmm - let's say ... some apples. Interested?": {
-   "pt": "",
+   "pt": "Viva! Por isso vou lhe dar minha chave por - hmm - vamos dizer ... umas maçãs. Interessado?",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "Mnjam - excellent apples. Now - about that key. You are sure want it?": {
-   "pt": "",
+   "pt": "Nhem - maçãs excelentes. Agora - sobre a chave. Tem certeza de que quer?",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "Get some more apples first!": {
-   "pt": "",
+   "pt": "Consiga mais maçãs primeiro!",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "Really, really?": {
-   "pt": "",
+   "pt": "Sério, sério?",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "Really, really, really, really?": {
-   "pt": "",
+   "pt": "Sério, sério, sério, sério?",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "Then take it and get happy - or die, hehe.": {
-   "pt": "",
+   "pt": "Então pegue e fique feliz - ou morra, hehe.",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "Then go away!": {
-   "pt": "",
+   "pt": "Então vá embora!",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "My surreal numbers are based on astonishing facts. \\z\n\t\t\t\tAre you interested in learning the secret of mathemagics?": {
-   "pt": "",
+   "pt": "Meus números surreais se baseiam em fatos surpreendentes. Tem interesse em aprender o segredo da mathemagics?",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "You already know the secrets of mathemagics! Now go and use them to learn.": {
-   "pt": "",
+   "pt": "Você já conhece os segredos da mathemagics! Agora vá e use-os para aprender.",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "But first tell me your favourite colour please!": {
-   "pt": "",
+   "pt": "Mas primeiro me diga sua cor favorita, por favor!",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "Very interesting. So are you ready to proceed in your lesson in mathemagics?": {
-   "pt": "",
+   "pt": "Muito interessante. Então você está pronto para prosseguir na sua lição de mathemagics?",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "So know that everything is based on the simple fact that 1 + 1 = 1!": {
-   "pt": "",
+   "pt": "Então saiba que tudo se baseia no simples fato de que 1 + 1 = 1!",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "I think you are not in touch with yourself, come back if you have tuned in on your own feelings.": {
-   "pt": "",
+   "pt": "Acho que você não está em contato consigo mesmo, volte quando estiver sintonizado com os próprios sentimentos.",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "Wait! Don't leave! I want to tell you about my surreal numbers.": {
-   "pt": "",
+   "pt": "Espere! Não vá! Quero lhe falar sobre meus números surreais.",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "Good bye! Don't forget about the secrets of mathemagics.": {
-   "pt": "",
+   "pt": "Até logo! Não esqueça dos segredos da mathemagics.",
    "n": 1,
    "npc": [
     "a_prisoner"
    ]
   },
   "Huh? What? I can see! Wow! A non-mino. Did they {capture} you as well?": {
-   "pt": "",
+   "pt": "Hã? O quê? Consigo ver! Uau! Um não-mino. Eles lhe {capturaram} também?",
    "n": 1,
    "npc": [
     "a_prisoner"
@@ -31442,21 +31442,21 @@
    ]
   },
   "I am Hanna.": {
-   "pt": "",
+   "pt": "Sou Hanna.",
    "n": 1,
    "npc": [
     "hanna"
    ]
   },
   "Pretty, isn't it? My friend Amber taught me how to make it, but I could help you with one if you like. What do you say?": {
-   "pt": "",
+   "pt": "Bonito, não é? Minha amiga Amber me ensinou a fazer, mas posso lhe ajudar a fazer um, se quiser. O que me diz?",
    "n": 1,
    "npc": [
     "hanna"
    ]
   },
   "Pretty hat, isn't it?": {
-   "pt": "",
+   "pt": "Chapéu bonito, não é?",
    "n": 1,
    "npc": [
     "hanna"
@@ -41347,7 +41347,7 @@
    ]
   },
   "Okay, here we go, listen closely! I need a few things... a basic hat of course, maybe a legion helmet would do. Then about 100 chicken feathers... and 50 honeycombs as glue.That's it, come back to me once you gathered it!!": {
-   "pt": "Certo, lá vamos nós, preste bem atenção! Preciso de algumas coisas... um chapéu básico, claro, talvez um legion helmet sirva. Depois uns 100 chicken feathers... e 50 honeycombs de cola. É isso, volte quando tiver juntado tudo!!",
+   "pt": "Certo, lá vamos nós, preste bem atenção! Preciso de algumas coisas... um chapéu básico, claro, talvez um legion helmet sirva. Depois uns 100 chicken feathers... e 50 honeycombs de cola. É isso, volte quando tiver juntado tudo!",
    "n": 1,
    "npc": [
     "norma"
@@ -51266,98 +51266,98 @@
    ]
   },
   "Uhhh ohhhh one of the beers yesterday must have been bad.": {
-   "pt": "",
+   "pt": "Uhhh ohhhh uma das cervejas de ontem deve ter estragado.",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "My Name? I am To... ahm... hum... My name is {Hugo}.": {
-   "pt": "",
+   "pt": "Meu nome? Sou To... ahn... hum... Meu nome é {Hugo}.",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "Yes, that's my name of course.": {
-   "pt": "",
+   "pt": "Sim, esse é meu nome, claro.",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "Uh .. I... I met a Todd on the road. He told me he was traveling to Venore, look there for your Todd.": {
-   "pt": "",
+   "pt": "Uh .. eu... eu encontrei um Todd na estrada. Ele me disse que ia viajar para Venore, procure seu Todd lá.",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "I love that city.": {
-   "pt": "",
+   "pt": "Eu amo aquela cidade.",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "I never was there. Now leave me alone.": {
-   "pt": "",
+   "pt": "Nunca estive lá. Agora me deixe em paz.",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "Resistance is futile... uhm... I wonder where I picked that saying up. Oh my head...": {
-   "pt": "",
+   "pt": "Resistência é inútil... uhm... fico pensando onde peguei esse ditado. Ai minha cabeça...",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "I don't know anything about money, missing or not.": {
-   "pt": "",
+   "pt": "Não sei nada sobre dinheiro, desaparecido ou não.",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "He often comes here. But his constant confusion gives me a worse headache than Frodo's beer. I rather avoid him.": {
-   "pt": "",
+   "pt": "Ele vem aqui com frequência. Mas a confusão constante dele me dá uma dor de cabeça pior que a cerveja do Frodo. Prefiro evitá-lo.",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "Uhm, never heard about him... and you can't prove otherwise.": {
-   "pt": "",
+   "pt": "Uhm, nunca ouvi falar dele... e você não pode provar o contrário.",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "Thats a common name, perhaps I met a William, not sure about that.": {
-   "pt": "",
+   "pt": "Esse é um nome comum, talvez eu tenha conhecido um William, não tenho certeza.",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "Uhm oh hello |PLAYERNAME|... not so loud please... my {head}... What ... do you {want}?": {
-   "pt": "",
+   "pt": "Uhm ah olá |PLAYERNAME|... não tão alto, por favor... minha {cabeça}... O que ... você {quer}?",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "Yes, goodbye |PLAYERNAME|, just leave me alone.": {
-   "pt": "",
+   "pt": "Sim, até logo |PLAYERNAME|, só me deixe em paz.",
    "n": 1,
    "npc": [
     "todd"
    ]
   },
   "Silence at last.": {
-   "pt": "",
+   "pt": "Silêncio, finalmente.",
    "n": 1,
    "npc": [
     "todd"
@@ -53191,77 +53191,77 @@
    ]
   },
   "Prey hunting tasks should reduce the number of certain monsters. And if you fulfil them successfully I will show my appreciation and give you some {rewards} in exchange of hunting task points.": {
-   "pt": "",
+   "pt": "As prey hunting tasks devem reduzir o número de certos monstros. E se você as cumprir com sucesso, vou lhe mostrar minha gratidão e dar {recompensas} em troca de hunting task points.",
    "n": 1,
    "npc": [
     "walter_jaeger"
    ]
   },
   "Right now you have": {
-   "pt": "",
+   "pt": "No momento você tem",
    "n": 1,
    "npc": [
     "walter_jaeger"
    ]
   },
   "You have already spent": {
-   "pt": "",
+   "pt": "Você já gastou",
    "n": 1,
    "npc": [
     "walter_jaeger"
    ]
   },
   "Sorry, i have no offer to make for you today.": {
-   "pt": "",
+   "pt": "Desculpe, não tenho oferta para lhe fazer hoje.",
    "n": 1,
    "npc": [
     "walter_jaeger"
    ]
   },
   "I have no outfit offer to make.": {
-   "pt": "",
+   "pt": "Não tenho oferta de outfit para fazer.",
    "n": 1,
    "npc": [
     "walter_jaeger"
    ]
   },
   "I have no mount offer to make.": {
-   "pt": "",
+   "pt": "Não tenho oferta de mount para fazer.",
    "n": 1,
    "npc": [
     "walter_jaeger"
    ]
   },
   "I have no trophie offer to make.": {
-   "pt": "",
+   "pt": "Não tenho oferta de trophy para fazer.",
    "n": 1,
    "npc": [
     "walter_jaeger"
    ]
   },
   "I have no furniture offer to make.": {
-   "pt": "",
+   "pt": "Não tenho oferta de móveis para fazer.",
    "n": 1,
    "npc": [
     "walter_jaeger"
    ]
   },
   "You already have this outfit.": {
-   "pt": "",
+   "pt": "Você já tem este outfit.",
    "n": 1,
    "npc": [
     "walter_jaeger"
    ]
   },
   "You already have this mount.": {
-   "pt": "",
+   "pt": "Você já tem esta mount.",
    "n": 1,
    "npc": [
     "walter_jaeger"
    ]
   },
   "Good hunting! I can offer you some lovely {rewards} for finishing prey hunting tasks! Furthermore I can tell you how many hunting task points (HTP) you actually {have} and you have already {spent}.": {
-   "pt": "",
+   "pt": "Boa caçada! Posso lhe oferecer belas {recompensas} por concluir prey hunting tasks! Além disso, posso lhe dizer quantos hunting task points (HTP) você realmente {tem} e quantos já {gastou}.",
    "n": 1,
    "npc": [
     "walter_jaeger"
@@ -56682,7 +56682,7 @@
    "n": 12
   },
   "offers": {
-   "pt": "",
+   "pt": "ofertas",
    "n": 12
   },
   "news": {
@@ -59154,7 +59154,7 @@
    "n": 2
   },
   "have": {
-   "pt": "",
+   "pt": "tem",
    "n": 2
   },
   "factory quarter": {
@@ -59418,11 +59418,11 @@
    "n": 2
   },
   "interesting": {
-   "pt": "",
+   "pt": "interessante",
    "n": 2
   },
   "head": {
-   "pt": "",
+   "pt": "cabeça",
    "n": 2
   },
   "resistance": {
@@ -59450,7 +59450,7 @@
    "n": 2
   },
   "rewards": {
-   "pt": "",
+   "pt": "recompensas",
    "n": 2
   },
   "bank account": {
@@ -59522,7 +59522,7 @@
    "n": 1
   },
   "capture": {
-   "pt": "",
+   "pt": "capturar",
    "n": 1
   },
   "look": {
@@ -61874,7 +61874,7 @@
    "n": 1
   },
   "spent": {
-   "pt": "",
+   "pt": "gastou",
    "n": 1
   },
   "change gold": {
@@ -62321,6 +62321,10 @@
   },
   "escort": {
    "pt": "escolto",
+   "n": 0
+  },
+  "capture": {
+   "pt": "capturaram",
    "n": 0
   }
  }
