@@ -5869,7 +5869,7 @@
    ]
   },
   "Until next time.": {
-   "pt": "",
+   "pt": "Até a próxima.",
    "n": 4,
    "npc": [
     "gurbasch",
@@ -7339,7 +7339,7 @@
    ]
   },
   "Yeah, good bye and don't come again!": {
-   "pt": "",
+   "pt": "É, adeus e não volte mais!",
    "n": 2,
    "npc": [
     "a_frog",
@@ -7670,7 +7670,7 @@
    ]
   },
   "LEAVE THE DRAGONS' CEMETERY AT ONCE!": {
-   "pt": "",
+   "pt": "SAIA DO CEMITÉRIO DOS DRAGÕES AGORA MESMO!",
    "n": 2,
    "npc": [
     "an_old_dragon_lord"
@@ -7699,7 +7699,7 @@
    ]
   },
   "May the gods bless you.": {
-   "pt": "",
+   "pt": "Que os deuses o abençoem.",
    "n": 2,
    "npc": [
     "angelina"
@@ -8699,7 +8699,7 @@
    ]
   },
   "The valley is rich in vegetation. Bursting of fragrance and colour in the spring and summer, it truly is a sight to behold. You need an eye and a nose for things like this, of course.": {
-   "pt": "",
+   "pt": "O vale é rico em vegetação. Estourando de fragrância e cor na primavera e no verão, é realmente um espetáculo à vista. Você precisa de olho e nariz para coisas assim, claro.",
    "n": 2,
    "npc": [
     "bodh_the_kan",
@@ -10134,7 +10134,7 @@
    ]
   },
   "Welcome, |PLAYERNAME|! Lovely steamboat, ain't it? I can even offer you a {passage} if you like.": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Belo barco a vapor, não é? Posso até lhe oferecer uma {passagem}, se quiser.",
    "n": 2,
    "npc": [
     "gurbasch",
@@ -15170,21 +15170,21 @@
    ]
   },
   "AHHHH THE PAIN OF AGESSS! THE PAIN!": {
-   "pt": "",
+   "pt": "AHHHH A DOOOR DE SÉCULOSSS! A DOOOR!",
    "n": 1,
    "npc": [
     "an_old_dragon_lord"
    ]
   },
   "AHHHH THE PAIN OF AGESSS! I NEED MUSSSSHRROOOMSSS TO EASSSE MY PAIN! BRRRING ME MUSHRRROOOMSSS!": {
-   "pt": "",
+   "pt": "AHHHH A DOOOR DE SÉCULOSSS! EU PRECISSSO DE COGUUUMELOSSS PARA ALIVIAAAR MINHA DOOOR! TRAAAGAM COGUUUMELOSSS PARA MIM!",
    "n": 1,
    "npc": [
     "an_old_dragon_lord"
    ]
   },
   "AHHH MUSHRRROOOMSSS! NOW MY PAIN WILL BE EASSSED FOR A WHILE! TAKE THISS AND LEAVE THE DRAGONSSS' CEMETERY AT ONCE!": {
-   "pt": "",
+   "pt": "AHHH COGUUUMELOSSS! AGORA MINHA DOOOR SSSERÁ ALIVIADA POR UM TEMPO! PEGUE ISSSO E SSSAIA DO CEMITÉRIO DOSSS DRAGÕESSS AGORA MESMO!",
    "n": 1,
    "npc": [
     "an_old_dragon_lord"
@@ -15457,21 +15457,21 @@
    ]
   },
   "I will tell you a small secret now. My friend Lynda in Thais can create a blessed wand. Greet her from me, maybe she will aid you.": {
-   "pt": "",
+   "pt": "Vou lhe contar um pequeno segredo agora. Minha amiga Lynda, em Thais, pode criar uma blessed wand. Cumprimente-a por mim, talvez ela o ajude.",
    "n": 1,
    "npc": [
     "angelina"
    ]
   },
   "The gods must be praised that I am finally saved. I do not have many worldly possessions, but please accept a small reward, do you?": {
-   "pt": "",
+   "pt": "Os deuses devem ser louvados por eu finalmente estar salva. Não tenho muitos bens materiais, mas por favor aceite uma pequena recompensa, aceita?",
    "n": 1,
    "npc": [
     "angelina"
    ]
   },
   "Thanks for saving my life! Should I teleport you out of the Dark Cathedral?": {
-   "pt": "",
+   "pt": "Obrigada por salvar minha vida! Devo teleportá-lo para fora da Dark Cathedral?",
    "n": 1,
    "npc": [
     "angelina"
@@ -17207,21 +17207,21 @@
    ]
   },
   "Hmh. Tread carefully around here, some of these plants are way older than you.": {
-   "pt": "",
+   "pt": "Hmh. Ande com cuidado por aqui, algumas dessas plantas são muito mais velhas que você.",
    "n": 1,
    "npc": [
     "bodh_the_kan"
    ]
   },
   "Careful around the gardens! I do not want to repeat myself.": {
-   "pt": "",
+   "pt": "Cuidado perto dos jardins! Não quero ter que repetir.",
    "n": 1,
    "npc": [
     "bodh_the_kan"
    ]
   },
   "Hmh.": {
-   "pt": "",
+   "pt": "Hmh.",
    "n": 1,
    "npc": [
     "bodh_the_kan"
@@ -18768,28 +18768,28 @@
    ]
   },
   "Welcome to the Canary Server!": {
-   "pt": "",
+   "pt": "Bem-vindo ao Canary Server!",
    "n": 1,
    "npc": [
     "canary"
    ]
   },
   "This the our discord group link: {https://discordapp.com/invite/3NxYnyV}": {
-   "pt": "",
+   "pt": "Este é o link do nosso grupo do discord: {https://discordapp.com/invite/3NxYnyV}",
    "n": 1,
    "npc": [
     "canary"
    ]
   },
   "Hello |PLAYERNAME|, you need more info about {canary}?": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|, precisa de mais informações sobre o {canary}?",
    "n": 1,
    "npc": [
     "canary"
    ]
   },
   "You not have education?": {
-   "pt": "",
+   "pt": "Você não tem educação?",
    "n": 1,
    "npc": [
     "canary"
@@ -20525,35 +20525,35 @@
    ]
   },
   "My name is Chesa, I greet you.": {
-   "pt": "",
+   "pt": "Meu nome é Chesa, eu o saúdo.",
    "n": 1,
    "npc": [
     "chesa_the_guardian"
    ]
   },
   "The valley of the Merudri has been our home for a long time. There have been guardians around here since I remember. I always wanted to become one of them and here I am.": {
-   "pt": "",
+   "pt": "O vale dos Merudri é nosso lar há muito tempo. Sempre houve guardiões por aqui, desde que me lembro. Sempre quis me tornar um deles, e aqui estou.",
    "n": 1,
    "npc": [
     "chesa_the_guardian"
    ]
   },
   "Indeed, we are Merudri. You are now in the centre of our sacred sanctuary and ancestral home, the Blue Valley.": {
-   "pt": "",
+   "pt": "De fato, somos Merudri. Você agora está no centro do nosso santuário sagrado e lar ancestral, o Blue Valley.",
    "n": 1,
    "npc": [
     "chesa_the_guardian"
    ]
   },
   "Safe travels!": {
-   "pt": "",
+   "pt": "Boas viagens!",
    "n": 1,
    "npc": [
     "chesa_the_guardian"
    ]
   },
   "Alright then.": {
-   "pt": "",
+   "pt": "Tudo bem, então.",
    "n": 1,
    "npc": [
     "chesa_the_guardian"
@@ -22254,63 +22254,63 @@
    ]
   },
   "This valley has been my home and will be for the foreseeable time.": {
-   "pt": "",
+   "pt": "Este vale tem sido meu lar e continuará sendo por um bom tempo.",
    "n": 1,
    "npc": [
     "dahr-enpa_rahng"
    ]
   },
   "Every monk must undertake the Three-Fold Path. So did I and so is the way of the Merudri of the valley.": {
-   "pt": "",
+   "pt": "Todo monk deve percorrer o Three-Fold Path. Assim eu fiz, e assim é o caminho dos Merudri do vale.",
    "n": 1,
    "npc": [
     "dahr-enpa_rahng"
    ]
   },
   "I am Merudri, yet every monk can become Dhar-Enpa, once inducted to our ways and given the proper training.": {
-   "pt": "",
+   "pt": "Sou Merudri, mas todo monk pode se tornar Dhar-Enpa, uma vez introduzido em nossos costumes e recebendo o treinamento adequado.",
    "n": 1,
    "npc": [
     "dahr-enpa_rahng"
    ]
   },
   "Harmony, enlightenment, power.": {
-   "pt": "",
+   "pt": "Harmonia, iluminação, poder.",
    "n": 1,
    "npc": [
     "dahr-enpa_rahng"
    ]
   },
   "Our valley has been the center of our lives for generations. We are born here, learn the Merudri ways of our ancestors and no matter where our paths may take us, will return to this place eventually.": {
-   "pt": "",
+   "pt": "Nosso vale é o centro das nossas vidas há gerações. Nascemos aqui, aprendemos os costumes Merudri dos nossos ancestrais, e não importa para onde nossos caminhos nos levem, sempre vamos voltar a este lugar.",
    "n": 1,
    "npc": [
     "dajcho_the_monk"
    ]
   },
   "The experiences I made on my pilgrimage are mine and mine alone. It is of my own free will to share them with fellow Merudri only as of now.": {
-   "pt": "",
+   "pt": "As experiências que tive na minha peregrinação são só minhas. É por livre e espontânea vontade que as compartilho apenas com meus colegas Merudri, por enquanto.",
    "n": 1,
    "npc": [
     "dajcho_the_monk"
    ]
   },
   "Pema will be the successor to our Enpa Rudra. She will continue to fight for our legacy with just as much passion and wisdom when her time comes.": {
-   "pt": "",
+   "pt": "Pema será a sucessora da nossa Enpa Rudra. Ela vai continuar lutando pelo nosso legado com a mesma paixão e sabedoria quando chegar a hora dela.",
    "n": 1,
    "npc": [
     "dajcho_the_monk"
    ]
   },
   "Safe passage, friend!": {
-   "pt": "",
+   "pt": "Boa passagem, amigo!",
    "n": 1,
    "npc": [
     "dajcho_the_monk"
    ]
   },
   "Harmony, friend.": {
-   "pt": "",
+   "pt": "Harmonia, amigo.",
    "n": 1,
    "npc": [
     "dajcho_the_monk"
@@ -30570,14 +30570,14 @@
    ]
   },
   "Passages to Kazordoon! Gotta try the beer there.": {
-   "pt": "",
+   "pt": "Passagens para Kazordoon! Tem que experimentar a cerveja de lá.",
    "n": 1,
    "npc": [
     "gurbasch"
    ]
   },
   "Where do you want me to take you? To {Kazordoon}, {Farmine} or {Gnomprona}?": {
-   "pt": "",
+   "pt": "Para onde você quer que eu o leve? Para {Kazordoon}, {Farmine} ou {Gnomprona}?",
    "n": 1,
    "npc": [
     "gurbasch"
@@ -34644,49 +34644,49 @@
    ]
   },
   "Change your Bar of Gold's for Items here!": {
-   "pt": "",
+   "pt": "Troque seus Bar of Gold por itens aqui!",
    "n": 1,
    "npc": [
     "jeronimo"
    ]
   },
   "In our website enter in {Events} => {Events Shop}.": {
-   "pt": "",
+   "pt": "No nosso site, entre em {Events} => {Events Shop}.",
    "n": 1,
    "npc": [
     "jeronimo"
    ]
   },
   "You want buy {": {
-   "pt": "",
+   "pt": "Você quer comprar {",
    "n": 1,
    "npc": [
     "jeronimo"
    ]
   },
   "You don't have": {
-   "pt": "",
+   "pt": "Você não tem",
    "n": 1,
    "npc": [
     "jeronimo"
    ]
   },
   "So... what you want?": {
-   "pt": "",
+   "pt": "Então... o que você quer?",
    "n": 1,
    "npc": [
     "jeronimo"
    ]
   },
   "You bought {": {
-   "pt": "",
+   "pt": "Você comprou {",
    "n": 1,
    "npc": [
     "jeronimo"
    ]
   },
   "You don't have enough bar's.": {
-   "pt": "",
+   "pt": "Você não tem bar's suficientes.",
    "n": 1,
    "npc": [
     "jeronimo"
@@ -36107,42 +36107,42 @@
    ]
   },
   "Hmm, you look like a seasoned seadog. Kill Captain Ray Striker, bring me his lucky pillow as a proof and you are our hero!": {
-   "pt": "",
+   "pt": "Hmm, você parece um lobo do mar experiente. Mate o Captain Ray Striker, me traga o travesseiro da sorte dele como prova, e você será nosso herói!",
    "n": 1,
    "npc": [
     "klaus"
    ]
   },
   "Do you have Striker's pillow?": {
-   "pt": "",
+   "pt": "Você tem o travesseiro de Striker?",
    "n": 1,
    "npc": [
     "klaus"
    ]
   },
   "You DID it!!! Incredible! Boys, lets have a PAAAAAARTY!!!!": {
-   "pt": "",
+   "pt": "Você CONSEGUIU!!! Incrível! Rapazes, vamos faaazer uma FEEEESTA!!!!",
    "n": 1,
    "npc": [
     "klaus"
    ]
   },
   "Come back when you have his lucky pillow.": {
-   "pt": "",
+   "pt": "Volte quando tiver o travesseiro da sorte dele.",
    "n": 1,
    "npc": [
     "klaus"
    ]
   },
   "Ho matey.": {
-   "pt": "",
+   "pt": "Ô, camarada.",
    "n": 1,
    "npc": [
     "klaus"
    ]
   },
   "Whenever your throat is dry, you know where to find my tavern.": {
-   "pt": "",
+   "pt": "Sempre que sua garganta estiver seca, você sabe onde encontrar minha taverna.",
    "n": 1,
    "npc": [
     "klaus"
@@ -44017,49 +44017,49 @@
    ]
   },
   "Ahhhh!": {
-   "pt": "",
+   "pt": "Ahhhh!",
    "n": 1,
    "npc": [
     "prisoner"
    ]
   },
   "Have mercy!": {
-   "pt": "",
+   "pt": "Tenha piedade!",
    "n": 1,
    "npc": [
     "prisoner"
    ]
   },
   "I admit! I admit!": {
-   "pt": "",
+   "pt": "Eu admito! Eu admito!",
    "n": 1,
    "npc": [
     "prisoner"
    ]
   },
   "I repent!": {
-   "pt": "",
+   "pt": "Eu me arrependo!",
    "n": 1,
    "npc": [
     "prisoner"
    ]
   },
   "Noooooo!": {
-   "pt": "",
+   "pt": "Nãooooo!",
    "n": 1,
    "npc": [
     "prisoner"
    ]
   },
   "Please! I beg you to stop!": {
-   "pt": "",
+   "pt": "Por favor! Eu lhe imploro para parar!",
    "n": 1,
    "npc": [
     "prisoner"
    ]
   },
   "Take it away! Please!": {
-   "pt": "",
+   "pt": "Tire isso daqui! Por favor!",
    "n": 1,
    "npc": [
     "prisoner"
@@ -46229,35 +46229,35 @@
    ]
   },
   "Name is Saih, I greet you, pilgrim.": {
-   "pt": "",
+   "pt": "Nome é Saih, eu o saúdo, peregrino.",
    "n": 1,
    "npc": [
     "saih_the_guardian"
    ]
   },
   "The valley has been our home as it has been the home of our ancestors who were separated from the birth-place. It is a place worth fighting for. As is the legacy of the Merudri and everything we achieved.": {
-   "pt": "",
+   "pt": "O vale tem sido nosso lar, assim como foi o lar dos nossos ancestrais que foram separados do lugar de nascimento. É um lugar pelo qual vale a pena lutar. Assim como o legado dos Merudri e tudo que alcançamos.",
    "n": 1,
    "npc": [
     "saih_the_guardian"
    ]
   },
   "We are Merudri, this valley has been our sanctuary for centuries and is the only thing left from our true ancestral home.": {
-   "pt": "",
+   "pt": "Somos Merudri, este vale é nosso santuário há séculos e é a única coisa que sobrou do nosso verdadeiro lar ancestral.",
    "n": 1,
    "npc": [
     "saih_the_guardian"
    ]
   },
   "Beware!": {
-   "pt": "",
+   "pt": "Cuidado!",
    "n": 1,
    "npc": [
     "saih_the_guardian"
    ]
   },
   "Mh.": {
-   "pt": "",
+   "pt": "Mh.",
    "n": 1,
    "npc": [
     "saih_the_guardian"
@@ -54090,28 +54090,28 @@
    ]
   },
   "Me Yasir.": {
-   "pt": "",
+   "pt": "Mim Yasir.",
    "n": 1,
    "npc": [
     "yasir"
    ]
   },
   "Tje hari ku ne finjala. {Ariki}?": {
-   "pt": "",
+   "pt": "Tje hari ku ne finjala. {Ariki}?",
    "n": 1,
    "npc": [
     "yasir"
    ]
   },
   "Soso yana. <shakes his head>": {
-   "pt": "",
+   "pt": "Soso yana. <balança a cabeça>",
    "n": 1,
    "npc": [
     "yasir"
    ]
   },
   "Si, jema ze harun. <waves>": {
-   "pt": "",
+   "pt": "Si, jema ze harun. <acena>",
    "n": 1,
    "npc": [
     "yasir"
@@ -59820,11 +59820,11 @@
    "n": 1
   },
   "https://discordapp.com/invite/3nxynyv": {
-   "pt": "",
+   "pt": "https://discordapp.com/invite/3NxYnyV",
    "n": 1
   },
   "canary": {
-   "pt": "",
+   "pt": "canary",
    "n": 1
   },
   "adventurers guild": {
@@ -60724,7 +60724,7 @@
    "n": 1
   },
   "events shop": {
-   "pt": "",
+   "pt": "Events Shop",
    "n": 1
   },
   "garlic bread": {
@@ -61836,7 +61836,7 @@
    "n": 1
   },
   "ariki": {
-   "pt": "",
+   "pt": "Ariki",
    "n": 1
   },
   "dice": {
