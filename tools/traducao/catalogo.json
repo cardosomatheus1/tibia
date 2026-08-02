@@ -2625,7 +2625,7 @@
    ]
   },
   "So you ask me for a {": {
-   "pt": "",
+   "pt": "Então você me pede um {",
    "n": 8,
    "npc": [
     "alexander",
@@ -2638,7 +2638,7 @@
    ]
   },
   "What? I have already gave you one {": {
-   "pt": "",
+   "pt": "O quê? Eu já lhe dei um {",
    "n": 8,
    "npc": [
     "alexander",
@@ -5870,7 +5870,7 @@
    ]
   },
   "It's my duty to protect the city.": {
-   "pt": "",
+   "pt": "É meu dever proteger a cidade.",
    "n": 4,
    "npc": [
     "grof_the_guard",
@@ -9519,7 +9519,7 @@
    ]
   },
   "Come back whenever you're in need of wisdom.": {
-   "pt": "",
+   "pt": "Volte sempre que precisar de sabedoria.",
    "n": 2,
    "npc": [
     "edowir"
@@ -10244,7 +10244,7 @@
    ]
   },
   "Good bye. Visit me whenever you want to sell something.": {
-   "pt": "",
+   "pt": "Até logo. Visite-me sempre que quiser vender algo.",
    "n": 2,
    "npc": [
     "hardek"
@@ -11930,7 +11930,7 @@
    ]
   },
   "Good bye, |PLAYERNAME|. Do come again!": {
-   "pt": "",
+   "pt": "Até logo, |PLAYERNAME|. Volte sempre!",
    "n": 2,
    "npc": [
     "topsy"
@@ -16287,7 +16287,7 @@
    ]
   },
   "I am Augustin.": {
-   "pt": "",
+   "pt": "Sou Augustin.",
    "n": 1,
    "npc": [
     "augustin"
@@ -16574,28 +16574,28 @@
    ]
   },
   "People of Thais, bring honour to your king by fighting in the orc war!": {
-   "pt": "",
+   "pt": "Povo de Thais, tragam honra ao seu rei lutando na guerra contra os orcs!",
    "n": 1,
    "npc": [
     "baxter"
    ]
   },
   "The orcs are preparing for war!!!": {
-   "pt": "",
+   "pt": "Os orcs estão se preparando para a guerra!!!",
    "n": 1,
    "npc": [
     "baxter"
    ]
   },
   "LONG LIVE KING TIBIANUS!": {
-   "pt": "",
+   "pt": "VIDA LONGA AO KING TIBIANUS!",
    "n": 1,
    "npc": [
     "baxter"
    ]
   },
   "Do you bring freshly killed rats for a bounty of 1 gold each? By the way, I also buy orc teeth and other stuff you ripped from their bloody corp... I mean... well, you know what I mean.": {
-   "pt": "",
+   "pt": "Você traz freshly killed rats por uma recompensa de 1 gold cada? Aliás, também compro orc teeth e outras coisas que você arrancou dos corpos ensanguentados deles... quero dizer... bem, você sabe o que eu quero dizer.",
    "n": 1,
    "npc": [
     "baxter"
@@ -24008,21 +24008,21 @@
    ]
   },
   "I'm just an old man, but I know a lot about Tibia.": {
-   "pt": "",
+   "pt": "Sou só um velho, mas sei muito sobre Tibia.",
    "n": 1,
    "npc": [
     "edowir"
    ]
   },
   "I gather wisdom and knowledge. I am also an astrologer.": {
-   "pt": "",
+   "pt": "Reúno sabedoria e conhecimento. Também sou astrólogo.",
    "n": 1,
    "npc": [
     "edowir"
    ]
   },
   "Oh, hello |PLAYERNAME|! How nice of you to visit an old man like me.": {
-   "pt": "",
+   "pt": "Ah, olá |PLAYERNAME|! Que gentileza visitar um velho como eu.",
    "n": 1,
    "npc": [
     "edowir"
@@ -31470,21 +31470,21 @@
    ]
   },
   "Buying and selling all sorts of weapons and armors!": {
-   "pt": "",
+   "pt": "Compro e vendo todo tipo de weapons e armors!",
    "n": 1,
    "npc": [
     "hardek"
    ]
   },
   "I am buying some weapons and armors.": {
-   "pt": "",
+   "pt": "Estou comprando algumas weapons e armors.",
    "n": 1,
    "npc": [
     "hardek"
    ]
   },
   "Hello |PLAYERNAME|! Do you need my services?": {
-   "pt": "",
+   "pt": "Olá |PLAYERNAME|! Precisa dos meus serviços?",
    "n": 1,
    "npc": [
     "hardek"
@@ -39471,28 +39471,28 @@
    ]
   },
   "I'm fine. There's no trouble at all.": {
-   "pt": "",
+   "pt": "Estou bem. Não há problema nenhum.",
    "n": 1,
    "npc": [
     "miles_the_guard"
    ]
   },
   "Well, of course. We live in safety and peace.": {
-   "pt": "",
+   "pt": "Bem, claro. Vivemos em segurança e paz.",
    "n": 1,
    "npc": [
     "miles_the_guard"
    ]
   },
   "I think the gods are looking after us and their hands shield us from evil.": {
-   "pt": "",
+   "pt": "Acho que os deuses cuidam de nós e as mãos deles nos protegem do mal.",
    "n": 1,
    "npc": [
     "miles_the_guard"
    ]
   },
   "I think the gods and the government do their best to keep away harm from the citizens.": {
-   "pt": "",
+   "pt": "Acho que os deuses e o governo fazem o melhor que podem para afastar o mal dos cidadãos.",
    "n": 1,
    "npc": [
     "miles_the_guard"
@@ -51840,14 +51840,14 @@
    ]
   },
   "Runes, wands, rods, health and mana potions! Have a look!": {
-   "pt": "",
+   "pt": "Runes, wands, rods, health e mana potions! Dê uma olhada!",
    "n": 1,
    "npc": [
     "topsy"
    ]
   },
   "Hello, dear |PLAYERNAME|. How can I help you? \\z\n\tIf you need magical equipment such as {runes} or {wands}, just ask me for a {trade}.": {
-   "pt": "",
+   "pt": "Olá, querido |PLAYERNAME|. Como posso ajudar? Se precisar de equipamento mágico como {runes} ou {wands}, é só me pedir para {negociar}.",
    "n": 1,
    "npc": [
     "topsy"
