@@ -4280,7 +4280,7 @@
    ]
   },
   "Come back when you have the ingredient.": {
-   "pt": "",
+   "pt": "Volte quando tiver o ingrediente.",
    "n": 7,
    "npc": [
     "nilsor"
@@ -4294,7 +4294,7 @@
    ]
   },
   "Come back when you do.": {
-   "pt": "",
+   "pt": "Volte quando tiver.",
    "n": 7,
    "npc": [
     "palimuth",
@@ -5217,7 +5217,7 @@
    ]
   },
   "Do you seek a ride to": {
-   "pt": "",
+   "pt": "Você procura uma carona para",
    "n": 5,
    "npc": [
     "chemar",
@@ -5932,7 +5932,7 @@
    ]
   },
   "I can fly you to {Darashia}, to {Edron}, to {Kazordoon}, to Z... Zao, to the F...{Femor Hills}, to {Issavi} or to M... {Marapur} if you like. W....Where do you want to go?": {
-   "pt": "",
+   "pt": "Posso lhe levar voando até {Darashia}, {Edron}, {Kazordoon}, Z...Zao, F...{Femor Hills}, {Issavi} ou M...{Marapur}, se quiser. P...para onde você quer ir?",
    "n": 4,
    "npc": [
     "iyad"
@@ -6058,7 +6058,7 @@
    ]
   },
   "Thank you very much.": {
-   "pt": "",
+   "pt": "Muito obrigada.",
    "n": 4,
    "npc": [
     "siflind"
@@ -8899,7 +8899,7 @@
    ]
   },
   "What fo' godsake shall that be??": {
-   "pt": "",
+   "pt": "Que diabos que é isso??",
    "n": 2,
    "npc": [
     "captain_haba"
@@ -10850,7 +10850,7 @@
    ]
   },
   "You dont have enough of gold coins.": {
-   "pt": "",
+   "pt": "Você não tem gold coins suficientes.",
    "n": 2,
    "npc": [
     "melfar",
@@ -10858,7 +10858,7 @@
    ]
   },
   "Im out of stock.": {
-   "pt": "",
+   "pt": "Estou sem estoque.",
    "n": 2,
    "npc": [
     "melfar",
@@ -19258,364 +19258,364 @@
    ]
   },
   "Is this a mutiny or what? Move, move!!": {
-   "pt": "",
+   "pt": "Isto é um motim ou o quê? Andem, andem!!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "In the rigging ya lazy fools!": {
-   "pt": "",
+   "pt": "Na cordoalha, seus vagabundos preguiçosos!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "I wanna see you movin' ya lazy fools!!": {
-   "pt": "",
+   "pt": "Quero ver vocês se mexendo, seus vagabundos preguiçosos!!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Full sails!! There's a sea serpent to catch!!": {
-   "pt": "",
+   "pt": "Todas as velas!! Tem uma sea serpent para pegar!!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "My name is Haba, Captain Haba for ya little worm.": {
-   "pt": "",
+   "pt": "Meu nome é Haba, Captain Haba pra 'ocê, seu vermezinho.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "I ain't no pirate. Don't let yourself mislead by my pirate hat. I got it from a friend of mine.": {
-   "pt": "",
+   "pt": "Eu não sô pirata nenhum. Não se deixe enganar pelo meu chapéu de pirata. Ganhei de um amigo.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Most o' my friends are dead the others don't like me anymore......well, seems there aren't many left.": {
-   "pt": "",
+   "pt": "A maioria dos meus amigo tá morto, os outros não gostam mais de mim......bem, parece que não sobrou muitos.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Who are ya calling a barbarian?!? Watch your tongue here on board or you end up as fish fodder!": {
-   "pt": "",
+   "pt": "Quem 'ocê tá chamando de bárbaro?!? Cuidado com a língua aqui a bordo ou 'ocê acaba de comida de peixe!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Dis is no passenger ship it's a WARship. I'm on hunting business.": {
-   "pt": "",
+   "pt": "Isso aqui não é navio de passageiro, é um navio de GUERRA. To em negócio de caçada.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Never heard of him. He is no captain that's for sure, otherwise I'd know him. I was on the sea for the last 20 years hunting this, this monster.": {
-   "pt": "",
+   "pt": "Nunca ouvi falar dele. Ele não é capitão, disso eu tenho certeza, senão eu conheceria. To no mar há 20 anos caçando esse, esse monstro.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Yee, I've been chasing that monster for over 20 years now. I promise I'll bring it down!": {
-   "pt": "",
+   "pt": "Isso, to perseguindo esse monstro há mais de 20 anos. Prometo que vou derrubá-lo!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "It lets me forget the long years, the lost years. The years I was chasing after THAT monster, the sea serpent.": {
-   "pt": "",
+   "pt": "Isso me faz esquecer os longos anos, os anos perdidos. Os anos que passei perseguindo AQUELE monstro, a sea serpent.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Ye, I command 'is ship!": {
-   "pt": "",
+   "pt": "Isso, eu comando esse navio!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Our last ship has been destroyed by the most evil creature of the ocean: the sea serpent. To continue our hunt, I've bought this ship here.": {
-   "pt": "",
+   "pt": "Nosso último navio foi destruído pela criatura mais maligna do oceano: a sea serpent. Pra continuar a caçada, comprei esse navio aqui.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Never seen one.": {
-   "pt": "",
+   "pt": "Nunca vi um.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "I'm faithful - I'll catch that monster one day. Yes I will, as sure as my name is Captain Haba!!": {
-   "pt": "",
+   "pt": "Eu sô fiel - vou pegar esse monstro um dia. Vou sim, tão certo quanto meu nome ser Captain Haba!!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "On the high seas there is no queen. At least I didn't see her yet. Hararar!": {
-   "pt": "",
+   "pt": "No alto mar não tem rainha. Pelo menos eu ainda não vi nenhuma. Hararar!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "On the high seas there is no king. At least I didn't see him yet. Hararar!": {
-   "pt": "",
+   "pt": "No alto mar não tem rei. Pelo menos eu ainda não vi nenhum. Hararar!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Arms, legs, head, whatever. I got injuries on almost every part of my body!": {
-   "pt": "",
+   "pt": "Braço, perna, cabeça, seja lá o que for. Eu tenho ferimento em quase toda parte do corpo!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "This is no shop boy, this is a warship!": {
-   "pt": "",
+   "pt": "Isso aqui não é loja, rapaz, é um navio de guerra!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "We aren't even near that location! Wanna swim? Harharhar!": {
-   "pt": "",
+   "pt": "A gente nem tá perto desse lugar! Quer nadar? Harharhar!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "I know Marvik in Thais. He once helped me with a furuncle I had on my ...ahh, doesn't matter. He's a nice gran'pa, though!": {
-   "pt": "",
+   "pt": "Eu conheço Marvik, em Thais. Ele uma vez me ajudou com um furúnculo que eu tinha no meu ...ah, não importa. Mas ele é um vovô simpático!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "My worst enemy is a huge sea serpent. I dunno when I started to follow it's trail. I'll kill it and if it's the last thing I'll do, I'll kill it!": {
-   "pt": "",
+   "pt": "Meu pior inimigo é uma sea serpent enorme. Nem sei mais quando comecei a seguir o rastro dela. Vou matá-la, e se for a última coisa que eu fizer, vou matá-la!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "This is a ship and the captain is some kind o' leader, isn't he? <mumbles>..stupid..landlubber.": {
-   "pt": "",
+   "pt": "Isso aqui é um navio, e o capitão é uma espécie de líder, não é? <resmunga>..idiota..ratinho de terra.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Seems that they are some sort o' druids fo' the Norseman.": {
-   "pt": "",
+   "pt": "Parece que eles são uma espécie de druid pros Norseman.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "I'm full of stories mate! Name a body part and I tell you the story what happened to it!": {
-   "pt": "",
+   "pt": "To cheio de história, camarada! Diga uma parte do corpo e eu conto a história do que aconteceu com ela!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Hold your horses! First we need to get more {bait} fo' the sea serpent. Bring me the fish I requested and we can set sails immediately.": {
-   "pt": "",
+   "pt": "Calma aí! Primeiro precisamo pegar mais {isca} pra sea serpent. Traga os peixe que eu pedi e a gente içar as vela na hora.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Ya wanna join the hunt fo' the {sea serpent}? Be warned ya may pay with ya life! Are ya in to it?": {
-   "pt": "",
+   "pt": "'Ocê quer entrar na caçada pela {sea serpent}? Aviso qu'ocê pode pagar com a própria vida! Tá dentro?",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "You got any {baits} for me?": {
-   "pt": "",
+   "pt": "'Ocê tem alguma {isca} pra mim?",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "A'right, wanna put out to sea?": {
-   "pt": "",
+   "pt": "Certo, quer zarpar pro mar?",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "A'right, we are here to resupply our stock of baits to catch the sea serpent. Your first task is to bring me 5 fish they are easy to catch. When you got them ask me for the {bait} again.": {
-   "pt": "",
+   "pt": "Certo, tamo aqui pra reabastecer nosso estoque de isca pra pegar a sea serpent. Sua primeira tarefa é me trazer 5 peixe, é fácil de pegar. Quando tiver, peça a {isca} de novo.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Let's go fo' a {hunt} and bring the beast down!": {
-   "pt": "",
+   "pt": "Vamo pra {caçada} e derrubar a fera!",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Excellent, now bring me 5 northern pike.": {
-   "pt": "",
+   "pt": "Excelente, agora me traga 5 northern pike.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Excellent, now bring me 5 green perch.": {
-   "pt": "",
+   "pt": "Excelente, agora me traga 5 green perch.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Excellent, now bring me 5 rainbow trout.": {
-   "pt": "",
+   "pt": "Excelente, agora me traga 5 rainbow trout.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Excellent, that should be enough fish to make the bait. Tell me when ya're ready fo' the {hunt}.": {
-   "pt": "",
+   "pt": "Excelente, isso deve bastar de peixe pra fazer a isca. Me diga quando 'ocê tá pronto pra {caçada}.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "The bait is ready, tell me if ya're ready to start the hunt.": {
-   "pt": "",
+   "pt": "A isca tá pronta, me diga se 'ocê tá pronto pra começar a caçada.",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Harrr, landlubber wha'd ya want? Askin' for a {passage}?": {
-   "pt": "",
+   "pt": "Harrr, ratinho de terra, o qu'ocê quer? Tá pedindo uma {passagem}?",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "Harrr, landlubber wha'd ya want?": {
-   "pt": "",
+   "pt": "Harrr, ratinho de terra, o qu'ocê quer?",
    "n": 1,
    "npc": [
     "captain_haba"
    ]
   },
   "I'd go by myself and tear that beast's heart out if I were younger. I hope ya can do that for me. Now go and good luck to ya!": {
-   "pt": "",
+   "pt": "Eu iria sozinho e arrancaria o coração daquela fera se eu fosse mais jovem. Espero qu'ocê consiga fazer isso por mim. Agora vá, e boa sorte pra 'ocê!",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "Ya're a coward, aren't ya? Prove that I'm wrong and get your lazy bones up to the lookout!!": {
-   "pt": "",
+   "pt": "'Ocê é um covarde, não é? Prove que eu tô errado e suba esses ossos preguiçosos até o posto de vigia!!",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "Just ask me for a trade if you need a bait.": {
-   "pt": "",
+   "pt": "É só me pedir para negociar se precisar de uma isca.",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "I can give ya a challenge to test if ya have the guts to be a real sailor. Go up to the lookout and remain there for 24 hours during a storm! Harharhar!": {
-   "pt": "",
+   "pt": "Posso te dar um desafio pra testar se 'ocê tem coragem de ser um marinheiro de verdade. Suba até o posto de vigia e fique lá por 24 horas durante uma tempestade! Harharhar!",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "Harharhar, landlubber, no no!! The correct command would be STRAIGHT. Remember that! Next, what you gonna say when you see something to left?": {
-   "pt": "",
+   "pt": "Harharhar, ratinho de terra, não, não!! O comando certo é EM FRENTE. Lembre disso! Agora, o que 'ocê vai dizer quando ver algo à esquerda?",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "Harharhar, landlubber, ya got it all wrong!! The correct command would be LARBOARD side. Don't forget that, 'kay? Last one, what you gonna say to me when ya see somethin' to the right?": {
-   "pt": "",
+   "pt": "Harharhar, ratinho de terra, 'ocê errou tudo!! O comando certo é lado de BOMBORDO. Não esqueça disso, tá? Última, o que 'ocê vai me dizer quando ver algo à direita?",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "IS THAT ALL?!? SPEED UP, TIGHTEN THE MAINSAIL!!!": {
-   "pt": "",
+   "pt": "SÓ ISSO?!? ACELERA, APERTA A VELA MESTRA!!!",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "Already got enough, huh? I kind o' expected that, landlubber! Let's head for Svargrond! Ready?": {
-   "pt": "",
+   "pt": "Já teve o suficiente, hã? Eu meio que esperava isso, ratinho de terra! Vamo rumo a Svargrond! Pronto?",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "Y' already wanna give up?? I should've known. I bring ya back to Svargrond, 'kay?": {
-   "pt": "",
+   "pt": "'Ocê já quer desistir?? Eu devia saber. Vou te levar de volta pra Svargrond, tá?",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "Wha'd ya want? Ask me 'bout the {instructions} if you don't know what to do! If you wanna head back to {Svargrond}, let me know.": {
-   "pt": "",
+   "pt": "O qu'ocê quer? Pergunte sobre as {instruções} se não souber o que fazer! Se quiser voltar pra {Svargrond}, me avise.",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "You found the spot |PLAYERNAME|!! Grab yourself a helmet of the deep and go explore the {caves} down there.": {
-   "pt": "",
+   "pt": "'Ocê achou o lugar, |PLAYERNAME|!! Pegue um helmet of the deep e vá explorar as {cavernas} lá embaixo.",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "See ya, landlubber!": {
-   "pt": "",
+   "pt": "Até mais, ratinho de terra!",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
    ]
   },
   "Here ya go! Use it on the crane when you see the monster. Then refill it every time you use the telescope.": {
-   "pt": "",
+   "pt": "Aqui está! Use no guindaste quando ver o monstro. Depois reabasteça toda vez que usar o telescope.",
    "n": 1,
    "npc": [
     "captain_haba_open_sea"
@@ -33328,231 +33328,231 @@
    ]
   },
   "I run the dog sled service from this city to {Nibelor}.": {
-   "pt": "",
+   "pt": "Eu toco o serviço de trenó puxado por cães desta cidade até {Nibelor}.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "I am Iskan.": {
-   "pt": "",
+   "pt": "Sou Iskan.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "I can bring you to Nibelor with the sled if you want to. Just ask for a {passage}.": {
-   "pt": "",
+   "pt": "Posso lhe levar até Nibelor de trenó, se quiser. É só pedir uma {passagem}.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "This city seems to be growing every day. First, there have been only a few huts and now ... look around, houses everywhere.": {
-   "pt": "",
+   "pt": "Esta cidade parece crescer a cada dia. Antes só havia algumas cabanas, e agora ... olhe ao redor, casas por toda parte.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "Our people are very proud and honest. I guess that's more than most people can say about themselves and their people, right boys?": {
-   "pt": "",
+   "pt": "Nosso povo é muito orgulhoso e honesto. Acho que isso é mais do que a maioria pode dizer de si mesma e do próprio povo, não é, rapazes?",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "I heard something about a ship crashing in the shelf ice between Nibelor and Grimlund. If I were you, I wouldn't go to chakoya terrain. It's pretty dangerous.": {
-   "pt": "",
+   "pt": "Ouvi algo sobre um navio que bateu no banco de gelo entre Nibelor e Grimlund. Se eu fosse você, não iria ao território dos chakoya. É bem perigoso.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "Nasty little beasts. Me and the boys had quite some bloody encounters with them on the ice.": {
-   "pt": "",
+   "pt": "Bichinhos desagradáveis. Eu e os rapazes tivemos vários encontros sangrentos com eles no gelo.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "The boys warn me in advance if a monster is around.": {
-   "pt": "",
+   "pt": "Os rapazes me avisam com antecedência se tem monstro por perto.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "My boys did not like the guys that were travelling through our city, and I trust in their instincts. Isn't it so, boys?": {
-   "pt": "",
+   "pt": "Meus rapazes não gostaram dos sujeitos que estavam viajando pela nossa cidade, e eu confio no instinto deles. Não é assim, rapazes?",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "The yeti is real and dangerous.": {
-   "pt": "",
+   "pt": "O yeti é real e perigoso.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "I am not sure what to think about this new custom to accept foreigners as one of us after passing that test. But it's the Jarl's decision, not mine.": {
-   "pt": "",
+   "pt": "Não sei bem o que pensar desse novo costume de aceitar estrangeiros como um de nós depois de passarem naquele teste. Mas a decisão é do Jarl, não minha.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "The raiders camps are far to the south. There are three of them. Small camp sites of raiding parties might be found almost anywhere though.": {
-   "pt": "",
+   "pt": "Os acampamentos dos invasores ficam bem ao sul. São três. Mas pequenos acampamentos de grupos invasores podem ser encontrados em quase qualquer lugar.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "They are sometimes trying to catch me and the boys. Such fools, they will never get us. Right, boys?": {
-   "pt": "",
+   "pt": "Às vezes eles tentam pegar eu e os rapazes. Que tolos, nunca vão nos pegar. Não é, rapazes?",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "The boys can tell who's an enemy just by the smell.": {
-   "pt": "",
+   "pt": "Os rapazes sabem quem é inimigo só pelo cheiro.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "Me and the boys care only about our own territory.": {
-   "pt": "",
+   "pt": "Eu e os rapazes só nos importamos com o nosso próprio território.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "I guess their healing powers are almost as useful as those of our shamans.": {
-   "pt": "",
+   "pt": "Imagino que os poderes de cura deles sejam quase tão úteis quanto os dos nossos xamãs.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "I guess there are guys like me that have a talent to talk to dogs and there are guys like the shamans that have the talent to talk to spirits.": {
-   "pt": "",
+   "pt": "Acho que existem sujeitos como eu, que têm talento para falar com cães, e sujeitos como os xamãs, que têm talento para falar com espíritos.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "We don't need any kings or queens. Am I right, boys? Yeah, I am.": {
-   "pt": "",
+   "pt": "Não precisamos de rei nem de rainha nenhuma. Não é mesmo, rapazes? É, tenho razão.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "Sven the Younger is our current Jarl. For my standards he's still a puppy, but a smart one at least.": {
-   "pt": "",
+   "pt": "Sven the Younger é nosso Jarl atual. Para os meus padrões ele ainda é um filhote, mas pelo menos esperto.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "Yeah, where could it be. That's the question.": {
-   "pt": "",
+   "pt": "É, onde será que está. Essa é a questão.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "Easy, boys! Don't mention that name again. Makes the boys nuts, ye know?": {
-   "pt": "",
+   "pt": "Calma, rapazes! Não mencionem esse nome de novo. Deixa os rapazes loucos, sabe como é?",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "In my whole long life, I've not seen any sign of those gods the people of the south are constantly talking about.": {
-   "pt": "",
+   "pt": "Em toda a minha longa vida, nunca vi sinal nenhum desses deuses de que o povo do sul vive falando.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "The icy father. We know him all too well, am I right boys? He has claimed so many old friends in all those years. So many.": {
-   "pt": "",
+   "pt": "O pai gélido. Nós o conhecemos bem demais, não é, rapazes? Ele levou tantos velhos amigos ao longo de todos esses anos. Tantos.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "So, do you want a passage to Nibelor my friend?": {
-   "pt": "",
+   "pt": "Então, quer uma passagem para Nibelor, meu amigo?",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "Do you want to Nibelor?": {
-   "pt": "",
+   "pt": "Quer ir para Nibelor?",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "You are a friend of mine and the boys now. I tell you something. If you ever need to go to the isle of Nibelor, just ask me for a {passage}.": {
-   "pt": "",
+   "pt": "Você é meu amigo e dos rapazes agora. Vou lhe dizer uma coisa. Se algum dia precisar ir à ilha de Nibelor, é só me pedir uma {passagem}.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "Sorry but I only give missions to those who are considered a true Barbarian.": {
-   "pt": "",
+   "pt": "Desculpe, mas só dou missões para quem é considerado um verdadeiro Barbarian.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "Sorry, first time you have to do a mission for me.": {
-   "pt": "",
+   "pt": "Desculpe, primeiro você tem que fazer uma missão para mim.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "Mhmm, you leave me no other choice than to inform the Jarl.": {
-   "pt": "",
+   "pt": "Mhmm, você não me deixa outra escolha a não ser informar o Jarl.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "You are not one of us. I don't want to talk to you.": {
-   "pt": "",
+   "pt": "Você não é um de nós. Não quero falar com você.",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "I was told you have been killing huskies here in Svargrond! Never do that again, okay? They are precious animals for us. Give me 500 gold and I will forget that incident without telling it to Jarl Sven. Okay?": {
-   "pt": "",
+   "pt": "Me disseram que você andou matando huskies aqui em Svargrond! Nunca mais faça isso, certo? São animais preciosos para nós. Me dê 500 gold e eu esqueço esse incidente sem contar ao Jarl Sven. Certo?",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "HAIL to the Warlord of the arena! |PLAYERNAME|, Hero of Svargrond! What can I {do for you}?": {
-   "pt": "",
+   "pt": "SALVE o Warlord da arena! |PLAYERNAME|, Herói de Svargrond! O que posso {fazer por você}?",
    "n": 1,
    "npc": [
     "iskan"
    ]
   },
   "Greetings. What can I {do for you}?": {
-   "pt": "",
+   "pt": "Saudações. O que posso {fazer por você}?",
    "n": 1,
    "npc": [
     "iskan"
@@ -33664,119 +33664,119 @@
    ]
   },
   "A... aargh. I wish I had some e... earmuffs to put over this useless t... turban.": {
-   "pt": "",
+   "pt": "A... aargh. Eu queria ter uns a... abafadores de ouvido pra pôr sobre esse t... turbante inútil.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "Oh p.. please. P... lease let me fly us out of this c... cold.": {
-   "pt": "",
+   "pt": "Ah, p... por favor. D... deixe-me voar pra fora desse f... frio.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "I'm a licensed c...carpet pilot. I can {transport} you t...to a warm p...place.": {
-   "pt": "",
+   "pt": "Sou um p...piloto de tapete licenciado. Posso {transportar} você p...para um lugar q...quente.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "I t...{transport} travellers to the continent of Darama for a small fee. It's w...warm there.": {
-   "pt": "",
+   "pt": "Eu t...{transporto} viajantes até o continente de Darama por uma pequena taxa. É q...quente lá.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "I'm k...known as Iyad Ibn Abdul.": {
-   "pt": "",
+   "pt": "Sou c...conhecido como Iyad Ibn Abdul.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "The thought of s...some mad sorcerer unleashing some f...fire magic is very tempting.": {
-   "pt": "",
+   "pt": "A ideia de a...algum sorcerer louco soltando m...magia de fogo é bem tentadora.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "S...so close and s...still that far away.": {
-   "pt": "",
+   "pt": "T...tão perto e a...ainda tão longe.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "For all its m...mistakes, Thais is warm at least.": {
-   "pt": "",
+   "pt": "Com todos os s...seus erros, pelo menos Thais é quente.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "I would t...trade it for some firewood.": {
-   "pt": "",
+   "pt": "Eu t...trocaria isso por um pouco de lenha.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "This h...here is no continent. This is h...hell.": {
-   "pt": "",
+   "pt": "Isso a...aqui não é continente. Isso é o i...inferno.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "Even D...Drefia can't be worse than this land.": {
-   "pt": "",
+   "pt": "Até D...Drefia não pode ser pior que esta terra.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "I d...don't care about any n...news unless it's the announcement of a h....heatwave.": {
-   "pt": "",
+   "pt": "Eu n...não ligo pra n...notícia nenhuma, a menos que seja o anúncio de uma o...onda de calor.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "It's p...probably the ice age.": {
-   "pt": "",
+   "pt": "É p...provavelmente a era do gelo.",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "Th...there, in case you have {earmuffs}, I pay w...well!": {
-   "pt": "",
+   "pt": "L...lá, caso você tenha {earmuffs}, eu pago b...bem!",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "Do you really have earmuffs f...for me?? If so, just ask me for a {trade}!": {
-   "pt": "",
+   "pt": "Você tem mesmo abafadores de ouvido p...para mim?? Se sim, é só me pedir para {negociar}!",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "Finally! A c...c...customer! Wh... where do you want to f...f...{fly}?": {
-   "pt": "",
+   "pt": "Finalmente! Um c...c...cliente! P...para onde você quer v...v...{voar}?",
    "n": 1,
    "npc": [
     "iyad"
    ]
   },
   "D...Daraman's blessings... oh, how I m...miss my warm Darashia...": {
-   "pt": "",
+   "pt": "A...as bênçãos de Daraman... ah, como eu s...sinto falta da minha quente Darashia...",
    "n": 1,
    "npc": [
     "iyad"
@@ -40636,133 +40636,133 @@
    ]
   },
   "Do you want to travel to Svargrond?": {
-   "pt": "",
+   "pt": "Quer viajar para Svargrond?",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "What for ingredient do you have?": {
-   "pt": "",
+   "pt": "Que ingrediente você tem?",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "Do you want to buy a waterskin for 25 gold?": {
-   "pt": "",
+   "pt": "Quer comprar um waterskin por 25 gold?",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "You will find this kind of cactus at places that are called deserts. Only an ordinary kitchen knife will be precise enough to produce the ingredient weneed. Do you have a part of that cactus with you?": {
-   "pt": "",
+   "pt": "Você encontra esse tipo de cacto em lugares chamados desertos. Só uma faca de cozinha comum é precisa o bastante para produzir o ingrediente de que precisamos. Você tem um pedaço desse cacto com você?",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "I need fine sulphur of an inactive lava hole. No other sulphur will do. Use an ordinary kitchen spoon on an inactive lava hole. Do you have fine sulphur with you?": {
-   "pt": "",
+   "pt": "Preciso de fine sulphur de um buraco de lava inativo. Nenhum outro enxofre serve. Use uma colher de cozinha comum num buraco de lava inativo. Você tem fine sulphur com você?",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "The frostbite herb is a local plant but its quite rare. You can find it on mountain peaks. You will need to cut it with a fine kitchen knife. Do you have a frostbite herb with you?": {
-   "pt": "",
+   "pt": "A frostbite herb é uma planta local, mas é bem rara. Você a encontra em picos de montanha. Vai precisar cortá-la com uma faca de cozinha fina. Você tem uma frostbite herb com você?",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "The purple kiss is a plant that grows in a place called jungle. You will have to use a kitchen knife to harvest its blossom. Do you have a blossom of a purple kiss with you?": {
-   "pt": "",
+   "pt": "A purple kiss é uma planta que cresce num lugar chamado selva. Você vai ter que usar uma faca de cozinha para colher a flor dela. Você tem uma flor de purple kiss com você?",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "The hydra tongue is a common pest plant in warmer regions. You might find one in a shop. Do you have a hydra tongue with you?": {
-   "pt": "",
+   "pt": "A hydra tongue é uma planta daninha comum em regiões mais quentes. Você pode achar uma numa loja. Você tem uma hydra tongue com você?",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "The giant glimmercap mushroom exists in caves and other preferably warm and humid places. Use an ordinary kitchen spoon on a mushroom to collectits spores. Do you have the glimmercap spores?": {
-   "pt": "",
+   "pt": "O giant glimmercap mushroom existe em cavernas e outros lugares de preferência quentes e úmidos. Use uma colher de cozinha comum num cogumelo para coletar os esporos dele. Você tem os glimmercap spores?",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "Here you are. A waterskin!": {
-   "pt": "",
+   "pt": "Aqui está. Um waterskin!",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "Thank you for this ingredient. Now bring me Geyser {Water} in a Waterskin.": {
-   "pt": "",
+   "pt": "Obrigado por este ingrediente. Agora me traga Geyser {Water} num Waterskin.",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "Thank you for this ingredient. Now bring me Fine {Sulphur}.": {
-   "pt": "",
+   "pt": "Obrigado por este ingrediente. Agora me traga Fine {Sulphur}.",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "Thank you for this ingredient. Now bring me the Frostbite {Herb}": {
-   "pt": "",
+   "pt": "Obrigado por este ingrediente. Agora me traga a Frostbite {Herb}",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "Thank you for this ingredient Now bring me Purple Kiss {Blossom}.": {
-   "pt": "",
+   "pt": "Obrigado por este ingrediente. Agora me traga Purple Kiss {Blossom}.",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "Thank you for this ingredient. Now bring me the {Hydra Tongue}": {
-   "pt": "",
+   "pt": "Obrigado por este ingrediente. Agora me traga a {Hydra Tongue}",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "Thank you for this ingredient. Now bring me {Spores} of a Giant Glimmercap Mushroom.": {
-   "pt": "",
+   "pt": "Obrigado por este ingrediente. Agora me traga {Spores} de um Giant Glimmercap Mushroom.",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "Thank you for this ingredient. Now you finish your {mission}": {
-   "pt": "",
+   "pt": "Obrigado por este ingrediente. Agora você concluiu sua {missão}",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "Then come back when you have the ingredient.": {
-   "pt": "",
+   "pt": "Então volte quando tiver o ingrediente.",
    "n": 1,
    "npc": [
     "nilsor"
    ]
   },
   "Greetings, traveller |PLAYERNAME|. Is there anything I can {do for you}?": {
-   "pt": "",
+   "pt": "Saudações, viajante |PLAYERNAME|. Há algo que eu possa {fazer por você}?",
    "n": 1,
    "npc": [
     "nilsor"
@@ -48343,133 +48343,133 @@
    ]
   },
   "I heard you have already helped our cause. Are you interested in another mission, even when it requires you to travel to a distant land?": {
-   "pt": "",
+   "pt": "Ouvi dizer que você já ajudou nossa causa. Tem interesse em outra missão, mesmo que exija viajar a uma terra distante?",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "Well done. The termites caused just the distraction that we needed. Are you ready for the next step of my plan?": {
-   "pt": "",
+   "pt": "Muito bem. As termites causaram exatamente a distração de que precisávamos. Está pronto para a próxima etapa do meu plano?",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "You saved the lives of many innocent animals. Thank you very much. If you are looking for another mission, just ask me.": {
-   "pt": "",
+   "pt": "Você salvou a vida de muitos animais inocentes. Muito obrigada. Se estiver procurando outra missão, é só me perguntar.",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "Our warriors need a more potent yet more secure berserker elixir to fight our enemies. To brew it, I need several ingredients. The first things needed are 5 bat wings. Bring them to me and Ill tell you the next ingredients we need.": {
-   "pt": "",
+   "pt": "Nossos guerreiros precisam de um berserker elixir mais potente e mais seguro para lutar contra nossos inimigos. Para prepará-lo, preciso de vários ingredientes. As primeiras coisas necessárias são 5 bat wings. Traga-as até mim e eu lhe digo os próximos ingredientes de que precisamos.",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "Do you have the 5 bat wings I requested?": {
-   "pt": "",
+   "pt": "Você tem as 5 bat wings que eu pedi?",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "The second things needed are 4 bear paws. Bring them to me and Ill tell you the next ingredients we need.": {
-   "pt": "",
+   "pt": "As segundas coisas necessárias são 4 bear paws. Traga-as até mim e eu lhe digo os próximos ingredientes de que precisamos.",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "Do you have the 4 bear paws I requested?": {
-   "pt": "",
+   "pt": "Você tem as 4 bear paws que eu pedi?",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "The next things needed are 3 bonelord eyes. Bring them to me and Ill tell you the next ingredients we need.": {
-   "pt": "",
+   "pt": "As próximas coisas necessárias são 3 bonelord eyes. Traga-as até mim e eu lhe digo os próximos ingredientes de que precisamos.",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "Do you have the 3 bonelord eyes I requested?": {
-   "pt": "",
+   "pt": "Você tem os 3 bonelord eyes que eu pedi?",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "The next things needed are 2 fish fins. Bring them to me and Ill tell you the next ingredients we need.": {
-   "pt": "",
+   "pt": "As próximas coisas necessárias são 2 fish fins. Traga-as até mim e eu lhe digo os próximos ingredientes de que precisamos.",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "Do you have the 2 fish fins I requested?": {
-   "pt": "",
+   "pt": "Você tem as 2 fish fins que eu pedi?",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "The last thing needed is a green dragon scale. Bring them to me and Ill tell you the next ingredients we need.": {
-   "pt": "",
+   "pt": "A última coisa necessária é uma green dragon scale. Traga-a até mim e eu lhe digo os próximos ingredientes de que precisamos.",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "Do you have the green dragon scale I requested?": {
-   "pt": "",
+   "pt": "Você tem a green dragon scale que eu pedi?",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "Do you want to buy a jug for 1000 gold?": {
-   "pt": "",
+   "pt": "Quer comprar um jug por 1000 gold?",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "Good! Now listen. To protect the animals there, we have to harm the profit of the hunters. Therefor, I ask you to ruin their best source of earnings. Are you willing to do that?": {
-   "pt": "",
+   "pt": "Ótimo! Agora escute. Para proteger os animais de lá, temos que prejudicar o lucro dos caçadores. Por isso, peço que arruíne a melhor fonte de renda deles. Está disposto a fazer isso?",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "So let's proceed. Take this vial of paint. Travel to Tyrsung again and ruin as many pelts of baby seals as possible before the paint runs dry or freezes. Then return here to report about your mission.": {
-   "pt": "",
+   "pt": "Então vamos prosseguir. Pegue este vial de tinta. Viaje até Tyrsung de novo e arruíne o maior número possível de peles de filhotes de foca antes que a tinta seque ou congele. Depois volte aqui para relatar sua missão.",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "Thank you very much. This will help us to defend Svargrond. But I heard young Nilsor is in dire need of help. Please contact him immediately.": {
-   "pt": "",
+   "pt": "Muito obrigada. Isso vai nos ajudar a defender Svargrond. Mas ouvi dizer que o jovem Nilsor precisa muito de ajuda. Por favor, procure-o imediatamente.",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "You want to buy animal cure for 400 gold coins?": {
-   "pt": "",
+   "pt": "Quer comprar animal cure por 400 gold coins?",
    "n": 1,
    "npc": [
     "siflind"
    ]
   },
   "Be greeted, |PLAYERNAME|. If you are in need of potions or magical equipment, just ask me about my {offers}.": {
-   "pt": "",
+   "pt": "Seja bem-vindo, |PLAYERNAME|. Se precisar de potions ou equipamento mágico, é só me perguntar sobre minhas {ofertas}.",
    "n": 1,
    "npc": [
     "siflind"
@@ -56580,7 +56580,7 @@
    "n": 13
   },
   "fly": {
-   "pt": "",
+   "pt": "voar",
    "n": 13
   },
   "vocation": {
@@ -57232,7 +57232,7 @@
    "n": 5
   },
   "transport": {
-   "pt": "",
+   "pt": "transportar",
    "n": 5
   },
   "guards": {
@@ -57736,7 +57736,7 @@
    "n": 3
   },
   "hunt": {
-   "pt": "",
+   "pt": "caçada",
    "n": 3
   },
   "elf": {
@@ -57828,7 +57828,7 @@
    "n": 3
   },
   "bait": {
-   "pt": "",
+   "pt": "isca",
    "n": 3
   },
   "barbarian": {
@@ -58408,7 +58408,7 @@
    "n": 2
   },
   "caves": {
-   "pt": "",
+   "pt": "cavernas",
    "n": 2
   },
   "berenice": {
@@ -58768,7 +58768,7 @@
    "n": 2
   },
   "water": {
-   "pt": "",
+   "pt": "água",
    "n": 2
   },
   "bruno": {
@@ -58840,7 +58840,7 @@
    "n": 2
   },
   "earmuffs": {
-   "pt": "",
+   "pt": "abafadores de ouvido",
    "n": 2
   },
   "urgency": {
@@ -59836,11 +59836,11 @@
    "n": 1
   },
   "sea serpent": {
-   "pt": "",
+   "pt": "sea serpent",
    "n": 1
   },
   "baits": {
-   "pt": "",
+   "pt": "iscas",
    "n": 1
   },
   "friend": {
@@ -59860,7 +59860,7 @@
    "n": 1
   },
   "instructions": {
-   "pt": "",
+   "pt": "instruções",
    "n": 1
   },
   "safe": {
@@ -61100,11 +61100,11 @@
    "n": 1
   },
   "sulphur": {
-   "pt": "",
+   "pt": "enxofre",
    "n": 1
   },
   "herb": {
-   "pt": "",
+   "pt": "erva",
    "n": 1
   },
   "blossom": {
@@ -61112,11 +61112,11 @@
    "n": 1
   },
   "hydra tongue": {
-   "pt": "",
+   "pt": "hydra tongue",
    "n": 1
   },
   "spores": {
-   "pt": "",
+   "pt": "esporos",
    "n": 1
   },
   "chosen": {
@@ -62279,6 +62279,10 @@
   },
   "die": {
    "pt": "morre",
+   "n": 0
+  },
+  "transport": {
+   "pt": "transporto",
    "n": 0
   }
  }
