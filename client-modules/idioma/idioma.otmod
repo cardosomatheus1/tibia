@@ -1,0 +1,10 @@
+Module
+  name: idioma
+  description: Bandeirinha para trocar o idioma das conversas com NPC
+  author: OTServBR
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ idioma ]
+  @onLoad: init()
+  @onUnload: terminate()

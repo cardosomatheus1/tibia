@@ -1,0 +1,92 @@
+# Traduzir as conversas com NPC
+
+Sistema de idioma **por jogador** para os diálogos de NPC. Dois jogadores
+lado a lado leem cada um no seu idioma, e os dois podem digitar em
+qualquer um dos dois.
+
+## Como funciona
+
+Traduzir os 1036 arquivos de NPC à mão seria insustentável — qualquer
+atualização do datapack desfaria o trabalho. Em vez disso a tradução entra
+em dois pontos por onde **tudo** passa:
+
+| Ponto | Onde | O que faz |
+|---|---|---|
+| saída | `Npc:say` | todo NPC fala por aqui, inclusive o caminho com atraso (`SayEvent`) e o `sendMessage`. O texto sai no idioma **daquele** jogador |
+| entrada | `NpcHandler:onSay` | normaliza o que o jogador digitou para inglês **antes** de qualquer comparação |
+
+A normalização de entrada é o que faz `oi`, `depositar tudo` e `sim` caírem
+nas mesmas regras que `hi`, `deposit all` e `yes`. Ela só **acrescenta**: o
+inglês continua funcionando igual, e nenhuma regra de NPC precisa saber que
+existe outro idioma.
+
+```
+oi                   -> hi
+depositar tudo       -> deposit all
+trocar ouro          -> change gold
+cura suprema         -> ultimate healing
+hi                   -> hi          (inglês passa direto)
+```
+
+Ela casa o **maior trecho** primeiro, para "depositar tudo" não virar
+"depositar" + "tudo".
+
+O que está entre chaves é o que o client deixa clicável, então também sai
+traduzido — e é exatamente por isso que a volta precisa existir: sem ela o
+jogador clicaria em `{negociar}` e o NPC não entenderia.
+
+Frase sem tradução sai em inglês, nunca vazia. E mesmo aí as chaves são
+traduzidas, então a parte clicável já fica em português antes da frase
+inteira estar pronta.
+
+## Trocar de idioma
+
+A escolha fica no KV do personagem — acompanha o char e não depende de
+client nenhum.
+
+```
+!idioma          mostra o atual e os disponíveis
+!idioma br       português
+!idioma us       inglês
+```
+
+O [`client-modules/idioma/`](../../client-modules/idioma/) é só uma
+bandeirinha que manda esse mesmo comando (Ctrl+Shift+I).
+
+## Traduzir mais
+
+```bash
+python3 tools/traducao/extrair.py            # recolhe o que falta
+# preencher os campos "pt" em tools/traducao/catalogo.json
+python3 tools/traducao/gerar_dicionario.py   # gera o dicionário Lua
+```
+
+O `extrair.py` **preserva o que já foi traduzido** — rodar de novo depois
+de atualizar o datapack só acrescenta as chaves novas, e marca como
+`obsoleto` o que sumiu, em vez de apagar. Ele também conta quantas vezes
+cada frase é dita, o que permite atacar por impacto.
+
+## O tamanho real disso
+
+Vale saber antes de começar:
+
+| | |
+|---|---|
+| arquivos de NPC | 1036 |
+| falas distintas | 7503 (~636 mil caracteres, ~160 mil palavras) |
+| palavras-chave distintas | 1606 |
+
+E a cauda é longa — não é um caso onde traduzir 20% resolve:
+
+| Para cobrir | Precisa traduzir |
+|---|---|
+| 25% das falas ditas | 171 frases (2% do catálogo) |
+| 50% | 989 frases (13%) |
+| 80% | 4735 frases (64%) |
+| 100% | 7503 frases (100%) |
+
+**Estado atual: 117 palavras-chave e 23 frases**, o que cobre 3,6% das falas
+ditas — mas as palavras-chave cobrem a interação inteira (saudação, banco,
+cura, viagem, magias), que é onde o jogador de fato digita. O resto do
+catálogo é diálogo de ambientação, e é trabalho de volume, não de
+engenharia: a infraestrutura já roteia 100% das falas.

@@ -443,6 +443,12 @@ if NpcHandler == nil then
 	-- Handles onSay events. If you with to handle this yourself, please use the CALLBACK_ON_SAY callback.
 	function NpcHandler:onSay(npc, player, msgtype, msg)
 		local playerId = player:getId()
+		-- traduz o que o jogador digitou para o termo em ingles antes de
+		-- qualquer comparacao: assim "oi" e "hi" seguem o mesmo caminho, e
+		-- nenhuma regra de NPC precisa saber que existe outro idioma
+		if Idioma then
+			msg = Idioma.entrada_normalizada(msg)
+		end
 		if type(msg) == "string" and msg:lower() == "hi" and NpcDialogProfessionByName then
 			local profession = NpcDialogProfessionByName[npc:getName():lower()]
 			if profession == "king" then

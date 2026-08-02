@@ -1,0 +1,45 @@
+BotaoBandeira < UIButton
+  size: 26 20
+  margin-right: 2
+  image-source: /images/ui/button
+  image-clip: 0 0 22 23
+  image-border: 3
+  color: #dfdfdf
+  font: verdana-11px-rounded
+  $hover:
+    image-clip: 0 23 22 23
+  $on:
+    image-clip: 0 46 22 23
+    color: #ffe066
+
+JanelaIdioma < MainWindow
+  id: janelaIdioma
+  !text: tr('Idioma dos NPCs')
+  size: 250 130
+  @onEscape: modules.idioma.alternar()
+
+  Label
+    id: aviso
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    text-align: center
+    text-auto-resize: true
+    !text: tr('Escolha em que idioma os NPCs falam com voce. Voce pode digitar nos dois de qualquer jeito.')
+    text-wrap: true
+
+  Button
+    id: btPt
+    anchors.top: prev.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 12
+    width: 180
+    text: Portugues (BR)
+
+  Button
+    id: btEn
+    anchors.top: prev.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 4
+    width: 180
+    text: English (US)
