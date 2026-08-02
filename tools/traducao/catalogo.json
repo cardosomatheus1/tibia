@@ -7545,7 +7545,7 @@
    ]
   },
   "I think you have forgotten to bring your stake, my child.": {
-   "pt": "",
+   "pt": "Acho que você esqueceu de trazer sua stake, minha criança.",
    "n": 2,
    "npc": [
     "amanda",
@@ -9739,7 +9739,7 @@
    ]
   },
   "Maybe later.": {
-   "pt": "",
+   "pt": "Talvez depois.",
    "n": 2,
    "npc": [
     "eremo",
@@ -10062,7 +10062,7 @@
    ]
   },
   "The temple can be found in one of the uptown districts. Look for stairs up from the lower city, you'll find the temple in the northwest of the upper city.": {
-   "pt": "",
+   "pt": "O templo pode ser encontrado num dos distritos altos. Procure escadas que sobem a partir da cidade baixa, você vai encontrar o templo a noroeste da cidade alta.",
    "n": 2,
    "npc": [
     "guide_alexena",
@@ -14512,42 +14512,42 @@
    ]
   },
   "Well, I would do it myself but I can't leave town for a longer time. Would you be so kind to bring me a vial of holy water from the White Raven Monastery?": {
-   "pt": "",
+   "pt": "Bem, eu mesma faria isso, mas não posso deixar a cidade por muito tempo. Você seria gentil o bastante para me trazer um vial de holy water do White Raven Monastery?",
    "n": 1,
    "npc": [
     "amanda"
    ]
   },
   "I thank you a lot in advance. The power of the holy water from the White Raven Monastery is legendary. For my task it is indispensable. We talk about that when you get back.": {
-   "pt": "",
+   "pt": "Agradeço muito, desde já. O poder da holy water do White Raven Monastery é lendário. Para minha tarefa, é indispensável. Conversamos sobre isso quando você voltar.",
    "n": 1,
    "npc": [
     "amanda"
    ]
   },
   "It's your decision. I will ask the next believing mind that visits the temple of Banor's blood.": {
-   "pt": "",
+   "pt": "A decisão é sua. Vou perguntar à próxima mente crente que visitar o templo do sangue de Banor.",
    "n": 1,
    "npc": [
     "amanda"
    ]
   },
   "Your mission here on Tibia is to be polite and friendly. The gods will reward you, I promise!": {
-   "pt": "",
+   "pt": "Sua missão aqui em Tibia é ser educado e amigável. Os deuses o recompensarão, eu prometo!",
    "n": 1,
    "npc": [
     "amanda"
    ]
   },
   "So receive my prayer: 'Wicked curses shall be broken'. Now, bring your stake to Kasmir in Darashia for the next line of the prayer. I will inform him what to do.": {
-   "pt": "",
+   "pt": "Então receba minha prece: 'Maldições perversas serão quebradas'. Agora, leve sua stake até Kasmir, em Darashia, para a próxima linha da prece. Vou avisá-lo do que fazer.",
    "n": 1,
    "npc": [
     "amanda"
    ]
   },
   "You should visit Kasmir in Darashia now, my child.": {
-   "pt": "",
+   "pt": "Você deveria visitar Kasmir, em Darashia, agora, minha criança.",
    "n": 1,
    "npc": [
     "amanda"
@@ -25460,70 +25460,70 @@
    ]
   },
   "So receive the wisdom of solitude, pilgrim.": {
-   "pt": "",
+   "pt": "Então receba a wisdom of solitude, peregrino.",
    "n": 1,
    "npc": [
     "eremo"
    ]
   },
   "You aren't looking that bad. Sorry, I can't help you. But if you are looking for additional \\\n\t\tprotection you should go on the {pilgrimage} of ashes or get the protection of the {twist of fate} here.": {
-   "pt": "",
+   "pt": "Você não está com uma aparência tão ruim assim. Desculpe, não posso ajudá-lo. Mas se está procurando proteção adicional, deveria fazer a {peregrinação} das cinzas ou conseguir a proteção do {twist of fate} aqui.",
    "n": 1,
    "npc": [
     "eremo"
    ]
   },
   "Should I teleport you back to Pemaret?": {
-   "pt": "",
+   "pt": "Devo teleportá-lo de volta para Pemaret?",
    "n": 1,
    "npc": [
     "eremo"
    ]
   },
   "Whenever you receive a lethal wound, your vital force is damaged and there is a \\\n\t\tchance that you lose some of your equipment. With every single of the five {blessings} you have, \\\n\t\tthis damage and chance of loss will be reduced.": {
-   "pt": "",
+   "pt": "Sempre que você recebe um ferimento letal, sua força vital é danificada e há uma chance de perder parte do seu equipamento. Para cada uma das cinco {bênçãos} que você tiver, esse dano e essa chance de perda serão reduzidos.",
    "n": 1,
    "npc": [
     "eremo"
    ]
   },
   "There are five blessings available in five sacred places: the {spiritual} shielding, \\\n\t\tthe spark of the {phoenix}, the {embrace} of Tibia, the fire of the {suns} and the wisdom of {solitude}. \\\n\t\tAdditionally, you can receive the {twist of fate} here.": {
-   "pt": "",
+   "pt": "Há cinco bênçãos em cinco lugares sagrados: o escudo {spiritual}, a centelha da {phoenix}, o {embrace} de Tibia, o fogo dos {suns} e a sabedoria da {solitude}. Além disso, você pode receber a {twist of fate} aqui.",
    "n": 1,
    "npc": [
     "eremo"
    ]
   },
   "I can sense that the spark of the phoenix already was given to you by \\\n\t\tthe dwarven priests of earth and fire in Kazordoon.": {
-   "pt": "",
+   "pt": "Consigo sentir que a spark of the phoenix já lhe foi concedida pelos sacerdotes anões da terra e do fogo em Kazordoon.",
    "n": 1,
    "npc": [
     "eremo"
    ]
   },
   "I teach some spells, provide one of the five blessings, and sell some amulets. \\\n\t\tAsk me for a trade if you like.": {
-   "pt": "",
+   "pt": "Ensino algumas magias, forneço uma das cinco bênçãos e vendo alguns amuletos. Me peça para negociar, se quiser.",
    "n": 1,
    "npc": [
     "eremo"
    ]
   },
   "I am Eremo, an old man who has seen many things.": {
-   "pt": "",
+   "pt": "Sou Eremo, um velho que já viu muitas coisas.",
    "n": 1,
    "npc": [
     "eremo"
    ]
   },
   "A letter from that youngster Morgan? I believed him dead since years. These news are good news indeed. Thank you very much, my friend.": {
-   "pt": "",
+   "pt": "Uma carta daquele jovem Morgan? Eu o julgava morto há anos. Essas notícias realmente são boas notícias. Muito obrigado, meu amigo.",
    "n": 1,
    "npc": [
     "eremo"
    ]
   },
   "Welcome to my little garden, adventurer |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Bem-vindo ao meu pequeno jardim, aventureiro |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "eremo"
@@ -29695,63 +29695,63 @@
    ]
   },
   "Hello, is this your first visit to Carlin? I can show you around a little.": {
-   "pt": "",
+   "pt": "Olá, essa é sua primeira visita a Carlin? Posso lhe mostrar um pouco a cidade.",
    "n": 1,
    "npc": [
     "guide_alexena"
    ]
   },
   "I can tell you all about the status this world is in.": {
-   "pt": "",
+   "pt": "Posso lhe contar tudo sobre a situação em que o mundo está.",
    "n": 1,
    "npc": [
     "guide_alexena"
    ]
   },
   "Need some help finding your way through Carlin?": {
-   "pt": "",
+   "pt": "Precisa de ajuda para se localizar em Carlin?",
    "n": 1,
    "npc": [
     "guide_alexena"
    ]
   },
   "The bank is on the left side of the depot. Eva will be at your service there.": {
-   "pt": "",
+   "pt": "O banco fica do lado esquerdo do depot. Eva estará lá para atendê-lo.",
    "n": 1,
    "npc": [
     "guide_alexena"
    ]
   },
   "I'll help you find your way through Carlin, the amazon town. I can mark important locations on your map and give you some information about the town and the world status.": {
-   "pt": "",
+   "pt": "Vou ajudá-lo a se localizar em Carlin, a cidade das amazonas. Posso marcar locais importantes no seu mapa e lhe dar algumas informações sobre a cidade e a situação do mundo.",
    "n": 1,
    "npc": [
     "guide_alexena"
    ]
   },
   "This city is ruled by Queen Eloise with the help of her female brigade. We have a lot of shops here as well as the usual facilities like depot, temple and so on.": {
-   "pt": "",
+   "pt": "Esta cidade é governada pela Queen Eloise, com a ajuda de sua brigada feminina. Temos muitas lojas aqui, assim como as instalações costumeiras, como depot, templo e assim por diante.",
    "n": 1,
    "npc": [
     "guide_alexena"
    ]
   },
   "I'm Alexena, at your service!": {
-   "pt": "",
+   "pt": "Sou Alexena, ao seu dispor!",
    "n": 1,
    "npc": [
     "guide_alexena"
    ]
   },
   "Welcome to Carlin, |PLAYERNAME| Would you like some information and a map guide?": {
-   "pt": "",
+   "pt": "Bem-vindo a Carlin, |PLAYERNAME|. Gostaria de informações e um guia de mapa?",
    "n": 1,
    "npc": [
     "guide_alexena"
    ]
   },
   "Good bye and enjoy your stay in Carlin, |PLAYERNAME|": {
-   "pt": "",
+   "pt": "Adeus, e aproveite sua estadia em Carlin, |PLAYERNAME|",
    "n": 1,
    "npc": [
     "guide_alexena"
@@ -30045,42 +30045,42 @@
    ]
   },
   "The temple is near the shop area in the eastern part of the castle. Just go downstairs.": {
-   "pt": "",
+   "pt": "O templo fica perto da área de lojas, na parte leste do castelo. É só descer as escadas.",
    "n": 1,
    "npc": [
     "guide_jonathan"
    ]
   },
   "Our local bank clerk is called Ebenizer. You can find him north of the depot, near the food shop.": {
-   "pt": "",
+   "pt": "Nosso funcionário do banco local se chama Ebenizer. Você pode encontrá-lo ao norte do depot, perto da loja de comida.",
    "n": 1,
    "npc": [
     "guide_jonathan"
    ]
   },
   "I'm your guide to the beautiful town Edron. I can mark important locations on your map and give you some information about the town and the world status.": {
-   "pt": "",
+   "pt": "Sou seu guia pela bela cidade de Edron. Posso marcar locais importantes no seu mapa e lhe dar algumas informações sobre a cidade e a situação do mundo.",
    "n": 1,
    "npc": [
     "guide_jonathan"
    ]
   },
   "The town of Edron with its shops and facilities is built inside strong castle walls. Another remarkable building is the magic academy.": {
-   "pt": "",
+   "pt": "A cidade de Edron, com suas lojas e instalações, é construída dentro de muralhas fortes de castelo. Outro edifício notável é a academia de magia.",
    "n": 1,
    "npc": [
     "guide_jonathan"
    ]
   },
   "Hello there, |PLAYERNAME| and welcome to Edron! Would you like some {information} and a {map} guide?": {
-   "pt": "",
+   "pt": "Olá, |PLAYERNAME|, e bem-vindo a Edron! Gostaria de {informações} e um guia de {mapa}?",
    "n": 1,
    "npc": [
     "guide_jonathan"
    ]
   },
   "Good bye and enjoy your stay in Edron, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Adeus, e aproveite sua estadia em Edron, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "guide_jonathan"
@@ -51878,63 +51878,63 @@
    ]
   },
   "Are you talking about my spiky shoulder pad? You can't buy one of these. They have to be {earned}.": {
-   "pt": "",
+   "pt": "Está falando do meu spiky shoulder pad? Você não pode comprar um desses. Eles têm que ser {conquistados}.",
    "n": 1,
    "npc": [
     "trisha"
    ]
   },
   "I'm not sure if you are enough of a hero to earn them. You could try, though. What do you think?": {
-   "pt": "",
+   "pt": "Não tenho certeza se você é herói o bastante para conquistá-los. Mas poderia tentar. O que acha?",
    "n": 1,
    "npc": [
     "trisha"
    ]
   },
   "You did it! I have seldom seen a man as courageous as you. I really have to say that you deserve to wear a spike. Go ask Cornelia to adorn your armour.": {
-   "pt": "",
+   "pt": "Você conseguiu! Raramente vi um homem tão corajoso quanto você. Tenho mesmo que dizer que você merece usar um spike. Vá pedir a Cornelia para enfeitar sua armadura.",
    "n": 1,
    "npc": [
     "trisha"
    ]
   },
   "I thought so. Train hard and maybe some day you will be ready to face this mission.": {
-   "pt": "",
+   "pt": "Foi o que pensei. Treine bastante e talvez algum dia você esteja pronto para encarar essa missão.",
    "n": 1,
    "npc": [
     "trisha"
    ]
   },
   "Excellent! Don't forget: Your first task is to bring me 100 hardened bones. Good luck!": {
-   "pt": "",
+   "pt": "Excelente! Não esqueça: sua primeira tarefa é me trazer 100 hardened bones. Boa sorte!",
    "n": 1,
    "npc": [
     "trisha"
    ]
   },
   "Why do men always lie?": {
-   "pt": "",
+   "pt": "Por que os homens sempre mentem?",
    "n": 1,
    "npc": [
     "trisha"
    ]
   },
   "Don't give up just yet.": {
-   "pt": "",
+   "pt": "Não desista ainda.",
    "n": 1,
    "npc": [
     "trisha"
    ]
   },
   "Welcome back, knight |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Bem-vindo de volta, knight |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "trisha"
    ]
   },
   "Don't hurt yourself with that weapon, little one.": {
-   "pt": "",
+   "pt": "Não se machuque com essa arma, pequeno.",
    "n": 1,
    "npc": [
     "trisha"
@@ -54818,28 +54818,28 @@
    ]
   },
   "I can teach you {support} and {attack} spells. What kind of spell do you wish to learn? I can also tell you which spells are available at your {level}.": {
-   "pt": "",
+   "pt": "Posso lhe ensinar magias de {suporte} e de {ataque}. Que tipo de magia você deseja aprender? Também posso lhe dizer quais estão disponíveis no seu {level}.",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Support spells: {Blood Rage} (Knight), {Protector} (Knight), {Sharpshooter} (Paladin), {Swift Foot} (Paladin).": {
-   "pt": "",
+   "pt": "Magias de suporte: {Blood Rage} (Knight), {Protector} (Knight), {Sharpshooter} (Paladin), {Swift Foot} (Paladin).",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Attack spells: {Eternal Winter} (Druid), {Hell's Core} (Sorcerer), {Rage of the Skies} (Sorcerer), {Ultimate Energy Strike} (Sorcerer), {Ultimate Flame Strike} (Sorcerer), {Ultimate Ice Strike} (Druid), {Ultimate Terra Strike} (Druid), {Wrath of Nature} (Druid).": {
-   "pt": "",
+   "pt": "Magias de ataque: {Eternal Winter} (Druid), {Hell's Core} (Sorcerer), {Rage of the Skies} (Sorcerer), {Ultimate Energy Strike} (Sorcerer), {Ultimate Flame Strike} (Sorcerer), {Ultimate Ice Strike} (Druid), {Ultimate Terra Strike} (Druid), {Wrath of Nature} (Druid).",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "I have spells for level {100}, {90}, {60} and {55}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {100}, {90}, {60} e {55}.",
    "n": 1,
    "npc": [
     "zoltan"
@@ -54874,70 +54874,70 @@
    ]
   },
   "Ah, Yenny the Gentle was one of the founders of the druid order called Crunor's Caress, that has been originated in her hometown Carlin.": {
-   "pt": "",
+   "pt": "Ah, Yenny the Gentle foi uma das fundadoras da ordem druida chamada Crunor's Caress, que se originou na sua cidade natal, Carlin.",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "A quite undruidic order of druids they were, as far as we know. I have no more enlightening knowledge about them though.": {
-   "pt": "",
+   "pt": "Uma ordem de druids bem pouco druídica, pelo que sabemos. Mas não tenho mais nenhum conhecimento esclarecedor sobre eles.",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "... I cannot believe my eyes. You retrieved this hat from Ferumbras' remains? That is incredible. If you give it to me, I will grant you the right to wear this hat as addon. What do you say?": {
-   "pt": "",
+   "pt": "... Não acredito no que vejo. Você recuperou esse chapéu dos restos de Ferumbras? Isso é incrível. Se você me der, vou lhe conceder o direito de usar esse chapéu como addon. O que me diz?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "I bow to you, player, and hereby grant you the right to wear Ferumbras' hat as accessory. Congratulations!": {
-   "pt": "",
+   "pt": "Eu me curvo a você, jogador, e por meio desta concedo o direito de usar o chapéu de Ferumbras como acessório. Parabéns!",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Sorry you don't have the Ferumbras' hat.": {
-   "pt": "",
+   "pt": "Desculpe, você não tem o chapéu de Ferumbras.",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "This task is only available for male players who don't already have the addon.": {
-   "pt": "",
+   "pt": "Esta tarefa só está disponível para jogadores do sexo masculino que ainda não têm o addon.",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Stop bothering me. I am a far too busy man to be constantly giving out awards.": {
-   "pt": "",
+   "pt": "Pare de me incomodar. Sou um homem ocupado demais para ficar dando prêmios o tempo todo.",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "What the hell are you talking about?": {
-   "pt": "",
+   "pt": "Do que diabos você está falando?",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Welcome |PLAYERNAME|, student of the arcane arts. I teach the fiercest {spells} available.": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|, estudante das artes arcanas. Ensino as {magias} mais ferozes disponíveis.",
    "n": 1,
    "npc": [
     "zoltan"
    ]
   },
   "Use your knowledge wisely, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Use seu conhecimento com sabedoria, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "zoltan"
@@ -55644,7 +55644,7 @@
    "n": 75
   },
   "twist of fate": {
-   "pt": "",
+   "pt": "twist of fate",
    "n": 71
   },
   "yes": {
@@ -55776,7 +55776,7 @@
    "n": 50
   },
   "blessings": {
-   "pt": "",
+   "pt": "bênçãos",
    "n": 48
   },
   "arrow call": {
@@ -61772,7 +61772,7 @@
    "n": 1
   },
   "earned": {
-   "pt": "",
+   "pt": "conquistados",
    "n": 1
   },
   "caliph": {
@@ -62327,6 +62327,10 @@
   },
   "divine": {
    "pt": "divinos",
+   "n": 0
+  },
+  "information": {
+   "pt": "informações",
    "n": 0
   }
  }
