@@ -5408,7 +5408,7 @@
    ]
   },
   "As I expected. You haven't got the stone. Shall I explain your mission again?": {
-   "pt": "",
+   "pt": "Como eu esperava. Você não conseguiu a pedra. Devo explicar sua missão de novo?",
    "n": 4,
    "npc": [
     "alesar",
@@ -5715,7 +5715,7 @@
    ]
   },
   "Wrong. SHUT DOWN.": {
-   "pt": "",
+   "pt": "Errado. DESLIGANDO.",
    "n": 4,
    "npc": [
     "denominator"
@@ -6217,7 +6217,7 @@
    ]
   },
   "Ok then not.": {
-   "pt": "",
+   "pt": "Certo, então não.",
    "n": 3,
    "npc": [
     "altar",
@@ -7499,7 +7499,7 @@
    ]
   },
   "Did you find the tear of Daraman?": {
-   "pt": "",
+   "pt": "Você achou a tear of Daraman?",
    "n": 2,
    "npc": [
     "alesar",
@@ -7507,7 +7507,7 @@
    ]
   },
   "Don't forget to talk to Malor concerning your next mission.": {
-   "pt": "",
+   "pt": "Não esqueça de falar com Malor sobre sua próxima missão.",
    "n": 2,
    "npc": [
     "alesar",
@@ -7523,7 +7523,7 @@
    ]
   },
   "Finally.": {
-   "pt": "",
+   "pt": "Finalmente.",
    "n": 2,
    "npc": [
     "alesar"
@@ -8677,7 +8677,7 @@
    ]
   },
   "Mortal! If you are on a {quest} to serve the blood god, my master - be greeted!": {
-   "pt": "",
+   "pt": "Mortal! Se você está numa {quest} para servir ao deus do sangue, meu mestre - seja bem-vindo!",
    "n": 2,
    "npc": [
     "bloodshade_rotten",
@@ -9441,14 +9441,14 @@
    ]
   },
   "Correct. {Next} question?": {
-   "pt": "",
+   "pt": "Correto. {Próxima} pergunta?",
    "n": 2,
    "npc": [
     "denominator"
    ]
   },
   "SHUT DOWN.": {
-   "pt": "",
+   "pt": "DESLIGANDO.",
    "n": 2,
    "npc": [
     "denominator"
@@ -10142,7 +10142,7 @@
    ]
   },
   "No... that's not it.": {
-   "pt": "",
+   "pt": "Não... não é isso.",
    "n": 2,
    "npc": [
     "habdel",
@@ -14386,7 +14386,7 @@
    ]
   },
   "What do you want from me, |PLAYERNAME|?": {
-   "pt": "",
+   "pt": "O que você quer de mim, |PLAYERNAME|?",
    "n": 1,
    "npc": [
     "alesar"
@@ -17144,21 +17144,21 @@
    ]
   },
   "You already have access.": {
-   "pt": "",
+   "pt": "Você já tem acesso.",
    "n": 1,
    "npc": [
     "bloodshade_sacrifice"
    ]
   },
   "You are willing to pay 5000000 gold pieces, then? There is no turning back after our... transaction is complete. Are you sure?": {
-   "pt": "",
+   "pt": "Então você está disposto a pagar 5000000 moedas de ouro? Não há como voltar atrás depois que nossa... transação for concluída. Tem certeza?",
    "n": 1,
    "npc": [
     "bloodshade_sacrifice"
    ]
   },
   "The bargain has been made, the business is done.": {
-   "pt": "",
+   "pt": "O acordo foi feito, o negócio está concluído.",
    "n": 1,
    "npc": [
     "bloodshade_sacrifice"
@@ -18817,63 +18817,63 @@
    ]
   },
   "By direct edict of the honorable Henricus, we are ordered to give passage for all recruits to Thais.": {
-   "pt": "",
+   "pt": "Por édito direto do honorável Henricus, temos ordem de dar passagem a todos os recrutas para Thais.",
    "n": 1,
    "npc": [
     "captain_chelop"
    ]
   },
   "By direct edict of the honorable Henricus himself... well, you know.": {
-   "pt": "",
+   "pt": "Por édito direto do próprio honorável Henricus... bem, você sabe.",
    "n": 1,
    "npc": [
     "captain_chelop"
    ]
   },
   "I can bring you back to {Thais} if you are weary or you can stay and fight. What shall it be?": {
-   "pt": "",
+   "pt": "Posso lhe levar de volta a {Thais} se estiver cansado, ou você pode ficar e lutar. Qual vai ser?",
    "n": 1,
    "npc": [
     "captain_chelop"
    ]
   },
   "My name is Chelop and I am a captain of this {inquisition} ship.": {
-   "pt": "",
+   "pt": "Meu nome é Chelop e sou capitão deste navio da {inquisição}.",
    "n": 1,
    "npc": [
     "captain_chelop"
    ]
   },
   "Can't you see? I'm captain of the Pesadilla, the proud {inquisition} ship which anchors here.": {
-   "pt": "",
+   "pt": "Não está vendo? Sou o capitão do Pesadilla, o orgulhoso navio da {inquisição} ancorado aqui.",
    "n": 1,
    "npc": [
     "captain_chelop"
    ]
   },
   "By edict of the honorable Henricus himself, we are ordered to give passage to all recruits of the Roshamuul mission for a small fee.": {
-   "pt": "",
+   "pt": "Por édito do próprio honorável Henricus, temos ordem de dar passagem a todos os recrutas da missão Roshamuul por uma pequena taxa.",
    "n": 1,
    "npc": [
     "captain_chelop"
    ]
   },
   "This is the island you are currently on, just in case you forgot.": {
-   "pt": "",
+   "pt": "Esta é a ilha em que você está agora, caso tenha esquecido.",
    "n": 1,
    "npc": [
     "captain_chelop"
    ]
   },
   "Welcome on board, recruit |PLAYERNAME|. Where can I {sail} you today?": {
-   "pt": "",
+   "pt": "Bem-vindo a bordo, recruta |PLAYERNAME|. Para onde posso {levar} você hoje?",
    "n": 1,
    "npc": [
     "captain_chelop"
    ]
   },
   "On behalf of the inquisition, I bid you farewell.": {
-   "pt": "",
+   "pt": "Em nome da inquisição, lhe dou adeus.",
    "n": 1,
    "npc": [
     "captain_chelop"
@@ -22947,35 +22947,35 @@
    ]
   },
   "Ready to {start}?": {
-   "pt": "",
+   "pt": "Pronto para {começar}?",
    "n": 1,
    "npc": [
     "denominator"
    ]
   },
   "Correct. {Last} question?": {
-   "pt": "",
+   "pt": "Correto. {Última} pergunta?",
    "n": 1,
    "npc": [
     "denominator"
    ]
   },
   "Tell me the correct number?": {
-   "pt": "",
+   "pt": "Diga-me o número correto?",
    "n": 1,
    "npc": [
     "denominator"
    ]
   },
   "Correct. The lower door is now open. The druid of Crunor lies.": {
-   "pt": "",
+   "pt": "Correto. A porta inferior agora está aberta. O druid de Crunor mente.",
    "n": 1,
    "npc": [
     "denominator"
    ]
   },
   "Enter answers for the following {questions}:": {
-   "pt": "",
+   "pt": "Insira respostas para as seguintes {perguntas}:",
    "n": 1,
    "npc": [
     "denominator"
@@ -27273,63 +27273,63 @@
    ]
   },
   "If you like to, you can pay some gold to become a patron of the arts for this wonderful museum. The price is 10,000 gold. Your personal gain will be priceless. Do you want to {pay}?": {
-   "pt": "",
+   "pt": "Se quiser, você pode pagar um pouco de ouro para se tornar mecenas das artes deste museu maravilhoso. O preço é 10.000 gold. Seu ganho pessoal não terá preço. Quer {pagar}?",
    "n": 1,
    "npc": [
     "gareth"
    ]
   },
   "They want us to buy the picture back. Unfortunately this artefact is so important that I don't see an alternative. Please got to Iwar in Kazordoon and pay the money.": {
-   "pt": "",
+   "pt": "Eles querem que a gente recompre o quadro. Infelizmente esse artefato é tão importante que não vejo alternativa. Por favor, vá até Iwar, em Kazordoon, e pague o dinheiro.",
    "n": 1,
    "npc": [
     "gareth"
    ]
   },
   "So the rumours are true. How could this happen? I'll keep the picture at its place until we've got a replacement. Please fo to {Angelo} and ask him if he has a new artefact for our museum.": {
-   "pt": "",
+   "pt": "Então os boatos são verdadeiros. Como isso pôde acontecer? Vou manter o quadro no lugar até conseguirmos um substituto. Por favor, vá até {Angelo} e pergunte se ele tem um artefato novo para o nosso museu.",
    "n": 1,
    "npc": [
     "gareth"
    ]
   },
   "You didn't investigate the pictures yet. Do your job and then come back.": {
-   "pt": "",
+   "pt": "Você ainda não investigou os quadros. Faça seu trabalho e depois volte.",
    "n": 1,
    "npc": [
     "gareth"
    ]
   },
   "It is planned to extend the MOTA. But this will take time, because our workers have faced a little {problem}.": {
-   "pt": "",
+   "pt": "Há planos de expandir o MOTA. Mas isso vai levar tempo, porque nossos trabalhadores enfrentaram um pequeno {problema}.",
    "n": 1,
    "npc": [
     "gareth"
    ]
   },
   "You are a true patron of the arts! I have opened the construction site for you. Start your work right now!": {
-   "pt": "",
+   "pt": "Você é um verdadeiro mecenas das artes! Abri o canteiro de obras para você. Comece seu trabalho agora mesmo!",
    "n": 1,
    "npc": [
     "gareth"
    ]
   },
   "Welcome to the wonderful and only recently opened Museum of Tibian Arts! Free entrance for everybody, but patrons of the arts are wanted and favoured.": {
-   "pt": "",
+   "pt": "Bem-vindo ao maravilhoso e recém-inaugurado Museum of Tibian Arts! Entrada gratuita para todos, mas mecenas das artes são bem-vindos e favorecidos.",
    "n": 1,
    "npc": [
     "gareth"
    ]
   },
   "The Druid of Crunor has sent you? He seems to know that this new museum shines like a diamond. Enjoy your stay! If you like to {support} this place, talk to me.": {
-   "pt": "",
+   "pt": "Foi o Druid de Crunor que lhe mandou? Ele parece saber que este museu novo brilha como um diamante. Aproveite sua estadia! Se quiser {apoiar} este lugar, fale comigo.",
    "n": 1,
    "npc": [
     "gareth"
    ]
   },
   "You again? How could you flee from the last floor. The cultists should have 'dealt' with you! That beats me. You have to leave this place right now. There's nothing more to say.": {
-   "pt": "",
+   "pt": "Você de novo? Como você conseguiu fugir do último andar. Os cultistas deveriam ter 'cuidado' de você! Isso me deixa perplexo. Você tem que sair deste lugar agora mesmo. Não há mais nada a dizer.",
    "n": 1,
    "npc": [
     "gareth"
@@ -33272,35 +33272,35 @@
    ]
   },
   "My jewelled belt? Of course I could make one for you, but I have a small request. Would you fulfil a task for me?": {
-   "pt": "",
+   "pt": "Meu jewelled belt? Claro que eu poderia fazer um para você, mas tenho um pequeno pedido. Você cumpriria uma tarefa para mim?",
    "n": 1,
    "npc": [
     "ishina"
    ]
   },
   "Have you brought me a mermaid's comb?": {
-   "pt": "",
+   "pt": "Você me trouxe um mermaid's comb?",
    "n": 1,
    "npc": [
     "ishina"
    ]
   },
   "Yay! I will wait for you to return with a mermaid's comb then.": {
-   "pt": "",
+   "pt": "Que bom! Então vou esperar você voltar com um mermaid's comb.",
    "n": 1,
    "npc": [
     "ishina"
    ]
   },
   "Yeah! That's it! I can't wait to comb my hair! Oh - but first, I'll fulfil my promise: Here is your jewelled belt! Thanks again!": {
-   "pt": "",
+   "pt": "Isso! É isso mesmo! Mal posso esperar para pentear o cabelo! Ah - mas primeiro, vou cumprir minha promessa: aqui está seu jewelled belt! Obrigada de novo!",
    "n": 1,
    "npc": [
     "ishina"
    ]
   },
   "Oh... okay.": {
-   "pt": "",
+   "pt": "Ah... certo.",
    "n": 1,
    "npc": [
     "ishina"
@@ -51787,35 +51787,35 @@
    ]
   },
   "You need at least level 250 to start our mission.": {
-   "pt": "",
+   "pt": "Você precisa de pelo menos level 250 para começar nossa missão.",
    "n": 1,
    "npc": [
     "torkada"
    ]
   },
   "You already have accepted this mission.": {
-   "pt": "",
+   "pt": "Você já aceitou esta missão.",
    "n": 1,
    "npc": [
     "torkada"
    ]
   },
   "This expedition is here on an important {mission} for the inquisition": {
-   "pt": "",
+   "pt": "Esta expedição está aqui numa {missão} importante para a inquisição",
    "n": 1,
    "npc": [
     "torkada"
    ]
   },
   "Are you willing, to bring the fury of the inquisition to that foul place and eradicate all evil you find? Speak, {yes} or {no}?": {
-   "pt": "",
+   "pt": "Você está disposto a trazer a fúria da inquisição àquele lugar nojento e erradicar todo o mal que encontrar? Fale, {sim} ou {não}?",
    "n": 1,
    "npc": [
     "torkada"
    ]
   },
   "Greetings! This isn't the {time} to chitchat though.": {
-   "pt": "",
+   "pt": "Saudações! Mas não é {hora} de bate-papo.",
    "n": 1,
    "npc": [
     "torkada"
@@ -57824,7 +57824,7 @@
    "n": 3
   },
   "inquisition": {
-   "pt": "",
+   "pt": "inquisição",
    "n": 3
   },
   "bait": {
@@ -58680,7 +58680,7 @@
    "n": 2
   },
   "pay": {
-   "pt": "",
+   "pt": "pagar",
    "n": 2
   },
   "guardians": {
@@ -60024,11 +60024,11 @@
    "n": 1
   },
   "last": {
-   "pt": "",
+   "pt": "última",
    "n": 1
   },
   "questions": {
-   "pt": "",
+   "pt": "perguntas",
    "n": 1
   },
   "seymore": {
@@ -62299,6 +62299,10 @@
   },
   "next": {
    "pt": "próximo",
+   "n": 0
+  },
+  "support": {
+   "pt": "apoiar",
    "n": 0
   }
  }
