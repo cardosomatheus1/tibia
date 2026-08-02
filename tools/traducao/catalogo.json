@@ -8685,14 +8685,14 @@
    ]
   },
   "Too bad. I must have this book.": {
-   "pt": "",
+   "pt": "Que pena. Eu preciso desse livro.",
    "n": 2,
    "npc": [
     "bo_ques"
    ]
   },
   "Goodbye. I am sure you will come back for more. They all do.": {
-   "pt": "",
+   "pt": "Adeus. Tenho certeza que você vai voltar para mais. Todos voltam.",
    "n": 2,
    "npc": [
     "bo_ques"
@@ -9768,7 +9768,7 @@
    ]
   },
   "Farewell, human. I will always remember you. Unless I forget you, of course.": {
-   "pt": "",
+   "pt": "Adeus, humano. Sempre me lembrarei de você. A menos que eu o esqueça, claro.",
    "n": 2,
    "npc": [
     "fa_hradin"
@@ -10955,21 +10955,21 @@
    ]
   },
   "I am the leader of the true sons of {Daraman}.": {
-   "pt": "",
+   "pt": "Sou o líder dos verdadeiros filhos de {Daraman}.",
    "n": 2,
    "npc": [
     "muhad"
    ]
   },
   "We have nothing that would be of value for you.": {
-   "pt": "",
+   "pt": "Não temos nada que teria valor para você.",
    "n": 2,
    "npc": [
     "muhad"
    ]
   },
   "May Daraman be with you on your travels.": {
-   "pt": "",
+   "pt": "Que Daraman esteja com você em suas viagens.",
    "n": 2,
    "npc": [
     "muhad"
@@ -11523,21 +11523,21 @@
    ]
   },
   "Meep? I mean - hello! Sorry, |PLAYERNAME|... Being a {rat} has kind of grown on me.": {
-   "pt": "",
+   "pt": "Meep? Quer dizer - olá! Desculpe, |PLAYERNAME|... Ser um {rato} meio que cresceu em mim.",
    "n": 2,
    "npc": [
     "rata_mari"
    ]
   },
   "No cheese - no report.": {
-   "pt": "",
+   "pt": "Sem queijo - sem relatório.",
    "n": 2,
    "npc": [
     "rata_mari"
    ]
   },
   "Meep!": {
-   "pt": "",
+   "pt": "Meep!",
    "n": 2,
    "npc": [
     "rata_mari"
@@ -11947,14 +11947,14 @@
    ]
   },
   "This isn't your war anyway, human.": {
-   "pt": "",
+   "pt": "De qualquer forma, essa guerra não é sua, humano.",
    "n": 2,
    "npc": [
     "umar"
    ]
   },
   "<salutes>Aaaa -tention!": {
-   "pt": "",
+   "pt": "<continência>Aaaa -tenção!",
    "n": 2,
    "npc": [
     "umar"
@@ -17165,42 +17165,42 @@
    ]
   },
   "Now, where was I...": {
-   "pt": "",
+   "pt": "Agora, onde eu estava...",
    "n": 1,
    "npc": [
     "bo_ques"
    ]
   },
   "Hey! A human! What are you doing in my kitchen, |PLAYERNAME|?": {
-   "pt": "",
+   "pt": "Ei! Um humano! O que você está fazendo na minha cozinha, |PLAYERNAME|?",
    "n": 1,
    "npc": [
     "bo_ques"
    ]
   },
   "I already told you about the recipes I am missing, now please try to find a cookbook of the dwarven kitchen.": {
-   "pt": "",
+   "pt": "Já lhe falei sobre as receitas que estou sem, agora por favor tente achar um cookbook da culinária anã.",
    "n": 1,
    "npc": [
     "bo_ques"
    ]
   },
   "Do you have the cookbook of the dwarven kitchen with you? Can I have it?": {
-   "pt": "",
+   "pt": "Você tem o cookbook da culinária anã com você? Posso ficar com ele?",
    "n": 1,
    "npc": [
     "bo_ques"
    ]
   },
   "Thanks again, for bringing me that book!": {
-   "pt": "",
+   "pt": "Obrigado de novo por me trazer aquele livro!",
    "n": 1,
    "npc": [
     "bo_ques"
    ]
   },
   "Well, too bad.": {
-   "pt": "",
+   "pt": "Bem, que pena.",
    "n": 1,
    "npc": [
     "bo_ques"
@@ -24760,56 +24760,56 @@
    ]
   },
   "<hums a dark tune>": {
-   "pt": "",
+   "pt": "<cantarola uma melodia sombria>",
    "n": 1,
    "npc": [
     "elyen_ravenlock"
    ]
   },
   "<chants> Re Ha, Omrah, Tan Ra...": {
-   "pt": "",
+   "pt": "<entoa> Re Ha, Omrah, Tan Ra...",
    "n": 1,
    "npc": [
     "elyen_ravenlock"
    ]
   },
   "The rats... the rats in the walls...": {
-   "pt": "",
+   "pt": "Os ratos... os ratos nas paredes...",
    "n": 1,
    "npc": [
     "elyen_ravenlock"
    ]
   },
   "Hello, brother. You come with a question to me, I believe?": {
-   "pt": "",
+   "pt": "Olá, irmão. Você vem até mim com uma pergunta, creio eu?",
    "n": 1,
    "npc": [
     "elyen_ravenlock"
    ]
   },
   "And what is it you want? Do you bring news from the undead, or do you seek a dark {artefact}?": {
-   "pt": "",
+   "pt": "E o que é que você quer? Traz notícias dos mortos-vivos, ou busca um {artefato} sombrio?",
    "n": 1,
    "npc": [
     "elyen_ravenlock"
    ]
   },
   "Hello, brother. You have finished the dance?": {
-   "pt": "",
+   "pt": "Olá, irmão. Você terminou a dança?",
    "n": 1,
    "npc": [
     "elyen_ravenlock"
    ]
   },
   "Time is money, hurry.": {
-   "pt": "",
+   "pt": "Tempo é dinheiro, apresse-se.",
    "n": 1,
    "npc": [
     "elyen_ravenlock"
    ]
   },
   "A shadow preceded you. You wish a {scroll} or a {mission}?": {
-   "pt": "",
+   "pt": "Uma sombra o precedeu. Deseja um {scroll} ou uma {missão}?",
    "n": 1,
    "npc": [
     "elyen_ravenlock"
@@ -26069,28 +26069,28 @@
    ]
   },
   "Aaaah... what have we here. A human - interesting. And such an ugly specimen, too... All right, human |PLAYERNAME|. How can I help you?": {
-   "pt": "",
+   "pt": "Aaaah... o que temos aqui. Um humano - interessante. E um espécime tão feio, ainda por cima... Muito bem, humano |PLAYERNAME|. Como posso ajudá-lo?",
    "n": 1,
    "npc": [
     "fa_hradin"
    ]
   },
   "Looking for work, are you? Well, it's very tempting, you know, but I'm afraid we do not really employ beginners. Perhaps our cook could need a helping hand in the kitchen.": {
-   "pt": "",
+   "pt": "Procurando trabalho, é? Bem, é bem tentador, sabe, mas receio que não empregamos iniciantes. Talvez nosso cozinheiro precise de uma mãozinha na cozinha.",
    "n": 1,
    "npc": [
     "fa_hradin"
    ]
   },
   "Did you already retrieve the spyreport?": {
-   "pt": "",
+   "pt": "Você já pegou o spyreport?",
    "n": 1,
    "npc": [
     "fa_hradin"
    ]
   },
   "Did you already talk to Gabel about the report? I think he will have further instructions for you.": {
-   "pt": "",
+   "pt": "Você já falou com Gabel sobre o relatório? Acho que ele terá mais instruções para você.",
    "n": 1,
    "npc": [
     "fa_hradin"
@@ -35386,28 +35386,28 @@
    ]
   },
   "WAAAAAHHH!!!": {
-   "pt": "",
+   "pt": "UAAAAAHHH!!!",
    "n": 1,
    "npc": [
     "kazzan"
    ]
   },
   "Feel welcome in the lands of the children of the enlightened Daraman, |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Sinta-se bem-vindo nas terras dos filhos do iluminado Daraman, |PLAYERNAME|.",
    "n": 1,
    "npc": [
     "kazzan"
    ]
   },
   "Do you know the location of the djinn fortresses in the mountains south of here?": {
-   "pt": "",
+   "pt": "Você sabe a localização das fortalezas djinn nas montanhas ao sul daqui?",
    "n": 1,
    "npc": [
     "kazzan"
    ]
   },
   "Well, I don't blame you for that. I am sure you did your best. Now we can just hope that peace remains. Here, take this small gratification for your effort to help and Daraman may bless you!": {
-   "pt": "",
+   "pt": "Bem, não o culpo por isso. Tenho certeza que você fez o seu melhor. Agora só podemos esperar que a paz permaneça. Aqui, aceite esta pequena gratificação pelo seu esforço em ajudar, e que Daraman o abençoe!",
    "n": 1,
    "npc": [
     "kazzan"
@@ -40202,42 +40202,42 @@
    ]
   },
   "This is our home - the land of the desert.": {
-   "pt": "",
+   "pt": "Este é o nosso lar - a terra do deserto.",
    "n": 1,
    "npc": [
     "muhad"
    ]
   },
   "We will fight that city until we get back what belongs to us.": {
-   "pt": "",
+   "pt": "Vamos lutar contra aquela cidade até recuperarmos o que é nosso.",
    "n": 1,
    "npc": [
     "muhad"
    ]
   },
   "We avoid these places you call cities.": {
-   "pt": "",
+   "pt": "Evitamos esses lugares que vocês chamam de cidades.",
    "n": 1,
    "npc": [
     "muhad"
    ]
   },
   "I would go crazy living in a cage like that.": {
-   "pt": "",
+   "pt": "Eu enlouqueceria vivendo numa gaiola dessas.",
    "n": 1,
    "npc": [
     "muhad"
    ]
   },
   "That is the curse for not following the rules of the desert. No son of the desert has ever come back from the dead.": {
-   "pt": "",
+   "pt": "Essa é a maldição por não seguir as regras do deserto. Nenhum filho do deserto jamais voltou dos mortos.",
    "n": 1,
    "npc": [
     "muhad"
    ]
   },
   "Be greeted, foreigner under the sun of Darama. What brings you {here}?": {
-   "pt": "",
+   "pt": "Seja bem-vindo, estrangeiro sob o sol de Darama. O que lhe traz {aqui}?",
    "n": 1,
    "npc": [
     "muhad"
@@ -45039,28 +45039,28 @@
    ]
   },
   "Your power of observation is stunning. Yes, I'm a rat.": {
-   "pt": "",
+   "pt": "Seu poder de observação é impressionante. Sim, sou um rato.",
    "n": 1,
    "npc": [
     "rata_mari"
    ]
   },
   "Ok, have you brought me the cheese, I've asked for?": {
-   "pt": "",
+   "pt": "Ok, você trouxe o queijo que pedi?",
    "n": 1,
    "npc": [
     "rata_mari"
    ]
   },
   "I already gave you the report. I'm not going to write another one!": {
-   "pt": "",
+   "pt": "Já lhe dei o relatório. Não vou escrever outro!",
    "n": 1,
    "npc": [
     "rata_mari"
    ]
   },
   "Meep! Meep! Great! Here is the spyreport for you!": {
-   "pt": "",
+   "pt": "Meep! Meep! Ótimo! Aqui está o spyreport para você!",
    "n": 1,
    "npc": [
     "rata_mari"
@@ -51661,70 +51661,70 @@
    ]
   },
   "Interesting reaction. Bloodcurdling. Must inspect further.": {
-   "pt": "",
+   "pt": "Reação interessante. Arrepiante. Preciso investigar mais.",
    "n": 1,
    "npc": [
     "tomruk_the_ruddy"
    ]
   },
   "This is really sanguine!": {
-   "pt": "",
+   "pt": "Isso é realmente sanguíneo!",
    "n": 1,
    "npc": [
     "tomruk_the_ruddy"
    ]
   },
   "Hmm... the conductors are too dry to transmit energy.": {
-   "pt": "",
+   "pt": "Hmm... os condutores estão secos demais para transmitir energia.",
    "n": 1,
    "npc": [
     "tomruk_the_ruddy"
    ]
   },
   "Ah, fresh blood. My favourite.": {
-   "pt": "",
+   "pt": "Ah, sangue fresco. Meu favorito.",
    "n": 1,
    "npc": [
     "tomruk_the_ruddy"
    ]
   },
   "Hello hello! Did you bring those blood samples?": {
-   "pt": "",
+   "pt": "Olá, olá! Você trouxe aquelas amostras de sangue?",
    "n": 1,
    "npc": [
     "tomruk_the_ruddy"
    ]
   },
   "You haven't got any blood.": {
-   "pt": "",
+   "pt": "Você não tem sangue nenhum.",
    "n": 1,
    "npc": [
     "tomruk_the_ruddy"
    ]
   },
   "Hello hello! Did Hello hello! Well now, painted all those blood pagodas properly?": {
-   "pt": "",
+   "pt": "Olá, olá! Você— olá, olá! Muito bem, pintou todos aqueles pagodes de sangue direitinho?",
    "n": 1,
    "npc": [
     "tomruk_the_ruddy"
    ]
   },
   "Hello hell- oh, you've come for the scroll, haven't you?": {
-   "pt": "",
+   "pt": "Olá, ol- ah, você veio pelo {scroll}, não é?",
    "n": 1,
    "npc": [
     "tomruk_the_ruddy"
    ]
   },
   "My heart bleeds to part from it. Here. Extend your hand - I'll just retrieve some blood from in exchange - HOLD STILL.": {
-   "pt": "",
+   "pt": "Meu coração sangra por me separar dele. Aqui. Estenda a mão - vou só retirar um pouco de sangue em troca - FIQUE PARADO.",
    "n": 1,
    "npc": [
     "tomruk_the_ruddy"
    ]
   },
   "Hello hello! Always good to see fresh blood! What brings you here?": {
-   "pt": "",
+   "pt": "Olá, olá! Sempre bom ver sangue fresco! O que lhe traz aqui?",
    "n": 1,
    "npc": [
     "tomruk_the_ruddy"
@@ -52081,28 +52081,28 @@
    ]
   },
   "|PLAYERNAME|! How's it going these days? What brings you {here}?": {
-   "pt": "",
+   "pt": "|PLAYERNAME|! Como vão as coisas ultimamente? O que lhe traz {aqui}?",
    "n": 1,
    "npc": [
     "umar"
    ]
   },
   "You already have the permission to enter Ashta'daramai.": {
-   "pt": "",
+   "pt": "Você já tem permissão para entrar em Ashta'daramai.",
    "n": 1,
    "npc": [
     "umar"
    ]
   },
   "Are you sure? You pledge loyalty to king Gabel, who is... you know. And you are willing to never ever set foot on Efreets' territory, unless you want to kill them? Yes?": {
-   "pt": "",
+   "pt": "Tem certeza? Você jura lealdade ao king Gabel, que é... você sabe. E está disposto a nunca mais pôr os pés no território dos Efreets, a menos que queira matá-los? Sim?",
    "n": 1,
    "npc": [
     "umar"
    ]
   },
   "I don't believe you! You better go now.": {
-   "pt": "",
+   "pt": "Não acredito em você! É melhor ir embora agora.",
    "n": 1,
    "npc": [
     "umar"
@@ -54223,70 +54223,70 @@
    ]
   },
   "<sigh> lost... word...": {
-   "pt": "",
+   "pt": "<suspira> perdida... palavra...",
    "n": 1,
    "npc": [
     "zarifan"
    ]
   },
   "<sigh> ohhhh.... memories...": {
-   "pt": "",
+   "pt": "<suspira> ohhhh.... memórias...",
    "n": 1,
    "npc": [
     "zarifan"
    ]
   },
   "The secrets... too many... sleep...": {
-   "pt": "",
+   "pt": "Os segredos... tantos... dormir...",
    "n": 1,
    "npc": [
     "zarifan"
    ]
   },
   "Loneliness...": {
-   "pt": "",
+   "pt": "Solidão...",
    "n": 1,
    "npc": [
     "zarifan"
    ]
   },
   "..what about {magic}..": {
-   "pt": "",
+   "pt": "..e quanto à {magia}..",
    "n": 1,
    "npc": [
     "zarifan"
    ]
   },
   "...Tell me...the first... magic word.": {
-   "pt": "",
+   "pt": "...Diga-me...a primeira... palavra mágica.",
    "n": 1,
    "npc": [
     "zarifan"
    ]
   },
   "Yes... YES... friendship... now... second word?": {
-   "pt": "",
+   "pt": "Sim... SIM... amizade... agora... segunda palavra?",
    "n": 1,
    "npc": [
     "zarifan"
    ]
   },
   "Yes... YES... friendship... lives... now third word?": {
-   "pt": "",
+   "pt": "Sim... SIM... amizade... vive... agora terceira palavra?",
    "n": 1,
    "npc": [
     "zarifan"
    ]
   },
   "...continue with your mission...": {
-   "pt": "",
+   "pt": "...continue sua missão...",
    "n": 1,
    "npc": [
     "zarifan"
    ]
   },
   "... ... hello...magic... words?": {
-   "pt": "",
+   "pt": "... ... olá...mágicas... palavras?",
    "n": 1,
    "npc": [
     "zarifan"
@@ -60096,7 +60096,7 @@
    "n": 1
   },
   "artefact": {
-   "pt": "",
+   "pt": "artefato",
    "n": 1
   },
   "cgb": {
