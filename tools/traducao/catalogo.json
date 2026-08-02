@@ -5679,7 +5679,7 @@
    ]
   },
   "You did well. That will help us a lot. Take your {token} and this gnomish supply package as a reward.": {
-   "pt": "",
+   "pt": "Você se saiu bem. Isso vai nos ajudar muito. Pegue seu {token} e este pacote de suprimentos gnomo como recompensa.",
    "n": 4,
    "npc": [
     "commander_stone"
@@ -6113,7 +6113,7 @@
    ]
   },
   "I heard too many news to recall them all.": {
-   "pt": "",
+   "pt": "Ouvi tantas notícias que não consigo lembrar de todas.",
    "n": 4,
    "npc": [
     "uzon",
@@ -6121,7 +6121,7 @@
    ]
   },
   "Daraman's blessings": {
-   "pt": "",
+   "pt": "As bênçãos de Daraman",
    "n": 4,
    "npc": [
     "uzon",
@@ -12064,7 +12064,7 @@
    ]
   },
   "I am known as Uzon Ibn Kalith.": {
-   "pt": "",
+   "pt": "Sou conhecido como Uzon Ibn Kalith.",
    "n": 2,
    "npc": [
     "uzon",
@@ -12079,7 +12079,7 @@
    ]
   },
   "I transport travellers to the continent of Darama for a small fee. So many want to see the wonders of the desert and learn the secrets of Darama.": {
-   "pt": "",
+   "pt": "Transporto viajantes até o continente de Darama por uma pequena taxa. Tantos querem ver as maravilhas do deserto e aprender os segredos de Darama.",
    "n": 2,
    "npc": [
     "uzon",
@@ -12087,7 +12087,7 @@
    ]
   },
   "It's 3:42 pm right now. The next flight is scheduled soon.": {
-   "pt": "",
+   "pt": "Agora são 3:42 pm. O próximo voo está programado para breve.",
    "n": 2,
    "npc": [
     "uzon",
@@ -18033,21 +18033,21 @@
    ]
   },
   "Passage to Cormaya! Unforgettable steamboat ride!": {
-   "pt": "",
+   "pt": "Passagem para Cormaya! Uma viagem inesquecível de barco a vapor!",
    "n": 1,
    "npc": [
     "brodrosch"
    ]
   },
   "Do you want me take you to {Cormaya}, {Farmine} or to {Gnomprona}?": {
-   "pt": "",
+   "pt": "Quer que eu o leve para {Cormaya}, {Farmine} ou para {Gnomprona}?",
    "n": 1,
    "npc": [
     "brodrosch"
    ]
   },
   "Welcome, |PLAYERNAME|! May earth protect you on the rocky grounds. If you need a {passage}, I can help you.": {
-   "pt": "",
+   "pt": "Bem-vindo, |PLAYERNAME|! Que a terra o proteja nesses terrenos rochosos. Se precisar de uma {passagem}, posso ajudá-lo.",
    "n": 1,
    "npc": [
     "brodrosch"
@@ -21939,42 +21939,42 @@
    ]
   },
   "You will have to repair some damaged crystals. Go into the Crystal grounds and repair them, using this harmonic crystal. Repair five of them and return to me.": {
-   "pt": "",
+   "pt": "Você vai precisar consertar alguns cristais danificados. Vá até o Crystal grounds e conserte-os, usando este harmonic crystal. Conserte cinco deles e volte para mim.",
    "n": 1,
    "npc": [
     "commander_stone"
    ]
   },
   "You did not draw enough energy from Crystal Crushers or you have not asked for this task.": {
-   "pt": "",
+   "pt": "Você não extraiu energia suficiente dos Crystal Crushers, ou não pediu esta tarefa.",
    "n": 1,
    "npc": [
     "commander_stone"
    ]
   },
   "The wigglers have become a pest that threaten our resources and supplies. Kill 10 wigglers in the caves like the mushroon gardens or the truffles ground. {Report} back to me when you are done.": {
-   "pt": "",
+   "pt": "Os wigglers viraram uma praga que ameaça nossos recursos e suprimentos. Mate 10 wigglers nas cavernas, como os mushroon gardens ou o truffles ground. {Relatar} de volta para mim quando terminar.",
    "n": 1,
    "npc": [
     "commander_stone"
    ]
   },
   "Which mission do you want to report: crystal {keeper}, {spark} hunting?": {
-   "pt": "",
+   "pt": "Qual missão você quer relatar: crystal {keeper}, caça aos {spark}?",
    "n": 1,
    "npc": [
     "commander_stone"
    ]
   },
   "Which mission do you want to report: crystal {keeper}, {spark} hunting, monster {extermination} or mushroom {digging}?": {
-   "pt": "",
+   "pt": "Qual missão você quer relatar: crystal {keeper}, caça aos {spark}, {extermination} de monstros ou {digging} de cogumelos?",
    "n": 1,
    "npc": [
     "commander_stone"
    ]
   },
   "Hello recruit.": {
-   "pt": "",
+   "pt": "Olá, recruta.",
    "n": 1,
    "npc": [
     "commander_stone"
@@ -23661,98 +23661,98 @@
    ]
   },
   "I can teach you {healing} spells and {support} spells. I can also tell you which spells are available at your {level}.": {
-   "pt": "",
+   "pt": "Posso lhe ensinar feitiços de {cura} e feitiços de {suporte}. Também posso lhe dizer quais feitiços estão disponíveis no seu {level}.",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "My healing spells are: {Cure Poison} and {Wound Cleansing}.": {
-   "pt": "",
+   "pt": "Meus feitiços de cura são: {Cure Poison} e {Wound Cleansing}.",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "My support spells are: {Find Person}, {Great Light} and {Light}.": {
-   "pt": "",
+   "pt": "Meus feitiços de suporte são: {Find Person}, {Great Light} e {Light}.",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "I have spells for level {8}, {10} and {13}.": {
-   "pt": "",
+   "pt": "Tenho feitiços para o level {8}, {10} e {13}.",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "I'm the highest knight of the dwarfs. I guess you wanna buy spells!": {
-   "pt": "",
+   "pt": "Sou o knight mais graduado dos anões. Imagino que você queira comprar feitiços!",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "I am Duria Steelbender, daughter of Fire, of the Dragoneaters.": {
-   "pt": "",
+   "pt": "Sou Duria Steelbender, filha do Fogo, dos Dragoneaters.",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "Bah, too much plants and stuff, too few tunnels if you ask me.": {
-   "pt": "",
+   "pt": "Bah, plantas e essas coisas demais, túneis de menos, se quer saber.",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "Knights are proud of being dwarfs, jawoll.": {
-   "pt": "",
+   "pt": "Knights têm orgulho de ser anões, jawoll.",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "Heroes are rare in this days, jawoll.": {
-   "pt": "",
+   "pt": "Heróis são raros hoje em dia, jawoll.",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "Was there once. Can't handle the crime over there.": {
-   "pt": "",
+   "pt": "Já estive lá uma vez. Não aguento a criminalidade de lá.",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "Dunno.": {
-   "pt": "",
+   "pt": "Sei lá.",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "Hiho, fellow knight |PLAYERNAME|!": {
-   "pt": "",
+   "pt": "Hiho, colega knight |PLAYERNAME|!",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "Goodbye.": {
-   "pt": "",
+   "pt": "Adeus.",
    "n": 1,
    "npc": [
     "duria"
    ]
   },
   "Becarefulloutthere, jawoll": {
-   "pt": "",
+   "pt": "Tenhacuidadolafora, jawoll",
    "n": 1,
    "npc": [
     "duria"
@@ -37381,7 +37381,7 @@
    ]
   },
   "Come on, I have no clue what they are. Better ask my armorer Kroox for such nonsense.Go and ask him for good ol' Lokurs measurements, he'll know.": {
-   "pt": "",
+   "pt": "Qual é, não faço ideia do que sejam essas coisas. Melhor perguntar essas bobagens ao meu armorer Kroox. Vá perguntar a ele sobre as boas e velhas medidas de Lokur, ele vai saber.",
    "n": 1,
    "npc": [
     "lokur"
@@ -57864,7 +57864,7 @@
    "n": 3
   },
   "keeper": {
-   "pt": "",
+   "pt": "guardião",
    "n": 3
   },
   "hut": {
@@ -58456,7 +58456,7 @@
    "n": 2
   },
   "spark": {
-   "pt": "",
+   "pt": "spark",
    "n": 2
   },
   "experiences": {
@@ -59956,11 +59956,11 @@
    "n": 1
   },
   "extermination": {
-   "pt": "",
+   "pt": "extermínio",
    "n": 1
   },
   "digging": {
-   "pt": "",
+   "pt": "escavação",
    "n": 1
   },
   "addons": {
