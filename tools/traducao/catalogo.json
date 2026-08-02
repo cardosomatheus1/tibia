@@ -11153,7 +11153,7 @@
    ]
   },
   "Whatever.": {
-   "pt": "",
+   "pt": "Tanto faz.",
    "n": 2,
    "npc": [
     "puffels"
@@ -43051,105 +43051,105 @@
    ]
   },
   "I am the grand druid of Carlin. I am responsible for the guild, the fields, and our citizens' health.": {
-   "pt": "",
+   "pt": "Sou a grand druid de Carlin. Sou responsável pela guilda, pelos campos e pela saúde dos nossos cidadãos.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "Every druid is able to learn the numerous spells of our craft.": {
-   "pt": "",
+   "pt": "Todo druid é capaz de aprender as inúmeras magias do nosso ofício.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "I am Padreia, grand druid of our fine city.": {
-   "pt": "",
+   "pt": "Sou Padreia, grand druid da nossa bela cidade.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "Time is just a crystal pillar - the centre of creation and life.": {
-   "pt": "",
+   "pt": "O tempo é apenas um pilar de cristal - o centro da criação e da vida.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "We are druids, preservers of life. Our magic is about defence, healing, and nature.": {
-   "pt": "",
+   "pt": "Somos druids, preservadores da vida. Nossa magia trata de defesa, cura e natureza.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "Sorcerers are destructive. Their power lies in destruction and pain.": {
-   "pt": "",
+   "pt": "Sorcerers são destrutivos. O poder deles está na destruição e na dor.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "Do you want to buy a bottle of cough syrup for 50 gold?": {
-   "pt": "",
+   "pt": "Quer comprar um frasco de xarope para tosse por 50 gold?",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "You MUST find that slime pool immediately or life here in Carlin will not be the same anymore.": {
-   "pt": "",
+   "pt": "Você PRECISA encontrar aquela poça de slime imediatamente, ou a vida aqui em Carlin nunca mais será a mesma.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "You did it! Even if only few of the Carliners will ever know about that, you saved all of their lives. Here, take this as a reward. Farewell!": {
-   "pt": "",
+   "pt": "Você conseguiu! Mesmo que poucos moradores de Carlin um dia saibam disso, você salvou a vida de todos eles. Aqui, aceite isso como recompensa. Adeus!",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "Maybe the guards have something to do for you or know someone who could need some help.": {
-   "pt": "",
+   "pt": "Talvez os guardas tenham algo para você fazer, ou conheçam alguém que possa precisar de ajuda.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "Thank you. Here it is.": {
-   "pt": "",
+   "pt": "Obrigada. Aqui está.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "Then the downfall of Carlin is inescapable. Please think about it. You know where to find me.": {
-   "pt": "",
+   "pt": "Então a queda de Carlin é inevitável. Por favor, pense nisso. Você sabe onde me encontrar.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "Don't ask. They were only an unimportant footnote of history.": {
-   "pt": "",
+   "pt": "Não pergunte. Eles foram só uma nota de rodapé sem importância na história.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "They thought they had to bring Crunor to the people, if the people had not found Crunor on their own. To achieve this, they founded the inn called Crunor's Cottage, south of Mt. Sternum.": {
-   "pt": "",
+   "pt": "Eles achavam que precisavam levar Crunor até o povo, caso o povo não encontrasse Crunor por conta própria. Para isso, fundaram a estalagem chamada Crunor's Cottage, ao sul do Mt. Sternum.",
    "n": 1,
    "npc": [
     "padreia"
    ]
   },
   "Welcome to our humble guild, wanderer. May I be of any assistance to you?": {
-   "pt": "",
+   "pt": "Bem-vindo à nossa humilde guilda, andarilho. Posso ser útil de alguma forma?",
    "n": 1,
    "npc": [
     "padreia"
@@ -44066,126 +44066,126 @@
    ]
   },
   "I can teach you {healing}, {support} and {attack} spells. I can also tell you which spells are available at your {level}.": {
-   "pt": "",
+   "pt": "Posso te ensinar magias de {cura}, {suporte} e {ataque}. Também posso dizer quais estão disponíveis no seu {level}.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "Healing spells: {Bruise Bane}, {Cure Bleeding}, {Cure Poison}, {Fair Wound Cleansing}, {Intense Recovery}, {Intense Wound Cleansing}, {Recovery}, {Wound Cleansing}.": {
-   "pt": "",
+   "pt": "Magias de cura: {Bruise Bane}, {Cure Bleeding}, {Cure Poison}, {Fair Wound Cleansing}, {Intense Recovery}, {Intense Wound Cleansing}, {Recovery}, {Wound Cleansing}.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "Support spells: {Charge}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope}, {Summon Knight Familiar}.": {
-   "pt": "",
+   "pt": "Magias de suporte: {Charge}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Levitate}, {Light}, {Magic Rope}, {Summon Knight Familiar}.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "Attack spells: {Annihilation}, {Berserk}, {Brutal Strike}, {Chivalrous Challenge}, {Fierce Berserk}, {Front Sweep}, {Groundshaker}, {Inflict Wound}, {Lesser Front Sweep}, {Whirlwind Throw}.": {
-   "pt": "",
+   "pt": "Magias de ataque: {Annihilation}, {Berserk}, {Brutal Strike}, {Chivalrous Challenge}, {Fierce Berserk}, {Front Sweep}, {Groundshaker}, {Inflict Wound}, {Lesser Front Sweep}, {Whirlwind Throw}.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "I am Magister Puffels, any problem with that?": {
-   "pt": "",
+   "pt": "Sou o Magister Puffels, algum problema com isso?",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "I have to teach the spells of least importance to some fools. Well, let's face it - to knights.": {
-   "pt": "",
+   "pt": "Tenho que ensinar as magias de menor importância a alguns tolos. Bem, sejamos sinceros - a knights.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "Guess what, smartypants. I'm the wrong teacher for you. Go see Ursula or Zoltan if you want to broaden your horizon.": {
-   "pt": "",
+   "pt": "Adivinha só, sabichão. Sou o professor errado para você. Vá ver Ursula ou Zoltan se quiser ampliar seus horizontes.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "The day will come even he makes a fatal casting mistake... I know what I am talking about.": {
-   "pt": "",
+   "pt": "Vai chegar o dia em que até ele vai cometer um erro fatal de conjuração... Sei do que estou falando.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "I have no use for such stuff.": {
-   "pt": "",
+   "pt": "Não tenho uso para esse tipo de coisa.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "Sciences are thriving on this isle.": {
-   "pt": "",
+   "pt": "As ciências estão prosperando nesta ilha.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "Fine army that is. Half of them have already deserted.": {
-   "pt": "",
+   "pt": "Belo exército, esse. Metade deles já desertou.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "I heard in Thais the new brand of cheese was... uhm...": {
-   "pt": "",
+   "pt": "Ouvi dizer que em Thais a nova marca de queijo estava... uhm...",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "I was there once, almost died. The fools there mistook me for an ordinary rat, can you believe that!?": {
-   "pt": "",
+   "pt": "Já estive lá uma vez, quase morri. Os tolos de lá me confundiram com um rato comum, acredita nisso!?",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "I give nothing for kings, queens... or other people at all.": {
-   "pt": "",
+   "pt": "Não dou nada por reis, rainhas... ou qualquer outra pessoa.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "I don't care about some remote cities.": {
-   "pt": "",
+   "pt": "Não ligo para cidades remotas.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "Bah, the whole Tibia can &#&$*# my #$&*!": {
-   "pt": "",
+   "pt": "Bah, Tibia inteira pode &#&$*# o meu #$&*!",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "Hugo? I heard it was an accident that created this beast.": {
-   "pt": "",
+   "pt": "Hugo? Ouvi dizer que foi um acidente que criou essa fera.",
    "n": 1,
    "npc": [
     "puffels"
    ]
   },
   "Yeah, another fool {disturbing} me, what a joy.": {
-   "pt": "",
+   "pt": "É, mais um tolo me {perturbando}, que alegria.",
    "n": 1,
    "npc": [
     "puffels"
@@ -52200,98 +52200,98 @@
    ]
   },
   "I can teach you {healing} spells, {support} spells, {conjure} spells, {attack} spells and spells for {runes}. What kind of spell do you wish to learn? I can also tell you which spells are available at your {level}.": {
-   "pt": "",
+   "pt": "Posso te ensinar magias de {cura}, de {suporte}, de {conjuração}, de {ataque} e magias para {runas}. Que tipo de magia você quer aprender? Também posso dizer quais estão disponíveis no seu {level}.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "My support spells are: {Arrow Call}, {Cancel Invisibility}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Lesser Ethereal Spear}, {Levitate}, {Light} and {Magic Rope}.": {
-   "pt": "",
+   "pt": "Minhas magias de suporte são: {Arrow Call}, {Cancel Invisibility}, {Find Fiend}, {Find Person}, {Great Light}, {Haste}, {Lesser Ethereal Spear}, {Levitate}, {Light} e {Magic Rope}.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "My conjure spells are: {Conjure Arrow}, {Conjure Explosive Arrow} and {Enchant Spear}.": {
-   "pt": "",
+   "pt": "Minhas magias de conjuração são: {Conjure Arrow}, {Conjure Explosive Arrow} e {Enchant Spear}.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "I have spells for level {1}, {8}, {9}, {10}, {12}, {13}, {14}, {17}, {20}, {21}, {23}, {25}, {26}, {27}, {35}, {40}, {45}, {50}, {60}, {70}, {80}, {90}, {100} and {200}.": {
-   "pt": "",
+   "pt": "Tenho magias para os levels {1}, {8}, {9}, {10}, {12}, {13}, {14}, {17}, {20}, {21}, {23}, {25}, {26}, {27}, {35}, {40}, {45}, {50}, {60}, {70}, {80}, {90}, {100} e {200}.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "For level 90 I can teach you {Strong Ethereal Spear} for 10000 gold.": {
-   "pt": "",
+   "pt": "No nível 90 posso lhe ensinar {Strong Ethereal Spear} por 10000 de ouro.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "For level 70 I can teach you {Holy Flash} for 7500 gold.": {
-   "pt": "",
+   "pt": "No nível 70 posso lhe ensinar {Holy Flash} por 7500 de ouro.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "For level 50 I can teach you {Divine Caldera} for 3000 gold and {Recovery} for 4000 gold.": {
-   "pt": "",
+   "pt": "No nível 50 posso lhe ensinar {Divine Caldera} por 3000 de ouro e {Recovery} por 4000 de ouro.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "For level 40 I can teach you {Divine Missile} for 1800 gold.": {
-   "pt": "",
+   "pt": "No nível 40 posso lhe ensinar {Divine Missile} por 1800 de ouro.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "For level 27 I can teach you {Holy Missile} Rune for 1600 gold.": {
-   "pt": "",
+   "pt": "No nível 27 posso lhe ensinar a runa {Holy Missile} por 1600 de ouro.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "For level 25 I can teach you {Conjure Explosive Arrow} for 1000 gold and {Find Fiend} for 1000 gold.": {
-   "pt": "",
+   "pt": "No nível 25 posso lhe ensinar {Conjure Explosive Arrow} por 1000 de ouro e {Find Fiend} por 1000 de ouro.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "For level 17 I can teach you {Destroy Field} Rune for 700 gold.": {
-   "pt": "",
+   "pt": "No nível 17 posso lhe ensinar a runa {Destroy Field} por 700 de ouro.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "For level 13 I can teach you {Conjure Arrow} for 450 gold and {Great Light} for 500 gold.": {
-   "pt": "",
+   "pt": "No nível 13 posso lhe ensinar {Conjure Arrow} por 450 de ouro e {Great Light} por 500 de ouro.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "For level 10 I can teach you {Cure Poison} for 150 gold.": {
-   "pt": "",
+   "pt": "No nível 10 posso lhe ensinar {Cure Poison} por 150 de ouro.",
    "n": 1,
    "npc": [
     "ursula"
    ]
   },
   "For level 8 I can teach you {Find Person} for 80 gold, {Light} for free and {Light Healing} for free.": {
-   "pt": "",
+   "pt": "No nível 8 posso lhe ensinar {Find Person} por 80 de ouro, {Light} de graça e {Light Healing} de graça.",
    "n": 1,
    "npc": [
     "ursula"
@@ -59124,7 +59124,7 @@
    "n": 2
   },
   "disturbing": {
-   "pt": "",
+   "pt": "perturbando",
    "n": 2
   },
   "awaited": {
