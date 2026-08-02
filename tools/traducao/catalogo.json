@@ -4006,7 +4006,7 @@
    ]
   },
   "Have you fulfilled your current mission?": {
-   "pt": "",
+   "pt": "Você cumpriu sua missão atual?",
    "n": 7,
    "npc": [
     "chester_kahs"
@@ -4769,7 +4769,7 @@
    ]
   },
   "You don't have the necessary items.": {
-   "pt": "",
+   "pt": "Você não tem os itens necessários.",
    "n": 6,
    "npc": [
     "chondur"
@@ -5055,7 +5055,7 @@
    ]
   },
   "In this case I'm sorry, you may not pass this portal.": {
-   "pt": "",
+   "pt": "Nesse caso, sinto muito, você não pode passar por este portal.",
    "n": 5,
    "npc": [
     "albinius"
@@ -5412,7 +5412,7 @@
    ]
   },
   "Sorry, first you need to bring my Heavy Old Tomes.": {
-   "pt": "",
+   "pt": "Desculpe, primeiro você precisa me trazer os Heavy Old Tomes.",
    "n": 4,
    "npc": [
     "albinius"
@@ -5537,7 +5537,7 @@
    ]
   },
   "Of course, just browse through my wares. {Footballs} have to be purchased separately.": {
-   "pt": "",
+   "pt": "Claro, dê uma olhada nas minhas mercadorias. {Footballs} precisam ser compradas separadamente.",
    "n": 4,
    "npc": [
     "bertha",
@@ -6424,7 +6424,7 @@
    ]
   },
   "Take care out there!": {
-   "pt": "",
+   "pt": "Cuide-se lá fora!",
    "n": 3,
    "npc": [
     "chavis",
@@ -6441,7 +6441,7 @@
    ]
   },
   "Please bring me proof of the mad technomancers defeat!": {
-   "pt": "",
+   "pt": "Por favor, me traga prova da derrota dos technomancers loucos!",
    "n": 3,
    "npc": [
     "chester_kahs",
@@ -7502,7 +7502,7 @@
    ]
   },
   "Oh... farewell, child.": {
-   "pt": "",
+   "pt": "Ah... até logo, criança.",
    "n": 2,
    "npc": [
     "albinius",
@@ -9033,14 +9033,14 @@
    ]
   },
   "I can only hope that this information are as valuable as we expected it. A good man died for them.": {
-   "pt": "",
+   "pt": "Só posso esperar que esta informação seja tão valiosa quanto esperávamos. Um bom homem morreu por ela.",
    "n": 2,
    "npc": [
     "chester_kahs"
    ]
   },
   "You don't have enough money": {
-   "pt": "",
+   "pt": "Você não tem dinheiro suficiente",
    "n": 2,
    "npc": [
     "chester_kahs",
@@ -9062,7 +9062,7 @@
    ]
   },
   "Maybe next time.": {
-   "pt": "",
+   "pt": "Talvez da próxima vez.",
    "n": 2,
    "npc": [
     "chondur",
@@ -9977,14 +9977,14 @@
    ]
   },
   "Even the strong knights need my equipment on their travels though Tibia.": {
-   "pt": "",
+   "pt": "Até os knights fortes precisam do meu equipamento nas viagens por Tibia.",
    "n": 2,
    "npc": [
     "gorn"
    ]
   },
   "You can find him in the sorcerer guild.": {
-   "pt": "",
+   "pt": "Você o encontra na guilda dos sorcerers.",
    "n": 2,
    "npc": [
     "gorn"
@@ -14180,210 +14180,210 @@
    ]
   },
   "I am Albinius, a worshipper of the {Astral Shapers}.": {
-   "pt": "",
+   "pt": "Sou Albinius, um devoto dos {Astral Shapers}.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "Precisely time.": {
-   "pt": "",
+   "pt": "Precisamente na hora.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "I find ways to unveil the secrets of the stars. Judging by this question, I doubt you follow my weekly publications concerning this research.": {
-   "pt": "",
+   "pt": "Eu descubro maneiras de desvendar os segredos das estrelas. A julgar por essa pergunta, duvido que você acompanhe minhas publicações semanais sobre essa pesquisa.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "The temple has been restored to its former glory, yet we strife to live and praise in the {Shaper} ways. Do you still need me to take some old {tomes} from you my child?": {
-   "pt": "",
+   "pt": "O templo foi restaurado ao antigo esplendor, mas ainda lutamos para viver e louvar segundo os costumes {Shaper}. Ainda precisa que eu receba de você alguns {tomes} antigos, minha criança?",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "You already offered enough tomes for us to study and rebuild this temple. Thank you, my child.": {
-   "pt": "",
+   "pt": "Você já ofereceu tomes suficientes para estudarmos e reconstruirmos este templo. Obrigado, minha criança.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "Thank you very much for your contribution, child. Your first step in the ways of the {Shapers} has been taken.": {
-   "pt": "",
+   "pt": "Muito obrigado pela sua contribuição, criança. Seu primeiro passo nos costumes dos {Shapers} foi dado.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "You need 5 heavy old tome.": {
-   "pt": "",
+   "pt": "Você precisa de 5 heavy old tome.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "I understand. Return to me if you change your mind, my child.": {
-   "pt": "",
+   "pt": "Eu entendo. Volte a mim se mudar de ideia, minha criança.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "If you have some old shaper tomes I would {buy} them.": {
-   "pt": "",
+   "pt": "Se você tiver alguns old shaper tomes, eu os {compro}.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "I'm sorry, I don't buy anything. My main concern right now is the bulding of this temple.": {
-   "pt": "",
+   "pt": "Sinto muito, não compro nada. Minha maior preocupação agora é a construção deste templo.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "Do you wish to merge your rune parts into an astral shaper rune?": {
-   "pt": "",
+   "pt": "Deseja combinar suas rune parts numa astral shaper rune?",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "I'm sorry but you lack the needed rune parts.": {
-   "pt": "",
+   "pt": "Sinto muito, mas lhe faltam as rune parts necessárias.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "ok.": {
-   "pt": "",
+   "pt": "certo.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "You may pass this portal if you have 50 fish as offering. Do you have the fish with you?": {
-   "pt": "",
+   "pt": "Você pode passar por este portal se tiver 50 fish como oferenda. Está com os fish?",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "Sorry, you first need to bring my Heavy Old Tomes or do the quest before continuing.": {
-   "pt": "",
+   "pt": "Desculpe, primeiro você precisa me trazer os Heavy Old Tomes ou fazer a quest antes de continuar.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "Thank you for your offering. You may pass the Portal to the Powers of Ice now.": {
-   "pt": "",
+   "pt": "Obrigado pela sua oferenda. Agora você pode passar pelo Portal to the Powers of Ice.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "I'm sorry, you don't have enough fish. Return if you can offer fifty of them.": {
-   "pt": "",
+   "pt": "Sinto muito, você não tem fish suficientes. Volte quando puder oferecer cinquenta.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "You may pass this portal if you have 50 incantation notes as offering. Do you have the incantation notes with you?": {
-   "pt": "",
+   "pt": "Você pode passar por este portal se tiver 50 incantation notes como oferenda. Está com as incantation notes?",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "Thank you for your offering. You may pass the Portal to the Powers of Holy now.": {
-   "pt": "",
+   "pt": "Obrigado pela sua oferenda. Agora você pode passar pelo Portal to the Powers of Holy.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "I'm sorry, you don't have enough incantation notes. Return if you can offer fifty of them.": {
-   "pt": "",
+   "pt": "Sinto muito, você não tem incantation notes suficientes. Volte quando puder oferecer cinquenta.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "You may pass this portal if you have 50 marsh stalker feathers as offering. Do you have the marsh stalker feathers with you?": {
-   "pt": "",
+   "pt": "Você pode passar por este portal se tiver 50 marsh stalker feathers como oferenda. Está com as marsh stalker feathers?",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "Thank you for your offering. You may pass the Portal to the Powers of Energy now.": {
-   "pt": "",
+   "pt": "Obrigado pela sua oferenda. Agora você pode passar pelo Portal to the Powers of Energy.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "I'm sorry, you don't have enough marsh stalker feathers. Return if you can offer fifty of them.": {
-   "pt": "",
+   "pt": "Sinto muito, você não tem marsh stalker feathers suficientes. Volte quando puder oferecer cinquenta.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "You may pass this portal if you have 50 acorns as offering. Do you have the acorns with you?": {
-   "pt": "",
+   "pt": "Você pode passar por este portal se tiver 50 acorns como oferenda. Está com os acorns?",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "Thank you for your offering. You may pass the Portal to the Powers of Earth now.": {
-   "pt": "",
+   "pt": "Obrigado pela sua oferenda. Agora você pode passar pelo Portal to the Powers of Earth.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "I'm sorry, you don't have enough acorns. Return if you can offer fifty of them.": {
-   "pt": "",
+   "pt": "Sinto muito, você não tem acorns suficientes. Volte quando puder oferecer cinquenta.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "You may pass this portal if you have 50 pelvis bones as offering. Do you have the pelvis bones with you?": {
-   "pt": "",
+   "pt": "Você pode passar por este portal se tiver 50 pelvis bones como oferenda. Está com os pelvis bones?",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "Thank you for your offering. You may pass the Portal to the Powers of Death now.": {
-   "pt": "",
+   "pt": "Obrigado pela sua oferenda. Agora você pode passar pelo Portal to the Powers of Death.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "I'm sorry, you don't have enough pelvis bones. Return if you can offer fifty of them.": {
-   "pt": "",
+   "pt": "Sinto muito, você não tem pelvis bones suficientes. Volte quando puder oferecer cinquenta.",
    "n": 1,
    "npc": [
     "albinius"
    ]
   },
   "Greetings, pilgrim. Welcome to the halls of hope. We are the keepers of this {temple} and welcome everyone willing to contribute.": {
-   "pt": "",
+   "pt": "Saudações, peregrino. Bem-vindo aos salões da esperança. Somos os guardiões deste {templo} e recebemos bem qualquer um disposto a contribuir.",
    "n": 1,
    "npc": [
     "albinius"
@@ -20578,196 +20578,196 @@
    ]
   },
   "Too many possibilities to become a servant of darkness to trust ANYONE!": {
-   "pt": "",
+   "pt": "Há possibilidades demais de virar servo das trevas para confiar em QUALQUER UM!",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Don't tell me I didn't warn you.": {
-   "pt": "",
+   "pt": "Não venha dizer que eu não avisei.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "It's all a big conspiracy, mark my words.": {
-   "pt": "",
+   "pt": "É tudo uma grande conspiração, marque minhas palavras.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Not everything that walks our streets is human ... or even living.": {
-   "pt": "",
+   "pt": "Nem tudo que caminha por nossas ruas é humano ... ou sequer está vivo.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "We are surrounded by myths, living and dead.": {
-   "pt": "",
+   "pt": "Estamos cercados de mitos, vivos e mortos.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Are you saying that Gamel is a member of the rebellion?": {
-   "pt": "",
+   "pt": "Está dizendo que Gamel é membro da rebelião?",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Do you know what his plans are about?": {
-   "pt": "",
+   "pt": "Você sabe do que se tratam os planos dele?",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Thank you! Take this ring. If you ever need a healing, come, bring the scroll, and ask me to {heal}.": {
-   "pt": "",
+   "pt": "Obrigado! Fique com este anel. Se algum dia precisar de cura, venha, traga o scroll e me peça para {curar}.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Sorry, but you have none.": {
-   "pt": "",
+   "pt": "Desculpe, mas você não tem nenhum.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "So be healed!": {
-   "pt": "",
+   "pt": "Que seja curado, então!",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Sorry, you are not worthy!": {
-   "pt": "",
+   "pt": "Desculpe, você não é digno!",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Then I welcome you to the TBI. This is a great moment for you, remember it well. Talk to me about your missions whenever you feel ready.": {
-   "pt": "",
+   "pt": "Então lhe dou as boas-vindas à TBI. Este é um grande momento para você, lembre-se bem dele. Fale comigo sobre suas missões quando se sentir pronto.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "I think they understood the warning the way it was meant. If not, you will have to visit Venore soon again. But for now it's settled.": {
-   "pt": "",
+   "pt": "Acho que eles entenderam o aviso do jeito que era para ser entendido. Se não, você vai ter que visitar Venore de novo em breve. Mas por enquanto está resolvido.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Please bring me some proof of his whereabouts.": {
-   "pt": "",
+   "pt": "Por favor, me traga alguma prova do paradeiro dele.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Please bring me some valuable information!": {
-   "pt": "",
+   "pt": "Por favor, me traga alguma informação valiosa!",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Ah yes, very interesting. Almost as I suspected. It's a good thing that we got those documents in our hands.": {
-   "pt": "",
+   "pt": "Ah sim, muito interessante. Quase como eu suspeitava. Ainda bem que colocamos esses documentos em nossas mãos.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "We need those intelligence reports, do whatever you need to do agent!": {
-   "pt": "",
+   "pt": "Precisamos desses relatórios de inteligência, faça o que for preciso, agente!",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Now that Venore is of nearly no importance anymore, there is only Carlin left to deal with.": {
-   "pt": "",
+   "pt": "Agora que Venore quase não tem mais importância, só resta lidar com Carlin.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "I already heard that our little trick worked quite well. Several officials of Carlin are already on their way to repair the damage done to their diplomatic efforts. It will not only cost them much money but also quite some time.": {
-   "pt": "",
+   "pt": "Já ouvi dizer que nosso pequeno truque deu muito certo. Vários funcionários de Carlin já estão a caminho de reparar o dano causado aos esforços diplomáticos deles. Vai lhes custar não só muito dinheiro, mas também bastante tempo.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Here you are. Better don't loose it again.": {
-   "pt": "",
+   "pt": "Aqui está. É melhor não perder de novo.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "You have done superb work agent, I grant you the title of Top Agent! Here's a little gift you might find useful.": {
-   "pt": "",
+   "pt": "Você fez um trabalho excelente, agente, eu lhe concedo o título de Top Agent! Aqui está um presentinho que talvez ache útil.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Then don't bother me with it. I'm a busy man.": {
-   "pt": "",
+   "pt": "Então não me incomode com isso. Sou um homem ocupado.",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Traitor!": {
-   "pt": "",
+   "pt": "Traidor!",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "That's terrible! Will you give me the crystal?": {
-   "pt": "",
+   "pt": "Isso é terrível! Você vai me dar o cristal?",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Tell me precisely what he asked you to do! It's important!": {
-   "pt": "",
+   "pt": "Me diga precisamente o que ele lhe pediu para fazer! É importante!",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Do you need the healing now?": {
-   "pt": "",
+   "pt": "Precisa da cura agora?",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "If you lost or wasted your disguise kit I can replace it. It will cost you 1000 gold though since you lost royal property. Is that ok for you?": {
-   "pt": "",
+   "pt": "Se você perdeu ou desperdiçou seu disguise kit, posso substituí-lo. Mas vai lhe custar 1000 gold, já que você perdeu propriedade real. Tudo bem para você?",
    "n": 1,
    "npc": [
     "chester_kahs"
    ]
   },
   "Salutations, stranger.": {
-   "pt": "",
+   "pt": "Saudações, estranho.",
    "n": 1,
    "npc": [
     "chester_kahs"
@@ -20998,217 +20998,217 @@
    ]
   },
   "The time has come, my child. I sense great spiritual wisdom in you and I shall grant you a sign of your progress, if you can fulfil my task.": {
-   "pt": "",
+   "pt": "Chegou a hora, minha criança. Sinto em você uma grande sabedoria espiritual e vou lhe conceder um sinal do seu progresso, se conseguir cumprir minha tarefa.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "You have successfully passed the first task. If you can fulfil my second task, I will grant you a mask like the one I wear. Will you listen to the requirements?": {
-   "pt": "",
+   "pt": "Você concluiu a primeira tarefa com sucesso. Se conseguir cumprir minha segunda tarefa, vou lhe conceder uma máscara como a que eu uso. Vai ouvir os requisitos?",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "You must have the Shaman Outfit to proceed with this task.": {
-   "pt": "",
+   "pt": "Você precisa ter o Shaman Outfit para prosseguir com esta tarefa.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Good! Come back once you found a mandrake and collected 5 dworcish voodoo dolls.": {
-   "pt": "",
+   "pt": "Ótimo! Volte quando tiver encontrado uma mandrake e coletado 5 dworcish voodoo dolls.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Have you gathered the mandrake and the 5 voodoo dolls from the dworcs?": {
-   "pt": "",
+   "pt": "Você juntou a mandrake e as 5 voodoo dolls dos dworcs?",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Have you gathered the 5 tribal masks and the 5 banana staves?": {
-   "pt": "",
+   "pt": "Você juntou as 5 tribal masks e os 5 banana staves?",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "I am proud of you, my child, excellent work. This staff shall be yours from now on!": {
-   "pt": "",
+   "pt": "Estou orgulhoso de você, minha criança, excelente trabalho. Este cajado é seu a partir de agora!",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Well done, my child! I hereby grant you the right to wear a shamanic mask. Do it proudly.": {
-   "pt": "",
+   "pt": "Muito bem, minha criança! Por meio desta, concedo a você o direito de usar uma máscara xamânica. Use-a com orgulho.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "You did bring all the items I requested, child. Good. Shall I travel to the spirit realm and try finding a stampor companion for you?": {
-   "pt": "",
+   "pt": "Você trouxe todos os itens que pedi, criança. Ótimo. Devo viajar ao reino espiritual e tentar encontrar um stampor companheiro para você?",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "You already have stampor mount.": {
-   "pt": "",
+   "pt": "Você já tem a stampor mount.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "The evil cult has placed a curse on one of the captains here. I need at least five of their pirate voodoo dolls to lift that curse.": {
-   "pt": "",
+   "pt": "O culto maligno lançou uma maldição sobre um dos capitães daqui. Preciso de pelo menos cinco pirate voodoo dolls deles para levantar essa maldição.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Did you bring five pirate voodoo dolls?": {
-   "pt": "",
+   "pt": "Você trouxe cinco pirate voodoo dolls?",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Sorry you don't have the necessary items.": {
-   "pt": "",
+   "pt": "Desculpe, você não tem os itens necessários.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Finally I can put an end to that curse. I thank you so much.": {
-   "pt": "",
+   "pt": "Finalmente posso pôr fim a essa maldição. Muito obrigado.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "This is really not advisable. Behind this barrier, strong forces are raging violently. Are you sure that you want to go there?": {
-   "pt": "",
+   "pt": "Isso realmente não é aconselhável. Atrás desta barreira, forças poderosas se enfurecem violentamente. Tem certeza de que quer ir até lá?",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Very good! <mumble> 'Your soul shall be protected!' Now, I need a fresh dead rat.": {
-   "pt": "",
+   "pt": "Muito bem! <resmunga> 'Sua alma será protegida!' Agora preciso de um fresh dead rat.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Very good! <chants and dances> 'You shall face black magic without fear!' Now, I need a fresh dead black sheep.": {
-   "pt": "",
+   "pt": "Muito bem! <canta e dança> 'Você enfrentará a magia negra sem medo!' Agora preciso de um fresh dead black sheep.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Very good! <stomps staff on ground> 'EVIL POWERS SHALL NOT KEEP YOU ANYMORE! SO BE IT!'": {
-   "pt": "",
+   "pt": "Muito bem! <bate o cajado no chão> 'OS PODERES MALIGNOS NÃO MAIS O PRENDERÃO! QUE ASSIM SEJA!'",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Ten prayers for a blessed stake? Don't tell me they made you travel whole Tibia for it! Listen, child, if you bring me a wooden stake, I'll bless it for you. <chuckles>": {
-   "pt": "",
+   "pt": "Dez orações por uma blessed stake? Não me diga que lhe fizeram viajar Tibia inteira por isso! Escute, criança, se me trouxer uma wooden stake, eu a abençoo para você. <ri baixinho>",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "You don't have a wooden stake.": {
-   "pt": "",
+   "pt": "Você não tem uma wooden stake.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Sorry, but I'm still exhausted from the last ritual. Please come back later.": {
-   "pt": "",
+   "pt": "Desculpe, mas ainda estou exausto do último ritual. Por favor, volte mais tarde.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "<mumblemumble> Sha Kesh Mar!": {
-   "pt": "",
+   "pt": "<resmunga resmunga> Sha Kesh Mar!",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "You should not talk about things you don't know anything about.": {
-   "pt": "",
+   "pt": "Você não devia falar de coisas sobre as quais não sabe nada.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "You mean, you are interested in a counterspell to cross the energy barrier on Goroma?": {
-   "pt": "",
+   "pt": "Quer dizer que tem interesse num contrafeitiço para atravessar a barreira de energia em Goroma?",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Did you bring the fresh dead chicken?": {
-   "pt": "",
+   "pt": "Você trouxe o fresh dead chicken?",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Did you bring the fresh dead rat?": {
-   "pt": "",
+   "pt": "Você trouxe o fresh dead rat?",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Did you bring the fresh dead black sheep?": {
-   "pt": "",
+   "pt": "Você trouxe o fresh dead black sheep?",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Hm. I don't think you need another one of my counterspells to cross the barrier on Goroma.": {
-   "pt": "",
+   "pt": "Hm. Acho que você não precisa de outro dos meus contrafeitiços para atravessar a barreira em Goroma.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Ah, thank you very much! I'll honour his memory.": {
-   "pt": "",
+   "pt": "Ah, muito obrigado! Vou honrar a memória dele.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Ah, the energy barrier set up by the cult is maintained by lousy magic, but it's still effective. Without a proper counterspell, you won't be able to pass it.": {
-   "pt": "",
+   "pt": "Ah, a barreira de energia erguida pelo culto se sustenta numa magia porcaria, mas ainda é eficaz. Sem um contrafeitiço adequado, você não conseguirá atravessá-la.",
    "n": 1,
    "npc": [
     "chondur"
    ]
   },
   "Be greeted, child.": {
-   "pt": "",
+   "pt": "Seja bem-vindo, criança.",
    "n": 1,
    "npc": [
     "chondur"
@@ -28936,133 +28936,133 @@
    ]
   },
   "General goods and paperware for sale!": {
-   "pt": "",
+   "pt": "Produtos gerais e papelaria à venda!",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "I am selling equipment of all kinds. Do you need anything?": {
-   "pt": "",
+   "pt": "Estou vendendo equipamento de todo tipo. Precisa de alguma coisa?",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "The king supports Tibia's economy a lot.": {
-   "pt": "",
+   "pt": "O rei apoia bastante a economia de Tibia.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "Magic? Ask a sorcerer or druid about that.": {
-   "pt": "",
+   "pt": "Magia? Pergunte a um sorcerer ou druid sobre isso.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "I am Gorn. My goods are known all over Tibia.": {
-   "pt": "",
+   "pt": "Sou Gorn. Meus produtos são conhecidos por toda Tibia.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "It is exactly |TIME|. Maybe you want to buy a watch?": {
-   "pt": "",
+   "pt": "São exatamente |TIME|. Quem sabe você queira comprar um relógio?",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "This druids are nice people, you will find them in the east of the town.": {
-   "pt": "",
+   "pt": "Esses druids são gente boa, você os encontra no leste da cidade.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "She's the leader of the paladin guild.": {
-   "pt": "",
+   "pt": "Ela é a líder da guilda dos paladins.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "Old Baxter was a rowdy, once. In our youth we shared some adventures and women.": {
-   "pt": "",
+   "pt": "O velho Baxter já foi um encrenqueiro. Na nossa juventude dividimos algumas aventuras e mulheres.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "Bah! Go away with this bozoguy.": {
-   "pt": "",
+   "pt": "Bah! Saia daqui com esse tal bozo.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "Frodo is a jolly fellow.": {
-   "pt": "",
+   "pt": "Frodo é um sujeito animado.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "We had a clash or two in the old days.": {
-   "pt": "",
+   "pt": "Tivemos um atrito ou dois antigamente.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "That's a pretty one.": {
-   "pt": "",
+   "pt": "Essa aí é bonita.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "I hardly know the McRonalds.": {
-   "pt": "",
+   "pt": "Mal conheço os McRonald.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "This Oswald has not enough to work and too much time to spread rumours.": {
-   "pt": "",
+   "pt": "Esse Oswald tem trabalho de menos e tempo demais para espalhar boato.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "He advices newcomers to buy at my store. I love that guy!": {
-   "pt": "",
+   "pt": "Ele aconselha os recém-chegados a comprar na minha loja. Adoro esse cara!",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "Strong as an ox, could armwrestle a minotaur, I bet.": {
-   "pt": "",
+   "pt": "Forte como um boi, aposto que venceria um minotaur no braço de ferro.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "He owns the magic shop here. But be aware: The prices are enormous.": {
-   "pt": "",
+   "pt": "Ele é dono da loja de magia daqui. Mas cuidado: os preços são um absurdo.",
    "n": 1,
    "npc": [
     "gorn"
    ]
   },
   "Oh, please come in, |PLAYERNAME|. What do you need?": {
-   "pt": "",
+   "pt": "Ah, por favor, entre, |PLAYERNAME|. Do que precisa?",
    "n": 1,
    "npc": [
     "gorn"
@@ -57790,7 +57790,7 @@
    "n": 3
   },
   "astral shapers": {
-   "pt": "",
+   "pt": "Astral Shapers",
    "n": 3
   },
   "protect": {
@@ -58286,7 +58286,7 @@
    "n": 2
   },
   "shaper": {
-   "pt": "",
+   "pt": "moldador",
    "n": 2
   },
   "realm": {
@@ -59634,7 +59634,7 @@
    "n": 1
   },
   "tomes": {
-   "pt": "",
+   "pt": "tomos",
    "n": 1
   },
   "shapers": {
@@ -62313,6 +62313,10 @@
   },
   "trade": {
    "pt": "negocio",
+   "n": 0
+  },
+  "buy": {
+   "pt": "compro",
    "n": 0
   }
  }
