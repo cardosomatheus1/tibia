@@ -4855,7 +4855,7 @@
    ]
   },
   "Congratulations! You are now promoted.": {
-   "pt": "",
+   "pt": "Parabéns! Você foi promovido.",
    "n": 6,
    "npc": [
     "emperor_kruzak",
@@ -4867,7 +4867,7 @@
    ]
   },
   "Alright then, come back when you are ready.": {
-   "pt": "",
+   "pt": "Muito bem, então volte quando estiver pronto.",
    "n": 6,
    "npc": [
     "emperor_kruzak",
@@ -4878,7 +4878,7 @@
    ]
   },
   "You alread have that outfit.": {
-   "pt": "",
+   "pt": "Você já tem esse outfit.",
    "n": 6,
    "npc": [
     "emperor_kruzak",
@@ -4944,7 +4944,7 @@
    ]
   },
   "Wrong Word.": {
-   "pt": "",
+   "pt": "Palavra errada.",
    "n": 6,
    "npc": [
     "humgolf",
@@ -5239,7 +5239,7 @@
    ]
   },
   "I can promote you for 20000 gold coins. Do you want me to promote you?": {
-   "pt": "",
+   "pt": "Posso lhe promover por 20000 gold coins. Quer que eu lhe promova?",
    "n": 5,
    "npc": [
     "emperor_kruzak",
@@ -5769,7 +5769,7 @@
    ]
   },
   "Take this armor as a token of great gratitude. Let us forever remember this day, my friend!": {
-   "pt": "",
+   "pt": "Fique com esta armadura como prova de imensa gratidão. Que este dia seja lembrado para sempre, meu amigo!",
    "n": 4,
    "npc": [
     "emperor_kruzak",
@@ -6359,7 +6359,7 @@
    ]
   },
   "Come back, when you have enough money.": {
-   "pt": "",
+   "pt": "Volte quando tiver dinheiro suficiente.",
    "n": 3,
    "npc": [
     "bozo"
@@ -6574,7 +6574,7 @@
    ]
   },
   "In exchange for a truly generous donation, I will offer a special outfit. Do you want to make a donation?": {
-   "pt": "",
+   "pt": "Em troca de uma doação verdadeiramente generosa, eu ofereço um outfit especial. Deseja fazer uma doação?",
    "n": 3,
    "npc": [
     "emperor_kruzak",
@@ -6583,7 +6583,7 @@
    ]
   },
   "In that case, return to me once you made up your mind.": {
-   "pt": "",
+   "pt": "Nesse caso, volte a mim quando tiver se decidido.",
    "n": 3,
    "npc": [
     "emperor_kruzak",
@@ -6592,7 +6592,7 @@
    ]
   },
   "You alread have that addon.": {
-   "pt": "",
+   "pt": "Você já tem esse addon.",
    "n": 3,
    "npc": [
     "emperor_kruzak",
@@ -6601,7 +6601,7 @@
    ]
   },
   "Take this helmet as a token of great gratitude. Let us forever remember this day, my friend.": {
-   "pt": "",
+   "pt": "Fique com este elmo como prova de imensa gratidão. Que este dia seja lembrado para sempre, meu amigo.",
    "n": 3,
    "npc": [
     "emperor_kruzak",
@@ -6610,7 +6610,7 @@
    ]
   },
   "You need to donate {armor} outfit first.": {
-   "pt": "",
+   "pt": "Você precisa doar o outfit {armadura} primeiro.",
    "n": 3,
    "npc": [
     "emperor_kruzak",
@@ -6619,7 +6619,7 @@
    ]
   },
   "Take this boots as a token of great gratitude. Let us forever remember this day, my friend.": {
-   "pt": "",
+   "pt": "Fique com estas botas como prova de imensa gratidão. Que este dia seja lembrado para sempre, meu amigo.",
    "n": 3,
    "npc": [
     "emperor_kruzak",
@@ -6628,7 +6628,7 @@
    ]
   },
   "You need to donate {helmet} addon first.": {
-   "pt": "",
+   "pt": "Você precisa doar o addon {elmo} primeiro.",
    "n": 3,
    "npc": [
     "emperor_kruzak",
@@ -6637,7 +6637,7 @@
    ]
   },
   "So you wold like to donate 500.000.000 gold pieces which in return will entitle you to wear a unique armor?": {
-   "pt": "",
+   "pt": "Então você gostaria de doar 500.000.000 moedas de ouro, o que em troca lhe dará direito a usar uma armadura única?",
    "n": 3,
    "npc": [
     "emperor_kruzak",
@@ -6646,7 +6646,7 @@
    ]
   },
   "So you would like to donate 250.000.000 gold pieces which in return will entitle you to wear unique helmet?": {
-   "pt": "",
+   "pt": "Então você gostaria de doar 250.000.000 moedas de ouro, o que em troca lhe dará direito a usar um elmo único?",
    "n": 3,
    "npc": [
     "emperor_kruzak",
@@ -6655,7 +6655,7 @@
    ]
   },
   "So you would like to donate 250.000.000 gold pieces which in return will entitle you to wear a unique boots?": {
-   "pt": "",
+   "pt": "Então você gostaria de doar 250.000.000 moedas de ouro, o que em troca lhe dará direito a usar botas únicas?",
    "n": 3,
    "npc": [
     "emperor_kruzak",
@@ -8726,7 +8726,7 @@
    ]
   },
   "Are we talking about Noodles?": {
-   "pt": "",
+   "pt": "Estamos falando do Noodles?",
    "n": 2,
    "npc": [
     "bozo"
@@ -10638,7 +10638,7 @@
    ]
   },
   "It is said that he lives on a small island near Edron. Maybe the people there know more about him.": {
-   "pt": "",
+   "pt": "Dizem que ele vive numa ilhota perto de Edron. Talvez o povo de lá saiba mais sobre ele.",
    "n": 2,
    "npc": [
     "king_tibianus",
@@ -10646,7 +10646,7 @@
    ]
   },
   "Ask around about them.": {
-   "pt": "",
+   "pt": "Pergunte por aí sobre eles.",
    "n": 2,
    "npc": [
     "king_tibianus",
@@ -10654,14 +10654,14 @@
    ]
   },
   "I greet thee, my loyal subject |PLAYERNAME|.": {
-   "pt": "",
+   "pt": "Eu vos saúdo, meu leal súdito |PLAYERNAME|.",
    "n": 2,
    "npc": [
     "king_tibianus"
    ]
   },
   "Ah, I vaguely remember that our little allies were eager to build some base. So speak up, what do you want?": {
-   "pt": "",
+   "pt": "Ah, lembro vagamente que nossos pequenos aliados estavam ansiosos para construir uma base. Então fale, o que você quer?",
    "n": 2,
    "npc": [
     "king_tibianus"
@@ -17323,623 +17323,623 @@
    ]
   },
   "Come chat with ol' Bozo!": {
-   "pt": "",
+   "pt": "Venha bater um papo com o velho Bozo!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Do you know the one with the dragon? Where - and then ... hahahaha! Oh no, I guess I ruined it.": {
-   "pt": "",
+   "pt": "Conhece aquela do dragão? Onde - e aí ... hahahaha! Ah não, acho que estraguei.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "The fools' guild? Are you serious? No, of course not! Hahaha!": {
-   "pt": "",
+   "pt": "A guilda dos bobos? Está falando sério? Não, claro que não! Hahaha!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Welcome, welcome, step closer!": {
-   "pt": "",
+   "pt": "Bem-vindo, bem-vindo, chegue mais perto!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I wanted to become a sorcerer, too, but I was overqualified!": {
-   "pt": "",
+   "pt": "Eu também queria ser sorcerer, mas era qualificado demais!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I wanted to become a druid, too, but I was overqualified!": {
-   "pt": "",
+   "pt": "Eu também queria ser druid, mas era qualificado demais!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I wanted to become a paladin, too, but I was overqualified!": {
-   "pt": "",
+   "pt": "Eu também queria ser paladin, mas era qualificado demais!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I wanted to become a knight, too, but I was overqualified!": {
-   "pt": "",
+   "pt": "Eu também queria ser knight, mas era qualificado demais!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "The good thing about them is that they can't be at two places at the same time.": {
-   "pt": "",
+   "pt": "O bom deles é que não podem estar em dois lugares ao mesmo tempo.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I wonder if they love my water squirt flowers as much as all other plants.": {
-   "pt": "",
+   "pt": "Fico pensando se eles gostam das minhas flores esguichadoras tanto quanto das outras plantas.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "They are the king's favourites, because they know how to 'bow'.": {
-   "pt": "",
+   "pt": "São os favoritos do rei, porque sabem se 'curvar' - com arco e tudo!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Did you notice that old knights have their scars just on their backs?": {
-   "pt": "",
+   "pt": "Você reparou que os knights velhos só têm cicatriz nas costas?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "A fitting place for a {jester}. I guess there are worse {jobs} around.": {
-   "pt": "",
+   "pt": "Um lugar apropriado para um {bobo da corte}. Imagino que haja {empregos} piores por aí.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Bozo: Nah, no jests about His Royal Highness.": {
-   "pt": "",
+   "pt": "Bozo: Nada disso, sem piadas sobre Sua Alteza Real.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I rarely leave the castle. It's really stressful to be as popular as me.": {
-   "pt": "",
+   "pt": "Eu raramente saio do castelo. É bem estressante ser tão popular quanto eu.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "This castle is my home. A fitting place for a jester and all other fools. Feel welcome.": {
-   "pt": "",
+   "pt": "Este castelo é minha casa. Um lugar apropriado para um bobo da corte e todos os outros bobos. Sinta-se bem-vindo.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I'm a jester, not a doctor!": {
-   "pt": "",
+   "pt": "Sou bobo da corte, não médico!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "My name is Bozo. But it's more than a name, it's a lifestyle for me!": {
-   "pt": "",
+   "pt": "Meu nome é Bozo. Mas é mais que um nome, para mim é um estilo de vida!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "That's me: Bozo, the jester!": {
-   "pt": "",
+   "pt": "Sou eu: Bozo, o bobo da corte!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Ever since the first guild was created, there is a great demand of jesters and fools to join them.": {
-   "pt": "",
+   "pt": "Desde que a primeira guilda foi criada, há grande procura por bobos e palhaços para entrar nelas.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Sell? Hmm, I know a little about magic and by chance I can sell you a truly unusual {weapon}.": {
-   "pt": "",
+   "pt": "Vender? Hmm, eu entendo um pouco de magia e por acaso posso lhe vender uma {arma} realmente incomum.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I know some 'monstrous' jokes!": {
-   "pt": "",
+   "pt": "Eu sei umas piadas 'monstruosas'!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I know the newest jokes in tibia.": {
-   "pt": "",
+   "pt": "Eu sei as piadas mais novas de Tibia.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Thank you, I'm fine, the gods are with me.": {
-   "pt": "",
+   "pt": "Obrigado, estou bem, os deuses estão comigo.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Pheeew! That sounds disgusting! Are you a cook at Frodo's?": {
-   "pt": "",
+   "pt": "Eeeca! Isso soa nojento! Você é cozinheiro no Frodo's?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Don't feed the necromants.": {
-   "pt": "",
+   "pt": "Não alimente os necromantes.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Hey, the little one is almost as funny as me!": {
-   "pt": "",
+   "pt": "Ei, o pequenino é quase tão engraçado quanto eu!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Better don't mess with sorcerers!": {
-   "pt": "",
+   "pt": "Melhor não mexer com sorcerers!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "She's pretty but too serious for my taste.": {
-   "pt": "",
+   "pt": "Ela é bonita, mas séria demais para o meu gosto.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Humourless old guy! Once, he turned me into a frog for painting his distasteful cave in pink.": {
-   "pt": "",
+   "pt": "Velho sem senso de humor! Uma vez ele me transformou em sapo por eu ter pintado de rosa a caverna de mau gosto dele.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "A man of steel with a stomach of wax. Never offer him a beer!": {
-   "pt": "",
+   "pt": "Um homem de aço com estômago de cera. Nunca lhe ofereça uma cerveja!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "He's my baby brother. If you tell him I sent you, he will grant you an extra spell or two.": {
-   "pt": "",
+   "pt": "Ele é meu irmãozinho. Se disser que fui eu que lhe mandei, ele lhe concede uma magia extra ou duas.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "He sells spell scrolls each day at midnight, but you have to address him that very second.": {
-   "pt": "",
+   "pt": "Ele vende spell scrolls todo dia à meia-noite, mas você tem que falar com ele naquele exato segundo.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I better make no jokes about THIS matter.": {
-   "pt": "",
+   "pt": "É melhor eu não fazer piada sobre ESTE assunto.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Did you know that he sells a 'power axe of doom' now? Run and buy it, he only has got three in store.": {
-   "pt": "",
+   "pt": "Sabia que ele agora vende um 'power axe of doom'? Corra e compre, ele só tem três em estoque.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "He would make a fine jester, too.": {
-   "pt": "",
+   "pt": "Ele também daria um ótimo bobo da corte.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I know a lot of monster jokes. Just tell me a monster's name, come on.": {
-   "pt": "",
+   "pt": "Eu sei um monte de piada de monstro. É só me dizer o nome de um monstro, vamos lá.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Why are the experienced heroes quicker than others? ... The demons love fast food!": {
-   "pt": "",
+   "pt": "Por que os heróis experientes são mais rápidos que os outros? ... Porque os demônios adoram fast food!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Where do ghouls buy their robes? ... In a boooohtique!": {
-   "pt": "",
+   "pt": "Onde os ghouls compram suas túnicas? ... Numa buuuu-tique!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Why do dragons breathe fire? ... They ate too many sorcerers in chilli sauce!": {
-   "pt": "",
+   "pt": "Por que os dragões cospem fogo? ... Comeram sorcerers demais no molho de pimenta!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Why do orcs have green skin? ... They ate at Frodo's!": {
-   "pt": "",
+   "pt": "Por que os orcs têm pele verde? ... Comeram no Frodo's!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "How many eyes does a cyclops have? ... One for each IQ point they have!": {
-   "pt": "",
+   "pt": "Quantos olhos tem um cyclops? ... Um para cada ponto de QI que ele tem!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "If you believe half the rumours he's spreading, you will get in a lot of trouble.": {
-   "pt": "",
+   "pt": "Se você acreditar em metade dos boatos que ele espalha, vai arrumar muito problema.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "If you are a bad jester, you get a chance to visit them now and then.": {
-   "pt": "",
+   "pt": "Se você for um bobo ruim, ganha a chance de visitá-los de vez em quando.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "What do all little minotaurs want to become when they are grown-ups? ... Cowboys, of course!": {
-   "pt": "",
+   "pt": "O que todo minotaur pequeno quer ser quando crescer? ... Vaqueiro, é claro!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Why do trolls live underground? ... Because there are so many pks on the surface!": {
-   "pt": "",
+   "pt": "Por que os trolls moram debaixo da terra? ... Porque tem pk demais na superfície!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Why are bonelords so ugly? ... Because their mom and dad were bonelords, too!": {
-   "pt": "",
+   "pt": "Por que os bonelords são tão feios? ... Porque a mãe e o pai deles também eram bonelords!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Why does the rat have a wooden leg? ... Because it is a former pirate!": {
-   "pt": "",
+   "pt": "Por que o rato tem perna de pau? ... Porque é um ex-pirata!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Why did the spider cross the road? ... Because it ... oh you already know this one!?": {
-   "pt": "",
+   "pt": "Por que a aranha atravessou a rua? ... Porque ela ... ah, você já conhece essa!?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I had a cousin named like that.": {
-   "pt": "",
+   "pt": "Eu tinha um primo com esse nome.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "He died some years ago.": {
-   "pt": "",
+   "pt": "Ele morreu há alguns anos.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Isn't he the author of the book 'Fun with Demons'?": {
-   "pt": "",
+   "pt": "Ele não é o autor do livro 'Fun with Demons'?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "He is kind of a father figure to me. Of course he denies all kinship to me.": {
-   "pt": "",
+   "pt": "Ele é uma espécie de figura paterna para mim. Claro que nega qualquer parentesco comigo.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "He's a smart one. I heared he hid in a foreign country as the first bugs showed up.": {
-   "pt": "",
+   "pt": "Esse é esperto. Ouvi dizer que se escondeu num país estrangeiro quando os primeiros bugs apareceram.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I am not foolish enough to believe in the existence of this weapon.": {
-   "pt": "",
+   "pt": "Não sou bobo o bastante para acreditar na existência dessa arma.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Oh, I saw some demon carvings in the dungeons as I hid there after a little joke on old Stutch.": {
-   "pt": "",
+   "pt": "Ah, eu vi umas gravuras de demônio nas masmorras quando me escondi lá depois de uma brincadeirinha com o velho Stutch.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Yes, they showed demons, seven actually, dancing around a sword! In something like a flaming pit.": {
-   "pt": "",
+   "pt": "Sim, mostravam demônios, sete na verdade, dançando ao redor de uma espada! Numa espécie de fosso em chamas.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Ah, don't ask me! Usually mages and mystics know more about such stuff.": {
-   "pt": "",
+   "pt": "Ah, não me pergunte! Normalmente magos e místicos sabem mais dessas coisas.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I'm the royal jes ... uhm ... the royal tax-collector! Do you want to pay your taxes?": {
-   "pt": "",
+   "pt": "Sou o bobo rea ... ahn ... o cobrador de impostos real! Quer pagar seus impostos?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Thank you very much. I will have a drink or two on your health!": {
-   "pt": "",
+   "pt": "Muito obrigado. Vou tomar um copo ou dois à sua saúde!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Well, perhaps later.": {
-   "pt": "",
+   "pt": "Bem, talvez mais tarde.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I actually know some spells! Do you want to learn how to 'lessen your load' for 200 gold?": {
-   "pt": "",
+   "pt": "Eu sei mesmo algumas magias! Quer aprender a 'aliviar sua carga' por 200 gold?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Here you are, I already lessened your load.": {
-   "pt": "",
+   "pt": "Aqui está, já aliviei sua carga.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "You don't know what offer you are missing!": {
-   "pt": "",
+   "pt": "Você não sabe a oferta que está perdendo!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Do you want to buy a 'mace of the fury' for 250 gold?": {
-   "pt": "",
+   "pt": "Quer comprar uma 'mace of the fury' por 250 gold?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "And here it is, it suits you well!": {
-   "pt": "",
+   "pt": "E aqui está, combina com você!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "You dont know what offer you have passed!": {
-   "pt": "",
+   "pt": "Você não sabe a oferta que acabou de dispensar!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Uh, go away!": {
-   "pt": "",
+   "pt": "Ah, vá embora!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Do you want to kiss me?": {
-   "pt": "",
+   "pt": "Você quer me beijar?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Uh, oh! ... I am seeing stars!": {
-   "pt": "",
+   "pt": "Uh, oh! ... Estou vendo estrelas!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Pah, I didn't want to kiss you anyway!": {
-   "pt": "",
+   "pt": "Pff, eu nem queria lhe beijar mesmo!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Well, women don't behave necessarily in a ladylike way just because they dress like one!": {
-   "pt": "",
+   "pt": "Bem, as mulheres não se comportam necessariamente como damas só porque se vestem como uma!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Has any man said to you that you're not only beautiful but also intelligent?": {
-   "pt": "",
+   "pt": "Algum homem já lhe disse que você não é só bonita, mas também inteligente?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "This is a world of fantasy and full of surprises!": {
-   "pt": "",
+   "pt": "Este é um mundo de fantasia e cheio de surpresas!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Well, think about it!": {
-   "pt": "",
+   "pt": "Bem, pense a respeito!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Wow, your stupidity would be pride and joy for every fool. You've already applied as a member. Let's rather talk about your current mission.": {
-   "pt": "",
+   "pt": "Uau, sua burrice seria motivo de orgulho para qualquer bobo. Você já se candidatou a membro. Melhor falarmos da sua missão atual.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Do you wish to become a jester and join the fools guild?": {
-   "pt": "",
+   "pt": "Deseja se tornar um bobo da corte e entrar para a guilda dos bobos?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "I'm sure it suits you well.": {
-   "pt": "",
+   "pt": "Tenho certeza de que combina com você.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "No, you aren't! Why do only fools apply for the fools guild?": {
-   "pt": "",
+   "pt": "Não, não está! Por que só os bobos se candidatam à guilda dos bobos?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Eeeek! What have you done?? These pies are crawling with bugs! Those must be the infamous parcel bugs! Get some new pies at once you wannabe fool, and this time without any bugs!": {
-   "pt": "",
+   "pt": "Eeeca! O que você fez?? Estas tortas estão infestadas de bugs! Devem ser os famigerados parcel bugs! Arranje tortas novas agora mesmo, seu bobo de araque, e desta vez sem bug nenhum!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "No, you don't! Why do only fools apply for the fools guild?": {
-   "pt": "",
+   "pt": "Não, não deseja! Por que só os bobos se candidatam à guilda dos bobos?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Too bad, I'm convinced you have it in you.": {
-   "pt": "",
+   "pt": "Que pena, estou convencido de que você tem talento.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "You won't be successful in the fool's world with such an attitude.": {
-   "pt": "",
+   "pt": "Você não vai longe no mundo dos bobos com essa atitude.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "You wasted the disguise?? Why do only fools apply for the fools guild? Here... try again, but be wittier this time.": {
-   "pt": "",
+   "pt": "Você desperdiçou o disfarce?? Por que só os bobos se candidatam à guilda dos bobos? Tome... tente de novo, mas seja mais esperto desta vez.",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Oh boy, why do only fools apply for the fools guild?": {
-   "pt": "",
+   "pt": "Ai, ai, por que só os bobos se candidatam à guilda dos bobos?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Hi there, how's it hanging, |PLAYERNAME|! What brings you {here}?": {
-   "pt": "",
+   "pt": "E aí, como vai a vida, |PLAYERNAME|! O que lhe traz {aqui}?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Hello, hello, hello, little lady |PLAYERNAME|! What brings you {here}?": {
-   "pt": "",
+   "pt": "Olá, olá, olá, madame |PLAYERNAME|! O que lhe traz {aqui}?",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Remember: A joke a day keeps the ghouls away!": {
-   "pt": "",
+   "pt": "Lembre-se: uma piada por dia mantém os ghouls longe!",
    "n": 1,
    "npc": [
     "bozo"
    ]
   },
   "Hey! Fools have feelings too.": {
-   "pt": "",
+   "pt": "Ei! Bobos também têm sentimentos.",
    "n": 1,
    "npc": [
     "bozo"
@@ -35803,364 +35803,364 @@
    ]
   },
   "I am your sovereign, King Tibianus III, and it's my duty to uphold {justice} and provide guidance for my subjects.": {
-   "pt": "",
+   "pt": "Sou seu soberano, King Tibianus III, e é meu dever manter a {justiça} e guiar meus súditos.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "I try my best to be just and fair to our citizens. The army and the {TBI} are a great help in fulfilling this duty.": {
-   "pt": "",
+   "pt": "Faço o meu melhor para ser justo e equilibrado com nossos cidadãos. O exército e a {TBI} são de grande ajuda no cumprimento desse dever.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Preposterous! You must know the name of your own King!": {
-   "pt": "",
+   "pt": "Absurdo! Você tem obrigação de saber o nome do seu próprio Rei!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "The latest news is usually brought to our magnificent town by brave adventurers. They recount tales of their journeys at Frodo's tavern.": {
-   "pt": "",
+   "pt": "As notícias mais recentes costumam ser trazidas à nossa magnífica cidade por aventureiros corajosos. Eles contam histórias de suas jornadas na taverna do Frodo.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Rain Castle is my home.": {
-   "pt": "",
+   "pt": "Rain Castle é minha casa.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Sell? Sell what? My kingdom isn't for sale!": {
-   "pt": "",
+   "pt": "Vender? Vender o quê? Meu reino não está à venda!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Honour the Gods and above all pay your {taxes}.": {
-   "pt": "",
+   "pt": "Honre os deuses e, acima de tudo, pague seus {impostos}.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Please ask a priest about the gods.": {
-   "pt": "",
+   "pt": "Pergunte a um sacerdote sobre os deuses.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "The citizens of Tibia are my subjects. Ask the old monk Quentin if you want to learn more about them.": {
-   "pt": "",
+   "pt": "Os cidadãos de Tibia são meus súditos. Pergunte ao velho monge Quentin se quiser saber mais sobre eles.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "He is a skilled blacksmith and a loyal subject.": {
-   "pt": "",
+   "pt": "Ele é um ferreiro habilidoso e um súdito leal.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "He is the owner of Frodo's Hut and a faithful tax-payer.": {
-   "pt": "",
+   "pt": "Ele é o dono do Frodo's Hut e um pagador fiel de impostos.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "He was once one of Tibia's greatest fighters. Now he sells equipment.": {
-   "pt": "",
+   "pt": "Ele já foi um dos maiores lutadores de Tibia. Agora vende equipamento.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "He was once my greatest general. Now he is very old and senile so we assigned him to work for the Royal Tibia Mail.": {
-   "pt": "",
+   "pt": "Ele já foi meu maior general. Agora está muito velho e senil, então o designamos para trabalhar no Royal Tibia Mail.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "The royal poodle Noodles is my greatest {treasure}!": {
-   "pt": "",
+   "pt": "O poodle real Noodles é meu maior {tesouro}!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "He is a follower of the evil God Zathroth and responsible for many attacks on us. Kill him on sight!": {
-   "pt": "",
+   "pt": "Ele é seguidor do deus maligno Zathroth e responsável por muitos ataques contra nós. Mate-o assim que o vir!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "He is my royal jester and cheers me up now and then.": {
-   "pt": "",
+   "pt": "Ele é meu bobo da corte e me anima de vez em quando.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "The royal poodle Noodles is my greatest treasure!": {
-   "pt": "",
+   "pt": "O poodle real Noodles é meu maior tesouro!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Go and hunt them! For king and country!": {
-   "pt": "",
+   "pt": "Vá e cace-os! Pelo rei e pela pátria!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Visit Quentin the monk for help.": {
-   "pt": "",
+   "pt": "Procure Quentin, o monge, para obter ajuda.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "What a disgusting topic!": {
-   "pt": "",
+   "pt": "Que assunto repugnante!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Dungeons are no places for kings.": {
-   "pt": "",
+   "pt": "Masmorras não são lugar para reis.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Feel free to buy it in our town's fine shops.": {
-   "pt": "",
+   "pt": "Fique à vontade para comprar nas boas lojas da nossa cidade.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Ask the royal cook for some food.": {
-   "pt": "",
+   "pt": "Peça comida ao cozinheiro real.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "That tax collector is the bane of my life. He is so lazy. I bet you haven't payed any taxes at all.": {
-   "pt": "",
+   "pt": "Aquele cobrador de impostos é a desgraça da minha vida. É preguiçoso demais. Aposto que você não pagou imposto nenhum.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "I am the king, so watch what you say!": {
-   "pt": "",
+   "pt": "Eu sou o rei, então cuidado com o que diz!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Ask the soldiers about that.": {
-   "pt": "",
+   "pt": "Pergunte aos soldados sobre isso.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Visit the shops of our merchants and craftsmen.": {
-   "pt": "",
+   "pt": "Visite as lojas dos nossos comerciantes e artesãos.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "The four major guilds are the knights, the paladins, the druids, and the sorcerers.": {
-   "pt": "",
+   "pt": "As quatro grandes guildas são a dos knights, a dos paladins, a dos druids e a dos sorcerers.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Vile monsters, but I must admit they are strong and sometimes even cunning ... in their own bestial way.": {
-   "pt": "",
+   "pt": "Monstros vis, mas devo admitir que são fortes e às vezes até astutos ... ao modo bestial deles.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "The forces of good are hard pressed in these dark times.": {
-   "pt": "",
+   "pt": "As forças do bem estão sob dura pressão nestes tempos sombrios.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "We need all strength we can muster to smite evil!": {
-   "pt": "",
+   "pt": "Precisamos de toda força que pudermos reunir para golpear o mal!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "We need order to survive!": {
-   "pt": "",
+   "pt": "Precisamos de ordem para sobreviver!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Chaos arises from selfishness.": {
-   "pt": "",
+   "pt": "O caos nasce do egoísmo.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "It's the sword of the Kings. If you return this weapon to me I will {reward} you beyond your wildest dreams.": {
-   "pt": "",
+   "pt": "É a espada dos Reis. Se me devolver essa arma, eu lhe darei uma {recompensa} além dos seus sonhos mais loucos.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Well, if you want a reward, go on a quest to bring me Excalibug!": {
-   "pt": "",
+   "pt": "Bem, se quer uma recompensa, parta numa quest para me trazer a Excalibug!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "A very competent person. A little nervous but very competent.": {
-   "pt": "",
+   "pt": "Uma pessoa muito competente. Um pouco nervosa, mas muito competente.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "This organisation is an essential tool for holding our enemies in check. Its headquarter is located in the bastion in the northwall.": {
-   "pt": "",
+   "pt": "Esta organização é uma ferramenta essencial para manter nossos inimigos sob controle. A sede fica no bastião da muralha norte.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Soon the whole land will be ruled by me once again!": {
-   "pt": "",
+   "pt": "Em breve toda a terra estará novamente sob o meu governo!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Harkath Bloodblade is the general of our glorious {army}.": {
-   "pt": "",
+   "pt": "Harkath Bloodblade é o general do nosso glorioso {exército}.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "I will call for heroes as soon as the need arises again and then reward them appropriately.": {
-   "pt": "",
+   "pt": "Convocarei heróis assim que a necessidade surgir de novo, e então os recompensarei à altura.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "To pay your taxes, visit the royal tax collector.": {
-   "pt": "",
+   "pt": "Para pagar seus impostos, procure o cobrador de impostos real.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "It's a time for heroes!": {
-   "pt": "",
+   "pt": "É tempo de heróis!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Our enemies are numerous. The evil minotaurs, Ferumbras, and the renegade city of Carlin to the north are just some of them.": {
-   "pt": "",
+   "pt": "Nossos inimigos são numerosos. Os minotaurs malignos, Ferumbras e a cidade renegada de Carlin, ao norte, são apenas alguns deles.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "They dare to reject my reign over the whole continent!": {
-   "pt": "",
+   "pt": "Eles ousam rejeitar meu reinado sobre todo o continente!",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Our beloved city has some fine shops, guildhouses and a modern sewerage system.": {
-   "pt": "",
+   "pt": "Nossa amada cidade tem boas lojas, guildhouses e um sistema de esgoto moderno.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "The paladins are great protectors for Thais.": {
-   "pt": "",
+   "pt": "Os paladins são grandes protetores de Thais.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "The brave knights are necessary for human survival in Thais.": {
-   "pt": "",
+   "pt": "Os bravos knights são necessários para a sobrevivência humana em Thais.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "The magic of the sorcerers is a powerful tool to smite our enemies.": {
-   "pt": "",
+   "pt": "A magia dos sorcerers é uma ferramenta poderosa para golpear nossos inimigos.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "We need the druidic healing powers to fight evil.": {
-   "pt": "",
+   "pt": "Precisamos dos poderes de cura dos druidas para combater o mal.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Do you have anything that might change my mind?": {
-   "pt": "",
+   "pt": "Você tem algo que possa me fazer mudar de ideia?",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "Indeed, indeed. Without the help of Thais, our allies stand no chance! Well, I'll send some money to support their cause.": {
-   "pt": "",
+   "pt": "De fato, de fato. Sem a ajuda de Thais, nossos aliados não têm chance! Pois bem, vou enviar dinheiro para apoiar a causa deles.",
    "n": 1,
    "npc": [
     "king_tibianus"
    ]
   },
   "How rude!": {
-   "pt": "",
+   "pt": "Que grosseria!",
    "n": 1,
    "npc": [
     "king_tibianus"
@@ -56650,7 +56650,7 @@
    "n": 13
   },
   "here": {
-   "pt": "",
+   "pt": "aqui",
    "n": 13
   },
   "fly": {
@@ -56714,7 +56714,7 @@
    "n": 11
   },
   "army": {
-   "pt": "",
+   "pt": "exército",
    "n": 11
   },
   "citizens": {
@@ -56966,7 +56966,7 @@
    "n": 8
   },
   "treasure": {
-   "pt": "",
+   "pt": "tesouro",
    "n": 8
   },
   "withdraw": {
@@ -58146,7 +58146,7 @@
    "n": 3
   },
   "justice": {
-   "pt": "",
+   "pt": "justiça",
    "n": 3
   },
   "evil": {
@@ -59774,11 +59774,11 @@
    "n": 1
   },
   "jester": {
-   "pt": "",
+   "pt": "bobo da corte",
    "n": 1
   },
   "jobs": {
-   "pt": "",
+   "pt": "empregos",
    "n": 1
   },
   "joke": {
@@ -60830,7 +60830,7 @@
    "n": 1
   },
   "taxes": {
-   "pt": "",
+   "pt": "impostos",
    "n": 1
   },
   "otbr": {
