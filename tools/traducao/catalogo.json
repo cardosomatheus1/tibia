@@ -1038,7 +1038,7 @@
    ]
   },
   "Don't forget to deposit your money here in the Global Bank before you head out for adventure.": {
-   "pt": "Não esqueça de depositar seu dinheiro aqui no Banco Global antes de sair para a aventura.",
+   "pt": "Não esqueça de depositar seu dinheiro aqui no Global Bank antes de sair para a aventura.",
    "n": 19,
    "npc": [
     "atur",
@@ -1637,7 +1637,7 @@
    ]
   },
   "I'm sorry, but we don't serve the routes to the Ice Islands.": {
-   "pt": "Desculpe, mas não fazemos as rotas para as Ilhas de Gelo.",
+   "pt": "Desculpe, mas não fazemos as rotas para as Ice Islands.",
    "n": 13,
    "npc": [
     "captain_bluebear",

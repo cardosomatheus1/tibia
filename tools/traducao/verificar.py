@@ -91,12 +91,36 @@ def main() -> int:
             print(f"  - {antiga[:70]}")
             print(f"  + {nova[:70]}")
 
+    # 4. glossario: termo que devia ficar no original mas foi traduzido, e
+    #    termo comum traduzido de dois jeitos diferentes pelo caminho
+    glos = Path(args.catalogo).parent / "glossario.json"
+    problemas_glos = []
+    if glos.exists():
+        g = json.loads(glos.read_text())
+        intocaveis = [n for grupo in g["nao_traduzir"].values()
+                      if isinstance(grupo, list) for n in grupo]
+        for original, dado in cat.get("textos", {}).items():
+            pt = dado.get("pt")
+            if not pt:
+                continue
+            for nome in intocaveis:
+                if nome in original and nome not in pt:
+                    problemas_glos.append((nome, original))
+                    break
+
+    if problemas_glos:
+        print(f"\nnome proprio que sumiu na traducao ({len(problemas_glos)}):")
+        print("  esta no glossario como intocavel — o jogador vai procurar")
+        print("  no mapa/item um nome que so existe no dialogo.")
+        for nome, frase in problemas_glos[:8]:
+            print(f"  {nome}: {frase[:60]}")
+
     perdidas = [k for k in orfas if k not in dict(sugestoes)]
     if perdidas:
         print(f"\ntraducao orfa sem par ({len(perdidas)}): a frase sumiu do datapack.")
         print("  fica guardada no catalogo — se a frase voltar, volta a funcionar.")
 
-    precisa_olhar = bool(tolerados or sugestoes)
+    precisa_olhar = bool(tolerados or sugestoes or problemas_glos)
     print("\n" + ("precisa de uma olhada." if precisa_olhar else "tudo em ordem."))
     return 1 if precisa_olhar else 0
 

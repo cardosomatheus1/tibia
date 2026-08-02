@@ -1,0 +1,40 @@
+{
+  "_comentario": "Decisoes de terminologia. O que decide se o jogador entende a lore ou se perde nela: o mesmo termo tem que sair igual em todos os 698 NPCs, e o que aparece na tela do client em ingles nao pode ser traduzido no dialogo.",
+
+  "nao_traduzir": {
+    "_motivo": "Aparece em ingles no mapa, no item, na spellbook ou no proprio nome do NPC. Traduzir no dialogo manda o jogador procurar algo que nao existe.",
+    "lugares": ["Rookgaard", "Thais", "Carlin", "Venore", "Kazordoon", "Ab'Dendriel", "Darashia", "Edron", "Liberty Bay", "Port Hope", "Yalahar", "Svargrond", "Cormaya", "Travora", "Tibia", "Gnomprona Gardens", "Ice Islands"],
+    "npcs": ["Cipfried", "Seymour", "Obi", "Dixi", "Al Dee", "Amber", "Lily", "Willie", "Billy", "Tom", "Dallheim", "Zerbrus", "Hyacinth", "Lee'Delle", "Eremo", "Vascalir", "Bozo", "Hairycles", "Spectulus", "Angus", "Mr. Morris", "Kevin", "Tibianus"],
+    "sistemas": ["depot", "premium", "Royal Tibia Line", "Global Bank"]
+  },
+
+  "traduzir_sempre_assim": {
+    "_motivo": "Termo comum que aparece em dezenas de NPCs. Se cada lote escolher uma palavra diferente, o jogador le tres nomes para a mesma coisa.",
+    "vocation": "vocação",
+    "knight": "knight",
+    "sorcerer": "sorcerer",
+    "paladin": "paladin",
+    "druid": "druid",
+    "quest": "quest",
+    "loot": "loot",
+    "merchant": "comerciante",
+    "citizen": "morador",
+    "newcomer": "recém-chegado",
+    "adventurer": "aventureiro",
+    "dungeon": "masmorra",
+    "sewers": "esgotos",
+    "academy": "academia",
+    "temple": "templo",
+    "guardsman": "guarda",
+    "blessing": "bênção",
+    "experience": "experiência",
+    "equipment": "equipamento",
+    "health": "vida",
+    "mana": "mana",
+    "monster": "monstro",
+    "the good gods": "os bons deuses",
+    "my child": "meu filho"
+  },
+
+  "_nota_vocacao": "knight, sorcerer, paladin e druid ficam em ingles de proposito: e o que aparece na tela ao escolher vocacao, no character info e na lista de magias. 'cavaleiro' no dialogo e 'Knight' na ficha confunde."
+}
