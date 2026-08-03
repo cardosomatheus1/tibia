@@ -258,6 +258,10 @@
 
 	<!-- Outfit proprio, criado com tools/sprites/. Os sprites vivem no
 	     appearances.dat: sem rodar a ferramenta, o client nao sabe desenhar. -->
-	<outfit type="0" looktype="1950" name="Mago de Fogo" premium="no" unlocked="yes" enabled="yes" />
-	<outfit type="1" looktype="1950" name="Mago de Fogo" premium="no" unlocked="yes" enabled="yes" />
+	<!-- unlocked=no ate confirmar que o frame group no appearances.dat esta
+	     correto - com unlocked=yes ele aparece automaticamente pra todo
+	     jogador na tela de Customize, e um frame group malformado ali
+	     crasha essa tela pra todo mundo, nao so quem usaria esse outfit. -->
+	<outfit type="0" looktype="1950" name="Mago de Fogo" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1950" name="Mago de Fogo" premium="no" unlocked="no" enabled="yes" />
 </outfits>
