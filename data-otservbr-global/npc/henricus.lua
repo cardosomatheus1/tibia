@@ -73,8 +73,13 @@ local function creatureSayCallback(npc, creature, type, message)
 		end
 	elseif MsgContains(message, "blessing") or MsgContains(message, "bless") then
 		if player:getStorageValue(Storage.Quest.U8_2.TheInquisitionQuest.Questline) == 25 then --if quest is done
-			npcHandler:say("Do you want to receive the blessing of the inquisition - which means " .. (missing == 5 and "all five available" or missing) .. " blessings - for " .. totalBlessPrice .. " gold?", npc, creature)
-			npcHandler:setTopic(playerId, 7)
+			if missing == 0 then
+				npcHandler:say("You already have been blessed!", npc, creature)
+				npcHandler:setTopic(playerId, 0)
+			else
+				npcHandler:say("Do you want to receive the blessing of the inquisition - which means " .. (missing == 5 and "all five available" or missing) .. " blessings - for " .. totalBlessPrice .. " gold?", npc, creature)
+				npcHandler:setTopic(playerId, 7)
+			end
 		else
 			npcHandler:say("You cannot get this blessing unless you have completed The Inquisition Quest.", npc, creature)
 			npcHandler:setTopic(playerId, 0)
