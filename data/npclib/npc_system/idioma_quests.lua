@@ -46,7 +46,10 @@ function Player.getMissionName(self, questId, missionId)
 	end
 	local nome = Idioma.saida(mission.name, self)
 	if self:missionIsCompleted(questId, missionId) then
-		local completo = (Idioma.do_jogador(self) == "pt") and " (concluída)" or " (completed)"
+		-- "\237" e o "i" acentuado em CP1252 (protocolo do Tibia usa essa
+		-- codificacao, nao UTF-8) - o arquivo continua UTF-8 normal, so essa
+		-- string precisa do byte explicito.
+		local completo = (Idioma.do_jogador(self) == "pt") and " (conclu\237da)" or " (completed)"
 		return nome .. completo
 	end
 	return nome
