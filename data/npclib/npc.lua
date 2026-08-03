@@ -89,7 +89,11 @@ function SayEvent(npcId, playerId, messageDelayed, npcHandler, textType)
 		[TAG_BLESSCOST] = Blessings.getBlessingCost(player:getLevel(), false, (npc:getName() == "Kais" or npc:getName() == "Nomad") and true),
 		[TAG_PVPBLESSCOST] = Blessings.getPvpBlessingCost(player:getLevel(), false),
 	}
-	npc:say(npcHandler:parseMessage(messageDelayed, parseInfo), textType or TALKTYPE_PRIVATE_NP, false, player, npc:getPosition())
+	-- Traduz ANTES de substituir |PLAYERNAME|/|TIME|/etc: a chave no
+	-- dicionario de idioma e o texto com os placeholders ainda no lugar: uma
+	-- vez trocados pelo valor real, o texto nunca mais bate com o dicionario.
+	local mensagem = Idioma and Idioma.saida(messageDelayed, player) or messageDelayed
+	npc:say(npcHandler:parseMessage(mensagem, parseInfo), textType or TALKTYPE_PRIVATE_NP, false, player, npc:getPosition())
 end
 
 function GetCount(string)
