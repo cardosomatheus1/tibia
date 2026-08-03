@@ -363,6 +363,11 @@ local questTable = {
 	{ storageName = "TheWhiteRavenMonastery.Door", storage = Storage.Quest.U7_24.TheWhiteRavenMonastery.Door, storageValue = 1 },
 }
 
+-- exposto global para a migration aplicar tudo de uma vez em personagens
+-- de teste, sem depender do addEvent de 500ms (que exige ficar online
+-- ~36s ininterruptos pra completar as 362 entradas)
+FreeQuestsTable = questTable
+
 -- from Position: (33201, 31762, 1)
 -- to Position: (33356, 31309, 4)
 local function playerFreeQuestStart(playerId, index)
