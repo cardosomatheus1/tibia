@@ -99,8 +99,12 @@ function acao.onUse(player)
 	return true
 end
 
--- Registrado por POSICAO e por actionId. O :position() dispensa editar mapa;
--- o aid cobre o caso de o obelisco ser movido ou recriado.
+-- Registrado por POSICAO. O :position() dispensa editar mapa.
+--
+-- ATENCAO: Action:id() e' id de ITEM, nao action id -- quem quer action id
+-- usa :aid(). Passar 65001 para :id() registra um item inexistente e derruba
+-- o register() inteiro, levando junto a registro por posicao: o obelisco fica
+-- no chao e responde "You cannot use this object".
 acao:position(template.seletor.posicao)
-acao:id(template.seletor.actionId)
+acao:aid(template.seletor.actionId)
 acao:register()
