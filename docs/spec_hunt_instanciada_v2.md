@@ -1430,3 +1430,153 @@ Mantidos da v1, mais:
 - todas as saídas passam pelo `beforeLeave` (N9);
 - cooldown resiste a troca de personagem (N10);
 - restart não deixa jogador preso (N8).
+
+---
+
+# 23. Depois do piloto — de hunt única a catálogo
+
+Esta seção **não faz parte do piloto**. Registra as decisões de arquitetura
+para quando houver mais de uma hunt, para que o piloto não seja construído de
+um jeito que atrapalhe.
+
+Vale a ordem: **terminar Ciclopes de Thais à mão, ver quais informações foram
+de fato necessárias, e só então generalizar.** Generalizar antes de ter um caso
+completo é inventar requisito.
+
+## 23.1 Motor genérico, hunt como dado
+
+O código de instância não pode conhecer "Ciclopes de Thais". Reservar slot,
+validar PK e party, teleportar, spawnar, limpar, devolver ao global, aplicar
+cooldown e recuperar de restart são genéricos.
+
+Cada hunt vira um pacote:
+
+```text
+data-otservbr-global/hunts/thais_cyclops/
+├── manifest.lua        -- config declarativa
+├── map.otbm            -- recorte, coordenadas rebaseadas
+├── spawns.lua          -- posicoes RELATIVAS + respawn
+└── compatibilidade.lua -- relatorio do scanner
+```
+
+⚠️ **Manifesto em Lua, não YAML.** O Lua do Canary não tem parser de YAML —
+seria dependência nova para ganhar nada. O idioma do próprio codebase já é
+tabela Lua declarativa: é assim que o `BossLever` configura 60 bosses
+(`data/libs/functions/boss_lever.lua`). YAML serve do lado do ferramental em
+Python; no runtime, não.
+
+## 23.2 Área de hunt é multi-retângulo, não bounding box
+
+**Medido, não suposto:** a bounding box da hunt dos ciclopes arrastou junto
+**9.424 tiles de casa** — um bairro residencial, ~16% do recorte — porque a
+hunt não é retangular.
+
+Cada hunt precisa aceitar **vários retângulos por andar**:
+
+```lua
+zonasPublicas = {
+    [7] = { {de = {x=..., y=...}, ate = {x=..., y=...}} },
+    [8] = { {de = ...}, {de = ...} },   -- cave em L, areas desconexas
+}
+```
+
+## 23.3 O que NÃO limita a escala — medição
+
+A intuição de que "seis cópias de cada hunt explodem o mapa" **está errada
+neste servidor**:
+
+| | |
+|---|---|
+| RSS com zero instâncias | 1.425.508 KB |
+| RSS com 6 cópias carregadas | 1.423.412 KB |
+| Slots de 256×256 que cabem após o mapa oficial | 3.660 |
+
+Geometria é esparsa, deduplicada e materializada preguiçosamente (§4.2).
+**Slot vazio é praticamente grátis.**
+
+O que **de fato** limita:
+
+1. **Monstros.** São permanentes e `Game::updateForgeableMonsters`
+   (`src/game/game.cpp:12066`) varre todos, sem filtro de região.
+2. **Ausência de unload** — toda região carregada fica até o processo morrer.
+
+→ **Consequência para a política de pool:** o tier (`HOT`/`NORMAL`/`COLD`) deve
+governar **quantos slots têm monstro vivo**, não quantos têm geometria. Se o
+slot só spawnar durante execução ativa, slot ocioso não pesa e a política de
+geometria vira desnecessária.
+
+## 23.4 Um arquivo por hunt, sem atlas
+
+Uma proposta intermediária sugeria gerar um `instance_atlas.otbm` único com
+todos os slots de todas as hunts. **Rejeitado.**
+
+`Game.loadMapChunk(path, offset)` carrega **o mesmo arquivo em N posições** —
+verificado no piloto: 6 slots carregados de um único arquivo de 572 KB
+(§21, Etapa 0). Um atlas único obrigaria a regerar e recarregar tudo a cada
+mudança em qualquer hunt, e reintroduziria justamente o risco de sobreposição
+que ele pretendia evitar.
+
+**Um `map.otbm` por hunt + N chamadas com offset.** Sem build step.
+
+## 23.5 Scanner de dependências — a peça mais valiosa
+
+Mapear geometria não basta. O piloto provou por quê:
+
+> O `aid 48063` dentro da margem é um teleport da quest Heart of Destruction
+> (`scripts/quests/heart_of_destruction/movements_teleport.lua:5`) que manda
+> para `Position(32448, 32389, 10)` — o mapa global. A varredura de tiles
+> reportava **"0 teleports"**, porque ele não é um `TELE_DEST` do OTBM: é um
+> *movement em Lua indexado por action id*.
+
+Ou seja, o scanner **precisa cruzar os action/unique ids achados no mapa contra
+os scripts do datapack** — não basta procurar coordenadas literais. Já
+implementado em `tools/mapa/perigos_recorte.py`.
+
+Deve procurar, dentro da área: coordenadas absolutas em scripts, `uniqueId`,
+`actionId`, teleports, quest chests, NPCs, bosses, alavancas, portas, storages
+e raids.
+
+## 23.6 Classificação
+
+| Categoria | Característica | Tratamento |
+|---|---|---|
+| `SIMPLE` | monstros, escadas, saídas comuns | instanciável direto |
+| `ADAPTED` | portas, alavancas, teleports locais | adaptador pequeno |
+| `COMPLEX` | quest, NPC, boss, estado persistente | revisão caso a caso |
+| `GLOBAL_ONLY` | world boss, cidade, casa, evento | **não instanciar** |
+
+Instanciar tudo não é meta. Parte do mundo deve continuar pública para
+preservar encontro entre jogadores, competição e economia.
+
+## 23.7 Ferramental — já existe metade
+
+As ferramentas do piloto **já são o embrião do mapper**, porque recebem mapa e
+região arbitrários. Não precisam ser reescritas; falta um manifesto por cima.
+
+| Ferramenta | Papel no catálogo |
+|---|---|
+| `achar_hunt.py` | agrupa spawns em 3D → hunts candidatas |
+| `scan_ocupacao.py` | acha faixa livre para os slots |
+| `checar_recorte.py` | inventário do que há na área |
+| `perigos_recorte.py` | scanner de compatibilidade (§23.5) |
+| `recortar.py` | gera o `map.otbm` com coordenadas rebaseadas |
+| `validar_otbm.py` | confere que o recorte carrega |
+| `achar_posicoes.py` | escolhe tiles seguros de entrada |
+
+Falta: detecção de região caminhável (flood fill) e revisão visual.
+
+⚠️ **Flood fill precisa de âncora**, senão uma cave ligada ao exterior engole
+meio mapa. Os **389 ids de `floorchange`/`teleport`** que o `achar_posicoes.py`
+já extrai do `items.xml` dão a fronteira natural; o resto o operador marca.
+
+⚠️ **Revisão visual: começar por PNG estático.** O `gerar_minimapa.py` já
+produz `previa_minimapa.png`. Um overlay dos retângulos candidatos entrega
+quase toda a revisão por uma fração do custo de uma interface web. Só construir
+web se o estático provar ser insuficiente.
+
+## 23.8 Slots por demanda, medidos
+
+Registrar por hunt: solicitações de instância, recusas por lotação, pico
+simultâneo, duração média. Depois de alguns dias, o número de slots sai do dado
+em vez do palpite — e, pela §23.3, o que se dimensiona é **monstro vivo**, não
+geometria.
