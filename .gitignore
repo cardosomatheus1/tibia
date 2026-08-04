@@ -382,6 +382,16 @@ client_assertions.txt
 .env
 data-otservbr-global/world/otservbr.otbm
 
+# Minimapa gerado do OTBM por tools/mapa/gerar_minimapa.py. Sao 5,4 MB de
+# binario que mudariam a cada regeracao; a fonte (o OTBM) ja fica de fora do
+# git, e o comando para refazer esta no cabecalho do proprio script.
+tools/mapa/saida/
+
+# Payload do updater: manifest + copia dos arquivos do client (85+ MB), gerado
+# por tools/updater/gerar_manifest.py. E' artefato de publicacao, nao fonte.
+tools/updater/publicado/
+tools/updater/*.tar.gz
+
 # Extensions
 *.ini
 *.otb
@@ -416,3 +426,4 @@ canary-debug
 
 # Binario extraido para testes locais
 canary-bin
+tools/installer/vc_redist.x64.exe
