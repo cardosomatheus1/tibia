@@ -1483,20 +1483,47 @@ se registram por posição, sem editar mapa.
 - [x] **sem vazamento** — após 5 ciclos de `iniciar`/`parar`, zona vazia.
 - [x] **isolamento** — slot vizinho permaneceu com 0 monstros.
 
-### Custo de monstro — a medição que faltava (§4.2)
+### Custo de monstro — medido por inclinação
 
-| | RSS |
-|---|---|
-| sem instância | ~1.423.412 KB |
-| depois de rodar 286 monstros por vários ciclos | 1.558.992 KB |
+Duas medições ingênuas deram números **errados em direções opostas**:
+~130 MB (inflado por ciclos de spawn/despawn, que forçam o alocador a crescer)
+e ~16 KB (os monstros couberam em páginas já residentes). RSS mede página
+residente, não heap vivo — nenhum dos dois resolve o custo marginal.
 
-Ordem de grandeza: **~130 MB** para uma instância povoada. Confirma o que a
-§23.3 previa — **monstro é o custo dominante, não geometria** (que ficou no
-ruído). RSS não devolve memória ao SO, então o número é teto, não custo
-marginal exato.
+O que resolve é a **inclinação**: povoar um slot por vez e medir.
 
-→ Com 6 slots simultâneos e povoados, a ordem é de centenas de MB nos 7,9 GB
-do VPS: cabe. Centenas de slots povoados, não.
+| Slots povoados | RSS | Delta |
+|---|---|---|
+| 1 | 1.529.608 KB | — |
+| 2 | 1.533.080 | +3.472 |
+| 3 | 1.537.184 | +4.104 |
+| 4 | 1.541.280 | +4.096 |
+| 5 | 1.545.436 | +4.156 |
+| 6 | 1.549.564 | +4.128 |
+
+**~4 MB por instância povoada** (204 monstros, ~20 KB por monstro). Linear.
+
+### Teto real de escala
+
+Memória **não** é o limite: 200 instâncias ≈ 800 MB, e há ~5,9 GB livres.
+
+O limite é `Game::updateForgeableMonsters` (`src/game/game.cpp:12066`), que
+varre **todos** os monstros do mundo sem filtro de região. 200 instâncias são
+~41 mil monstros por varredura — e, pior, diluem os slots globais de
+`forgeInfluencedLimit`/`forgeFiendishLimit` entre todas elas, degradando também
+a hunt pública.
+
+→ **Memória aguenta centenas; o forge não.** Escalar além de algumas dezenas
+exige patch em C++ nessa varredura.
+
+### Otimização aplicada: não spawnar na margem
+
+A lista tinha **286** spawns porque cobria a margem de terreno. A margem existe
+para o jogador não ver vazio na borda (§6.1.1) — é necessidade de **terreno**,
+não de monstro: é bairro residencial e campo aberto, ninguém caça ali.
+
+Restringindo aos limites da hunt: **204 spawns, −29%, e zero ciclope perdido**
+(os 86 estão todos no núcleo).
 
 ## Etapa 4 — Entrada
 
