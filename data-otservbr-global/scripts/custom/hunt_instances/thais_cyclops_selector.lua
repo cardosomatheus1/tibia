@@ -105,6 +105,9 @@ end
 -- usa :aid(). Passar 65001 para :id() registra um item inexistente e derruba
 -- o register() inteiro, levando junto a registro por posicao: o obelisco fica
 -- no chao e responde "You cannot use this object".
+-- SO position(). Registrar position() e aid() no mesmo Action nao funciona --
+-- o clique respondia "You cannot use this object" nas duas tentativas
+-- anteriores (primeiro com :id(), que e' id de ITEM, depois com :aid()).
+-- O padrao que funciona no datapack usa um gatilho so: rope_down.lua:10.
 acao:position(template.seletor.posicao)
-acao:aid(template.seletor.actionId)
 acao:register()
