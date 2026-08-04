@@ -11,7 +11,7 @@
 -- carga, nao em runtime). Os outros arquivos escapam disso porque so leem os
 -- globais dentro do onStartup. Aqui a dependencia fica explicita.
 if not HuntInstances then
-	dofile(DATA_DIRECTORY .. "/scripts/custom/hunt_instances/config.lua")
+	dofile(DATA_DIRECTORY .. "/scripts/custom/hunt_instances/catalogo.lua")
 end
 
 local template = HuntInstances.thaisCyclops
