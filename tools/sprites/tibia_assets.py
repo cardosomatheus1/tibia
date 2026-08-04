@@ -288,8 +288,10 @@ class Appearances:
     @staticmethod
     def _sprite_info(sprite_ids: list[int], largura: int, altura: int,
                      animacao: bytes | None, quadrado: int | None,
-                     camadas: int = 1) -> bytes:
-        b = _var(1, largura) + _var(2, altura) + _var(3, 1) + _var(4, camadas)
+                     camadas: int = 1, profundidade: int = 1,
+                     caixas: int | None = None) -> bytes:
+        b = (_var(1, largura) + _var(2, altura) + _var(3, profundidade)
+             + _var(4, camadas))
         for s in sprite_ids:
             b += _var(5, s)
         if animacao:
@@ -298,7 +300,12 @@ class Appearances:
             b += _var(7, quadrado)
         b += _var(8, 0)                                     # is_opaque
         caixa = _var(1, 0) + _var(2, 0) + _var(3, 31) + _var(4, 31)
-        for _ in range(largura * altura if largura > 1 else 1):
+        # bounding_box_per_direction e' por DIRECAO: os outfits oficiais tem 4,
+        # mesmo com pattern 4x3x2. O padrao aqui mantem o que efeito e missile
+        # ja usavam; quem precisa de outra contagem passa `caixas`.
+        if caixas is None:
+            caixas = largura * altura if largura > 1 else 1
+        for _ in range(caixas):
             b += _bloco(9, caixa)
         return b
 
@@ -341,13 +348,31 @@ class Appearances:
         if len(andando) != 4 * fases * camadas:
             raise ValueError(f"o grupo andando precisa de {4 * fases * camadas} sprites")
 
-        def grupo(fixo: int, ids: list[int]) -> bytes:
-            info = self._sprite_info(ids, 4, 1, None, quadrado, camadas)
+        # Os outfits oficiais declaram pattern 4x3x2: 4 direcoes, 3 posicoes de
+        # ADDON e 2 de MONTARIA. Publicar 4x1x1 quebra a tela de Customize, que
+        # desenha o personagem com addon e montado -- o client indexa um slot
+        # que nao existe e le fora da faixa (ThingType::getSpriteIndex so tem
+        # assert, que nao roda em release). Como este outfit nao tem arte de
+        # addon nem de montaria, os mesmos sprites sao repetidos nesses slots:
+        # ele fica igual em qualquer combinacao, mas o indice sempre existe.
+        ADDONS, MONTARIAS = 3, 2
+
+        def grupo(fixo: int, base: list[int], fases_grupo: int) -> bytes:
+            # ordem do client: fase -> montaria(z) -> addon(y) -> direcao(x) -> camada
+            ids: list[int] = []
+            for a in range(fases_grupo):
+                for _z in range(MONTARIAS):
+                    for _y in range(ADDONS):
+                        for x in range(4):
+                            for l in range(camadas):
+                                ids.append(base[(a * 4 + x) * camadas + l])
+            info = self._sprite_info(ids, 4, ADDONS, None, quadrado, camadas,
+                                     profundidade=MONTARIAS, caixas=4)
             return _var(1, fixo) + _var(2, fixo) + _bloco(3, info)
 
         ap = (_var(1, ident)
-              + _bloco(2, grupo(0, parado))
-              + _bloco(2, grupo(1, andando))
+              + _bloco(2, grupo(0, parado, 1))
+              + _bloco(2, grupo(1, andando, fases))
               + _bloco(3, b""))
         self.novas += _bloco(2, ap)
 
