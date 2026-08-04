@@ -99,6 +99,25 @@ class Mapa:
         self._areas[base] = achados
         return achados
 
+    def _ler_dados(self, i: int, n: int) -> tuple[bytes, int]:
+        """Le n bytes de conteudo a partir de i, desfazendo o escape.
+
+        O OTBM escapa com 0xFD qualquer byte de dado que valha FD/FE/FF. Ler
+        cru faz as coordenadas 253-255 de cada area sairem erradas — e como
+        area tem 256x256, isso apagava as ultimas linhas e colunas de cada
+        area, formando uma grade de buracos a cada 256 tiles.
+
+        Devolve (conteudo, proximo offset cru).
+        """
+        d = self.dados
+        out = bytearray()
+        while len(out) < n:
+            if d[i] == ESCAPA:
+                i += 1
+            out.append(d[i])
+            i += 1
+        return bytes(out), i
+
     def _indexar(self, base: tuple[int, int, int]) -> dict[tuple[int, int], Tile]:
         """Mapeia (dx, dy) -> Tile para uma area 256x256 inteira."""
         if base in self._tiles:
@@ -117,16 +136,19 @@ class Mapa:
                 tipo = d[i + 1]
                 fim = self._fim_do_no(i)
                 if tipo in (NO_TILE, NO_CASA):
-                    dx, dy = d[i + 2], d[i + 3]
-                    tiles[(dx, dy)] = self._ler_tile(i, fim, tipo, bx + dx, by + dy, bz)
+                    (dx, dy), apos = self._ler_dados(i + 2, 2)
+                    tiles[(dx, dy)] = self._ler_tile(i, fim, tipo, bx + dx, by + dy,
+                                                     bz, apos)
                 i = fim + 1
         self._tiles[base] = tiles
         return tiles
 
-    def _ler_tile(self, ini, fim, tipo, x, y, z) -> Tile:
+    def _ler_tile(self, ini, fim, tipo, x, y, z, apos_coords) -> Tile:
         d = self.dados
         casa = tipo == NO_CASA
-        j = ini + 4 + (4 if casa else 0)      # tile de casa traz o id da casa
+        j = apos_coords                        # ja passou pelas coordenadas
+        if casa:
+            _, j = self._ler_dados(j, 4)       # tile de casa traz o id da casa
         chao_off = chao = None
         itens: list[tuple[int, int, int]] = []
         while j < fim:
@@ -134,17 +156,18 @@ class Mapa:
             if b == INICIO:
                 if d[j + 1] == NO_ITEM:
                     f = self._fim_do_no(j)
-                    itens.append((struct.unpack("<H", d[j + 2:j + 4])[0], j, f))
+                    ident, _ = self._ler_dados(j + 2, 2)
+                    itens.append((struct.unpack("<H", ident)[0], j, f))
                     j = f + 1
                     continue
                 j = self._fim_do_no(j) + 1
                 continue
             if b == ATTR_ITEM:
                 chao_off = j + 1
-                chao = struct.unpack("<H", d[j + 1:j + 3])[0]
-                j += 3
+                ident, j = self._ler_dados(j + 1, 2)
+                chao = struct.unpack("<H", ident)[0]
             elif b == ATTR_FLAGS:
-                j += 5
+                _, j = self._ler_dados(j + 1, 4)
             else:                              # atributo desconhecido: para aqui
                 break
         return Tile(x, y, z, ini, fim, casa, chao_off, chao, itens)
@@ -161,6 +184,40 @@ class Mapa:
                 t = self.tile(x, y, z)
                 if t:
                     yield t
+
+    def areas(self) -> list[tuple[int, int, int]]:
+        """Todas as bases (x, y, z) de area 256x256 presentes no arquivo.
+
+        Serve para varrer o mapa inteiro sem saber as coordenadas de antemao —
+        o `tile()` e o `regiao()` exigem saber onde procurar. Usa o mesmo
+        criterio do _offsets_de_area: o byte seguinte a base tem de ser INICIO,
+        porque area so tem filhos e nunca atributo.
+        """
+        d, n = self.dados, len(self.dados)
+        assinatura = bytes([INICIO, NO_AREA])
+        bases, pos = set(), -1
+        while True:
+            pos = d.find(assinatura, pos + 1)
+            if pos < 0:
+                break
+            if pos + 8 > n or d[pos + 7] != INICIO:
+                continue
+            bases.add(struct.unpack_from("<HHB", d, pos + 2))
+        return sorted(bases)
+
+    def tiles_da_area(self, base: tuple[int, int, int]):
+        """Tiles de uma area inteira, ja indexada."""
+        return self._indexar(base).values()
+
+    def esquecer_area(self, base: tuple[int, int, int]) -> None:
+        """Descarta o cache de uma area.
+
+        O _indexar guarda os tiles de toda area lida, o que e' o certo para uso
+        pontual mas impede varrer o mapa inteiro: sao ~10 milhoes de objetos
+        vivos ao mesmo tempo. Quem varre deve chamar isto ao terminar cada area.
+        """
+        self._tiles.pop(base, None)
+        self._areas.pop(base, None)
 
     # ------------------------------------------------------------- edicao
 
