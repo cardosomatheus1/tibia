@@ -1383,9 +1383,68 @@ verificação seguinte, em menos de ~150 ms no total.
 
 ## Etapa 1 — Mapa
 
-- limpar o OTBM: sem towns, sem waypoints, sem houses, sem quest chests (§6.2);
-- definir origem do template e as N origens de slot;
-- desenhar tiles de entrada, saída e os `playerPositions`.
+- [x] **limpar o OTBM** — feito pelo `recortar.py` na Etapa 0 e auditado: 0
+      teleport, 0 action id, 0 unique id, 0 depot, 0 porta de casa (§6.2).
+- [x] **origem do template e dos slots** — recorte rebaseado de
+      `(32384, 32016)`; slots em `(36864 + 512·n, 36864, 7)`, n = 0..5 (§19).
+- [x] **entrada da hunt localizada** — ver §21.1.
+- [x] **posições determinadas** — ver §21.1.
+- [ ] registrar o `actionId 65001` no objeto do seletor.
+
+### 21.1 Posições, medidas e conferidas no mapa
+
+**A entrada da hunt é uma cabana de pedra** em `(32452, 32111, 7)`, com escada
+descendo e uma trilha de terra saindo para o sul — o caminho vindo de Thais.
+Achada com `tools/mapa/achar_acessos.py`, que procura os tiles de
+`floorchange`/`teleport` do `items.xml` (389 ids), e conferida com
+`tools/mapa/render.py`.
+
+⚠️ **Não procure "tile seguro" para achar entrada de hunt.** A primeira
+tentativa usou o centroide dos tiles caminháveis e caiu em campo aberto a 30
+tiles da hunt, sem relação com o acesso. Entrada subterrânea está onde o chão
+muda de andar, não onde há espaço livre.
+
+Outros 24 acessos existem na área; os candidatos do lado sul eram o trapdoor da
+cabana e um `hole` em `(32398, 32118, 7)`.
+
+**Tiles de consentimento** (§9.2), na trilha diante da porta:
+
+```lua
+playerPositions = {
+    Position(32454, 32118, 7),
+    Position(32453, 32117, 7),
+    Position(32454, 32117, 7),
+    Position(32455, 32117, 7),
+    Position(32453, 32118, 7),
+}
+```
+
+**Entrada dentro da instância**, coordenadas RELATIVAS ao slot (some a origem
+do slot para obter a real):
+
+```lua
+entradasRelativas = {
+    {x = 73, y = 50, z = 8},
+    {x = 73, y = 54, z = 8},
+    {x = 74, y = 52, z = 8},
+    {x = 67, y = 48, z = 8},
+    {x = 69, y = 48, z = 8},
+}
+```
+
+Critério verificado em todas por `tools/mapa/achar_posicoes.py`: tem chão,
+nenhum item com flag `unpass`, não é tile de mudança de andar, e está a **4+
+tiles de qualquer spawn de monstro** — o requisito de não teleportar em cima do
+respawn.
+
+Ficam no z=8, o núcleo da hunt (51 dos 99 ciclopes). `(73,50)` relativo é
+`(32457, 32066)` global, dentro da área de ciclopes daquele andar.
+
+⚠️ **Nada disso precisou do Remere's.** `Action:position()` e
+`MoveEvent:position()` existem e são usados no datapack
+(`src/lua/functions/events/action_functions.cpp:24`,
+`move_event_functions.cpp:27`), então seletor, tiles de consentimento e saída
+se registram por posição, sem editar mapa.
 
 ## Etapa 2 — Pool
 
