@@ -204,6 +204,18 @@ function playerLoginGlobal.onLogin(player)
 			kv:set("monk-basic-atk-bonus", 10)
 		end
 	end
+
+	-- AutoLoot depende da Loot Pouch (ver talkactions/player/auto_loot.lua).
+	-- O Player::checkAutoLoot em C++ so consulta o KV features.autoloot, entao
+	-- se o jogador ficar sem a pouch o KV antigo continuaria valendo. Revalida
+	-- no login e desliga, para o beneficio nao sobreviver ao item.
+	if configManager.getBoolean(configKeys.AUTOLOOT) then
+		local autoLoot = player:getFeature(Features.AutoLoot)
+		if autoLoot and autoLoot > 0 and not player:getLootPouch() then
+			player:setFeature(Features.AutoLoot, 0)
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "AutoLoot was disabled because you no longer have a Loot Pouch.")
+		end
+	end
 	return true
 end
 

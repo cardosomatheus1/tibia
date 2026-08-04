@@ -1,0 +1,15 @@
+// Botao de AutoLoot acrescentado a janela da Loot Pouch.
+//
+// Herda de Button (estilo padrao do client, /images/ui/buttons) em vez de
+// declarar image-source proprio: assim ganha o relevo e os estados normais e
+// nao depende de um caminho de imagem que pode nao existir.
+//
+// A COR vem do Lua, via setImageColor: verde com o AutoLoot ligado, vermelha
+// desligado. E' a tintura sobre a arte do botao que produz a borda colorida.
+LootPouchBotao < Button
+  size: 118 20
+  anchors.top: parent.top
+  anchors.right: parent.right
+  margin-top: 3
+  margin-right: 26
+  text: AutoLoot

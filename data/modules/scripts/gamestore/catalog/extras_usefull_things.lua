@@ -57,12 +57,15 @@ return {
 			type = GameStore.OfferTypes.OFFER_TYPE_CHARGES,
 		},
 		{
+			-- Loot Pouch: com toggleGoldPouchAllowAnything = true no config.lua
+			-- ela aceita QUALQUER item, nao so moedas. A descricao original
+			-- ("however, no other items") passaria a mentir para o jogador.
 			icons = { "Gold_Pouch.png" },
-			name = "Gold Pouch",
-			price = 900,
+			name = "Loot Pouch",
+			price = 390,
 			itemtype = 23721,
 			count = 1,
-			description = "<i>Carries as many gold, platinum or crystal coins as your capacity allows, however, no other items.</i>\n\n{character}\n{storeinbox}\n{once}\n{useicon} use it to open it\n{info} always placed on the first position of your Store inbox",
+			description = "<i>Carries as many items as your capacity allows. Set it as a loot container in Manage Loot and everything you pick up goes straight into it.</i>\n\n{character}\n{storeinbox}\n{once}\n{useicon} use it to open it\n{info} weight still counts against your capacity\n{info} always placed on the first position of your Store inbox",
 			type = GameStore.OfferTypes.OFFER_TYPE_ITEM_UNIQUE,
 		},
 		{

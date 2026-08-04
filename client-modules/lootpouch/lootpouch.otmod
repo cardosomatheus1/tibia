@@ -1,0 +1,10 @@
+Module
+  name: lootpouch
+  description: Botao de AutoLoot na janela da Loot Pouch (verde ligado, vermelho desligado)
+  author: OTServBR
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ lootpouch ]
+  @onLoad: init()
+  @onUnload: terminate()
