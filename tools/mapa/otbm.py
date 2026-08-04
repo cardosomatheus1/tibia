@@ -30,6 +30,27 @@ from pathlib import Path
 
 INICIO, FIM, ESCAPA = 0xFE, 0xFF, 0xFD
 
+# Bytes que nunca podem aparecer crus dentro de um dado, porque o carregador
+# os leria como marcador de no.
+MARCADORES = (ESCAPA, INICIO, FIM)
+
+
+def escapar(dados: bytes) -> bytes:
+    """Poe o 0xFD na frente de todo byte de dado que valha FD/FE/FF.
+
+    E' o inverso do _ler_dados. Quem grava PRECISA passar por aqui: um id como
+    21501 ('dirt floor') vira `fd 53` em u16, e gravar esse FD cru injeta um
+    escape no meio do fluxo — dali em diante a arvore inteira e' lida errada.
+    Dos 14147 itens do items.xml, 160 (1,1%) tem essa forma.
+    """
+    saida = bytearray()
+    for b in dados:
+        if b in MARCADORES:
+            saida.append(ESCAPA)
+        saida.append(b)
+    return bytes(saida)
+
+
 NO_RAIZ, NO_MAP_DATA = 0x00, 0x02
 NO_AREA, NO_TILE, NO_ITEM = 0x04, 0x05, 0x06
 NO_CASA = 0x0E
@@ -48,6 +69,7 @@ class Tile:
     casa: bool
     chao_off: int | None  # offset do id do chao (u16), se houver
     chao: int | None
+    chao_bytes: int = 0   # quantos bytes CRUS o id do chao ocupa (2, 3 ou 4)
     itens: list[tuple[int, int, int]] = field(default_factory=list)
     # (id, offset_do_no, offset_do_fim)
 
@@ -150,6 +172,7 @@ class Mapa:
         if casa:
             _, j = self._ler_dados(j, 4)       # tile de casa traz o id da casa
         chao_off = chao = None
+        chao_bytes = 0
         itens: list[tuple[int, int, int]] = []
         while j < fim:
             b = d[j]
@@ -166,11 +189,15 @@ class Mapa:
                 chao_off = j + 1
                 ident, j = self._ler_dados(j + 1, 2)
                 chao = struct.unpack("<H", ident)[0]
+                # guarda o tamanho CRU, que passa de 2 quando o id vem
+                # escapado. Sem isso o trocar_chao apagaria 2 bytes de um
+                # campo de 3 e deixaria um byte orfao no lugar.
+                chao_bytes = j - chao_off
             elif b == ATTR_FLAGS:
                 _, j = self._ler_dados(j + 1, 4)
             else:                              # atributo desconhecido: para aqui
                 break
-        return Tile(x, y, z, ini, fim, casa, chao_off, chao, itens)
+        return Tile(x, y, z, ini, fim, casa, chao_off, chao, chao_bytes, itens)
 
     # ------------------------------------------------------------ leitura
 
@@ -222,11 +249,18 @@ class Mapa:
     # ------------------------------------------------------------- edicao
 
     def trocar_chao(self, x, y, z, item_id: int) -> bool:
-        """Troca o chao no lugar — mesmo tamanho, sem mexer nos offsets."""
+        """Troca o chao do tile.
+
+        Apaga o campo pelo tamanho CRU que ele ocupa (`chao_bytes`, que e' 3 ou
+        4 quando o id antigo vinha escapado) e grava o novo ja escapado. O campo
+        pode mudar de tamanho, e tudo bem: o `salvar` aplica de tras pra frente,
+        entao um deslocamento aqui nao invalida as edicoes anteriores.
+        """
         t = self.tile(x, y, z)
         if not t or t.chao_off is None:
             return False
-        self._edicoes.append((t.chao_off, 2, struct.pack("<H", item_id)))
+        self._edicoes.append(
+            (t.chao_off, t.chao_bytes, escapar(struct.pack("<H", item_id))))
         return True
 
     def adicionar_item(self, x, y, z, item_id: int) -> bool:
@@ -234,7 +268,11 @@ class Mapa:
         t = self.tile(x, y, z)
         if not t:
             return False
-        no = bytes([INICIO, NO_ITEM]) + struct.pack("<H", item_id) + bytes([FIM])
+        # INICIO/FIM e o tipo do no vao crus — sao a moldura do no, nao dado.
+        # So o id passa pelo escape.
+        no = (bytes([INICIO, NO_ITEM])
+              + escapar(struct.pack("<H", item_id))
+              + bytes([FIM]))
         self._edicoes.append((t.fim, 0, no))     # antes do 0xFF que fecha o tile
         return True
 
