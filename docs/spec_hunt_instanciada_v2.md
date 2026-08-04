@@ -1389,7 +1389,9 @@ verificação seguinte, em menos de ~150 ms no total.
       `(32384, 32016)`; slots em `(36864 + 512·n, 36864, 7)`, n = 0..5 (§19).
 - [x] **entrada da hunt localizada** — ver §21.1.
 - [x] **posições determinadas** — ver §21.1.
-- [ ] registrar o `actionId 65001` no objeto do seletor.
+- [x] **seletor criado** — obelisco (id 2199) em `(32454, 32116, 7)` com
+      `actionId 65001`, criado no boot pelo `instance_startup.lua`. Idempotente:
+      o boot roda toda vez e o obelisco nao pode empilhar.
 
 ### 21.1 Posições, medidas e conferidas no mapa
 
