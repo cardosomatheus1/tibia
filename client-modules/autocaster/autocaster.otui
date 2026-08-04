@@ -140,9 +140,9 @@ LinhaShooter < Panel
 
 // ---- seletor de magias (abre ao clicar no icone) ----
 LinhaMagia < UIWidget
+  // Sem ancoras: o pai (ScrollablePanel "lista") usa layout verticalBox, que
+  // proibe ancoras e ja estica a largura de quem nao tem tamanho fixo.
   height: 36
-  anchors.left: parent.left
-  anchors.right: parent.right
   focusable: true
   phantom: false
   text-align: left
@@ -157,6 +157,78 @@ SeletorMagia < MainWindow
   id: seletorMagia
   !text: tr('Escolher magia')
   size: 320 400
+
+  TextEdit
+    id: filtro
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 20
+
+  ScrollablePanel
+    id: lista
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: btCancelar.top
+    margin-top: 4
+    margin-bottom: 6
+    vertical-scrollbar: barra
+    layout:
+      type: verticalBox
+
+  VerticalScrollBar
+    id: barra
+    anchors.top: lista.top
+    anchors.bottom: lista.bottom
+    anchors.right: parent.right
+    step: 36
+    pixels-scroll: true
+
+  Button
+    id: btCancelar
+    !text: tr('Cancelar')
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    width: 80
+    height: 22
+
+
+// ---- seletor de item: lista fechada, so potions ou so runas ----
+// Substitui o seletor genérico do client, que pedia o id numérico e aceitava
+// qualquer coisa — dava para pôr uma espada no slot de potion.
+LinhaItem < UIWidget
+  // Sem ancoras: o pai (ScrollablePanel "lista") usa layout verticalBox, que
+  // proibe ancoras e ja estica a largura de quem nao tem tamanho fixo.
+  //
+  // O texto vai na PROPRIA linha, com text-offset, e nao num Label filho: um
+  // Label ancorado sem altura nem auto-resize corta a segunda linha. E' o mesmo
+  // arranjo do LinhaMagia, que ja funciona.
+  height: 36
+  focusable: true
+  phantom: false
+  text-align: left
+  text-offset: 42 4
+  text-wrap: true
+  color: #dddddd
+  font: verdana-11px-rounded
+
+  $focus:
+    background-color: #3a5a8a
+
+  Item
+    id: sprite
+    virtual: true
+    phantom: true
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 4
+    size: 32 32
+
+SeletorItem < MainWindow
+  id: seletorItem
+  !text: tr('Escolher item')
+  size: 340 400
 
   TextEdit
     id: filtro
@@ -691,6 +763,13 @@ MainWindow
       width: 68
       height: 20
 
+  // TabBar (UITabBar), nao MoveableTabBar: o MoveableTabBar esconde as abas que
+  // nao cabem e as move para um postTabs alcancavel so por setas de navegacao,
+  // que esta janela nao tem -- com 4 abas, tres desapareciam.
+  //
+  // O UITabBar dimensiona a aba pela largura do TEXTO. Por isso o addTab aqui
+  // NAO passa icone: o icone entrava por mergeStyle depois, sem entrar na
+  // conta da largura, e estourava o conteudo da aba.
   TabBar
     id: abas
     anchors.top: prev.bottom

@@ -1,18 +1,6 @@
-BotaoBandeira < UIButton
-  size: 26 20
-  margin-right: 2
-  image-source: /images/ui/button
-  image-clip: 0 0 22 23
-  image-border: 3
-  color: #dfdfdf
-  font: verdana-11px-rounded
-  $hover:
-    image-clip: 0 23 22 23
-  $on:
-    image-clip: 0 46 22 23
-    color: #ffe066
-
-JanelaIdioma < MainWindow
+// Nó de raiz SEM "<": um "Nome < Base" so declara estilo e nao instancia nada,
+// o que fazia o g_ui.displayUI("idioma") devolver nil.
+MainWindow
   id: janelaIdioma
   !text: tr('Idioma dos NPCs')
   size: 250 130

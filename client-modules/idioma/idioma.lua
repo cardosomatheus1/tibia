@@ -17,7 +17,7 @@ function init()
   janelaIdioma:hide()
 
   botao = modules.client_topmenu.addRightGameToggleButton("idiomaButton",
-    tr("Idioma dos NPCs"), "/images/topbuttons/mounts", alternar, false, 9)
+    tr("Idioma dos NPCs"), "/idioma/botao", alternar, false, 9)
 
   janelaIdioma:getChildById("btPt").onClick = function() escolher("br") end
   janelaIdioma:getChildById("btEn").onClick = function() escolher("us") end
