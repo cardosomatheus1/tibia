@@ -258,10 +258,11 @@
 
 	<!-- Outfit proprio, criado com tools/sprites/. Os sprites vivem no
 	     appearances.dat: sem rodar a ferramenta, o client nao sabe desenhar. -->
-	<!-- unlocked=no ate confirmar que o frame group no appearances.dat esta
-	     correto - com unlocked=yes ele aparece automaticamente pra todo
-	     jogador na tela de Customize, e um frame group malformado ali
-	     crasha essa tela pra todo mundo, nao so quem usaria esse outfit. -->
+	<!-- Frame group conferido contra os outfits oficiais: pattern 4x3x2,
+	     2 camadas, 48 sprites no grupo parado. O 4x1x1 anterior e que
+	     quebrava a tela de Customize - ela desenha o personagem com addon e
+	     montado, e esses indices nao existiam no outfit. Exige o client
+	     gerado depois dessa correcao; client antigo ainda crasha. -->
 	<outfit type="0" looktype="1950" name="Mago de Fogo" premium="no" unlocked="no" enabled="yes" />
 	<outfit type="1" looktype="1950" name="Mago de Fogo" premium="no" unlocked="no" enabled="yes" />
 </outfits>
