@@ -1456,8 +1456,47 @@ se registram por posição, sem editar mapa.
 
 ## Etapa 3 — Spawns
 
-- respawn em Lua com `addEvent`/`stopEvent` (§7.1);
-- validar paridade: bestiary, charms, loot (cenários N1-N3).
+- [x] **lista de spawns extraída** — `tools/mapa/extrair_spawns.py`, 286 spawns,
+      27 tipos, posições relativas. Todos os monstros da hunt, não só ciclopes:
+      a paridade da §7.4 exige "mesmos monstros, mesmas quantidades".
+- [x] **respawn em Lua** — `instance_spawns.lua`, `addEvent`/`stopEvent` por
+      ponto. Não usa `setSpawnPosition()`, que vazaria N entradas permanentes
+      na lista global de spawns.
+- [x] **paridade verificada em produção**, com asserção direta em cada um dos
+      286 monstros:
+
+      ```text
+      286/286 monstros nasceram
+      ok  nenhum monstro e summon
+      ok  nenhum monstro tem master
+      ok  todos tem raceId > 0
+      ok  nenhum e rewardBoss
+      ok  piso NAO e NOLOGOUT (mantem o forge)
+      amostra: Cyclops raceId=22 charmPoints=15
+      ```
+
+      As quatro armadilhas da §7.4 estão confirmadas evitadas, e a amostra prova
+      que o dado de bestiary e charm chega íntegro.
+
+- [x] **respawn testado com morte real** (dano, não `remove()`, para o `onDeath`
+      disparar): matou 5, sumiram da zona, e voltaram no prazo.
+- [x] **sem vazamento** — após 5 ciclos de `iniciar`/`parar`, zona vazia.
+- [x] **isolamento** — slot vizinho permaneceu com 0 monstros.
+
+### Custo de monstro — a medição que faltava (§4.2)
+
+| | RSS |
+|---|---|
+| sem instância | ~1.423.412 KB |
+| depois de rodar 286 monstros por vários ciclos | 1.558.992 KB |
+
+Ordem de grandeza: **~130 MB** para uma instância povoada. Confirma o que a
+§23.3 previa — **monstro é o custo dominante, não geometria** (que ficou no
+ruído). RSS não devolve memória ao SO, então o número é teto, não custo
+marginal exato.
+
+→ Com 6 slots simultâneos e povoados, a ordem é de centenas de MB nos 7,9 GB
+do VPS: cabe. Centenas de slots povoados, não.
 
 ## Etapa 4 — Entrada
 
