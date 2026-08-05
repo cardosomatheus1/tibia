@@ -34,11 +34,17 @@ end
 --
 -- O prazo de verdade e' de 3 horas, entao o caminho do encerramento por tempo
 -- so rodaria depois de alguem jogar 3 horas -- ou seja, nunca antes de ir para
--- producao. Este modo abre uma execucao com prazo de 20 segundos e observa o
--- fim acontecer: aviso, saida por tempo, cooldown, slot devolvido ao pool.
+-- producao. Este modo abre uma execucao com prazo curto e observa o fim
+-- acontecer: saida por tempo, cooldown, slot devolvido ao pool.
 --
---     /testeinstancia tempo
-local function testarPrazo(player, tpl)
+--     /testeinstancia tempo         20 s, so o encerramento
+--     /testeinstancia tempo 1200    20 min, tambem os avisos
+--
+-- O prazo em segundos existe por causa dos AVISOS. Eles disparam a 15, 5 e 1
+-- minuto do fim, entao com 20 segundos nenhum chega a rodar -- o agendamento
+-- descarta atraso negativo. Com 1200 os tres acontecem, o primeiro em 5
+-- minutos de espera. Era o unico pedaco da etapa 5 sem cobertura.
+local function testarPrazo(player, tpl, segundos)
 	local kv = KV.scoped("hunt-instance"):scoped(tpl.slug)
 		:scoped(tostring(player:getAccountId()))
 	kv:remove("ate")
@@ -52,16 +58,27 @@ local function testarPrazo(player, tpl)
 
 	local origem = player:getPosition()
 	passou(player, "execucao criada com prazo curto",
-		InstanceManager.criarExecucao(tpl, slot, { player }, 20))
+		InstanceManager.criarExecucao(tpl, slot, { player }, segundos))
 	local run = slot.run
-	passou(player, "prazo de 20 s marcado",
-		run and run.fim and run.fim - run.inicio == 20,
+	passou(player, string.format("prazo de %d s marcado", segundos),
+		run and run.fim and run.fim - run.inicio == segundos,
 		run and run.fim and (run.fim - run.inicio .. " s") or "sem prazo")
 
-	player:sendTextMessage(MESSAGE_EVENT_ADVANCE,
-		"Aguardando o prazo estourar (20 s)...")
+	-- diz QUANDO cada aviso deve chegar, para dar para conferir na hora em vez
+	-- de esperar sem saber o que esperar
+	local quando = {}
+	for _, m in ipairs({ 15, 5, 1 }) do
+		if segundos - m * 60 > 0 then
+			quando[#quando + 1] = string.format("%s min de aviso em %d s",
+				m, segundos - m * 60)
+		end
+	end
+	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, string.format(
+		"Aguardando o prazo estourar (%d s). %s", segundos,
+		#quando > 0 and table.concat(quando, "; ")
+			or "Curto demais para os avisos; so o encerramento."))
 
-	-- 26 s: 20 do prazo mais folga para a limpeza terminar
+	-- prazo mais folga para a limpeza terminar
 	addEvent(function()
 		local q = Player(player:getId())
 		if not q then return end
@@ -87,7 +104,7 @@ local function testarPrazo(player, tpl)
 			run and run.eventos and (#run.eventos .. " em voo") or "sem run")
 		kv:remove("ate")
 		q:sendTextMessage(MESSAGE_EVENT_ADVANCE, "=== fim do teste de prazo ===")
-	end, 26000)
+	end, (segundos + 6) * 1000)
 end
 
 local tk = TalkAction("/testeinstancia")
@@ -98,7 +115,11 @@ function tk.onSay(player, words, param)
 	end
 
 	if param and param:lower():find("tempo") then
-		testarPrazo(player, HuntInstances.thaisCyclops)
+		-- 10 s e' o minimo que da para observar; 2 h e' teto de sanidade, para
+		-- um digito a mais nao prender um slot pelo resto do dia
+		local segundos = math.max(10, math.min(7200,
+			tonumber(param:match("(%d+)")) or 20))
+		testarPrazo(player, HuntInstances.thaisCyclops, segundos)
 		return true
 	end
 
