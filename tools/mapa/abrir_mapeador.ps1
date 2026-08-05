@@ -35,7 +35,7 @@ function Aviso($t) { Write-Host "    ATENCAO: $t" -ForegroundColor Yellow }
 $aqui  = $PSScriptRoot
 $raiz  = Split-Path -Parent (Split-Path -Parent $aqui)
 $atlas = Join-Path $aqui 'atlas'
-$pagina = Join-Path $aqui 'mapeador.html'
+$pagina = Join-Path $atlas 'mapeador.html'   # autocontida, gerada
 
 # --- python ------------------------------------------------------------------
 $py = Get-Command python -ErrorAction SilentlyContinue
@@ -59,8 +59,13 @@ Ok "dependencias prontas"
 if (-not $Mapa) {
     $candidatos = @(
         (Join-Path $raiz 'data-otservbr-global\world\otservbr.otbm'),
-        (Join-Path $env:TEMP 'otservbr.otbm')
+        (Join-Path $env:TEMP 'otservbr.otbm'),
+        (Join-Path $env:USERPROFILE 'Downloads\otservbr.otbm')
     )
+    # procura tambem em subpastas do TEMP, onde uma copia baixada pode ter caido
+    $achado = Get-ChildItem $env:TEMP -Recurse -Filter 'otservbr.otbm' `
+        -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($achado) { $candidatos += $achado.FullName }
     $Mapa = $candidatos | Where-Object { Test-Path $_ } | Select-Object -First 1
 }
 

@@ -211,17 +211,40 @@ def main() -> int:
     ciclopes = dict(CICLOPES)
     ciclopes["limites"] = limites_ciclopes()
 
-    js = destino / "dados.js"
-    with js.open("w", encoding="utf-8") as f:
-        f.write("// GERADO por tools/mapa/gerar_atlas.py -- nao editar a mao.\n")
-        f.write(f"const ATLAS_AREAS = {json.dumps(indice, separators=(',', ':'))};\n")
-        f.write(f"const ATLAS_MONSTROS = {json.dumps(monstros, separators=(',', ':'))};\n")
-        f.write(f"const ATLAS_HUNTS = {json.dumps(hunts, ensure_ascii=False, separators=(',', ':'))};\n")
-        f.write(f"const ATLAS_EXEMPLO = {json.dumps(ciclopes, ensure_ascii=False, separators=(',', ':'))};\n")
+    dados = (
+        "const ATLAS_AREAS = "
+        + json.dumps(indice, separators=(",", ":")) + ";\n"
+        "const ATLAS_MONSTROS = "
+        + json.dumps(monstros, separators=(",", ":")) + ";\n"
+        "const ATLAS_HUNTS = "
+        + json.dumps(hunts, ensure_ascii=False, separators=(",", ":")) + ";\n"
+        "const ATLAS_EXEMPLO = "
+        + json.dumps(ciclopes, ensure_ascii=False, separators=(",", ":")) + ";\n"
+    )
 
-    mb = js.stat().st_size / 1024 / 1024
-    print(f"\n{destino}/dados.js  ({mb:.1f} MB)")
+    # Pagina AUTOCONTIDA, com os dados embutidos.
+    #
+    # Carregar <script src="dados.js"> em file:// e' fragil: o navegador trata
+    # cada arquivo local como origem propria, e extensao de bloqueio derruba o
+    # pedido com ERR_BLOCKED_BY_CLIENT. Foi o que aconteceu -- tela preta e
+    # "ATLAS_AREAS is not defined". Imagem via <img> nao tem esse problema,
+    # entao os PNGs continuam soltos.
+    modelo = (AQUI / "mapeador.html").read_text(encoding="utf-8")
+    marca = '<script src="atlas/dados.js"></script>'
+    if marca not in modelo:
+        print("AVISO: marca do script nao encontrada no mapeador.html",
+              file=sys.stderr)
+    pagina = modelo.replace(marca, "<script>\n" + dados + "</script>")
+    # a pagina gerada mora DENTRO de atlas/, entao o caminho dos tiles encurta
+    pagina = pagina.replace("'atlas/tiles/'", "'tiles/'")
+
+    saida_html = destino / "mapeador.html"
+    saida_html.write_text(pagina, encoding="utf-8")
+
+    mb = saida_html.stat().st_size / 1024 / 1024
+    print(f"\n{saida_html}  ({mb:.1f} MB, autocontido)")
     print(f"{destino}/tiles/     ({len(indice)} PNGs)")
+    print(f"\nAbra: {saida_html}")
     return 0
 
 
