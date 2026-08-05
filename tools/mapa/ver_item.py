@@ -51,8 +51,14 @@ class Assets:
         return folha.crop((cx, cy, cx + larg, cy + alt))
 
     def item(self, item_id: int) -> Image.Image | None:
-        ids = self.aparencias.sprite_ids("object", item_id)
-        return self.sprite(ids[0]) if ids else None
+        # indice em vez de sprite_ids: aquele varre o protobuf inteiro a cada
+        # chamada e domina o tempo de render (ver Appearances.indexar)
+        ids = self.aparencias.indexar("object").get(item_id)
+        if not ids:
+            return None
+        s = self.sprite(ids[0])
+        # crop devolve view preguicosa; materializa para o paste nao repetir
+        return s.copy() if s is not None else None
 
 
 def folha_de_contato(assets: Assets, ids, colunas=12, zoom=3) -> Image.Image:

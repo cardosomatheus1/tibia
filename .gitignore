@@ -431,3 +431,5 @@ tools/installer/vc_redist.x64.exe
 # Atlas do mapeador de hunts: dado gerado (1200+ PNGs e alguns MB de
 # dados.js). Regerar com tools/mapa/abrir_mapeador.ps1.
 tools/mapa/atlas/
+# tiles renderizados pelo servidor do mapeador (regenera sozinho)
+tools/mapa/cache_tiles/

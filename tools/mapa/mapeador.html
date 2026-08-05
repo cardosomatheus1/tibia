@@ -55,12 +55,15 @@ textarea{width:100%;height:120px;background:#1a1a20;color:var(--tx);
 <div id="lado">
   <h3>Ferramenta</h3>
   <div class="linha">
+    <button id="bMov" onclick="setFerr(null)">✋ Mover <small>(Esc)</small></button>
+  </div>
+  <div class="linha">
     <button id="bObel" onclick="setFerr('obelisco')">Obelisco</button>
     <button id="bIni"  onclick="setFerr('inicio')">Início</button>
   </div>
   <div class="linha">
     <button id="bLim"  onclick="setFerr('limite')">Pintar limites</button>
-    <button onclick="setFerr('apagar')">Apagar</button>
+    <button id="bApa" onclick="setFerr('apagar')">Apagar</button>
   </div>
   <div class="linha">
     <label>Pincel <input id="pincel" type="number" min="1" max="40" value="6" style="width:56px"></label>
@@ -90,13 +93,16 @@ textarea{width:100%;height:120px;background:#1a1a20;color:var(--tx);
 
 <script src="atlas/dados.js"></script>
 <script>
-const LADO = 256;
+let LADO = 256;   // tamanho do bloco de imagem, vem do servidor
 const cMapa = document.getElementById('cMapa'), gMapa = cMapa.getContext('2d');
 const cMarca = document.getElementById('cMarca'), gMarca = cMarca.getContext('2d');
 const palco = document.getElementById('palco'), mundo = document.getElementById('mundo');
 
 // ---------------------------------------------------------------- estado
-let z = 7, esc = 3, camX = 32380, camY = 32020;
+// esc = pixels por tile na tela. Comeca em 6 porque abaixo de 4 o sprite do
+// monstro vira borrao e o mapeador troca por pontinhos -- e ver o bicho e' o
+// ponto todo da ferramenta.
+let z = 7, esc = 6, camX = 32420, camY = 32050;
 let ferr = null, pintando = false;
 const hunt = { id: 0, nome: '', obelisco: null, inicio: null, limites: {} };
 
@@ -110,22 +116,27 @@ function setDo(zz) {
 
 // ------------------------------------------------------------- andares
 const selAndar = document.getElementById('andar');
-const andares = [...new Set(ATLAS_AREAS.map(a => a.z))].sort((a, b) => a - b);
-for (const zz of andares) {
-  const o = document.createElement('option');
-  o.value = zz; o.textContent = 'z ' + zz; selAndar.appendChild(o);
-}
-selAndar.value = z;
-selAndar.onchange = () => { z = +selAndar.value; desenhar(); };
-
-// índice de áreas por andar, para saber que PNG existe
+let andares = [];
 const porAndar = {};
-for (const a of ATLAS_AREAS) (porAndar[a.z] ||= new Set()).add(a.ax + ',' + a.ay);
+
+function montarAndares() {
+  andares = [...new Set(ATLAS_AREAS.map(a => a.z))].sort((a, b) => a - b);
+  selAndar.innerHTML = '';
+  for (const zz of andares) {
+    const o = document.createElement('option');
+    o.value = zz; o.textContent = 'z ' + zz; selAndar.appendChild(o);
+  }
+  selAndar.value = z;
+  for (const k of Object.keys(porAndar)) delete porAndar[k];
+  for (const a of ATLAS_AREAS) (porAndar[a.z] ||= new Set()).add(a.ax + ',' + a.ay);
+}
+selAndar.onchange = () => { z = +selAndar.value; desenhar(); };
+if (typeof ATLAS_AREAS !== 'undefined') montarAndares();
 
 // Monstros indexados por bloco de 256, senao cada frame percorreria os ~50 mil
 // spawns do andar -- durante a pintura isso trava o arraste.
 const idxMon = {};
-(function indexarMonstros() {
+function indexarMonstros() {
   for (const [zz, lista] of Object.entries(ATLAS_MONSTROS.porAndar || {})) {
     const b = idxMon[zz] = {};
     for (const m of lista) {
@@ -133,7 +144,8 @@ const idxMon = {};
       (b[k] ||= []).push(m);
     }
   }
-})();
+}
+if (typeof ATLAS_MONSTROS !== 'undefined') indexarMonstros();
 
 function* monstrosVisiveis(zz, cx, cy, tw, th) {
   const b = idxMon[String(zz)]; if (!b) return;
@@ -146,18 +158,79 @@ function* monstrosVisiveis(zz, cx, cy, tw, th) {
     }
 }
 
-const cacheImg = new Map();
-function imagem(zz, ax, ay) {
-  const k = zz + '/' + ax + '_' + ay;
+// Nivel de detalhe: quantos pixels por tile pedir ao servidor. Pedir sempre
+// os 32 px/tile do sprite fazia o navegador decodificar ~200 megapixels por
+// tela para desenhar 1120x848 -- era a maior parte da lentidao. O servidor
+// reduz do lado dele e manda so o que cabe na tela.
+function nivel() {
+  let p = 1;
+  while (p < esc && p < 32) p *= 2;
+  return Math.max(2, p);
+}
+
+const cacheImg = new Map();       // "z/ax_ay@p" -> Image
+const niveisDe = new Map();       // "z/ax_ay"   -> Set de p ja carregados
+
+// No modo servidor o bloco e' menor e nao existe indice previo: qualquer
+// bloco pode ter conteudo, e o servidor renderiza sob demanda.
+function imagem(zz, ax, ay, p) {
+  const base = zz + '/' + ax + '_' + ay;
+  const k = base + '@' + p;
   if (cacheImg.has(k)) return cacheImg.get(k);
-  if (!porAndar[zz] || !porAndar[zz].has(ax + ',' + ay)) {
+  if (!MODO_SERVIDOR && (!porAndar[zz] || !porAndar[zz].has(ax + ',' + ay))) {
     cacheImg.set(k, null); return null;
   }
   const im = new Image();
-  im.onload = () => desenhar();
-  im.src = 'atlas/tiles/' + zz + '/' + ax + '_' + ay + '.png';
+  im.onload = () => {
+    if (!niveisDe.has(base)) niveisDe.set(base, new Set());
+    niveisDe.get(base).add(p);
+    pedirDesenho();
+  };
+  im.onerror = () => { cacheImg.set(k, null); };
+  im.src = MODO_SERVIDOR
+    ? `/tile/${zz}/${ax}_${ay}/${p}.jpg`
+    : 'atlas/tiles/' + zz + '/' + ax + '_' + ay + '.png';
   cacheImg.set(k, im);
   return im;
+}
+
+/** O melhor bloco JA carregado. Ao dar zoom o nivel novo demora a chegar;
+ *  sem isto a tela piscaria em preto a cada passo da roda do mouse. */
+function melhorImagem(zz, ax, ay, p) {
+  const im = imagem(zz, ax, ay, p);
+  if (im && im.complete && im.naturalWidth) return im;
+  const base = zz + '/' + ax + '_' + ay;
+  const tem = niveisDe.get(base);
+  if (!tem) return null;
+  let melhor = null, dist = 1e9;
+  for (const q of tem) {
+    const d = Math.abs(Math.log2(q) - Math.log2(p));
+    if (d < dist) { dist = d; melhor = cacheImg.get(base + '@' + q); }
+  }
+  return melhor && melhor.complete && melhor.naturalWidth ? melhor : null;
+}
+
+// Sprites de monstro, um PNG por tipo. Sao poucos por regiao e o navegador
+// guarda tudo em cache depois da primeira vez.
+const spriteMon = new Map();
+function spriteMonstro(ni) {
+  if (spriteMon.has(ni)) return spriteMon.get(ni);
+  if (!MODO_SERVIDOR) { spriteMon.set(ni, null); return null; }
+  const im = new Image();
+  im.onload = () => pedirDesenho();
+  im.onerror = () => spriteMon.set(ni, null);
+  im.src = `/monstro/${ni}.png`;
+  spriteMon.set(ni, im);
+  return im;
+}
+
+// Redesenho coalescido: arrastar dispara dezenas de mousemove por segundo e
+// cada um refazia a tela inteira. Um por quadro basta.
+let pedido = false;
+function pedirDesenho() {
+  if (pedido) return;
+  pedido = true;
+  requestAnimationFrame(() => { pedido = false; desenhar(); });
 }
 
 // -------------------------------------------------------------- desenho
@@ -168,22 +241,25 @@ function dims() {
 
 function desenhar() {
   const { w, h, tw, th } = dims();
-  for (const c of [cMapa, cMarca]) { c.width = w; c.height = h; }
-  gMapa.imageSmoothingEnabled = false;
+  // so redimensiona quando muda de verdade: atribuir width/height realoca e
+  // limpa o canvas, e fazer isso a cada quadro do arraste custa caro
+  if (cMapa.width !== w || cMapa.height !== h)
+    for (const c of [cMapa, cMarca]) { c.width = w; c.height = h; }
+  gMapa.imageSmoothingEnabled = esc < 8;   // suaviza so quando esta reduzindo
   gMapa.clearRect(0, 0, w, h);
 
+  const p = nivel();
   const ax0 = Math.floor(camX / LADO), ax1 = Math.floor((camX + tw) / LADO);
   const ay0 = Math.floor(camY / LADO), ay1 = Math.floor((camY + th) / LADO);
   for (let ax = ax0; ax <= ax1; ax++) {
     for (let ay = ay0; ay <= ay1; ay++) {
-      const im = imagem(z, ax, ay);
-      if (!im || !im.complete || !im.naturalWidth) continue;
+      const im = melhorImagem(z, ax, ay, p);
+      if (!im) continue;
       gMapa.drawImage(im, (ax * LADO - camX) * esc, (ay * LADO - camY) * esc,
                       LADO * esc, LADO * esc);
     }
   }
   desenharMarcas();
-  document.getElementById('resumo').value = resumoTexto();
 }
 
 function px(x, y) { return [(x - camX) * esc, (y - camY) * esc]; }
@@ -205,9 +281,14 @@ function desenharMarcas() {
   }
 
   // monstros -- sao o que permite enxergar onde a hunt esta, entao desenham
-  // por cima de tudo e com tamanho minimo legivel mesmo com zoom baixo
+  // por cima de tudo. Com o sprite de verdade da para reconhecer o bicho e o
+  // tamanho que ele ocupa: 64x64 cobre 2x2 tiles, ancorado no canto inferior
+  // direito, igual ao jogo. Abaixo de 4 px por tile o sprite vira um borrao,
+  // e um ponto colorido informa mais.
   if (document.getElementById('verMon').checked) {
     const filtro = document.getElementById('filtroMon').value.trim().toLowerCase();
+    const comSprite = esc >= 4;
+    gMarca.imageSmoothingEnabled = esc < 32;
     const t = Math.max(3, Math.min(esc, 10));
     const tipos = {};
     let n = 0;
@@ -215,10 +296,21 @@ function desenharMarcas() {
       const nome = ATLAS_MONSTROS.nomes[ni];
       if (filtro && !nome.toLowerCase().includes(filtro)) continue;
       const [px_, py] = px(x, y);
-      gMarca.fillStyle = 'rgba(0,0,0,.55)';
-      gMarca.fillRect(px_ - 1, py - 1, t + 2, t + 2);
-      gMarca.fillStyle = filtro ? '#ffe14d' : '#5dff8a';
-      gMarca.fillRect(px_, py, t, t);
+      const im = comSprite ? spriteMonstro(ni) : null;
+      if (im && im.complete && im.naturalWidth) {
+        const ct = im.naturalWidth / 32, cl = im.naturalHeight / 32;
+        if (filtro) {                       // realce atras do sprite filtrado
+          gMarca.fillStyle = 'rgba(255,225,77,.45)';
+          gMarca.fillRect(px_, py, esc, esc);
+        }
+        gMarca.drawImage(im, px_ - (ct - 1) * esc, py - (cl - 1) * esc,
+                         ct * esc, cl * esc);
+      } else {
+        gMarca.fillStyle = 'rgba(0,0,0,.55)';
+        gMarca.fillRect(px_ - 1, py - 1, t + 2, t + 2);
+        gMarca.fillStyle = filtro ? '#ffe14d' : '#5dff8a';
+        gMarca.fillRect(px_, py, t, t);
+      }
       tipos[nome] = (tipos[nome] || 0) + 1;
       n++;
     }
@@ -267,7 +359,29 @@ function aplicar(x, y) {
         if (ferr === 'limite') s.add(k); else s.delete(k);
       }
   }
-  atualizarLista(); desenharMarcas();
+  pedirMarcas(); atualizarPainel();
+}
+
+// O mesmo motivo do pedirDesenho: pintar dispara um evento por pixel do
+// mouse, e cada um redesenhava a camada de marcas inteira.
+let pedidoMarcas = false;
+function pedirMarcas() {
+  if (pedidoMarcas) return;
+  pedidoMarcas = true;
+  requestAnimationFrame(() => { pedidoMarcas = false; desenharMarcas(); });
+}
+
+// O resumo conta os monstros dentro dos limites -- uma varredura sobre os
+// ~12 mil spawns de cada andar pintado. Rodava a cada quadro do desenho e
+// era o que mais travava o arraste. Agora so roda quando a marcacao muda, e
+// mesmo assim depois que a mao para.
+let adiado = 0;
+function atualizarPainel() {
+  atualizarLista();
+  clearTimeout(adiado);
+  adiado = setTimeout(() => {
+    document.getElementById('resumo').value = resumoTexto();
+  }, 300);
 }
 
 palco.addEventListener('mousedown', e => {
@@ -285,7 +399,7 @@ palco.addEventListener('mousemove', e => {
   else if (arrastando) {
     camX = Math.round(cx0 - (e.clientX - ax0) / esc);
     camY = Math.round(cy0 - (e.clientY - ay0) / esc);
-    desenhar();
+    pedirDesenho();
   }
 });
 addEventListener('mouseup', () => { pintando = false; arrastando = false; });
@@ -294,13 +408,13 @@ palco.addEventListener('wheel', e => {
   e.preventDefault();
   const r = palco.getBoundingClientRect();
   const mx = camX + (e.clientX - r.left) / esc, my = camY + (e.clientY - r.top) / esc;
-  esc = Math.min(16, Math.max(0.5, esc * (e.deltaY < 0 ? 1.25 : 0.8)));
+  esc = Math.min(32, Math.max(0.5, esc * (e.deltaY < 0 ? 1.25 : 0.8)));
   camX = Math.round(mx - (e.clientX - r.left) / esc);
   camY = Math.round(my - (e.clientY - r.top) / esc);
-  desenhar();
+  pedirDesenho();
 }, { passive: false });
 
-function zoom(f) { esc = Math.min(16, Math.max(0.5, esc * f)); desenhar(); }
+function zoom(f) { esc = Math.min(32, Math.max(0.5, esc * f)); pedirDesenho(); }
 
 function irPara() {
   const v = prompt('Coordenada (x y z) ou (x,y,z):', `${camX + 40} ${camY + 30} ${z}`);
@@ -314,15 +428,30 @@ function irPara() {
 
 function setFerr(f) {
   ferr = (ferr === f) ? null : f;
-  for (const [id, nome] of [['bObel', 'obelisco'], ['bIni', 'inicio'], ['bLim', 'limite']])
+  for (const [id, nome] of [['bMov', null], ['bObel', 'obelisco'],
+                            ['bIni', 'inicio'], ['bLim', 'limite'],
+                            ['bApa', 'apagar']])
     document.getElementById(id).classList.toggle('on', ferr === nome);
   const t = { obelisco: 'Clique onde fica o obelisco. Uma vez por hunt.',
               inicio: 'Clique onde a hunt começa. Uma vez por hunt.',
               limite: 'Segure o botão e arraste para pintar os limites.',
               apagar: 'Segure e arraste para apagar limites.' };
-  document.getElementById('aviso').textContent = ferr ? t[ferr]
-    : 'Sem ferramenta: arrastar move o mapa. Roda do mouse dá zoom.';
+  document.getElementById('aviso').textContent = ferr
+    ? t[ferr] + ' Esc ou botão direito volta a mover o mapa.'
+    : 'Arrastar move o mapa. Roda do mouse dá zoom.';
+  palco.style.cursor = ferr ? 'crosshair' : 'grab';
 }
+
+// Sair da ferramenta sem ter de achar o botao: Esc, ou botao direito no mapa.
+addEventListener('keydown', e => {
+  if (e.key === 'Escape' && ferr) { setFerr(null); e.preventDefault(); }
+});
+palco.addEventListener('contextmenu', e => {
+  if (!ferr) return;
+  e.preventDefault();
+  pintando = false;
+  setFerr(null);
+});
 
 function limparAndar() {
   if (!confirm('Apagar todos os limites do andar ' + z + '?')) return;
@@ -459,7 +588,7 @@ function aplicarHunt(d) {
   }
   const alvo = d.obelisco || d.inicio;
   if (alvo) { camX = alvo.x - 60; camY = alvo.y - 40; z = alvo.z; selAndar.value = z; }
-  atualizarLista(); desenhar();
+  atualizarPainel(); desenhar();
 }
 
 function importar(input) {
@@ -479,6 +608,25 @@ document.getElementById('huntId').oninput = e => {
 };
 
 addEventListener('resize', desenhar);
-setFerr(null);
-carregarExemplo();
+
+// ------------------------------------------------------------------- boot
+// Em modo servidor os dados chegam por HTTP; em modo atlas ja vieram no
+// <script> embutido. O resto do codigo nao muda.
+const MODO_SERVIDOR = (typeof ATLAS_MODO_SERVIDOR !== 'undefined');
+
+async function iniciar() {
+  if (MODO_SERVIDOR) {
+    const d = await (await fetch('/dados')).json();
+    LADO = d.bloco;
+    window.ATLAS_AREAS = d.areas;
+    window.ATLAS_MONSTROS = d.monstros;
+    window.ATLAS_HUNTS = d.hunts;
+    window.ATLAS_EXEMPLO = d.exemplo;
+    montarAndares();
+    indexarMonstros();
+  }
+  setFerr(null);
+  carregarExemplo();
+}
+iniciar();
 </script>

@@ -18,6 +18,7 @@ fazer com campos repetidos.
 """
 from __future__ import annotations
 
+import bisect
 import hashlib
 import json
 import lzma
@@ -143,19 +144,35 @@ class Catalogo:
         self.pasta = Path(pasta)
         self.caminho = self.pasta / "catalog-content.json"
         self.entradas = json.loads(self.caminho.read_text())
+        self._folhas: list[dict] | None = None
+        self._ordenadas: list[dict] | None = None
+        self._inicios: list[int] = []
 
     @property
     def folhas(self) -> list[dict]:
-        return [e for e in self.entradas if e.get("type") == "sprite"]
+        if self._folhas is None:
+            self._folhas = [e for e in self.entradas if e.get("type") == "sprite"]
+        return self._folhas
 
     def proximo_spriteid(self) -> int:
         return max(e["lastspriteid"] for e in self.folhas) + 1
 
     def folha_de(self, spriteid: int) -> dict | None:
-        for e in self.folhas:
-            if e["firstspriteid"] <= spriteid <= e["lastspriteid"]:
-                return e
-        return None
+        """Folha que contem um spriteid, por busca binaria.
+
+        Era uma varredura linear sobre uma lista refeita a cada chamada, com
+        ~2000 entradas. Num render de mapa isso deu 1,0 s dos 3,8 s -- mais
+        do que compor a imagem inteira. As faixas nao se sobrepoem, entao
+        ordenar uma vez e bisseccionar resolve.
+        """
+        if self._ordenadas is None:
+            self._ordenadas = sorted(self.folhas, key=lambda e: e["firstspriteid"])
+            self._inicios = [e["firstspriteid"] for e in self._ordenadas]
+        i = bisect.bisect_right(self._inicios, spriteid) - 1
+        if i < 0:
+            return None
+        e = self._ordenadas[i]
+        return e if spriteid <= e["lastspriteid"] else None
 
     def adicionar_folha(self, arquivo: str, spritetype: int,
                         primeiro: int, ultimo: int) -> None:
@@ -167,6 +184,7 @@ class Catalogo:
             "lastspriteid": ultimo,
             "area": 0,
         })
+        self._folhas = self._ordenadas = None      # o indice envelheceu
 
     def salvar(self) -> None:
         self.caminho.write_text(json.dumps(self.entradas, separators=(",", ":")))
@@ -263,6 +281,87 @@ class Appearances:
 
     def ids(self, categoria: str) -> list[int]:
         return sorted(a.id for a in self.listar() if a.categoria == categoria)
+
+    def indexar(self, categoria: str) -> dict[int, list[int]]:
+        """id -> sprite ids, de UMA passagem. Guardado por categoria.
+
+        O sprite_ids percorre o protobuf inteiro a cada chamada -- 71 ms por
+        item. Renderizar uma regiao com 141 sprites distintos gastava 10 s so
+        nisso, contra 0,06 s para compor a imagem. Uma varredura ja le tudo,
+        entao indexar custa o mesmo de UMA busca e zera as seguintes.
+        """
+        if not hasattr(self, "_indices"):
+            self._indices = {}
+        if categoria in self._indices:
+            return self._indices[categoria]
+
+        campo = next(k for k, v in CATEGORIAS.items() if v == categoria)
+        idx: dict[int, list[int]] = {}
+        for n, v in _campos(self.dados):
+            if n != campo or not isinstance(v, tuple):
+                continue
+            ident, ids = None, []
+            for n2, v2 in _campos(self.dados, *v):
+                if n2 == 1:
+                    ident = v2
+                if n2 == 2 and isinstance(v2, tuple):          # frame_group
+                    for n3, v3 in _campos(self.dados, *v2):
+                        if n3 == 3 and isinstance(v3, tuple):  # sprite_info
+                            for n4, v4 in _campos(self.dados, *v3):
+                                if n4 == 5:
+                                    ids.append(v4)
+            if ident is not None and ident not in idx:
+                idx[ident] = ids
+        self._indices[categoria] = idx
+        return idx
+
+    def indexar_grupos(self, categoria: str) -> dict[int, tuple]:
+        """id -> (largura, altura, profundidade, camadas, sprite_ids).
+
+        Diferente do `indexar`, que junta todos os frame groups num monte so
+        de ids, aqui fica o PRIMEIRO grupo com o formato do pattern. Sem isso
+        nao da para escolher um sprite especifico: os ids de um outfit vem
+        numa grade fase x montaria x addon x direcao x camada, e pegar o
+        primeiro da lista devolve o monstro de costas, com a mascara de cor
+        por cima.
+        """
+        if not hasattr(self, "_grupos"):
+            self._grupos = {}
+        if categoria in self._grupos:
+            return self._grupos[categoria]
+
+        campo = next(k for k, v in CATEGORIAS.items() if v == categoria)
+        idx: dict[int, tuple] = {}
+        for n, v in _campos(self.dados):
+            if n != campo or not isinstance(v, tuple):
+                continue
+            ident, grupo = None, None
+            for n2, v2 in _campos(self.dados, *v):
+                if n2 == 1:
+                    ident = v2
+                elif n2 == 2 and isinstance(v2, tuple) and grupo is None:
+                    for n3, v3 in _campos(self.dados, *v2):
+                        if n3 != 3 or not isinstance(v3, tuple):
+                            continue
+                        larg = alt = prof = cam = 1
+                        ids = []
+                        for n4, v4 in _campos(self.dados, *v3):
+                            if n4 == 1:
+                                larg = v4
+                            elif n4 == 2:
+                                alt = v4
+                            elif n4 == 3:
+                                prof = v4
+                            elif n4 == 4:
+                                cam = v4
+                            elif n4 == 5:
+                                ids.append(v4)
+                        grupo = (larg, alt, prof, cam, ids)
+                        break
+            if ident is not None and grupo is not None and ident not in idx:
+                idx[ident] = grupo
+        self._grupos[categoria] = idx
+        return idx
 
     def sprite_ids(self, categoria: str, ident: int) -> list[int]:
         campo = next(k for k, v in CATEGORIAS.items() if v == categoria)

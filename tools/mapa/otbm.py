@@ -79,6 +79,8 @@ class Mapa:
         self.caminho = Path(caminho)
         self.dados = self.caminho.read_bytes()
         self._areas: dict[tuple[int, int, int], list[int]] = {}
+        # offsets crus por area (barato) e tiles ja lidos (caro, sob demanda)
+        self._cruas: dict[tuple[int, int, int], dict[tuple[int, int], tuple]] = {}
         self._tiles: dict[tuple[int, int, int], dict[tuple[int, int], Tile]] = {}
         self._edicoes: list[tuple[int, int, bytes]] = []   # (offset, apaga, insere)
 
@@ -140,14 +142,19 @@ class Mapa:
             i += 1
         return bytes(out), i
 
-    def _indexar(self, base: tuple[int, int, int]) -> dict[tuple[int, int], Tile]:
-        """Mapeia (dx, dy) -> Tile para uma area 256x256 inteira."""
-        if base in self._tiles:
-            return self._tiles[base]
+    def _indexar(self, base: tuple[int, int, int]) -> dict[tuple[int, int], tuple]:
+        """Mapeia (dx, dy) -> (inicio, fim, tipo, apos) de uma area 256x256.
+
+        NAO le o conteudo do tile. Ler custa caro (percorre atributos e cada
+        no de item) e a area tem 65536 tiles, mas quem pede uma regiao de
+        128x128 so usa um quarto deles. Antes isso gastava 1,9 s por area; o
+        conteudo agora sai no `tile()`, um tile por vez, e fica guardado.
+        """
+        if base in self._cruas:
+            return self._cruas[base]
 
         d = self.dados
-        bx, by, bz = base
-        tiles: dict[tuple[int, int], Tile] = {}
+        cruas: dict[tuple[int, int], tuple] = {}
         for pos in self._offsets_de_area(base):
             limite = self._fim_do_no(pos)
             i = pos + 7
@@ -159,11 +166,10 @@ class Mapa:
                 fim = self._fim_do_no(i)
                 if tipo in (NO_TILE, NO_CASA):
                     (dx, dy), apos = self._ler_dados(i + 2, 2)
-                    tiles[(dx, dy)] = self._ler_tile(i, fim, tipo, bx + dx, by + dy,
-                                                     bz, apos)
+                    cruas[(dx, dy)] = (i, fim, tipo, apos)
                 i = fim + 1
-        self._tiles[base] = tiles
-        return tiles
+        self._cruas[base] = cruas
+        return cruas
 
     def _ler_tile(self, ini, fim, tipo, x, y, z, apos_coords) -> Tile:
         d = self.dados
@@ -203,7 +209,19 @@ class Mapa:
 
     def tile(self, x: int, y: int, z: int) -> Tile | None:
         base = (x & 0xFF00, y & 0xFF00, z)
-        return self._indexar(base).get((x & 0xFF, y & 0xFF))
+        chave = (x & 0xFF, y & 0xFF)
+        prontos = self._tiles.get(base)
+        if prontos is None:
+            prontos = self._tiles[base] = {}
+        elif chave in prontos:
+            return prontos[chave]
+        cru = self._indexar(base).get(chave)
+        if cru is None:
+            return None
+        ini, fim, tipo, apos = cru
+        t = self._ler_tile(ini, fim, tipo, x, y, z, apos)
+        prontos[chave] = t
+        return t
 
     def regiao(self, x1, y1, x2, y2, z):
         for y in range(y1, y2 + 1):
@@ -233,8 +251,12 @@ class Mapa:
         return sorted(bases)
 
     def tiles_da_area(self, base: tuple[int, int, int]):
-        """Tiles de uma area inteira, ja indexada."""
-        return self._indexar(base).values()
+        """Tiles de uma area inteira, lidos um a um."""
+        bx, by, bz = base
+        for dx, dy in self._indexar(base):
+            t = self.tile(bx + dx, by + dy, bz)
+            if t:
+                yield t
 
     def esquecer_area(self, base: tuple[int, int, int]) -> None:
         """Descarta o cache de uma area.
@@ -244,6 +266,7 @@ class Mapa:
         vivos ao mesmo tempo. Quem varre deve chamar isto ao terminar cada area.
         """
         self._tiles.pop(base, None)
+        self._cruas.pop(base, None)
         self._areas.pop(base, None)
 
     # ------------------------------------------------------------- edicao
@@ -298,6 +321,7 @@ class Mapa:
         destino.write_bytes(bytes(d))
         self.dados = bytes(d)
         self._areas.clear()
+        self._cruas.clear()
         self._tiles.clear()
         self._edicoes.clear()
         return destino

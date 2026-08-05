@@ -1,30 +1,33 @@
 <#
 .SYNOPSIS
-    Gera o atlas do mapa e abre o mapeador de hunts no navegador.
+    Abre o mapeador de hunts: o mapa com os sprites do jogo, os monstros nos
+    spawns, e as ferramentas de marcar obelisco, inicio e limites.
 
 .DESCRIPTION
-    O mapeador precisa de duas coisas: os PNGs do atlas (um por no de area do
-    OTBM) e o dados.js com monstros e catalogo. Este script cuida das duas e
-    abre a pagina.
-
-    Roda so uma vez por versao do mapa. Depois disso e' so abrir o
-    mapeador.html direto -- o atlas fica em tools/mapa/atlas/.
+    Sobe um servidor local que desenha o mapa sob demanda e abre a pagina no
+    navegador. Nao ha etapa de geracao: o primeiro bloco de uma regiao leva
+    cerca de um segundo, os vizinhos ja vem prontos, e tudo fica em cache no
+    disco -- reabrir na mesma regiao e' instantaneo.
 
     O mapa e' baixado no boot do servidor e nao esta no repositorio. Se voce
     nao tiver uma copia local, passe -BaixarDoVps para trazer do servidor.
 
+    Feche com Ctrl+C nesta janela.
+
 .EXAMPLE
     .\tools\mapa\abrir_mapeador.ps1
     .\tools\mapa\abrir_mapeador.ps1 -BaixarDoVps
-    .\tools\mapa\abrir_mapeador.ps1 -Regerar
+    .\tools\mapa\abrir_mapeador.ps1 -LimparCache
 #>
 [CmdletBinding()]
 param(
     [string] $Mapa,
+    [string] $Assets,
     [string] $Planilha,
+    [int]    $Porta = 8100,
     [switch] $BaixarDoVps,
     [string] $Vps = "root@209.126.8.53",
-    [switch] $Regerar
+    [switch] $LimparCache
 )
 
 $ErrorActionPreference = 'Stop'
@@ -32,10 +35,8 @@ function Passo($t) { Write-Host "==> $t" -ForegroundColor Cyan }
 function Ok($t)    { Write-Host "    ok: $t" -ForegroundColor Green }
 function Aviso($t) { Write-Host "    ATENCAO: $t" -ForegroundColor Yellow }
 
-$aqui  = $PSScriptRoot
-$raiz  = Split-Path -Parent (Split-Path -Parent $aqui)
-$atlas = Join-Path $aqui 'atlas'
-$pagina = Join-Path $atlas 'mapeador.html'   # autocontida, gerada
+$aqui = $PSScriptRoot
+$raiz = Split-Path -Parent (Split-Path -Parent $aqui)
 
 # --- python ------------------------------------------------------------------
 $py = Get-Command python -ErrorAction SilentlyContinue
@@ -62,7 +63,6 @@ if (-not $Mapa) {
         (Join-Path $env:TEMP 'otservbr.otbm'),
         (Join-Path $env:USERPROFILE 'Downloads\otservbr.otbm')
     )
-    # procura tambem em subpastas do TEMP, onde uma copia baixada pode ter caido
     $achado = Get-ChildItem $env:TEMP -Recurse -Filter 'otservbr.otbm' `
         -ErrorAction SilentlyContinue | Select-Object -First 1
     if ($achado) { $candidatos += $achado.FullName }
@@ -83,39 +83,66 @@ Mapa nao encontrado. O otservbr.otbm e baixado no boot do servidor e nao fica
 no repositorio. Rode com -BaixarDoVps, ou passe -Mapa <caminho>.
 "@
 }
+Ok "mapa: $Mapa"
+
+# --- assets do client --------------------------------------------------------
+# Sao os sprites de verdade: appearances.dat mais as folhas .bmp.lzma. Sem
+# eles o mapeador nao tem o que desenhar.
+if (-not $Assets) {
+    $procura = @("$env:USERPROFILE\Desktop", "$env:USERPROFILE\Downloads",
+                 "$env:LOCALAPPDATA\Tibia\packages\Tibia")
+    foreach ($base in $procura) {
+        $c = Get-ChildItem $base -Recurse -Filter 'catalog-content.json' `
+            -ErrorAction SilentlyContinue | Select-Object -First 1
+        if ($c) { $Assets = $c.DirectoryName; break }
+    }
+}
+if (-not $Assets -or -not (Test-Path (Join-Path $Assets 'catalog-content.json'))) {
+    throw @"
+Pasta de assets do client nao encontrada. E' a pasta com catalog-content.json,
+appearances-*.dat e as folhas sprites-*.bmp.lzma -- normalmente
+<pasta do client>\assets. Passe -Assets <caminho>.
+"@
+}
+Ok "assets: $Assets"
 
 # --- planilha (opcional) -----------------------------------------------------
 if (-not $Planilha) {
     $Planilha = Get-ChildItem (Join-Path $env:USERPROFILE 'Downloads') `
         -Filter 'catalogo_hunts*.xlsx' -ErrorAction SilentlyContinue |
-        Sort-Object LastWriteTime -Descending | Select-Object -First 1 -ExpandProperty FullName
+        Sort-Object LastWriteTime -Descending |
+        Select-Object -First 1 -ExpandProperty FullName
 }
 if ($Planilha) { Ok "planilha: $(Split-Path -Leaf $Planilha)" }
-else { Aviso "planilha nao encontrada - o campo de nome da hunt fica vazio" }
+else { Aviso "planilha nao encontrada - o nome da hunt nao preenche sozinho" }
 
-# --- atlas -------------------------------------------------------------------
-$dados = Join-Path $atlas 'dados.js'
-if ((Test-Path $dados) -and -not $Regerar) {
-    $n = (Get-ChildItem (Join-Path $atlas 'tiles') -Recurse -Filter *.png -ErrorAction SilentlyContinue).Count
-    Ok "atlas ja existe ($n PNGs). Use -Regerar para refazer."
-} else {
-    Passo "Gerando o atlas (alguns minutos: ~1200 areas de 256x256)"
-    $args = @((Join-Path $aqui 'gerar_atlas.py'), $Mapa, '--saida', $atlas)
-    if ($Planilha) { $args += @('--planilha', $Planilha) }
-    & $py.Source @args
-    if ($LASTEXITCODE -ne 0) { throw "gerar_atlas.py falhou" }
-    Ok "atlas gerado"
+# --- cache -------------------------------------------------------------------
+$cache = Join-Path $aqui 'cache_tiles'
+if ($LimparCache -and (Test-Path $cache)) {
+    Remove-Item -Recurse -Force $cache
+    Ok "cache apagado"
+} elseif (Test-Path $cache) {
+    $mb = [math]::Round(((Get-ChildItem $cache -Recurse -File |
+        Measure-Object Length -Sum).Sum / 1MB))
+    Ok "cache de tiles: $mb MB (use -LimparCache para refazer)"
 }
 
-# --- abrir -------------------------------------------------------------------
-Passo "Abrindo o mapeador"
-Start-Process $pagina
+# --- subir -------------------------------------------------------------------
 Write-Host ""
-Write-Host "Mapeador aberto." -ForegroundColor Green
-Write-Host "  Amarelo  obelisco, uma vez por hunt"
-Write-Host "  Azul     onde a hunt comeca, uma vez por hunt"
-Write-Host "  Vermelho pincel: segure e arraste para pintar os limites"
+Write-Host "Mapeador em http://127.0.0.1:$Porta/" -ForegroundColor Green
+Write-Host "  Mover     arrasta o mapa; Esc ou botao direito solta a ferramenta"
+Write-Host "  Amarelo   obelisco, uma vez por hunt"
+Write-Host "  Azul      onde a hunt comeca, uma vez por hunt"
+Write-Host "  Vermelho  pincel: segure e arraste para pintar os limites"
 Write-Host ""
-Write-Host "Digite o ID da hunt (o nome vem da planilha), marque, e clique"
-Write-Host "em 'Baixar JSON'. O JSON sai com obelisco, inicio, limites por"
-Write-Host "andar e os monstros que caem dentro deles."
+Write-Host "Digite o ID da hunt (o nome vem da planilha), marque, e clique em"
+Write-Host "'Baixar JSON'. O JSON sai com obelisco, inicio, limites por andar e"
+Write-Host "os monstros que caem dentro deles."
+Write-Host ""
+Write-Host "Ctrl+C para encerrar." -ForegroundColor DarkGray
+Write-Host ""
+
+$argumentos = @((Join-Path $aqui 'servidor_mapeador.py'), $Mapa,
+                '--assets', $Assets, '--porta', $Porta, '--cache', $cache)
+if ($Planilha) { $argumentos += @('--planilha', $Planilha) }
+& $py.Source @argumentos
