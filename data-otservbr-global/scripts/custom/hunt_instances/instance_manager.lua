@@ -65,16 +65,34 @@ function InstanceManager.criarExecucao(template, slot, membros)
 end
 
 --- Tira um jogador da execucao. Motivo entra na telemetria.
+--- Devolve ao mapa global quem esta dentro de um slot sem execucao valida.
+-- Acontece sempre que o servidor reinicia: o estado do slot e' em memoria, mas
+-- a posicao do jogador esta no banco. Sem isto ele fica PRESO -- a fronteira
+-- barra o passo, o dialogo abre, e o sair() falha em silencio.
+function InstanceManager.resgatar(player, slot, motivo)
+	local tpl = slot.template
+	player:teleportTo(tpl.retornoGlobal or tpl.retornoEmergencia)
+	player:sendTextMessage(MESSAGE_EVENT_ADVANCE,
+		"Voce foi devolvido ao mapa global.")
+	logger.info("[hunt-instance] {} resgatado do slot {} ({})",
+		player:getName(), slot.indice, motivo or "sem execucao")
+	return true
+end
+
 function InstanceManager.sair(player, motivo)
 	local slot = InstancePool.slotDaPosicao(player:getPosition())
-	if not slot or not slot.run then
+	if not slot then
 		return false
+	end
+	-- sem execucao (restart, teleporte de GM): resgata em vez de falhar calado
+	if not slot.run then
+		return InstanceManager.resgatar(player, slot, "slot sem execucao")
 	end
 	local run = slot.run
 	local guid = player:getGuid()
 	local dados = run.membros[guid]
 	if not dados then
-		return false
+		return InstanceManager.resgatar(player, slot, "nao e membro da execucao")
 	end
 
 	run.membros[guid] = nil
