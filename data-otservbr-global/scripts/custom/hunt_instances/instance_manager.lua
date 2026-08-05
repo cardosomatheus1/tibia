@@ -71,6 +71,10 @@ end
 -- barra o passo, o dialogo abre, e o sair() falha em silencio.
 function InstanceManager.resgatar(player, slot, motivo)
 	local tpl = slot.template
+	-- a fronteira bloqueia toda saida; sem autorizar, ela bloqueia esta aqui
+	if InstanceFronteiras then
+		InstanceFronteiras.autorizarSaida(player)
+	end
 	player:teleportTo(tpl.retornoGlobal or tpl.retornoEmergencia)
 	player:sendTextMessage(MESSAGE_EVENT_ADVANCE,
 		"Voce foi devolvido ao mapa global.")
@@ -96,6 +100,9 @@ function InstanceManager.sair(player, motivo)
 	end
 
 	run.membros[guid] = nil
+	if InstanceFronteiras then
+		InstanceFronteiras.autorizarSaida(player)
+	end
 	player:teleportTo(dados.retorno or run.template.retornoEmergencia)
 
 	-- Cooldown vale em TODA saida, inclusive queda de conexao (secao 14.2):

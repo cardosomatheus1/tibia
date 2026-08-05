@@ -26,6 +26,9 @@ function tk.onSay(player)
 	-- dentro da area mas sem execucao registrada (instancia orfa apos restart,
 	-- ou entrada por teleporte de GM): manda pro retorno global mesmo assim
 	local tpl = slot.template
+	if InstanceFronteiras then
+		InstanceFronteiras.autorizarSaida(player)
+	end
 	player:teleportTo(tpl.retornoGlobal or tpl.retornoEmergencia)
 	player:sendTextMessage(MESSAGE_EVENT_ADVANCE,
 		"Voce foi devolvido ao mapa global.")

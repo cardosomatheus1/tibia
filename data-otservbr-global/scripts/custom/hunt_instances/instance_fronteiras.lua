@@ -23,6 +23,19 @@ local HUNT = { x0 = 16, y0 = 16, x1 = 152, y1 = 104 }
 -- quem ja tem dialogo aberto, para nao reabrir a cada passo barrado
 local perguntando = {}
 
+-- Saidas AUTORIZADAS pelo sistema.
+--
+-- Sem isto o beforeLeave bloqueia o proprio teleporte de saida: sair da
+-- instancia dispara mudanca de zona, a fronteira veta, e o jogador fica preso.
+-- Foi exatamente o que aconteceu -- o dialogo confirmava e a mensagem de
+-- resgate aparecia, mas ninguem saia do lugar.
+local autorizados = {}
+
+--- Libera a proxima saida deste jogador. Chamar ANTES de teleportar para fora.
+function InstanceFronteiras.autorizarSaida(player)
+	autorizados[player:getGuid()] = true
+end
+
 local function centroDaHunt(slot)
 	return Position(
 		slot.origem.x + math.floor((HUNT.x0 + HUNT.x1) / 2),
@@ -81,6 +94,14 @@ function InstanceFronteiras.registrar(slot)
 		if not player then
 			return true      -- monstro nao e' barrado aqui; quem prende e' o
 			                 -- trapMonsters da zona do slot
+		end
+		-- saida autorizada pelo sistema (dialogo confirmado, resgate, morte):
+		-- deixa passar UMA vez, senao a fronteira bloqueia a propria saida
+		local guid = player:getGuid()
+		if autorizados[guid] then
+			autorizados[guid] = nil
+			perguntando[guid] = nil
+			return true
 		end
 		-- GM passa: precisa poder inspecionar sem ficar preso
 		if player:getGroup():getId() >= GROUP_TYPE_GAMEMASTER then

@@ -24,6 +24,9 @@ function ev.onLogin(player)
 	end
 
 	local tpl = slot.template
+	if InstanceFronteiras then
+		InstanceFronteiras.autorizarSaida(player)
+	end
 	player:teleportTo(tpl.retornoGlobal or tpl.retornoEmergencia)
 	player:sendTextMessage(MESSAGE_EVENT_ADVANCE,
 		"A instancia em que voce estava nao existe mais. "
