@@ -165,6 +165,7 @@ function InstanceManager.criarExecucao(template, slot, membros, duracaoSegundos)
 		template = template,
 		slot = slot,
 		membros = {},          -- guid -> { nome, retorno }
+		saidos = {},           -- quem saiu e ainda pode voltar (ver voltar())
 		inicio = os.time(),
 	}
 	proximoRunId = proximoRunId + 1
@@ -249,6 +250,7 @@ function InstanceManager.sair(player, motivo)
 	end
 
 	run.membros[guid] = nil
+	run.saidos[guid] = dados      -- pode voltar enquanto a execucao viver
 	if InstanceFronteiras then
 		InstanceFronteiras.autorizarSaida(player)
 		InstanceFronteiras.esquecer(player)
@@ -291,6 +293,81 @@ function InstanceManager.minutosRestantes(run)
 		return nil
 	end
 	return math.max(0, math.ceil((run.fim - os.time()) / 60))
+end
+
+-- -------------------------------------------------------------- reentrada
+--
+-- Quem sai de uma execucao que CONTINUA rodando pode voltar para ela. Nao e'
+-- uma excecao ao cooldown, e' outra coisa: o cooldown existe para fechar o
+-- abuso de entrar, matar o respawn da entrada, sair e entrar num slot LIMPO
+-- (secao 12.3). Voltar para a mesma execucao nao limpa nada -- o que ja morreu
+-- continua morto -- entao nao ha o que abusar.
+--
+-- A condicao e' uma so: a execucao tem de estar viva. Como ela encerra quando
+-- o ultimo membro sai, isso equivale a "ainda tem alguem do grupo la dentro".
+-- Quem sai sozinho fecha a instancia e nao tem para onde voltar.
+--
+-- Vale inclusive para quem morreu: decisao consciente, a punicao da morte
+-- passa a ser o caminho de volta e nao a perda da hunt.
+
+--- Execucao viva a que este jogador pode voltar, ou nil.
+function InstanceManager.execucaoParaVoltar(player, template)
+	local guid = player:getGuid()
+	for _, slot in ipairs(InstancePool.todos(template)) do
+		local run = slot.run
+		if run and run.saidos and run.saidos[guid] then
+			-- so faz sentido voltar se sobrou alguem dentro; sem isso a
+			-- execucao ja teria encerrado, mas a checagem e' barata
+			for _ in pairs(run.membros) do
+				return run, slot
+			end
+		end
+	end
+	return nil
+end
+
+--- Recoloca o jogador numa execucao de que ele ja fez parte.
+function InstanceManager.voltar(player, template)
+	local run, slot = InstanceManager.execucaoParaVoltar(player, template)
+	if not run then
+		return false, "Nao ha instancia em andamento para voltar."
+	end
+
+	local dentro = 0
+	for _ in pairs(run.membros) do
+		dentro = dentro + 1
+	end
+	if dentro >= (run.template.maximoMembros or 5) then
+		return false, "A instancia esta cheia."
+	end
+
+	local guid = player:getGuid()
+	local dados = run.saidos[guid]
+	-- o ponto de volta passa a ser onde ele esta AGORA, que e' onde clicou
+	dados.retorno = player:getPosition()
+
+	local destino = InstancePool.posicaoReal(slot,
+		run.template.entradasRelativas[1])
+	if not player:teleportTo(destino) and not player:teleportTo(destino, true) then
+		return false, "Nao foi possivel entrar agora."
+	end
+	destino:sendMagicEffect(CONST_ME_TELEPORT)
+
+	run.saidos[guid] = nil
+	run.membros[guid] = dados
+
+	for outro in pairs(run.membros) do
+		if outro ~= guid then
+			local p = Player(outro)
+			if p then
+				p:sendTextMessage(MESSAGE_EVENT_ADVANCE,
+					dados.nome .. " voltou para a instancia.")
+			end
+		end
+	end
+	logger.info("[hunt-instance] run {}: {} voltou, agora {} dentro",
+		run.id, dados.nome, dentro + 1)
+	return true
 end
 
 --- Execucao em que o jogador esta, ou nil. Derivada da POSICAO -- nao ha

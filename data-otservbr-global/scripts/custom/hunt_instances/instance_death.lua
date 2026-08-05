@@ -33,8 +33,13 @@ function ev.onDeath(creature)
 
 	-- Tira da execucao SEM teleportar: quem move o jogador e' a propria morte,
 	-- que o leva ao templo. Chamar sair() aqui competiria com isso.
-	local nome = run.membros[guid].nome
+	local dados = run.membros[guid]
+	local nome = dados.nome
 	run.membros[guid] = nil
+	-- Morrer nao fecha a porta: enquanto sobrar alguem do grupo dentro, ele
+	-- pode voltar pelo obelisco. A punicao da morte passa a ser o caminho de
+	-- volta, nao a perda da hunt -- decisao tomada em 05/08/2026.
+	run.saidos[guid] = dados
 	InstanceEligibility.aplicarCooldown(player, run.template)
 
 	if InstanceFronteiras then

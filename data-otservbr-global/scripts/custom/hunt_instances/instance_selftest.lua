@@ -187,6 +187,12 @@ function tk.onSay(player, words, param)
 				run and run.eventos == nil,
 				run and run.eventos and (#run.eventos .. " ficaram em voo")
 					or "sem run")
+			-- reentrada exige alguem do grupo la dentro. Saindo sozinho, a
+			-- execucao encerra e nao ha para onde voltar -- se isto passar a
+			-- oferecer volta, o jogador cairia num slot ja limpo e vazio.
+			passou(q, "sem volta depois de sair sozinho",
+				InstanceManager.execucaoParaVoltar(q, tpl) == nil,
+				"ofereceu voltar para execucao encerrada")
 
 			kv:remove("ate")
 			q:sendTextMessage(MESSAGE_EVENT_ADVANCE, "=== fim do auto-teste ===")

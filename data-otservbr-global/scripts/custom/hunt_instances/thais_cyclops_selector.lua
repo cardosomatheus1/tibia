@@ -51,6 +51,37 @@ end
 
 local function abrirJanela(player)
 	local emParty = player:getParty() ~= nil
+
+	-- Volta para uma execucao que ainda esta rodando. Vem PRIMEIRO e sozinha:
+	-- quem deixou companheiros la dentro quer voltar para eles, nao abrir uma
+	-- instancia nova -- e abrir uma nova o levaria para um slot vazio, com os
+	-- monstros todos de pe e sem ninguem do grupo.
+	local emAndamento = InstanceManager.execucaoParaVoltar(player, template)
+	if emAndamento then
+		local janela = ModalWindow({
+			title = template.nome,
+			message = "Sua instancia ainda esta em andamento.\n\n"
+				.. "Deseja voltar para ela?",
+		})
+		janela:addChoice("Voltar para a instancia", function(p, botao, _)
+			if botao.name ~= "Entrar" then return true end
+			local ok, erro = InstanceManager.voltar(p, template)
+			if not ok then
+				p:sendCancelMessage(erro)
+			end
+		end)
+		janela:addChoice("Mundo Aberto", function(p, botao, _)
+			if botao.name ~= "Entrar" then return true end
+			entrarPublico(p)
+		end)
+		janela:addButton("Entrar")
+		janela:addButton("Cancelar")
+		janela:setDefaultEnterButton(0)
+		janela:setDefaultEscapeButton(1)
+		janela:sendToPlayer(player)
+		return
+	end
+
 	local janela = ModalWindow({
 		title = template.nome,
 		message = emParty

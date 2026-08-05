@@ -50,11 +50,28 @@ local function perguntarSaida(player, slot)
 	end
 	perguntando[guid] = true
 
+	-- O aviso muda conforme sobra ou nao alguem dentro: sair sozinho encerra
+	-- a instancia e nao tem volta; sair de um grupo deixa a porta aberta.
+	-- Dizer sempre "nao sera possivel retornar" era mentira depois que a
+	-- reentrada passou a existir.
+	local acompanhado = false
+	if slot.run then
+		for outro in pairs(slot.run.membros) do
+			if outro ~= guid then
+				acompanhado = true
+				break
+			end
+		end
+	end
+
 	local janela = ModalWindow({
 		title = slot.template.nome,
-		message = "Voce esta saindo da area privada.\n\n"
-			.. "Ao sair, a instancia sera encerrada para voce e nao sera\n"
-			.. "possivel retornar a ela.\n\nDeseja sair?",
+		message = "Voce esta saindo da area privada.\n\n" .. (acompanhado
+			and "Seus companheiros continuam dentro, entao voce podera\n"
+				.. "voltar pelo obelisco enquanto algum deles estiver la.\n"
+			or "Voce e' o ultimo aqui dentro: ao sair, a instancia sera\n"
+				.. "encerrada e nao havera como retornar.\n")
+			.. "\nDeseja sair?",
 	})
 	janela:addChoice("Sair para o mapa global", function(p, botao, _)
 		perguntando[p:getGuid()] = nil
