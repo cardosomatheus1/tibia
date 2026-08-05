@@ -24,7 +24,9 @@ insercao invalidaria o deslocamento de todas as seguintes.
 """
 from __future__ import annotations
 
+import re
 import struct
+from array import array
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -33,6 +35,10 @@ INICIO, FIM, ESCAPA = 0xFE, 0xFF, 0xFD
 # Bytes que nunca podem aparecer crus dentro de um dado, porque o carregador
 # os leria como marcador de no.
 MARCADORES = (ESCAPA, INICIO, FIM)
+
+# Os mesmos tres bytes como classe de regex: serve para pular de marcador em
+# marcador sem olhar byte por byte em Python (ver _fim_do_no).
+_MARCADOR = re.compile(rb"[\xfd\xfe\xff]")
 
 
 def escapar(dados: bytes) -> bytes:
@@ -74,14 +80,59 @@ class Tile:
     # (id, offset_do_no, offset_do_fim)
 
 
+class _IndiceArea:
+    """Onde comeca cada tile de uma area 256x256, em arrays paralelos.
+
+    Guardar isso como dicionario de (dx, dy) -> tupla custava 17 MB por area.
+    Como a area e' uma grade fixa de 256x256, um indice calculado
+    (dy << 8 | dx) sobre quatro arrays de tipo primitivo diz o mesmo em
+    0,8 MB. Offset 0 significa "nao existe": o byte 0 do arquivo e' o
+    cabecalho, nunca um tile.
+    """
+
+    __slots__ = ("ini", "fim", "tipo", "apos", "n")
+
+    def __init__(self):
+        vazio = array("i", bytes(4 * 65536))
+        self.ini = vazio
+        self.fim = array("i", bytes(4 * 65536))
+        self.apos = array("i", bytes(4 * 65536))
+        self.tipo = array("b", bytes(65536))
+        self.n = 0
+
+
 class Mapa:
-    def __init__(self, caminho: str | Path):
+    def __init__(self, caminho: str | Path, *, cache_tiles: bool = True,
+                 limite_areas: int = 24, mapear: bool = False):
+        """`cache_tiles` guarda o Tile ja lido; `limite_areas` e' o teto do
+        indice de areas; `mapear` le o arquivo por mmap.
+
+        Quem so desenha (o servidor do mapeador) le cada tile uma vez por
+        bloco e nao ganha nada em guardar: eram 35 MB por area, e explorar o
+        mapa levava o processo a varios GB. Quem edita costuma voltar no
+        mesmo tile e mantem o cache, que e' o padrao.
+
+        Com `mapear`, os 176 MB do mapa ficam em paginas do sistema em vez de
+        na memoria do processo -- o sistema descarta o que nao esta em uso.
+        Em troca o arquivo fica preso enquanto o objeto viver, entao quem
+        edita e grava no mesmo caminho nao deve usar.
+        """
         self.caminho = Path(caminho)
-        self.dados = self.caminho.read_bytes()
+        self._arquivo = self._mapa_mm = None
+        if mapear:
+            import mmap as _mmap
+            self._arquivo = open(self.caminho, "rb")
+            self._mapa_mm = _mmap.mmap(self._arquivo.fileno(), 0,
+                                       access=_mmap.ACCESS_READ)
+            self.dados = self._mapa_mm
+        else:
+            self.dados = self.caminho.read_bytes()
+        self.cache_tiles = cache_tiles
+        self.limite_areas = limite_areas
         self._areas: dict[tuple[int, int, int], list[int]] = {}
         # offsets crus por area (barato) e tiles ja lidos (caro, sob demanda)
-        self._cruas: dict[tuple[int, int, int], dict[tuple[int, int], tuple]] = {}
-        self._tiles: dict[tuple[int, int, int], dict[tuple[int, int], Tile]] = {}
+        self._cruas: dict[tuple[int, int, int], _IndiceArea] = {}
+        self._tiles: dict[tuple[int, int, int], dict[int, Tile]] = {}
         self._edicoes: list[tuple[int, int, bytes]] = []   # (offset, apaga, insere)
 
     # ---------------------------------------------------------- estrutura
@@ -92,21 +143,31 @@ class Mapa:
         return struct.unpack("<IHHII", self.dados[6:22])
 
     def _fim_do_no(self, i: int) -> int:
-        d, n = self.dados, len(self.dados)
+        """Offset do 0xFF que fecha o no aberto em i.
+
+        Pula de marcador em marcador em vez de andar byte a byte: quase todo
+        byte de um no e' dado comum, e a busca em Python custava 30% do tempo
+        de desenhar uma regiao. O regex varre em C e so devolve o que importa.
+        """
+        d = self.dados
         j, nivel = i + 1, 1
-        while j < n:
+        busca = _MARCADOR.search
+        while True:
+            m = busca(d, j)
+            if m is None:
+                raise ValueError(f"no em {i} nao fecha")
+            j = m.start()
             b = d[j]
-            if b == ESCAPA:
+            if b == ESCAPA:                    # 0xFD protege o byte seguinte
                 j += 2
                 continue
             if b == INICIO:
                 nivel += 1
-            elif b == FIM:
+            else:                              # FIM
                 nivel -= 1
                 if nivel == 0:
                     return j
             j += 1
-        raise ValueError(f"no em {i} nao fecha")
 
     def _offsets_de_area(self, base: tuple[int, int, int]) -> list[int]:
         if base in self._areas:
@@ -134,6 +195,12 @@ class Mapa:
         Devolve (conteudo, proximo offset cru).
         """
         d = self.dados
+        # atalho: sem 0xFD nos proximos n bytes, o conteudo e' a fatia crua.
+        # Escape e' raro (1,1% dos ids do items.xml), entao esse e' o caminho
+        # normal, e a fatia sai em C em vez de byte a byte.
+        bloco = d[i:i + n]
+        if ESCAPA not in bloco:
+            return bloco, i + n
         out = bytearray()
         while len(out) < n:
             if d[i] == ESCAPA:
@@ -142,19 +209,22 @@ class Mapa:
             i += 1
         return bytes(out), i
 
-    def _indexar(self, base: tuple[int, int, int]) -> dict[tuple[int, int], tuple]:
-        """Mapeia (dx, dy) -> (inicio, fim, tipo, apos) de uma area 256x256.
+    def _indexar(self, base: tuple[int, int, int]) -> _IndiceArea:
+        """Onde comeca cada tile de uma area 256x256.
 
         NAO le o conteudo do tile. Ler custa caro (percorre atributos e cada
         no de item) e a area tem 65536 tiles, mas quem pede uma regiao de
         128x128 so usa um quarto deles. Antes isso gastava 1,9 s por area; o
-        conteudo agora sai no `tile()`, um tile por vez, e fica guardado.
+        conteudo agora sai no `tile()`, um tile por vez.
         """
-        if base in self._cruas:
-            return self._cruas[base]
+        idx = self._cruas.get(base)
+        if idx is not None:
+            self._cruas[base] = self._cruas.pop(base)      # marca como recente
+            return idx
 
         d = self.dados
-        cruas: dict[tuple[int, int], tuple] = {}
+        idx = _IndiceArea()
+        a_ini, a_fim, a_apos, a_tipo = idx.ini, idx.fim, idx.apos, idx.tipo
         for pos in self._offsets_de_area(base):
             limite = self._fim_do_no(pos)
             i = pos + 7
@@ -166,10 +236,19 @@ class Mapa:
                 fim = self._fim_do_no(i)
                 if tipo in (NO_TILE, NO_CASA):
                     (dx, dy), apos = self._ler_dados(i + 2, 2)
-                    cruas[(dx, dy)] = (i, fim, tipo, apos)
+                    k = (dy << 8) | dx
+                    if not a_ini[k]:
+                        idx.n += 1
+                    a_ini[k], a_fim[k], a_apos[k], a_tipo[k] = i, fim, apos, tipo
                 i = fim + 1
-        self._cruas[base] = cruas
-        return cruas
+
+        self._cruas[base] = idx
+        while len(self._cruas) > self.limite_areas:
+            velha, _ = next(iter(self._cruas.items()))
+            self._cruas.pop(velha)
+            self._tiles.pop(velha, None)
+            self._areas.pop(velha, None)
+        return idx
 
     def _ler_tile(self, ini, fim, tipo, x, y, z, apos_coords) -> Tile:
         d = self.dados
@@ -209,18 +288,21 @@ class Mapa:
 
     def tile(self, x: int, y: int, z: int) -> Tile | None:
         base = (x & 0xFF00, y & 0xFF00, z)
-        chave = (x & 0xFF, y & 0xFF)
-        prontos = self._tiles.get(base)
-        if prontos is None:
-            prontos = self._tiles[base] = {}
-        elif chave in prontos:
-            return prontos[chave]
-        cru = self._indexar(base).get(chave)
-        if cru is None:
+        chave = ((y & 0xFF) << 8) | (x & 0xFF)
+        if self.cache_tiles:
+            prontos = self._tiles.get(base)
+            if prontos is None:
+                prontos = self._tiles[base] = {}
+            elif chave in prontos:
+                return prontos[chave]
+        idx = self._indexar(base)
+        ini = idx.ini[chave]
+        if not ini:
             return None
-        ini, fim, tipo, apos = cru
-        t = self._ler_tile(ini, fim, tipo, x, y, z, apos)
-        prontos[chave] = t
+        t = self._ler_tile(ini, idx.fim[chave], idx.tipo[chave], x, y, z,
+                           idx.apos[chave])
+        if self.cache_tiles:
+            self._tiles[base][chave] = t
         return t
 
     def regiao(self, x1, y1, x2, y2, z):
@@ -253,10 +335,12 @@ class Mapa:
     def tiles_da_area(self, base: tuple[int, int, int]):
         """Tiles de uma area inteira, lidos um a um."""
         bx, by, bz = base
-        for dx, dy in self._indexar(base):
-            t = self.tile(bx + dx, by + dy, bz)
-            if t:
-                yield t
+        ini = self._indexar(base).ini
+        for k in range(65536):
+            if ini[k]:
+                t = self.tile(bx + (k & 0xFF), by + (k >> 8), bz)
+                if t:
+                    yield t
 
     def esquecer_area(self, base: tuple[int, int, int]) -> None:
         """Descarta o cache de uma area.

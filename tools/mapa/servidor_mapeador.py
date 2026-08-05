@@ -47,9 +47,19 @@ BLOCO = 128          # tiles por imagem
 # Em que resolucao desenhar para atender cada nivel pedido. Renderizar sempre
 # a 32 px/tile e reduzir depois desperdica: colar sprite custa proporcional a
 # area, e quem esta explorando o mapa pede 2, 4 ou 8. Duas bases cobrem tudo
-# -- uma leve para explorar, uma cheia para o zoom maximo -- e cada uma
-# atende varios niveis, entao mexer na roda do mouse nao redesenha.
-BASES = {1: 8, 2: 8, 4: 8, 8: 8, 16: 32, 32: 32}
+# -- uma leve para explorar, uma para o zoom maximo -- e cada uma atende
+# varios niveis, entao mexer na roda do mouse nao redesenha.
+#
+# 16 px/tile e' o maior zoom do mapeador: da para marcar tile a tile sem
+# esforco, e evita a base de 4096x4096 (48 MB viva, 4x mais lenta) que so
+# serviria para ver pixel de sprite.
+BASES = {1: 8, 2: 8, 4: 8, 8: 8, 16: 16}
+
+# Tetos de memoria. Existe cache em disco, entao guardar muito na RAM
+# rende pouco -- o que importa e' o processo caber numa maquina que
+# tambem esta rodando o jogo e o navegador.
+TETO_CACHE = 96 << 20      # bytes de JPEG guardados em memoria
+TETO_BASES = 16_000_000    # pixels de imagem base viva
 
 RE_BLOCO_XML = re.compile(
     rb'<monster\s+centerx="(\d+)"\s+centery="(\d+)"\s+centerz="(\d+)"'
@@ -62,12 +72,16 @@ class Estado:
     def __init__(self, mapa: Path, assets: Path, spawns: Path, planilha,
                  disco: Path | None = None):
         print("abrindo mapa...")
-        self.mapa = Mapa(mapa)
+        # sem cache_tiles: o render le cada tile uma vez por bloco e reler e'
+        # mais barato que guardar. Com ele o processo chegava a varios GB.
+        self.mapa = Mapa(mapa, cache_tiles=False, limite_areas=16,
+                         mapear=True)
         print("abrindo assets...")
         self.assets = Assets(assets)
         print("indexando aparencias...")
         self.assets.aparencias.indexar("object")
         self.cache: dict[str, bytes] = {}
+        self.bytes_cache = 0
         self.bases: dict[tuple[int, int, int], Image.Image] = {}
         # cache em disco: o render e' caro mas deterministico, entao vale
         # guardar entre execucoes -- reabrir o mapeador na mesma regiao passa
@@ -85,7 +99,6 @@ class Estado:
         self.sprites = Sprites(self.assets,
                                RAIZ / "data-otservbr-global/monster")
         self.fila: list[tuple] = []
-        self.na_fila: set[tuple] = set()
         self.tem_fila = threading.Event()
         self.pendentes = 0          # blocos que a tela esta esperando agora
         threading.Thread(target=self._prefetcher, daemon=True).start()
@@ -165,11 +178,12 @@ class Estado:
         print(f"  render {z}/{bx}_{by} @{q}: {time.perf_counter() - t0:.2f}s",
               flush=True)
         with self.lock:
-            # a base de 32 px/tile e' 4096x4096 RGB = 48 MB viva; a de 8 e'
-            # 3 MB. O limite conta em megapixels para nao guardar 6 gigantes.
-            while sum(b.width * b.height for b in self.bases.values()) > 120e6:
-                self.bases.pop(next(iter(self.bases)))
             self.bases[chave] = im
+            # a base de 16 px/tile e' 2048x2048 RGB = 12 MB viva, a de 8 e'
+            # 3 MB. O teto conta pixels para nao depender do nivel.
+            while (sum(b.width * b.height for b in self.bases.values())
+                   > TETO_BASES and len(self.bases) > 1):
+                self.bases.pop(next(iter(self.bases)))
         return im
 
     def jpeg(self, z: int, bx: int, by: int, p: int) -> bytes:
@@ -181,7 +195,7 @@ class Estado:
         servidor reduz do lado de ca -- em p=4 o mesmo bloco vira 512x512, uns
         30 KB, e a tela inteira cabe em menos de meio megapixel.
         """
-        p = max(1, min(32, 1 << (p - 1).bit_length()))     # potencia de 2
+        p = max(1, min(16, 1 << (p - 1).bit_length()))     # potencia de 2
         chave = f"{z}/{bx}_{by}_{p}"
         with self.lock:
             if chave in self.cache:
@@ -220,45 +234,50 @@ class Estado:
 
     def _guardar(self, chave: str, dados: bytes) -> None:
         with self.lock:
-            if len(self.cache) > 400:
-                self.cache.pop(next(iter(self.cache)))
+            if chave in self.cache:
+                return
             self.cache[chave] = dados
+            self.bytes_cache += len(dados)
+            # o limite era por QUANTIDADE, e um JPEG varia de 30 KB a 8 MB --
+            # 400 deles chegavam a gigabytes. Contar bytes e' o certo.
+            while self.bytes_cache > TETO_CACHE and len(self.cache) > 1:
+                velha = next(iter(self.cache))
+                self.bytes_cache -= len(self.cache.pop(velha))
 
     # ------------------------------------------------------------ prefetch
 
     def pedir_vizinhos(self, z: int, bx: int, by: int, p: int) -> None:
-        """Enfileira os 8 blocos ao redor, para o arraste nao esperar render.
+        """Deixa na fila os 4 blocos colados neste, para o arraste nao esperar.
 
-        Quem arrasta o mapa quase sempre vai para um vizinho, e o vizinho leva
-        ~1 s para nascer. Rendendo antes, o arraste encontra tudo em cache.
+        A fila e' TROCADA, nao acumulada. Enfileirar os 8 vizinhos de cada
+        bloco pedido gerava 158 renders para 45 pedidos: quase tudo fora da
+        tela, e o prefetch disputando o lock com o que o usuario espera. So
+        vale adivinhar em volta de onde ele esta agora.
         """
         with self.lock:
-            for dx in (-1, 0, 1):
-                for dy in (-1, 0, 1):
-                    if dx == dy == 0:
-                        continue
-                    pedido = (z, bx + dx, by + dy, p)
-                    if pedido not in self.na_fila:
-                        self.na_fila.add(pedido)
-                        self.fila.append(pedido)
+            self.fila = [(z, bx + dx, by + dy, p)
+                         for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))]
         self.tem_fila.set()
 
     def _prefetcher(self) -> None:
         while True:
             self.tem_fila.wait()
-            # Espera a tela ficar quieta. O lock de render e' unico, e sem
-            # isto o prefetch pegava a vez entre dois blocos que o usuario
-            # esta esperando -- cada tile visivel levava 2 s em vez de 0,7 s.
-            while self.pendentes > 0:
+            # Espera a tela sossegar. O lock de render e' unico e um render
+            # comecado nao da para interromper, entao o prefetch so entra
+            # depois de um intervalo sem pedido nenhum -- durante a enxurrada
+            # que enche a tela ele fica fora do caminho.
+            quieto = 0.0
+            while quieto < 0.25:
+                if self.pendentes > 0:
+                    quieto = 0.0
+                else:
+                    quieto += 0.05
                 time.sleep(0.05)
             with self.lock:
                 if not self.fila:
                     self.tem_fila.clear()
                     continue
-                # ultimo a entrar primeiro: o que o usuario pediu por ultimo
-                # e' o que ele esta olhando agora
                 pedido = self.fila.pop()
-                self.na_fila.discard(pedido)
             try:
                 self.jpeg(*pedido)
             except Exception:                              # noqa: BLE001

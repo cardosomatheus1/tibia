@@ -164,7 +164,7 @@ function* monstrosVisiveis(zz, cx, cy, tw, th) {
 // reduz do lado dele e manda so o que cabe na tela.
 function nivel() {
   let p = 1;
-  while (p < esc && p < 32) p *= 2;
+  while (p < esc && p < 16) p *= 2;
   return Math.max(2, p);
 }
 
@@ -288,7 +288,7 @@ function desenharMarcas() {
   if (document.getElementById('verMon').checked) {
     const filtro = document.getElementById('filtroMon').value.trim().toLowerCase();
     const comSprite = esc >= 4;
-    gMarca.imageSmoothingEnabled = esc < 32;
+    gMarca.imageSmoothingEnabled = esc < 16;
     const t = Math.max(3, Math.min(esc, 10));
     const tipos = {};
     let n = 0;
@@ -408,13 +408,13 @@ palco.addEventListener('wheel', e => {
   e.preventDefault();
   const r = palco.getBoundingClientRect();
   const mx = camX + (e.clientX - r.left) / esc, my = camY + (e.clientY - r.top) / esc;
-  esc = Math.min(32, Math.max(0.5, esc * (e.deltaY < 0 ? 1.25 : 0.8)));
+  esc = Math.min(16, Math.max(0.5, esc * (e.deltaY < 0 ? 1.25 : 0.8)));
   camX = Math.round(mx - (e.clientX - r.left) / esc);
   camY = Math.round(my - (e.clientY - r.top) / esc);
   pedirDesenho();
 }, { passive: false });
 
-function zoom(f) { esc = Math.min(32, Math.max(0.5, esc * f)); pedirDesenho(); }
+function zoom(f) { esc = Math.min(16, Math.max(0.5, esc * f)); pedirDesenho(); }
 
 function irPara() {
   const v = prompt('Coordenada (x y z) ou (x,y,z):', `${camX + 40} ${camY + 30} ${z}`);
