@@ -42,12 +42,20 @@ HuntInstances.thaisCyclops = {
 	-- Relativas ao slot: posicao real = origem do slot + isto.
 	-- Todas verificadas: tem chao, sem item bloqueante, nao e' tile de
 	-- mudanca de andar, e a 4+ tiles de qualquer spawn.
+	-- A CHEGADA E' A BOCA DA CAVERNA, no z=7, e nao o meio da hunt. A primeira
+	-- versao caiu num canto do z=8 com um unico ciclope a vista, porque foi
+	-- escolhida pelo centroide dos tiles seguros -- criterio mecanico, sem
+	-- relacao com onde a hunt comeca. O jogador tem de chegar onde entraria a pe.
+	--
+	-- (80, 69, 7) relativo = (32464, 32085, 7) global, a entrada da caverna.
+	-- As cinco verificadas: tem chao, sem item bloqueante, nao sao tile de
+	-- mudanca de andar, e longe de spawn.
 	entradasRelativas = {
-		{ x = 73, y = 50, z = 8 },
-		{ x = 73, y = 54, z = 8 },
-		{ x = 74, y = 52, z = 8 },
-		{ x = 67, y = 48, z = 8 },
-		{ x = 69, y = 48, z = 8 },
+		{ x = 80, y = 69, z = 7 },
+		{ x = 80, y = 68, z = 7 },
+		{ x = 81, y = 68, z = 7 },
+		{ x = 81, y = 69, z = 7 },
+		{ x = 81, y = 70, z = 7 },
 	},
 
 	-- --------------------------------------------------------- mundo global
