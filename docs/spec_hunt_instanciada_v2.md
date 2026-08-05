@@ -839,6 +839,53 @@ contra perseguição, ou transporte remoto de membros.
 
 # 11. Saída
 
+## 11.0 O jogador NUNCA pode ver o fim do mapa
+
+Observado em jogo: saindo da caverna e andando para o sul, chega-se à borda do
+recorte e vê-se o vazio — grama que termina em nada. Antes disso, o terreno
+copiado (a margem de 16 tiles, §6.1.1) **engana**: é cópia fiel dos arredores
+de Thais, então o jogador acha que voltou ao mundo e continua andando.
+
+Isso é pior do que ver vazio direto, porque vazio é óbvio e cópia não é.
+
+### Duas fronteiras, não uma
+
+O erro de desenho foi usar **uma** fronteira. São necessárias duas:
+
+| Fronteira | Onde | O que faz |
+|---|---|---|
+| **saída** | borda da HUNT | pergunta "tem certeza que deseja sair da instância?" |
+| **contenção** | antes da borda do recorte | bloqueia o passo, sem diálogo |
+
+A zona do slot hoje cobre o recorte inteiro (169×121), então `beforeLeave`
+dispararia só na borda — tarde demais, o jogador já viu o vazio.
+
+### Consequência para a Etapa 2
+
+Cada slot precisa de **duas zonas**, não uma:
+
+```lua
+Zone("hunt.<slug>.slot.<n>")          -- area da hunt: dispara o dialogo
+Zone("hunt.<slug>.slot.<n>.limite")   -- anel externo: bloqueia o passo
+```
+
+O anel de contenção fica entre a borda da hunt e a borda do recorte, com folga
+maior que o viewport do servidor (11 tiles, §6.1.1) — assim o jogador é barrado
+antes que o vazio entre no campo de visão.
+
+### Diálogo de saída
+
+`beforeLeave` é **vetável** (retorno `false` bloqueia, `src/game/game.cpp:12395`).
+O fluxo é: barrar o passo, abrir a ModalWindow de confirmação, e só teleportar
+se aceitar.
+
+```text
+Ao sair, voce nao podera retornar a esta instancia. Deseja continuar?
+```
+
+⚠️ A ModalWindow morre se o jogador andar (§9.2). Aqui não é problema: ele
+acabou de ser **impedido** de andar, então está parado por construção.
+
 ## 11.1 Chokepoint único
 
 ⚠️ **Não mapeie porta, escada, buraco, corda e teleport um a um.**
