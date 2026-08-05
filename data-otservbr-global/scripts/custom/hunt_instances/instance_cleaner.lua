@@ -66,13 +66,25 @@ function InstanceCleaner.limpar(slot, motivo)
 	local removidos, preservados = InstanceCleaner.removerItens(slot)
 
 	-- 4. ninguem pode ficar para tras
+	--
+	-- Aqui e' rede de seguranca, nao caminho normal: quem sai pelo sair() ja
+	-- foi devolvido ao ponto de entrada. Se alguem AINDA aparece nesta lista,
+	-- e' porque a volta dele falhou -- e ai o log tem de dizer, senao o
+	-- jogador reaparece longe de onde entrou sem explicacao nenhuma.
 	local presos = slot.zona:getPlayers() or {}
 	for _, p in ipairs(presos) do
 		if InstanceFronteiras then
 			InstanceFronteiras.autorizarSaida(p)
+			InstanceFronteiras.esquecer(p)
 		end
-		p:teleportTo(slot.template.retornoGlobal
-			or slot.template.retornoEmergencia)
+		local destino = slot.template.retornoGlobal
+			or slot.template.retornoEmergencia
+		logger.warn("[hunt-instance] {} ainda estava no slot {} na limpeza; "
+			.. "despejado em {},{},{}", p:getName(), slot.indice,
+			destino.x, destino.y, destino.z)
+		if not p:teleportTo(destino) then
+			p:teleportTo(destino, true)
+		end
 		p:sendTextMessage(MESSAGE_EVENT_ADVANCE,
 			"A instancia foi encerrada.")
 	end

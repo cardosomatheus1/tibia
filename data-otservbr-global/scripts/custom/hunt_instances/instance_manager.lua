@@ -5,6 +5,47 @@ InstanceManager = InstanceManager or {}
 
 local proximoRunId = 1
 
+local function coord(p)
+	if not p then
+		return "nil"
+	end
+	return string.format("%d,%d,%d", p.x, p.y, p.z)
+end
+
+--- Devolve o jogador ao mapa global, insistindo ate conseguir.
+--
+-- O teleportTo devolve false quando o tile de destino nao serve -- ocupado por
+-- outra criatura, virou intransponivel -- e so registra isso em nivel DEBUG
+-- (creature_functions.cpp:869). Como o sair() ignorava esse retorno, uma volta
+-- que falhava deixava o jogador DENTRO; logo em seguida a limpeza varria a
+-- zona e o despejava no retornoGlobal. O jogador saia da instancia, sim, mas
+-- longe de onde tinha entrado, e nada no log dizia por que.
+--
+-- Ordem das tentativas: o ponto exato, depois empurrando para um tile livre ao
+-- lado, e so entao os pontos fixos do template.
+local function devolver(player, destino, template, motivo)
+	if destino and player:teleportTo(destino) then
+		return true
+	end
+	if destino and player:teleportTo(destino, true) then
+		logger.warn("[hunt-instance] {} voltou empurrado para perto de {} ({})",
+			player:getName(), coord(destino), motivo or "sem motivo")
+		return true
+	end
+	local reservas = { template.retornoGlobal, template.retornoEmergencia }
+	for _, alternativa in ipairs(reservas) do
+		if alternativa and player:teleportTo(alternativa, true) then
+			logger.error("[hunt-instance] {} nao coube em {}; devolvido a {} ({})",
+				player:getName(), coord(destino), coord(alternativa),
+				motivo or "sem motivo")
+			return true
+		end
+	end
+	logger.error("[hunt-instance] {} NAO saiu da instancia: nenhum destino "
+		.. "aceitou o teleporte (queria {})", player:getName(), coord(destino))
+	return false
+end
+
 --- Teleporte atomico (secao 9.7): se qualquer um falhar, devolve todos.
 local function teleportarTodos(slot, membros)
 	local feitos = {}
@@ -74,8 +115,11 @@ function InstanceManager.resgatar(player, slot, motivo)
 	-- a fronteira bloqueia toda saida; sem autorizar, ela bloqueia esta aqui
 	if InstanceFronteiras then
 		InstanceFronteiras.autorizarSaida(player)
+		InstanceFronteiras.esquecer(player)
 	end
-	player:teleportTo(tpl.retornoGlobal or tpl.retornoEmergencia)
+	-- aqui nao ha ponto de entrada guardado (o estado do slot se perdeu no
+	-- restart), entao o destino e' o retorno fixo do template mesmo
+	devolver(player, tpl.retornoGlobal, tpl, motivo or "resgate")
 	player:sendTextMessage(MESSAGE_EVENT_ADVANCE,
 		"Voce foi devolvido ao mapa global.")
 	logger.info("[hunt-instance] {} resgatado do slot {} ({})",
@@ -102,8 +146,10 @@ function InstanceManager.sair(player, motivo)
 	run.membros[guid] = nil
 	if InstanceFronteiras then
 		InstanceFronteiras.autorizarSaida(player)
+		InstanceFronteiras.esquecer(player)
 	end
-	player:teleportTo(dados.retorno or run.template.retornoEmergencia)
+	-- de volta ao ponto EXATO de onde entrou -- em geral na frente do obelisco
+	devolver(player, dados.retorno, run.template, motivo)
 
 	-- Cooldown vale em TODA saida, inclusive queda de conexao (secao 14.2):
 	-- se cair fora fosse de graca, derrubar o cliente viraria o caminho do

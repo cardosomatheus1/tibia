@@ -9,6 +9,16 @@
 --
 --     /testeinstancia
 
+-- Position nao tem __tostring: um tostring() nele imprime "table: 0x...", e foi
+-- assim que a falha do retorno a origem apareceu -- sem dizer PARA ONDE o
+-- jogador tinha ido, que era exatamente o dado que faltava.
+local function coord(p)
+	if not p then
+		return "nil"
+	end
+	return string.format("%d,%d,%d", p.x, p.y, p.z)
+end
+
 local function passou(player, nome, ok, detalhe)
 	local texto = (ok and "ok    " or "FALHA ") .. nome
 		.. (ok and "" or (" -- " .. tostring(detalhe or "")))
@@ -72,9 +82,12 @@ function tk.onSay(player)
 			if not q then return end
 			passou(q, "voltou para fora da instancia",
 				InstancePool.slotDaPosicao(q:getPosition()) == nil)
+			local agora = q:getPosition()
+			local dist = agora:getDistance(origem)
 			passou(q, "voltou para a posicao de origem",
-				q:getPosition():getDistance(origem) <= 2,
-				tostring(q:getPosition()))
+				dist <= 2,
+				string.format("entrou em %s, voltou em %s (distancia %d)",
+					coord(origem), coord(agora), dist))
 			passou(q, "cooldown aplicado na saida",
 				InstanceEligibility.cooldownRestante(q, tpl) > 0,
 				"zero -- exploit de sair e voltar")
