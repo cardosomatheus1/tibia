@@ -38,17 +38,40 @@ local function deveRemover(item)
 end
 
 --- Remove o que os jogadores deixaram: loot, corpos, sacolas, campos.
+--
+-- Devolve tambem os ids preservados mais frequentes. Observado em jogo: dois
+-- jogadores cacando 7 minutos levaram o slot de 606 para 2247 itens
+-- preservados, com apenas 5 removidos -- ou seja, ALGO que a caca produz nao
+-- esta sendo reconhecido como sujeira. Sem saber o QUE, qualquer correcao
+-- seria palpite; o log agora nomeia os ids e o proximo ciclo de caca decide.
 function InstanceCleaner.removerItens(slot)
 	local removidos, preservados = 0, 0
+	local porId = {}
 	for _, item in ipairs(slot.zona:getItems() or {}) do
 		if deveRemover(item) then
 			item:remove()
 			removidos = removidos + 1
 		else
 			preservados = preservados + 1
+			local id = item:getId()
+			porId[id] = (porId[id] or 0) + 1
 		end
 	end
-	return removidos, preservados
+	return removidos, preservados, porId
+end
+
+--- Os ids preservados mais comuns, como texto para o log.
+local function maisComuns(porId, quantos)
+	local lista = {}
+	for id, n in pairs(porId) do
+		lista[#lista + 1] = { id = id, n = n }
+	end
+	table.sort(lista, function(a, b) return a.n > b.n end)
+	local partes = {}
+	for i = 1, math.min(quantos, #lista) do
+		partes[#partes + 1] = string.format("%dx id %d", lista[i].n, lista[i].id)
+	end
+	return table.concat(partes, ", ")
 end
 
 --- Teardown completo do slot. Chamado ao encerrar a execucao.
@@ -63,7 +86,7 @@ function InstanceCleaner.limpar(slot, motivo)
 	slot.zona:removeMonsters()
 
 	-- 3. itens largados
-	local removidos, preservados = InstanceCleaner.removerItens(slot)
+	local removidos, preservados, porId = InstanceCleaner.removerItens(slot)
 
 	-- 4. ninguem pode ficar para tras
 	--
@@ -95,6 +118,8 @@ function InstanceCleaner.limpar(slot, motivo)
 	logger.info("[hunt-instance] slot {} limpo ({}): {} itens removidos, "
 		.. "{} de cenario preservados, {} jogador(es) retirado(s)",
 		slot.indice, motivo or "sem motivo", removidos, preservados, #presos)
+	logger.info("[hunt-instance] slot {} preservados mais comuns: {}",
+		slot.indice, maisComuns(porId, 8))
 	return removidos
 end
 

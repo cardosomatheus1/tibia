@@ -356,6 +356,13 @@ function InstanceManager.voltar(player, template)
 	run.saidos[guid] = nil
 	run.membros[guid] = dados
 
+	-- Confirmacao para QUEM VOLTA. So os que estavam dentro eram avisados, e
+	-- quem voltava nao via linha nenhuma no chat -- o teste em jogo terminou
+	-- com "nao apareceu isso", mesmo tendo funcionado.
+	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, string.format(
+		"Voce voltou para a instancia. Restam %d minuto(s) de hunt.",
+		InstanceManager.minutosRestantes(run) or 0))
+
 	for outro in pairs(run.membros) do
 		if outro ~= guid then
 			local p = Player(outro)
