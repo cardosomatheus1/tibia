@@ -241,8 +241,11 @@ try {
         }
         if ($versaoLocal -eq $manifest.version) {
             Log "versao local igual a do servidor -- nada a atualizar"
-            Abrir-Client
-            Log "=== fim ==="
+            # So retorna. Quem abre o jogo e' o finally la embaixo, e ele roda
+            # DE QUALQUER FORMA -- return dentro de try nao pula finally. Abrir
+            # aqui tambem fazia o jogo subir DUAS vezes, toda vez que nao havia
+            # atualizacao, que e' o caminho comum. O log mostrava os dois
+            # "jogo aberto" no mesmo segundo.
             return
         }
         Log "versao mudou ($versaoLocal -> $($manifest.version)); verificando arquivos"
