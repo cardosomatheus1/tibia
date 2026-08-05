@@ -30,10 +30,75 @@ local function passou(player, nome, ok, detalhe)
 	end
 end
 
+-- ------------------------------------------------------- fim por tempo
+--
+-- O prazo de verdade e' de 3 horas, entao o caminho do encerramento por tempo
+-- so rodaria depois de alguem jogar 3 horas -- ou seja, nunca antes de ir para
+-- producao. Este modo abre uma execucao com prazo de 20 segundos e observa o
+-- fim acontecer: aviso, saida por tempo, cooldown, slot devolvido ao pool.
+--
+--     /testeinstancia tempo
+local function testarPrazo(player, tpl)
+	local kv = KV.scoped("hunt-instance"):scoped(tpl.slug)
+		:scoped(tostring(player:getAccountId()))
+	kv:remove("ate")
+
+	local livresAntes = InstancePool.disponiveis(tpl)
+	local slot = InstancePool.alocar(tpl)
+	if not slot then
+		passou(player, "alocou slot", false, "pool cheio")
+		return
+	end
+
+	local origem = player:getPosition()
+	passou(player, "execucao criada com prazo curto",
+		InstanceManager.criarExecucao(tpl, slot, { player }, 20))
+	local run = slot.run
+	passou(player, "prazo de 20 s marcado",
+		run and run.fim and run.fim - run.inicio == 20,
+		run and run.fim and (run.fim - run.inicio .. " s") or "sem prazo")
+
+	player:sendTextMessage(MESSAGE_EVENT_ADVANCE,
+		"Aguardando o prazo estourar (20 s)...")
+
+	-- 26 s: 20 do prazo mais folga para a limpeza terminar
+	addEvent(function()
+		local q = Player(player:getId())
+		if not q then return end
+		passou(q, "prazo encerrou a execucao",
+			slot.run == nil,
+			slot.run and "slot ainda ocupado" or "")
+		passou(q, "tirou o jogador da instancia",
+			InstancePool.slotDaPosicao(q:getPosition()) == nil)
+		passou(q, "devolveu ao ponto de entrada",
+			q:getPosition():getDistance(origem) <= 2,
+			string.format("entrou em %s, voltou em %s",
+				coord(origem), coord(q:getPosition())))
+		passou(q, "cooldown aplicado pelo fim do prazo",
+			InstanceEligibility.cooldownRestante(q, tpl) > 0,
+			"zero -- fim por tempo saiu de graca")
+		passou(q, "pool voltou ao normal",
+			InstancePool.disponiveis(tpl) == livresAntes)
+		passou(q, "zona esvaziou",
+			#slot.zona:getMonsters() == 0,
+			#slot.zona:getMonsters() .. " sobraram")
+		passou(q, "timers do prazo cancelados",
+			run and run.eventos == nil,
+			run and run.eventos and (#run.eventos .. " em voo") or "sem run")
+		kv:remove("ate")
+		q:sendTextMessage(MESSAGE_EVENT_ADVANCE, "=== fim do teste de prazo ===")
+	end, 26000)
+end
+
 local tk = TalkAction("/testeinstancia")
 
-function tk.onSay(player)
+function tk.onSay(player, words, param)
 	if player:getGroup():getId() < GROUP_TYPE_GOD then
+		return true
+	end
+
+	if param and param:lower():find("tempo") then
+		testarPrazo(player, HuntInstances.thaisCyclops)
 		return true
 	end
 
@@ -60,6 +125,18 @@ function tk.onSay(player)
 		InstanceManager.criarExecucao(tpl, slot, { player }))
 	passou(player, "pool diminuiu",
 		InstancePool.disponiveis(tpl) == livresAntes - 1)
+
+	local run = slot.run
+	local restam = run and InstanceManager.minutosRestantes(run)
+	local previsto = tpl.duracaoMaximaMinutos
+	passou(player, "prazo marcado",
+		restam and restam >= previsto - 1 and restam <= previsto,
+		string.format("previa %d min, marcou %s", previsto, tostring(restam)))
+	-- 3 avisos + o encerramento. Se este numero mudar sem querer, algum aviso
+	-- deixou de ser agendado e ninguem descobriria ate a hunt fechar calada.
+	passou(player, "timers do prazo agendados",
+		run and run.eventos and #run.eventos == 4,
+		run and run.eventos and (#run.eventos .. " timers") or "nenhum")
 
 	addEvent(function()
 		local p = Player(player:getId())
@@ -104,6 +181,12 @@ function tk.onSay(player)
 			passou(q, "zona esvaziou",
 				#slot.zona:getMonsters() == 0,
 				#slot.zona:getMonsters() .. " sobraram")
+			-- timer em voo depois do fim acha o slot ja reocupado e encerra a
+			-- hunt de quem acabou de entrar
+			passou(q, "timers do prazo cancelados",
+				run and run.eventos == nil,
+				run and run.eventos and (#run.eventos .. " ficaram em voo")
+					or "sem run")
 
 			kv:remove("ate")
 			q:sendTextMessage(MESSAGE_EVENT_ADVANCE, "=== fim do auto-teste ===")

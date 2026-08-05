@@ -68,7 +68,98 @@ local function teleportarTodos(slot, membros)
 	return true
 end
 
-function InstanceManager.criarExecucao(template, slot, membros)
+-- ---------------------------------------------------------------- duracao
+--
+-- Quanto falta, avisado com antecedencia suficiente para o jogador decidir se
+-- ainda comeca uma parada ou se ja volta. 15 minutos da tempo de terminar o
+-- que esta fazendo; 1 minuto e' so para ninguem ser teleportado no meio de um
+-- ataque sem entender por que.
+local AVISOS_MINUTOS = { 15, 5, 1 }
+
+local function frase(minutos)
+	return minutos == 1 and "1 minuto" or (minutos .. " minutos")
+end
+
+local function avisarMembros(run, texto)
+	for guid in pairs(run.membros) do
+		local p = Player(guid)
+		if p then
+			p:sendTextMessage(MESSAGE_EVENT_ADVANCE, texto)
+		end
+	end
+end
+
+--- Marca os avisos e o encerramento por tempo.
+--
+-- Todo callback confere `slot.run == run` antes de agir. Sem isso um timer da
+-- execucao anterior encontraria o slot ja reocupado e avisaria -- ou pior,
+-- encerraria -- a hunt de quem acabou de entrar. E' a mesma armadilha que o
+-- instance_spawns documenta: evento em voo nao sabe que o mundo mudou.
+local function agendarFim(run, duracaoSegundos)
+	local total = duracaoSegundos
+		or (run.template.duracaoMaximaMinutos or 180) * 60
+	run.fim = run.inicio + total
+	run.eventos = {}
+
+	for _, restantes in ipairs(AVISOS_MINUTOS) do
+		local atraso = (total - restantes * 60) * 1000
+		if atraso > 0 then
+			run.eventos[#run.eventos + 1] = addEvent(function()
+				if run.slot.run == run then
+					avisarMembros(run, string.format(
+						"A instancia sera encerrada em %s.", frase(restantes)))
+				end
+			end, atraso)
+		end
+	end
+
+	run.eventos[#run.eventos + 1] = addEvent(function()
+		if run.slot.run == run then
+			InstanceManager.encerrarPorTempo(run)
+		end
+	end, total * 1000)
+end
+
+--- Cancela os timers de uma execucao que acabou antes da hora.
+-- Sem isto cada execucao curta deixaria quatro eventos em voo, e o slot vive
+-- para sempre: em algumas horas de uso seriam centenas de callbacks orfaos.
+local function cancelarFim(run)
+	for _, id in ipairs(run.eventos or {}) do
+		stopEvent(id)
+	end
+	run.eventos = nil
+end
+
+--- Fim por tempo: todo mundo sai como se tivesse usado a porta.
+-- Passa pelo sair() de proposito -- e' ele que devolve ao ponto de entrada e
+-- aplica o cooldown, e o tempo esgotado nao e' motivo para abrir excecao.
+function InstanceManager.encerrarPorTempo(run)
+	avisarMembros(run, "O tempo da instancia acabou.")
+
+	local guids = {}
+	for guid in pairs(run.membros) do
+		guids[#guids + 1] = guid
+	end
+	for _, guid in ipairs(guids) do
+		local p = Player(guid)
+		if p then
+			InstanceManager.sair(p, "tempo esgotado")
+		else
+			-- offline nao tem quem teleportar, mas a vaga tem de ser liberada
+			run.membros[guid] = nil
+		end
+	end
+
+	-- se todos estavam offline, nenhum sair() rodou e o encerrar nao veio
+	if run.slot.run == run then
+		InstanceManager.encerrar(run, "tempo esgotado")
+	end
+end
+
+--- Abre uma execucao. `duracaoSegundos` so existe para o auto-teste: sem
+-- encurtar o prazo, o caminho do encerramento por tempo so rodaria depois de
+-- alguem jogar 3 horas de verdade -- ou seja, nunca antes de ir para producao.
+function InstanceManager.criarExecucao(template, slot, membros, duracaoSegundos)
 	local run = {
 		id = proximoRunId,
 		template = template,
@@ -94,8 +185,13 @@ function InstanceManager.criarExecucao(template, slot, membros)
 
 	slot.run = run
 	InstanceSpawns.iniciar(slot)
+	agendarFim(run, duracaoSegundos)
 
+	local horas = (run.fim - run.inicio) / 3600
 	for _, player in ipairs(membros) do
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, string.format(
+			"Voce tem %.1f horas nesta instancia. Havera aviso aos 15, 5 e 1 "
+			.. "minuto do fim.", horas))
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE,
 			"Itens deixados no chao serao removidos quando a instancia encerrar.")
 	end
@@ -171,9 +267,21 @@ end
 
 function InstanceManager.encerrar(run, motivo)
 	local slot = run.slot
+	-- antes de qualquer coisa: timer que sobrevive ao fim encontra o slot ja
+	-- reocupado e age sobre a execucao errada
+	cancelarFim(run)
 	-- limpeza de verdade: sem ela o proximo grupo encontra o loot deste
 	InstanceCleaner.limpar(slot, motivo)
-	logger.info("[hunt-instance] run {} encerrada: {}", run.id, motivo)
+	logger.info("[hunt-instance] run {} encerrada apos {} min: {}",
+		run.id, math.floor((os.time() - run.inicio) / 60), motivo)
+end
+
+--- Minutos que faltam para o fim, ou nil se a execucao nao tem prazo.
+function InstanceManager.minutosRestantes(run)
+	if not run or not run.fim then
+		return nil
+	end
+	return math.max(0, math.ceil((run.fim - os.time()) / 60))
 end
 
 --- Execucao em que o jogador esta, ou nil. Derivada da POSICAO -- nao ha

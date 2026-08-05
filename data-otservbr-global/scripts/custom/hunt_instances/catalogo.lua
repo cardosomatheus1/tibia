@@ -87,7 +87,7 @@ HuntInstances.thaisCyclops = {
 	-- ------------------------------------------------------------- limites
 	maximoSlots = 6,
 
-	duracaoMaximaMinutos = 120,
+	duracaoMaximaMinutos = 180,   -- 3 h; avisos aos 15, 5 e 1 min do fim
 	graceVazioMinutos = 3,        -- atraso de teardown, NAO janela de volta
 	cooldownMinutos = 5,
 
