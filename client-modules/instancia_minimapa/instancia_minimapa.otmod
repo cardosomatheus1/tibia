@@ -1,0 +1,10 @@
+Module
+  name: instancia_minimapa
+  description: Mostra o jogador no lugar certo do minimapa quando ele esta numa hunt instanciada
+  author: OTServBR
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1100
+  scripts: [ instancia_minimapa ]
+  @onLoad: init()
+  @onUnload: terminate()

@@ -170,7 +170,7 @@ if (-not (Test-Path (Join-Path $pastaAssets 'catalog-content.json'))) {
 }
 
 # --- 4. modulos deste repositorio -------------------------------------------
-$modulos = @('autocaster', 'idioma')
+$modulos = @('autocaster', 'idioma', 'instancia_minimapa')
 foreach ($m in $modulos) {
     $de = Join-Path $origemModulos $m
     if (-not (Test-Path $de)) { Write-Aviso "modulo '$m' nao existe em client-modules - pulando"; continue }
