@@ -6519,6 +6519,20 @@ bool Player::onKilledPlayer(const std::shared_ptr<Player> &target, bool lastHit)
 				addUnjustifiedDead(target);
 			}
 
+			// Depois do golpe final, a condicao de combate e' estendida para
+			// whiteSkullTime (15 min).
+			//
+			// PARECE o PZ block de 15 minutos do Retro Open PvP, e nao e'.
+			// Este mesmo CONDITION_INFIGHT e' o que sustenta a CAVEIRA BRANCA:
+			// o onEndCondition apaga a caveira quando ele acaba. Encurtar para
+			// o pzLocked normal faria a branca sumir em 60 segundos, e 15 min
+			// de caveira branca e' regra padrao do Tibia em todo mundo PvP.
+			//
+			// Separar as duas coisas exigiria desacoplar a expiracao da
+			// caveira da condicao de combate -- refatoracao do sistema de
+			// skulls, nao um ajuste de regra. Fica como esta, consciente: o
+			// efeito colateral e' um PZ block mais longo do que o Open PvP
+			// pediria, em troca da caveira branca com a duracao correta.
 			if (lastHit && hasCondition(CONDITION_INFIGHT)) {
 				pzLocked = true;
 				const auto &condition = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_INFIGHT, g_configManager().getNumber(WHITE_SKULL_TIME), 0);
