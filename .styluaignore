@@ -1,0 +1,15 @@
+# Arquivos Lua que o stylua NAO deve tocar.
+#
+# O stylua so le UTF-8 e aborta o job inteiro no primeiro arquivo que nao for
+# ("stream did not contain valid UTF-8"), derrubando o CI antes de compilar.
+# Os arquivos abaixo nao sao UTF-8 de proposito.
+
+# Dicionario de traducao dos NPCs. E' CP1252 por decisao consciente -- o
+# client do Tibia espera CP1252 no texto falado, e converter para UTF-8
+# quebraria os acentos em jogo. Alem disso e' gerado por
+# tools/traducao/gerar_dicionario.py e nao se edita a mao.
+data/npclib/npc_system/idiomas/
+
+# Copia do client publicada pelo updater: nao e' codigo deste repositorio,
+# e' o pacote do otclient servido aos jogadores.
+tools/updater/publicado/
