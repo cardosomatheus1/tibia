@@ -381,6 +381,7 @@ function atualizarPainel() {
   clearTimeout(adiado);
   adiado = setTimeout(() => {
     document.getElementById('resumo').value = resumoTexto();
+    guardarHunt();          // salva junto: pintar ja e' o gatilho de gravar
   }, 300);
 }
 
@@ -577,7 +578,8 @@ function exportar() {
 }
 
 function aplicarHunt(d) {
-  document.getElementById('huntId').value = d.id ?? 0;
+  huntAtual = d.id ?? 0;
+  document.getElementById('huntId').value = huntAtual;
   document.getElementById('huntNome').value = d.nome || '';
   hunt.obelisco = d.obelisco || null;
   hunt.inicio = d.inicio || null;
@@ -601,11 +603,75 @@ function importar(input) {
 
 function carregarExemplo() { aplicarHunt(ATLAS_EXEMPLO); }
 
-// catalogo: preenche o nome ao digitar o id
-document.getElementById('huntId').oninput = e => {
+// ------------------------------------------------------- troca de hunt
+// Cada id guarda a propria marcacao. Sem isto, trocar de hunt mantinha o
+// que ja estava pintado e o JSON da hunt nova saia com os limites da
+// anterior -- um erro silencioso, que so apareceria ao usar o arquivo.
+//
+// Fica tambem no localStorage: sao horas de trabalho pintando tile, e
+// fechar a aba sem querer nao pode custar isso.
+const CHAVE_ARMAZEM = 'mapeador.hunts.v1';
+let huntAtual = 0;
+
+function instantaneo() {
+  const lim = {};
+  for (const [k, s] of Object.entries(hunt.limites))
+    if (s.size) lim[k] = [...s];
+  return { id: huntAtual, nome: document.getElementById('huntNome').value,
+           obelisco: hunt.obelisco, inicio: hunt.inicio, limites: lim };
+}
+
+function armazem() {
+  try { return JSON.parse(localStorage.getItem(CHAVE_ARMAZEM)) || {}; }
+  catch (e) { return {}; }
+}
+
+function guardarHunt() {
+  const tudo = armazem();
+  const s = instantaneo();
+  // nao guarda hunt intocada: senao um id digitado por engano viraria
+  // entrada permanente
+  if (!s.obelisco && !s.inicio && !Object.keys(s.limites).length)
+    delete tudo[huntAtual];
+  else
+    tudo[huntAtual] = s;
+  try { localStorage.setItem(CHAVE_ARMAZEM, JSON.stringify(tudo)); }
+  catch (e) { /* cota estourada: segue sem salvar, nada se perde na sessao */ }
+}
+
+function trocarHunt(novo) {
+  if (novo === huntAtual) return;
+  guardarHunt();
+  huntAtual = novo;
+  const salvo = armazem()[novo];
+  if (salvo) {
+    aplicarHunt(salvo);
+  } else if (novo === 0) {
+    carregarExemplo();                 // id 0 e' o exemplo dos ciclopes
+  } else {
+    hunt.obelisco = hunt.inicio = null;
+    hunt.limites = {};
+    const h = ATLAS_HUNTS.find(x => x.id === novo);
+    document.getElementById('huntNome').value = h ? h.nome : '';
+    atualizarPainel(); desenhar();
+  }
+  document.getElementById('huntId').value = novo;
+}
+
+// Espera parar de digitar: o oninput dispara letra por letra, e trocar em
+// "1" a caminho de "12" criaria uma hunt 1 fantasma a cada digitacao.
+let trocaAdiada = 0;
+const campoId = document.getElementById('huntId');
+campoId.oninput = e => {
   const h = ATLAS_HUNTS.find(x => x.id === +e.target.value);
   if (h) document.getElementById('huntNome').value = h.nome;
+  clearTimeout(trocaAdiada);
+  trocaAdiada = setTimeout(() => trocarHunt(+campoId.value || 0), 700);
 };
+campoId.onchange = () => { clearTimeout(trocaAdiada); trocarHunt(+campoId.value || 0); };
+
+// salva ao marcar e ao sair, para o trabalho nao depender de trocar de hunt
+addEventListener('beforeunload', guardarHunt);
 
 addEventListener('resize', desenhar);
 
@@ -626,7 +692,16 @@ async function iniciar() {
     indexarMonstros();
   }
   setFerr(null);
-  carregarExemplo();
+  // retoma de onde parou: se ha marcacao salva, ela vale mais que o exemplo
+  const salvas = armazem();
+  const ids = Object.keys(salvas).map(Number).sort((a, b) => a - b);
+  if (ids.length) {
+    aplicarHunt(salvas[ids[ids.length - 1]]);
+    document.getElementById('aviso').textContent =
+      `Retomado: ${ids.length} hunt(s) marcada(s) nesta máquina (${ids.join(', ')}).`;
+  } else {
+    carregarExemplo();
+  }
 }
 iniciar();
 </script>

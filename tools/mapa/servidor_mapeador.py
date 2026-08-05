@@ -70,7 +70,7 @@ RE_FILHO_XML = re.compile(
 
 class Estado:
     def __init__(self, mapa: Path, assets: Path, spawns: Path, planilha,
-                 disco: Path | None = None):
+                 disco: Path | None = None, monstros: Path | None = None):
         print("abrindo mapa...")
         # sem cache_tiles: o render le cada tile uma vez por bloco e reler e'
         # mais barato que guardar. Com ele o processo chegava a varios GB.
@@ -96,8 +96,9 @@ class Estado:
         self.areas = sorted(self.mapa.areas())
         self.monstros = self._ler_spawns(spawns)
         self.hunts = self._ler_planilha(planilha)
-        self.sprites = Sprites(self.assets,
-                               RAIZ / "data-otservbr-global/monster")
+        self.sprites = Sprites(
+            self.assets,
+            monstros or RAIZ / "data-otservbr-global/monster")
         self.fila: list[tuple] = []
         self.tem_fila = threading.Event()
         self.pendentes = 0          # blocos que a tela esta esperando agora
@@ -387,6 +388,8 @@ def main() -> int:
     p.add_argument("--spawns",
                    default=str(RAIZ / "data-otservbr-global/world/otservbr-monster.xml"))
     p.add_argument("--planilha")
+    p.add_argument("--monstros",
+                   help="pasta com os .lua dos monstros (de onde vem o lookType)")
     p.add_argument("--porta", type=int, default=8100)
     p.add_argument("--cache", default=str(AQUI / "cache_tiles"),
                    help="pasta do cache em disco; vazio desliga")
@@ -394,7 +397,8 @@ def main() -> int:
 
     est = Estado(Path(args.mapa), Path(args.assets),
                  Path(args.spawns), args.planilha,
-                 Path(args.cache) if args.cache else None)
+                 Path(args.cache) if args.cache else None,
+                 Path(args.monstros) if args.monstros else None)
     srv = ThreadingHTTPServer(("127.0.0.1", args.porta),
                               fazer_handler(est, exemplo_ciclopes()))
     url = f"http://127.0.0.1:{args.porta}/"
