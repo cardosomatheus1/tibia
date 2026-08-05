@@ -1,0 +1,101 @@
+-- Limpeza do slot entre execucoes. Spec secao 13.
+--
+-- POR QUE ISTO E' URGENTE, e nao arrumacao: sem limpar, o grupo B pega o slot
+-- do grupo A e encontra o loot dele no chao. Isso e' duplicacao de item -- o
+-- mesmo corpo de dragao rende loot uma vez por grupo que passar pelo slot.
+--
+-- NAO varre tiles. Zone:getItems() e Zone:getMonsters() sao caches VIVOS,
+-- mantidos incrementalmente por Tile::addThing/removeThing (tile.cpp:1983,
+-- 2004, 556). Custo O(entidades), nao O(area). A spec v1 pedia "100 tiles por
+-- ciclo" -- desnecessario, o cache ja existe.
+
+InstanceCleaner = InstanceCleaner or {}
+
+--- Decide se o item deve ser REMOVIDO na limpeza.
+--
+-- A primeira versao usava "nao movivel = cenario", e estava errada: spikes
+-- (id 2148) nao sao moviveis e tambem nao sao cenario -- ficaram no chao da
+-- hunt. "Movivel" descreve como o item se comporta ao ser empurrado, nao se
+-- ele pertence ao mapa.
+--
+-- O criterio certo e por NATUREZA do item. Sai o que aparece durante o jogo:
+-- loot, corpo, campo magico, sacola. Fica o que veio do OTBM: chao, parede,
+-- escada, porta.
+local function deveRemover(item)
+	local it = ItemType(item:getId())
+	if not it then
+		return false         -- na duvida, preserva: melhor sujeira que buraco
+	end
+	if it:isGroundTile() or it:isDoor() then
+		return false
+	end
+	-- o que um jogador larga ou o que uma luta deixa
+	return it:isPickupable()
+		or it:isCorpse()
+		or it:isMagicField()
+		or it:isContainer()
+		or it:isRune()
+end
+
+--- Remove o que os jogadores deixaram: loot, corpos, sacolas, campos.
+function InstanceCleaner.removerItens(slot)
+	local removidos, preservados = 0, 0
+	for _, item in ipairs(slot.zona:getItems() or {}) do
+		if deveRemover(item) then
+			item:remove()
+			removidos = removidos + 1
+		else
+			preservados = preservados + 1
+		end
+	end
+	return removidos, preservados
+end
+
+--- Teardown completo do slot. Chamado ao encerrar a execucao.
+function InstanceCleaner.limpar(slot, motivo)
+	slot.estado = InstancePool.ESTADOS.CLEANING
+
+	-- 1. para os respawns antes de remover, senao um timer em voo repovoa
+	--    o slot depois da limpeza
+	InstanceSpawns.parar(slot)
+
+	-- 2. o que sobrou de criatura (summon do jogador, monstro fora da lista)
+	slot.zona:removeMonsters()
+
+	-- 3. itens largados
+	local removidos, preservados = InstanceCleaner.removerItens(slot)
+
+	-- 4. ninguem pode ficar para tras
+	local presos = slot.zona:getPlayers() or {}
+	for _, p in ipairs(presos) do
+		if InstanceFronteiras then
+			InstanceFronteiras.autorizarSaida(p)
+		end
+		p:teleportTo(slot.template.retornoGlobal
+			or slot.template.retornoEmergencia)
+		p:sendTextMessage(MESSAGE_EVENT_ADVANCE,
+			"A instancia foi encerrada.")
+	end
+
+	slot.run = nil
+	slot.estado = InstancePool.ESTADOS.FREE
+
+	logger.info("[hunt-instance] slot {} limpo ({}): {} itens removidos, "
+		.. "{} de cenario preservados, {} jogador(es) retirado(s)",
+		slot.indice, motivo or "sem motivo", removidos, preservados, #presos)
+	return removidos
+end
+
+--- Confere que o slot esta mesmo vazio. Usado no teste dos 100 ciclos.
+function InstanceCleaner.verificar(slot)
+	local monstros = #(slot.zona:getMonsters() or {})
+	local jogadores = #(slot.zona:getPlayers() or {})
+	local soltos = 0
+	for _, item in ipairs(slot.zona:getItems() or {}) do
+		if deveRemover(item) then
+			soltos = soltos + 1
+		end
+	end
+	return monstros == 0 and jogadores == 0 and soltos == 0,
+		monstros, jogadores, soltos
+end

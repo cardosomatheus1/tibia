@@ -125,9 +125,8 @@ end
 
 function InstanceManager.encerrar(run, motivo)
 	local slot = run.slot
-	InstanceSpawns.parar(slot)
-	slot.run = nil
-	InstancePool.liberar(slot, motivo)
+	-- limpeza de verdade: sem ela o proximo grupo encontra o loot deste
+	InstanceCleaner.limpar(slot, motivo)
 	logger.info("[hunt-instance] run {} encerrada: {}", run.id, motivo)
 end
 

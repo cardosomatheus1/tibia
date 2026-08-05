@@ -81,13 +81,14 @@ function InstancePool.alocar(template)
 	return nil
 end
 
+--- Devolve o slot ao pool. NAO limpa: quem limpa e' o InstanceCleaner.
+-- Usar isto para abortar uma entrada que falhou antes de povoar o slot.
+-- Para encerrar execucao com jogadores dentro, use InstanceCleaner.limpar.
 function InstancePool.liberar(slot, motivo)
-	slot.estado = ESTADOS.CLEANING
 	slot.run = nil
-	logger.info("[hunt-instance] slot {} do {} liberado: {}",
-		slot.indice, slot.template.slug, motivo or "sem motivo")
-	-- a limpeza de fato entra na Etapa 6; aqui so devolve ao pool
 	slot.estado = ESTADOS.FREE
+	logger.info("[hunt-instance] slot {} do {} devolvido ao pool: {}",
+		slot.indice, slot.template.slug, motivo or "sem motivo")
 end
 
 function InstancePool.disponiveis(template)
