@@ -22,6 +22,12 @@ local function montarZonas(template)
 		-- (monster.cpp:3321) e o monstro nunca e' puxado de volta. Sem isto
 		-- ele passeia pra fora da instancia.
 		slot.zona:trapMonsters()
+
+		-- fronteira da hunt: barra o passo e abre o dialogo de saida, para o
+		-- jogador nunca alcancar a borda do recorte e ver o vazio (secao 11.0)
+		if InstanceFronteiras then
+			InstanceFronteiras.registrar(slot)
+		end
 	end
 end
 
