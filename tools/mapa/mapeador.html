@@ -92,6 +92,19 @@ textarea{width:100%;height:120px;background:#1a1a20;color:var(--tx);
     <input id="arq" type="file" accept=".json" style="display:none" onchange="importar(this)">
   </div>
   <div class="linha"><button onclick="carregarExemplo()">Carregar exemplo (Ciclopes)</button></div>
+
+  <h3>Contornadas sozinhas</h3>
+  <div class="linha">
+    <select id="filtroConf" onchange="listarAutomaticas()" style="width:96px">
+      <option value="">todas</option>
+      <option value="alta" selected>alta</option>
+      <option value="media">média</option>
+      <option value="baixa">baixa</option>
+    </select>
+    <select id="selAuto" style="flex:1"></select>
+  </div>
+  <div class="linha"><button onclick="abrirAutomatica()">Abrir a selecionada</button></div>
+  <div id="infoAuto" style="font-size:12px;color:var(--dim)"></div>
   <textarea id="resumo" readonly></textarea>
 </div>
 
@@ -637,6 +650,46 @@ function importar(input) {
 
 function carregarExemplo() { aplicarHunt(ATLAS_EXEMPLO); }
 
+// ------------------------------------------- hunts contornadas sozinhas
+// Vem do achar_hunts.py. Sao conferencia, nao verdade: entram no mapeador
+// como qualquer outra marcacao e podem ser corrigidas e re-exportadas.
+let automaticas = [];
+async function listarAutomaticas() {
+  const sel = document.getElementById('selAuto');
+  const info = document.getElementById('infoAuto');
+  try {
+    if (!automaticas.length) automaticas = await (await fetch('/automaticas')).json();
+  } catch (e) { info.textContent = 'não consegui ler a pasta: ' + e.message; return; }
+  const f = document.getElementById('filtroConf').value;
+  const vis = automaticas.filter(h => !f || h.confianca === f);
+  sel.innerHTML = vis.map(h =>
+    `<option value="${h.arquivo}">[${h.id}] ${h.nome} — ${h.tiles} tiles, ${h.andares.length}º</option>`
+  ).join('');
+  info.textContent = `${vis.length} de ${automaticas.length} hunts`;
+}
+
+async function abrirAutomatica() {
+  const arq = document.getElementById('selAuto').value;
+  if (!arq) return;
+  const info = document.getElementById('infoAuto');
+  try {
+    const d = await (await fetch('/automaticas/' + encodeURIComponent(arq))).json();
+    aplicarHunt(d);
+    const a = d.automatico || {};
+    info.textContent = `${d.nome} — ${d.totalMonstros} monstros dentro, pureza ${a.pureza}%, `
+      + `confiança ${a.confianca}. Esperava: ${(a.especiesEsperadas || []).join(', ')}`;
+    // vai para o andar com mais tiles e centraliza na caixa dele: abrir a
+    // hunt e cair longe dela seria inutil para conferir
+    const alvo = Object.entries(d.limites)
+      .sort((a, b) => b[1].length - a[1].length)[0][0];
+    const b = d.bbox[alvo];
+    if (andares.includes(+alvo)) { z = +alvo; selAndar.value = z; }
+    camX = ((b.x0 + b.x1) >> 1) - 40;
+    camY = ((b.y0 + b.y1) >> 1) - 30;
+    desenhar();
+  } catch (e) { info.textContent = 'falhou: ' + e.message; }
+}
+
 // ------------------------------------------------------- troca de hunt
 // Cada id guarda a propria marcacao. Sem isto, trocar de hunt mantinha o
 // que ja estava pintado e o JSON da hunt nova saia com os limites da
@@ -736,6 +789,7 @@ async function iniciar() {
   } else {
     carregarExemplo();
   }
+  if (MODO_SERVIDOR) listarAutomaticas();
 }
 iniciar();
 </script>

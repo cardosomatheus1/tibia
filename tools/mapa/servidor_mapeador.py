@@ -423,6 +423,45 @@ def fazer_handler(est: Estado, exemplo: dict):
                                 cachear=False)
                     return
 
+                # Hunts que o achar_hunts.py contornou sozinho. Sao 132
+                # arquivos: escolher no seletor de arquivo do sistema seria
+                # pior do que uma lista aqui, ainda mais para conferir varias
+                # em sequencia.
+                if self.path == "/automaticas":
+                    pasta = RAIZ / "tools/mapa/hunts_automaticas"
+                    lista = []
+                    for arq in sorted(pasta.glob("hunt_*.json")):
+                        try:
+                            d = json.loads(arq.read_text(encoding="utf-8"))
+                        except (OSError, ValueError):
+                            continue
+                        a = d.get("automatico", {})
+                        lista.append({
+                            "id": d["id"], "nome": d["nome"], "arquivo": arq.name,
+                            "andares": d["andares"],
+                            "tiles": sum(len(v) for v in d["limites"].values()),
+                            "confianca": a.get("confianca", "?"),
+                            "pureza": a.get("pureza", 0),
+                            "monstros": d.get("totalMonstros", 0),
+                        })
+                    lista.sort(key=lambda h: ({"alta": 0, "media": 1, "baixa": 2}
+                                              .get(h["confianca"], 3), h["nome"]))
+                    self._envia(json.dumps(lista).encode("utf-8"),
+                                "application/json; charset=utf-8", cachear=False)
+                    return
+
+                m = re.match(r"^/automaticas/([A-Za-z0-9_.\-]+\.json)$", self.path)
+                if m:
+                    arq = RAIZ / "tools/mapa/hunts_automaticas" / m.group(1)
+                    # resolve() para o nome nao escapar da pasta
+                    if (arq.resolve().parent != (RAIZ / "tools/mapa/hunts_automaticas").resolve()
+                            or not arq.is_file()):
+                        self.send_error(404)
+                        return
+                    self._envia(arq.read_bytes(), "application/json; charset=utf-8",
+                                cachear=False)
+                    return
+
                 m = re.match(r"^/tile/(\d+)/(-?\d+)_(-?\d+)/(\d+)\.jpg$",
                              self.path)
                 if m:
