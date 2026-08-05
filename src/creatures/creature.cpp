@@ -29,6 +29,9 @@
 	#include <cstddef>
 	#include <deque>
 	#include <mutex>
+	#include <vector>
+	#include <unordered_set>
+	#include <unordered_map>
 #endif
 
 namespace {
@@ -576,6 +579,13 @@ void Creature::onCreatureMove(const std::shared_ptr<Creature> &creature, const s
 	}
 }
 
+namespace {
+	// Regra do Open PvP: a morte conta integralmente para no maximo 5
+	// personagens que causaram dano nos 5 minutos anteriores.
+	constexpr size_t PVP_MAX_RESPONSAVEIS = 5;
+	constexpr int64_t PVP_JANELA_MORTE = 5 * 60 * 1000;
+}
+
 void Creature::onDeath() {
 	metrics::method_latency measure(__METRICS_METHOD_NAME__);
 	bool lastHitUnjustified = false;
@@ -608,6 +618,9 @@ void Creature::onDeath() {
 	int32_t mostDamage = 0;
 	std::map<std::shared_ptr<Creature>, uint64_t> experienceMap;
 	std::unordered_set<std::shared_ptr<Player>> killers;
+	// dano por jogador na janela do Open PvP, para escolher quem responde pela
+	// morte (ver o bloco "regra dos 5" mais abaixo)
+	std::unordered_map<std::shared_ptr<Player>, int32_t> danoDeCadaJogador;
 
 	for (const auto &[creatureId, damageInfo] : damageMap) {
 		if (creatureId == 0) {
@@ -631,6 +644,11 @@ void Creature::onDeath() {
 				if (const auto &attackerPlayer = attackerMaster->getPlayer()) {
 					const auto &party = attackerPlayer->getParty();
 					killers.insert(attackerPlayer);
+					// dano do jogador (somando o do summon dele) dentro da
+					// janela; summon e dono contam como a mesma pessoa
+					if (timeNow - ticks <= PVP_JANELA_MORTE) {
+						danoDeCadaJogador[attackerPlayer] += total;
+					}
 					if (party && party->getLeader() && party->isSharedExperienceActive() && party->isSharedExperienceEnabled()) {
 						attacker = party->getLeader();
 						killers.insert(party->getLeader());
@@ -659,12 +677,50 @@ void Creature::onDeath() {
 	const auto &mostDamageCreatureMaster = mostDamageCreature ? mostDamageCreature->getMaster() : nullptr;
 	mostDamageCreature = mostDamageCreatureMaster ? mostDamageCreatureMaster : mostDamageCreature;
 
+	// Regra dos 5, do Open PvP.
+	//
+	// "A kill counts fully for a maximum of 5 characters that inflicted damage
+	// on a character in the last 5 minutes before its death" -- pagina oficial
+	// de PvP do Tibia. Identificar apenas DOIS (ultimo golpe e maior dano) e'
+	// regra de Retro Open PvP, e o Canary ia mais longe ainda: com o
+	// !lastHitUnjustified, no maximo UMA morte injustificada era registrada
+	// por morte.
+	//
+	// O que NAO da para reproduzir aqui: acima de 5 atacantes o jogo oficial
+	// reduz os pontos proporcionalmente, e conta apoio (curar o atacante,
+	// bloquear ou debuffar a vitima). O Canary nao tem pontos fracionarios nem
+	// registra quem apoiou quem -- a punicao e' binaria. Entao os 5 maiores em
+	// dano recebem a marca inteira, e apoio nao conta.
+	std::unordered_set<std::shared_ptr<Player>> respondemPelaMorte;
+	const bool retro = g_configManager().getBoolean(TOGGLE_SERVER_IS_RETRO);
+	if (thisPlayer && !retro) {
+		std::vector<std::pair<int32_t, std::shared_ptr<Player>>> porDano;
+		porDano.reserve(danoDeCadaJogador.size());
+		for (const auto &[jogador, dano] : danoDeCadaJogador) {
+			porDano.emplace_back(dano, jogador);
+		}
+		std::sort(porDano.begin(), porDano.end(), [](const auto &a, const auto &b) {
+			return a.first > b.first;
+		});
+		const size_t limite = std::min<size_t>(PVP_MAX_RESPONSAVEIS, porDano.size());
+		for (size_t i = 0; i < limite; ++i) {
+			respondemPelaMorte.insert(porDano[i].second);
+		}
+	}
+
 	for (const auto &killer : killers) {
 		if (thisMonster) {
 			killer->onKilledMonster(thisMonster);
 		} else if (thisPlayer) {
 			bool isResponsible = mostDamageCreature == killer || (mostDamageCreatureMaster && mostDamageCreatureMaster == killer);
-			if (isResponsible && !lastHitUnjustified) {
+			if (retro) {
+				if (isResponsible && !lastHitUnjustified) {
+					killer->onKilledPlayer(thisPlayer, false);
+				}
+			} else if (respondemPelaMorte.contains(killer) && killer != lastHitCreature && killer != lastHitCreatureMaster) {
+				// o ultimo a golpear ja passou pelo onKilledPlayer(.., true).
+				// O master entra na comparacao porque o golpe final pode ter
+				// vindo do summon dele, e o dono seria punido duas vezes.
 				killer->onKilledPlayer(thisPlayer, false);
 			}
 
