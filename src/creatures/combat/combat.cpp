@@ -2501,7 +2501,16 @@ void MagicField::onStepInField(const std::shared_ptr<Creature> &creature) {
 				}
 			}
 
-			if (!harmfulField || (OTSYS_TIME() - createTime <= 5000) || creature->hasBeenAttacked(ownerId)) {
+			// Janela de 5 s do dano de field. Passado esse tempo o dano deixa
+			// de ser atribuido a quem criou o campo -- ninguem leva frag nem
+			// caveira por ele. Isso e' regra de RETRO Open PvP ("damage from
+			// field spells only counts for the first 5 seconds after creation
+			// in PvP fights"); estava fixa aqui, valendo tambem para Open PvP.
+			//
+			// Sem retro, o dono responde pelo campo enquanto ele existir.
+			const bool janelaRetro = g_configManager().getBoolean(TOGGLE_SERVER_IS_RETRO)
+				&& (OTSYS_TIME() - createTime > 5000);
+			if (!harmfulField || !janelaRetro || creature->hasBeenAttacked(ownerId)) {
 				conditionCopy->setParam(CONDITION_PARAM_OWNER, ownerId);
 			}
 		}
