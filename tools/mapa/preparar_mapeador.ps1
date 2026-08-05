@@ -121,6 +121,21 @@ foreach ($f in @('servidor_mapeador.py', 'otbm.py', 'render.py', 'ver_item.py',
 Copy-Item (Join-Path $raiz 'tools\sprites\tibia_assets.py') $app -Force
 Ok "9 arquivos"
 
+# As hunts que o achar_hunts.py contornou sozinho, prontas para abrir na lista
+# "Contornadas sozinhas". Vao embutidas de proposito: gerar de novo exige o
+# mapa aberto e ~2 minutos, e a graca e' quem instala ja abrir com o trabalho
+# feito. Ficam ao lado do servidor porque e' assim que ele as procura.
+$hunts = Join-Path $aqui 'hunts_automaticas'
+if (Test-Path $hunts) {
+    Copy-Item $hunts (Join-Path $app 'hunts_automaticas') -Recurse -Force
+    $n = (Get-ChildItem (Join-Path $app 'hunts_automaticas') -Filter 'hunt_*.json').Count
+    $mb = [int]((Get-ChildItem (Join-Path $app 'hunts_automaticas') -Recurse |
+                 Measure-Object -Property Length -Sum).Sum / 1MB)
+    Ok "$n hunts contornadas ($mb MB)"
+} else {
+    Aviso "sem hunts_automaticas -- rode o achar_hunts.py antes se quiser embuti-las"
+}
+
 # --- 4. dados do datapack ----------------------------------------------------
 # Sao os dois arquivos que dizem ONDE cada monstro nasce e COM QUE cara: o xml
 # de spawn e os .lua de onde sai o lookType. Juntos dao ~15 MB.

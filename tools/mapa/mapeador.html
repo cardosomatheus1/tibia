@@ -87,6 +87,7 @@ textarea{width:100%;height:120px;background:#1a1a20;color:var(--tx);
 
   <h3>Arquivo</h3>
   <div class="linha">
+    <button onclick="salvarNaPasta()">💾 Salvar</button>
     <button onclick="exportar()">Baixar JSON</button>
     <button onclick="document.getElementById('arq').click()">Abrir JSON</button>
     <input id="arq" type="file" accept=".json" style="display:none" onchange="importar(this)">
@@ -592,15 +593,43 @@ function contagemPorTipo(mons) {
 }
 
 function exportar() {
+  const saida = montarSaida();
+  if (!saida) return;
+  const blob = new Blob([JSON.stringify(saida, null, 1)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `hunt_${saida.id}_${(saida.nome || 'sem_nome').replace(/\W+/g, '_')}.json`;
+  a.click();
+}
+
+// Gravar na pasta do mapeador. Usa o MESMO documento do "Baixar JSON": se
+// fossem dois montadores, um dia divergiriam e o arquivo salvo nao seria o
+// mesmo que o baixado -- e ninguem perceberia ate' usar o errado.
+async function salvarNaPasta() {
+  const saida = montarSaida();
+  if (!saida) return;
+  const aviso = document.getElementById('aviso');
+  try {
+    const r = await (await fetch('/salvar', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(saida),
+    })).json();
+    aviso.textContent = r.erro ? 'não salvou: ' + r.erro
+                               : `salvo em ${r.pasta}\\${r.arquivo}`;
+  } catch (e) { aviso.textContent = 'não salvou: ' + e.message; }
+}
+
+function montarSaida() {
   const lim = {};
   for (const [k, s] of Object.entries(hunt.limites))
     if (s.size) lim[k] = [...s].map(p => p.split(',').map(Number));
 
   const org = origemDoRecorte();
-  if (!org) { alert('Pinte os limites da hunt antes de exportar.'); return; }
+  if (!org) { alert('Pinte os limites da hunt antes de salvar.'); return null; }
   const mons = monstrosDentro(org);
 
-  const saida = {
+  return {
     id: +document.getElementById('huntId').value,
     nome: document.getElementById('huntNome').value,
     obelisco: hunt.obelisco, inicio: hunt.inicio,
@@ -617,11 +646,6 @@ function exportar() {
     limites: lim,
     gerado: new Date().toISOString().slice(0, 19),
   };
-  const blob = new Blob([JSON.stringify(saida, null, 1)], { type: 'application/json' });
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = `hunt_${saida.id}_${(saida.nome || 'sem_nome').replace(/\W+/g, '_')}.json`;
-  a.click();
 }
 
 function aplicarHunt(d) {

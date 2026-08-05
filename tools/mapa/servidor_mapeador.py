@@ -34,6 +34,17 @@ from PIL import Image
 
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parents[1]
+
+# As hunts contornadas pelo achar_hunts.py. Rodando do repositorio elas ficam
+# ao lado deste arquivo; no instalado, tambem -- mas ali RAIZ aponta para
+# AppData\Local, que nao tem tools/mapa. Por isso o caminho e' relativo a AQUI,
+# nao a RAIZ: amarrar em RAIZ fazia a lista chegar vazia para quem instalou.
+PASTA_AUTOMATICAS = AQUI / "hunts_automaticas"
+
+# Onde o botao "Salvar" grava. Separada das automaticas de proposito: rodar o
+# achar_hunts.py de novo apaga e reescreve aquela pasta, e levar junto o que a
+# pessoa corrigiu na mao seria perder trabalho.
+PASTA_SALVAS = AQUI / "hunts_salvas"
 sys.path.insert(0, str(AQUI))
 sys.path.insert(0, str(RAIZ / "tools/sprites"))
 
@@ -425,6 +436,34 @@ def fazer_handler(est: Estado, exemplo: dict):
             self.end_headers()
             self.wfile.write(dados)
 
+        def do_POST(self):
+            # Gravar a hunt na pasta do proprio mapeador, com o nome do lugar
+            # no arquivo. O botao "Baixar JSON" joga na pasta de downloads do
+            # navegador, misturado com todo o resto e com nome que o navegador
+            # inventa quando repete -- aqui fica um lugar so', que sobrevive a
+            # fechar a aba e da' para pegar depois.
+            if self.path != "/salvar":
+                self.send_error(404)
+                return
+            try:
+                n = int(self.headers.get("Content-Length") or 0)
+                doc = json.loads(self.rfile.read(n).decode("utf-8"))
+                if not isinstance(doc, dict) or "limites" not in doc:
+                    raise ValueError("nao parece uma hunt")
+                hid = int(doc.get("id") or 0)
+                nome = re.sub(r"[^A-Za-z0-9]+", "_",
+                              str(doc.get("nome") or "sem_nome")).strip("_") or "sem_nome"
+                PASTA_SALVAS.mkdir(parents=True, exist_ok=True)
+                arq = PASTA_SALVAS / f"hunt_{hid}_{nome}.json"
+                arq.write_text(json.dumps(doc, ensure_ascii=False, indent=1),
+                               encoding="utf-8")
+                self._envia(json.dumps({"arquivo": arq.name,
+                                        "pasta": str(PASTA_SALVAS)}).encode("utf-8"),
+                            "application/json; charset=utf-8", cachear=False)
+            except (ValueError, OSError, UnicodeDecodeError) as e:
+                self._envia(json.dumps({"erro": str(e)}).encode("utf-8"),
+                            "application/json; charset=utf-8", cachear=False)
+
         def do_GET(self):
             try:
                 self.path = self.path.split("?", 1)[0]   # ignora query string
@@ -457,7 +496,7 @@ def fazer_handler(est: Estado, exemplo: dict):
                 # pior do que uma lista aqui, ainda mais para conferir varias
                 # em sequencia.
                 if self.path == "/automaticas":
-                    pasta = RAIZ / "tools/mapa/hunts_automaticas"
+                    pasta = PASTA_AUTOMATICAS
                     lista = []
                     for arq in sorted(pasta.glob("hunt_*.json")):
                         try:
@@ -481,9 +520,9 @@ def fazer_handler(est: Estado, exemplo: dict):
 
                 m = re.match(r"^/automaticas/([A-Za-z0-9_.\-]+\.json)$", self.path)
                 if m:
-                    arq = RAIZ / "tools/mapa/hunts_automaticas" / m.group(1)
+                    arq = PASTA_AUTOMATICAS / m.group(1)
                     # resolve() para o nome nao escapar da pasta
-                    if (arq.resolve().parent != (RAIZ / "tools/mapa/hunts_automaticas").resolve()
+                    if (arq.resolve().parent != PASTA_AUTOMATICAS.resolve()
                             or not arq.is_file()):
                         self.send_error(404)
                         return

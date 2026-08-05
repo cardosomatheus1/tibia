@@ -436,3 +436,6 @@ tools/mapa/cache_tiles/
 
 # Saida do achar_hunts.py: 89 MB de JSON regeravel em 3 minutos.
 tools/mapa/hunts_automaticas/
+
+# Hunts que o usuario salva pelo botao do mapeador.
+tools/mapa/hunts_salvas/
