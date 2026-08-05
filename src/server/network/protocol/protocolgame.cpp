@@ -8387,6 +8387,22 @@ void ProtocolGame::sendMapDescription(const Position &pos) {
 	writeToOutputBuffer(msg);
 }
 
+void ProtocolGame::sendMapAwareRange() {
+	// Opcode 0x33 do otclient (GameServerChangeMapAwareRange): dois bytes, a
+	// largura e a altura da janela em tiles. O client reconstroi as bordas
+	// como left = x/2 - (x+1)%2, right = x/2 -- que para 24 da 11 e 12, os
+	// mesmos numeros que o GetMapDescription usa aqui.
+	//
+	// O opcode nao existe no protocolo da CipSoft. O client oficial trataria
+	// 0x33 como mensagem desconhecida e cairia, entao isto so vale porque
+	// todo mundo entra pelo client proprio.
+	NetworkMessage msg;
+	msg.addByte(0x33);
+	msg.addByte(static_cast<uint8_t>((MAP_MAX_CLIENT_VIEW_PORT_X + 1) * 2));
+	msg.addByte(static_cast<uint8_t>((MAP_MAX_CLIENT_VIEW_PORT_Y + 1) * 2));
+	writeToOutputBuffer(msg);
+}
+
 void ProtocolGame::sendAddTileItem(const Position &pos, uint32_t stackpos, const std::shared_ptr<Item> &item) {
 	if (!canSee(pos)) {
 		return;
@@ -8595,6 +8611,11 @@ void ProtocolGame::sendAddCreature(const std::shared_ptr<Creature> &creature, co
 		sendPendingStateEntered();
 		sendEnterWorld();
 	}
+	// ANTES do mapa, sempre: o client le a descricao no tamanho do aware range
+	// que ele tem NESTE momento. Invertida a ordem, a primeira descricao sai
+	// com 24x20 e ele le 18x14, sobrando bytes que viram lixo no proximo
+	// opcode.
+	sendMapAwareRange();
 	sendMapDescription(pos);
 	loggedIn = true;
 

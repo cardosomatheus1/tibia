@@ -471,6 +471,11 @@ private:
 
 	// tiles
 	void sendMapDescription(const Position &pos);
+	// Diz ao client qual janela de mapa ele deve manter. Tem de ir ANTES da
+	// primeira sendMapDescription: o client le o mapa no tamanho do proprio
+	// aware range, entao enviar a descricao antes de alinhar o tamanho
+	// desalinha o fluxo de bytes.
+	void sendMapAwareRange();
 
 	void sendAddTileItem(const Position &pos, uint32_t stackpos, const std::shared_ptr<Item> &item);
 	void sendUpdateTileItem(const Position &pos, uint32_t stackpos, const std::shared_ptr<Item> &item);
