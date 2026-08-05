@@ -170,13 +170,37 @@ if (-not (Test-Path (Join-Path $pastaAssets 'catalog-content.json'))) {
 }
 
 # --- 4. modulos deste repositorio -------------------------------------------
-$modulos = @('autocaster', 'idioma', 'instancia_minimapa')
+$modulos = @('autocaster', 'idioma')
 foreach ($m in $modulos) {
     $de = Join-Path $origemModulos $m
     if (-not (Test-Path $de)) { Write-Aviso "modulo '$m' nao existe em client-modules - pulando"; continue }
     Write-Passo "Instalando modulo '$m'"
     Copy-Item $de -Destination (Join-Path $Destino 'modules') -Recurse -Force
     Write-Ok "$m instalado"
+}
+
+# --- 4b. minimapa da hunt instanciada ----------------------------------------
+# Dentro de uma instancia o jogador esta em x >= 36864 e o minimapa fica preto:
+# ele e client-side e indexado por coordenada absoluta. A traducao tem de valer
+# nos DOIS sentidos -- exibicao (camera e cruz) e clique (distancia e autoWalk).
+# So o primeiro deixa o mapa bonito e o clique quebrado, com "out of range".
+#
+# E patch em arquivos da arvore do mehah, entao PRECISA rodar a cada rebuild,
+# senao se perde.
+Write-Passo "Patch do minimapa para hunt instanciada"
+$patcher = Join-Path $repoRaiz 'tools\patch_client_minimapa.py'
+if (Test-Path $patcher) {
+    $py = (Get-Command python -ErrorAction SilentlyContinue)
+    if (-not $py) { $py = (Get-Command python3 -ErrorAction SilentlyContinue) }
+    if ($py) {
+        & $py.Source $patcher $Destino
+        if ($LASTEXITCODE -eq 0) { Write-Ok "minimapa patchado" }
+        else { Write-Aviso "patch do minimapa falhou (codigo $LASTEXITCODE)" }
+    } else {
+        Write-Aviso "python nao encontrado - minimapa NAO patchado"
+    }
+} else {
+    Write-Aviso "tools/patch_client_minimapa.py ausente - minimapa NAO patchado"
 }
 
 # --- 5. limitVisibleDimension ------------------------------------------------
