@@ -48,6 +48,7 @@ param(
     [int]    $Protocolo = 1525,
     [string] $NomeApp = "Tibia rhapsodyyy",
     [string] $FonteMehah = "https://github.com/mehah/otclient.git",
+    [string] $CommitMehah,
     [switch] $PularSprites
 )
 
@@ -71,11 +72,35 @@ if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
 
 # --- 1. codigo-fonte do mehah ------------------------------------------------
 # Vem antes do exe porque e' o clone que cria a arvore de pastas.
+#
+# O COMMIT IMPORTA. O otclient.exe vem de um artefato ja compilado do GitHub
+# Actions, mas modules/ e data/ vinham do master do momento do empacotamento --
+# sem nada amarrando os dois. O pacote entregue tinha binario de 30/jul e Lua
+# de 4/ago: cinco dias de diferenca num projeto em desenvolvimento ativo. A
+# interface entre o C++ e o Lua muda nesse intervalo, e o sintoma disso e'
+# silencioso: nao ha erro no log, so coisa que deixa de ser desenhada.
+#
+# O SHA esta na pagina do run do Actions de onde o zip foi baixado.
 $temp = Join-Path ([System.IO.Path]::GetTempPath()) ("mehah-src-" + [guid]::NewGuid().ToString('N').Substring(0, 8))
-Write-Passo "Baixando o codigo-fonte do mehah (shallow clone)"
-git clone --depth 1 --quiet $FonteMehah $temp
-if ($LASTEXITCODE -ne 0) { throw "git clone falhou" }
-Write-Ok "clonado em $temp"
+if ($CommitMehah) {
+    Write-Passo "Baixando o codigo-fonte do mehah no commit $CommitMehah"
+    git init --quiet $temp
+    git -C $temp remote add origin $FonteMehah
+    git -C $temp fetch --depth 1 --quiet origin $CommitMehah
+    if ($LASTEXITCODE -ne 0) { throw "fetch do commit $CommitMehah falhou" }
+    git -C $temp checkout --quiet FETCH_HEAD
+    if ($LASTEXITCODE -ne 0) { throw "checkout do commit $CommitMehah falhou" }
+    Write-Ok "codigo no commit $CommitMehah"
+} else {
+    Write-Passo "Baixando o codigo-fonte do mehah (master, shallow clone)"
+    git clone --depth 1 --quiet $FonteMehah $temp
+    if ($LASTEXITCODE -ne 0) { throw "git clone falhou" }
+    Write-Aviso @"
+Sem -CommitMehah: o Lua vem do master de agora e o exe vem do artefato, que
+pode ser de outro commit. Pegue o SHA na pagina do run do Actions de onde
+voce baixou o zip e passe em -CommitMehah para os dois baterem.
+"@
+}
 
 if (Test-Path $Destino) {
     Write-Aviso "$Destino ja existe - sera recriada"
