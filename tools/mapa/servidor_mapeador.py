@@ -579,14 +579,30 @@ def fazer_handler(est: Estado, exemplo: dict):
 
 
 def exemplo_ciclopes() -> dict:
-    x0, y0 = 32384 + 16, 32016 + 16
-    x1, y1 = 32384 + 152, 32016 + 104
-    lim = {str(z): [[x, y] for x in range(x0, x1 + 1) for y in range(y0, y1 + 1)]
-           for z in (5, 6, 7, 8, 9)}
-    return {"id": 0, "nome": "Ciclopes de Thais (ja mapeada)",
+    """A hunt que abre de partida: os ciclopes ao norte de Thais.
+
+    Era um retangulo escrito na mao -- 137x89 tiles em cinco andares, 61.605
+    no total, cobrindo montanha, mar e o que mais estivesse no caminho. Como e'
+    a primeira coisa que aparece na tela, dava a impressao de que mapear era
+    isso: pintar um bloco por cima da regiao.
+
+    Agora vem do achar_hunts.py, com o mesmo contorno das outras: 10.327 tiles
+    seguindo as cavernas, 84% de ciclope dentro. Foi gerado com --perto porque
+    "Cyclops Camp" existe em mais de um lugar do mapa e o maior grupo nao e' o
+    de Thais.
+    """
+    arq = AQUI / "exemplo_ciclopes.json"
+    if arq.exists():
+        try:
+            return json.loads(arq.read_text(encoding="utf-8"))
+        except ValueError:
+            pass
+    # Sem o arquivo, um retangulo pequeno so' para a tela nao abrir vazia.
+    return {"id": 0, "nome": "Ciclopes de Thais (exemplo minimo)",
             "obelisco": {"x": 32454, "y": 32116, "z": 7},
             "inicio": {"x": 32464, "y": 32085, "z": 7},
-            "limites": lim}
+            "limites": {"7": [[x, y] for x in range(32440, 32471)
+                              for y in range(32070, 32101)]}}
 
 
 def main() -> int:

@@ -115,11 +115,11 @@ New-Item -ItemType Directory -Force -Path $app | Out-Null
 # de id nao mostra nome nenhum para quem instala.
 foreach ($f in @('servidor_mapeador.py', 'otbm.py', 'render.py', 'ver_item.py',
                  'monstros.py', 'gerar_minimapa.py', 'mapeador.html',
-                 'hunts_catalogo.json')) {
+                 'hunts_catalogo.json', 'exemplo_ciclopes.json')) {
     Copy-Item (Join-Path $aqui $f) $app -Force
 }
 Copy-Item (Join-Path $raiz 'tools\sprites\tibia_assets.py') $app -Force
-Ok "9 arquivos"
+Ok "10 arquivos"
 
 # As hunts que o achar_hunts.py contornou sozinho, prontas para abrir na lista
 # "Contornadas sozinhas". Vao embutidas de proposito: gerar de novo exige o

@@ -197,9 +197,13 @@ def ler_planilha(caminho: Path, nivel: int) -> list[dict]:
     for r in linhas[i + 1:]:
         if not (r and isinstance(r[0], int)):
             continue
-        if not (isinstance(r[c_lvl], (int, float)) and r[c_lvl] >= nivel):
+        tem_level = isinstance(r[c_lvl], (int, float))
+        # Com nivel 0 (pedido por id) entra tambem quem esta sem level na
+        # planilha -- Cyclopolis, por exemplo, que e' o exemplo do mapeador.
+        if nivel and not (tem_level and r[c_lvl] >= nivel):
             continue
-        saida.append({"id": r[0], "nome": str(r[1]), "level": int(r[c_lvl]),
+        saida.append({"id": r[0], "nome": str(r[1]),
+                      "level": int(r[c_lvl]) if tem_level else 0,
                       "area": str(r[c_area] or ""), "local": str(r[c_loc] or "")})
     return saida
 
@@ -223,6 +227,8 @@ def main() -> int:
                    help="acima disso duas hunts sao o mesmo lugar (padrao 0.3)")
     p.add_argument("--saida", default=str(RAIZ / "tools/mapa/hunts_automaticas"))
     p.add_argument("--so", help="processa so a hunt com este id (para testar)")
+    p.add_argument("--perto", metavar="X,Y",
+                   help="prefere o grupo de spawns mais proximo deste ponto")
     args = p.parse_args()
 
     t0 = time.time()
@@ -249,7 +255,10 @@ def main() -> int:
     ct = Contornador(Path(args.mapa))
     print(f"{time.time() - t0:.1f}s")
 
-    hunts = ler_planilha(Path(args.planilha), args.nivel)
+    # Com --so o filtro de level nao vale: pedir uma hunt pelo id e' pedir
+    # aquela hunt. E' assim que se gera o exemplo dos ciclopes, que nao tem
+    # level na planilha e ficaria de fora de qualquer corte.
+    hunts = ler_planilha(Path(args.planilha), 0 if args.so else args.nivel)
     if args.so:
         hunts = [h for h in hunts if str(h["id"]) == args.so]
     print(f"\n{len(hunts)} hunts de level {args.nivel}+\n")
@@ -284,7 +293,22 @@ def main() -> int:
             continue
 
         grupos = agrupar(pontos)
+        # Por padrao vale o maior grupo. Com --perto vale o mais proximo do
+        # ponto dado: ha nome de area que se repete pelo mapa (Cyclops Camp
+        # tem varios), e ai o maior nem sempre e' o que se quer.
         grupo = grupos[0]
+        if args.perto:
+            alvo_x, alvo_y = (int(v) for v in args.perto.split(","))
+
+            def distancia(g):
+                xs = [pontos[i][0] for i in g]
+                ys = [pontos[i][1] for i in g]
+                return max(abs(sum(xs) // len(xs) - alvo_x),
+                           abs(sum(ys) // len(ys) - alvo_y))
+
+            candidatos = [g for g in grupos if len(g) >= args.minimo_spawns]
+            if candidatos:
+                grupo = min(candidatos, key=distancia)
         if len(grupo) < args.minimo_spawns:
             relatorio.append({**h, "estado": f"grupo pequeno ({len(grupo)})",
                               "confianca": "nenhuma", "monstros": sorted(especies)})
