@@ -31,6 +31,7 @@
 #include "lua/modules/modules.hpp"
 #include "lua/scripts/lua_environment.hpp"
 #include "lua/scripts/scripts.hpp"
+#include "map/map_const.hpp"
 #include "server/network/protocol/protocollogin.hpp"
 #include "server/network/protocol/protocol_port_utils.hpp"
 #include "server/network/protocol/protocol_profile.hpp"
@@ -329,6 +330,24 @@ void CanaryServer::setWorldType() {
 	}
 
 	logger.info("World type set as {}", asUpperCaseString(worldType));
+
+	// Deixa o modo de PvP explicito no boot. "Open PvP" e "Retro Open PvP" sao
+	// mundos diferentes e as diferencas aparecem em jogo (caveira verde na
+	// party, body block, area acertando quem passa), nao numa tela de
+	// configuracao -- entao ter isso escrito no log evita ter de deduzir pelo
+	// comportamento, que foi como o assunto apareceu aqui.
+	const bool retro = g_configManager().getBoolean(TOGGLE_SERVER_IS_RETRO);
+	const std::string_view pvpStyle = retro
+		? "RETRO (green party skull, body block, area ignores secure mode, no expert mode)"
+		: "REGULAR (party shield only, ghosting on, area respects secure mode, expert mode on)";
+	logger.info("PvP style: {}", pvpStyle);
+
+	// A janela de mapa NAO e' a do Canary de origem: foi ampliada para o client
+	// nao ficar sem dados quando o jogador anda mais rapido que o ida-e-volta
+	// ate o servidor. Se esta linha sumir do log, o binario em uso e' um Canary
+	// limpo, e o client -- que espera a janela ampliada -- vera o mapa
+	// embaralhado ou nem conectara.
+	logger.info("Client map window: {}x{} tiles", (MAP_MAX_CLIENT_VIEW_PORT_X + 1) * 2, (MAP_MAX_CLIENT_VIEW_PORT_Y + 1) * 2);
 }
 
 void CanaryServer::loadMaps() const {

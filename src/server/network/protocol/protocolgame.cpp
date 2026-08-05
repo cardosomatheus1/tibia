@@ -8585,7 +8585,10 @@ void ProtocolGame::sendAddCreature(const std::shared_ptr<Creature> &creature, co
 	}
 
 	if (version >= 1058) {
-		msg.addByte(0x00); // expert mode button enabled
+		// Modo expert de PvP. Estava fixo em desligado, e "o modo expert nao
+		// pode ser ativado" e' justamente um dos itens que definem o Retro
+		// Open PvP na pagina oficial. Num mundo Open PvP ele deve existir.
+		msg.addByte(g_configManager().getBoolean(TOGGLE_SERVER_IS_RETRO) ? 0x00 : 0x01);
 	}
 
 	if (version >= 1080) {

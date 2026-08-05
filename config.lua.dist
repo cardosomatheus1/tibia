@@ -291,7 +291,22 @@ onlyPremiumAccount = false
 -- NOTE: autoBank = true, the dropped coins from monsters will be automatically deposited to your bank account.
 -- NOTE: toggleGoldPouchAllowAnything will allow players to move items or gold to gold pouch
 -- NOTE: toggleGoldPouchQuickLootOnly will ONLY allow quickloot to move items to gold pouch
--- NOTE: toggleServerIsRetroPVP will make this server as retro, setting PARTY_PROTECTION and ADVANCED_SECURE_MODE to 0
+-- NOTE: toggleServerIsRetroPVP switches the world between Open PvP and Retro
+--       Open PvP. It is the single switch for every retro trait:
+--         green skull on party members (and, because the secure mode treats a
+--           skulled character as marked, area spells hitting your own party)
+--         no ghosting: players always body block outside protection zones
+--         area spells ignore the secure mode and hit anyone passing by
+--         PvP expert mode unavailable
+--         Twist of Fate blessing unavailable (7 blessings instead of 8)
+--         harsher death penalty (factor 6.31 instead of 8)
+--       With it false the world behaves as regular Open PvP.
+--       (The old note here mentioned PARTY_PROTECTION and ADVANCED_SECURE_MODE;
+--       neither exists anywhere in the code -- it was inherited from an older
+--       codebase and never did anything.)
+-- NOTE: allowWalkthrough lets players walk through each other outside
+--       protection zones, with the usual two-attempts delay. Ignored when the
+--       server is retro, where the body block is part of the world type.
 -- NOTE: toggleTravelsFree will make all travels from boat free
 -- NOTE: buyAolCommandFee will add fee when player buy aol by command (!aol), active changing value more than 0 (fee value. ex: 1 = 1gp  aol will be 50001)
 -- NOTE: buyBlessCommandFee will add fee when player buy bless by command (!bless), active changing value between 1 and 100 (fee percent. ex: 3 = 3%, 30 = 30%)

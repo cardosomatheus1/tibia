@@ -1422,7 +1422,23 @@ bool Player::canWalkthrough(const std::shared_ptr<Creature> &creature) {
 
 	if (player) {
 		const auto &playerTile = player->getTile();
-		if (!playerTile || (!playerTile->hasFlag(TILESTATE_NOPVPZONE) && !playerTile->hasFlag(TILESTATE_PROTECTIONZONE) && player->getLevel() > static_cast<uint32_t>(g_configManager().getNumber(PROTECTION_LEVEL)) && g_game().getWorldType() != WORLD_TYPE_NO_PVP)) {
+		if (!playerTile) {
+			return false;
+		}
+		// Atravessar jogador (ghosting). Bloquear SEMPRE fora de protection
+		// zone e' marca do Retro Open PvP; no Open PvP normal o ghosting
+		// existe. A mecanica ja estava implementada logo abaixo -- as duas
+		// tentativas na mesma posicao dentro de 2 s, que e' o atraso do jogo
+		// oficial -- mas nunca era alcancada, porque este teste retornava
+		// antes. E o allowWalkthrough do config.lua nao era lido por ninguem.
+		const bool zonaSegura = playerTile->hasFlag(TILESTATE_NOPVPZONE)
+			|| playerTile->hasFlag(TILESTATE_PROTECTIONZONE);
+		const bool abaixoDaProtecao = player->getLevel()
+			<= static_cast<uint32_t>(g_configManager().getNumber(PROTECTION_LEVEL));
+		const bool ghostingLiberado = g_configManager().getBoolean(ALLOW_WALKTHROUGH)
+			&& !g_configManager().getBoolean(TOGGLE_SERVER_IS_RETRO);
+		if (!zonaSegura && !abaixoDaProtecao && !ghostingLiberado
+		    && g_game().getWorldType() != WORLD_TYPE_NO_PVP) {
 			return false;
 		}
 
@@ -7033,7 +7049,17 @@ Skulls_t Player::getSkullClient(const std::shared_ptr<Creature> &creature) {
 			return SKULL_YELLOW;
 		}
 
-		if (m_party && m_party == player->m_party) {
+		// Caveira verde em companheiro de party e' caracteristica do RETRO
+		// Open PvP (onde matar quem tem caveira verde conta como morte
+		// justificada). No Open PvP normal o companheiro aparece so com o
+		// escudo da party. Estava fixa aqui, sem consultar o flag, entao o
+		// servidor parecia retro mesmo configurado como Open PvP.
+		//
+		// Nao e' so aparencia: o secure mode considera "marcado" quem tem
+		// caveira, entao a caveira verde tambem deixava a party ser acertada
+		// pelas proprias magias.
+		if (m_party && m_party == player->m_party
+		    && g_configManager().getBoolean(TOGGLE_SERVER_IS_RETRO)) {
 			return SKULL_GREEN;
 		}
 	}

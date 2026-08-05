@@ -378,6 +378,27 @@ ReturnValue Combat::canDoCombat(const std::shared_ptr<Creature> &attacker, const
 					return RETURNVALUE_YOUMAYNOTATTACKTHISPLAYER;
 				}
 
+				// Secure mode tambem vale para dano em AREA.
+				//
+				// Antes so o ataque com alvo selecionado consultava o secure
+				// mode (ver canTargetCreature). Uma magia de area jogada no
+				// chao passava por aqui e acertava qualquer jogador que
+				// estivesse passando, mesmo com o modo ligado -- que e'
+				// comportamento de Retro Open PvP. No Open PvP normal a area
+				// nao acerta jogador nenhum, nem os da propria party, a menos
+				// que ele esteja marcado (caveira) ou os dois estejam em zona
+				// de PvP.
+				//
+				// Aqui a resposta so FILTRA o alvo (o CombatFunc pula quem
+				// devolve erro), entao ninguem recebe mensagem de recusa por
+				// causa de quem passou perto.
+				if (!g_configManager().getBoolean(TOGGLE_SERVER_IS_RETRO)
+				    && attackerPlayer->hasSecureMode()
+				    && !Combat::isInPvpZone(attackerPlayer, targetPlayer)
+				    && attackerPlayer->getSkullClient(targetPlayer) == SKULL_NONE) {
+					return RETURNVALUE_YOUMAYNOTATTACKTHISPLAYER;
+				}
+
 				// nopvp-zone
 				const auto &attackerTile = attackerPlayer->getTile();
 				if (targetPlayerTile && targetPlayerTile->hasFlag(TILESTATE_NOPVPZONE)) {

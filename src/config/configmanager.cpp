@@ -82,6 +82,7 @@ bool ConfigManager::load() {
 	loadBoolConfig(L, AIMBOT_HOTKEY_ENABLED, "hotkeyAimbotEnabled", true);
 	loadBoolConfig(L, ALLOW_CHANGEOUTFIT, "allowChangeOutfit", true);
 	loadBoolConfig(L, ALLOW_RELOAD, "allowReload", false);
+	loadBoolConfig(L, ALLOW_WALKTHROUGH, "allowWalkthrough", true);
 	loadBoolConfig(L, AUTOBANK, "autoBank", false);
 	loadBoolConfig(L, AUTOLOOT, "autoLoot", false);
 	loadBoolConfig(L, BOOSTED_BOSS_SLOT, "boostedBossSlot", true);
