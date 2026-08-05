@@ -66,7 +66,8 @@ textarea{width:100%;height:120px;background:#1a1a20;color:var(--tx);
     <button id="bApa" onclick="setFerr('apagar')">Apagar</button>
   </div>
   <div class="linha">
-    <button id="bVar" onclick="setFerr('varinha')">✨ Varinha (contorna a área)</button>
+    <button id="bVar" onclick="setFerr('varinha')">✨ Varinha</button>
+    <label>raio <input id="raio" type="number" min="5" max="200" value="60" style="width:58px"></label>
   </div>
   <div class="linha">
     <label>Pincel <input id="pincel" type="number" min="1" max="40" value="6" style="width:56px"></label>
@@ -359,13 +360,13 @@ async function varinha(x, y) {
   const aviso = document.getElementById('aviso');
   aviso.textContent = 'Contornando a area...';
   try {
-    const r = await (await fetch(`/preencher/${z}/${x}/${y}`)).json();
+    const raio = Math.max(5, Math.min(200, +document.getElementById('raio').value || 60));
+    const r = await (await fetch(`/preencher/${z}/${x}/${y}/${raio}`)).json();
     if (r.erro) { aviso.textContent = r.erro; return; }
     const s = setDo(z);
     for (const [tx, ty] of r.tiles) s.add(tx + ',' + ty);
-    aviso.textContent = `${r.pisavel} tiles pisaveis + parede = ${r.comMargem}`
-      + (r.vazou ? '. ATENCAO: bateu no teto de 40 mil -- a area escapou por '
-                 + 'alguma passagem. Feche a saida com o pincel e refaca.' : '');
+    aviso.textContent = `${r.pisavel} tiles pisáveis + parede = ${r.comMargem}`
+      + ` (raio ${r.raio})`;
     pedirMarcas(); atualizarPainel();
   } catch (e) {
     aviso.textContent = 'Falhou: ' + e.message;
@@ -466,9 +467,10 @@ function setFerr(f) {
               inicio: 'Clique onde a hunt começa. Uma vez por hunt.',
               limite: 'Segure o botão e arraste para pintar os limites.',
               apagar: 'Segure e arraste para apagar limites.',
-              varinha: 'Clique DENTRO da area (num tile pisavel). Ela preenche '
-                     + 'so o que se alcanca a pe naquele andar, mais 2 tiles '
-                     + 'de parede. Repita em cada andar.' };
+              varinha: 'Clique DENTRO da área, num tile pisável. Preenche o que '
+                     + 'se alcança a pé naquele andar dentro do raio, mais 2 '
+                     + 'tiles de parede. Em caverna a parede para antes; ao ar '
+                     + 'livre quem limita é o raio. Repita em cada andar.' };
   document.getElementById('aviso').textContent = ferr
     ? t[ferr] + ' Esc ou botão direito volta a mover o mapa.'
     : 'Arrastar move o mapa. Roda do mouse dá zoom.';

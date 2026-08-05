@@ -433,3 +433,6 @@ tools/installer/vc_redist.x64.exe
 tools/mapa/atlas/
 # tiles renderizados pelo servidor do mapeador (regenera sozinho)
 tools/mapa/cache_tiles/
+
+# Saida do achar_hunts.py: 89 MB de JSON regeravel em 3 minutos.
+tools/mapa/hunts_automaticas/

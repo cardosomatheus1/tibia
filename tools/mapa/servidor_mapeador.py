@@ -262,8 +262,8 @@ class Estado:
                 return False
         return True
 
-    def preencher(self, x: int, y: int, z: int, teto: int = 40000,
-                  margem: int = 2):
+    def preencher(self, x: int, y: int, z: int, raio: int = 60,
+                  teto: int = 40000, margem: int = 2):
         """Area alcancavel a pe a partir de (x, y, z), mais a parede em volta.
 
         POR QUE ISTO EXISTE. O primeiro mapeamento da hunt dos ciclopes era um
@@ -277,8 +277,15 @@ class Estado:
         Sem ela o recorte terminaria no ultimo tile pisavel e o jogador veria
         o vazio no lugar da parede.
 
-        O `teto` protege do vazamento: se a area escapar por uma passagem que
-        eu nao previ, a busca para e avisa, em vez de varrer o mapa inteiro.
+        O `raio` e' o que torna a ferramenta utilizavel na SUPERFICIE. La fora
+        tudo e' conectado -- clicar na grama e deixar a busca correr encheu o
+        continente inteiro: 40 mil tiles pisaveis espalhados por 349x357. Nao
+        adianta avisar depois; limitar a distancia do clique da um resultado
+        previsivel em qualquer lugar. Dentro de caverna a parede costuma parar
+        antes do raio, e o resultado e' o mesmo de antes.
+
+        Se ainda assim bater no teto, a resposta vem SEM tiles: melhor nao
+        marcar nada do que despejar dezenas de milhares para o usuario apagar.
         """
         if not self._andavel(x, y, z):
             return {"erro": "esse tile nao e' pisavel; clique dentro da area"}
@@ -296,6 +303,8 @@ class Estado:
                                (1, 1), (1, -1), (-1, 1), (-1, -1)):
                     nx, ny = cx + dx, cy + dy
                     if (nx, ny) in dentro:
+                        continue
+                    if max(abs(nx - x), abs(ny - y)) > raio:
                         continue
                     if self._andavel(nx, ny, z):
                         dentro.add((nx, ny))
@@ -315,8 +324,14 @@ class Estado:
                                 nova.add(p)
                 borda = nova
 
+        if vazou:
+            return {"erro": f"a area passou de {teto} tiles e nada foi marcado. "
+                            f"Diminua o raio (esta em {raio}) ou feche a "
+                            f"passagem com o pincel antes de usar a varinha."}
+
         return {
             "z": z,
+            "raio": raio,
             "tiles": sorted(total),
             "pisavel": len(dentro),
             "comMargem": len(total),
@@ -423,10 +438,11 @@ def fazer_handler(est: Estado, exemplo: dict):
                     self._envia(dados, "image/jpeg")
                     return
 
-                m = re.match(r"^/preencher/(\d+)/(-?\d+)/(-?\d+)$", self.path)
+                m = re.match(r"^/preencher/(\d+)/(-?\d+)/(-?\d+)/(\d+)$", self.path)
                 if m:
-                    z, x, y = (int(m.group(i)) for i in (1, 2, 3))
-                    self._envia(json.dumps(est.preencher(x, y, z)).encode(),
+                    z, x, y, raio = (int(m.group(i)) for i in (1, 2, 3, 4))
+                    raio = max(5, min(200, raio))
+                    self._envia(json.dumps(est.preencher(x, y, z, raio)).encode(),
                                 "application/json; charset=utf-8", cachear=False)
                     return
 
