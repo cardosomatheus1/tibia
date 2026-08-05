@@ -187,11 +187,20 @@ function InstanceManager.criarExecucao(template, slot, membros, duracaoSegundos)
 	InstanceSpawns.iniciar(slot)
 	agendarFim(run, duracaoSegundos)
 
-	local horas = (run.fim - run.inicio) / 3600
+	-- em horas quando passa de uma; abaixo disso "0.0 horas" nao diz nada
+	local segundos = run.fim - run.inicio
+	local prazo
+	if segundos >= 3600 then
+		prazo = string.format("%g horas", segundos / 3600)
+	elseif segundos >= 60 then
+		prazo = string.format("%d minutos", math.floor(segundos / 60))
+	else
+		prazo = string.format("%d segundos", segundos)
+	end
 	for _, player in ipairs(membros) do
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, string.format(
-			"Voce tem %.1f horas nesta instancia. Havera aviso aos 15, 5 e 1 "
-			.. "minuto do fim.", horas))
+			"Voce tem %s nesta instancia. Havera aviso aos 15, 5 e 1 "
+			.. "minuto do fim.", prazo))
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE,
 			"Itens deixados no chao serao removidos quando a instancia encerrar.")
 	end
