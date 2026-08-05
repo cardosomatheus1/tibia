@@ -24,6 +24,7 @@ Espera encontrar em --raiz:
 import argparse
 import json
 import os
+import re
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import unquote
@@ -69,6 +70,37 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(corpo)
 
+    def _versao(self):
+        """So a versao, para o launcher nao baixar 368 KB a cada abertura.
+
+        O caminho comum e' "nada mudou", e para decidir isso basta comparar uma
+        string. Baixar o manifest inteiro para descobrir que nada mudou custava
+        368 KB toda vez que alguem abre o jogo -- imperceptivel num link bom,
+        mas com o link ocupado virou espera de 14 a 30 segundos olhando para
+        nada. Aqui sao ~40 bytes.
+
+        O /updater continua igual: launcher antigo nao conhece esta rota e tem
+        de seguir funcionando.
+        """
+        caminho = RAIZ / "manifest.json"
+        if not caminho.is_file():
+            self.send_error(500, "manifest.json ausente")
+            return
+        versao = ""
+        with caminho.open("rb") as f:
+            # o campo fica no comeco do arquivo; ler tudo so para pegar uma
+            # string anularia a economia
+            inicio = f.read(4096).decode("utf-8", "replace")
+        m = re.search(r'"version"\s*:\s*"([^"]*)"', inicio)
+        if m:
+            versao = m.group(1)
+        corpo = json.dumps({"version": versao}).encode()
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(corpo)))
+        self.end_headers()
+        self.wfile.write(corpo)
+
     def _arquivo(self, rota: str, prefixo: str = PREFIXO_FILES,
                  pasta: str = "files"):
         # unquote: nomes com [ ] chegam como %5B/%5D e precisam voltar ao literal,
@@ -105,8 +137,11 @@ class Handler(BaseHTTPRequestHandler):
         tam = int(self.headers.get("Content-Length", 0) or 0)
         if tam:
             self.rfile.read(tam)
-        if self._rota() == "/updater":
+        rota = self._rota()
+        if rota == "/updater":
             self._manifest()
+        elif rota == "/versao":
+            self._versao()
         else:
             self.send_error(404, "rota desconhecida")
 
@@ -114,6 +149,8 @@ class Handler(BaseHTTPRequestHandler):
         rota = self._rota()
         if rota == "/updater":
             self._manifest()
+        elif rota == "/versao":
+            self._versao()
         elif rota.startswith(PREFIXO_FILES):
             self._arquivo(rota)
         elif rota.startswith(PREFIXO_LOJA):

@@ -223,35 +223,61 @@ Log "raiz=$Raiz"
 Log ("PowerShell {0}" -f $PSVersionTable.PSVersion)
 
 try {
-    # 1. manifest
+    # 1. versao
+    #
+    # O caminho comum e' "nada mudou", e para decidir isso basta comparar uma
+    # string. O launcher baixava o manifest INTEIRO -- 368 KB, 5346 arquivos --
+    # so para chegar nessa conclusao, toda vez que alguem abre o jogo. Num link
+    # livre passa despercebido; com o link ocupado virou espera de 14 a 30
+    # segundos olhando para o nada. A rota /versao devolve ~40 bytes.
+    #
+    # Se o servidor for antigo e nao conhecer /versao, cai no manifest como
+    # antes -- vale para nao quebrar quem roda uma versao velha do updater.
+    $versaoLocal = ""
+    if (Test-Path -LiteralPath $versionFile) {
+        $versaoLocal = (Get-Content -LiteralPath $versionFile -Raw).Trim()
+    }
+
+    $versaoUrl = ($ManifestUrl -replace '/updater/?$', '/versao')
+    $versaoServidor = ""
+    try {
+        Log "consultando $versaoUrl"
+        $r = Invoke-WebRequest -Uri $versaoUrl -TimeoutSec 15 -UseBasicParsing
+        $texto = $r.Content
+        if ($texto -is [byte[]]) { $texto = [System.Text.Encoding]::UTF8.GetString($texto) }
+        $versaoServidor = ([regex]'"version"\s*:\s*"([^"]*)"').Match($texto).Groups[1].Value
+        Log "versao do servidor: $versaoServidor"
+    } catch {
+        Log "rota /versao indisponivel ($($_.Exception.Message)); usando o manifest"
+    }
+
+    if ($versaoServidor -and $versaoLocal -eq $versaoServidor) {
+        Log "versao local igual a do servidor -- nada a atualizar"
+        # So retorna. Quem abre o jogo e' o finally la embaixo, e ele roda DE
+        # QUALQUER FORMA -- return dentro de try nao pula finally. Abrir aqui
+        # tambem fazia o jogo subir DUAS vezes, toda vez que nao havia
+        # atualizacao, que e' o caminho comum. O log mostrava os dois
+        # "jogo aberto" no mesmo segundo.
+        return
+    }
+
+    # 2. manifest completo -- so chega aqui quem tem atualizacao pendente (ou
+    # quando o servidor nao tem a rota /versao), e ai o jogador vai esperar o
+    # download de qualquer forma.
     Log "consultando $ManifestUrl"
     $manifest = Invoke-RestMethod -Uri $ManifestUrl -Method Post -Body '{}' `
-        -ContentType 'application/json' -TimeoutSec 20
+        -ContentType 'application/json' -TimeoutSec 60
     $baseUrl = $manifest.url.TrimEnd('/')
     Log ("manifest ok: {0} arquivos, versao {1}" -f `
         @($manifest.files.PSObject.Properties).Count, $manifest.version)
 
-    # Atalho rapido: se a versao instalada bate com a do servidor, nada mudou --
-    # abre o jogo na hora, sem conferir os ~3000 arquivos (que levava ~1 min).
-    # So cai na verificacao completa quando ha atualizacao de verdade.
-    if ($manifest.version) {
-        $versaoLocal = ""
-        if (Test-Path -LiteralPath $versionFile) {
-            $versaoLocal = (Get-Content -LiteralPath $versionFile -Raw).Trim()
-        }
-        if ($versaoLocal -eq $manifest.version) {
-            Log "versao local igual a do servidor -- nada a atualizar"
-            # So retorna. Quem abre o jogo e' o finally la embaixo, e ele roda
-            # DE QUALQUER FORMA -- return dentro de try nao pula finally. Abrir
-            # aqui tambem fazia o jogo subir DUAS vezes, toda vez que nao havia
-            # atualizacao, que e' o caminho comum. O log mostrava os dois
-            # "jogo aberto" no mesmo segundo.
-            return
-        }
-        Log "versao mudou ($versaoLocal -> $($manifest.version)); verificando arquivos"
+    if ($manifest.version -and $versaoLocal -eq $manifest.version) {
+        Log "versao local igual a do servidor -- nada a atualizar"
+        return
     }
+    Log "versao mudou ($versaoLocal -> $($manifest.version)); verificando arquivos"
 
-    # 2. compara
+    # 3. compara
     $aBaixar = New-Object System.Collections.Generic.List[object]
     foreach ($prop in $manifest.files.PSObject.Properties) {
         $rel = $prop.Name.TrimStart('/')
