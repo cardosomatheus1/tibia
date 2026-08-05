@@ -334,6 +334,14 @@ def fazer_handler(est: Estado, exemplo: dict):
                     self._envia(png, "image/png")
                     return
 
+                # URL de tile sem o nivel: e' a pagina antiga, que ficou em
+                # cache no navegador quando o Cache-Control ainda valia para o
+                # HTML. Ela pede blocos que nao existem mais e a tela fica
+                # preta -- Ctrl+Shift+R resolve.
+                if re.match(r"^/tile/\d+/-?\d+_-?\d+\.jpg$", self.path):
+                    print("  ATENCAO: pedido no formato antigo "
+                          f"({self.path}). A pagina aberta esta em cache; "
+                          "recarregue com Ctrl+Shift+R.", flush=True)
                 self.send_error(404)
             except BrokenPipeError:
                 pass
