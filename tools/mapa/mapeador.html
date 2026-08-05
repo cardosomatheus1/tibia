@@ -1,0 +1,484 @@
+<meta charset="utf-8">
+<title>Mapeador de Hunts</title>
+<style>
+:root{--bg:#16161a;--pnl:#22222a;--bd:#34343f;--tx:#dcdce4;--dim:#8a8a99;
+      --am:#ffd23f;--az:#3fa9ff;--vm:#ff4d4d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);
+     font:13px system-ui,-apple-system,sans-serif;overflow:hidden}
+#topo{position:fixed;inset:0 0 auto 0;height:52px;background:var(--pnl);
+      border-bottom:1px solid var(--bd);display:flex;align-items:center;
+      gap:10px;padding:0 12px;z-index:20}
+#lado{position:fixed;top:52px;bottom:0;right:0;width:280px;background:var(--pnl);
+      border-left:1px solid var(--bd);padding:12px;overflow:auto;z-index:15}
+#palco{position:fixed;top:52px;left:0;right:280px;bottom:0;overflow:hidden;
+       cursor:crosshair;background:#0d0d10}
+#mundo{position:absolute;transform-origin:0 0;will-change:transform}
+canvas{position:absolute;top:0;left:0;image-rendering:pixelated}
+button{background:#33333d;color:var(--tx);border:1px solid var(--bd);
+       padding:6px 11px;border-radius:5px;cursor:pointer;font-size:13px}
+button:hover{background:#3f3f4b}
+button.on{outline:2px solid currentColor}
+#bObel{color:var(--am)} #bIni{color:var(--az)} #bLim{color:var(--vm)}
+input,select{background:#2c2c36;color:var(--tx);border:1px solid var(--bd);
+             padding:6px 8px;border-radius:5px;font-size:13px}
+#coord{font:13px ui-monospace,monospace;color:#7fd1ff;min-width:190px}
+h3{margin:14px 0 6px;font-size:12px;text-transform:uppercase;
+   letter-spacing:.05em;color:var(--dim)}
+.linha{display:flex;gap:6px;align-items:center;margin:5px 0}
+.chip{display:inline-block;width:11px;height:11px;border-radius:2px;
+      margin-right:6px;vertical-align:-1px}
+#lista{font-size:12px;line-height:1.7}
+#aviso{color:#ffb454;font-size:12px;margin-top:8px;line-height:1.5}
+textarea{width:100%;height:120px;background:#1a1a20;color:var(--tx);
+         border:1px solid var(--bd);border-radius:5px;font:11px ui-monospace,monospace}
+</style>
+
+<div id="topo">
+  <strong style="color:#7fd1ff">Mapeador</strong>
+  <label>Hunt <input id="huntId" type="number" min="0" style="width:74px" value="0"></label>
+  <input id="huntNome" placeholder="nome da hunt" style="width:200px">
+  <label>Andar <select id="andar"></select></label>
+  <span id="coord">—</span>
+  <span style="margin-left:auto">
+    <button onclick="zoom(1.4)">+</button>
+    <button onclick="zoom(1/1.4)">−</button>
+    <button onclick="irPara()">ir para…</button>
+  </span>
+</div>
+
+<div id="palco"><div id="mundo">
+  <canvas id="cMapa"></canvas>
+  <canvas id="cMarca"></canvas>
+</div></div>
+
+<div id="lado">
+  <h3>Ferramenta</h3>
+  <div class="linha">
+    <button id="bObel" onclick="setFerr('obelisco')">Obelisco</button>
+    <button id="bIni"  onclick="setFerr('inicio')">Início</button>
+  </div>
+  <div class="linha">
+    <button id="bLim"  onclick="setFerr('limite')">Pintar limites</button>
+    <button onclick="setFerr('apagar')">Apagar</button>
+  </div>
+  <div class="linha">
+    <label>Pincel <input id="pincel" type="number" min="1" max="40" value="6" style="width:56px"></label>
+    <button onclick="limparAndar()">Limpar andar</button>
+  </div>
+  <div id="aviso"></div>
+
+  <h3>Marcado</h3>
+  <div id="lista"></div>
+
+  <h3>Monstros</h3>
+  <div class="linha">
+    <label><input type="checkbox" id="verMon" checked> mostrar</label>
+    <input id="filtroMon" placeholder="filtrar por nome" style="flex:1">
+  </div>
+  <div id="contMon" style="font-size:12px;color:var(--dim)"></div>
+
+  <h3>Arquivo</h3>
+  <div class="linha">
+    <button onclick="exportar()">Baixar JSON</button>
+    <button onclick="document.getElementById('arq').click()">Abrir JSON</button>
+    <input id="arq" type="file" accept=".json" style="display:none" onchange="importar(this)">
+  </div>
+  <div class="linha"><button onclick="carregarExemplo()">Carregar exemplo (Ciclopes)</button></div>
+  <textarea id="resumo" readonly></textarea>
+</div>
+
+<script src="atlas/dados.js"></script>
+<script>
+const LADO = 256;
+const cMapa = document.getElementById('cMapa'), gMapa = cMapa.getContext('2d');
+const cMarca = document.getElementById('cMarca'), gMarca = cMarca.getContext('2d');
+const palco = document.getElementById('palco'), mundo = document.getElementById('mundo');
+
+// ---------------------------------------------------------------- estado
+let z = 7, esc = 3, camX = 32380, camY = 32020;
+let ferr = null, pintando = false;
+const hunt = { id: 0, nome: '', obelisco: null, inicio: null, limites: {} };
+
+// limites ficam em Set de "x,y" por andar: marcar area grande com array seria
+// O(n) para checar duplicata e travaria o arraste
+function setDo(zz) {
+  const k = String(zz);
+  if (!hunt.limites[k]) hunt.limites[k] = new Set();
+  return hunt.limites[k];
+}
+
+// ------------------------------------------------------------- andares
+const selAndar = document.getElementById('andar');
+const andares = [...new Set(ATLAS_AREAS.map(a => a.z))].sort((a, b) => a - b);
+for (const zz of andares) {
+  const o = document.createElement('option');
+  o.value = zz; o.textContent = 'z ' + zz; selAndar.appendChild(o);
+}
+selAndar.value = z;
+selAndar.onchange = () => { z = +selAndar.value; desenhar(); };
+
+// índice de áreas por andar, para saber que PNG existe
+const porAndar = {};
+for (const a of ATLAS_AREAS) (porAndar[a.z] ||= new Set()).add(a.ax + ',' + a.ay);
+
+// Monstros indexados por bloco de 256, senao cada frame percorreria os ~50 mil
+// spawns do andar -- durante a pintura isso trava o arraste.
+const idxMon = {};
+(function indexarMonstros() {
+  for (const [zz, lista] of Object.entries(ATLAS_MONSTROS.porAndar || {})) {
+    const b = idxMon[zz] = {};
+    for (const m of lista) {
+      const k = Math.floor(m[0] / LADO) + ',' + Math.floor(m[1] / LADO);
+      (b[k] ||= []).push(m);
+    }
+  }
+})();
+
+function* monstrosVisiveis(zz, cx, cy, tw, th) {
+  const b = idxMon[String(zz)]; if (!b) return;
+  for (let ax = Math.floor(cx / LADO); ax <= Math.floor((cx + tw) / LADO); ax++)
+    for (let ay = Math.floor(cy / LADO); ay <= Math.floor((cy + th) / LADO); ay++) {
+      const lista = b[ax + ',' + ay]; if (!lista) continue;
+      for (const m of lista)
+        if (m[0] >= cx - 1 && m[0] <= cx + tw && m[1] >= cy - 1 && m[1] <= cy + th)
+          yield m;
+    }
+}
+
+const cacheImg = new Map();
+function imagem(zz, ax, ay) {
+  const k = zz + '/' + ax + '_' + ay;
+  if (cacheImg.has(k)) return cacheImg.get(k);
+  if (!porAndar[zz] || !porAndar[zz].has(ax + ',' + ay)) {
+    cacheImg.set(k, null); return null;
+  }
+  const im = new Image();
+  im.onload = () => desenhar();
+  im.src = 'atlas/tiles/' + zz + '/' + ax + '_' + ay + '.png';
+  cacheImg.set(k, im);
+  return im;
+}
+
+// -------------------------------------------------------------- desenho
+function dims() {
+  return { w: palco.clientWidth, h: palco.clientHeight,
+           tw: Math.ceil(palco.clientWidth / esc), th: Math.ceil(palco.clientHeight / esc) };
+}
+
+function desenhar() {
+  const { w, h, tw, th } = dims();
+  for (const c of [cMapa, cMarca]) { c.width = w; c.height = h; }
+  gMapa.imageSmoothingEnabled = false;
+  gMapa.clearRect(0, 0, w, h);
+
+  const ax0 = Math.floor(camX / LADO), ax1 = Math.floor((camX + tw) / LADO);
+  const ay0 = Math.floor(camY / LADO), ay1 = Math.floor((camY + th) / LADO);
+  for (let ax = ax0; ax <= ax1; ax++) {
+    for (let ay = ay0; ay <= ay1; ay++) {
+      const im = imagem(z, ax, ay);
+      if (!im || !im.complete || !im.naturalWidth) continue;
+      gMapa.drawImage(im, (ax * LADO - camX) * esc, (ay * LADO - camY) * esc,
+                      LADO * esc, LADO * esc);
+    }
+  }
+  desenharMarcas();
+  document.getElementById('resumo').value = resumoTexto();
+}
+
+function px(x, y) { return [(x - camX) * esc, (y - camY) * esc]; }
+
+function desenharMarcas() {
+  const { w, h, tw, th } = dims();
+  gMarca.clearRect(0, 0, w, h);
+
+  // limites
+  const s = hunt.limites[String(z)];
+  if (s) {
+    gMarca.fillStyle = 'rgba(255,77,77,.42)';
+    for (const k of s) {
+      const [x, y] = k.split(',').map(Number);
+      if (x < camX - 1 || x > camX + tw || y < camY - 1 || y > camY + th) continue;
+      const [px_, py] = px(x, y);
+      gMarca.fillRect(px_, py, esc, esc);
+    }
+  }
+
+  // monstros -- sao o que permite enxergar onde a hunt esta, entao desenham
+  // por cima de tudo e com tamanho minimo legivel mesmo com zoom baixo
+  if (document.getElementById('verMon').checked) {
+    const filtro = document.getElementById('filtroMon').value.trim().toLowerCase();
+    const t = Math.max(3, Math.min(esc, 10));
+    const tipos = {};
+    let n = 0;
+    for (const [x, y, ni] of monstrosVisiveis(z, camX, camY, tw, th)) {
+      const nome = ATLAS_MONSTROS.nomes[ni];
+      if (filtro && !nome.toLowerCase().includes(filtro)) continue;
+      const [px_, py] = px(x, y);
+      gMarca.fillStyle = 'rgba(0,0,0,.55)';
+      gMarca.fillRect(px_ - 1, py - 1, t + 2, t + 2);
+      gMarca.fillStyle = filtro ? '#ffe14d' : '#5dff8a';
+      gMarca.fillRect(px_, py, t, t);
+      tipos[nome] = (tipos[nome] || 0) + 1;
+      n++;
+    }
+    const top = Object.entries(tipos).sort((a, b) => b[1] - a[1]).slice(0, 8);
+    document.getElementById('contMon').innerHTML =
+      `<b>${n}</b> spawns na tela<br>` +
+      top.map(([nm, c]) => `${c}× ${nm}`).join('<br>');
+  } else {
+    document.getElementById('contMon').textContent = '';
+  }
+
+  // obelisco e inicio: translucidos, para ver o que ha atras
+  marcaPonto(hunt.obelisco, 'rgba(255,210,63,.55)', '#ffd23f', 'O');
+  marcaPonto(hunt.inicio,   'rgba(63,169,255,.55)', '#3fa9ff', 'I');
+}
+
+function marcaPonto(p, preench, borda, letra) {
+  if (!p || p.z !== z) return;
+  const [x, y] = px(p.x, p.y);
+  const t = Math.max(esc, 9);
+  gMarca.fillStyle = preench;
+  gMarca.fillRect(x - t / 2 + esc / 2, y - t / 2 + esc / 2, t, t);
+  gMarca.strokeStyle = borda; gMarca.lineWidth = 2;
+  gMarca.strokeRect(x - t / 2 + esc / 2, y - t / 2 + esc / 2, t, t);
+  gMarca.fillStyle = '#000'; gMarca.font = 'bold 10px system-ui';
+  gMarca.fillText(letra, x + esc / 2 - 3, y + esc / 2 + 4);
+}
+
+// ------------------------------------------------------------ interacao
+function tileDoEvento(e) {
+  const r = palco.getBoundingClientRect();
+  return [Math.floor(camX + (e.clientX - r.left) / esc),
+          Math.floor(camY + (e.clientY - r.top) / esc)];
+}
+
+function aplicar(x, y) {
+  if (ferr === 'obelisco') { hunt.obelisco = { x, y, z }; setFerr(null); }
+  else if (ferr === 'inicio') { hunt.inicio = { x, y, z }; setFerr(null); }
+  else if (ferr === 'limite' || ferr === 'apagar') {
+    const r = Math.max(1, +document.getElementById('pincel').value) - 1;
+    const s = setDo(z);
+    const meio = Math.floor(r / 2);
+    for (let dx = -meio; dx <= r - meio; dx++)
+      for (let dy = -meio; dy <= r - meio; dy++) {
+        const k = (x + dx) + ',' + (y + dy);
+        if (ferr === 'limite') s.add(k); else s.delete(k);
+      }
+  }
+  atualizarLista(); desenharMarcas();
+}
+
+palco.addEventListener('mousedown', e => {
+  if (e.button !== 0) return;
+  const [x, y] = tileDoEvento(e);
+  if (ferr) { pintando = true; aplicar(x, y); e.preventDefault(); }
+  else { arrastando = true; ax0 = e.clientX; ay0 = e.clientY; cx0 = camX; cy0 = camY; }
+});
+let arrastando = false, ax0 = 0, ay0 = 0, cx0 = 0, cy0 = 0;
+
+palco.addEventListener('mousemove', e => {
+  const [x, y] = tileDoEvento(e);
+  document.getElementById('coord').textContent = `${x}, ${y}, ${z}`;
+  if (pintando) aplicar(x, y);
+  else if (arrastando) {
+    camX = Math.round(cx0 - (e.clientX - ax0) / esc);
+    camY = Math.round(cy0 - (e.clientY - ay0) / esc);
+    desenhar();
+  }
+});
+addEventListener('mouseup', () => { pintando = false; arrastando = false; });
+
+palco.addEventListener('wheel', e => {
+  e.preventDefault();
+  const r = palco.getBoundingClientRect();
+  const mx = camX + (e.clientX - r.left) / esc, my = camY + (e.clientY - r.top) / esc;
+  esc = Math.min(16, Math.max(0.5, esc * (e.deltaY < 0 ? 1.25 : 0.8)));
+  camX = Math.round(mx - (e.clientX - r.left) / esc);
+  camY = Math.round(my - (e.clientY - r.top) / esc);
+  desenhar();
+}, { passive: false });
+
+function zoom(f) { esc = Math.min(16, Math.max(0.5, esc * f)); desenhar(); }
+
+function irPara() {
+  const v = prompt('Coordenada (x y z) ou (x,y,z):', `${camX + 40} ${camY + 30} ${z}`);
+  if (!v) return;
+  const n = v.split(/[\s,]+/).map(Number).filter(x => !isNaN(x));
+  if (n.length < 2) return;
+  camX = n[0] - 40; camY = n[1] - 30;
+  if (n.length > 2 && andares.includes(n[2])) { z = n[2]; selAndar.value = z; }
+  desenhar();
+}
+
+function setFerr(f) {
+  ferr = (ferr === f) ? null : f;
+  for (const [id, nome] of [['bObel', 'obelisco'], ['bIni', 'inicio'], ['bLim', 'limite']])
+    document.getElementById(id).classList.toggle('on', ferr === nome);
+  const t = { obelisco: 'Clique onde fica o obelisco. Uma vez por hunt.',
+              inicio: 'Clique onde a hunt começa. Uma vez por hunt.',
+              limite: 'Segure o botão e arraste para pintar os limites.',
+              apagar: 'Segure e arraste para apagar limites.' };
+  document.getElementById('aviso').textContent = ferr ? t[ferr]
+    : 'Sem ferramenta: arrastar move o mapa. Roda do mouse dá zoom.';
+}
+
+function limparAndar() {
+  if (!confirm('Apagar todos os limites do andar ' + z + '?')) return;
+  delete hunt.limites[String(z)];
+  atualizarLista(); desenharMarcas();
+}
+
+// --------------------------------------------------------------- painel
+function atualizarLista() {
+  const l = [];
+  l.push(hunt.obelisco
+    ? `<span class="chip" style="background:var(--am)"></span>obelisco ${hunt.obelisco.x}, ${hunt.obelisco.y}, z${hunt.obelisco.z}`
+    : `<span class="chip" style="background:#444"></span><span style="color:var(--dim)">obelisco não marcado</span>`);
+  l.push(hunt.inicio
+    ? `<span class="chip" style="background:var(--az)"></span>início ${hunt.inicio.x}, ${hunt.inicio.y}, z${hunt.inicio.z}`
+    : `<span class="chip" style="background:#444"></span><span style="color:var(--dim)">início não marcado</span>`);
+  let tot = 0;
+  for (const k of Object.keys(hunt.limites).sort((a, b) => a - b)) {
+    const n = hunt.limites[k].size; if (!n) continue;
+    tot += n;
+    l.push(`<span class="chip" style="background:var(--vm)"></span>z${k}: ${n} tiles`);
+  }
+  l.push(tot ? `<b>${tot} tiles no total</b>` : `<span style="color:var(--dim)">nenhum limite pintado</span>`);
+  document.getElementById('lista').innerHTML = l.join('<br>');
+}
+
+function bbox() {
+  const cx = {};
+  for (const [k, s] of Object.entries(hunt.limites)) {
+    if (!s.size) continue;
+    let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
+    for (const p of s) { const [x, y] = p.split(',').map(Number);
+      x0 = Math.min(x0, x); y0 = Math.min(y0, y); x1 = Math.max(x1, x); y1 = Math.max(y1, y); }
+    cx[k] = { x0, y0, x1, y1, tiles: s.size };
+  }
+  return cx;
+}
+
+function resumoTexto() {
+  const b = bbox(); const ls = [];
+  for (const [k, v] of Object.entries(b))
+    ls.push(`z${k}: x ${v.x0}-${v.x1}  y ${v.y0}-${v.y1}  (${v.tiles} tiles)`);
+  if (!ls.length) return '(sem limites pintados)';
+  const org = origemDoRecorte();
+  if (org) {
+    const m = monstrosDentro(org);
+    ls.push('', `origem do recorte: ${org.x}, ${org.y}`);
+    ls.push(`${m.total} monstros dentro dos limites`);
+    const t = Object.entries(contagemPorTipo(m)).slice(0, 6);
+    for (const [nome, n] of t) ls.push(`   ${n}x ${nome}`);
+  }
+  return ls.join('\n');
+}
+
+// -------------------------------------------------------------- arquivo
+// Origem do recorte: canto do bbox que engloba TODOS os andares pintados.
+// E' a partir dela que sai a coordenada relativa, que e' o que o servidor usa
+// (posicao real = origem do slot + relativa).
+function origemDoRecorte() {
+  const b = bbox(); const vs = Object.values(b);
+  if (!vs.length) return null;
+  return { x: Math.min(...vs.map(v => v.x0)), y: Math.min(...vs.map(v => v.y0)) };
+}
+
+/** Monstros DENTRO dos limites pintados, por andar.
+ *  Sem isto o JSON nao basta: daria os limites da hunt mas nao o que nasce
+ *  nela, e a lista de spawn teria de ser reextraida a mao depois. */
+function monstrosDentro(org) {
+  const saida = {}; let total = 0;
+  for (const [k, s] of Object.entries(hunt.limites)) {
+    if (!s.size) continue;
+    const lista = (ATLAS_MONSTROS.porAndar || {})[k] || [];
+    const dentro = [];
+    for (const [x, y, ni] of lista) {
+      if (!s.has(x + ',' + y)) continue;
+      dentro.push({ nome: ATLAS_MONSTROS.nomes[ni], x, y, z: +k,
+                    rx: x - org.x, ry: y - org.y });
+      total++;
+    }
+    if (dentro.length) saida[k] = dentro;
+  }
+  return { porAndar: saida, total };
+}
+
+function contagemPorTipo(mons) {
+  const c = {};
+  for (const lista of Object.values(mons.porAndar))
+    for (const m of lista) c[m.nome] = (c[m.nome] || 0) + 1;
+  return Object.fromEntries(Object.entries(c).sort((a, b) => b[1] - a[1]));
+}
+
+function exportar() {
+  const lim = {};
+  for (const [k, s] of Object.entries(hunt.limites))
+    if (s.size) lim[k] = [...s].map(p => p.split(',').map(Number));
+
+  const org = origemDoRecorte();
+  if (!org) { alert('Pinte os limites da hunt antes de exportar.'); return; }
+  const mons = monstrosDentro(org);
+
+  const saida = {
+    id: +document.getElementById('huntId').value,
+    nome: document.getElementById('huntNome').value,
+    obelisco: hunt.obelisco, inicio: hunt.inicio,
+    andares: Object.keys(lim).map(Number).sort((a, b) => a - b),
+    origemRecorte: org,
+    bbox: bbox(),
+    // relativa ao recorte: e' o que o catalogo.lua do servidor consome
+    inicioRelativo: hunt.inicio
+      ? { x: hunt.inicio.x - org.x, y: hunt.inicio.y - org.y, z: hunt.inicio.z }
+      : null,
+    monstros: mons.porAndar,
+    totalMonstros: mons.total,
+    monstrosPorTipo: contagemPorTipo(mons),
+    limites: lim,
+    gerado: new Date().toISOString().slice(0, 19),
+  };
+  const blob = new Blob([JSON.stringify(saida, null, 1)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `hunt_${saida.id}_${(saida.nome || 'sem_nome').replace(/\W+/g, '_')}.json`;
+  a.click();
+}
+
+function aplicarHunt(d) {
+  document.getElementById('huntId').value = d.id ?? 0;
+  document.getElementById('huntNome').value = d.nome || '';
+  hunt.obelisco = d.obelisco || null;
+  hunt.inicio = d.inicio || null;
+  hunt.limites = {};
+  for (const [k, arr] of Object.entries(d.limites || {})) {
+    const s = setDo(k);
+    for (const p of arr) s.add(Array.isArray(p) ? p[0] + ',' + p[1] : p);
+  }
+  const alvo = d.obelisco || d.inicio;
+  if (alvo) { camX = alvo.x - 60; camY = alvo.y - 40; z = alvo.z; selAndar.value = z; }
+  atualizarLista(); desenhar();
+}
+
+function importar(input) {
+  const f = input.files[0]; if (!f) return;
+  const r = new FileReader();
+  r.onload = () => { try { aplicarHunt(JSON.parse(r.result)); }
+                     catch (e) { alert('JSON inválido: ' + e.message); } };
+  r.readAsText(f);
+}
+
+function carregarExemplo() { aplicarHunt(ATLAS_EXEMPLO); }
+
+// catalogo: preenche o nome ao digitar o id
+document.getElementById('huntId').oninput = e => {
+  const h = ATLAS_HUNTS.find(x => x.id === +e.target.value);
+  if (h) document.getElementById('huntNome').value = h.nome;
+};
+
+addEventListener('resize', desenhar);
+setFerr(null);
+carregarExemplo();
+</script>
