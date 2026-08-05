@@ -16,6 +16,19 @@
 name: Build manual (Linux)
 
 on:
+  # Por push tambem: o workflow_dispatch so aparece depois que o arquivo esta
+  # na branch padrao, e nao vale mexer na branch padrao so para conseguir
+  # compilar uma branch de trabalho. Restrito a src/ para nao gastar um build
+  # a cada commit de script ou documentacao.
+  push:
+    branches:
+      - "claude/**"
+    paths:
+      - "src/**"
+      - "CMakeLists.txt"
+      - "CMakePresets.json"
+      - "vcpkg.json"
+      - ".github/workflows/build-manual.yml"
   workflow_dispatch:
     inputs:
       buildtypes:
@@ -42,7 +55,10 @@ jobs:
       packages: write
     uses: ./.github/workflows/reusable-build-linux.yml
     with:
-      buildtypes: ${{ inputs.buildtypes }}
-      run_canary_smoke: ${{ inputs.run_canary_smoke }}
-      run_global_smoke: ${{ inputs.run_global_smoke }}
+      # No evento push os inputs vem vazios, entao cada um precisa de um
+      # padrao que funcione nos dois gatilhos sem anular a escolha de quem
+      # dispara a mao.
+      buildtypes: ${{ inputs.buildtypes || '["linux-release"]' }}
+      run_canary_smoke: ${{ inputs.run_canary_smoke == true }}
+      run_global_smoke: ${{ inputs.run_global_smoke != false }}
     secrets: inherit
