@@ -39,11 +39,19 @@ end
 
 --- Remove o que os jogadores deixaram: loot, corpos, sacolas, campos.
 --
--- Devolve tambem os ids preservados mais frequentes. Observado em jogo: dois
--- jogadores cacando 7 minutos levaram o slot de 606 para 2247 itens
--- preservados, com apenas 5 removidos -- ou seja, ALGO que a caca produz nao
--- esta sendo reconhecido como sujeira. Sem saber o QUE, qualquer correcao
--- seria palpite; o log agora nomeia os ids e o proximo ciclo de caca decide.
+-- Devolve tambem os ids preservados mais frequentes.
+--
+-- O numero de preservados CRESCE entre execucoes (606, 2247, 4161) e isso
+-- parece vazamento, mas nao e'. Os ids mais comuns sao grama, borda de rocha
+-- e cascalho -- cenario do proprio recorte. O Zone:getItems() e' um cache
+-- preenchido sob demanda, e a zona nasce DEPOIS do loadMapChunk: os itens do
+-- mapa nunca passaram pelo thingAdded, entao entram no cache aos poucos,
+-- conforme a area e' visitada.
+--
+-- Nada disso afeta a limpeza: o que aparece DURANTE a execucao (corpo, loot,
+-- sacola, campo) passa por Tile::addThing -> Zone::thingAdded, entao o cache
+-- sempre conhece a sujeira. O log dos ids fica para nao ter de redescobrir
+-- isso na proxima vez que alguem estranhar o numero.
 function InstanceCleaner.removerItens(slot)
 	local removidos, preservados = 0, 0
 	local porId = {}
