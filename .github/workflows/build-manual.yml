@@ -1,0 +1,48 @@
+---
+# Build sob demanda do binario Linux, sem passar pelo portao de formatacao.
+#
+# POR QUE EXISTE. O ci.yml so compila se o job "checks" passar, e esse job
+# roda o stylua sobre o repositorio inteiro -- que aqui pede reformatacao de
+# ~5400 arquivos do datapack. Reformatar tudo para conseguir um binario seria
+# uma mudanca enorme e arriscada num datapack que esta em producao, e sem
+# relacao nenhuma com o que se quer compilar.
+#
+# Este workflow chama o MESMO build reutilizavel do ci.yml, com os mesmos
+# testes de fumaca. O que ele pula e' so a formatacao.
+#
+# Uso: Actions -> Build manual (Linux) -> Run workflow, escolhendo a branch.
+# O binario sai no artefato "canary-linux-release".
+
+name: Build manual (Linux)
+
+on:
+  workflow_dispatch:
+    inputs:
+      buildtypes:
+        description: Presets a compilar (JSON).
+        required: false
+        type: string
+        default: '["linux-release"]'
+      run_canary_smoke:
+        description: Rodar o teste de fumaca do data-canary.
+        required: false
+        type: boolean
+        default: false
+      run_global_smoke:
+        description: Rodar o teste de fumaca do data-otservbr-global.
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  build-linux:
+    name: Build - Linux
+    permissions:
+      contents: write
+      packages: write
+    uses: ./.github/workflows/reusable-build-linux.yml
+    with:
+      buildtypes: ${{ inputs.buildtypes }}
+      run_canary_smoke: ${{ inputs.run_canary_smoke }}
+      run_global_smoke: ${{ inputs.run_global_smoke }}
+    secrets: inherit
