@@ -77,17 +77,23 @@ function tk.onSay(player)
 
 		InstanceManager.sair(p, "selftest")
 
+		-- Onde ele caiu, medido AGORA. Medir depois do intervalo dava falso
+		-- negativo: sao 3 segundos com o jogador solto no mapa global, e um
+		-- passo dele bastava para "nao voltou a origem". O que se quer provar
+		-- e' que o sair() devolve ao ponto de entrada, nao que o jogador ficou
+		-- imovel esperando o teste terminar.
+		local ondeCaiu = p:getPosition()
+		local distancia = ondeCaiu:getDistance(origem)
+
 		addEvent(function()
 			local q = Player(player:getId())
 			if not q then return end
 			passou(q, "voltou para fora da instancia",
-				InstancePool.slotDaPosicao(q:getPosition()) == nil)
-			local agora = q:getPosition()
-			local dist = agora:getDistance(origem)
+				InstancePool.slotDaPosicao(ondeCaiu) == nil)
 			passou(q, "voltou para a posicao de origem",
-				dist <= 2,
+				distancia <= 2,
 				string.format("entrou em %s, voltou em %s (distancia %d)",
-					coord(origem), coord(agora), dist))
+					coord(origem), coord(ondeCaiu), distancia))
 			passou(q, "cooldown aplicado na saida",
 				InstanceEligibility.cooldownRestante(q, tpl) > 0,
 				"zero -- exploit de sair e voltar")
