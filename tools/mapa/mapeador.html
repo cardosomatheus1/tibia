@@ -66,6 +66,9 @@ textarea{width:100%;height:120px;background:#1a1a20;color:var(--tx);
     <button id="bApa" onclick="setFerr('apagar')">Apagar</button>
   </div>
   <div class="linha">
+    <button id="bVar" onclick="setFerr('varinha')">✨ Varinha (contorna a área)</button>
+  </div>
+  <div class="linha">
     <label>Pincel <input id="pincel" type="number" min="1" max="40" value="6" style="width:56px"></label>
     <button onclick="limparAndar()">Limpar andar</button>
   </div>
@@ -346,8 +349,34 @@ function tileDoEvento(e) {
           Math.floor(camY + (e.clientY - r.top) / esc)];
 }
 
+// Varinha: o servidor anda a pe a partir do clique e devolve so o que se
+// alcanca naquele andar, mais a parede em volta. E' o que substitui o
+// retangulo -- que pegava grama, rocha macica e area fora da caverna.
+let varinhaOcupada = false;
+async function varinha(x, y) {
+  if (varinhaOcupada) return;
+  varinhaOcupada = true;
+  const aviso = document.getElementById('aviso');
+  aviso.textContent = 'Contornando a area...';
+  try {
+    const r = await (await fetch(`/preencher/${z}/${x}/${y}`)).json();
+    if (r.erro) { aviso.textContent = r.erro; return; }
+    const s = setDo(z);
+    for (const [tx, ty] of r.tiles) s.add(tx + ',' + ty);
+    aviso.textContent = `${r.pisavel} tiles pisaveis + parede = ${r.comMargem}`
+      + (r.vazou ? '. ATENCAO: bateu no teto de 40 mil -- a area escapou por '
+                 + 'alguma passagem. Feche a saida com o pincel e refaca.' : '');
+    pedirMarcas(); atualizarPainel();
+  } catch (e) {
+    aviso.textContent = 'Falhou: ' + e.message;
+  } finally {
+    varinhaOcupada = false;
+  }
+}
+
 function aplicar(x, y) {
-  if (ferr === 'obelisco') { hunt.obelisco = { x, y, z }; setFerr(null); }
+  if (ferr === 'varinha') { varinha(x, y); setFerr(null); }
+  else if (ferr === 'obelisco') { hunt.obelisco = { x, y, z }; setFerr(null); }
   else if (ferr === 'inicio') { hunt.inicio = { x, y, z }; setFerr(null); }
   else if (ferr === 'limite' || ferr === 'apagar') {
     const r = Math.max(1, +document.getElementById('pincel').value) - 1;
@@ -431,12 +460,15 @@ function setFerr(f) {
   ferr = (ferr === f) ? null : f;
   for (const [id, nome] of [['bMov', null], ['bObel', 'obelisco'],
                             ['bIni', 'inicio'], ['bLim', 'limite'],
-                            ['bApa', 'apagar']])
+                            ['bApa', 'apagar'], ['bVar', 'varinha']])
     document.getElementById(id).classList.toggle('on', ferr === nome);
   const t = { obelisco: 'Clique onde fica o obelisco. Uma vez por hunt.',
               inicio: 'Clique onde a hunt começa. Uma vez por hunt.',
               limite: 'Segure o botão e arraste para pintar os limites.',
-              apagar: 'Segure e arraste para apagar limites.' };
+              apagar: 'Segure e arraste para apagar limites.',
+              varinha: 'Clique DENTRO da area (num tile pisavel). Ela preenche '
+                     + 'so o que se alcanca a pe naquele andar, mais 2 tiles '
+                     + 'de parede. Repita em cada andar.' };
   document.getElementById('aviso').textContent = ferr
     ? t[ferr] + ' Esc ou botão direito volta a mover o mapa.'
     : 'Arrastar move o mapa. Roda do mouse dá zoom.';

@@ -37,6 +37,7 @@ RAIZ = AQUI.parents[1]
 sys.path.insert(0, str(AQUI))
 sys.path.insert(0, str(RAIZ / "tools/sprites"))
 
+from gerar_minimapa import ITEM_VAZIO, ler_atributos
 from monstros import Sprites
 from otbm import Mapa
 from render import desenhar
@@ -80,6 +81,8 @@ class Estado:
         self.assets = Assets(assets)
         print("indexando aparencias...")
         self.assets.aparencias.indexar("object")
+        # flags de bloqueio, para a varinha saber onde da para andar
+        self.atributos = ler_atributos(RAIZ / "data/items/appearances.dat")
         self.cache: dict[str, bytes] = {}
         self.bytes_cache = 0
         self.bases: dict[tuple[int, int, int], Image.Image] = {}
@@ -245,6 +248,81 @@ class Estado:
                 velha = next(iter(self.cache))
                 self.bytes_cache -= len(self.cache.pop(velha))
 
+    # ------------------------------------------------------- varinha magica
+
+    def _andavel(self, x: int, y: int, z: int) -> bool:
+        """Da para pisar aqui? Precisa de chao e de nada que bloqueie."""
+        t = self.mapa.tile(x, y, z)
+        if not t or not t.chao:
+            return False
+        if self.atributos.get(t.chao, ITEM_VAZIO).bloqueia:
+            return False
+        for iid, _, _ in t.itens:
+            if self.atributos.get(iid, ITEM_VAZIO).bloqueia:
+                return False
+        return True
+
+    def preencher(self, x: int, y: int, z: int, teto: int = 40000,
+                  margem: int = 2):
+        """Area alcancavel a pe a partir de (x, y, z), mais a parede em volta.
+
+        POR QUE ISTO EXISTE. O primeiro mapeamento da hunt dos ciclopes era um
+        RETANGULO de 137x89 em cinco andares: pegava grama, rocha macica e
+        area fora da caverna. Um recorte assim carrega tiles que ninguem pisa
+        e nao acompanha o formato do lugar.
+        Partindo de um ponto de dentro e andando so por onde da para andar, o
+        resultado e' a caverna de verdade.
+
+        A `margem` dilata o resultado para incluir a parede que fecha a area.
+        Sem ela o recorte terminaria no ultimo tile pisavel e o jogador veria
+        o vazio no lugar da parede.
+
+        O `teto` protege do vazamento: se a area escapar por uma passagem que
+        eu nao previ, a busca para e avisa, em vez de varrer o mapa inteiro.
+        """
+        if not self._andavel(x, y, z):
+            return {"erro": "esse tile nao e' pisavel; clique dentro da area"}
+
+        with self.render_lock:      # o Mapa nao e' thread-safe
+            dentro = {(x, y)}
+            fila = [(x, y)]
+            vazou = False
+            while fila:
+                if len(dentro) >= teto:
+                    vazou = True
+                    break
+                cx, cy = fila.pop()
+                for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1),
+                               (1, 1), (1, -1), (-1, 1), (-1, -1)):
+                    nx, ny = cx + dx, cy + dy
+                    if (nx, ny) in dentro:
+                        continue
+                    if self._andavel(nx, ny, z):
+                        dentro.add((nx, ny))
+                        fila.append((nx, ny))
+
+            # dilata: a parede que fecha a area tem de vir junto
+            total = set(dentro)
+            borda = dentro
+            for _ in range(max(0, margem)):
+                nova = set()
+                for cx, cy in borda:
+                    for dx in (-1, 0, 1):
+                        for dy in (-1, 0, 1):
+                            p = (cx + dx, cy + dy)
+                            if p not in total:
+                                total.add(p)
+                                nova.add(p)
+                borda = nova
+
+        return {
+            "z": z,
+            "tiles": sorted(total),
+            "pisavel": len(dentro),
+            "comMargem": len(total),
+            "vazou": vazou,
+        }
+
     # ------------------------------------------------------------ prefetch
 
     def pedir_vizinhos(self, z: int, bx: int, by: int, p: int) -> None:
@@ -343,6 +421,13 @@ def fazer_handler(est: Estado, exemplo: dict):
                             est.pendentes -= 1
                     est.pedir_vizinhos(z, bx, by, p)
                     self._envia(dados, "image/jpeg")
+                    return
+
+                m = re.match(r"^/preencher/(\d+)/(-?\d+)/(-?\d+)$", self.path)
+                if m:
+                    z, x, y = (int(m.group(i)) for i in (1, 2, 3))
+                    self._envia(json.dumps(est.preencher(x, y, z)).encode(),
+                                "application/json; charset=utf-8", cachear=False)
                     return
 
                 m = re.match(r"^/monstro/(\d+)\.png$", self.path)
