@@ -625,9 +625,16 @@ function exportar() {
 }
 
 function aplicarHunt(d) {
+  // Guarda a hunt que estava aberta antes de trocar. Sem isto, abrir outra
+  // pela lista ou por arquivo apagava a marcacao anterior sem salvar: ela nao
+  // passava pelo trocarHunt, que e' quem salvava. Some sem aviso, e so' se
+  // percebe quando o id antigo volta vazio.
+  if ((d.id ?? 0) !== huntAtual) guardarHunt();
   huntAtual = d.id ?? 0;
   document.getElementById('huntId').value = huntAtual;
-  document.getElementById('huntNome').value = d.nome || '';
+  // marcacao antiga pode ter sido salva sem nome; o catalogo preenche
+  document.getElementById('huntNome').value =
+    d.nome || (nomeDoCatalogo(huntAtual) || '');
   hunt.obelisco = d.obelisco || null;
   hunt.inicio = d.inicio || null;
   hunt.limites = {};
@@ -635,9 +642,43 @@ function aplicarHunt(d) {
     const s = setDo(k);
     for (const p of arr) s.add(Array.isArray(p) ? p[0] + ',' + p[1] : p);
   }
-  const alvo = d.obelisco || d.inicio;
-  if (alvo) { camX = alvo.x - 60; camY = alvo.y - 40; z = alvo.z; selAndar.value = z; }
+  // A marcacao vem antes do obelisco de proposito. O obelisco fica FORA da
+  // hunt (e' a entrada), entao pular para ele numa hunt de subsolo deixa a
+  // tela na superficie e a troca de id passa despercebida -- parece que nada
+  // mudou. O que responde "onde e' essa hunt" e' a area pintada.
+  if (!irParaMarcacao()) {
+    const alvo = d.obelisco || d.inicio;
+    if (alvo) { camX = alvo.x - 60; camY = alvo.y - 40; z = alvo.z; selAndar.value = z; }
+  }
   atualizarPainel(); desenhar();
+}
+
+function nomeDoCatalogo(id) {
+  const h = (window.ATLAS_HUNTS || []).find(x => x.id === id);
+  return h ? h.nome : '';
+}
+
+function irParaMarcacao() {
+  // Vai para o andar com mais tiles marcados e centraliza na caixa dele.
+  // Devolve false quando nao ha nada pintado, para quem chamou decidir.
+  let melhor = null;
+  for (const [k, s] of Object.entries(hunt.limites))
+    if (s.size && (melhor === null || s.size > hunt.limites[melhor].size)) melhor = k;
+  if (melhor === null) return false;
+
+  let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
+  for (const p of hunt.limites[melhor]) {
+    const [x, y] = p.split(',').map(Number);
+    if (x < x0) x0 = x;
+    if (y < y0) y0 = y;
+    if (x > x1) x1 = x;
+    if (y > y1) y1 = y;
+  }
+  const nz = +melhor;
+  if (andares.includes(nz)) { z = nz; selAndar.value = z; }
+  camX = ((x0 + x1) >> 1) - 40;
+  camY = ((y0 + y1) >> 1) - 30;
+  return true;
 }
 
 function importar(input) {
@@ -678,15 +719,7 @@ async function abrirAutomatica() {
     const a = d.automatico || {};
     info.textContent = `${d.nome} — ${d.totalMonstros} monstros dentro, pureza ${a.pureza}%, `
       + `confiança ${a.confianca}. Esperava: ${(a.especiesEsperadas || []).join(', ')}`;
-    // vai para o andar com mais tiles e centraliza na caixa dele: abrir a
-    // hunt e cair longe dela seria inutil para conferir
-    const alvo = Object.entries(d.limites)
-      .sort((a, b) => b[1].length - a[1].length)[0][0];
-    const b = d.bbox[alvo];
-    if (andares.includes(+alvo)) { z = +alvo; selAndar.value = z; }
-    camX = ((b.x0 + b.x1) >> 1) - 40;
-    camY = ((b.y0 + b.y1) >> 1) - 30;
-    desenhar();
+    // o reposicionamento ja acontece dentro do aplicarHunt
   } catch (e) { info.textContent = 'falhou: ' + e.message; }
 }
 
@@ -738,8 +771,7 @@ function trocarHunt(novo) {
   } else {
     hunt.obelisco = hunt.inicio = null;
     hunt.limites = {};
-    const h = ATLAS_HUNTS.find(x => x.id === novo);
-    document.getElementById('huntNome').value = h ? h.nome : '';
+    document.getElementById('huntNome').value = nomeDoCatalogo(novo);
     atualizarPainel(); desenhar();
   }
   document.getElementById('huntId').value = novo;
@@ -750,8 +782,8 @@ function trocarHunt(novo) {
 let trocaAdiada = 0;
 const campoId = document.getElementById('huntId');
 campoId.oninput = e => {
-  const h = ATLAS_HUNTS.find(x => x.id === +e.target.value);
-  if (h) document.getElementById('huntNome').value = h.nome;
+  const n = nomeDoCatalogo(+e.target.value);
+  if (n) document.getElementById('huntNome').value = n;
   clearTimeout(trocaAdiada);
   trocaAdiada = setTimeout(() => trocarHunt(+campoId.value || 0), 700);
 };

@@ -82,7 +82,7 @@ class Estado:
         print("indexando aparencias...")
         self.assets.aparencias.indexar("object")
         # flags de bloqueio, para a varinha saber onde da para andar
-        self.atributos = ler_atributos(RAIZ / "data/items/appearances.dat")
+        self.atributos = ler_atributos(self._achar_appearances(assets))
         self.cache: dict[str, bytes] = {}
         self.bytes_cache = 0
         self.bases: dict[tuple[int, int, int], Image.Image] = {}
@@ -138,8 +138,37 @@ class Estado:
                 "porAndar": {str(k): v for k, v in sorted(por_andar.items())},
                 "total": total}
 
+    @staticmethod
+    def _achar_appearances(assets: Path) -> Path:
+        """Onde esta o appearances.dat, no repositorio ou no instalado.
+
+        Rodando do repositorio ele vem de data/items/. Na maquina de quem
+        instalou nao existe repositorio nenhum -- so a pasta de assets, onde o
+        arquivo vem com o hash no nome (appearances-<hash>.dat). Amarrar so no
+        primeiro caminho fazia o servidor instalado morrer no boot.
+        """
+        do_repo = RAIZ / "data/items/appearances.dat"
+        if do_repo.exists():
+            return do_repo
+        achados = sorted(Path(assets).glob("appearances*.dat"))
+        if achados:
+            return achados[0]
+        raise FileNotFoundError(
+            f"nao achei o appearances.dat nem em {do_repo} nem em {assets}")
+
     def _ler_planilha(self, caminho):
         if not caminho or not Path(caminho).exists():
+            # Sem a planilha o campo de id fica mudo: digitar 309 nao mostra
+            # "Lion Sanctum" e nao da' para saber se e' a hunt certa. A
+            # planilha mora no Downloads de quem a montou, entao os nomes
+            # ficam versionados aqui para o mapeador servir sozinho -- os
+            # amigos que instalarem tambem nao a tem.
+            copia = Path(__file__).parent / "hunts_catalogo.json"
+            if copia.exists():
+                try:
+                    return json.loads(copia.read_text(encoding="utf-8"))
+                except ValueError:
+                    return []
             return []
         try:
             import openpyxl

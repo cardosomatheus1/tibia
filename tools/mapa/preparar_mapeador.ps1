@@ -108,12 +108,18 @@ if (-not (Test-Path (Join-Path $pylibs 'PIL'))) {
 Passo "Copiando o mapeador"
 $app = Join-Path $Destino 'app'
 New-Item -ItemType Directory -Force -Path $app | Out-Null
+# gerar_minimapa.py entrou na lista quando o servidor passou a precisar saber
+# que tile da' para pisar (varinha). Sem ele o servidor nem inicia -- quebra no
+# import, antes de qualquer tela. hunts_catalogo.json e' o id -> nome das 525
+# hunts: a planilha fica na maquina de quem a montou, e sem essa copia o campo
+# de id nao mostra nome nenhum para quem instala.
 foreach ($f in @('servidor_mapeador.py', 'otbm.py', 'render.py', 'ver_item.py',
-                 'monstros.py', 'mapeador.html')) {
+                 'monstros.py', 'gerar_minimapa.py', 'mapeador.html',
+                 'hunts_catalogo.json')) {
     Copy-Item (Join-Path $aqui $f) $app -Force
 }
 Copy-Item (Join-Path $raiz 'tools\sprites\tibia_assets.py') $app -Force
-Ok "7 arquivos"
+Ok "9 arquivos"
 
 # --- 4. dados do datapack ----------------------------------------------------
 # Sao os dois arquivos que dizem ONDE cada monstro nasce e COM QUE cara: o xml
