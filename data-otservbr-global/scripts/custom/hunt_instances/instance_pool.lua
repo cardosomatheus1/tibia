@@ -194,9 +194,31 @@ function InstancePool.descarregar(slot)
 		Position(a.x0, a.y0, andares[1]),
 		Position(a.x1, a.y1, andares[#andares]))
 	if n == 0 then
-		logger.warn("[hunt-instance] slot {} do {} nao descarregou "
-			.. "(criatura dentro?)", slot.indice, slot.template.slug)
+		-- Recusado porque ainda ha criatura no recorte. Acontece na MORTE: o
+		-- evento de morte dispara a limpeza antes de o jogador sair do tile,
+		-- entao o portao ve uma criatura e (com razao) nao tira o chao debaixo
+		-- dela. Sem nova tentativa o recorte ficava na memoria para sempre --
+		-- 1 dos 52 descarregamentos de um teste deu "0 tiles liberados".
+		--
+		-- So' tenta de novo se o slot continuar livre: entre a recusa e a
+		-- tentativa alguem pode ter entrado, e descarregar o mapa de quem esta
+		-- jogando seria bem pior que o vazamento.
+		local tentativa = (slot.tentativasDescarga or 0) + 1
+		slot.tentativasDescarga = tentativa
+		if tentativa <= 6 then
+			addEvent(function()
+				if slot.estado == ESTADOS.FREE and not slot.run then
+					InstancePool.descarregar(slot)
+				end
+			end, 500)
+		else
+			logger.warn("[hunt-instance] slot {} do {} nao descarregou em {} "
+				.. "tentativas -- o recorte fica na memoria",
+				slot.indice, slot.template.slug, tentativa)
+			slot.tentativasDescarga = nil
+		end
 	else
+		slot.tentativasDescarga = nil
 		-- so' tira a area se o mapa saiu: zona sem area com tile de pe'
 		-- deixaria o beforeLeave cego e o jogador andaria para fora sem aviso
 		InstancePool.desmontarAreas(slot)
