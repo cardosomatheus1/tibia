@@ -127,6 +127,21 @@ public:
 	void loadCustomMaps(const std::filesystem::path &customMapPath);
 	void loadMap(const std::string &path, const Position &pos = Position());
 
+	/**
+	 * Descarrega uma regiao do mapa, devolvendo a memoria dos tiles.
+	 *
+	 * Existe por causa das hunts instanciadas: cada slot e' uma copia de um
+	 * pedaco do mapa, e pre-alocar todos custa ~13 MB por slot mesmo vazios --
+	 * medido, 6 para 12 slots em 9 hunts levou o servidor de 2004 para 2799 MB.
+	 * Com 65 hunts nao fecha em VPS nenhuma. Carregar na entrada so' resolve se
+	 * der para descarregar na saida.
+	 *
+	 * Recusa e devolve 0 se houver criatura na regiao: descarregar o chao de
+	 * quem esta em cima deixa a criatura sem tile, e o proximo acesso e' um
+	 * ponteiro para lugar nenhum.
+	 */
+	uint32_t unloadMapChunk(const Position &from, const Position &to);
+
 	void getMapDimensions(uint32_t &width, uint32_t &height) const {
 		width = map.width;
 		height = map.height;

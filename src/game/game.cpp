@@ -1097,6 +1097,44 @@ void Game::loadMap(const std::string &path, const Position &pos) {
 	map.loadMap(path, false, false, false, false, false, pos);
 }
 
+uint32_t Game::unloadMapChunk(const Position &from, const Position &to) {
+	// Varre uma vez so' procurando criatura. Zerar metade da regiao e' pior
+	// que nao zerar nada: fica um pedaco sem chao e o resto de pe'.
+	for (uint16_t z = from.z; z <= to.z; ++z) {
+		for (uint16_t x = from.x; x <= to.x; ++x) {
+			for (uint16_t y = from.y; y <= to.y; ++y) {
+				const auto &tile = map.getTile(x, y, static_cast<uint8_t>(z));
+				if (!tile) {
+					continue;
+				}
+				const auto* criaturas = tile->getCreatures();
+				if (criaturas && !criaturas->empty()) {
+					g_logger().warn(
+						"[unloadMapChunk] recusado: {} criatura(s) em {}",
+						criaturas->size(), Position(x, y, static_cast<uint8_t>(z)).toString()
+					);
+					return 0;
+				}
+			}
+		}
+	}
+
+	// setTile e' privado no Map, mas Game e' friend -- e' por isso que esta
+	// funcao vive aqui e nao no binding de Lua.
+	uint32_t zerados = 0;
+	for (uint16_t z = from.z; z <= to.z; ++z) {
+		for (uint16_t x = from.x; x <= to.x; ++x) {
+			for (uint16_t y = from.y; y <= to.y; ++y) {
+				if (map.getTile(x, y, static_cast<uint8_t>(z))) {
+					map.setTile(x, y, static_cast<uint8_t>(z), nullptr);
+					++zerados;
+				}
+			}
+		}
+	}
+	return zerados;
+}
+
 std::shared_ptr<Cylinder> Game::internalGetCylinder(const std::shared_ptr<Player> &player, const Position &pos) {
 	if (pos.x != 0xFFFF) {
 		return map.getTile(pos);

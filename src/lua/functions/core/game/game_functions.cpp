@@ -44,6 +44,7 @@ void GameFunctions::init(lua_State* L) {
 	Lua::registerMethod(L, "Game", "getPlayers", GameFunctions::luaGameGetPlayers);
 	Lua::registerMethod(L, "Game", "loadMap", GameFunctions::luaGameLoadMap);
 	Lua::registerMethod(L, "Game", "loadMapChunk", GameFunctions::luaGameloadMapChunk);
+	Lua::registerMethod(L, "Game", "unloadMapChunk", GameFunctions::luaGameUnloadMapChunk);
 
 	Lua::registerMethod(L, "Game", "getExperienceForLevel", GameFunctions::luaGameGetExperienceForLevel);
 	Lua::registerMethod(L, "Game", "getMonsterCount", GameFunctions::luaGameGetMonsterCount);
@@ -305,6 +306,24 @@ int GameFunctions::luaGameloadMapChunk(lua_State* L) {
 	const Position &position = Lua::getPosition(L, 2);
 	g_dispatcher().addEvent([path, position]() { g_game().loadMap(path, position); }, __FUNCTION__);
 	return 0;
+}
+
+int GameFunctions::luaGameUnloadMapChunk(lua_State* L) {
+	// Game.unloadMapChunk(fromPosition, toPosition)
+	//
+	// Devolve quantos tiles foram zerados, ou 0 se recusou. Sincrono de
+	// proposito, ao contrario do loadMapChunk: quem chama precisa saber se deu
+	// certo antes de marcar o slot como livre, e um addEvent devolveria antes
+	// de fazer.
+	const Position &from = Lua::getPosition(L, 1);
+	const Position &to = Lua::getPosition(L, 2);
+	if (to.x < from.x || to.y < from.y || to.z < from.z) {
+		Lua::reportErrorFunc("unloadMapChunk: toPosition antes de fromPosition");
+		lua_pushnumber(L, 0);
+		return 1;
+	}
+	lua_pushnumber(L, g_game().unloadMapChunk(from, to));
+	return 1;
 }
 
 int GameFunctions::luaGameGetExperienceForLevel(lua_State* L) {
