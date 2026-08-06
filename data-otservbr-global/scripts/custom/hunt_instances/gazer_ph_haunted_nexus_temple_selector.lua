@@ -1,4 +1,4 @@
--- Seletor de entrada de Lower Roshamuul.
+-- Seletor de entrada de Gazer PH - Haunted Nexus (Temple).
 -- GERADO POR tools/mapa/gerar_instancia.py a partir do de Thais.
 -- Seletor de entrada: ModalWindow com Mundo Aberto / Instancia Privada.
 -- Spec: docs/spec_hunt_instanciada_v2.md secoes 9.1, 9.3 e 9.4.
@@ -17,11 +17,11 @@
 -- Carregar so' o catalogo.lua (dos ciclopes) nao basta: HuntInstances existia,
 -- mas sem esta hunt dentro, e o template vinha nil. Sete seletores morreram
 -- assim e so' duas hunts subiram.
-if not (HuntInstances and HuntInstances.lowerRoshamuul) then
-	dofile(DATA_DIRECTORY .. "/scripts/custom/hunt_instances/catalogo_lower_roshamuul.lua")
+if not (HuntInstances and HuntInstances.gazerPhHauntedNexusTemple) then
+	dofile(DATA_DIRECTORY .. "/scripts/custom/hunt_instances/catalogo_gazer_ph_haunted_nexus_temple.lua")
 end
 
-local template = HuntInstances.lowerRoshamuul
+local template = HuntInstances.gazerPhHauntedNexusTemple
 
 local function entrarPublico(player)
 	-- A hunt publica e' o proprio mapa: nenhum runId, nenhum slot.

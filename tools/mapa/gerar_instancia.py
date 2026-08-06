@@ -162,6 +162,18 @@ def gerar_spawns(doc: dict, slug: str, org: dict) -> tuple[str, int]:
 
 def gerar_selector(slug: str, chave: str, nome: str) -> str:
     modelo = (DESTINO_LUA / "thais_cyclops_selector.lua").read_text(encoding="utf-8")
+    # O seletor precisa do catalogo DELE, nao do dos ciclopes. O modelo carrega
+    # catalogo.lua quando HuntInstances nao existe -- mas ele existia, sem esta
+    # hunt dentro, e o template vinha nil. O Action:position() e' registrado na
+    # carga, entao o erro derruba o registro inteiro: sete seletores morreram
+    # assim e so' duas hunts subiram.
+    modelo = modelo.replace(
+        """if not HuntInstances then
+	dofile(DATA_DIRECTORY .. "/scripts/custom/hunt_instances/catalogo.lua")
+end""",
+        f"""if not (HuntInstances and HuntInstances.{chave}) then
+	dofile(DATA_DIRECTORY .. "/scripts/custom/hunt_instances/catalogo_{slug}.lua")
+end""")
     texto = modelo.replace("HuntInstances.thaisCyclops", f"HuntInstances.{chave}")
     texto = texto.replace("-- Seletor de entrada:",
                           f"-- Seletor de entrada de {nome}.\n"
