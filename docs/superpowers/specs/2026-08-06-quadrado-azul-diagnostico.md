@@ -1,71 +1,81 @@
-# O quadrado azul: diagnóstico fechado, correção pendente
+# O quadrado azul: instrumentado, causa localizada
 
-Investigado em 2026-08-06. A causa está identificada com precisão; o que falta
-é a capacidade de compilar o cliente.
+Investigado em 2026-08-06. **Este documento foi reescrito**: a primeira versão
+apontava uma causa que o teste em jogo derrubou. O que segue está apoiado em log
+de cliente instrumentado, não em leitura de código.
 
 ## O sintoma
 
-Quadrado ou faixa azul no mapa. Aparece correndo rápido (faixa inteira no lado
-do movimento) e parado, a cada hit recebido (quadrado isolado). Acontece em
-mundo aberto e dentro de instância — não tem relação com hunt instanciada.
+Quadrado ou faixa azul no mapa. Acontece em mundo aberto e dentro de instância
+-- nao tem relacao com hunt instanciada.
 
-## A causa
+## O que o azul e'
 
-O cliente **descarta** a janela de mapa ampliada que o servidor envia.
+A cor de limpeza do framebuffer do mapa (`uimap.cpp:62`), visível onde NADA foi
+desenhado. E' azul quando a câmera está no `mapSeaFloor` (z=7) e preta abaixo
+disso -- por isso o bug parece só existir na superfície: no subterrâneo o buraco
+e' preto e se confunde com o fundo.
 
-Em `src/client/mapview.cpp:524`:
+## A causa, medida
 
-```cpp
-const uint8_t left = std::min(g_map.getAwareRange().left, (m_drawDimension.width()/2) - 1);
-const uint8_t top  = std::min(g_map.getAwareRange().top,  (m_drawDimension.height()/2) - 1);
-```
+Duas instrumentações temporárias no cliente responderam o que a leitura de
+código não deu:
 
-E `m_drawDimension = visibleDimension + 3` (linha 498). O cliente usa
-`visibleDimension = 15x11` em todos os caminhos do `game_interface`, então:
+- `[TILE-VAZIO]` em `setTileDescription`: registra tile que chega vazio.
+  **Resultado: ruído.** Todos os vazios são andares ACIMA do jogador -- céu, e
+  no subterrâneo rocha. O andar do jogador chega completo.
+- `[SEM-TILE]` no laço de desenho: registra posição sem tile no andar da câmera,
+  dizendo se está dentro da faixa que o cliente diz conhecer.
 
-    drawDimension = 18x14
-    limite        = (18/2)-1 = 8   e   (14/2)-1 = 6
+O log decisivo, na troca de andar (z 7 -> 6):
 
-**8 e 6 são exatamente os valores originais do Canary.** O servidor manda 11 e
-9 pelo opcode 0x33 (`sendMapAwareRange`), e o `min()` corta de volta. A janela
-ampliada nunca chegou a valer.
+    [SEM-TILE] pos=36923,36904,6 camera=36934,36913,6 conhece=1
+    [SEM-TILE] pos=36936,36904,6 camera=36934,36913,6 conhece=1
+    [SEM-TILE] pos=36945,36908,6 camera=36934,36913,6 conhece=1
 
-O buraco aparece porque o cliente DESENHA `visibleDimension + 3` tiles mas só
-considera válidos os de dentro da faixa cortada. A borda entre os dois sai sem
-dado, e o que se vê ali é a cor de limpeza do framebuffer do mapa
-(`uimap.cpp:62`) — não é algo pintado por cima, é o fundo aparecendo.
+**`conhece=1` com tile ausente.** O cliente considera a posição dentro da faixa
+recebida e não tem nada ali. Isso descarta geometria (não e' o cliente
+desenhando além do que sabe) e aponta para dado que o servidor não enviou.
+
+As posições são as quinas da faixa: `36923 = 36934-11` e `36904 = 36913-9`,
+exatamente `x-X` e `y-Y` das constantes ampliadas.
+
+## O suspeito
+
+`ProtocolGame::MoveUpCreature`, em src/server/network/protocol/protocolgame.cpp:
+
+    // west
+    GetMapDescription(oldPos.x - MAP_MAX_CLIENT_VIEW_PORT_X,
+                      oldPos.y - (MAP_MAX_CLIENT_VIEW_PORT_Y - 1), ...
+
+A coluna oeste começa em `y - (Y-1)`, não em `y - Y`. Com o Y original (6) o
+descompasso era de um tile numa janela pequena; com Y=9 ele acompanha a janela
+ampliada. `MoveDownCreature` merece a mesma conferência.
+
+NAO CONFIRMADO: a correção não foi testada. E' hipótese apoiada em evidência, o
+que e' mais do que as anteriores tinham, mas ainda não e' prova. O caminho para
+fechar: corrigir, subir, e olhar se `[SEM-TILE] ... conhece=1` some do log na
+troca de andar.
 
 ## O que foi descartado, com evidência
 
-- **Lentidão do servidor.** Os avisos de `player-visible backlog` são todos do
-  `/testecarga`, nenhum durante o jogo.
-- **Tamanho escrito na mão no servidor.** Todas as chamadas de
-  `GetMapDescription` usam as constantes; nenhuma literal sobrou.
-- **`Tile::setFill`** (pinta o tile inteiro de uma cor): ninguém chama, nem no
-  C++ nem nos módulos, e o campo nasce em `Color::alpha`.
-- **Barra de mana.** É fina, só do jogador local, e o tom de azul é outro — o
-  do bug é o mesmo da faixa que aparece correndo.
-- **Textura faltando.** Quando falta, o cliente não desenha nada; não pinta cor.
+- **Lentidão do servidor.** Os avisos de backlog são todos do `/testecarga`.
+- **Buraco no mapa.** 0 de 441 tiles sem chão em Thais z7, 0 de 961 nos ciclopes.
+- **`Tile::setFill`.** Ninguém chama, e o campo nasce em `Color::alpha`.
+- **Barra de mana.** Tom de azul diferente, e e' fina.
+- **`drawDimension = visibleDimension + 3`** cortando a aware range: parecia
+  explicar tudo, foi compilado e testado em jogo, e **o bug continuou**. A
+  alteração está na branch `janela-de-mapa-maior` do fork e deve ser revertida
+  ou revalidada antes de qualquer distribuição.
+- **Feature `GameEnvironmentEffect`** dessincronizando o pacote: o cliente a
+  desliga a partir da versão 1281 e a nossa e' 1525.
 
-## A correção
+## Capacidade nova
 
-`m_drawDimension = visibleDimension + 3` → **`+ 9`**:
+O fork `cardosomatheus1/otclient` existe e compila -- pela CI (quando o GitHub
+não está em pane) e localmente em `C:\otc` (VS 2022 Build Tools, MSVC 14.44,
+CMake 4.4, vcpkg com cache binário em `C:\otc\cache`, script `C:\otc\compilar.bat`).
+Instrumentar o cliente deixou de ser impossível e passou a ser rotina de poucos
+minutos.
 
-    18x14 → 24x20        limite: 11 e 9        = exatamente o que o servidor manda
-
-O jogador continua vendo os mesmos 15x11 tiles; muda só a margem que o cliente
-mantém pronta em volta. Custo: renderizar 24x20 em vez de 18x14, ~1,8x mais
-tiles, quase todos fora da tela. Vale medir FPS antes e depois em máquina
-fraca.
-
-Alternativa descartada: subir `visibleDimension` para 21x17 resolve igual, mas
-muda o campo de visão do jogo — mexer na cara do jogo para consertar um bug
-interno.
-
-## Por que não foi feito ainda
-
-O `otclient.exe` não é compilado aqui: vem pronto de um artefato do GitHub
-Actions do mehah (`tools/preparar_mehah.ps1:76`). Aplicar um patch em C++ exige
-fork do mehah/otclient, o patch, e a CI deles produzindo o artefato de Windows.
-
-É uma capacidade nova para este projeto, e o passo seguinte.
+`tools/preparar_mehah.ps1` já aponta para o fork.
