@@ -146,10 +146,11 @@ function InstanceFronteiras.registrar(slot)
 			perguntando[guid] = nil
 			return true
 		end
-		-- GM passa: precisa poder inspecionar sem ficar preso
-		if player:getGroup():getId() >= GROUP_TYPE_GAMEMASTER then
-			return true
-		end
+		-- Staff ve o dialogo como todo mundo. Antes passava direto, para nao
+		-- ficar preso -- mas era o contrario: quem passa a fronteira sai da
+		-- area mapeada e cai na copia do terreno, onde NAO ha saida nenhuma,
+		-- porque a saida E' o dialogo. So' relogando. E de quebra escondia o
+		-- aviso justamente de quem precisa testa-lo.
 		perguntarSaida(player, slot)
 		return false         -- barra SEMPRE: e' o que impede de ver o vazio
 	end
