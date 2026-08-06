@@ -27,57 +27,109 @@ o patch se perde no proximo rebuild.
 from __future__ import annotations
 
 import sys
+import pathlib
+import re
 from pathlib import Path
 
-# Espelha data-otservbr-global/scripts/custom/hunt_instances/catalogo.lua.
-# Se as origens de slot mudarem la, mudam aqui.
-BLOCO = '''
--- ---------------------------------------------------------------------------
--- Hunt instanciada: traducao de coordenada do minimapa.
--- Gerado por tools/patch_client_minimapa.py -- nao editar a mao.
--- Espelha catalogo.lua do datapack.
--- ---------------------------------------------------------------------------
-INSTANCIA_ORIGEM = { x = 32384, y = 32016 }
-INSTANCIA_LARG, INSTANCIA_ALT = 169, 121
-INSTANCIA_SLOTS = {
-    { x = 36864, y = 36864 }, { x = 37376, y = 36864 }, { x = 37888, y = 36864 },
-    { x = 38400, y = 36864 }, { x = 38912, y = 36864 }, { x = 39424, y = 36864 },
-}
+# A tabela sai dos catalogos do datapack, nao e' escrita aqui. Enquanto havia
+# uma hunt so', repetir os numeros a mao passava; na segunda, Lower Roshamuul
+# ficou de fora da traducao e o minimapa dela nasceu preto -- o jogador entrava
+# num lugar que ele conhece e nao reconhecia nada.
+CATALOGOS = pathlib.Path(__file__).resolve().parents[1] /     "data-otservbr-global/scripts/custom/hunt_instances"
 
---- Posicao real -> posicao equivalente na hunt publica (para DESENHAR).
-function InstanciaParaExibicao(pos)
-    if not pos then return pos end
-    for _, s in ipairs(INSTANCIA_SLOTS) do
-        if pos.x >= s.x and pos.x < s.x + INSTANCIA_LARG
-            and pos.y >= s.y and pos.y < s.y + INSTANCIA_ALT then
-            return { x = pos.x - s.x + INSTANCIA_ORIGEM.x,
-                     y = pos.y - s.y + INSTANCIA_ORIGEM.y,
-                     z = pos.z }
-        end
-    end
-    return pos
-end
+RE_ORIGEM = re.compile(r"origem\s*=\s*Position\((\d+),\s*(\d+),")
+RE_LARG = re.compile(r"largura\s*=\s*(\d+)")
+RE_ALT = re.compile(r"altura\s*=\s*(\d+)")
+RE_SLOTS = re.compile(r"slotOrigens\s*=\s*\{(.*?)\}", re.S)
+RE_POS = re.compile(r"Position\((\d+),\s*(\d+),")
 
---- Posicao exibida -> posicao real do slot onde o jogador esta (para CLICAR).
--- Precisa saber em que slot ele esta, e isso vem da posicao real dele.
-function InstanciaParaReal(pos)
-    if not pos then return pos end
-    local player = g_game.getLocalPlayer()
-    if not player then return pos end
-    local real = player:getPosition()
-    if not real then return pos end
-    for _, s in ipairs(INSTANCIA_SLOTS) do
-        if real.x >= s.x and real.x < s.x + INSTANCIA_LARG
-            and real.y >= s.y and real.y < s.y + INSTANCIA_ALT then
-            -- o jogador esta neste slot: converte o alvo para dentro dele
-            return { x = pos.x - INSTANCIA_ORIGEM.x + s.x,
-                     y = pos.y - INSTANCIA_ORIGEM.y + s.y,
-                     z = pos.z }
-        end
-    end
-    return pos
-end
-'''
+
+def ler_catalogos() -> list[dict]:
+    """Toda hunt do datapack, com o recorte de onde veio e onde ela roda."""
+    saida = []
+    for arq in sorted(CATALOGOS.glob("catalogo*.lua")):
+        texto = arq.read_text(encoding="utf-8")
+        o, l, a, s = (RE_ORIGEM.search(texto), RE_LARG.search(texto),
+                      RE_ALT.search(texto), RE_SLOTS.search(texto))
+        if not (o and l and a and s):
+            continue
+        slots = [(int(x), int(y)) for x, y in RE_POS.findall(s.group(1))]
+        if slots:
+            saida.append({"nome": arq.stem, "ox": int(o.group(1)),
+                          "oy": int(o.group(2)), "larg": int(l.group(1)),
+                          "alt": int(a.group(1)), "slots": slots})
+    return saida
+
+
+def montar_bloco(hunts: list[dict]) -> str:
+    linhas = [
+        "",
+        "-- " + "-" * 75,
+        "-- Hunt instanciada: traducao de coordenada do minimapa.",
+        "-- Gerado por tools/patch_client_minimapa.py -- nao editar a mao.",
+        "--",
+        "-- O minimapa e' do client e indexado por coordenada absoluta. Dentro da",
+        "-- instancia o jogador esta em x >= 36864, onde ele nunca pisou, entao",
+        "-- ficaria preto -- e a instancia deixaria de parecer o lugar que ele",
+        "-- conhece. Aqui a posicao e' traduzida de volta para a hunt publica.",
+        "--",
+        "-- Vale nos DOIS sentidos: real -> publico ao desenhar, publico -> real",
+        "-- ao clicar. So' o primeiro deixa o mapa bonito e o clique quebrado --",
+        "-- o client tenta caminhar milhares de tiles e responde \"Destination is",
+        "-- out of range\".",
+        "-- " + "-" * 75,
+        "INSTANCIAS = {",
+    ]
+    for h in hunts:
+        linhas.append(f"    {{ -- {h['nome']}")
+        linhas.append(f"        origem = {{ x = {h['ox']}, y = {h['oy']} }},")
+        linhas.append(f"        larg = {h['larg']}, alt = {h['alt']},")
+        linhas.append("        slots = {")
+        for sx, sy in h["slots"]:
+            linhas.append(f"            {{ x = {sx}, y = {sy} }},")
+        linhas.append("        },")
+        linhas.append("    },")
+    linhas += [
+        "}",
+        "",
+        "--- Em que hunt e slot esta esta posicao real, se estiver em alguma.",
+        "local function acharSlot(pos)",
+        "    for _, h in ipairs(INSTANCIAS) do",
+        "        for _, s in ipairs(h.slots) do",
+        "            if pos.x >= s.x and pos.x < s.x + h.larg",
+        "                and pos.y >= s.y and pos.y < s.y + h.alt then",
+        "                return h, s",
+        "            end",
+        "        end",
+        "    end",
+        "end",
+        "",
+        "--- Posicao real -> posicao equivalente na hunt publica (para DESENHAR).",
+        "function InstanciaParaExibicao(pos)",
+        "    if not pos then return pos end",
+        "    local h, s = acharSlot(pos)",
+        "    if not h then return pos end",
+        "    return { x = pos.x - s.x + h.origem.x,",
+        "             y = pos.y - s.y + h.origem.y, z = pos.z }",
+        "end",
+        "",
+        "--- Posicao exibida -> posicao real do slot onde o jogador esta (CLICAR).",
+        "-- Qual slot vem da posicao real do jogador, nao da posicao clicada.",
+        "function InstanciaParaReal(pos)",
+        "    if not pos then return pos end",
+        "    local player = g_game.getLocalPlayer()",
+        "    if not player then return pos end",
+        "    local real = player:getPosition()",
+        "    if not real then return pos end",
+        "    local h, s = acharSlot(real)",
+        "    if not h then return pos end",
+        "    return { x = pos.x - h.origem.x + s.x,",
+        "             y = pos.y - h.origem.y + s.y, z = pos.z }",
+        "end",
+        "",
+    ]
+    return "\n".join(linhas)
+
 
 MARCA = "InstanciaParaExibicao"
 

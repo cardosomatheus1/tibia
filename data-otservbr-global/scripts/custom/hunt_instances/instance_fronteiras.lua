@@ -16,9 +16,24 @@
 
 InstanceFronteiras = InstanceFronteiras or {}
 
--- A hunt dentro do recorte, em coordenada relativa. O recorte tem 169x121 com
--- 16 tiles de margem de cada lado (secao 6.1.1), entao a hunt ocupa o miolo.
-local HUNT = { x0 = 16, y0 = 16, x1 = 152, y1 = 104 }
+-- A hunt dentro do recorte, em coordenada relativa: o recorte tem margem de
+-- cada lado (secao 6.1.1) e a hunt ocupa o miolo.
+--
+-- Isto ficava escrito aqui, com os numeros dos ciclopes. Funcionava enquanto
+-- so' havia uma hunt; na segunda, a fronteira de Lower Roshamuul foi calculada
+-- com a geometria de Thais, o beforeLeave nunca reconhecia a borda certa e o
+-- jogador ficava preso la' dentro. Agora vem do catalogo, por hunt.
+local function huntDe(template)
+	local f = template.fronteira
+	if f then
+		return f
+	end
+	-- Sem `fronteira` no catalogo, deduz da margem: o miolo e' o recorte menos
+	-- a margem de cada lado. Mantem de pe' quem nao declarou.
+	local t = template.template
+	local m = template.margemRecorte or 16
+	return { x0 = m, y0 = m, x1 = t.largura - m - 1, y1 = t.altura - m - 1 }
+end
 
 -- quem ja tem dialogo aberto, para nao reabrir a cada passo barrado
 local perguntando = {}
@@ -37,10 +52,14 @@ function InstanceFronteiras.autorizarSaida(player)
 end
 
 local function centroDaHunt(slot)
+	local h = huntDe(slot.template)
+	local andares = slot.template.template.andares
 	return Position(
-		slot.origem.x + math.floor((HUNT.x0 + HUNT.x1) / 2),
-		slot.origem.y + math.floor((HUNT.y0 + HUNT.y1) / 2),
-		8)
+		slot.origem.x + math.floor((h.x0 + h.x1) / 2),
+		slot.origem.y + math.floor((h.y0 + h.y1) / 2),
+		-- o andar do meio da hunt, nao um 8 fixo: com z fixo o centro caia
+		-- fora do recorte em qualquer hunt que nao tivesse esse andar
+		andares[math.ceil(#andares / 2)])
 end
 
 local function perguntarSaida(player, slot)
@@ -97,10 +116,17 @@ function InstanceFronteiras.registrar(slot)
 	local t = slot.template.template
 	local zona = Zone(string.format("hunt.%s.slot.%d.area",
 		slot.template.slug, slot.indice))
-	for _, z in ipairs(t.andares) do
+	local h = huntDe(slot.template)
+	-- Os andares da HUNT, nao os do recorte. O recorte inclui tambem o andar
+	-- por onde se sai -- sem ele a escada nao existiria e o jogador ficaria
+	-- preso. Mas se a zona cobrisse esse andar tambem, descer a escada nao
+	-- seria sair: o jogador desceria e andaria a vontade pela margem, que foi
+	-- o que aconteceu em Lower Roshamuul. Pisar no andar de saida tem de
+	-- disparar o dialogo, e para isso ele fica FORA da zona.
+	for _, z in ipairs(slot.template.andaresHunt or t.andares) do
 		zona:addArea(
-			Position(slot.origem.x + HUNT.x0, slot.origem.y + HUNT.y0, z),
-			Position(slot.origem.x + HUNT.x1, slot.origem.y + HUNT.y1, z))
+			Position(slot.origem.x + h.x0, slot.origem.y + h.y0, z),
+			Position(slot.origem.x + h.x1, slot.origem.y + h.y1, z))
 	end
 	slot.zonaHunt = zona
 

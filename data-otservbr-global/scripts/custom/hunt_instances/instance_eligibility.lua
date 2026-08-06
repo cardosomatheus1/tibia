@@ -16,13 +16,29 @@ local function chaveCooldown(player, template)
 		:scoped(tostring(player:getAccountId()))
 end
 
+--- Staff nao espera cooldown.
+--
+-- O cooldown existe para o jogador nao entrar e sair em sequencia; quem
+-- administra o servidor precisa do contrario -- entrar de novo agora mesmo
+-- para conferir o que acabou de mudar. Sem isto cada teste custava 5 minutos
+-- parados, e a tentacao seria baixar o cooldown de todo mundo.
+local function ehStaff(player)
+	return player:getAccountType() >= ACCOUNT_TYPE_GAMEMASTER
+end
+
 function InstanceEligibility.cooldownRestante(player, template)
+	if ehStaff(player) then
+		return 0
+	end
 	local ate = chaveCooldown(player, template):get("ate") or 0
 	local falta = ate - os.time()
 	return falta > 0 and falta or 0
 end
 
 function InstanceEligibility.aplicarCooldown(player, template)
+	if ehStaff(player) then
+		return
+	end
 	chaveCooldown(player, template):set("ate",
 		os.time() + template.cooldownMinutos * 60)
 end
