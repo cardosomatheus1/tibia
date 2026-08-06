@@ -120,8 +120,12 @@ function InstanceCleaner.limpar(slot, motivo)
 			"A instancia foi encerrada.")
 	end
 
-	slot.run = nil
-	slot.estado = InstancePool.ESTADOS.FREE
+	-- Devolve pelo InstancePool, nao na mao. Marcar estado = FREE aqui pulava
+	-- o descarregar: o slot voltava ao pool e o recorte ficava na memoria para
+	-- sempre. Passou despercebido porque o /testecarga chama liberar direto --
+	-- ele testava o caminho do teste, nao o do jogo. Em duas runs reais foram
+	-- 2 cargas e 0 descargas.
+	InstancePool.liberar(slot, motivo)
 
 	logger.info("[hunt-instance] slot {} limpo ({}): {} itens removidos, "
 		.. "{} de cenario preservados, {} jogador(es) retirado(s)",
