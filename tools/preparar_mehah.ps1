@@ -17,7 +17,17 @@
 
 .PARAMETER ArtefatoZip
     windows-cmake-release.zip, baixado de
-    https://github.com/mehah/otclient/actions (secao Artifacts do run).
+    https://github.com/cardosomatheus1/otclient/actions (secao Artifacts do run).
+
+    E' o NOSSO FORK, nao o mehah. O fork existe por causa de uma correcao que
+    nao da' para fazer de fora: o client cortava a aware range enviada pelo
+    servidor -- min(awareRange, drawDimension/2 - 1) com drawDimension 18x14
+    limitava a 8 e 6, os valores originais do Canary --, e a borda entre o que
+    ele desenha e o que considera valido saia sem dado, mostrando a cor de
+    limpeza do framebuffer. E' o quadrado azul que aparecia correndo rapido e a
+    cada hit recebido. Ver docs/superpowers/specs/2026-08-06-quadrado-azul-diagnostico.md
+
+    Pegar o artefato do mehah faz a correcao sumir sem aviso nenhum.
 
 .PARAMETER ClientOficialZip
     tibia-client-15.25.*.zip, de
@@ -47,7 +57,9 @@ param(
     [int]    $Porta = 8088,
     [int]    $Protocolo = 1525,
     [string] $NomeApp = "Tibia rhapsodyyy",
-    [string] $FonteMehah = "https://github.com/mehah/otclient.git",
+    # O fork, nao o upstream: modules/ e data/ precisam vir do mesmo lugar que
+    # o binario, senao o Lua nao casa com o C++ patchado.
+    [string] $FonteMehah = "https://github.com/cardosomatheus1/otclient.git",
     [string] $CommitMehah,
     [switch] $PularSprites
 )
@@ -80,7 +92,8 @@ if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
 # interface entre o C++ e o Lua muda nesse intervalo, e o sintoma disso e'
 # silencioso: nao ha erro no log, so coisa que deixa de ser desenhada.
 #
-# O SHA esta na pagina do run do Actions de onde o zip foi baixado.
+# O SHA esta na pagina do run do Actions de onde o zip foi baixado -- do NOSSO
+# fork (cardosomatheus1/otclient), nao do mehah.
 $temp = Join-Path ([System.IO.Path]::GetTempPath()) ("mehah-src-" + [guid]::NewGuid().ToString('N').Substring(0, 8))
 if ($CommitMehah) {
     Write-Passo "Baixando o codigo-fonte do mehah no commit $CommitMehah"
