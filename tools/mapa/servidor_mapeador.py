@@ -566,6 +566,36 @@ def fazer_handler(est: Estado, exemplo: dict):
                 # arquivos: escolher no seletor de arquivo do sistema seria
                 # pior do que uma lista aqui, ainda mais para conferir varias
                 # em sequencia.
+                if self.path == "/salvas":
+                    lista = []
+                    for arq in sorted(PASTA_SALVAS.glob("hunt_*.json")):
+                        try:
+                            d = json.loads(arq.read_text(encoding="utf-8"))
+                        except (OSError, ValueError):
+                            continue
+                        lista.append({
+                            "id": d.get("id", 0), "nome": d.get("nome", ""),
+                            "arquivo": arq.name, "andares": d.get("andares", []),
+                            "tiles": sum(len(v) for v in d.get("limites", {}).values()),
+                            "temObelisco": bool(d.get("obelisco")),
+                            "temInicio": bool(d.get("inicio")),
+                        })
+                    lista.sort(key=lambda h: (h["id"], h["nome"]))
+                    self._envia(json.dumps(lista).encode("utf-8"),
+                                "application/json; charset=utf-8", cachear=False)
+                    return
+
+                m = re.match(r"^/salvas/([A-Za-z0-9_.\-]+\.json)$", self.path)
+                if m:
+                    arq = PASTA_SALVAS / m.group(1)
+                    if (arq.resolve().parent != PASTA_SALVAS.resolve()
+                            or not arq.is_file()):
+                        self.send_error(404)
+                        return
+                    self._envia(arq.read_bytes(),
+                                "application/json; charset=utf-8", cachear=False)
+                    return
+
                 if self.path == "/revisadas":
                     lista = []
                     for arq in sorted(PASTA_REVISADAS.glob("hunt_*.json")):

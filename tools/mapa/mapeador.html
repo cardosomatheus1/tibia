@@ -94,6 +94,16 @@ textarea{width:100%;height:120px;background:#1a1a20;color:var(--tx);
   </div>
   <div class="linha"><button onclick="carregarExemplo()">Carregar exemplo (Ciclopes)</button></div>
 
+  <h3>Salvas (rascunho)</h3>
+  <div class="linha">
+    <select id="selSalva" style="flex:1"></select>
+    <button onclick="abrirSalva()">Abrir</button>
+  </div>
+  <div class="linha">
+    <button onclick="aprovarSalva()">✅ Aprovar a selecionada</button>
+  </div>
+  <div id="infoSalva" style="font-size:12px;color:var(--dim)"></div>
+
   <h3>Contornadas sozinhas</h3>
   <div class="linha">
     <select id="filtroConf" onchange="listarAutomaticas()" style="width:96px">
@@ -761,6 +771,52 @@ async function abrirAutomatica() {
   } catch (e) { info.textContent = 'falhou: ' + e.message; }
 }
 
+// ---------------------------------------------------------- hunts salvas
+// Rascunho: o que o botao Salvar gravou. Ficam separadas das aprovadas de
+// proposito, mas faltava a ponte -- dava para salvar e nao havia como levar
+// para as aprovadas sem reabrir tudo na mao.
+async function listarSalvas() {
+  const sel = document.getElementById('selSalva');
+  const info = document.getElementById('infoSalva');
+  try {
+    const lista = await (await fetch('/salvas')).json();
+    sel.innerHTML = lista.map(h => {
+      const falta = [!h.temObelisco && 'obelisco', !h.temInicio && 'início'].filter(Boolean);
+      return `<option value="${h.arquivo}">[${h.id}] ${h.nome} — ${h.tiles} tiles`
+           + (falta.length ? ` (falta ${falta.join(' e ')})` : '') + `</option>`;
+    }).join('');
+    info.textContent = lista.length ? `${lista.length} rascunho(s)` : 'nenhum rascunho';
+  } catch (e) { info.textContent = 'não consegui ler a pasta: ' + e.message; }
+}
+
+async function abrirSalva() {
+  const arq = document.getElementById('selSalva').value;
+  if (!arq) return;
+  const info = document.getElementById('infoSalva');
+  try {
+    aplicarHunt(await (await fetch('/salvas/' + encodeURIComponent(arq))).json());
+    info.textContent = 'aberta: ' + arq;
+  } catch (e) { info.textContent = 'falhou: ' + e.message; }
+}
+
+async function aprovarSalva() {
+  const arq = document.getElementById('selSalva').value;
+  if (!arq) return;
+  const info = document.getElementById('infoSalva');
+  try {
+    // manda o arquivo como esta', sem passar pela tela: aprovar nao deveria
+    // depender de a hunt certa estar aberta
+    const doc = await (await fetch('/salvas/' + encodeURIComponent(arq))).json();
+    const r = await (await fetch('/revisar', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(doc),
+    })).json();
+    info.textContent = r.erro ? 'não aprovou: ' + r.erro
+      : `aprovada como #${r.numero}` + (r.substituiu ? ' (atualizou a anterior)' : '');
+    if (!r.erro) listarRevisadas();
+  } catch (e) { info.textContent = 'não aprovou: ' + e.message; }
+}
+
 // --------------------------------------------------------- hunts aprovadas
 // As que ja foram conferidas e podem virar instancia. Numeracao propria e
 // sequencial: a planilha tem 525 linhas e so' um punhado vira hunt de
@@ -918,7 +974,7 @@ async function iniciar() {
   } else {
     carregarExemplo();
   }
-  if (MODO_SERVIDOR) { listarAutomaticas(); listarRevisadas(); }
+  if (MODO_SERVIDOR) { listarAutomaticas(); listarRevisadas(); listarSalvas(); }
 }
 iniciar();
 </script>
