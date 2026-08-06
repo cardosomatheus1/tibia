@@ -8,17 +8,24 @@
 -- seriam ~5,7 GB. Agora quem carrega e' o InstancePool.carregar, na entrada, e
 -- o InstancePool.descarregar devolve na saida.
 --
--- A ZONA continua nascendo aqui, e de proposito: addArea itera toda posicao do
--- retangulo, o que e' aceitavel uma vez no boot e proibitivo por execucao. E
--- zona nao depende de tile existir -- e' so' coordenada.
+-- O OBJETO da zona continua nascendo aqui, porque Zone nao e' destruivel. A
+-- AREA dela nao: ela custa mais que o proprio recorte -- medido, tirar os 54
+-- recortes do boot economizou 103 MB e dobrar os slots tinha custado 795 -- e
+-- agora sobe e desce junto com o mapa, no InstancePool.
 
 local function montarZonas(template)
-	local t = template.template
+	-- Cria os OBJETOS de zona e liga o comportamento deles. A AREA nao entra
+	-- aqui: ela custa mais que o recorte do mapa e agora sobe e desce junto com
+	-- ele, no InstancePool.montarAreas.
+	--
+	-- Medido: tirar os 54 recortes do boot economizou 103 MB, mas dobrar os
+	-- slots tinha custado 795. A diferenca eram as zonas -- cada posicao do
+	-- retangulo guardada duas vezes (zone.hpp:187 e :199), vezes DUAS zonas por
+	-- slot, a do pool e a da fronteira.
+	--
+	-- Zone nao e' destruivel, entao o objeto nasce aqui e vive para sempre. Isso
+	-- e' barato: o que pesa e' a area, e essa da' para tirar com subtractArea.
 	for _, slot in ipairs(InstancePool.todos(template)) do
-		local a = InstancePool.area(slot)
-		for _, z in ipairs(t.andares) do
-			slot.zona:addArea(Position(a.x0, a.y0, z), Position(a.x1, a.y1, z))
-		end
 		-- Sem SpawnMonster associado, isInSpawnRange() devolve true sempre
 		-- (monster.cpp:3321) e o monstro nunca e' puxado de volta. Sem isto
 		-- ele passeia pra fora da instancia.
@@ -56,21 +63,23 @@ end
 -- Log de "pronto" sem isto so prova que o script rodou, nao que o mapa
 -- chegou. Erro de carga e' silencioso: Map::load engole o e.what().
 local function conferir(template)
-	-- Nao confere mais se o tile existe: agora nao deve existir mesmo antes de
-	-- alguem entrar. O que se confere e' a zona, que nasce no boot.
-	local ok, semArea = 0, {}
+	-- Nem tile nem area de zona sao conferidos aqui: os dois entram sob
+	-- demanda, entao no boot o certo e' NAO existirem. O que se confere e' o
+	-- que tem de estar de pe' antes de alguem chegar -- o slot registrado, o
+	-- objeto de zona criado e a fronteira ligada.
+	local ok, falhos = 0, {}
 	for _, slot in ipairs(InstancePool.todos(template)) do
-		if #slot.zona:getPositions() == 0 then
-			semArea[#semArea + 1] = slot.indice
-		else
+		if slot.zona and slot.zonaHunt then
 			ok = ok + 1
+		else
+			falhos[#falhos + 1] = slot.indice
 		end
 	end
 	logger.info("[hunt-instance] {}: {}/{} slots com zona (mapa sob demanda)",
 		template.slug, ok, #InstancePool.todos(template))
-	if #semArea > 0 then
+	if #falhos > 0 then
 		logger.error("[hunt-instance] {} SEM ZONA nos slots: {}",
-			template.slug, table.concat(semArea, ","))
+			template.slug, table.concat(falhos, ","))
 	end
 end
 
@@ -82,12 +91,9 @@ function ev.onStartup()
 			InstancePool.registrar(template)
 			criarSeletor(template)
 
-			-- addArea itera toda posicao do retangulo e o refresh re-itera;
-			-- para 169x121x5 isso e' aceitavel UMA vez no boot, e proibitivo
-			-- por execucao. Por isso as zonas nascem aqui, nunca por run.
-			-- Nao ha mais carga assincrona para esperar, mas as zonas seguem
-			-- fora do onStartup: addArea em 9 hunts x 6 slots dentro do boot
-			-- atrasaria o servidor a subir.
+			-- So' os objetos de zona e o trapMonsters; a area entra na
+			-- primeira entrada de cada slot.
+			-- Segue fora do onStartup so' para nao atrasar o servidor a subir.
 			addEvent(function()
 				montarZonas(template)
 				conferir(template)

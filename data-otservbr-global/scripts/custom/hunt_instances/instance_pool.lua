@@ -103,6 +103,7 @@ function InstancePool.carregar(slot, pronto)
 	end
 	local caminho = DATA_DIRECTORY .. slot.template.template.caminho
 	Game.loadMapChunk(caminho, Position(slot.origem.x, slot.origem.y, 0))
+	InstancePool.montarAreas(slot)
 
 	local tentativa = 0
 	local function conferir()
@@ -124,6 +125,64 @@ function InstancePool.carregar(slot, pronto)
 	addEvent(conferir, ESPERA_MS)
 end
 
+-- ------------------------------------------------------------- as zonas
+--
+-- A area da zona custa MAIS que o recorte, e foi a surpresa da medicao: tirar
+-- os 54 recortes do boot economizou 103 MB, quando dobrar os slots tinha
+-- custado 795. A diferenca sao as zonas.
+--
+-- Cada posicao do retangulo e' guardada duas vezes: no
+-- `phmap::flat_hash_set<Position>` da propria zona (zone.hpp:187) e como chave
+-- do mapa global `zonesByPosition`, que ainda leva um vector de shared_ptr
+-- (zone.hpp:199). Sao milhoes de entradas para 9 hunts x 6 slots x area x
+-- andares -- e sao DUAS zonas por slot: a do pool e a da fronteira.
+--
+-- O comentario antigo dizia que addArea por execucao seria proibitivo. Nao e':
+-- sao ~28 mil insercoes em hash set, na casa dos milissegundos, e a entrada ja
+-- espera a carga do recorte. Proibitivo era pagar isso 108 vezes no boot e
+-- manter para sempre.
+--
+-- Zone NAO e' destruivel (nao ha Zone:remove()), mas subtractArea existe -- e
+-- e' o que faltava. O objeto da zona nasce no boot e vive para sempre; a AREA
+-- entra e sai junto com o recorte.
+function InstancePool.montarAreas(slot)
+	local a = InstancePool.area(slot)
+	for _, z in ipairs(slot.template.template.andares) do
+		slot.zona:addArea(Position(a.x0, a.y0, z), Position(a.x1, a.y1, z))
+	end
+	if slot.zonaHunt then
+		local h = slot.template.fronteira
+			or { x0 = 16, y0 = 16,
+			     x1 = slot.template.template.largura - 17,
+			     y1 = slot.template.template.altura - 17 }
+		for _, z in ipairs(slot.template.andaresHunt
+			or slot.template.template.andares) do
+			slot.zonaHunt:addArea(
+				Position(slot.origem.x + h.x0, slot.origem.y + h.y0, z),
+				Position(slot.origem.x + h.x1, slot.origem.y + h.y1, z))
+		end
+	end
+end
+
+function InstancePool.desmontarAreas(slot)
+	local a = InstancePool.area(slot)
+	for _, z in ipairs(slot.template.template.andares) do
+		slot.zona:subtractArea(Position(a.x0, a.y0, z), Position(a.x1, a.y1, z))
+	end
+	if slot.zonaHunt then
+		local h = slot.template.fronteira
+			or { x0 = 16, y0 = 16,
+			     x1 = slot.template.template.largura - 17,
+			     y1 = slot.template.template.altura - 17 }
+		for _, z in ipairs(slot.template.andaresHunt
+			or slot.template.template.andares) do
+			slot.zonaHunt:subtractArea(
+				Position(slot.origem.x + h.x0, slot.origem.y + h.y0, z),
+				Position(slot.origem.x + h.x1, slot.origem.y + h.y1, z))
+		end
+	end
+end
+
 --- Devolve a memoria do recorte. Recusa se ainda houver criatura dentro.
 function InstancePool.descarregar(slot)
 	if not Game.unloadMapChunk then
@@ -137,6 +196,10 @@ function InstancePool.descarregar(slot)
 	if n == 0 then
 		logger.warn("[hunt-instance] slot {} do {} nao descarregou "
 			.. "(criatura dentro?)", slot.indice, slot.template.slug)
+	else
+		-- so' tira a area se o mapa saiu: zona sem area com tile de pe'
+		-- deixaria o beforeLeave cego e o jogador andaria para fora sem aviso
+		InstancePool.desmontarAreas(slot)
 	end
 	return n
 end

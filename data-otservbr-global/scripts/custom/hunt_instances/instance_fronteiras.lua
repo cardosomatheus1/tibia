@@ -116,18 +116,15 @@ function InstanceFronteiras.registrar(slot)
 	local t = slot.template.template
 	local zona = Zone(string.format("hunt.%s.slot.%d.area",
 		slot.template.slug, slot.indice))
-	local h = huntDe(slot.template)
-	-- Os andares da HUNT, nao os do recorte. O recorte inclui tambem o andar
-	-- por onde se sai -- sem ele a escada nao existiria e o jogador ficaria
-	-- preso. Mas se a zona cobrisse esse andar tambem, descer a escada nao
-	-- seria sair: o jogador desceria e andaria a vontade pela margem, que foi
-	-- o que aconteceu em Lower Roshamuul. Pisar no andar de saida tem de
-	-- disparar o dialogo, e para isso ele fica FORA da zona.
-	for _, z in ipairs(slot.template.andaresHunt or t.andares) do
-		zona:addArea(
-			Position(slot.origem.x + h.x0, slot.origem.y + h.y0, z),
-			Position(slot.origem.x + h.x1, slot.origem.y + h.y1, z))
-	end
+	-- A AREA nao entra aqui: quem a poe e' o InstancePool.montarAreas, na
+	-- entrada, e quem a tira e' o desmontarAreas, na saida. Guardar a area de
+	-- 108 zonas para sempre custava mais que os recortes do mapa.
+	--
+	-- Quais andares e qual retangulo esta no InstancePool, junto com o do pool,
+	-- para os dois nao divergirem. O criterio continua o mesmo: a zona cobre os
+	-- andares da HUNT, nao os do recorte -- o andar de saida fica FORA dela, e
+	-- e' isso que faz descer a escada disparar o dialogo em vez de deixar o
+	-- jogador andando pela margem.
 	slot.zonaHunt = zona
 
 	local ev = ZoneEvent(zona)
