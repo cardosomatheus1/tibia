@@ -121,25 +121,28 @@ foreach ($f in @('servidor_mapeador.py', 'otbm.py', 'render.py', 'ver_item.py',
 Copy-Item (Join-Path $raiz 'tools\sprites\tibia_assets.py') $app -Force
 Ok "10 arquivos"
 
-# As hunts que o achar_hunts.py contornou sozinho, prontas para abrir na lista
-# "Contornadas sozinhas". Vao embutidas de proposito: gerar de novo exige o
-# mapa aberto e ~2 minutos, e a graca e' quem instala ja abrir com o trabalho
-# feito. Ficam ao lado do servidor porque e' assim que ele as procura.
-$hunts = Join-Path $aqui 'hunts_automaticas'
-if (Test-Path $hunts) {
+# As hunts contornadas pelo achar_hunts.py e as ja revisadas. Vao embutidas de
+# proposito: gerar de novo exige o mapa aberto e ~2 minutos, e a graca e' quem
+# instala ja abrir com o trabalho feito e vendo o que ja foi aprovado. Ficam ao
+# lado do servidor porque e' assim que ele as procura.
+foreach ($par in @(@('hunts_automaticas', 'contornadas'),
+                   @('hunts_revisadas',   'revisadas'))) {
+    $origemHunts = Join-Path $aqui $par[0]
+    if (-not (Test-Path $origemHunts)) {
+        Aviso "sem $($par[0]) -- nada a embutir"
+        continue
+    }
     # Copy-Item para um destino que JA existe poe a pasta dentro dela mesma
     # (app\hunts_automaticas\hunts_automaticas). A contagem no topo continuava
     # dando 40 e so' o tamanho denunciava: 24 MB viraram 47 na segunda
     # montagem. Apagar antes evita o aninhamento a cada rebuild.
-    $destHunts = Join-Path $app 'hunts_automaticas'
+    $destHunts = Join-Path $app $par[0]
     if (Test-Path $destHunts) { Remove-Item -Recurse -Force $destHunts }
-    Copy-Item $hunts $destHunts -Recurse -Force
-    $n = (Get-ChildItem (Join-Path $app 'hunts_automaticas') -Filter 'hunt_*.json').Count
-    $mb = [int]((Get-ChildItem (Join-Path $app 'hunts_automaticas') -Recurse |
-                 Measure-Object -Property Length -Sum).Sum / 1MB)
-    Ok "$n hunts contornadas ($mb MB)"
-} else {
-    Aviso "sem hunts_automaticas -- rode o achar_hunts.py antes se quiser embuti-las"
+    Copy-Item $origemHunts $destHunts -Recurse -Force
+    $n = (Get-ChildItem $destHunts -Filter 'hunt_*.json').Count
+    $mb = [math]::Round((Get-ChildItem $destHunts -Recurse |
+                         Measure-Object -Property Length -Sum).Sum / 1MB, 1)
+    Ok "$n hunts $($par[1]) ($mb MB)"
 }
 
 # --- 4. dados do datapack ----------------------------------------------------
