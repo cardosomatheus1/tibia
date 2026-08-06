@@ -158,6 +158,28 @@ Promessa:
    voltando pela porta dos fundos, que é exatamente o que a instância existe
    para eliminar. Com 6 slots e uma hunt na moda, acontece.
 
+   **Medido em 2026-08-06, e o número decide a questão:** dobrar de 6 para 12
+   slots nas 9 hunts levou o servidor de 2004 MB para 2799 MB de RSS. São
+   ~13 MB por slot. Extrapolando para as 65 hunts já contornadas, a 12 slots
+   cada, dá ~5,7 GB só de instâncias numa VPS de 8 GB -- e nem a 6 slots fecha
+   (~2,9 GB). Pré-alocar não escala: é requisito, não otimização.
+
+   **O que falta tecnicamente.** `Game.loadMapChunk(path, position, remove)`
+   tem `remove` na assinatura, mas a implementação ignora -- só lê path e
+   position (game_functions.cpp:302). Não existe descarregar.
+
+   O caminho existe: `Map::setTile(x, y, z, tile)` guarda um
+   `shared_ptr<Tile>` num array fixo do Floor (mapsector.hpp:25). Zerar libera
+   o Tile e os itens dentro dele, que são o grosso da memória; o array do
+   Floor continua alocado, mas é pequeno perto do conteúdo.
+
+   Falta então uma `Game.unloadMapChunk(position, largura, altura, andares)`
+   que percorra a região e zere. Riscos a tratar no spec: criatura ainda
+   segurando referência ao tile, topologia de navegação
+   (`markNavigationTopologyChanged`) e caches de spectator. É mexer no núcleo
+   do mapa, que é a área mais arriscada do servidor -- pede spec próprio e
+   teste de 100 ciclos como o da Etapa 6.
+
    Enquanto não for sob demanda, o paliativo é mostrar no obelisco quantos
    slots estão livres -- não resolve, só evita a viagem perdida.
 
