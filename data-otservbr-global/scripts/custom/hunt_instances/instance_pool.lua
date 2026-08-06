@@ -208,7 +208,12 @@ function InstancePool.descarregar(slot)
 		if tentativa <= 6 then
 			addEvent(function()
 				if slot.estado == ESTADOS.FREE and not slot.run then
-					InstancePool.descarregar(slot)
+					local n2 = InstancePool.descarregar(slot)
+					if n2 > 0 then
+						logger.info("[hunt-instance] slot {} do {} descarregado "
+							.. "na tentativa {}: {} tiles liberados",
+							slot.indice, slot.template.slug, tentativa, n2)
+					end
 				end
 			end, 500)
 		else
@@ -217,8 +222,13 @@ function InstancePool.descarregar(slot)
 				slot.indice, slot.template.slug, tentativa)
 			slot.tentativasDescarga = nil
 		end
-	else
+	elseif slot.tentativasDescarga then
+		-- veio de uma tentativa: quem loga e' o retry, para nao repetir a
+		-- mesma linha duas vezes
 		slot.tentativasDescarga = nil
+		InstancePool.desmontarAreas(slot)
+		return n
+	else
 		-- so' tira a area se o mapa saiu: zona sem area com tile de pe'
 		-- deixaria o beforeLeave cego e o jogador andaria para fora sem aviso
 		InstancePool.desmontarAreas(slot)
