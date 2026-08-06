@@ -73,6 +73,32 @@ local function agendar(slot, ponto)
 end
 
 --- Monta os pontos do slot e nasce todo mundo. Chamado ao criar a execucao.
+--- Boss nao nasce em instancia.
+--
+-- Numa instancia privada quem decide quando abrir e quando fechar e' o
+-- jogador, entao o respawn do boss passaria a ser decisao dele: bastaria
+-- entrar, matar, sair e entrar de novo. Isso quebra o unico limite que um boss
+-- tem, que e' o tempo.
+--
+-- A checagem e' dupla de proposito. A lista gerada cobre os 99 bosses que se
+-- reconhecem apenas por morarem em monster/bosses/ -- Ancient Lion Knight e
+-- The Flaming Orchid, que caem dentro de hunts nossas, sao dois deles. A API
+-- cobre o caso inverso: boss novo que entre no datapack depois da lista ter
+-- sido gerada, contanto que traga bossRaceId ou isRewardBoss.
+local function ehBoss(nome)
+	if HuntInstanceBosses and HuntInstanceBosses[nome] then
+		return true, "lista"
+	end
+	local mt = MonsterType(nome)
+	if not mt then
+		return false
+	end
+	if (mt:bossRaceId() or 0) > 0 or mt:isRewardBoss() then
+		return true, "bosstiary"
+	end
+	return false
+end
+
 function InstanceSpawns.iniciar(slot)
 	local defs = HuntInstanceSpawns and HuntInstanceSpawns[slot.template.slug]
 	if not defs then
@@ -84,22 +110,35 @@ function InstanceSpawns.iniciar(slot)
 	slot.pontos = {}
 	slot.spawnsAtivos = true
 	local nascidos = 0
+	local barrados = {}
 	for _, def in ipairs(defs) do
-		local ponto = {
-			def = def,
-			pos = InstancePool.posicaoReal(slot, def),
-			criatura = nil,
-			evento = nil,
-		}
-		slot.pontos[#slot.pontos + 1] = ponto
-		if nascer(slot, ponto) then
-			nascidos = nascidos + 1
+		local boss, porque = ehBoss(def.nome)
+		if boss then
+			-- nem entra em slot.pontos: sem ponto nao ha respawn agendado
+			barrados[#barrados + 1] = def.nome .. " (" .. porque .. ")"
 		else
-			agendar(slot, ponto)
+			local ponto = {
+				def = def,
+				pos = InstancePool.posicaoReal(slot, def),
+				criatura = nil,
+				evento = nil,
+			}
+			slot.pontos[#slot.pontos + 1] = ponto
+			if nascer(slot, ponto) then
+				nascidos = nascidos + 1
+			else
+				agendar(slot, ponto)
+			end
 		end
 	end
+	if #barrados > 0 then
+		-- em warning, nao info: e' hunt mal montada, e o aviso tem de doer o
+		-- suficiente para alguem tirar o boss do JSON em vez de conviver com ele
+		logger.warning("[hunt-instance] {}: {} boss(es) barrado(s): {}",
+			slot.template.slug, #barrados, table.concat(barrados, ", "))
+	end
 	logger.info("[hunt-instance] slot {} do {}: {}/{} monstros nasceram",
-		slot.indice, slot.template.slug, nascidos, #defs)
+		slot.indice, slot.template.slug, nascidos, #defs - #barrados)
 	return nascidos
 end
 

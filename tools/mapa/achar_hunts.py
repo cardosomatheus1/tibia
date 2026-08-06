@@ -47,6 +47,27 @@ from otbm import Mapa  # noqa: E402
 
 VIZINHOS = tuple((dx, dy) for dx in (-1, 0, 1) for dy in (-1, 0, 1) if (dx, dy) != (0, 0))
 
+RE_BOSS = re.compile(r"bossRaceId\s*=\s*\d|isRewardBoss\s*=\s*true")
+
+
+def ler_bosses(pasta: Path) -> set[str]:
+    """Nomes que nao podem virar spawn de instancia.
+
+    Mesmo criterio do tools/gerar_lista_bosses.py: a pasta monster/bosses/ mais
+    o campo do bosstiary. Nenhum dos dois sozinho basta -- 99 bosses so' estao
+    na pasta e 126 arquivos com o campo moram fora dela.
+    """
+    achados = set()
+    for arq in pasta.rglob("*.lua"):
+        texto = arq.read_text(encoding="utf-8", errors="replace")
+        nome = re.search(r'createMonsterType\(\s*"([^"]+)"', texto)
+        if nome and ("bosses" in arq.parts or RE_BOSS.search(texto)):
+            achados.add(nome.group(1))
+    return achados
+
+
+BOSSES: set[str] = set()
+
 
 RE_MONSTRO = re.compile(r'createMonsterType\(\s*"([^"]+)"')
 RE_EXP = re.compile(r"monster\.experience\s*=\s*(\d+)")
@@ -212,11 +233,20 @@ def montar_doc(h, especies, do_grupo, local, tipo, origem_nome, descartados,
     conjuntos = {z: {tuple(t) for t in lista} for z, lista in limites.items()}
     dentro: dict[str, list[dict]] = {}
     total_mon = 0
+    barrados: Counter = Counter()
     for x, y, z, nomes in spawns:
         s = conjuntos.get(str(z))
         if not s or (x, y) not in s:
             continue
         for n in nomes:
+            # Boss dentro do contorno nao entra na hunt. Numa instancia
+            # privada quem decide quando abrir e fechar e' o jogador, entao o
+            # respawn do boss viraria decisao dele: entrar, matar, sair,
+            # entrar de novo. O servidor tambem barra na hora de nascer, mas
+            # deixar no JSON so' empurraria o problema para la'.
+            if n in BOSSES:
+                barrados[n] += 1
+                continue
             dentro.setdefault(str(z), []).append(
                 {"nome": n, "x": x, "y": y, "z": z,
                  "rx": x - org["x"], "ry": y - org["y"]})
@@ -274,6 +304,7 @@ def montar_doc(h, especies, do_grupo, local, tipo, origem_nome, descartados,
             "pureza": pureza, "confianca": confianca,
             "expEsperada": exp, "expDentro": exp_dentro,
             "alcance": args.alcance, "margem": args.margem,
+            "bossesBarrados": dict(barrados.most_common()),
         },
     }
     return doc, conjuntos, ""
@@ -368,6 +399,10 @@ def main() -> int:
         for n in nomes:
             por_especie[n].append((x, y, z))
     print(f"{len(spawns)} pontos, {len(por_especie)} especies")
+
+    global BOSSES
+    BOSSES = ler_bosses(RAIZ / "data-otservbr-global/monster")
+    print(f"{len(BOSSES)} bosses ficam de fora")
 
     print("lendo forca dos monstros...", end=" ", flush=True)
     forca = ler_forca(RAIZ / "data-otservbr-global/monster")
