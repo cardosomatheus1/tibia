@@ -144,8 +144,22 @@ Promessa:
 
 5. **Mais hunts instanciadas.** Há 65 contornadas automaticamente esperando
    revisão. O gargalo é revisar, não gerar.
-6. **Ver o que está livre.** Sem isso o jogador vai ao obelisco e descobre
-   ocupado -- reintroduz a espera que a instância existe para eliminar.
+6. **Slots sob demanda em vez de pré-alocados.** Hoje são 6 por hunt, 54 no
+   total, e os recortes entram na memória no boot estejam em uso ou não --
+   3,6 M de tiles residentes com o servidor vazio. É por isso que são 6 e não
+   50: cada slot custa memória 24 h por dia.
+
+   Carregando o recorte na entrada e descarregando no fim, o teto deixa de ser
+   um número escolhido e passa a ser a memória no pico. Pelos logs, os 54
+   carregam em ~2 s (≈40 ms cada), então a entrada não fica perceptivelmente
+   mais lenta.
+
+   Isto importa mais do que parece: "acabaram os slots" é a espera de respawn
+   voltando pela porta dos fundos, que é exatamente o que a instância existe
+   para eliminar. Com 6 slots e uma hunt na moda, acontece.
+
+   Enquanto não for sob demanda, o paliativo é mostrar no obelisco quantos
+   slots estão livres -- não resolve, só evita a viagem perdida.
 
 Higiene:
 
