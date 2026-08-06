@@ -1786,6 +1786,15 @@
         ],
         "return": "number",
         "source": "src/lua/functions/core/game/game_functions.cpp"
+      },
+      {
+        "name": "unloadMapChunk",
+        "params": [
+          "fromPosition: Position",
+          "toPosition: Position"
+        ],
+        "return": "number",
+        "source": "src/lua/functions/core/game/game_functions.cpp"
       }
     ],
     "GlobalEvent": [

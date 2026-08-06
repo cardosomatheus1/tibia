@@ -973,6 +973,11 @@ function Game.setWorldType(type) end
 ---@return number
 function Game.startRaid(raidName) end
 
+---@param fromPosition Position
+---@param toPosition Position
+---@return number
+function Game.unloadMapChunk(fromPosition, toPosition) end
+
 ---@class GlobalEvent
 GlobalEvent = {}
 

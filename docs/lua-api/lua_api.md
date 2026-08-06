@@ -1161,6 +1161,11 @@ C++ Lua binding handlers and registration lines can override inferred signatures
 - Returns: `number`
 - Source: `src/lua/functions/core/game/game_functions.cpp`
 
+#### `Game.unloadMapChunk(fromPosition: Position, toPosition: Position)`
+
+- Returns: `number`
+- Source: `src/lua/functions/core/game/game_functions.cpp`
+
 ### GlobalEvent
 
 #### `GlobalEvent:interval(interval: number)`
