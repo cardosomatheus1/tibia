@@ -109,6 +109,80 @@ não paga vê.
 - client próprio com janela de mapa ampliada, distribuído por updater
 - mapeador de hunts com contorno automático (65 hunts de level 200+)
 
+## Decomposição em subprojetos
+
+Organizado por meta de jogadores online, como decidido. Cada subprojeto ganha
+seu próprio spec quando chegar a vez -- isto é o mapa, não a planta.
+
+Três trilhas correm em paralelo, e a ordem dentro de cada uma importa mais que
+a ordem entre elas:
+
+- **Promessa** — o que faz alguém escolher este servidor
+- **Higiene** — o que faz alguém não ir embora
+- **Economia** — o que faz o servidor durar mais de seis meses
+
+### Fase 0 — antes de convidar alguém de fora (hoje, ~10 online)
+
+Higiene, e é tudo dívida já existente:
+
+1. **Backup automático e testado.** Banco e mapa, diário, com restauração
+   provada. Hoje não existe -- e uma perda de dados neste ponto encerra o
+   projeto. É o único item que sozinho justifica adiar o convite.
+2. **Testar as 8 hunts que subiram e nunca foram jogadas.** Entrada, saída
+   pela borda, monstros, retorno. Só Lower Roshamuul foi.
+3. **Monitoramento com alerta.** Saber que o servidor caiu antes do jogador
+   avisar. Uptime e disco.
+
+Promessa:
+
+4. **Bônus de party por vocação** (+20/35/70/100%). Premia jogar junto, que é
+   o oposto de disputar -- alinha com a promessa e o RubinOT já valida.
+
+### Fase 1 — divulgação pequena (meta: 30–50 online)
+
+Promessa:
+
+5. **Mais hunts instanciadas.** Há 65 contornadas automaticamente esperando
+   revisão. O gargalo é revisar, não gerar.
+6. **Ver o que está livre.** Sem isso o jogador vai ao obelisco e descobre
+   ocupado -- reintroduz a espera que a instância existe para eliminar.
+
+Higiene:
+
+7. **Site e gerenciamento de conta.** Criar conta, recuperar senha, ver
+   personagens. Sem isto não há como alguém de fora entrar.
+8. **Regras escritas e canal de suporte.** Discord serve. O que é banível,
+   quem responde, em quanto tempo.
+
+Economia:
+
+9. **Sumidouro atrelado à instância.** O item aberto acima. Tem de existir
+   ANTES de a base crescer -- introduzir sumidouro depois é tirar coisa da
+   mão de quem já tem, e isso gera revolta.
+
+### Fase 2 — público de verdade (meta: 100–200 online)
+
+10. **Loja de conveniência.** Só depois de haver gente suficiente para
+    justificar o trabalho e o risco fiscal. Regra já decidida: o não-pagante
+    chega no mesmo lugar, só que mais devagar.
+11. **Anti-bot.** Antes disso o problema não existe em escala; depois, define
+    se a economia sobrevive.
+12. **Novidade além da instância.** O item 1 dos temas em aberto. Fica aqui
+    porque precisa da promessa definida primeiro -- construir novidade sem
+    saber o que o servidor é dá conteúdo solto.
+
+### Fase 3 — durar (meta: 300+)
+
+13. Escala de VPS, política de wipe/temporada, eventos recorrentes,
+    infraestrutura de suporte. Não detalhado: é longe demais para desenhar
+    agora com honestidade.
+
+### O que NÃO entra
+
+Rates absurdas, PvP pesado e conteúdo próprio grande foram descartados como
+prioridade: nenhum serve a promessa de "jogue o tempo que tem, sem disputar".
+Podem voltar como bônus, nunca como eixo.
+
 ## Como retomar
 
 Sessão nova, dizendo "continuar o roadmap do OT" e apontando este arquivo. O
