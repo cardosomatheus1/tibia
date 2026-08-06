@@ -13,12 +13,24 @@ estrutura e gente. O roadmap se organiza em fases por meta, não em datas.
 gente e ganhar dinheiro. Isso torna uptime, backup e suporte parte do roadmap,
 não detalhe de operação.
 
-**Monetização é de conveniência, nunca de poder.** Nada de vender item. O que
-se vende:
+**Monetização é de conveniência, nunca de poder.** Nada de vender item.
 
+**A hunt instanciada NÃO fica atrás de paywall.** Foi a proposta inicial (1
+semana grátis, depois só premium) e foi descartada: ela é o único diferencial
+construído, e cobrar por ela é cobrar pela própria promessa do servidor. O
+jogador que não paga -- que é a maioria -- passaria a ver um OT comum.
+
+O que se vende, então, é o atrito em volta dela, não o acesso:
+
+- mais slots de instância simultâneos (mais fila, não hunt melhor)
+- cooldown menor entre entradas
 - loot pouch
-- premium account
-- acesso à hunt instanciada (1 semana grátis, depois só premium)
+- premium account (depot, market, offline training, leilão de casa)
+- cosmético: outfit, mount, título
+- serviços de conta: mudar nome, slot extra de personagem
+
+Regra que decide qualquer item novo da loja: **o não-pagante chega no mesmo
+lugar, só que mais devagar.** Exp, loot e dano nunca entram.
 
 ## Em aberto — a próxima pergunta
 
