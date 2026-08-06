@@ -56,6 +56,27 @@ Cuidado que precisa estar no spec: sumidouro caro demais afasta o jogador
 casual, que é justamente o público que a promessa mira. Drenar não pode virar
 pedágio.
 
+### A instância é a maior torneira do servidor
+
+Levantado pelo usuário, e não estava previsto. Tirar a disputa de respawn não
+deixa o loot igual: **multiplica**. No mapa público, os melhores spots são
+poucos e disputados -- é a escassez que segura a entrada de itens. Com 9 hunts
+× 6 slots, cabem 54 grupos caçando ao mesmo tempo nos melhores lugares do
+jogo, sem esperar, sem KS, sem dividir.
+
+Ou seja: o diferencial do servidor é também a maior fonte de inflação dele. E
+piora com o que já foi decidido -- instância grátis para todos, sem paywall.
+
+A saída que fecha o círculo é a entrada da instância **consumir algo que
+queima**. Não dinheiro real (isso é a monetização, decidida à parte), e não
+taxa entre jogadores (não destrói nada): algo que some do jogo ao entrar.
+Assim o sumidouro cresce exatamente na mesma proporção da torneira, sem
+precisar calibrar dois números independentes -- quanto mais gente caça,
+mais queima.
+
+Fica em aberto o que é esse consumo, e a régua é a mesma de sempre: não pode
+virar pedágio para quem joga 2 h por dia.
+
 ## Em aberto — a próxima pergunta
 
 **Qual é a promessa do servidor?** Por que alguém sairia do servidor onde já
