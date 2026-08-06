@@ -132,9 +132,12 @@ function InstanceSpawns.iniciar(slot)
 		end
 	end
 	if #barrados > 0 then
-		-- em warning, nao info: e' hunt mal montada, e o aviso tem de doer o
-		-- suficiente para alguem tirar o boss do JSON em vez de conviver com ele
-		logger.warning("[hunt-instance] {}: {} boss(es) barrado(s): {}",
+		-- warn, nao info: e' hunt mal montada, e o aviso tem de doer o
+		-- suficiente para alguem tirar o boss do JSON em vez de conviver com ele.
+		-- E' `warn`, nao `warning` -- esta API nao tem `warning`, e a chamada
+		-- errada derrubava o iniciar() inteiro: o boss era barrado direitinho e
+		-- a instancia morria na linha de log, logo depois.
+		logger.warn("[hunt-instance] {}: {} boss(es) barrado(s): {}",
 			slot.template.slug, #barrados, table.concat(barrados, ", "))
 	end
 	logger.info("[hunt-instance] slot {} do {}: {}/{} monstros nasceram",
