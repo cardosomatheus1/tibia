@@ -32,6 +32,30 @@ O que se vende, então, é o atrito em volta dela, não o acesso:
 Regra que decide qualquer item novo da loja: **o não-pagante chega no mesmo
 lugar, só que mais devagar.** Exp, loot e dano nunca entram.
 
+## Dois temas que o roadmap tem de cobrir
+
+**1. Novidade além da instância.** A hunt instanciada sozinha não sustenta o
+servidor: é um diferencial, não um catálogo. Falta descobrir o que mais puxa
+público. Ainda não explorado.
+
+**2. Economia com dreno, não só torneira.** O problema não é quanto entra, é
+que quase nada sai. Tibia Coin infla porque a oferta é contínua (loja, farm) e
+os sumidouros são poucos e baratos. A referência que o usuário trouxe são os
+jogos de NFT, que quebraram exatamente por isso: emitiam moeda sem queimar.
+
+O princípio: **todo ganho recorrente precisa de um gasto recorrente do mesmo
+tamanho**, e o gasto tem de destruir a moeda, não transferi-la entre jogadores
+-- taxa de leilão não queima nada, só muda de dono.
+
+Sumidouros que o Tibia já tem e podem ser calibrados: aluguel de casa
+(recorrente, e já está semanal aqui), imbuements (consome e expira), blessings
+(consome na morte), potions e runas, taxa de troca de nome. Falta desenhar os
+específicos do nosso servidor.
+
+Cuidado que precisa estar no spec: sumidouro caro demais afasta o jogador
+casual, que é justamente o público que a promessa mira. Drenar não pode virar
+pedágio.
+
 ## Em aberto — a próxima pergunta
 
 **Qual é a promessa do servidor?** Por que alguém sairia do servidor onde já
