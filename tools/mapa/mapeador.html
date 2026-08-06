@@ -106,6 +106,16 @@ textarea{width:100%;height:120px;background:#1a1a20;color:var(--tx);
   </div>
   <div class="linha"><button onclick="abrirAutomatica()">Abrir a selecionada</button></div>
   <div id="infoAuto" style="font-size:12px;color:var(--dim)"></div>
+
+  <h3>Revisadas (prontas para implementar)</h3>
+  <div class="linha">
+    <select id="selRev" style="flex:1"></select>
+    <button onclick="abrirRevisada()">Abrir</button>
+  </div>
+  <div class="linha">
+    <button onclick="marcarRevisada()">✅ Aprovar a hunt aberta</button>
+  </div>
+  <div id="infoRev" style="font-size:12px;color:var(--dim)"></div>
   <textarea id="resumo" readonly></textarea>
 </div>
 
@@ -644,6 +654,7 @@ function montarSaida() {
     totalMonstros: mons.total,
     monstrosPorTipo: contagemPorTipo(mons),
     limites: lim,
+    automatico: hunt.automatico || undefined,
     gerado: new Date().toISOString().slice(0, 19),
   };
 }
@@ -661,6 +672,9 @@ function aplicarHunt(d) {
     d.nome || (nomeDoCatalogo(huntAtual) || '');
   hunt.obelisco = d.obelisco || null;
   hunt.inicio = d.inicio || null;
+  // guarda de onde a hunt veio: e' o que distingue "contornada sozinha" de
+  // "desenhada na mao" quando ela for aprovada
+  hunt.automatico = d.automatico || null;
   hunt.limites = {};
   for (const [k, arr] of Object.entries(d.limites || {})) {
     const s = setDo(k);
@@ -747,6 +761,64 @@ async function abrirAutomatica() {
   } catch (e) { info.textContent = 'falhou: ' + e.message; }
 }
 
+// --------------------------------------------------------- hunts aprovadas
+// As que ja foram conferidas e podem virar instancia. Numeracao propria e
+// sequencial: a planilha tem 525 linhas e so' um punhado vira hunt de
+// verdade, entao numerar por ela deixaria buracos e nao diria nada sobre a
+// ordem de implementacao. Vale tanto para as contornadas sozinhas quanto
+// para as desenhadas na mao -- o que muda e' so o campo `origem`.
+async function listarRevisadas() {
+  const sel = document.getElementById('selRev');
+  const info = document.getElementById('infoRev');
+  try {
+    const lista = await (await fetch('/revisadas')).json();
+    sel.innerHTML = lista.map(h =>
+      `<option value="${h.arquivo}">#${h.numero} ${h.nome} — ${h.tiles} tiles</option>`
+    ).join('');
+    const semInicio = lista.filter(h => !h.temInicio).length;
+    info.textContent = lista.length
+      ? `${lista.length} aprovada(s)` + (semInicio ? `, ${semInicio} sem início` : '')
+      : 'nenhuma ainda';
+  } catch (e) { info.textContent = 'não consegui ler a pasta: ' + e.message; }
+}
+
+async function abrirRevisada() {
+  const arq = document.getElementById('selRev').value;
+  if (!arq) return;
+  const info = document.getElementById('infoRev');
+  try {
+    const d = await (await fetch('/revisadas/' + encodeURIComponent(arq))).json();
+    aplicarHunt(d);
+    const r = d.revisada || {};
+    info.textContent = `#${r.numero} ${d.nome} — aprovada em ${(r.em || '').slice(0, 10)}`
+      + `, origem ${r.origem || '?'}`;
+  } catch (e) { info.textContent = 'falhou: ' + e.message; }
+}
+
+async function marcarRevisada() {
+  const saida = montarSaida();
+  if (!saida) return;
+  const info = document.getElementById('infoRev');
+  // o obelisco e o inicio nao saem do mapa, sao escolha de quem desenha --
+  // avisar aqui evita mandar para o servidor uma hunt sem porta de entrada
+  if (!saida.obelisco || !saida.inicio) {
+    info.textContent = 'falta ' + (!saida.obelisco ? 'marcar o obelisco' : '')
+      + (!saida.obelisco && !saida.inicio ? ' e ' : '')
+      + (!saida.inicio ? 'marcar o início' : '') + ' antes de aprovar.';
+    return;
+  }
+  try {
+    const r = await (await fetch('/revisar', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(saida),
+    })).json();
+    info.textContent = r.erro ? 'não aprovou: ' + r.erro
+      : `aprovada como #${r.numero}` + (r.substituiu ? ' (atualizou a anterior)' : '')
+        + ` em ${r.pasta}`;
+    if (!r.erro) listarRevisadas();
+  } catch (e) { info.textContent = 'não aprovou: ' + e.message; }
+}
+
 // ------------------------------------------------------- troca de hunt
 // Cada id guarda a propria marcacao. Sem isto, trocar de hunt mantinha o
 // que ja estava pintado e o JSON da hunt nova saia com os limites da
@@ -762,7 +834,8 @@ function instantaneo() {
   for (const [k, s] of Object.entries(hunt.limites))
     if (s.size) lim[k] = [...s];
   return { id: huntAtual, nome: document.getElementById('huntNome').value,
-           obelisco: hunt.obelisco, inicio: hunt.inicio, limites: lim };
+           obelisco: hunt.obelisco, inicio: hunt.inicio, limites: lim,
+           automatico: hunt.automatico || undefined };
 }
 
 function armazem() {
@@ -845,7 +918,7 @@ async function iniciar() {
   } else {
     carregarExemplo();
   }
-  if (MODO_SERVIDOR) listarAutomaticas();
+  if (MODO_SERVIDOR) { listarAutomaticas(); listarRevisadas(); }
 }
 iniciar();
 </script>

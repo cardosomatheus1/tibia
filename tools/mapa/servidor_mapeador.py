@@ -45,6 +45,12 @@ PASTA_AUTOMATICAS = AQUI / "hunts_automaticas"
 # achar_hunts.py de novo apaga e reescreve aquela pasta, e levar junto o que a
 # pessoa corrigiu na mao seria perder trabalho.
 PASTA_SALVAS = AQUI / "hunts_salvas"
+
+# As aprovadas: as que ja foram conferidas e podem virar instancia. Tem
+# numeracao propria, sequencial, separada do id da planilha -- a planilha tem
+# 525 linhas e so' um punhado vira hunt de verdade, entao numerar por ela
+# deixaria buracos e nao diria nada sobre ordem de implementacao.
+PASTA_REVISADAS = AQUI / "hunts_revisadas"
 sys.path.insert(0, str(AQUI))
 sys.path.insert(0, str(RAIZ / "tools/sprites"))
 
@@ -442,6 +448,9 @@ def fazer_handler(est: Estado, exemplo: dict):
             # navegador, misturado com todo o resto e com nome que o navegador
             # inventa quando repete -- aqui fica um lugar so', que sobrevive a
             # fechar a aba e da' para pegar depois.
+            if self.path == "/revisar":
+                self._revisar()
+                return
             if self.path != "/salvar":
                 self.send_error(404)
                 return
@@ -459,6 +468,68 @@ def fazer_handler(est: Estado, exemplo: dict):
                                encoding="utf-8")
                 self._envia(json.dumps({"arquivo": arq.name,
                                         "pasta": str(PASTA_SALVAS)}).encode("utf-8"),
+                            "application/json; charset=utf-8", cachear=False)
+            except (ValueError, OSError, UnicodeDecodeError) as e:
+                self._envia(json.dumps({"erro": str(e)}).encode("utf-8"),
+                            "application/json; charset=utf-8", cachear=False)
+
+        def _revisar(self):
+            """Promove a hunt aberta para a lista das aprovadas.
+
+            Recusa o que nao daria para instanciar: sem limites nao ha o que
+            recortar, sem obelisco nao ha por onde entrar, sem inicio nao ha
+            onde o jogador aparece. Melhor barrar aqui do que descobrir com o
+            servidor no ar.
+            """
+            try:
+                n = int(self.headers.get("Content-Length") or 0)
+                doc = json.loads(self.rfile.read(n).decode("utf-8"))
+                if not isinstance(doc, dict):
+                    raise ValueError("corpo invalido")
+
+                faltando = []
+                if not doc.get("limites"):
+                    faltando.append("limites (pinte a area)")
+                if not doc.get("obelisco"):
+                    faltando.append("obelisco (por onde se entra)")
+                if not doc.get("inicio"):
+                    faltando.append("inicio (onde o jogador aparece)")
+                if faltando:
+                    raise ValueError("falta " + ", ".join(faltando))
+
+                PASTA_REVISADAS.mkdir(parents=True, exist_ok=True)
+                # Revisar de novo a MESMA hunt reaproveita o numero, senao
+                # cada correcao criaria uma aprovada nova e a lista encheria
+                # de versoes da mesma coisa.
+                numero, antigo = 0, None
+                usados = set()
+                for arq in PASTA_REVISADAS.glob("hunt_*.json"):
+                    try:
+                        d = json.loads(arq.read_text(encoding="utf-8"))
+                    except (OSError, ValueError):
+                        continue
+                    num = d.get("revisada", {}).get("numero", d.get("id", 0))
+                    usados.add(num)
+                    if d.get("nome") == doc.get("nome"):
+                        numero, antigo = num, arq
+                if not numero:
+                    numero = max(usados, default=0) + 1
+
+                doc["revisada"] = {
+                    "numero": numero,
+                    "em": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                    "origem": "automatica" if doc.get("automatico") else "manual",
+                }
+                nome = re.sub(r"[^A-Za-z0-9]+", "_",
+                              str(doc.get("nome") or "sem_nome")).strip("_") or "sem_nome"
+                arq = PASTA_REVISADAS / f"hunt_{numero}_{nome}.json"
+                arq.write_text(json.dumps(doc, ensure_ascii=False, indent=1),
+                               encoding="utf-8")
+                if antigo and antigo != arq:
+                    antigo.unlink(missing_ok=True)   # renomeou: nao deixa as duas
+                self._envia(json.dumps({"numero": numero, "arquivo": arq.name,
+                                        "pasta": str(PASTA_REVISADAS),
+                                        "substituiu": bool(antigo)}).encode("utf-8"),
                             "application/json; charset=utf-8", cachear=False)
             except (ValueError, OSError, UnicodeDecodeError) as e:
                 self._envia(json.dumps({"erro": str(e)}).encode("utf-8"),
@@ -495,6 +566,40 @@ def fazer_handler(est: Estado, exemplo: dict):
                 # arquivos: escolher no seletor de arquivo do sistema seria
                 # pior do que uma lista aqui, ainda mais para conferir varias
                 # em sequencia.
+                if self.path == "/revisadas":
+                    lista = []
+                    for arq in sorted(PASTA_REVISADAS.glob("hunt_*.json")):
+                        try:
+                            d = json.loads(arq.read_text(encoding="utf-8"))
+                        except (OSError, ValueError):
+                            continue
+                        r = d.get("revisada", {})
+                        lista.append({
+                            "numero": r.get("numero", d.get("id", 0)),
+                            "id": d.get("id", 0), "nome": d.get("nome", ""),
+                            "arquivo": arq.name, "andares": d.get("andares", []),
+                            "tiles": sum(len(v) for v in d.get("limites", {}).values()),
+                            "monstros": d.get("totalMonstros", 0),
+                            "temObelisco": bool(d.get("obelisco")),
+                            "temInicio": bool(d.get("inicio")),
+                            "origem": r.get("origem", "?"),
+                        })
+                    lista.sort(key=lambda h: h["numero"])
+                    self._envia(json.dumps(lista).encode("utf-8"),
+                                "application/json; charset=utf-8", cachear=False)
+                    return
+
+                m = re.match(r"^/revisadas/([A-Za-z0-9_.\-]+\.json)$", self.path)
+                if m:
+                    arq = PASTA_REVISADAS / m.group(1)
+                    if (arq.resolve().parent != PASTA_REVISADAS.resolve()
+                            or not arq.is_file()):
+                        self.send_error(404)
+                        return
+                    self._envia(arq.read_bytes(),
+                                "application/json; charset=utf-8", cachear=False)
+                    return
+
                 if self.path == "/automaticas":
                     pasta = PASTA_AUTOMATICAS
                     lista = []

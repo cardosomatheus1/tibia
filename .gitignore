@@ -439,3 +439,7 @@ tools/mapa/hunts_automaticas/
 
 # Hunts que o usuario salva pelo botao do mapeador.
 tools/mapa/hunts_salvas/
+
+# Hunts revisadas e salvas: dados de quem esta usando, nao codigo.
+tools/mapa/hunts_revisadas/
+tools/mapa/hunts_salvas/
