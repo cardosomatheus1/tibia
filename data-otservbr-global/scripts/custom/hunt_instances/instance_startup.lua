@@ -1,15 +1,16 @@
 -- Carga das copias fisicas e montagem do pool, no boot.
 -- Spec: docs/spec_hunt_instanciada_v2.md secoes 3.1, 8.4 e 21.1.
 
-local function carregarCopias(template)
-	local caminho = DATA_DIRECTORY .. template.template.caminho
-	for i, origem in ipairs(template.slotOrigens) do
-		-- pos.z = 0 SEMPRE: o recorte ja guarda o andar absoluto (5-9).
-		Game.loadMapChunk(caminho, Position(origem.x, origem.y, 0))
-		logger.info("[hunt-instance] {} slot {} pedido em ({}, {})",
-			template.slug, i, origem.x, origem.y)
-	end
-end
+-- O recorte NAO entra mais na memoria no boot.
+--
+-- Pre-alocar custa ~13 MB por slot mesmo vazio -- medido, 6 para 12 slots em 9
+-- hunts levou o servidor de 2004 para 2799 MB. Com as 65 hunts contornadas
+-- seriam ~5,7 GB. Agora quem carrega e' o InstancePool.carregar, na entrada, e
+-- o InstancePool.descarregar devolve na saida.
+--
+-- A ZONA continua nascendo aqui, e de proposito: addArea itera toda posicao do
+-- retangulo, o que e' aceitavel uma vez no boot e proibitivo por execucao. E
+-- zona nao depende de tile existir -- e' so' coordenada.
 
 local function montarZonas(template)
 	local t = template.template
@@ -55,24 +56,18 @@ end
 -- Log de "pronto" sem isto so prova que o script rodou, nao que o mapa
 -- chegou. Erro de carga e' silencioso: Map::load engole o e.what().
 local function conferir(template)
-	local ok, semTile, semArea = 0, {}, {}
+	-- Nao confere mais se o tile existe: agora nao deve existir mesmo antes de
+	-- alguem entrar. O que se confere e' a zona, que nasce no boot.
+	local ok, semArea = 0, {}
 	for _, slot in ipairs(InstancePool.todos(template)) do
-		local rel = template.entradasRelativas[1]
-		local tile = Tile(InstancePool.posicaoReal(slot, rel))
-		if not (tile and tile:getGround()) then
-			semTile[#semTile + 1] = slot.indice
-		elseif #slot.zona:getPositions() == 0 then
+		if #slot.zona:getPositions() == 0 then
 			semArea[#semArea + 1] = slot.indice
 		else
 			ok = ok + 1
 		end
 	end
-	logger.info("[hunt-instance] {}: {}/{} slots com mapa e zona",
+	logger.info("[hunt-instance] {}: {}/{} slots com zona (mapa sob demanda)",
 		template.slug, ok, #InstancePool.todos(template))
-	if #semTile > 0 then
-		logger.error("[hunt-instance] {} SEM MAPA nos slots: {}",
-			template.slug, table.concat(semTile, ","))
-	end
 	if #semArea > 0 then
 		logger.error("[hunt-instance] {} SEM ZONA nos slots: {}",
 			template.slug, table.concat(semArea, ","))
@@ -85,17 +80,18 @@ function ev.onStartup()
 	for _, template in pairs(HuntInstances) do
 		if template.enabled then
 			InstancePool.registrar(template)
-			carregarCopias(template)
 			criarSeletor(template)
 
 			-- addArea itera toda posicao do retangulo e o refresh re-itera;
 			-- para 169x121x5 isso e' aceitavel UMA vez no boot, e proibitivo
 			-- por execucao. Por isso as zonas nascem aqui, nunca por run.
-			-- Espera a carga assincrona do loadMapChunk terminar antes.
+			-- Nao ha mais carga assincrona para esperar, mas as zonas seguem
+			-- fora do onStartup: addArea em 9 hunts x 6 slots dentro do boot
+			-- atrasaria o servidor a subir.
 			addEvent(function()
 				montarZonas(template)
 				conferir(template)
-			end, 5000)
+			end, 1000)
 		end
 	end
 	return true

@@ -47,12 +47,28 @@ local function entrarPrivado(player)
 		return false
 	end
 
-	local ok = InstanceManager.criarExecucao(template, slot, membros)
-	if not ok then
-		InstancePool.liberar(slot, "falha ao criar execucao")
-		player:sendCancelMessage("Nao foi possivel abrir a instancia.")
-		return false
-	end
+	-- O recorte nao esta na memoria: entra agora e sai quando a instancia
+	-- acabar. E' assincrono, entao o resto acontece no retorno -- teleportar
+	-- antes do mapa existir joga o jogador num buraco.
+	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Preparando sua instancia...")
+	InstancePool.carregar(slot, function(carregou)
+		if not carregou then
+			InstancePool.liberar(slot, "mapa nao carregou")
+			player:sendCancelMessage("Nao foi possivel abrir a instancia.")
+			return
+		end
+		-- os membros podem ter se dispersado durante a carga; revalida
+		local aindaVale = InstanceEligibility.validarEntrada(player, template)
+		if not aindaVale then
+			InstancePool.liberar(slot, "party desfeita durante a carga")
+			player:sendCancelMessage("A party mudou. Tente de novo.")
+			return
+		end
+		if not InstanceManager.criarExecucao(template, slot, aindaVale) then
+			InstancePool.liberar(slot, "falha ao criar execucao")
+			player:sendCancelMessage("Nao foi possivel abrir a instancia.")
+		end
+	end)
 	return true
 end
 

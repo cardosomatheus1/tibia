@@ -174,6 +174,8 @@ end""",
         f"""if not (HuntInstances and HuntInstances.{chave}) then
 	dofile(DATA_DIRECTORY .. "/scripts/custom/hunt_instances/catalogo_{slug}.lua")
 end""")
+    # O modelo ja traz a carga sob demanda (InstancePool.carregar), entao
+    # seletor novo nasce com ela -- nao ha nada a substituir aqui.
     texto = modelo.replace("HuntInstances.thaisCyclops", f"HuntInstances.{chave}")
     texto = texto.replace("-- Seletor de entrada:",
                           f"-- Seletor de entrada de {nome}.\n"
