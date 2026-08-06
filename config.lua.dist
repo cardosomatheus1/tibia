@@ -44,11 +44,11 @@ whiteSkullTime = 15 * 60 * 1000
 stairJumpExhaustion = 2 * 1000
 experienceByKillingPlayers = false
 expFromPlayersLevelRange = 75
-dayKillsToRedSkull = 3
-weekKillsToRedSkull = 5
-monthKillsToRedSkull = 10
-redSkullDuration = 1
-blackSkullDuration = 3
+dayKillsToRedSkull = 7
+weekKillsToRedSkull = 14
+monthKillsToRedSkull = 21
+redSkullDuration = 5
+blackSkullDuration = 14
 orangeSkullDuration = 7
 loginProtectionTime = 10 * 1000
 
@@ -411,7 +411,7 @@ toggleCyclopediaHouseAuction = true
 daysToCloseBid = 7
 housePriceRentMultiplier = 0.0
 housePriceEachSQM = 1000
-houseRentPeriod = "monthly"
+houseRentPeriod = "weekly"
 houseRentRate = 1.0
 houseOwnedByAccount = false
 houseBuyLevel = 100
@@ -581,11 +581,11 @@ sortLootByChance = false
 -- NOTE: rateExp, rateSkill and rateMagic is used when 'rateUseStages = false' - or a fallback only
 -- To configure rates see file data/stages.lua
 -- lowLevelBonusExp works up to level 50
-rateUseStages = false
+rateUseStages = true
 lowLevelBonusExp = 50
 rateExp = 1
 rateSkill = 1
-rateLoot = 1
+rateLoot = 2.5
 rateMagic = 1
 rateSpawn = 1
 
