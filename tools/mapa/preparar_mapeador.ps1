@@ -127,7 +127,13 @@ Ok "10 arquivos"
 # feito. Ficam ao lado do servidor porque e' assim que ele as procura.
 $hunts = Join-Path $aqui 'hunts_automaticas'
 if (Test-Path $hunts) {
-    Copy-Item $hunts (Join-Path $app 'hunts_automaticas') -Recurse -Force
+    # Copy-Item para um destino que JA existe poe a pasta dentro dela mesma
+    # (app\hunts_automaticas\hunts_automaticas). A contagem no topo continuava
+    # dando 40 e so' o tamanho denunciava: 24 MB viraram 47 na segunda
+    # montagem. Apagar antes evita o aninhamento a cada rebuild.
+    $destHunts = Join-Path $app 'hunts_automaticas'
+    if (Test-Path $destHunts) { Remove-Item -Recurse -Force $destHunts }
+    Copy-Item $hunts $destHunts -Recurse -Force
     $n = (Get-ChildItem (Join-Path $app 'hunts_automaticas') -Filter 'hunt_*.json').Count
     $mb = [int]((Get-ChildItem (Join-Path $app 'hunts_automaticas') -Recurse |
                  Measure-Object -Property Length -Sum).Sum / 1MB)
