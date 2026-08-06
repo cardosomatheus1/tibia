@@ -29,6 +29,12 @@ on:
       - "CMakePresets.json"
       - "vcpkg.json"
       - ".github/workflows/build-manual.yml"
+      # docs/lua-api entra porque o build CONFERE se ela esta em dia com os
+      # bindings, e o passo roda depois de compilar. Um binding novo derruba o
+      # build ali; a correcao mexe so' em docs, nao dispara build nenhum, e o
+      # conserto fica parado sem ninguem entender por que. Aconteceu com o
+      # Game.unloadMapChunk.
+      - "docs/lua-api/**"
   workflow_dispatch:
     inputs:
       buildtypes:
