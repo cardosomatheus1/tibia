@@ -305,6 +305,37 @@ LinhaAlvo < Panel
     minimum: 1
     maximum: 10
 
+// ---- linha de atalho: [rotulo] [tecla escolhida] [x] ----
+LinhaTecla < Panel
+  height: 22
+  anchors.left: parent.left
+  anchors.right: parent.right
+
+  Label
+    id: rotulo
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 6
+    width: 108
+    height: 16
+
+  Button
+    id: bt
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 4
+    width: 104
+    height: 18
+
+  Button
+    id: limpar
+    !text: 'x'
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 4
+    width: 20
+    height: 18
+
 // ================= aba: HEALING =================
 PainelHealing < Panel
   ACSecao
@@ -476,6 +507,48 @@ PainelTools < Panel
       margin-left: 6
       height: 18
       width: 240
+
+  // Teclas de atalho: a combinacao e' escolhida pelo jogador, nada fixo.
+  ACSecao
+    id: boxTeclas
+    anchors.top: prev.bottom
+    margin-top: 6
+    height: 148
+
+    ACTitulo
+      id: t
+      !text: tr('Teclas de atalho')
+      anchors.top: parent.top
+
+    ACCabecalho
+      id: dica
+      !text: tr('Clique no botao e aperte a tecla. Esc limpa.')
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-left: 6
+      margin-top: 2
+
+    LinhaTecla
+      id: tGeral
+      anchors.top: prev.bottom
+      margin-top: 4
+
+    LinhaTecla
+      id: tCura
+      anchors.top: prev.bottom
+
+    LinhaTecla
+      id: tMagia
+      anchors.top: prev.bottom
+
+    LinhaTecla
+      id: tRuna
+      anchors.top: prev.bottom
+
+    LinhaTecla
+      id: tMagiaRuna
+      anchors.top: prev.bottom
 
 // ================= aba: CASTER =================
 PainelCaster < Panel

@@ -35,6 +35,14 @@ end
 local function padroes()
   return {
     ligado = false,
+    -- Liga/desliga por categoria. As teclas de atalho mexem nestas chaves; as
+    -- linhas individuais continuam mandando DENTRO de cada categoria, entao
+    -- desligar aqui nao apaga a configuracao de ninguem -- so' suspende.
+    chaves = { cura = true, magia = true, runa = true },
+    -- Combinacao escolhida pelo jogador (ex.: "=", "'", "Ctrl+G"). "" = sem
+    -- atalho. magiaRuna liga e desliga as duas categorias de uma vez, que e'
+    -- o atalho que o RTCaster tem.
+    teclas = { geral = "", cura = "", magia = "", runa = "", magiaRuna = "" },
     healing = {
       spell  = { linhaCura(true,  "exura gran", 0, 60),
                  linhaCura(false, "exura",      0, 80),
@@ -82,6 +90,22 @@ local function configValida(c)
   if type(c.target) ~= "table" or type(c.target.lista) ~= "table" or #c.target.lista < 4 then return false end
   if type(ca.rune) ~= "table" or #ca.rune < 2 then return false end
   return true
+end
+
+-- Campos acrescentados depois que gente ja tinha preset salvo. Preencher o que
+-- falta e' melhor do que reprovar em configValida: reprovar joga fora TODA a
+-- configuracao do jogador so' porque uma chave nova nao existia ainda.
+local function migrarConfig(c)
+  if type(c) ~= "table" then return end
+  local p = padroes()
+  if type(c.chaves) ~= "table" then c.chaves = p.chaves end
+  if type(c.teclas) ~= "table" then c.teclas = p.teclas end
+  for k, v in pairs(p.chaves) do
+    if type(c.chaves[k]) ~= "boolean" then c.chaves[k] = v end
+  end
+  for k, v in pairs(p.teclas) do
+    if type(c.teclas[k]) ~= "string" then c.teclas[k] = v end
+  end
 end
 
 -- ------------------------------------------------------------ util
@@ -281,35 +305,39 @@ local function passo()
   local mobs = monstrosPerto(7)
   local alvo = g_game.getAttackingCreature() or maisProximo(mobs)
 
-  -- 1) cura em spell (prioridade maxima). A ordem das linhas e' a preferencia:
-  -- se a de cima nao esta pronta de verdade, a de baixo e' tentada.
-  for _, l in ipairs(cfg.healing.spell) do
-    if l.on and l.texto ~= "" and hp < l.pct and castar(l.texto) then
-      return l.texto .. " (hp " .. hp .. "%)"
+  -- A chave de cura cobre os tres blocos seguintes (magia, potion e amigo):
+  -- e' isso que a tecla de atalho de "cura" liga e desliga.
+  if cfg.chaves.cura then
+    -- 1) cura em spell (prioridade maxima). A ordem das linhas e' a preferencia:
+    -- se a de cima nao esta pronta de verdade, a de baixo e' tentada.
+    for _, l in ipairs(cfg.healing.spell) do
+      if l.on and l.texto ~= "" and hp < l.pct and castar(l.texto) then
+        return l.texto .. " (hp " .. hp .. "%)"
+      end
     end
-  end
 
-  -- 2) potions: a primeira usa hp, a segunda usa mp
-  for i, l in ipairs(cfg.healing.potion) do
-    local valor = (i == 1) and hp or mp
-    if l.on and l.item > 0 and valor < l.pct and podeAgir("hp" .. i, 900) then
-      usarItem(l.item, p); return "potion " .. l.item .. " (" .. valor .. "%)"
+    -- 2) potions: a primeira usa hp, a segunda usa mp
+    for i, l in ipairs(cfg.healing.potion) do
+      local valor = (i == 1) and hp or mp
+      if l.on and l.item > 0 and valor < l.pct and podeAgir("hp" .. i, 900) then
+        usarItem(l.item, p); return "potion " .. l.item .. " (" .. valor .. "%)"
+      end
     end
-  end
 
-  -- 3) cura de amigo (sio por spell, uh por runa)
-  for i, l in ipairs(cfg.healing.amigo) do
-    if l.on then
-      local amigo = amigoFerido(l.pct)
-      if amigo then
-        -- o sio leva o nome no fim, entao nao passa pelo castar()
-        if l.texto ~= "" and magiaPronta(l.texto) and podeAgir("gcd", 250) then
-          falar(l.texto .. ' "' .. amigo:getName())
-          marcarCast(l.texto)
-          return l.texto .. " -> " .. amigo:getName()
-        elseif l.texto == "" and l.item > 0 and podeAgir("am" .. i, 1000) then
-          usarItem(l.item, amigo)
-          return "runa " .. l.item .. " -> " .. amigo:getName()
+    -- 3) cura de amigo (sio por spell, uh por runa)
+    for i, l in ipairs(cfg.healing.amigo) do
+      if l.on then
+        local amigo = amigoFerido(l.pct)
+        if amigo then
+          -- o sio leva o nome no fim, entao nao passa pelo castar()
+          if l.texto ~= "" and magiaPronta(l.texto) and podeAgir("gcd", 250) then
+            falar(l.texto .. ' "' .. amigo:getName())
+            marcarCast(l.texto)
+            return l.texto .. " -> " .. amigo:getName()
+          elseif l.texto == "" and l.item > 0 and podeAgir("am" .. i, 1000) then
+            usarItem(l.item, amigo)
+            return "runa " .. l.item .. " -> " .. amigo:getName()
+          end
         end
       end
     end
@@ -331,14 +359,18 @@ local function passo()
 
   -- 5) shooter, em ordem de preferencia
   local fila = {}
-  for i, l in ipairs(cfg.caster.spell) do
-    if l.on and l.texto ~= "" then
-      table.insert(fila, { l = l, k = "cs" .. i, runa = false, ordem = #fila })
+  if cfg.chaves.magia then
+    for i, l in ipairs(cfg.caster.spell) do
+      if l.on and l.texto ~= "" then
+        table.insert(fila, { l = l, k = "cs" .. i, runa = false, ordem = #fila })
+      end
     end
   end
-  for i, l in ipairs(cfg.caster.rune) do
-    if l.on and l.item > 0 then
-      table.insert(fila, { l = l, k = "cr" .. i, runa = true, ordem = #fila })
+  if cfg.chaves.runa then
+    for i, l in ipairs(cfg.caster.rune) do
+      if l.on and l.item > 0 then
+        table.insert(fila, { l = l, k = "cr" .. i, runa = true, ordem = #fila })
+      end
     end
   end
   -- table.sort do Lua NAO e' estavel: com prioridades iguais a ordem saia
@@ -495,6 +527,72 @@ local function cuidarDoAlvo(mobs, hp)
     alvoDesde = agora()
     if t.perseguir and g_game.getChaseMode() ~= ChaseOpponent then
       g_game.setChaseMode(ChaseOpponent)
+    end
+  end
+end
+
+-- ------------------------------------------------- teclas de atalho
+-- O jogador escolhe a combinacao; nada fica fixo no codigo. Guardamos o que
+-- foi ligado para conseguir desligar depois -- se rebindar sem soltar o
+-- anterior, a tecla velha continua respondendo alem da nova.
+
+local teclasAtivas = {}
+local atualizarChavesNaTela   -- definido junto com a interface
+
+local function aviso(texto)
+  local tm = modules.game_textmessage
+  if tm and tm.displayStatusMessage then tm.displayStatusMessage(texto) end
+end
+
+local function estado(v) return v and "ligado" or "desligado" end
+
+-- cada acao devolve o texto que aparece na tela
+local ACOES = {
+  geral = function()
+    cfg.ligado = not cfg.ligado
+    return "AutoCaster " .. estado(cfg.ligado)
+  end,
+  cura = function()
+    cfg.chaves.cura = not cfg.chaves.cura
+    return "Cura " .. estado(cfg.chaves.cura)
+  end,
+  magia = function()
+    cfg.chaves.magia = not cfg.chaves.magia
+    return "Magia " .. estado(cfg.chaves.magia)
+  end,
+  runa = function()
+    cfg.chaves.runa = not cfg.chaves.runa
+    return "Runa " .. estado(cfg.chaves.runa)
+  end,
+  -- as duas juntas, como no RTCaster. Se estiverem divergentes, o primeiro
+  -- toque LIGA as duas -- e' o que se espera de um atalho unico.
+  magiaRuna = function()
+    local novo = not (cfg.chaves.magia and cfg.chaves.runa)
+    cfg.chaves.magia, cfg.chaves.runa = novo, novo
+    return "Magia + runa " .. estado(novo)
+  end,
+}
+
+local function soltarTeclas()
+  for desc, _ in pairs(teclasAtivas) do
+    g_keyboard.unbindKeyDown(desc)
+  end
+  teclasAtivas = {}
+end
+
+local function prenderTeclas()
+  soltarTeclas()
+  for acao, desc in pairs(cfg.teclas or {}) do
+    local fn = ACOES[acao]
+    -- a mesma combinacao em duas acoes ligaria as duas de uma vez; a primeira
+    -- registrada fica, a segunda e' ignorada
+    if fn and desc ~= "" and not teclasAtivas[desc] then
+      teclasAtivas[desc] = true
+      g_keyboard.bindKeyDown(desc, function()
+        aviso(fn())
+        if atualizarChavesNaTela then atualizarChavesNaTela() end
+        salvar()
+      end)
     end
   end
 end
@@ -933,6 +1031,68 @@ local function vincular()
   ap:setChecked(cfg.tools.antiParalyze)
   ap.onCheckChange = function(_, v) cfg.tools.antiParalyze = v salvar() end
 
+  -- Teclas de atalho
+  local LINHAS_TECLA = {
+    { id = "tGeral",     acao = "geral",     rotulo = tr("Liga/desliga") },
+    { id = "tCura",      acao = "cura",      rotulo = tr("Cura") },
+    { id = "tMagia",     acao = "magia",     rotulo = tr("Magia") },
+    { id = "tRuna",      acao = "runa",      rotulo = tr("Runa") },
+    { id = "tMagiaRuna", acao = "magiaRuna", rotulo = tr("Magia + runa") },
+  }
+
+  for _, def in ipairs(LINHAS_TECLA) do
+    local linha = painel.tools:recursiveGetChildById(def.id)
+    if linha then
+      local bt = linha:getChildById("bt")
+      linha:getChildById("rotulo"):setText(def.rotulo)
+
+      local function mostrar()
+        local d = cfg.teclas[def.acao] or ""
+        bt:setText(d ~= "" and d or tr("sem atalho"))
+      end
+      mostrar()
+
+      -- Captura: o proximo toque vira a combinacao. Esc limpa e sai. Enquanto
+      -- captura, o botao segura o foco do teclado -- por isso onKeyDown devolve
+      -- true, para o toque nao vazar para o jogo (e sair andando, por exemplo).
+      bt.onClick = function()
+        bt:setText(tr("aperte a tecla..."))
+        bt:focus()
+        bt.onKeyDown = function(_, keyCode, mods)
+          local desc = determineKeyComboDesc(keyCode, mods)
+          bt.onKeyDown = nil
+          if desc == "Escape" then
+            cfg.teclas[def.acao] = ""
+          else
+            -- a mesma tecla em duas acoes so' dispararia a primeira; solta a outra
+            for outra, d in pairs(cfg.teclas) do
+              if outra ~= def.acao and d == desc then cfg.teclas[outra] = "" end
+            end
+            cfg.teclas[def.acao] = desc
+          end
+          salvar()
+          prenderTeclas()
+          for _, d2 in ipairs(LINHAS_TECLA) do
+            local l2 = painel.tools:recursiveGetChildById(d2.id)
+            if l2 then
+              local b2, dd = l2:getChildById("bt"), cfg.teclas[d2.acao] or ""
+              b2:setText(dd ~= "" and dd or tr("sem atalho"))
+            end
+          end
+          return true
+        end
+      end
+
+      linha:getChildById("limpar").onClick = function()
+        cfg.teclas[def.acao] = ""
+        bt.onKeyDown = nil
+        mostrar()
+        salvar()
+        prenderTeclas()
+      end
+    end
+  end
+
   -- Caster
   ligarLinhaShooter(painel.caster:recursiveGetChildById("sh1"), cfg.caster.spell[1], 1)
   ligarLinhaShooter(painel.caster:recursiveGetChildById("sh2"), cfg.caster.spell[2], 1)
@@ -992,6 +1152,8 @@ function init()
   if not configValida(cfg) then
     cfg = padroes(); raiz.presets[raiz.atual] = cfg
   end
+  -- presets salvos por versoes anteriores nao tinham chaves/teclas
+  migrarConfig(cfg)
 
   autocasterWindow = g_ui.displayUI("autocaster")
   autocasterWindow:hide()
@@ -1025,6 +1187,14 @@ function init()
   end
   pintar(cfg.ligado)
   lig.onCheckChange = function(_, v) cfg.ligado = v pintar(v) salvar() end
+
+  -- a tecla de atalho mexe no cfg direto; a janela precisa acompanhar quando
+  -- estiver aberta, senao o checkbox mostra o contrario do que esta valendo
+  atualizarChavesNaTela = function()
+    if not autocasterWindow then return end
+    lig:setChecked(cfg.ligado)
+    pintar(cfg.ligado)
+  end
 
   -- ---- presets ----
   ui.combo = autocasterWindow:recursiveGetChildById("comboPreset")
@@ -1081,6 +1251,7 @@ function init()
   end
 
   g_keyboard.bindKeyDown("Ctrl+Shift+A", toggle)
+  prenderTeclas()
 
   -- Cooldown de verdade: o servidor avisa por estes dois eventos (pacotes
   -- 0xA4 e 0xA5). E' o que permite saber que exori max vis tem 30 s, e o que
@@ -1104,6 +1275,7 @@ function terminate()
   if loopEvent then loopEvent:cancel() loopEvent = nil end
   if conexoes then disconnect(g_game, conexoes) conexoes = nil end
   g_keyboard.unbindKeyDown("Ctrl+Shift+A")
+  soltarTeclas()
   if botao then botao:destroy() botao = nil end
   if autocasterWindow then autocasterWindow:destroy() autocasterWindow = nil end
 end
