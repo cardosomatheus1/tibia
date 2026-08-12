@@ -370,33 +370,30 @@ FreeQuestsTable = questTable
 
 -- from Position: (33201, 31762, 1)
 -- to Position: (33356, 31309, 4)
-local function playerFreeQuestStart(playerId, index)
-	local player = Player(playerId)
-	if not player then
-		return
-	end
+--
+-- Aplica TUDO de uma vez, e nao 5 storages a cada 500 ms como era antes.
+-- O gotejamento antigo exigia ~36 s online ininterruptos para percorrer as
+-- 362 entradas: quem entrava e saia rapido ficava com metade dos acessos, e
+-- o pior e' que a falha era silenciosa -- o jogador so' descobria ao esbarrar
+-- numa porta ou num barco que deveria estar liberado (a rota de Yalahar, por
+-- exemplo, e' a entrada ~151, uns 15 s adentro).
+--
+-- Sao 362 escritas em tabela de memoria, custo irrelevante ao lado de tudo o
+-- mais que o login ja faz; nao vale pagar 36 s de fragilidade por elas.
+local function aplicarFreeQuests(player)
+	local aplicados = 0
 
-	for i = 1, 5 do
-		index = index + 1
-		if not questTable[index] then
-			player:sendTextMessage(MESSAGE_LOOK, "Adding free quests completed.")
-			player:setStorageValue(Storage.FreeQuests, stage)
-			return
-		end
-
-		local questData = questTable[index]
-		local currentStorageValue = player:getStorageValue(questData.storage)
-
+	for _, questData in ipairs(questTable) do
 		if not questData.storage then
 			logger.warn("[Freequest System]: error storage for '" .. questData.storageName .. "' is nil for the index")
-		elseif currentStorageValue ~= questData.storageValue then
+		elseif player:getStorageValue(questData.storage) ~= questData.storageValue then
 			player:setStorageValue(questData.storage, questData.storageValue)
-		elseif currentStorageValue == -1 then
-			logger.warn("[Freequest System]: warning Storage '" .. questData.storageName .. "' currently nil for player ID " .. playerId)
+			aplicados = aplicados + 1
 		end
 	end
 
-	addEvent(playerFreeQuestStart, 500, playerId, index)
+	player:setStorageValue(Storage.FreeQuests, stage)
+	return aplicados
 end
 
 local freeQuests = CreatureEvent("FreeQuests")
@@ -406,8 +403,8 @@ function freeQuests.onLogin(player)
 		return true
 	end
 
-	player:sendTextMessage(MESSAGE_LOOK, "Adding free acccess quests to your character.")
-	addEvent(playerFreeQuestStart, 500, player:getId(), 0)
+	aplicarFreeQuests(player)
+	player:sendTextMessage(MESSAGE_LOOK, "Adding free access quests to your character.")
 	player:addOutfit(251, 0)
 	player:addOutfit(252, 0)
 

@@ -270,6 +270,29 @@ if (Test-Path $opcoes) {
     Write-Aviso "data_options.lua nao encontrado - pulando"
 }
 
+# --- 5b. smartWalk -----------------------------------------------------------
+# Andar na diagonal segurando duas direcoes (W+D, seta cima + seta direita).
+# O mehah tem a opcao, mas entrega desligada -- e quem vem do client oficial,
+# onde a diagonal e' o padrao, acha que o personagem "travou". Ligar aqui evita
+# que cada jogador tenha de descobrir sozinho em Options > Controls.
+#
+# A forma no arquivo e' plana ("smartWalk = false,"), diferente do
+# limitVisibleDimension acima, que e' uma tabela com 'value ='. Por isso o
+# regex e' outro -- reaproveitar o de cima nao pegaria nada.
+Write-Passo "Ativando smartWalk (andar na diagonal com duas teclas)"
+if (Test-Path $opcoes) {
+    $txt = Get-Content $opcoes -Raw
+    $novo = [regex]::Replace($txt, '(smartWalk\s*=\s*)false', '${1}true')
+    if ($novo -ne $txt) {
+        Set-Content -Path $opcoes -Value $novo -Encoding UTF8 -NoNewline
+        Write-Ok "smartWalk = true"
+    } else {
+        Write-Aviso "nao achei 'smartWalk = false' - confira data_options.lua"
+    }
+} else {
+    Write-Aviso "data_options.lua nao encontrado - pulando smartWalk"
+}
+
 # No modo de visao cheio (setupViewMode 2), o mehah desliga o limite de range
 # para GM -- "limitedZoom and not isGM()". Como os personagens deste servidor
 # sao GM, a viewport estica pela largura da janela widescreen, passa dos 18
